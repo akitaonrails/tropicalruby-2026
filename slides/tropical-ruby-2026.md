@@ -5,7 +5,7 @@ paginate: true
 html: true
 title: Tropical Ruby 2026 - Agile Vibe Coding
 author: Fabio Akita
-description: Keynote draft about agile vibe coding, AI agents, engineering, and the post-bubble software market.
+description: Tightened keynote draft about agile vibe coding, AI agents, engineering, and the post-bubble software market.
 ---
 
 <!-- _class: title -->
@@ -34,52 +34,39 @@ description: Keynote draft about agile vibe coding, AI agents, engineering, and 
 ![bg right:42% opacity:.18](https://img.youtube.com/vi/V7oUDL7E1g4/hqdefault.jpg)
 <div class="eyebrow">The Long Arc</div>
 
-# I was already arguing
-# against the bubble
-# before LLMs.
+# The AI panic
+# arrived on top of
+# an old bubble.
 
-<div class="lead">The AI panic is not a new story. It arrived on top of an already broken market.</div>
+<div class="lead">I was arguing against the fake-programmer economy before coding agents were good enough to matter.</div>
 
 ---
 
 <!-- _class: center -->
-<div class="eyebrow">The Forecast</div>
+<div class="eyebrow">2019 → 2026</div>
 
-# 2019 → 2026
+# Same thesis. New tools.
 
 <div class="timeline">
   <div class="card"><strong>2019</strong><span class="mini">startup winter warning</span></div>
   <div class="card"><strong>2020</strong><span class="mini">programming is not easy</span></div>
-  <div class="card"><strong>2022</strong><span class="mini">startup bubble popped</span></div>
+  <div class="card"><strong>2022</strong><span class="mini">bubble popped</span></div>
   <div class="card"><strong>2025</strong><span class="mini">LLMs are loot boxes</span></div>
-  <div class="card"><strong>2026</strong><span class="mini">agents became useful enough</span></div>
+  <div class="card"><strong>2026</strong><span class="mini">agents became useful</span></div>
 </div>
 
 ---
 
 <!-- _class: center -->
-# The bubble already cracked
+# The old lie
+
+## “Become a software engineer  
+## in 2 months”
 
 <div class="columns">
-  <div class="card">
-    <div class="big">Late 2022</div>
-    mass layoffs started before AI coding was mature
-  </div>
-  <div class="card">
-    <div class="big">ChatGPT</div>
-    arrived as the last nail, not the original cause
-  </div>
+  <div class="card"><strong>Late 2022</strong><br />mass layoffs started before AI coding matured</div>
+  <div class="card"><strong>ChatGPT</strong><br />was the accelerator, not the original cause</div>
 </div>
-
----
-
-<!-- _class: center -->
-<div class="eyebrow">The Old Lie</div>
-
-# “Become a software engineer
-# in 2 months”
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Bootcamps sold a salary fantasy. LLMs are now killing the leftover illusion.</div>
 
 ---
 
@@ -87,43 +74,23 @@ description: Keynote draft about agile vibe coding, AI agents, engineering, and 
 ![bg cover opacity:.16](https://i.ytimg.com/vi/bokGdQOHGrw/hqdefault.jpg)
 <div class="eyebrow">The Art Analogy</div>
 
-# The fear is the same
+# Same fear.
 
-## “AI will replace artists.”
+## “AI will replace artists.”  
 ## “AI will replace programmers.”
 
 ---
 
-<!-- _class: kicker -->
-<div class="eyebrow">Case Study</div>
-
+<!-- _class: center -->
 # AsamiArts
 
-<div class="lead">A channel about an artist accused of faking “live drawing” with tracing and AI-assisted deception still fooled more than 100k viewers.</div>
-
-<div class="caption">Referenced video: “How a New AI Art Method Managed to Trick Over 100k People - The Unprecedented Case of AsamiArts”</div>
-
----
-
-<!-- _class: center -->
-# Fraud looks smooth
-
 <div class="columns-3">
-  <div class="card"><strong>No visible struggle</strong><div class="mini">clean final lines immediately</div></div>
-  <div class="card"><strong>Hidden scaffold</strong><div class="mini">tracing can be disguised as live process</div></div>
-  <div class="card"><strong>Excuses on revision</strong><div class="mini">cannot adapt consistently to new requests</div></div>
+  <div class="card"><strong>Looks smooth</strong><div class="mini">no visible struggle, no visible iteration</div></div>
+  <div class="card"><strong>Can fool outsiders</strong><div class="mini">performance hides the scaffold</div></div>
+  <div class="card"><strong>Breaks on revision</strong><div class="mini">inconsistency exposes the lack of foundation</div></div>
 </div>
 
----
-
-<!-- _class: center -->
-# Real craft looks messy
-
-<div class="columns-3">
-  <div class="card"><strong>Iteration</strong><div class="mini">mistakes, undo, redo</div></div>
-  <div class="card"><strong>Consistency</strong><div class="mini">style survives change requests</div></div>
-  <div class="card"><strong>Foundation</strong><div class="mini">composition, color, references, taste</div></div>
-</div>
+<div class="caption">If you later want literal frames from the video, replace this slide manually.</div>
 
 ---
 
@@ -131,9 +98,10 @@ description: Keynote draft about agile vibe coding, AI agents, engineering, and 
 ![bg right:45% opacity:.18](https://img.youtube.com/vi/Yl-hlwhj2B0/hqdefault.jpg)
 <div class="eyebrow">Same Rule In Code</div>
 
-# AI exposes
-# whether there was
-# real craft underneath.
+# Real craft
+# looks messy.
+
+## AI amplifies what was already there.
 
 ---
 
@@ -152,30 +120,12 @@ description: Keynote draft about agile vibe coding, AI agents, engineering, and 
 ---
 
 <!-- _class: center -->
-# Even Anthropic ships
-# spaghetti under pressure
-
-<blockquote>
-This is not junior spaghetti. This is staff-engineer spaghetti.
-</blockquote>
-
-<div class="caption">Popular post-leak characterization echoed in the March 31, 2026 coverage</div>
-
----
-
-<!-- _class: center -->
-# And people reverse engineered
-# it in hours
+# The lesson was not
+# “wow, magic”
 
 <div class="columns">
-  <div class="card">
-    <strong>free-code</strong><br />
-    bypasses and strips guardrails
-  </div>
-  <div class="card">
-    <strong>Claw-Code / reimplementations</strong><br />
-    behavior copied by clean-room style rewrites
-  </div>
+  <div class="card"><strong>Even Anthropic ships spaghetti</strong><br />pressure creates tactical code</div>
+  <div class="card"><strong>People copied behavior fast</strong><br />free-code and clean-room style rewrites appeared immediately</div>
 </div>
 
 ---
@@ -194,9 +144,9 @@ This is not junior spaghetti. This is staff-engineer spaghetti.
 # LLMs are loot boxes
 
 <div class="columns-3">
-  <div class="card"><strong>Probabilistic</strong><div class="mini">never 100% reliable</div></div>
+  <div class="card"><strong>Probabilistic</strong><div class="mini">never fully reliable</div></div>
   <div class="card"><strong>Context-bound</strong><div class="mini">quality depends on what you feed and check</div></div>
-  <div class="card"><strong>Token-hungry</strong><div class="mini">the whole ecosystem wants longer loops</div></div>
+  <div class="card"><strong>Token-hungry</strong><div class="mini">the ecosystem rewards longer loops</div></div>
 </div>
 
 ---
@@ -205,20 +155,9 @@ This is not junior spaghetti. This is staff-engineer spaghetti.
 # One-shot prompt
 # is for demos
 
-## Iteration is for production
-
----
-
-<!-- _class: center -->
-<div class="eyebrow">Post-Deploy Reality</div>
-
-# “Done” is a lie
-
-<div class="stats">
-  <div class="card"><strong>125</strong><span class="mini">post-production commits</span></div>
-  <div class="card"><strong>56</strong><span class="mini">extra commits in M.Akita Chronicles alone</span></div>
-  <div class="card"><strong>4,057</strong><span class="mini">tests across 4 production projects</span></div>
-  <div class="card"><strong>0</strong><span class="mini">magic prompts</span></div>
+<div class="columns">
+  <div class="card"><strong>Production means iteration</strong><br />bugs, deploy, feedback, refactoring</div>
+  <div class="card"><strong>“Done” is a lie</strong><br />125 post-production commits across 4 projects</div>
 </div>
 
 ---
@@ -233,18 +172,7 @@ This is not junior spaghetti. This is staff-engineer spaghetti.
   <div class="card"><strong>Nov 24, 2025</strong><br />Claude Opus 4.5 released</div>
 </div>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">That is when agentic coding crossed from annoying toy to useful daily leverage.</div>
-
----
-
-<!-- _class: center -->
-# Why not before?
-
-<div class="columns-3">
-  <div class="card"><strong>Better tool use</strong><div class="mini">shell, patching, search, web</div></div>
-  <div class="card"><strong>Faster correction loops</strong><div class="mini">run, fail, inspect, retry</div></div>
-  <div class="card"><strong>Lower friction</strong><div class="mini">enough competence to keep momentum</div></div>
-</div>
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">That is when agentic coding crossed from annoying toy to daily leverage.</div>
 
 ---
 
@@ -281,19 +209,14 @@ This is not junior spaghetti. This is staff-engineer spaghetti.
 ## not to bootcamps  
 ## not to the model
 
----
-
-<!-- _class: center -->
-# Learn at the edge of chaos
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Small experiments. Fast feedback. Controlled risk. Repeated correction.</div>
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Work at the edge of chaos: small experiments, fast feedback, repeated correction.</div>
 
 ---
 
 <!-- _class: center -->
 # February and March 2026
 
-## I stopped talking
+## I stopped talking  
 ## and started marathoning
 
 ---
@@ -320,23 +243,11 @@ This is not junior spaghetti. This is staff-engineer spaghetti.
 # What I actually got
 
 <div class="stats">
-  <div class="card"><strong>5x to 10x</strong><span class="mini">my normal delivery velocity</span></div>
+  <div class="card"><strong>5x to 10x</strong><span class="mini">velocity</span></div>
   <div class="card"><strong>Momentum</strong><span class="mini">fewer blockers, less procrastination</span></div>
   <div class="card"><strong>Breadth</strong><span class="mini">full stack, tooling, deploy, docs</span></div>
-  <div class="card"><strong>Sustainability</strong><span class="mini">tests, CI, refactoring, production use</span></div>
+  <div class="card"><strong>Trust</strong><span class="mini">tests, CI, refactoring, production use</span></div>
 </div>
-
----
-
-<!-- _class: center -->
-# The secret is boring
-
-## tests  
-## refactoring  
-## CI  
-## deploy  
-## prompt tuning  
-## production feedback
 
 ---
 
@@ -358,13 +269,7 @@ This is not junior spaghetti. This is staff-engineer spaghetti.
   <div class="card"><strong>The agent brings</strong><br />typing speed, search stamina, execution throughput</div>
 </div>
 
----
-
-<!-- _class: center -->
-# AI is a mirror
-
-## Great seniors get leverage  
-## bad coders get faster failure
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">AI is a mirror: great seniors get leverage, bad coders get faster failure.</div>
 
 ---
 
@@ -374,9 +279,9 @@ This is not junior spaghetti. This is staff-engineer spaghetti.
 # Frontier closed models lead
 
 <div class="columns-3">
-  <div class="card"><strong>Anthropic</strong><div class="mini">Claude + Claude Code remain top tier for coding</div></div>
+  <div class="card"><strong>Anthropic</strong><div class="mini">still top tier for coding agents</div></div>
   <div class="card"><strong>OpenAI</strong><div class="mini">GPT-5.1 is a strong flagship for coding and agentic tasks</div></div>
-  <div class="card"><strong>Others</strong><div class="mini">GLM, MiniMax, Kimi follow; open source still trails</div></div>
+  <div class="card"><strong>Followers</strong><div class="mini">GLM, MiniMax, Kimi; open source still trails</div></div>
 </div>
 
 ---
@@ -386,30 +291,19 @@ This is not junior spaghetti. This is staff-engineer spaghetti.
 
 ## but not yet frontier
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Qwen-class models and others can be practical. They are not giving you Opus 4.5 or GPT-5.1 behavior.</div>
-
----
-
-<!-- _class: center -->
-<div class="eyebrow">Claude Pricing</div>
-
-# Cheap at human scale
-
 <div class="columns">
-  <div class="card"><strong>Pro</strong><br />$20 / month</div>
-  <div class="card"><strong>Max</strong><br />$100 or $200 / month</div>
+  <div class="card"><strong>Claude pricing</strong><br />Pro $20, Max $100 or $200</div>
+  <div class="card"><strong>My view</strong><br />at senior leverage, that is still cheap</div>
 </div>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">At senior-developer leverage, that pricing looks absurdly favorable.</div>
-
 ---
 
 <!-- _class: center -->
-<div class="eyebrow">The Current Market</div>
+<div class="eyebrow">The Correction</div>
 
 # Bad programmers will leave
 
-## and the industry will get healthier
+## and the industry gets healthier
 
 ---
 
@@ -418,8 +312,8 @@ This is not junior spaghetti. This is staff-engineer spaghetti.
 
 <div class="columns-3">
   <div class="card"><strong>They inherit the mess</strong><div class="mini">AI-slop startups need cleanup</div></div>
-  <div class="card"><strong>They learn on real systems</strong><div class="mini">just like previous generations did</div></div>
-  <div class="card"><strong>They still need mentors</strong><div class="mini">because agents do not teach judgment</div></div>
+  <div class="card"><strong>They learn on real systems</strong><div class="mini">same as older generations did</div></div>
+  <div class="card"><strong>They still need mentors</strong><div class="mini">agents do not teach judgment</div></div>
 </div>
 
 ---
@@ -430,15 +324,7 @@ This is not junior spaghetti. This is staff-engineer spaghetti.
 ## teach engineering with AI  
 ## before the codebase rots
 
----
-
-<!-- _class: center -->
-<div class="eyebrow">April 1, 2026</div>
-
-# Oracle reportedly started
-# another mass layoff wave
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">The correction is still happening. The market is not going back to 2021 fantasy hiring.</div>
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">And the correction is still happening now. April 1, 2026 reports put Oracle in another major layoff wave.</div>
 
 ---
 
@@ -459,4 +345,3 @@ This is not junior spaghetti. This is staff-engineer spaghetti.
 # who can engineer.
 
 ## Foundations. Discipline. Iteration. Taste.
-
