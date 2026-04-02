@@ -54,6 +54,9 @@ def emu(value: float, full: int) -> Emu:
 def find_marked_slides() -> dict[str, int]:
     text = SLIDES_MD.read_text()
     slides = text.split("\n---\n")
+    # Marp front matter lives before the first thematic break and is not a real slide.
+    if slides and slides[0].lstrip().startswith("---\nmarp:"):
+        slides = slides[1:]
     markers: dict[str, int] = {}
     for index, slide in enumerate(slides, 1):
         matches = re.findall(r"<!--\s*pptx-video:\s*([a-z0-9-]+)\s*-->", slide)
@@ -98,7 +101,7 @@ def main(argv: list[str]) -> int:
         slide_no = markers[key]
         slide = prs.slides[slide_no - 1]
         place = spec.placement
-        slide.shapes.add_movie(
+        movie = slide.shapes.add_movie(
             str(spec.movie),
             emu(place.left, slide_width),
             emu(place.top, slide_height),
@@ -107,10 +110,26 @@ def main(argv: list[str]) -> int:
             poster_frame_image=str(spec.poster),
             mime_type=spec.mime_type,
         )
+        enable_autoplay_and_loop(slide, movie.shape_id)
 
     prs.save(str(output_pptx))
     print(f"Embedded {len(VIDEO_SPECS)} videos into {output_pptx}")
     return 0
+
+
+def enable_autoplay_and_loop(slide, shape_id: int) -> None:
+    """Flip the embedded movie timing from click-to-play to autoplay+loop."""
+    root = slide.part._element
+    videos = root.xpath(f".//p:video[p:cMediaNode/p:tgtEl/p:spTgt[@spid='{shape_id}']]")
+    if not videos:
+        raise SystemExit(f"Unable to find timing node for video shape {shape_id}")
+
+    video = videos[0]
+    ctn = video.xpath("./p:cMediaNode/p:cTn")[0]
+    ctn.set("repeatCount", "indefinite")
+
+    cond = video.xpath("./p:cMediaNode/p:cTn/p:stCondLst/p:cond")[0]
+    cond.set("delay", "0")
 
 
 if __name__ == "__main__":

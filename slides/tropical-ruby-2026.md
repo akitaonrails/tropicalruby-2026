@@ -174,10 +174,19 @@ Tempo sugerido: ~0:45
       <li>não aparece undo, hesitação, ajuste de proporção</li>
       <li>parece “mão firme”, mas parece firme demais</li>
     </ul>
-    <div class="caption">No PPTX com vídeo: clique para reproduzir.</div>
+    <div class="caption">No HTML e no PPTX com vídeo: reprodução automática em loop.</div>
   </div>
   <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/asamiarts tracing.jpg" alt="Frame do vídeo de tracing" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
+    <video
+      src="../assets/asamiarts tracing.mp4"
+      poster="../assets/asamiarts tracing.jpg"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
+      style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);background:#000;"
+    ></video>
   </div>
 </div>
 
@@ -206,7 +215,16 @@ Tempo sugerido: ~0:55
     <div class="caption">Inferência a partir do vídeo: isso parece truque de gravação, não processo honesto.</div>
   </div>
   <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/tracing, hidden layer vertical.jpg" alt="Frame vertical mostrando a camada escondida" style="height:430px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
+    <video
+      src="../assets/tracing, hidden layer vertical.mp4"
+      poster="../assets/tracing, hidden layer vertical.jpg"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
+      style="height:430px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);background:#000;"
+    ></video>
   </div>
 </div>
 
@@ -1060,4 +1078,50 @@ Tempo sugerido: ~0:20
 - Está tudo aí na tela.
 - É onde eu continuo publicando bastidor real, projeto real, código real e o que deu certo ou errado em produção.
 - Quer acompanhar essa linha de raciocínio semana a semana? Vai em themakitachronicles.com e assina.
+-->
+---
+
+<!-- _class: center tone-sand -->
+<div class="eyebrow">Bastidor</div>
+
+# Sim, este deck inteiro
+# foi feito com IA
+
+<div class="columns-3">
+  <div class="card"><strong>Pesquisa e estrutura</strong><div class="mini">fontes, ordem dos argumentos, cortes e rearranjos</div></div>
+  <div class="card"><strong>Texto sincronizado</strong><div class="mini">slides, roteiro e presenter notes mantidos juntos</div></div>
+  <div class="card"><strong>Mídia e acabamento</strong><div class="mini">frames, crops, vídeos, builds e pós-processo do PPTX</div></div>
+</div>
+
+<div class="lead" style="max-width:980px;margin:22px auto 0 auto;text-align:center;">
+Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo no PPTX e iteração curta até o resultado fechar.
+</div>
+
+<!--
+Tempo sugerido: ~0:30
+
+- E sim, já que o tema da palestra pede isso, este deck inteiro também foi feito com IA.
+- Pesquisa, estrutura, roteiro, notas, crops, builds e automação saíram do mesmo fluxo.
+- Agente no terminal, Marp para o deck e script para pós-processar o PPTX com vídeo.
+- Não é discurso abstrato. Eu usei isso pra fazer a própria palestra.
+-->
+---
+
+<!-- _class: center end -->
+<div style="display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:100%;">
+  <h1 style="font-size:3.9em;line-height:0.9;margin:90px 0 70px 0;letter-spacing:0.02em;">OBRIGADO</h1>
+  <div class="card" style="margin-top:0;width:88%;padding:22px 28px;background:rgba(251,247,239,0.92);">
+    <div style="font-size:0.58em;color:var(--muted);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;">
+      <span>codeminer42.com</span>
+      <span>themakitachronicles.com</span>
+      <span>github.com/akitaonrails/tropicalruby-2026</span>
+    </div>
+  </div>
+</div>
+
+<!--
+Tempo sugerido: ~0:10
+
+- Obrigado.
+- Os links estão aí embaixo.
 -->

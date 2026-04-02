@@ -70,6 +70,24 @@ Rules:
 - full rebuild: `bin/build-slides`
 - script preview: `sed -n '1,260p' script/full-script.md`
 
+## Tutorial: build and run
+
+If you are starting from a cold repo state, the safe flow is:
+
+1. preview the deck in the browser with `bin/serve-slides`
+2. open `http://localhost:8080/slides/tropical-ruby-2026.md`
+3. if `8080` is busy, run `PORT=8081 bin/serve-slides` and open that port instead
+4. preview the script separately with `sed -n '1,260p' script/full-script.md`
+5. when you want final artifacts, run `bin/build-slides`
+6. check all outputs in `build/`:
+   - `tropical-ruby-2026.html`
+   - `tropical-ruby-2026.pdf`
+   - `tropical-ruby-2026.pptx`
+   - `tropical-ruby-2026.with-video.pptx`
+
+If something looks right in HTML but wrong in PDF, trust the PDF problem and simplify the layout.
+If a PPTX video slide changed, always inspect the `.with-video.pptx`, not only the raw `.pptx`.
+
 ## Final check before committing
 
 Before closing a meaningful edit:

@@ -67,3 +67,111 @@ And now all the bad programmers will leave the industry. So only the real engine
 Whenever citing my old videos (try to do that), illustrate the slides with the youtube video thumbnails. Whenever citing websites, add screenshots of those pages in the slides. You can make many slides as the intention is that I will go through them quickly, as highlights to the talk points. When presenting my frank* projects, use the images in the readme pages to illustrate. Make bold texts, short texts, easy to read, zen slides.
 
 Also write down a full script of the presentation that matches those slides.
+
+---
+
+Important additions after the iterative process:
+
+- the whole thing must be in pt-BR, slides and script. use my voice from the posts, not corporate voice, not translator voice, not conference organizer voice. it must sound like me talking on stage.
+- whenever changing or adding text, run a humanizer pass. I don't want llm-sounding symmetry, fake elegance, or polished corporate filler.
+- keep slides, full script and presenter notes synchronized all the time. presenter notes must be short, bullet-like, stage cues, not a second manuscript.
+- presenter notes must stay shorter than the script and more focused. if slides move, script and notes must move together.
+
+Narratively I want this to work as a proper 3-act story:
+- first act: the panic is misdiagnosed
+- second act: what actually changed in late 2025 / early 2026 and the proof from my marathon
+- third act: what this means for engineers, juniors, seniors and the software market
+
+In practice:
+- the intro must open with the thesis directly
+- then connect to my older warnings from previous years
+- then use the vtuber / art fraud tangent and the claude code leak as examples of fake-looking process versus real work
+- the practical proof of the marathon results must land before the explanation of the mechanism
+- only after the audience buys the proof do we explain why it worked: tools, thinking, loops, xp, tdd, ci, refactoring, judgment
+
+The asamiarts section needs to be more complete than what I first described:
+- show an actual tracing clip so the audience sees what "too clean" looks like
+- show the hidden layer clip so I can explain the likely green background / filtered layer trick
+- show the inconsistent style evolution across a short amount of time
+- show the hallucination example with the gun / barrel on the wrong side
+- show the style stealing / lora example
+- briefly explain what a lora is: a lightweight fine-tuning / adapter on top of a base model to push it toward a specific style or artist
+- the point is not gossip, it is to show how people who don't understand the craft get fooled by fake process
+
+The claude code / agents section also needs explicit timeline context:
+- briefly explain who started the tool support / agentic evolution
+- mention the important milestones that make 2025 the pivotal year
+- explain that the big turning point was not that the models became perfect coders
+- the big turning point was model + tool support + execution loop + feedback loop + cli tools becoming good enough together
+- connect this to claude code, codex, opencode, mcp, responses api, structured tool support, computer use, etc when relevant
+- make it clear that by december 2025 serious experimentation started accelerating, and that is why january 2026 triggered me to do the same
+
+It is important to briefly explain the current state of llms:
+- they still bajulate the user
+- they still make mistakes confidently
+- they still hallucinate
+- they are still probabilistic loot boxes, never deterministic like a compiler
+- but with tools and execution they became useful enough
+
+Also explain briefly what "thinking" / reasoning means in this context:
+- it is not magic, it is extra inference budget to consider intermediate steps before acting
+- it is useful for tool calling because the model needs to decide if it should use a tool, which tool, in what order, with what arguments, and whether the result was enough or it needs another step
+- this is why better thinking + better tool support matters for agents
+
+On the engineering proof side, the metrics section must be stricter:
+- count all the projects mentioned in the beginning, not just whatever appears in the thumbnail grid
+- calculate total lines of code
+- calculate total test lines of code
+- total commits
+- estimated active hours
+- document the counting methodology so the slide does not get questioned easily
+- make clear when some repo enters code volume but not commit count because it was not in a closed git repo
+
+Also normalize the calendar honestly:
+- make explicit that my marathon was 45 days, but almost 16h every day, 7 days a week
+- estimate the equivalent for a normal senior working business hours only, no more than 8h a day, 5 days a week
+- then estimate the same senior without AI, using the 5x to 10x slower rough range
+- separate days corridos from dias uteis correctly
+- this should probably be its own slide, not hidden inside another one
+
+The xp / agile vibe coding part needs to be stronger:
+- explain a bit more why xp matters specifically with agents
+- tdd is not decoration, it is the guard rail when the model is wrong
+- ci is not hygiene theater, it is how you catch drift and regressions immediately
+- refactoring is not cleanup later, it is what keeps the code base and the agent productive over time
+- reinforce the comparison between FrankMD and The M.Akita Chronicles: same developer, same agent, different process, very different sustainability and velocity
+
+On ecosystem / market positioning:
+- explain that frontier closed models are still ahead in the full coding-agent workflow
+- open source is useful, but still behind in the complete tool loop
+- mention the clean room reactions after the claude code leak, such as free-code / openclaw style reactions
+- explain that trivial software got absurdly cheap
+- add current claude pricing context, because I still think 20 / 100 / 200 USD is cheap for the leverage
+
+Add a near-end slide about speculation on the AI economy:
+- recent data center investment
+- energy consumption growth
+- local grid bottlenecks / energy shortage risks
+- the fact that training and inference compete for finite compute, capital and electricity
+- the s-curve of giant raw model improvements approaching more diminishing returns
+- my speculation is that frontier labs will have to spend more effort on efficiency, inference capacity, serving, tool support and productization, not only on giant new training runs
+- mention the pressure that an anthropic ipo in 2026 would add to this logic, but phrase it as speculation, not as a confirmed fact
+
+Visually:
+- use thumbnails from my old youtube videos when citing old arguments
+- use screenshots from websites / articles when relevant
+- use local extracted frames and clips when useful
+- don't overdo visuals, but don't leave long runs of boring white slides either
+- if a visual is vertical, compose the slide around that instead of forcing a bad crop
+- if marp pptx cannot embed video directly, automate a post-process step to inject mp4s into the final pptx
+
+Delivery / closing:
+- after the engineering conclusion, I want a shameless ad slide for The M.Akita Chronicles
+- then I want a slide exposing that the whole slide deck itself was made with AI, including highlights of the tools and processes used
+- then the final slide must be a big OBRIGADO in the center, with urls at the bottom for codeminer42.com, themakitachronicles.com and the github repo of the talk
+
+Finally:
+- validate html, pdf and pptx, not just one output
+- pdf may break layouts that look fine in html, so always test
+- commit only after each meaningful validated milestone
+- document the workflow and constraints in readme / claude.md so future iterations don't drift
