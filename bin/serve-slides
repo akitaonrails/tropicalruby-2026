@@ -3,5 +3,17 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
+port_in_use() {
+  ss -ltnH "sport = :$1" | grep -q .
+}
+
+if [[ -z "${PORT:-}" ]]; then
+  PORT=8080
+  while port_in_use "$PORT"; do
+    PORT=$((PORT + 1))
+  done
+fi
+
 cd "$ROOT"
-exec "$ROOT/bin/marp" --server .
+echo "Serving slides at http://localhost:${PORT}/slides/tropical-ruby-2026.md"
+exec env PORT="$PORT" "$ROOT/bin/marp" --server .

@@ -1,119 +1,158 @@
-# Tropical Ruby 2026 - Full Script
+# Tropical Ruby 2026 - Roteiro Completo
 
-This script follows the tightened deck in `slides/tropical-ruby-2026.md`.
+Este roteiro acompanha a versão em PT-BR do deck em `slides/tropical-ruby-2026.md`.
 
 ## Slide 1 - Agile Vibe Coding
+Tempo sugerido: ~0:45
 
-I want to start with the thesis, because everything else in this talk exists to support it. AI is replacing people in software, yes. But not in the simplistic way panic merchants describe. What AI replaces first is fake productivity, fake seniority, and the weak engineering that survived only because the market tolerated waste. Engineering itself is not going away. Engineering matters more now.
+Eu quero abrir com a tese logo de cara, porque todo o resto da palestra existe só pra sustentar isso. Sim, IA está substituindo gente em software. Mas não do jeito simplista que o pânico de internet gosta de vender. O que a IA substitui primeiro é produtividade fake, senioridade fake e a engenharia vagabunda que sobreviveu anos porque o mercado topava desperdiçar dinheiro. Engenharia de verdade não está indo embora. Pelo contrário. Agora ela vale mais.
 
 ## Slide 2 - Fabio Akita
+Tempo sugerido: ~0:40
 
-For people who only know me from one corner of the internet: I co-founded Codeminer 42 and now sit on its board. I founded and organized RubyConf Brasil until 2016. I spent years on YouTube with Akitando, and I also crossed into a more mainstream audience through shows like Flow and Inteligência Ltda. I say this only to establish that I have spent a long time watching how markets, narratives, and technology waves distort people’s expectations.
+Pra quem só me conhece por um pedaço da internet: fui cofundador da Codeminer 42 e hoje estou no conselho. Fundei e organizei a RubyConf Brasil até 2016. Passei anos no YouTube com o Akitando. E também furei a bolha tech indo parar em programas como Flow e Inteligência Ltda. Estou falando isso só pra situar uma coisa: eu já vi hype demais, mercado demais e narrativa furada demais pra cair em fantasia fácil.
 
-## Slide 3 - The AI panic arrived on top of an old bubble
+## Slide 3 - O pânico da IA caiu em cima de uma bolha velha
+Tempo sugerido: ~0:45
 
-I do not want anyone thinking I only started saying this after AI became fashionable. I was already arguing that the software market had become inflated, distorted, and full of false promises before coding agents became useful. AI did not invent the weakness. It only exposed it faster.
+Eu não comecei a falar disso quando IA ficou fashion. Eu já vinha batendo na bolha da programação, na economia do programador ruim, nas promessas falsas de curso e bootcamp, muito antes de agente de código ficar minimamente útil. A IA não inventou a fraqueza. Ela só acelerou a exposição.
 
-## Slide 4 - Same thesis. New tools.
+## Slide 4 - Mesma tese. Ferramenta nova.
+Tempo sugerido: ~0:50
 
-There is a straight line here. In 2019 I was warning about startup winter. In 2020 I repeated that programming is not easy. In 2022 the bubble popped for real. In 2025 I argued that LLMs are loot boxes, meaning probabilistic systems with hard limits. In late 2025 and early 2026, agents finally became competent enough to matter in day-to-day work. The tools changed. The core argument did not.
+Tem uma linha reta aqui. Em 2019 eu já estava avisando que a bolha ia azedar. Em 2020 eu repetia que programação não é fácil. Em 2022 a bolha estourou de vez. Em 2025 eu já dizia que LLM é loot box, isto é, máquina probabilística com limite real. E no fim de 2025 pra 2026 os agentes finalmente chegaram num ponto em que começaram a servir pra trabalho diário. A ferramenta mudou. A tese não.
 
-## Slide 5 - The old lie
+## Slide 5 - A mentira antiga
+Tempo sugerido: ~0:55
 
-The old lie was simple: become a software engineer in a few weeks, get a huge salary, and enjoy easy money forever. That was always nonsense. A bootcamp can teach a tool. It cannot compress years of engineering judgment into a few months. The market temporarily paid as if it could. Reality corrected that fantasy. The bubble started cracking in late 2022, before AI coding was mature enough to take the blame.
+A mentira antiga era muito simples: faça um cursinho rápido, vire engenheiro de software, ganhe salário alto e viva no modo easy. Isso sempre foi bullshit. Bootcamp consegue ensinar ferramenta. Não consegue comprimir anos de julgamento de engenharia em poucos meses. O mercado pagou como se isso fosse verdade por um tempo. A realidade corrigiu a fantasia. E isso começou a acontecer no fim de 2022, antes da IA conseguir programar direito.
 
-## Slide 6 - Same fear
+## Slide 6 - Mesmo medo
+Tempo sugerido: ~0:35
 
-To explain the current panic, I want a detour into another world I follow as a hobby: VTuber and art drama. The emotional pattern is identical. In the art world, people say AI will replace artists. In programming, people say AI will replace programmers. In both cases, the loudest panic usually comes from a shallow understanding of craft.
+Pra explicar o pânico atual, eu quero fazer uma tangente rápida com outro universo que eu acompanho por hobby: drama de VTuber e drama de arte. O padrão emocional é igual. No mundo da arte dizem que IA vai substituir artista. No nosso dizem que IA vai substituir programador. Em ambos os casos, o desespero maior vem de quem tem uma definição rasa de ofício.
 
-## Slide 7 - AsamiArts
+## Slide 7 - Caso AsamiArts
+Tempo sugerido: ~1:10
 
-The specific case is the video about AsamiArts. The gossip itself is not the important part. The important part is the deception pattern. Surface-level observers can be fooled by output that looks smooth and convincing even when the process behind it is fake. If there is hidden tracing, hidden scaffolding, and staged performance, people who only look at the final output get tricked.
+O caso da AsamiArts é útil não pela fofoca em si, mas pelo mecanismo de enganação. O leigo olha um resultado limpo, sem hesitação, sem erro visível, sem processo aparente, e acha que aquilo prova domínio. Só que justamente essa lisura excessiva pode ser encenação. Andaime escondido. Trace disfarçado. Truque visual. Quem não conhece o processo é enganado pela performance.
 
-## Slide 8 - Real craft looks messy
+## Slide 8 - Trabalho de verdade parece bagunçado
+Tempo sugerido: ~1:00
 
-That maps directly to software. Real craft looks messy. Real artists revise, hesitate, adapt, and correct. Real engineers do the same. The point is not elegance at first output. The point is whether the work survives revision, change requests, new constraints, and contact with reality. AI does not change this. It amplifies it.
+E é aqui que volta pro código. Trabalho de verdade parece bagunçado. Artista de verdade erra, corrige, revisa, ajusta composição, se adapta ao pedido do cliente. Engenheiro de verdade faz igual. O ponto não é parecer elegante na primeira resposta. O ponto é sobreviver a revisão, mudança de escopo, bug, deploy, usuário real e produção. IA não muda isso. Só amplia.
 
-## Slide 9 - Claude Code leaked
+## Slide 9 - Claude Code vazou
+Tempo sugerido: ~0:45
 
-Then came one of the funniest confirmations of this thesis: the March 31, 2026 Claude Code leak. The official Anthropic coding tool exposed a huge source map, and suddenly everybody could inspect the internals of one of the most influential coding-agent products on the market.
+Daí veio uma das confirmações mais engraçadas possíveis dessa tese: o vazamento do Claude Code em 31 de março de 2026. A CLI oficial da Anthropic deixou escapar um mapa do código enorme e, de repente, todo mundo conseguiu olhar as tripas de uma das ferramentas de agente de código mais importantes do mercado.
 
-## Slide 10 - The lesson was not “wow, magic”
+## Slide 10 - A lição não foi “uau, magia”
+Tempo sugerido: ~1:00
 
-And what did people find? Not divine perfection. Not magic. They found a large, revenue-generating, pressure-shaped production codebase with complexity, tactical compromises, and what the internet immediately called staff-engineer spaghetti. Then people started reverse engineering pieces and reimplementing behavior almost immediately. That is the point: once the mystique disappears, what remains is engineering.
+E o que apareceu lá dentro? Não apareceu perfeição divina. Não apareceu magia. Apareceu uma base gigante, pressionada por entrega, cheia de decisões táticas, chave de recurso, remendo, complexidade operacional e o que a internet inteira passou a chamar de espaguete de sênior. E o mais importante: começaram a copiar comportamento e reimplementar coisa quase imediatamente. Isso é o ponto. Quando a mística some, sobra engenharia.
 
-## Slide 11 - AI did not remove engineering
+## Slide 11 - IA não eliminou engenharia
+Tempo sugerido: ~0:35
 
-So my central point is simple. AI did not remove the need for engineering. It removed excuses. It exposed the gap between people who know how systems survive in production and people who only know how to produce plausible-looking output.
+Então meu ponto central é esse: IA não eliminou a necessidade de engenharia. Ela eliminou desculpa. Ela escancarou a diferença entre quem sabe fazer sistema sobreviver em produção e quem só sabe produzir resposta plausível.
 
-## Slide 12 - LLMs are loot boxes
+## Slide 12 - LLMs são loot boxes
+Tempo sugerido: ~0:55
 
-I called LLMs loot boxes because they are probabilistic. They are not deterministic compilers. They do not guarantee correctness. You can improve your odds with context, tools, evaluation loops, and better prompts, but you are still operating on probabilities. That is exactly why foundation matters. Somebody still has to judge the result.
+Eu chamei LLMs de loot boxes porque elas são probabilísticas. Não são compiladores determinísticos. Não existe garantia de correção. Você melhora as chances com contexto, ferramenta, ciclo de avaliação e prompt melhor? Sim. Mas continua jogando com probabilidade. É justamente por isso que fundamento continua importando. Ainda precisa existir alguém capaz de julgar o resultado.
 
-## Slide 13 - One-shot prompt is for demos
+## Slide 13 - Prompt único é pra demo
+Tempo sugerido: ~0:55
 
-The one-shot prompt fantasy is intellectually lazy. It assumes you can describe everything relevant up front. Real software does not work like that. Production reveals things you did not know mattered. APIs behave badly. Infrastructure fails in annoying ways. User behavior mutates requirements. That is why one-shot prompt is for demos and iteration is for production.
+A fantasia do prompt único é preguiçosa. Ela assume que dá pra prever e especificar tudo de antemão. Software real não funciona assim. Produção revela o que você não sabia que importava. A API vem torta. A infra falha do jeito errado. O usuário faz coisa que ninguém previu. O requisito muda. Por isso prompt único serve pra demo. Produção exige iteração.
 
-## Slide 14 - Late 2025 mattered
+## Slide 14 - Fim de 2025 foi diferente
+Tempo sugerido: ~0:50
 
-Now, to be fair, something really did change. OpenAI released GPT-5.1 for developers on November 13, 2025. Anthropic released Claude Opus 4.5 on November 24, 2025. That period matters because the models finally became good enough in tool-using, agentic workflows to stop being mostly annoying and start being consistently useful.
+Agora, dito isso, algo realmente mudou. OpenAI lançou GPT-5.1 pra desenvolvedores em 13 de novembro de 2025. Anthropic lançou Claude Opus 4.5 em 24 de novembro de 2025. Esse período importa porque foi quando os modelos ficaram bons o bastante no ciclo com agentes pra deixar de ser só chatice e começar a virar alavanca diária.
 
-## Slide 15 - The agent loop
+## Slide 15 - Ciclo do agente
+Tempo sugerido: ~0:35
 
-And notice what the useful loop actually is: plan, search, edit, run, check, repeat. That is not mystical. It is engineering feedback compression. The agent is fast at operating the loop. It is not automatically wise about which loop matters.
+E reparem como é o ciclo útil de verdade: planeja, busca, edita, roda, checa, repete. Não tem nada de místico nisso. É compressão de retorno de engenharia. O agente é rápido em operar esse ciclo. Ele não é, por definição, sábio o bastante pra decidir sozinho qual ciclo importa.
 
-## Slide 16 - Foundations first
+## Slide 16 - Fundamento primeiro
+Tempo sugerido: ~0:50
 
-This is why my old channel themes still apply. Don’t outsource your decisions. Learn how to learn. Understand that programming is not easy. Those lessons age well because they were never tied to one framework or one hype cycle. They are about how adults build durable judgment.
+É por isso que o Akita antigo continua valendo. Não terceirize sua decisão. Aprenda a aprender. Entenda que programação não é fácil. Essas ideias envelhecem bem porque não dependem de framework, nem de hype, nem de geração de modelo. Elas falam de formação mental.
 
-## Slide 17 - Don’t outsource judgment
+## Slide 17 - Não terceirize seu julgamento
+Tempo sugerido: ~0:45
 
-The hardest thing to teach beginners is that judgment is not a downloadable asset. Not from influencers, not from bootcamps, and not from a model. The right mental model is still controlled experimentation at the edge of chaos: small experiments, fast correction, repeated learning.
+O mais difícil de ensinar pra iniciante é isso: julgamento não é coisa que você baixa pronta. Não vem de influencer, não vem de bootcamp, não vem de modelo. O modelo mental correto continua sendo experimento controlado na beira do caos: passo pequeno, erro cedo, retorno rápido, correção contínua.
 
-## Slide 18 - February and March 2026
+## Slide 18 - Fevereiro e março de 2026
+Tempo sugerido: ~0:25
 
-So instead of staying in the abstract, I spent February and March actually marathoning with these tools. Not toy prompts. Not fake SaaS demos. Real projects, real deploys, real tests, real bugs, real post-production.
+Então eu parei de falar disso em abstrato e fui maratonar. Não com prompt de brinquedo. Não com videozinho fake de SaaS pronto em dez minutos. Projeto real. Deploy real. Teste real. Bug real. Pós-produção real.
 
-## Slide 19 - From zero to real software
+## Slide 19 - Do zero pra software real
+Tempo sugerido: ~0:35
 
-This is the fast project wall. FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI, and others. The point is not to explain each repo in detail. The point is to show volume plus variety across desktop, Rails, Rust, media pipelines, and production software.
+Este slide é só a parede de projetos. FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI e outros. O objetivo não é explicar repositório por repositório. O objetivo é mostrar volume com variedade: desktop, Rails, Rust, ferramentas, mídia, deploy, software em uso real.
 
-## Slide 20 - What I actually got
+## Slide 20 - Números que pesam
+Tempo sugerido: ~1:05
 
-From my own usage, the realistic headline is 5x to 10x velocity. Not because the models write perfect code. They absolutely do not. The gain came because they helped me get through the friction points that usually fragment focus: boilerplate, search, repetitive tests, refactors, command execution, and quick experimentation. The trust only came because the work still had tests, CI, refactoring, and production use behind it.
+E aqui é onde eu coloco peso na afirmação de velocidade. Se eu agrego o conjunto inteiro de projetos citado no começo da palestra, dá 723.935 linhas de código, 199.250 linhas de teste, 1.116 commits e cerca de 194 horas ativas estimadas. E agora essa conta está com o mesmo critério nos dois lados: só arquivo de código próprio, separando produção de teste pelo path, e excluindo documentação, fixtures, snapshots e árvore importada de terceiros. Então não é número inflado por README, arquivo auxiliar ou biblioteca de terceiro escondida. As horas continuam conservadoras: vieram de sessões agrupadas por histórico de commit, com corte de pausa grande, sem inventar madrugada mágica, sem somar hora de dormir, sem fingir que eu virei um robô. Inclusive tem projeto aí que entra no volume de código mas nem entra na conta de commits porque nem repositório Git fechado ele tinha. Mesmo assim, o volume entregue em poucas semanas é alto demais pra chamar de brincadeira.
 
-## Slide 21 - Agile Vibe Coding
+## Slide 21 - O que eu ganhei de verdade
+Tempo sugerido: ~1:00
 
-This is why I call it Agile Vibe Coding, but I also insist on demystifying the term. The real structure underneath is old. It is Extreme Programming. Pair programming changed because my pair is now a machine. The core loop is still small releases, constant feedback, tests, refactoring, and attention on working software.
+Da minha experiência prática, o resumo honesto é de 5x a 10x de velocidade. Não porque o modelo escreve código perfeito. Não escreve. O ganho veio porque ele atravessa aquele atrito chato que normalmente quebra foco: código repetitivo, busca, refatoração repetitiva, teste repetitivo, execução de comando, tentativa rápida. Agora, confiança só veio porque o resto continuou existindo: teste, integração contínua, refatoração, produção.
 
-## Slide 22 - Pair programming changed
+## Slide 22 - 45 dias de maratona não são 45 dias normais
+Tempo sugerido: ~0:55
 
-The cleanest division of labor I found is this: I bring judgment, direction, constraints, and taste. The agent brings typing speed, search stamina, and execution throughput. If I force the agent to be a dumb typist, it gets worse. If I let it decide product and architecture alone, it also gets worse. The leverage is in the split. That is why AI is a mirror: great seniors get amplified, bad coders get amplified too, just in the wrong direction.
+Aqui eu preciso fazer a normalização honesta, porque senão parece truque de palco. Isso foi entregue em 45 dias corridos, sim. Mas foi em ritmo de maratona: quase 16 horas por dia, 7 dias por semana. Se você converte isso para um sênior trabalhando num ritmo sustentável, no máximo 8 horas por dia e só em dias úteis, essa mesma entrega com IA vira algo como 126 dias corridos, perto de 4 meses e 1 semana. E se você aplicar em cima disso o meu ganho percebido de 5x a 10x, então sem IA o mesmo volume iria para algo como 630 a 1.260 dias corridos. Isso dá mais ou menos de 21 a 42 meses, ou algo entre 1 ano e 9 meses e 3 anos e meio. É conta linear, então não é profecia exata. Mas como ordem de grandeza, mostra bem o tamanho da alavanca.
 
-## Slide 23 - Frontier closed models lead
+## Slide 23 - Agile Vibe Coding
+Tempo sugerido: ~0:45
 
-On the model landscape as of April 1, 2026, my practical view is simple. Anthropic and OpenAI remain the two frontier platforms that matter most for serious coding work. Others like GLM, MiniMax, and Kimi are relevant followers. Open-source models are useful, but they are still not matching the best closed models in the full agentic workflow.
+É por isso que eu uso o termo Agile Vibe Coding, mas também faço questão de desmistificar. A estrutura de verdade por baixo é velha. É Extreme Programming. O pareamento mudou porque agora meu par é uma máquina. Mas o núcleo continua igual: entrega pequena, retorno constante, teste, refatoração e atenção obsessiva em software funcionando.
 
-## Slide 24 - Open source is useful
+## Slide 24 - O pareamento mudou
+Tempo sugerido: ~1:00
 
-That does not mean open source is worthless. It means expectations need calibration. You can do real things with open models, but if you want the best current coding-agent behavior, the frontier closed models are still ahead. And on pricing, Claude Pro at 20 dollars a month, and Max at 100 or 200, is still cheap compared to senior-developer leverage.
+O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto. O agente traz velocidade de execução, busca e fôlego operacional. Se eu reduzo o agente a digitador burro, piora. Se eu entrego produto e arquitetura pra ele sozinho, piora. A alavancagem está justamente nessa divisão. É por isso que IA é espelho: sênior bom ganha potência; programador ruim ganha potência pra fazer merda mais rápido.
 
-## Slide 25 - The correction
+## Slide 25 - Modelos fechados ainda lideram
+Tempo sugerido: ~0:55
 
-This is the part where I stop pretending to be diplomatic. I am actually happy the bad-programmer bubble is dying. The industry spent years substituting engineering discipline with cheap labor and accumulating technical debt as if it were free. AI is forcing a correction. Good.
+No ecossistema de modelos em 1 de abril de 2026, minha leitura prática é simples. Anthropic e OpenAI continuam sendo as plataformas de ponta que mais importam pra código sério. Existem seguidores relevantes, como GLM, MiniMax e Kimi. Open source é útil, mas ainda não empatou no fluxo completo com agentes.
 
-## Slide 26 - Juniors are not dead
+## Slide 26 - Open source é útil
+Tempo sugerido: ~0:45
 
-Juniors are worried, but I do not think the path disappeared. I think it changed shape. The world is now filling up with AI-slop systems rushed by founders and teams that skipped discipline. Somebody will need to clean that up. That is how many of us learned in the first place: on real, messy systems.
+Isso não significa que código aberto seja inútil. Significa que expectativa precisa ser calibrada. Dá pra fazer coisa real? Dá. Mas se você quer o melhor comportamento atual de agente de código, os modelos fechados de ponta ainda estão na frente. E, olhando preço, Claude Pro a 20 dólares e Max a 100 ou 200 ainda me parecem baratos perto da alavancagem que um sênior extrai disso.
 
-## Slide 27 - Seniors have a new duty
+## Slide 27 - A correção
+Tempo sugerido: ~0:35
 
-But this only works if seniors do their job. Seniors are not immortal. They move, burn out, retire, and change companies. If they do not train replacements, the organization becomes fragile. So the new responsibility is not only using AI well. It is teaching engineering with AI well. And the market is still correcting now, with April 1, 2026 reports describing another major Oracle layoff wave.
+Aqui é a parte em que eu paro de fingir diplomacia. Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo. A indústria passou anos trocando engenharia por braço barato e acumulando dívida técnica como se fosse de graça. A IA está forçando uma correção. Ótimo.
 
-## Slide 28 - AI will not transform a bad coder into an engineer
+## Slide 28 - Júnior não morreu
+Tempo sugerido: ~0:55
 
-So the closing argument is simple. AI will not transform a bad coder into an engineer. It will help a bad coder make bigger messes faster. It will help a real engineer move faster through the mess while keeping software alive.
+Júnior está preocupado, mas eu não acho que o caminho acabou. Acho que ele mudou de forma. O mundo está enchendo de sistema feito nas coxas, cheio de lixo de IA. Alguém vai precisar limpar isso. E muita gente da minha geração aprendeu exatamente assim: no projeto real, bagunçado, cheio de cicatriz.
 
-## Slide 29 - The survivors will be the ones who can engineer
+## Slide 29 - Sênior tem nova obrigação
+Tempo sugerido: ~0:55
 
-That is my conclusion for Tropical Ruby 2026. The survivors are not the people with the best prompt tricks. The survivors are the people with foundations, discipline, iteration habits, and taste. If you have that, AI is a force multiplier. If you do not, AI is a faster path to exposure.
+Mas isso só funciona se sênior fizer o trabalho dele. Sênior não é imortal. Vai mudar de empresa, vai cansar, vai se aposentar. Se não formar substituto, a organização apodrece. Então a nova obrigação não é só usar IA bem. É ensinar engenharia com IA bem. E a correção ainda está acontecendo agora, com mais uma onda pesada de layoff na Oracle reportada em 1 de abril de 2026.
+
+## Slide 30 - IA não transforma programador ruim em engenheiro
+Tempo sugerido: ~0:35
+
+Então o fechamento é simples. IA não transforma programador ruim em engenheiro. Ela ajuda programador ruim a fazer estrago maior mais rápido. E ajuda engenheiro de verdade a atravessar esse caos mais rápido sem deixar o software morrer.
+
+## Slide 31 - Vai sobreviver quem souber fazer engenharia
+Tempo sugerido: ~0:40
+
+Essa é minha conclusão pro Tropical Ruby 2026. Não vai sobreviver quem decorou truquezinho de prompt. Vai sobreviver quem tem fundamento, disciplina, iteração e gosto. Se você tem isso, IA é multiplicador. Se não tem, IA é só uma forma mais veloz de ser exposto.

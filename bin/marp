@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-exec npx -p node@22 -p @marp-team/marp-cli marp "$@"
+exec npx --yes -p node@22 -p @marp-team/marp-cli marp "$@"

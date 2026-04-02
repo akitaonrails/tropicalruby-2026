@@ -5,7 +5,7 @@ paginate: true
 html: true
 title: Tropical Ruby 2026 - Agile Vibe Coding
 author: Fabio Akita
-description: Tightened keynote draft about agile vibe coding, AI agents, engineering, and the post-bubble software market.
+description: Keynote em pt-BR sobre agile vibe coding, agentes de IA, engenharia e o pós-bolha da programação.
 ---
 
 <!-- _class: title -->
@@ -13,8 +13,9 @@ description: Tightened keynote draft about agile vibe coding, AI agents, enginee
 <div class="eyebrow">Tropical Ruby 2026 Keynote</div>
 
 # Agile Vibe Coding
-## AI replaces bad programmers.  
-## Not engineering.
+## IA substitui
+## programador ruim.
+## Não engenharia.
 
 ---
 
@@ -22,326 +23,371 @@ description: Tightened keynote draft about agile vibe coding, AI agents, enginee
 # Fabio Akita
 
 <div class="stats">
-  <div class="card"><strong>Codeminer 42</strong><span class="mini">co-founder, now board</span></div>
-  <div class="card"><strong>RubyConf Brasil</strong><span class="mini">founder and organizer until 2016</span></div>
-  <div class="card"><strong>@akitando</strong><span class="mini">500k+ followers</span></div>
-  <div class="card"><strong>Flow + Inteligência Ltda</strong><span class="mini">mainstream reach beyond tech</span></div>
+  <div class="card"><strong>Codeminer 42</strong><span class="mini">cofundador, hoje no conselho</span></div>
+  <div class="card"><strong>RubyConf Brasil</strong><span class="mini">fundador e organizador até 2016</span></div>
+  <div class="card"><strong>@akitando</strong><span class="mini">500 mil+ seguidores</span></div>
+  <div class="card"><strong>Flow + Inteligência Ltda</strong><span class="mini">alcance além da bolha tech</span></div>
 </div>
 
 ---
 
 <!-- _class: statement -->
 ![bg right:42% opacity:.18](https://img.youtube.com/vi/V7oUDL7E1g4/hqdefault.jpg)
-<div class="eyebrow">The Long Arc</div>
+<div class="eyebrow">Arco Longo</div>
 
-# The AI panic
-# arrived on top of
-# an old bubble.
+# O pânico da IA
+# caiu em cima
+# de uma bolha velha.
 
-<div class="lead">I was arguing against the fake-programmer economy before coding agents were good enough to matter.</div>
+<div class="lead">Eu já vinha batendo na economia do programador fake antes de agentes de código prestarem pra alguma coisa.</div>
 
 ---
 
 <!-- _class: center -->
 <div class="eyebrow">2019 → 2026</div>
 
-# Same thesis. New tools.
+# Mesma tese.
+# Ferramenta nova.
 
 <div class="timeline">
-  <div class="card"><strong>2019</strong><span class="mini">startup winter warning</span></div>
-  <div class="card"><strong>2020</strong><span class="mini">programming is not easy</span></div>
-  <div class="card"><strong>2022</strong><span class="mini">bubble popped</span></div>
-  <div class="card"><strong>2025</strong><span class="mini">LLMs are loot boxes</span></div>
-  <div class="card"><strong>2026</strong><span class="mini">agents became useful</span></div>
+  <div class="card"><strong>2019</strong><span class="mini">o inverno estava chegando</span></div>
+  <div class="card"><strong>2020</strong><span class="mini">programação não é fácil</span></div>
+  <div class="card"><strong>2022</strong><span class="mini">a bolha estourou</span></div>
+  <div class="card"><strong>2025</strong><span class="mini">LLMs são loot boxes</span></div>
+  <div class="card"><strong>2026</strong><span class="mini">agentes ficaram úteis</span></div>
 </div>
 
 ---
 
 <!-- _class: center -->
-# The old lie
+# A mentira antiga
 
-## “Become a software engineer  
-## in 2 months”
+## “vire engenheiro
+## de software
+## em 2 meses”
 
 <div class="columns">
-  <div class="card"><strong>Late 2022</strong><br />mass layoffs started before AI coding matured</div>
-  <div class="card"><strong>ChatGPT</strong><br />was the accelerator, not the original cause</div>
+  <div class="card"><strong>Fim de 2022</strong><br />layoffs vieram antes da IA saber programar direito</div>
+  <div class="card"><strong>ChatGPT</strong><br />foi acelerador, não causa original</div>
 </div>
 
 ---
 
 <!-- _class: center -->
 ![bg cover opacity:.16](https://i.ytimg.com/vi/bokGdQOHGrw/hqdefault.jpg)
-<div class="eyebrow">The Art Analogy</div>
+<div class="eyebrow">A Analogia</div>
 
-# Same fear.
+# Mesmo medo.
 
-## “AI will replace artists.”  
-## “AI will replace programmers.”
+## “IA vai substituir artista.”  
+## “IA vai substituir programador.”
 
 ---
 
 <!-- _class: center -->
-# AsamiArts
+# Caso AsamiArts
 
 <div class="columns-3">
-  <div class="card"><strong>Looks smooth</strong><div class="mini">no visible struggle, no visible iteration</div></div>
-  <div class="card"><strong>Can fool outsiders</strong><div class="mini">performance hides the scaffold</div></div>
-  <div class="card"><strong>Breaks on revision</strong><div class="mini">inconsistency exposes the lack of foundation</div></div>
+  <div class="card"><strong>Parece liso</strong><div class="mini">sem erro, sem hesitação, sem processo visível</div></div>
+  <div class="card"><strong>Engana leigo</strong><div class="mini">a performance esconde o andaime</div></div>
+  <div class="card"><strong>Quebra na revisão</strong><div class="mini">inconsistência denuncia falta de base</div></div>
 </div>
 
-<div class="caption">If you later want literal frames from the video, replace this slide manually.</div>
+<div class="caption">Se depois você quiser trocar por frames literais do vídeo, este é o slide certo pra substituir.</div>
 
 ---
 
 <!-- _class: statement -->
 ![bg right:45% opacity:.18](https://img.youtube.com/vi/Yl-hlwhj2B0/hqdefault.jpg)
-<div class="eyebrow">Same Rule In Code</div>
+<div class="eyebrow">Mesma Regra No Código</div>
 
-# Real craft
-# looks messy.
+# Trabalho de verdade
+# parece bagunçado.
 
-## AI amplifies what was already there.
+## IA só amplifica o que já estava lá.
 
 ---
 
 <!-- _class: center -->
-<div class="eyebrow">March 31, 2026</div>
+<div class="eyebrow">31 de março de 2026</div>
 
-# Claude Code leaked
+# Claude Code vazou
 
 <div class="stats">
-  <div class="card"><strong>512k</strong><span class="mini">lines of TypeScript</span></div>
-  <div class="card"><strong>1,900</strong><span class="mini">files</span></div>
-  <div class="card"><strong>59.8 MB</strong><span class="mini">source map leak</span></div>
-  <div class="card"><strong>6.5/10</strong><span class="mini">“staff-engineer spaghetti” meme</span></div>
+  <div class="card"><strong>512 mil</strong><span class="mini">linhas de TypeScript</span></div>
+  <div class="card"><strong>1.900</strong><span class="mini">arquivos</span></div>
+  <div class="card"><strong>59,8 MB</strong><span class="mini">de mapa do código exposto</span></div>
+  <div class="card"><strong>6,5/10</strong><span class="mini">o “espaguete de sênior”</span></div>
 </div>
 
 ---
 
 <!-- _class: center -->
-# The lesson was not
-# “wow, magic”
+# A lição não foi
+# “uau, magia”
 
 <div class="columns">
-  <div class="card"><strong>Even Anthropic ships spaghetti</strong><br />pressure creates tactical code</div>
-  <div class="card"><strong>People copied behavior fast</strong><br />free-code and clean-room style rewrites appeared immediately</div>
+  <div class="card"><strong>Nem a Anthropic escapa</strong><br />pressão de entrega também gera código tático</div>
+  <div class="card"><strong>E copiaram rápido</strong><br />free-code e reimplementações apareceram quase na hora</div>
 </div>
 
 ---
 
 <!-- _class: statement -->
-<div class="eyebrow">My Point</div>
+<div class="eyebrow">Meu Ponto</div>
 
-# AI did not remove
-# engineering.
+# IA não eliminou
+# engenharia.
 
-## It removed excuses.
+## Eliminou desculpa.
 
 ---
 
 <!-- _class: center -->
-# LLMs are loot boxes
+# LLMs são loot boxes
 
 <div class="columns-3">
-  <div class="card"><strong>Probabilistic</strong><div class="mini">never fully reliable</div></div>
-  <div class="card"><strong>Context-bound</strong><div class="mini">quality depends on what you feed and check</div></div>
-  <div class="card"><strong>Token-hungry</strong><div class="mini">the ecosystem rewards longer loops</div></div>
+  <div class="card"><strong>Probabilísticas</strong><div class="mini">nunca 100% confiáveis</div></div>
+  <div class="card"><strong>Dependem de contexto</strong><div class="mini">qualidade depende do que você dá e do que você checa</div></div>
+  <div class="card"><strong>Gastam loop</strong><div class="mini">o ecossistema inteiro te incentiva a gastar mais tokens</div></div>
 </div>
 
 ---
 
 <!-- _class: center -->
-# One-shot prompt
-# is for demos
+# Prompt único
+# é pra demo
 
 <div class="columns">
-  <div class="card"><strong>Production means iteration</strong><br />bugs, deploy, feedback, refactoring</div>
-  <div class="card"><strong>“Done” is a lie</strong><br />125 post-production commits across 4 projects</div>
+  <div class="card"><strong>Produção é iteração</strong><br />bug, deploy, retorno, refatoração, ajuste de prompt</div>
+  <div class="card"><strong>“Pronto” é mentira</strong><br />125 commits de pós-produção em 4 projetos</div>
 </div>
 
 ---
 
 <!-- _class: center -->
-<div class="eyebrow">The Turning Point</div>
+<div class="eyebrow">Virada</div>
 
-# Late 2025 mattered
+# Fim de 2025
+# foi diferente
 
 <div class="columns">
-  <div class="card"><strong>Nov 13, 2025</strong><br />GPT-5.1 released for developers</div>
-  <div class="card"><strong>Nov 24, 2025</strong><br />Claude Opus 4.5 released</div>
+  <div class="card"><strong>13 nov 2025</strong><br />GPT-5.1 saiu para desenvolvedores</div>
+  <div class="card"><strong>24 nov 2025</strong><br />Claude Opus 4.5 saiu</div>
 </div>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">That is when agentic coding crossed from annoying toy to daily leverage.</div>
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Foi quando codar com agentes parou de ser só brinquedo irritante e virou alavanca diária.</div>
 
 ---
 
 <!-- _class: statement -->
-<div class="eyebrow">The Agent Loop</div>
+<div class="eyebrow">Ciclo do Agente</div>
 
-# Plan.
-# Search.
-# Edit.
-# Run.
-# Check.
-# Repeat.
+# Planeja.
+# Busca.
+# Edita.
+# Roda.
+# Checa.
+# Repete.
 
 ---
 
 <!-- _class: center -->
-<div class="eyebrow">Old Akita Still Wins</div>
+<div class="eyebrow">Akita Antigo Continua Certo</div>
 
-# Foundations first
+# Fundamento primeiro
 
 <div class="thumb-grid">
-  <img src="https://img.youtube.com/vi/D3L8IOncLkg/hqdefault.jpg" alt="Nao terceirize suas decisoes" />
+  <img src="https://img.youtube.com/vi/D3L8IOncLkg/hqdefault.jpg" alt="Não terceirize suas decisões" />
   <img src="https://img.youtube.com/vi/oUPaJxk6TZ0/hqdefault.jpg" alt="Aprendendo a aprender" />
-  <img src="https://img.youtube.com/vi/V7oUDL7E1g4/hqdefault.jpg" alt="Programacao nao e facil" />
+  <img src="https://img.youtube.com/vi/V7oUDL7E1g4/hqdefault.jpg" alt="Programação não é fácil" />
   <img src="https://img.youtube.com/vi/am-FQ86mKV0/hqdefault.jpg" alt="Aprendizado na beira do caos" />
 </div>
 
 ---
 
 <!-- _class: center -->
-# Don’t outsource judgment
+# Não terceirize
+# seu julgamento
 
-## not to gurus  
-## not to bootcamps  
-## not to the model
+## nem pra guru  
+## nem pra bootcamp  
+## nem pro modelo
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Work at the edge of chaos: small experiments, fast feedback, repeated correction.</div>
-
----
-
-<!-- _class: center -->
-# February and March 2026
-
-## I stopped talking  
-## and started marathoning
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A lógica continua a mesma: experimento pequeno, feedback rápido, correção contínua.</div>
 
 ---
 
 <!-- _class: center -->
-<div class="eyebrow">Project Wall</div>
+# Fevereiro e março
+# de 2026
 
-# From zero to real software
+## eu parei de falar  
+## e fui maratonar
+
+---
+
+<!-- _class: center -->
+<div class="eyebrow">Painel de Projetos</div>
+
+# Do zero
+# pra software real
 
 <div class="thumb-grid">
   <img src="https://new-uploads-akitaonrails.s3.us-east-2.amazonaws.com/frankmd/2026/02/screenshot-2026-02-01_15-16-29.jpg" alt="FrankMD" />
-  <img src="https://raw.githubusercontent.com/akitaonrails/frank_mega/main/docs/upload_screen.png" alt="FrankMega" />
-  <img src="https://raw.githubusercontent.com/akitaonrails/frank_sherlock/main/docs/frank_sherlock.png" alt="Frank Sherlock" />
-  <img src="https://raw.githubusercontent.com/akitaonrails/frank_yomik/main/docs/sample_translate.png" alt="Frank Yomik" />
-  <img src="https://raw.githubusercontent.com/akitaonrails/frank_fbi/main/docs/suspect-email.png" alt="Frank FBI" />
-  <img src="https://raw.githubusercontent.com/akitaonrails/frank_yomik/main/docs/sample_furigana.png" alt="Frank Yomik Furigana" />
-  <img src="https://new-uploads-akitaonrails.s3.us-east-2.amazonaws.com/frankmd/2026/02/screenshot-2026-02-01_14-22-28.jpg" alt="FrankMD AI" />
+  <img src="https://raw.githubusercontent.com/akitaonrails/FrankMega/master/docs/upload_screen.png" alt="FrankMega" />
+  <img src="https://raw.githubusercontent.com/akitaonrails/FrankSherlock/master/docs/frank_sherlock.png" alt="Frank Sherlock" />
+  <img src="https://raw.githubusercontent.com/akitaonrails/FrankYomik/master/docs/sample_translate.png" alt="Frank Yomik" />
+  <img src="https://raw.githubusercontent.com/akitaonrails/frank_fbi/master/docs/suspect-email.png" alt="Frank FBI" />
+  <img src="https://raw.githubusercontent.com/akitaonrails/FrankYomik/master/docs/sample_furigana.png" alt="Frank Yomik Furigana" />
+  <img src="https://new-uploads-akitaonrails.s3.us-east-2.amazonaws.com/frankmd/2026/02/screenshot-2026-02-01_14-22-28.jpg" alt="FrankMD IA" />
   <img src="https://new-uploads-akitaonrails.s3.us-east-2.amazonaws.com/frankmd/2026/02/screenshot-2026-02-01_14-39-53.jpg" alt="FrankMD Hugo" />
 </div>
 
 ---
 
 <!-- _class: center -->
-# What I actually got
+<div class="eyebrow">No Conjunto Completo Dos Projetos Citados</div>
+
+# Números
+# que pesam
 
 <div class="stats">
-  <div class="card"><strong>5x to 10x</strong><span class="mini">velocity</span></div>
-  <div class="card"><strong>Momentum</strong><span class="mini">fewer blockers, less procrastination</span></div>
-  <div class="card"><strong>Breadth</strong><span class="mini">full stack, tooling, deploy, docs</span></div>
-  <div class="card"><strong>Trust</strong><span class="mini">tests, CI, refactoring, production use</span></div>
+  <div class="card"><strong>723.935</strong><span class="mini">linhas de código</span></div>
+  <div class="card"><strong>199.250</strong><span class="mini">linhas de teste</span></div>
+  <div class="card"><strong>1.116</strong><span class="mini">commits</span></div>
+  <div class="card"><strong>~194 h</strong><span class="mini">horas ativas estimadas</span></div>
 </div>
+
+<div class="caption">Agregado dos projetos citados no começo da palestra, com o mesmo critério em produção e teste: só código próprio, excluindo documentação, fixtures, snapshots e árvores importadas de terceiros.</div>
+
+---
+
+<!-- _class: center -->
+# O que eu ganhei
+# de verdade
+
+<div class="stats">
+  <div class="card"><strong>5x a 10x</strong><span class="mini">de velocidade</span></div>
+  <div class="card"><strong>Mais tração</strong><span class="mini">menos bloqueio, menos procrastinação</span></div>
+  <div class="card"><strong>Mais alcance</strong><span class="mini">stack inteira, ferramentas, deploy, documentação</span></div>
+  <div class="card"><strong>Mais confiança</strong><span class="mini">testes, integração contínua, refatoração, produção</span></div>
+</div>
+
+---
+
+<!-- _class: center -->
+<div class="eyebrow">Normalizando o Ritmo</div>
+
+# 45 dias de maratona
+# não são 45 dias normais
+
+<div class="stats">
+  <div class="card"><strong>45 dias corridos</strong><span class="mini">quase 16h por dia, 7 dias por semana</span></div>
+  <div class="card"><strong>~126 dias corridos</strong><span class="mini">algo perto de 4 meses e 1 semana</span></div>
+  <div class="card"><strong>~630 a 1.260 dias corridos</strong><span class="mini">o mesmo sênior sem IA</span></div>
+  <div class="card"><strong>~21 a 42 meses</strong><span class="mini">ou cerca de 1,8 a 3,5 anos</span></div>
+</div>
+
+<div class="caption">Estimativa linear em calendário real de trabalho: 8h por dia, só em dias úteis.</div>
 
 ---
 
 <!-- _class: center -->
 ![bg cover opacity:.10](https://new-uploads-akitaonrails.s3.us-east-2.amazonaws.com/frankmd/2026/02/agile-lifecycle-development-process-diagram-vector-31188796.jpg)
-<div class="eyebrow">The Real Name</div>
+<div class="eyebrow">Nome Verdadeiro</div>
 
 # Agile Vibe Coding
 
-## is just XP with a machine pair
+## é XP com pareamento
+## programming de máquina
 
 ---
 
 <!-- _class: center -->
-# Pair programming changed
+# O pareamento mudou
 
 <div class="columns">
-  <div class="card"><strong>I bring</strong><br />judgment, direction, constraints, taste</div>
-  <div class="card"><strong>The agent brings</strong><br />typing speed, search stamina, execution throughput</div>
+  <div class="card"><strong>Eu trago</strong><br />direção, julgamento, contexto, gosto</div>
+  <div class="card"><strong>O agente traz</strong><br />velocidade de execução, busca, fôlego operacional</div>
 </div>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">AI is a mirror: great seniors get leverage, bad coders get faster failure.</div>
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">IA é espelho: sênior bom ganha alavancagem, programador ruim ganha velocidade pra errar.</div>
 
 ---
 
 <!-- _class: center -->
-<div class="eyebrow">Model Reality, April 1, 2026</div>
+<div class="eyebrow">Estado dos Modelos, 1 de abril de 2026</div>
 
-# Frontier closed models lead
+# Modelos fechados
+# ainda lideram
 
 <div class="columns-3">
-  <div class="card"><strong>Anthropic</strong><div class="mini">still top tier for coding agents</div></div>
-  <div class="card"><strong>OpenAI</strong><div class="mini">GPT-5.1 is a strong flagship for coding and agentic tasks</div></div>
-  <div class="card"><strong>Followers</strong><div class="mini">GLM, MiniMax, Kimi; open source still trails</div></div>
+  <div class="card"><strong>Anthropic</strong><div class="mini">continua no topo pra agentes de código</div></div>
+  <div class="card"><strong>OpenAI</strong><div class="mini">GPT-5.1 virou modelo forte pra código e agentes</div></div>
+  <div class="card"><strong>Seguidores</strong><div class="mini">GLM, MiniMax, Kimi; open source ainda corre atrás</div></div>
 </div>
 
 ---
 
 <!-- _class: center -->
-# Open source is useful
+# Open source é útil
 
-## but not yet frontier
+## mas ainda não é ponta
 
 <div class="columns">
-  <div class="card"><strong>Claude pricing</strong><br />Pro $20, Max $100 or $200</div>
-  <div class="card"><strong>My view</strong><br />at senior leverage, that is still cheap</div>
+  <div class="card"><strong>Preço do Claude</strong><br />Pro 20 dólares, Max 100 ou 200</div>
+  <div class="card"><strong>Minha leitura</strong><br />pra leverage de sênior, continua barato</div>
 </div>
 
 ---
 
 <!-- _class: center -->
-<div class="eyebrow">The Correction</div>
+<div class="eyebrow">A Correção</div>
 
-# Bad programmers will leave
+# Programador ruim
+# vai sair
 
-## and the industry gets healthier
+## e isso melhora a indústria
 
 ---
 
 <!-- _class: center -->
-# Juniors are not dead
+# Júnior não morreu
 
 <div class="columns-3">
-  <div class="card"><strong>They inherit the mess</strong><div class="mini">AI-slop startups need cleanup</div></div>
-  <div class="card"><strong>They learn on real systems</strong><div class="mini">same as older generations did</div></div>
-  <div class="card"><strong>They still need mentors</strong><div class="mini">agents do not teach judgment</div></div>
+  <div class="card"><strong>Vai herdar a sujeira</strong><div class="mini">startup cheia de lixo de IA vai precisar de limpeza</div></div>
+  <div class="card"><strong>Vai aprender no caos</strong><div class="mini">igual gerações anteriores aprenderam</div></div>
+  <div class="card"><strong>Ainda precisa de sênior</strong><div class="mini">agente nenhum ensina julgamento</div></div>
 </div>
 
 ---
 
 <!-- _class: center -->
-# Seniors have a new duty
+# Sênior tem
+# nova obrigação
 
-## teach engineering with AI  
-## before the codebase rots
+## ensinar engenharia com IA  
+## antes do código apodrecer
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">And the correction is still happening now. April 1, 2026 reports put Oracle in another major layoff wave.</div>
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">E a correção continua agora. Em 1 de abril de 2026, a Oracle entrou em mais uma rodada grande de layoffs.</div>
 
 ---
 
 <!-- _class: statement -->
-<div class="eyebrow">Conclusion</div>
+<div class="eyebrow">Conclusão</div>
 
-# AI will not transform
-# a bad coder
-# into an engineer.
+# IA não transforma
+# coder ruim
+# em engenheiro.
 
 ---
 
 <!-- _class: end -->
-<div class="eyebrow">Conclusion</div>
+<div class="eyebrow">Conclusão</div>
 
-# The survivors
-# will be the ones
-# who can engineer.
+# Vai sobreviver
+# quem souber
+# fazer engenharia.
 
-## Foundations. Discipline. Iteration. Taste.
+## Fundamento. Disciplina. Iteração. Gosto.

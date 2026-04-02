@@ -16,15 +16,15 @@
 }
 
 section {
-  font-family: "Avenir Next", "Futura", "Hiragino Sans", "Yu Gothic", sans-serif;
-  font-size: 30px;
-  line-height: 1.25;
+  font-family: "Aptos", "IBM Plex Sans", "Inter", "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 28px;
+  line-height: 1.18;
   color: var(--ink);
   background:
     radial-gradient(circle at 85% 12%, rgba(179, 58, 47, 0.10), transparent 20%),
     radial-gradient(circle at 12% 88%, rgba(81, 104, 77, 0.10), transparent 24%),
     linear-gradient(180deg, var(--paper), var(--bg));
-  padding: 72px 88px;
+  padding: 64px 82px;
 }
 
 section::after {
@@ -35,22 +35,25 @@ section::after {
 h1,
 h2,
 h3 {
-  font-family: "Avenir Next Condensed", "Bebas Neue", "Impact", sans-serif;
-  letter-spacing: 0.04em;
+  font-family: "Aptos", "IBM Plex Sans", "Inter", "Avenir Next", "Segoe UI", sans-serif;
+  letter-spacing: 0.01em;
   margin: 0;
   color: var(--ink);
+  line-height: 1.03;
 }
 
 h1 {
-  font-size: 2.1em;
+  font-size: 1.92em;
+  font-weight: 800;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.22em;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 0.94em;
   text-transform: uppercase;
   color: var(--ruby);
 }
@@ -103,16 +106,16 @@ section.end {
 section.title h1,
 section.statement h1,
 section.end h1 {
-  font-size: 2.6em;
-  max-width: 10ch;
+  font-size: 2.18em;
+  max-width: 11.5ch;
 }
 
 section.title h2,
 section.end h2 {
-  margin-top: 16px;
-  font-size: 1.1em;
+  margin-top: 14px;
+  font-size: 0.98em;
   color: var(--muted);
-  font-family: "Avenir Next", "Futura", sans-serif;
+  font-family: "Aptos", "IBM Plex Sans", "Inter", "Avenir Next", "Segoe UI", sans-serif;
   letter-spacing: 0.02em;
 }
 
@@ -123,8 +126,8 @@ section.end strong {
 }
 
 section.kicker h1 {
-  font-size: 2.3em;
-  max-width: 12ch;
+  font-size: 2em;
+  max-width: 13ch;
 }
 
 section.center {
@@ -144,9 +147,9 @@ section.center h1 {
 }
 
 .lead {
-  margin-top: 22px;
-  max-width: 22ch;
-  font-size: 1em;
+  margin-top: 18px;
+  max-width: 24ch;
+  font-size: 0.94em;
   color: var(--muted);
 }
 
@@ -164,30 +167,30 @@ section.center h1 {
   background: rgba(251, 247, 239, 0.82);
   border: 1px solid var(--line);
   border-radius: 24px;
-  padding: 24px 28px;
+  padding: 20px 24px;
   backdrop-filter: blur(2px);
 }
 
 .columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 28px;
+  gap: 24px;
   align-items: center;
-  margin-top: 28px;
+  margin-top: 24px;
 }
 
 .columns-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-  margin-top: 26px;
+  gap: 16px;
+  margin-top: 22px;
 }
 
 .thumb-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  margin-top: 28px;
+  gap: 14px;
+  margin-top: 22px;
 }
 
 .thumb-grid img,
@@ -198,27 +201,27 @@ section.center h1 {
 .stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
-  margin-top: 30px;
+  gap: 16px;
+  margin-top: 24px;
 }
 
 .stats .card {
-  padding: 22px;
+  padding: 18px;
 }
 
 .stats strong {
   display: block;
-  font-size: 1.55em;
-  margin-bottom: 8px;
+  font-size: 1.36em;
+  margin-bottom: 6px;
 }
 
 .mini {
-  font-size: 0.72em;
+  font-size: 0.68em;
   color: var(--muted);
 }
 
 .caption {
-  margin-top: 10px;
+  margin-top: 8px;
   font-size: 0.58em;
   color: var(--muted);
 }
@@ -226,12 +229,12 @@ section.center h1 {
 .timeline {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 14px;
-  margin-top: 26px;
+  gap: 12px;
+  margin-top: 22px;
 }
 
 .timeline .card {
-  min-height: 130px;
+  min-height: 118px;
 }
 
 .closing {
