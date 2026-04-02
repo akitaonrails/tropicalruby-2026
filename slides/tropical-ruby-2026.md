@@ -526,11 +526,12 @@ Tempo sugerido: ~0:50
 
 <!-- _class: center -->
 ![bg cover opacity:.16](../assets/offline/bg-everest.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg</div>
 # Fevereiro e março<br>de 2026
 
 ## eu parei de falar  
 ## e fui <span class="em-ruby">maratonar</span>
+
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg</div>
 
 <!--
 Tempo sugerido: ~0:25
@@ -621,6 +622,7 @@ Tempo sugerido: ~1:05
 <!-- _class: center tone-sand -->
 ![bg cover opacity:.16](../assets/offline/bg-sprint-runners.jpg)
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Brad_Kahlefeldt_and_Ned_Mortimer_running_in_the_50m_running_sprint.jpg</div>
+
 # O que eu ganhei<br>de verdade
 
 <div class="stats">
@@ -808,6 +810,7 @@ Tempo sugerido: ~0:45
 <!-- _class: center tone-moss -->
 ![bg cover opacity:.14](../assets/offline/bg-pair-programming.jpg)
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Pair_Programming.jpg</div>
+
 # O pareamento mudou
 
 <div class="columns">
@@ -974,7 +977,6 @@ Tempo sugerido: ~0:35
 
 <!-- _class: center tone-moss -->
 ![bg cover opacity:.16](../assets/offline/bg-eniac.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Eniac_(cropped).jpg</div>
 # Júnior não morreu
 
 <div class="columns-3">
@@ -982,6 +984,8 @@ Tempo sugerido: ~0:35
   <div class="card"><strong>Vai aprender no caos</strong><div class="mini">igual gerações anteriores aprenderam</div></div>
   <div class="card"><strong>Ainda precisa de sênior</strong><div class="mini">agente nenhum ensina julgamento</div></div>
 </div>
+
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Eniac_(cropped).jpg</div>
 
 
 <!--
@@ -999,13 +1003,14 @@ Tempo sugerido: ~0:55
 
 <!-- _class: center tone-moss -->
 ![bg cover opacity:.14](../assets/offline/bg-mentor-kungfu.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Vernon_Rieta_teaching_Kung_Fu.jpg</div>
 # Sênior tem<br><span class="em-moss">nova obrigação</span>
 
 ## ensinar engenharia com IA  
 ## antes do código apodrecer
 
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">E a correção continua agora. Em 1 de abril de 2026, a Oracle entrou em mais uma rodada grande de layoffs.</div>
+
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Vernon_Rieta_teaching_Kung_Fu.jpg</div>
 
 <!--
 Tempo sugerido: ~0:55

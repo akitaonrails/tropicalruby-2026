@@ -1,0 +1,2 @@
+build/*.pdf filter=lfs diff=lfs merge=lfs -text
+build/*.pptx filter=lfs diff=lfs merge=lfs -text
