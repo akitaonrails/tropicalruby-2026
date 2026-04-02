@@ -110,32 +110,32 @@ E aí vem a correlação que importa. De um lado, frontier model melhorando em t
 ## Slide 22 - Fim de 2025 foi diferente
 Tempo sugerido: ~0:50
 
-Dito isso, fim de 2025 teve dois marcos fáceis de apontar. GPT-5.1 saiu pra desenvolvedores em 13 de novembro de 2025. Claude Opus 4.5 saiu em 24 de novembro de 2025. Em dezembro, muita gente boa começou a testar isso pra valer no trabalho real. Em janeiro de 2026 eu entrei nessa também. Foi daí que saiu a maratona.
+Dito isso, fim de 2025 teve dois marcos fáceis de apontar. GPT-5.1 saiu pra desenvolvedores em 13 de novembro de 2025. Claude Opus 4.5 saiu em 24 de novembro de 2025. Em dezembro, muita gente boa começou a testar isso pra valer no trabalho real. Pra mim, foi a primeira vez que isso ficou bom o bastante pra eu apostar meu tempo de verdade. Em janeiro de 2026 eu entrei nessa também. Foi daí que saiu a maratona.
 
 ## Slide 23 - Fevereiro e março de 2026
 Tempo sugerido: ~0:25
 
-Então eu parei de falar disso em abstrato e fui maratonar. Não com prompt de brinquedo. Não com videozinho fake de SaaS em dez minutos. Projeto real. Deploy real. Teste real. Bug real. Pós-produção real.
+Então eu parei de falar disso em abstrato e fui testar com pele em jogo. Não com prompt de brinquedo. Não com videozinho fake de SaaS em dez minutos. Projeto real. Deploy real. Teste real. Bug real. Pós-produção real.
 
 ## Slide 24 - Do zero pra software real
 Tempo sugerido: ~0:35
 
-Este slide é só a parede de projetos. FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI e outros. O objetivo não é explicar repositório por repositório. O objetivo é mostrar volume e variedade: desktop, Rails, Rust, ferramentas, mídia, deploy, software em uso real.
+Este slide é só a parede de projetos. FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI e outros. O objetivo não é explicar repositório por repositório. O objetivo é mostrar volume e variedade: desktop, Rails, Rust, ferramentas, mídia, deploy, software em uso real. Se a tese estava certa, ela precisava aparecer em mais de um tipo de problema.
 
 ## Slide 25 - Mesmo dev. Mesmo agente. Processo diferente.
 Tempo sugerido: ~0:55
 
-Aqui entra a comparação que eu acho mais forte de todas. FrankMD de um lado. M.Akita Chronicles do outro. Mesmo desenvolvedor. Mesmo agente. Processo diferente. No FrankMD eu ainda estava pagando várias decisões tardias: refactor pesado, teste correndo atrás, reorganização mais traumática. No M.Akita Chronicles entrou TDD, CI e refatoração contínua desde o começo. Resultado: 212 commits em 19 dias num caso, 274 commits em 8 dias no outro. A variável não foi “IA melhor”. Foi disciplina de engenharia.
+Aqui entra a comparação que eu acho mais forte de todas. FrankMD de um lado. M.Akita Chronicles do outro. Mesmo desenvolvedor. Mesmo agente. Processo diferente. No FrankMD eu ainda estava pagando várias decisões tardias: refactor pesado, teste correndo atrás, reorganização mais traumática. No M.Akita Chronicles entrou TDD, CI e refatoração contínua desde o começo. Resultado: 212 commits em 19 dias num caso, 274 commits em 8 dias no outro. A variável não foi “IA melhor”. Foi disciplina de engenharia. É aqui que a conversa deixa de ser opinião e vira evidência.
 
 ## Slide 26 - Números que pesam
 Tempo sugerido: ~1:05
 
-E aqui é onde eu boto peso na afirmação de velocidade. Se eu agrego o conjunto de projetos citado no começo da palestra, dá 723.935 linhas de código, 199.250 linhas de teste, 1.116 commits e cerca de 194 horas ativas estimadas. E essa conta está fechada com o mesmo critério dos dois lados: só arquivo de código próprio, separando produção de teste pelo path, e excluindo documentação, fixtures, snapshots e árvore importada de terceiros. Então não tem README, arquivo auxiliar ou biblioteca de terceiro inflando número. As horas também estão conservadoras. Vieram de sessões agrupadas por histórico de commit, com corte de pausa grande, sem inventar madrugada mágica e sem fingir que eu virei um robô. Inclusive tem projeto aí que entra no volume de código, mas nem entra na conta de commits porque nem repositório Git fechado ele tinha. Mesmo assim, o volume entregue em poucas semanas é alto demais pra chamar de brincadeira.
+E aqui é onde eu boto peso na afirmação de velocidade. Se eu agrego o conjunto de projetos citado no começo da palestra, dá 723.935 linhas de código, 199.250 linhas de teste, 1.116 commits e cerca de 194 horas ativas estimadas. E essa conta está fechada com o mesmo critério dos dois lados: só arquivo de código próprio, separando produção de teste pelo path, e excluindo documentação, fixtures, snapshots e árvore importada de terceiros. Então não tem README, arquivo auxiliar ou biblioteca de terceiro inflando número. As horas também estão conservadoras. Vieram de sessões agrupadas por histórico de commit, com corte de pausa grande, sem inventar madrugada mágica e sem fingir que eu virei um robô. Inclusive tem projeto aí que entra no volume de código, mas nem entra na conta de commits porque nem repositório Git fechado ele tinha. Com isso na mesa, agora dá pra discutir mecanismo, não fé.
 
 ## Slide 27 - O que eu ganhei de verdade
 Tempo sugerido: ~1:00
 
-Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade. Não porque o modelo escreve código perfeito. Não escreve. O ganho vem porque ele atravessa aquele atrito chato que normalmente quebra foco: código repetitivo, busca, refatoração repetitiva, teste repetitivo, execução de comando, tentativa rápida. A confiança, por outro lado, só veio porque o resto continuou existindo: teste, integração contínua, refatoração, produção.
+Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade. Não porque o modelo escreve código perfeito. Não escreve. O ganho vem porque ele atravessa aquele atrito chato que normalmente quebra foco: código repetitivo, busca, refatoração repetitiva, teste repetitivo, execução de comando, tentativa rápida. A confiança, por outro lado, só veio porque o resto continuou existindo: teste, integração contínua, refatoração, produção. E isso já aponta para a causa: a virada não foi genialidade súbita, foi loop melhor.
 
 ## Slide 28 - 45 dias de maratona não são 45 dias normais
 Tempo sugerido: ~0:55
@@ -145,7 +145,7 @@ Aqui eu preciso fazer a conta honesta, senão parece truque de palco. Isso foi e
 ## Slide 29 - Não foi QI. Foi ferramenta.
 Tempo sugerido: ~0:40
 
-Eu quero martelar isso porque muita gente ainda fala como se 2026 fosse sobre um salto mágico de inteligência. Não foi. O pulo do gato foi ferramenta. Shell, editor, execução, teste, busca, documentação, leitura de código, tudo isso entrando no loop. O modelo continua errando. O que mudou foi a capacidade de bater na parede, receber feedback e corrigir rápido.
+Eu quero martelar isso porque muita gente ainda fala como se 2026 fosse sobre um salto mágico de inteligência. Não foi. O pulo do gato foi ferramenta. Shell, editor, execução, teste, busca, documentação, leitura de código, tudo isso entrando no loop. O modelo continua errando. O que mudou foi a capacidade de bater na parede, receber feedback e corrigir rápido. A prova prática só ficou plausível por causa disso.
 
 ## Slide 30 - Ciclo do agente
 Tempo sugerido: ~0:35
@@ -210,27 +210,27 @@ E aqui entra minha especulação sobre a economia da IA. A conta física começo
 ## Slide 42 - A correção
 Tempo sugerido: ~0:35
 
-Aqui é a parte em que eu paro de fingir diplomacia. Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo. A indústria passou anos trocando engenharia por braço barato e acumulando dívida técnica como se isso fosse de graça. A IA está forçando uma correção. Ótimo.
+Aqui é a parte em que eu paro de fingir diplomacia. Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo. A indústria passou anos trocando engenharia por braço barato, competência falsa e dívida técnica como se isso fosse de graça. A IA está forçando uma correção. Ótimo.
 
 ## Slide 43 - Júnior não morreu
 Tempo sugerido: ~0:55
 
-Júnior está preocupado, mas eu não acho que o caminho acabou. Acho que ele mudou de forma. O mundo está enchendo de sistema feito nas coxas, cheio de lixo de IA. Alguém vai ter que limpar isso. E muita gente da minha geração aprendeu exatamente assim: no projeto real, bagunçado, cheio de cicatriz.
+Júnior está preocupado, mas eu não acho que o caminho acabou. Acho que ele mudou de forma. O mundo está enchendo de sistema feito nas coxas, cheio de lixo de IA. Alguém vai ter que limpar isso. E tem outro ponto: aprender ferramenta nova nunca foi o fim da profissão. Programador já teve que lidar com binário na mão, cartão perfurado, assembly, depois linguagens mais altas, framework, nuvem. Agora entrou mais uma camada. O trabalho continua sendo aprender a usar a ferramenta da vez sem terceirizar o cérebro. Então esse slide é a virada de esperança do final: o caminho não sumiu, ele só ficou mais caótico. E muita gente da minha geração aprendeu exatamente assim: no projeto real, bagunçado, cheio de cicatriz.
 
 ## Slide 44 - Sênior tem nova obrigação
 Tempo sugerido: ~0:55
 
-Mas isso só funciona se sênior fizer o trabalho dele. Sênior não é imortal. Vai mudar de empresa, vai cansar, vai se aposentar. Se não formar substituto, a organização apodrece. Então a nova obrigação não é só usar IA bem. É ensinar engenharia com IA direito. E a correção ainda está acontecendo agora, com mais uma onda pesada de layoff na Oracle reportada em 1 de abril de 2026.
+Mas essa esperança só para em pé se sênior fizer o trabalho dele. Sênior não é imortal. Vai mudar de empresa, vai cansar, vai se aposentar. Se não formar substituto, a organização apodrece. Então a nova obrigação não é só usar IA bem. É ensinar engenharia com IA direito. E a correção ainda está acontecendo agora, com mais uma onda pesada de layoff na Oracle reportada em 1 de abril de 2026.
 
 ## Slide 45 - IA não transforma programador ruim em engenheiro
 Tempo sugerido: ~0:35
 
-Então o fechamento é simples. IA não transforma programador ruim em engenheiro. Ela ajuda programador ruim a fazer estrago maior mais rápido. E ajuda engenheiro de verdade a atravessar esse caos com mais velocidade, sem deixar o software morrer.
+Então vem a parte dura. IA não transforma programador ruim em engenheiro. Ela ajuda programador ruim a fazer estrago maior mais rápido. E ajuda engenheiro de verdade a atravessar esse caos com mais velocidade, sem deixar o software morrer.
 
 ## Slide 46 - Vai sobreviver quem souber fazer engenharia
 Tempo sugerido: ~0:40
 
-Essa é minha conclusão pro Tropical Ruby 2026. Não vai sobreviver quem decorou truquezinho de prompt. Vai sobreviver quem tem fundamento, disciplina, iteração e gosto. Se você tem isso, IA vira multiplicador. Se não tem, IA é só uma forma mais rápida de ser exposto.
+Então eu fecho assim. Não vai sobreviver quem decorou truquezinho de prompt. Vai sobreviver quem tem fundamento, disciplina, iteração e gosto. Se você tem isso, IA vira multiplicador. Se não tem, IA é só uma forma mais rápida de ser exposto.
 
 ## Slide 47 - Assine The M.Akita Chronicles
 Tempo sugerido: ~0:20

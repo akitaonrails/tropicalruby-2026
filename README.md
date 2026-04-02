@@ -99,6 +99,21 @@ The ending currently has three layers on purpose:
 
 If this sequence changes, re-check not just title order but also pacing, reveal order, and whether the practical proof still lands before the mechanism explanation.
 
+There are also a few narrative constraints from later story-tightening passes:
+
+- the real midpoint turn is the jump from `Fim de 2025 foi diferente` into `Fevereiro e março de 2026`
+- that transition should feel like `parei de opinar e fui testar com pele em jogo`
+- the marathon wall, comparison slide, metrics, and gain slides are the proof block; treat them as the point where the talk stops being opinion and becomes evidence
+- after the proof block, the mechanism block should read as explanation of the evidence, not as abstract theory
+- the closing run from `A correção` through `Vai sobreviver quem souber fazer engenharia` should escalate in this order:
+  - diagnosis
+  - hope
+  - responsibility
+  - hard truth
+  - final statement
+
+When editing the script or notes, prefer explicit cause-and-effect bridges between major blocks over adding new content.
+
 ## Brief history
 
 `IDEA.md` is intentionally not a polished spec.

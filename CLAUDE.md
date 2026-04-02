@@ -47,6 +47,7 @@ For this repo, prefer:
 
 - flex layouts for raw HTML blocks
 - conservative CSS for metric cards, grids, and slide furniture
+- local files in `assets/` for images and media whenever practical, instead of third-party remote URLs
 
 Avoid:
 

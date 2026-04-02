@@ -5,13 +5,13 @@
 @import 'default';
 
 :root {
-  --bg: #f5efe3;
+  --bg: #f3ede2;
   --paper: #fbf7ef;
   --ink: #171412;
-  --muted: #6d655d;
-  --ruby: #b33a2f;
-  --moss: #51684d;
-  --sand: #d9c7a7;
+  --muted: #6b645c;
+  --ruby: #ac4031;
+  --moss: #48665c;
+  --sand: #cdae79;
   --line: rgba(23, 20, 18, 0.12);
 }
 
@@ -29,23 +29,61 @@ section {
 
 section.tone-moss {
   background:
-    radial-gradient(circle at 82% 14%, rgba(81, 104, 77, 0.14), transparent 23%),
-    radial-gradient(circle at 10% 84%, rgba(81, 104, 77, 0.09), transparent 28%),
-    linear-gradient(180deg, #f6f3ea, #edf2e8);
+    radial-gradient(circle at 82% 14%, rgba(72, 102, 92, 0.16), transparent 23%),
+    radial-gradient(circle at 10% 84%, rgba(72, 102, 92, 0.10), transparent 28%),
+    linear-gradient(180deg, #f2f4ef, #e4eee9);
 }
 
 section.tone-ruby {
   background:
-    radial-gradient(circle at 84% 14%, rgba(179, 58, 47, 0.16), transparent 24%),
-    radial-gradient(circle at 12% 82%, rgba(179, 58, 47, 0.08), transparent 28%),
-    linear-gradient(180deg, #fbf2ee, #f7ebe5);
+    radial-gradient(circle at 84% 14%, rgba(172, 64, 49, 0.18), transparent 24%),
+    radial-gradient(circle at 12% 82%, rgba(172, 64, 49, 0.10), transparent 28%),
+    linear-gradient(180deg, #fbf1ee, #f6e6df);
 }
 
 section.tone-sand {
   background:
-    radial-gradient(circle at 86% 16%, rgba(217, 199, 167, 0.28), transparent 24%),
-    radial-gradient(circle at 10% 86%, rgba(217, 199, 167, 0.18), transparent 30%),
-    linear-gradient(180deg, #fcf8f0, #f4ecdf);
+    radial-gradient(circle at 86% 16%, rgba(205, 174, 121, 0.24), transparent 24%),
+    radial-gradient(circle at 10% 86%, rgba(205, 174, 121, 0.16), transparent 30%),
+    linear-gradient(180deg, #fbf6ee, #f1e6d1);
+}
+
+section.tone-extra {
+  background:
+    radial-gradient(circle at 82% 16%, rgba(235, 166, 85, 0.14), transparent 24%),
+    radial-gradient(circle at 12% 84%, rgba(68, 111, 124, 0.18), transparent 30%),
+    linear-gradient(180deg, #edf2f2, #d9e7e6);
+}
+
+section.tone-extra-dark {
+  color: #f4efe6;
+  background:
+    radial-gradient(circle at 84% 14%, rgba(235, 166, 85, 0.18), transparent 24%),
+    radial-gradient(circle at 12% 82%, rgba(95, 145, 160, 0.18), transparent 28%),
+    linear-gradient(180deg, #1e3139, #16272f);
+}
+
+section.tone-extra-dark h1,
+section.tone-extra-dark h2,
+section.tone-extra-dark h3,
+section.tone-extra-dark p,
+section.tone-extra-dark li,
+section.tone-extra-dark strong,
+section.tone-extra-dark blockquote {
+  color: #f4efe6;
+}
+
+section.tone-extra-dark .eyebrow,
+section.tone-extra-dark .lead,
+section.tone-extra-dark .mini,
+section.tone-extra-dark .caption,
+section.tone-extra-dark section::after {
+  color: #d7d8d0;
+}
+
+section.tone-extra-dark .card {
+  background: rgba(255, 248, 240, 0.08);
+  border: 1px solid rgba(244, 239, 230, 0.18);
 }
 
 section::after {
@@ -66,6 +104,16 @@ h3 {
 h1 {
   font-size: 1.92em;
   font-weight: 800;
+}
+
+h1 + h1 {
+  margin-top: -0.1em;
+}
+
+section.title h1 + h1,
+section.statement h1 + h1,
+section.end h1 + h1 {
+  margin-top: -0.18em;
 }
 
 h2 {
@@ -265,6 +313,22 @@ section.center h1 {
   margin-top: 8px;
   font-size: 0.58em;
   color: var(--muted);
+}
+
+.source-url {
+  position: absolute;
+  right: 28px;
+  bottom: 34px;
+  max-width: 42%;
+  font-size: 0.26em;
+  line-height: 1.1;
+  text-align: right;
+  color: rgba(23, 20, 18, 0.56);
+  z-index: 2;
+}
+
+section.tone-extra-dark .source-url {
+  color: rgba(244, 239, 230, 0.6);
 }
 
 .timeline {

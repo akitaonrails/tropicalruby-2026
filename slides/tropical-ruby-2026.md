@@ -9,7 +9,7 @@ description: Keynote em pt-BR sobre agile vibe coding, agentes de IA, engenharia
 ---
 
 <!-- _class: title -->
-![bg right:41% cover](../assets/opening-right-portrait.jpg)
+![bg right:41% cover](../assets/akita-upscaled-gemini31.png)
 <div class="eyebrow">Tropical Ruby 2026 Keynote</div>
 
 # Agile Vibe Coding
@@ -49,12 +49,10 @@ Tempo sugerido: ~0:40
 ---
 
 <!-- _class: statement -->
-![bg right:42% opacity:.18](https://img.youtube.com/vi/V7oUDL7E1g4/hqdefault.jpg)
+![bg right:42% opacity:.18](../assets/offline/thumb-programacao-nao-e-facil.jpg)
 <div class="eyebrow">Arco Longo</div>
 
-# O pânico da IA
-# caiu em cima
-# de uma bolha velha.
+# O pânico da IA<br>caiu em cima<br>de uma bolha velha.
 
 <div class="lead">Eu já vinha batendo na economia do programador fake antes de agentes de código prestarem pra alguma coisa.</div>
 
@@ -69,11 +67,10 @@ Tempo sugerido: ~0:45
 ---
 
 <!-- _class: center -->
-![bg cover opacity:.10](https://img.youtube.com/vi/wpPv1dJWjDs/hqdefault.jpg)
+![bg cover opacity:.10](../assets/offline/thumb-bolha-velha.jpg)
 <div class="eyebrow">2019 → 2026</div>
 
-# Mesma tese.
-# Ferramenta nova.
+# Mesma tese.<br>Ferramenta nova.
 
 <div class="timeline">
   <div class="card"><strong>2019</strong><span class="mini">o inverno estava chegando</span></div>
@@ -95,6 +92,7 @@ Tempo sugerido: ~0:50
 ---
 
 <!-- _class: center -->
+![bg cover opacity:.14](../assets/offline/thumb-cursos-nao-ensinam.jpg)
 # A mentira antiga
 
 ## “vire engenheiro
@@ -118,7 +116,7 @@ Tempo sugerido: ~0:55
 ---
 
 <!-- _class: center -->
-![bg cover opacity:.16](https://i.ytimg.com/vi/bokGdQOHGrw/hqdefault.jpg)
+![bg cover opacity:.16](../assets/offline/thumb-asamiarts.jpg)
 <div class="eyebrow">A Analogia</div>
 
 # Mesmo medo.
@@ -312,11 +310,11 @@ Tempo sugerido: ~0:55
 ---
 
 <!-- _class: statement -->
-![bg right:45% opacity:.18](https://img.youtube.com/vi/Yl-hlwhj2B0/hqdefault.jpg)
+![bg right:45% opacity:.18](../assets/offline/bg-messy-desk.jpg)
 <div class="eyebrow">Mesma Regra No Código</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Part_of_my_messy_desk_(430672681).jpg</div>
 
-# Trabalho de verdade
-# parece bagunçado.
+# Trabalho de verdade<br>parece bagunçado.
 
 ## IA só amplifica o que já estava lá.
 
@@ -374,8 +372,7 @@ Tempo sugerido: ~0:20
 ---
 
 <!-- _class: center tone-ruby -->
-# A lição não foi
-# “uau, magia”
+# A lição não foi<br>“uau, magia”
 
 <div class="columns">
   <div class="card"><strong>Nem a Anthropic escapa</strong><br />pressão de entrega também gera código tático</div>
@@ -394,10 +391,11 @@ Tempo sugerido: ~1:00
 ---
 
 <!-- _class: statement -->
+![bg cover opacity:.18](../assets/offline/bg-server-racks.jpg)
 <div class="eyebrow">Meu Ponto</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Empty_server_racks_-_IMG_3674.jpg</div>
 
-# IA não eliminou
-# engenharia.
+# IA não eliminou<br>engenharia.
 
 ## Eliminou desculpa.
 
@@ -431,10 +429,11 @@ Tempo sugerido: ~0:55
 ---
 
 <!-- _class: center tone-sand -->
+![bg cover opacity:.14](../assets/offline/bg-dumb-robot.jpg)
 <div class="eyebrow">2026 Ainda</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Robot_(7127639975).jpg</div>
 
-# Modelo ainda
-# bajula e erra
+# Modelo ainda<br>bajula e erra
 
 <div class="columns-3">
   <div class="card"><strong>Bajula você</strong><div class="mini">muitas vezes responde o que você quer ouvir</div></div>
@@ -502,8 +501,7 @@ Tempo sugerido: ~0:55
 <!-- _class: center tone-moss -->
 <div class="eyebrow">Virada</div>
 
-# Fim de 2025
-# foi diferente
+# Fim de 2025<br>foi diferente
 
 <div class="stats">
   <div class="card"><strong>13 nov 2025</strong><br />GPT-5.1 saiu para desenvolvedores</div>
@@ -521,13 +519,15 @@ Tempo sugerido: ~0:50
 - OpenAI lançou GPT-5.1 pra desenvolvedores em 13 de novembro de 2025.
 - Anthropic lançou Claude Opus 4.5 em 24 de novembro de 2025.
 - Em dezembro, muita gente boa começou a testar isso pesado no trabalho real.
+- Foi a primeira vez que isso ficou bom o bastante pra apostar tempo real.
 - Em janeiro de 2026, eu entrei nessa também.
 -->
 ---
 
 <!-- _class: center -->
-# Fevereiro e março
-# de 2026
+![bg cover opacity:.16](../assets/offline/bg-everest.jpg)
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg</div>
+# Fevereiro e março<br>de 2026
 
 ## eu parei de falar  
 ## e fui maratonar
@@ -535,28 +535,27 @@ Tempo sugerido: ~0:50
 <!--
 Tempo sugerido: ~0:25
 
-- Então eu parei de falar disso em abstrato e fui maratonar.
+- Então eu parei de opinar e fui testar com pele em jogo.
 - Não com prompt de brinquedo.
 - Não com videozinho fake de SaaS em dez minutos.
 - Projeto real.
 -->
 ---
 
-<!-- _class: center -->
+<!-- _class: center tone-sand -->
 <div class="eyebrow">Painel de Projetos</div>
 
-# Do zero
-# pra software real
+# Do zero<br>pra software real
 
 <div class="thumb-grid">
-  <img src="https://new-uploads-akitaonrails.s3.us-east-2.amazonaws.com/frankmd/2026/02/screenshot-2026-02-01_15-16-29.jpg" alt="FrankMD" />
-  <img src="https://raw.githubusercontent.com/akitaonrails/FrankMega/master/docs/upload_screen.png" alt="FrankMega" />
-  <img src="https://raw.githubusercontent.com/akitaonrails/FrankSherlock/master/docs/frank_sherlock.png" alt="Frank Sherlock" />
-  <img src="https://raw.githubusercontent.com/akitaonrails/FrankYomik/master/docs/sample_translate.png" alt="Frank Yomik" />
-  <img src="https://raw.githubusercontent.com/akitaonrails/frank_fbi/master/docs/suspect-email.png" alt="Frank FBI" />
-  <img src="https://raw.githubusercontent.com/akitaonrails/FrankYomik/master/docs/sample_furigana.png" alt="Frank Yomik Furigana" />
-  <img src="https://new-uploads-akitaonrails.s3.us-east-2.amazonaws.com/frankmd/2026/02/screenshot-2026-02-01_14-22-28.jpg" alt="FrankMD IA" />
-  <img src="https://new-uploads-akitaonrails.s3.us-east-2.amazonaws.com/frankmd/2026/02/screenshot-2026-02-01_14-39-53.jpg" alt="FrankMD Hugo" />
+  <img src="../assets/offline/project-frankmd-main.jpg" alt="FrankMD" />
+  <img src="../assets/offline/project-frankmega-upload.png" alt="FrankMega" />
+  <img src="../assets/offline/project-franksherlock.png" alt="Frank Sherlock" />
+  <img src="../assets/offline/project-frankyomik-translate.png" alt="Frank Yomik" />
+  <img src="../assets/offline/project-frankfbi-email.png" alt="Frank FBI" />
+  <img src="../assets/ai-jail-og.png" alt="ai-jail" />
+  <img src="../assets/easy-subtitle-og.png" alt="easy-subtitle" />
+  <img src="../assets/offline/project-frankmd-hugo.jpg" alt="FrankMD Hugo" />
 </div>
 
 <!--
@@ -569,12 +568,10 @@ Tempo sugerido: ~0:35
 -->
 ---
 
-<!-- _class: center -->
+<!-- _class: center tone-sand -->
 <div class="eyebrow">A Prova Prática</div>
 
-# Mesmo dev.
-# Mesmo agente.
-# Processo diferente.
+# Mesmo dev.<br>Mesmo agente.<br>Processo diferente.
 
 <div class="columns">
   <div class="card"><strong>FrankMD</strong><br />212 commits em 19 dias, refactor pesado, teste correndo atrás</div>
@@ -591,14 +588,14 @@ Tempo sugerido: ~0:55
 - FrankMD de um lado.
 - M.Akita Chronicles do outro.
 - Mesmo desenvolvedor.
+- Aqui deixa de ser opinião e vira evidência.
 -->
 ---
 
 <!-- _class: center tone-sand -->
 <div class="eyebrow">No Conjunto Completo Dos Projetos Citados</div>
 
-# Números
-# que pesam
+# Números<br>que pesam
 
 <div class="stats">
   <div class="card"><strong>723.935</strong><span class="mini">linhas de código</span></div>
@@ -617,12 +614,14 @@ Tempo sugerido: ~1:05
 - Se eu agrego o conjunto de projetos citado no começo da palestra, dá 723.935 linhas de código, 199.250 linhas de teste, 1.116 commits e cerca de 194 horas ativas estimadas.
 - E essa conta está fechada com o mesmo critério dos dois lados: só arquivo de código próprio, separando produção de teste pelo path, e excluindo documentação, fixtures, snapshots e árvore importada de terceiros.
 - Então não tem README, arquivo auxiliar ou biblioteca de terceiro inflando número.
+- Com isso na mesa, agora dá pra discutir mecanismo, não fé.
 -->
 ---
 
 <!-- _class: center tone-sand -->
-# O que eu ganhei
-# de verdade
+![bg cover opacity:.16](../assets/offline/bg-sprint-runners.jpg)
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Brad_Kahlefeldt_and_Ned_Mortimer_running_in_the_50m_running_sprint.jpg</div>
+# O que eu ganhei<br>de verdade
 
 <div class="stats">
   <div class="card"><strong>5x a 10x</strong><span class="mini">de velocidade</span></div>
@@ -645,8 +644,7 @@ Tempo sugerido: ~1:00
 <!-- _class: center tone-sand -->
 <div class="eyebrow">Normalizando o Ritmo</div>
 
-# 45 dias de maratona
-# não são 45 dias normais
+# 45 dias de maratona<br>não são 45 dias normais
 
 <div class="stats">
   <div class="card"><strong>45 dias corridos</strong><span class="mini">quase 16h por dia, 7 dias por semana</span></div>
@@ -671,8 +669,7 @@ Tempo sugerido: ~0:55
 <!-- _class: statement -->
 <div class="eyebrow">O Pulo Do Gato</div>
 
-# Não foi QI.
-# Foi ferramenta.
+# Não foi QI.<br>Foi ferramenta.
 
 <div class="columns-3">
   <div class="card"><strong>Shell e editor</strong><div class="mini">o modelo parou de só sugerir e passou a operar</div></div>
@@ -688,18 +685,16 @@ Tempo sugerido: ~0:40
 - Não foi.
 - O pulo do gato foi ferramenta.
 - Shell, editor, execução, teste, busca, documentação, leitura de código, tudo isso entrando no loop.
+- A prova prática só ficou plausível por causa disso.
 -->
 ---
 
 <!-- _class: statement tone-moss -->
+![bg cover opacity:.18](../assets/offline/bg-f35a.jpg)
 <div class="eyebrow">Ciclo do Agente</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:F-35A_flight_(cropped).jpg</div>
 
-# Planeja.
-# Investiga.
-# Lapida.
-# Opera.
-# Testa.
-# Ajusta.
+# Planeja.<br>Investiga.<br>Lapida.<br>Opera.<br>Testa.<br>Ajusta.
 
 <!--
 Tempo sugerido: ~0:35
@@ -712,8 +707,7 @@ Tempo sugerido: ~0:35
 ---
 
 <!-- _class: center tone-moss -->
-# Prompt único
-# é pra demo
+# Prompt único<br>é pra demo
 
 <div class="columns">
   <div class="card"><strong>Produção é iteração</strong><br />bug, deploy, retorno, refatoração, ajuste de prompt</div>
@@ -737,10 +731,10 @@ Tempo sugerido: ~0:55
 # Fundamento primeiro
 
 <div class="thumb-grid">
-  <img src="https://img.youtube.com/vi/L0hTOY5n9G8/hqdefault.jpg" alt="O que os cursos não te ensinam sobre mercados" />
-  <img src="https://img.youtube.com/vi/oUPaJxk6TZ0/hqdefault.jpg" alt="Aprendendo a aprender" />
-  <img src="https://img.youtube.com/vi/V7oUDL7E1g4/hqdefault.jpg" alt="Programação não é fácil" />
-  <img src="https://img.youtube.com/vi/am-FQ86mKV0/hqdefault.jpg" alt="Aprendizado na beira do caos" />
+  <img src="../assets/offline/thumb-cursos-nao-ensinam.jpg" alt="O que os cursos não te ensinam sobre mercados" />
+  <img src="../assets/offline/thumb-aprendendo-a-aprender.jpg" alt="Aprendendo a aprender" />
+  <img src="../assets/offline/thumb-programacao-nao-e-facil.jpg" alt="Programação não é fácil" />
+  <img src="../assets/offline/thumb-beira-do-caos.jpg" alt="Aprendizado na beira do caos" />
 </div>
 
 <!--
@@ -754,9 +748,8 @@ Tempo sugerido: ~0:50
 ---
 
 <!-- _class: center -->
-![bg cover opacity:.12](https://img.youtube.com/vi/D3L8IOncLkg/hqdefault.jpg)
-# Não terceirize
-# seu julgamento
+![bg cover opacity:.12](../assets/offline/thumb-winter-is-coming.jpg)
+# Não terceirize<br>seu julgamento
 
 ## nem pra guru  
 ## nem pra bootcamp  
@@ -773,8 +766,8 @@ Tempo sugerido: ~0:45
 -->
 ---
 
-<!-- _class: center -->
-![bg cover opacity:.10](https://new-uploads-akitaonrails.s3.us-east-2.amazonaws.com/frankmd/2026/02/agile-lifecycle-development-process-diagram-vector-31188796.jpg)
+<!-- _class: center tone-moss -->
+![bg cover opacity:.10](../assets/offline/bg-agile-lifecycle.jpg)
 <div class="eyebrow">Nome Verdadeiro</div>
 
 # Agile Vibe Coding
@@ -793,8 +786,7 @@ Tempo sugerido: ~0:45
 ---
 
 <!-- _class: center tone-moss -->
-# XP não é
-# perfumaria
+# XP não é<br>perfumaria
 
 <div class="columns-3">
   <div class="card"><strong>TDD</strong><div class="mini">segura erro de modelo antes de virar lama</div></div>
@@ -814,6 +806,8 @@ Tempo sugerido: ~0:45
 ---
 
 <!-- _class: center tone-moss -->
+![bg cover opacity:.14](../assets/offline/bg-pair-programming.jpg)
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Pair_Programming.jpg</div>
 # O pareamento mudou
 
 <div class="columns">
@@ -837,8 +831,7 @@ Tempo sugerido: ~1:00
 <!-- _class: center tone-moss -->
 <div class="eyebrow">Estado dos Modelos, 1 de abril de 2026</div>
 
-# Modelos fechados
-# ainda lideram
+# Modelos fechados<br>ainda lideram
 
 <div class="columns-3">
   <div class="card"><strong>Anthropic</strong><div class="mini">continua no topo pra agentes de código</div></div>
@@ -883,9 +876,8 @@ Tempo sugerido: ~0:45
 -->
 ---
 
-<!-- _class: center -->
-# E o preço
-# ficou ridículo
+<!-- _class: center tone-sand -->
+# E o preço<br>ficou ridículo
 
 <div style="display:flex;gap:32px;align-items:center;text-align:left;">
   <div style="flex:0 0 45%;">
@@ -909,11 +901,10 @@ Tempo sugerido: ~0:45
 -->
 ---
 
-<!-- _class: center tone-moss -->
+<!-- _class: center tone-sand -->
 <div class="eyebrow">Commoditização</div>
 
-# O que ficou barato
-# e o que não ficou
+# O que ficou barato<br>e o que não ficou
 
 <div class="columns">
   <div class="card"><strong>Barato</strong><br />CRUD, landing page, painel interno, bot, ETL, cola entre APIs</div>
@@ -930,11 +921,10 @@ Tempo sugerido: ~0:40
 -->
 ---
 
-<!-- _class: center tone-moss -->
+<!-- _class: center tone-sand -->
 <div class="eyebrow">Economia da IA</div>
 
-# Treino e inferência
-# disputam a mesma tomada
+# Treino e inferência<br>disputam a mesma tomada
 
 <div class="columns" style="margin-top:28px;">
   <div class="card"><strong>US$ 500 bi</strong><div class="mini">investimento global em data centers em 2024</div></div>
@@ -963,12 +953,12 @@ Tempo sugerido: ~0:55
 -->
 ---
 
-<!-- _class: center -->
-![bg cover opacity:.10](https://www.cio.com/wp-content/uploads/2026/04/4153113-0-45250700-1775046029-shutterstock_2400351163.jpg)
+<!-- _class: center tone-ruby -->
+![bg cover opacity:.12](../assets/offline/bg-layoff-box.jpg)
 <div class="eyebrow">A Correção</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Employee_Packing_Things_Into_Box.jpg</div>
 
-# Programador ruim
-# vai sair
+# Programador ruim<br>vai sair
 
 ## e isso melhora a indústria
 
@@ -977,12 +967,14 @@ Tempo sugerido: ~0:35
 
 - Aqui é a parte em que eu paro de fingir diplomacia.
 - Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo.
-- A indústria passou anos trocando engenharia por braço barato e acumulando dívida técnica como se isso fosse de graça.
+- A indústria passou anos trocando engenharia por competência fake e dívida técnica.
 - A IA está forçando uma correção.
 -->
 ---
 
-<!-- _class: center tone-ruby -->
+<!-- _class: center tone-moss -->
+![bg cover opacity:.16](../assets/offline/bg-eniac.jpg)
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Eniac_(cropped).jpg</div>
 # Júnior não morreu
 
 <div class="columns-3">
@@ -998,13 +990,17 @@ Tempo sugerido: ~0:55
 - Júnior está preocupado, mas eu não acho que o caminho acabou.
 - Acho que ele mudou de forma.
 - O mundo está enchendo de sistema feito nas coxas, cheio de lixo de IA.
+- Ferramenta nova não mata profissão.
+- Ninguém sente falta de programar em binário ou cartão perfurado.
+- Essa é a virada de esperança do final.
 - Alguém vai ter que limpar isso.
 -->
 ---
 
-<!-- _class: center tone-ruby -->
-# Sênior tem
-# nova obrigação
+<!-- _class: center tone-moss -->
+![bg cover opacity:.14](../assets/offline/bg-mentor-kungfu.jpg)
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Vernon_Rieta_teaching_Kung_Fu.jpg</div>
+# Sênior tem<br>nova obrigação
 
 ## ensinar engenharia com IA  
 ## antes do código apodrecer
@@ -1014,7 +1010,7 @@ Tempo sugerido: ~0:55
 <!--
 Tempo sugerido: ~0:55
 
-- Mas isso só funciona se sênior fizer o trabalho dele.
+- Mas essa esperança só para em pé se sênior fizer o trabalho dele.
 - Sênior não é imortal.
 - Vai mudar de empresa, vai cansar, vai se aposentar.
 - Se não formar substituto, a organização apodrece.
@@ -1022,16 +1018,16 @@ Tempo sugerido: ~0:55
 ---
 
 <!-- _class: statement -->
+![bg cover opacity:.16](../assets/offline/bg-building-collapse.jpg)
 <div class="eyebrow">Conclusão</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Building_collapse_in_S%C3%A3o_Paulo_2018_090.jpg</div>
 
-# IA não transforma
-# coder ruim
-# em engenheiro.
+# IA não transforma<br>coder ruim<br>em engenheiro.
 
 <!--
 Tempo sugerido: ~0:35
 
-- Então o fechamento é simples.
+- Então vem a parte dura.
 - IA não transforma programador ruim em engenheiro.
 - Ela ajuda programador ruim a fazer estrago maior mais rápido.
 - E ajuda engenheiro de verdade a atravessar esse caos com mais velocidade, sem deixar o software morrer.
@@ -1039,25 +1035,25 @@ Tempo sugerido: ~0:35
 ---
 
 <!-- _class: end -->
+![bg cover opacity:.16](../assets/offline/bg-mountain-climber.jpg)
 <div class="eyebrow">Conclusão</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mountain_Climber_In_Mountains_(Unsplash).jpg</div>
 
-# Vai sobreviver
-# quem souber
-# fazer engenharia.
+# Vai sobreviver<br>quem souber<br>fazer engenharia.
 
 ## Fundamento. Disciplina. Iteração. Gosto.
 
 <!--
 Tempo sugerido: ~0:40
 
-- Essa é minha conclusão pro Tropical Ruby 2026.
+- Então eu fecho assim.
 - Não vai sobreviver quem decorou truquezinho de prompt.
 - Vai sobreviver quem tem fundamento, disciplina, iteração e gosto.
 - Se você tem isso, IA vira multiplicador.
 -->
 ---
 
-<!-- _class: center -->
+<!-- _class: center tone-extra -->
 <div class="eyebrow">Merchan Sem Vergonha</div>
 
 <div style="display:flex;gap:36px;align-items:center;text-align:left;">
@@ -1081,11 +1077,11 @@ Tempo sugerido: ~0:20
 -->
 ---
 
-<!-- _class: center tone-sand -->
+<!-- _class: center tone-extra -->
+![bg cover opacity:.18](../assets/epilogue-workflow-bg.png)
 <div class="eyebrow">Bastidor</div>
 
-# Sim, este deck inteiro
-# foi feito com IA
+# Sim, este deck inteiro<br>foi feito com IA
 
 <div class="columns-3">
   <div class="card"><strong>Pesquisa e estrutura</strong><div class="mini">fontes, ordem dos argumentos, cortes e rearranjos</div></div>
@@ -1107,7 +1103,9 @@ Tempo sugerido: ~0:30
 -->
 ---
 
-<!-- _class: center end -->
+<!-- _class: center end tone-extra-dark -->
+![bg cover opacity:.16](../assets/offline/bg-standing-ovation.jpg)
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Standing_Ovation_(21835796).jpg</div>
 <div style="display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:100%;">
   <h1 style="font-size:3.9em;line-height:0.9;margin:90px 0 70px 0;letter-spacing:0.02em;">OBRIGADO</h1>
   <div class="card" style="margin-top:0;width:88%;padding:22px 28px;background:rgba(251,247,239,0.92);">
