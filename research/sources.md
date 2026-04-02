@@ -80,6 +80,11 @@ Runner-up: **Slidev**
 - Anthropic Max pricing help article: https://support.anthropic.com/
 - Oracle layoff report: https://www.cio.com/article/4153113/oracle-cuts-up-to-30000-jobs-globally-putting-enterprise-support-and-roadmaps-at-risk.html
 - AsamiArts referenced video metadata: https://www.youtube.com/watch?v=bokGdQOHGrw
+- IEA Energy and AI executive summary: https://www.iea.org/reports/energy-and-ai/executive-summary
+- Berkeley Lab data center electricity demand report summary: https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/
+- Anthropic Series G / compute capacity / Claude Code growth: https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation
+- NVIDIA on pretraining, post-training and test-time scaling: https://blogs.nvidia.com/blog/ai-scaling-laws/
+- Anthropic IPO report carried by Reuters: https://m.economictimes.com/tech/artificial-intelligence/anthropic-plans-an-ipo-as-early-as-2026/amp_articleshow/125731426.cms
 
 ## What is intentionally left for a later pass
 

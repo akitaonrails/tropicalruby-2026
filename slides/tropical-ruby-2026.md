@@ -223,8 +223,8 @@ Tempo sugerido: ~0:55
 <!-- _class: center tone-ruby -->
 # A evolução não bate
 
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 45%;">
+<div style="display:flex;gap:28px;align-items:center;text-align:left;">
+  <div style="flex:0 0 42%;">
     <div class="card"><strong>em pouco tempo muda demais</strong><br />traço, rosto, acabamento e construção saltam sem continuidade</div>
     <div class="lead" style="max-width:none;">Evolução humana existe, claro. O problema é quando a “mão” parece trocar de pessoa em intervalos curtos demais.</div>
   </div>
@@ -269,8 +269,8 @@ Tempo sugerido: ~0:45
 <!-- _class: center tone-ruby -->
 # LoRA é estilo empacotado
 
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 45%;">
+<div style="display:flex;gap:28px;align-items:center;text-align:left;">
+  <div style="flex:0 0 42%;">
     <ul>
       <li>LoRA é um ajuste leve em cima de um modelo base</li>
       <li>ele empurra o modelo para um traço, tema ou artista específico</li>
@@ -279,7 +279,7 @@ Tempo sugerido: ~0:45
     </ul>
   </div>
   <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/asamiarts lora steal.jpg" alt="Exemplo de uso e roubo de estilos com LoRA" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
+    <img src="../assets/asamiarts lora steal frame.jpg" alt="Exemplo de uso e roubo de estilos com LoRA" style="width:100%;height:440px;object-fit:contain;object-position:center top;background:#fff;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
   </div>
 </div>
 
@@ -436,17 +436,64 @@ Tempo sugerido: ~0:45
 ---
 
 <!-- _class: center tone-moss -->
+<div class="eyebrow">Linha Do Tempo</div>
+
+# 2025 fechou a pilha
+
+<div class="stats">
+  <div class="card"><strong>mar 2025</strong><span class="mini">Responses API, tools e Agents SDK viram produto</span></div>
+  <div class="card"><strong>mai 2025</strong><span class="mini">Claude 4 pensa entre tool calls e Claude Code vira GA</span></div>
+  <div class="card"><strong>ago 2025</strong><span class="mini">GPT-5 aguenta loop mais longo e erra menos no uso de ferramenta</span></div>
+  <div class="card"><strong>nov 2025</strong><span class="mini">GPT-5.1 e Opus 4.5 refinam uso diário</span></div>
+</div>
+
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Não foi um dia mágico. Foi o ano inteiro fechando modelo, thinking, tool support e operação.</div>
+
+<!--
+Tempo sugerido: ~0:55
+
+- Pra mim, 2025 foi o ano em que a pilha foi fechando.
+- Em março, tool support virou plataforma de verdade.
+- Em maio, a Anthropic já estava falando de thinking com tool use e colocando Claude Code em circulação séria.
+- Em agosto e novembro, os modelos de fronteira ficaram mais estáveis nesse loop.
+-->
+---
+
+<!-- _class: center tone-moss -->
+<div class="eyebrow">Convergência</div>
+
+# Modelo + ferramenta + CLI
+
+<div class="columns">
+  <div class="card"><strong>OpenAI</strong><br />Responses API em março, GPT-5 em agosto, GPT-5.1 em novembro, Codex CLI e Codex na nuvem trazendo shell, patch e tarefas longas pro fluxo real</div>
+  <div class="card"><strong>Anthropic</strong><br />Claude 4 em maio, Opus 4.5 em novembro, Claude Code no terminal, no editor e em execução em segundo plano com thinking entre chamadas de ferramenta</div>
+</div>
+
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Quando frontier model, tool support e terminal agent alinharam, dezembro virou mês de experimento sério.</div>
+
+<!--
+Tempo sugerido: ~0:55
+
+- O ponto não foi só sair modelo novo.
+- O ponto foi alinhar três camadas ao mesmo tempo: modelo melhor, suporte melhor de ferramenta, e CLI boa o bastante pra usar isso no trabalho.
+- A OpenAI empurrou a pilha de plataforma e Codex.
+- A Anthropic empurrou Claude 4, Opus 4.5 e Claude Code.
+-->
+---
+
+<!-- _class: center tone-moss -->
 <div class="eyebrow">Virada</div>
 
 # Fim de 2025
 # foi diferente
 
-<div class="columns">
+<div class="stats">
   <div class="card"><strong>13 nov 2025</strong><br />GPT-5.1 saiu para desenvolvedores</div>
   <div class="card"><strong>24 nov 2025</strong><br />Claude Opus 4.5 saiu</div>
+  <div class="card"><strong>dez 2025</strong><br />gente boa começou a testar isso pra valer</div>
 </div>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A virada não foi “virou gênio”. Foi modelo + ferramenta + execução no loop ficando bons o bastante pra trabalho diário.</div>
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Em janeiro de 2026 eu entrei nessa também. Foi daí que saiu a maratona.</div>
 
 
 <!--
@@ -455,112 +502,8 @@ Tempo sugerido: ~0:50
 - uma coisa realmente mudou.
 - OpenAI lançou GPT-5.1 pra desenvolvedores em 13 de novembro de 2025.
 - Anthropic lançou Claude Opus 4.5 em 24 de novembro de 2025.
-- Esse período importa porque foi quando o conjunto modelo mais ferramentas mais execução no loop ficou bom o bastante pra deixar de ser só chatice e começar a virar alavanca diária.
--->
----
-
-<!-- _class: statement -->
-<div class="eyebrow">O Pulo Do Gato</div>
-
-# Não foi QI.
-# Foi ferramenta.
-
-<div class="columns-3">
-  <div class="card"><strong>Shell e editor</strong><div class="mini">o modelo parou de só sugerir e passou a operar</div></div>
-  <div class="card"><strong>Teste e execução</strong><div class="mini">erro voltou como feedback em segundos</div></div>
-  <div class="card"><strong>Busca e contexto</strong><div class="mini">documentação e código viraram parte do loop</div></div>
-</div>
-
-
-<!--
-Tempo sugerido: ~0:40
-
-- Eu quero martelar isso porque muita gente ainda fala como se 2026 fosse sobre um salto mágico de inteligência.
-- Não foi.
-- O pulo do gato foi ferramenta.
-- Shell, editor, execução, teste, busca, documentação, leitura de código, tudo isso entrando no loop.
--->
----
-
-<!-- _class: statement tone-moss -->
-<div class="eyebrow">Ciclo do Agente</div>
-
-# Planeja.
-# Investiga.
-# Lapida.
-# Opera.
-# Testa.
-# Ajusta.
-
-<!--
-Tempo sugerido: ~0:35
-
-- E reparem como é o ciclo útil de verdade.
-- Eu até brinquei no slide pra formar um acróstico de “PILOTA”: planeja, investiga, lapida, opera, testa, ajusta.
-- Não tem nada de místico nisso.
-- É compressão de retorno de engenharia.
--->
----
-
-<!-- _class: center tone-moss -->
-# Prompt único
-# é pra demo
-
-<div class="columns">
-  <div class="card"><strong>Produção é iteração</strong><br />bug, deploy, retorno, refatoração, ajuste de prompt</div>
-  <div class="card"><strong>“Pronto” é mentira</strong><br />125 commits de pós-produção em 4 projetos</div>
-</div>
-
-
-<!--
-Tempo sugerido: ~0:55
-
-- A fantasia do prompt único é preguiçosa.
-- Ela parte da ideia de que dá pra prever e especificar tudo antes.
-- Software real não funciona assim.
-- Produção revela coisa que você nem sabia que importava.
--->
----
-
-<!-- _class: center -->
-<div class="eyebrow">Akita Antigo Continua Certo</div>
-
-# Fundamento primeiro
-
-<div class="thumb-grid">
-  <img src="https://img.youtube.com/vi/L0hTOY5n9G8/hqdefault.jpg" alt="O que os cursos não te ensinam sobre mercados" />
-  <img src="https://img.youtube.com/vi/oUPaJxk6TZ0/hqdefault.jpg" alt="Aprendendo a aprender" />
-  <img src="https://img.youtube.com/vi/V7oUDL7E1g4/hqdefault.jpg" alt="Programação não é fácil" />
-  <img src="https://img.youtube.com/vi/am-FQ86mKV0/hqdefault.jpg" alt="Aprendizado na beira do caos" />
-</div>
-
-<!--
-Tempo sugerido: ~0:50
-
-- É por isso que o Akita antigo continua valendo.
-- Não terceirize sua decisão.
-- Aprenda a aprender.
-- Entenda que programação não é fácil.
--->
----
-
-<!-- _class: center -->
-![bg cover opacity:.12](https://img.youtube.com/vi/D3L8IOncLkg/hqdefault.jpg)
-# Não terceirize
-# seu julgamento
-
-## nem pra guru  
-## nem pra bootcamp  
-## nem pro modelo
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A lógica continua a mesma: experimento pequeno, feedback rápido, correção contínua.</div>
-
-<!--
-Tempo sugerido: ~0:45
-
-- O mais difícil de ensinar pra iniciante é isso: julgamento não é uma coisa que você baixa pronta.
-- Não vem de influencer, não vem de bootcamp, não vem de modelo.
-- O modelo mental continua o mesmo: experimento pequeno na beira do caos, erro cedo, retorno rápido, correção contínua.
+- Em dezembro, muita gente boa começou a testar isso pesado no trabalho real.
+- Em janeiro de 2026, eu entrei nessa também.
 -->
 ---
 
@@ -704,6 +647,111 @@ Tempo sugerido: ~0:55
 - Isso foi entregue em 45 dias corridos, sim.
 - Mas em ritmo de maratona: quase 16 horas por dia, 7 dias por semana.
 - Se você converte isso para um sênior trabalhando num ritmo sustentável, no máximo 8 horas por dia e só em dias úteis, essa mesma entrega com IA vira algo como 126 dias corridos, perto de 4 meses e 1 semana.
+-->
+---
+
+<!-- _class: statement -->
+<div class="eyebrow">O Pulo Do Gato</div>
+
+# Não foi QI.
+# Foi ferramenta.
+
+<div class="columns-3">
+  <div class="card"><strong>Shell e editor</strong><div class="mini">o modelo parou de só sugerir e passou a operar</div></div>
+  <div class="card"><strong>Teste e execução</strong><div class="mini">erro voltou como feedback em segundos</div></div>
+  <div class="card"><strong>Busca e contexto</strong><div class="mini">documentação e código viraram parte do loop</div></div>
+</div>
+
+
+<!--
+Tempo sugerido: ~0:40
+
+- Eu quero martelar isso porque muita gente ainda fala como se 2026 fosse sobre um salto mágico de inteligência.
+- Não foi.
+- O pulo do gato foi ferramenta.
+- Shell, editor, execução, teste, busca, documentação, leitura de código, tudo isso entrando no loop.
+-->
+---
+
+<!-- _class: statement tone-moss -->
+<div class="eyebrow">Ciclo do Agente</div>
+
+# Planeja.
+# Investiga.
+# Lapida.
+# Opera.
+# Testa.
+# Ajusta.
+
+<!--
+Tempo sugerido: ~0:35
+
+- E reparem como é o ciclo útil de verdade.
+- Eu até brinquei no slide pra formar um acróstico de “PILOTA”: planeja, investiga, lapida, opera, testa, ajusta.
+- Não tem nada de místico nisso.
+- É compressão de retorno de engenharia.
+-->
+---
+
+<!-- _class: center tone-moss -->
+# Prompt único
+# é pra demo
+
+<div class="columns">
+  <div class="card"><strong>Produção é iteração</strong><br />bug, deploy, retorno, refatoração, ajuste de prompt</div>
+  <div class="card"><strong>“Pronto” é mentira</strong><br />125 commits de pós-produção em 4 projetos</div>
+</div>
+
+
+<!--
+Tempo sugerido: ~0:55
+
+- A fantasia do prompt único é preguiçosa.
+- Ela parte da ideia de que dá pra prever e especificar tudo antes.
+- Software real não funciona assim.
+- Produção revela coisa que você nem sabia que importava.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">Akita Antigo Continua Certo</div>
+
+# Fundamento primeiro
+
+<div class="thumb-grid">
+  <img src="https://img.youtube.com/vi/L0hTOY5n9G8/hqdefault.jpg" alt="O que os cursos não te ensinam sobre mercados" />
+  <img src="https://img.youtube.com/vi/oUPaJxk6TZ0/hqdefault.jpg" alt="Aprendendo a aprender" />
+  <img src="https://img.youtube.com/vi/V7oUDL7E1g4/hqdefault.jpg" alt="Programação não é fácil" />
+  <img src="https://img.youtube.com/vi/am-FQ86mKV0/hqdefault.jpg" alt="Aprendizado na beira do caos" />
+</div>
+
+<!--
+Tempo sugerido: ~0:50
+
+- É por isso que o Akita antigo continua valendo.
+- Não terceirize sua decisão.
+- Aprenda a aprender.
+- Entenda que programação não é fácil.
+-->
+---
+
+<!-- _class: center -->
+![bg cover opacity:.12](https://img.youtube.com/vi/D3L8IOncLkg/hqdefault.jpg)
+# Não terceirize
+# seu julgamento
+
+## nem pra guru  
+## nem pra bootcamp  
+## nem pro modelo
+
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A lógica continua a mesma: experimento pequeno, feedback rápido, correção contínua.</div>
+
+<!--
+Tempo sugerido: ~0:45
+
+- O mais difícil de ensinar pra iniciante é isso: julgamento não é uma coisa que você baixa pronta.
+- Não vem de influencer, não vem de bootcamp, não vem de modelo.
+- O modelo mental continua o mesmo: experimento pequeno na beira do caos, erro cedo, retorno rápido, correção contínua.
 -->
 ---
 
@@ -861,6 +909,39 @@ Tempo sugerido: ~0:40
 - Esse é o corte que importa.
 - O que ficou barato foi software trivial: CRUD, landing page, painel interno, bot, ETL, cola entre APIs.
 - O que continua caro é o que sempre foi caro: julgamento, arquitetura, gosto, operação, manutenção e alguém disposto a ser dono do problema quando a coisa quebra de verdade.
+-->
+---
+
+<!-- _class: center tone-moss -->
+<div class="eyebrow">Economia da IA</div>
+
+# Treino e inferência
+# disputam a mesma tomada
+
+<div class="columns" style="margin-top:28px;">
+  <div class="card"><strong>US$ 500 bi</strong><div class="mini">investimento global em data centers em 2024</div></div>
+  <div class="card"><strong>415 → 945 TWh</strong><div class="mini">consumo elétrico dos data centers de 2024 até 2030</div></div>
+</div>
+
+<div class="columns" style="margin-top:16px;">
+  <div class="card"><strong>20%</strong><div class="mini">dos projetos podem atrasar por gargalo de rede</div></div>
+  <div class="card"><strong>2,5 bi/ano</strong><div class="mini">ritmo anual do Claude Code, com uso semanal dobrando desde 1 jan 2026</div></div>
+</div>
+
+<div class="lead" style="max-width:900px;margin:18px auto 0 auto;text-align:center;">
+Meu palpite: com energia, margem e demanda apertando, eu esperaria menos milagre de treino e mais briga por eficiência, suporte a ferramentas e inferência.
+</div>
+
+<!--
+Tempo sugerido: ~0:55
+
+- Aqui entra minha especulação.
+- A conta física começou a apertar.
+- Data center consome mais energia, investimento explodiu e já tem projeto atrasando por gargalo de rede.
+- Ao mesmo tempo, agente bom gasta mais inferência por usuário do que chatbot bobo.
+- Então eu não espero salto de ordem de grandeza tão cedo.
+- Eu espero mais trabalho em eficiência, serving, tool support e produto.
+- E se a Anthropic vier mesmo para IPO este ano, a pressão por margem e previsibilidade aumenta mais ainda.
 -->
 ---
 
