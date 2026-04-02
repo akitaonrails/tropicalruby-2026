@@ -1,0 +1,10 @@
+# ai-jail sandbox configuration
+# https://github.com/akitaonrails/ai-jail
+# Edit freely. Regenerate with: ai-jail --clean --init
+
+command = ["codex"]
+rw_maps = [
+    "/home/akitaonrails/Pictures",
+    "/home/akitaonrails/Projects",
+]
+ro_maps = []

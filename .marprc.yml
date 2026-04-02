@@ -1,0 +1,7 @@
+themeSet:
+  - ./themes/tropical-ruby.css
+html: true
+allowLocalFiles: true
+bespoke:
+  progress: true
+  transition: true
