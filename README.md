@@ -22,22 +22,49 @@ Runner-up: **Slidev** is also strong and more app-like, especially for web-nativ
 - `research/sources.md`: source notes, tool choice rationale, factual anchors
 - `.marprc.yml`: Marp configuration
 
-## Build
+## Preview And Build
 
-If you want to render locally with Marp CLI:
+This repo has been tested in this environment with the wrapper scripts in `bin/`.
 
-```bash
-npx @marp-team/marp-cli@latest slides/tropical-ruby-2026.md --html --pdf --pptx
-```
-
-If you want editable PowerPoint output for final cleanup before importing into Google Slides:
+### Preview slides in browser
 
 ```bash
-npx @marp-team/marp-cli@latest slides/tropical-ruby-2026.md --pptx --pptx-editable
+bin/serve-slides
 ```
 
-Notes:
+Then open:
 
+```text
+http://localhost:8080/slides/tropical-ruby-2026.md
+```
+
+If you want the raw Marp wrapper instead:
+
+```bash
+bin/marp --server .
+```
+
+### Export all slide formats
+
+```bash
+bin/build-slides
+```
+
+Artifacts are written to `build/`.
+
+### Preview the speaker script
+
+Open `script/full-script.md` in any Markdown editor, or inspect it in terminal:
+
+```bash
+sed -n '1,260p' script/full-script.md
+```
+
+## Environment Notes
+
+- `@marp-team/marp-cli` currently fails under the local `Node.js v25.7.0`.
+- The wrapper uses `Node 22`, which was tested successfully here.
+- PDF/PPTX export also needs Chromium launched with `--no-sandbox` in this environment, which is handled by `bin/chromium-no-sandbox`.
 - This first pass intentionally uses mostly **remote image URLs** for speed.
 - For a conference-final deck, I would recommend freezing those assets locally before export.
 - Embedded video is best handled in the final HTML deck or by re-embedding the clip directly inside Google Slides after PPTX import.
