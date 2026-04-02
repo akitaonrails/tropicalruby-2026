@@ -1,32 +1,21 @@
 # Tropical Ruby 2026 Keynote
 
-This workspace contains a first executable pass of the `Tropical Ruby 2026` keynote in a declarative slide format.
+This repo holds the working deck for the `Tropical Ruby 2026` keynote.
+The slides are authored in Marp, the script lives separately, and the deck is exported to HTML, PDF, and PPTX from the same source.
 
-## Why Marp
+## Main files
 
-I chose **Marp** as the primary authoring tool for this pass.
-
-- It is Markdown-native and fast to iterate on.
-- `marp-cli` can export to **HTML, PDF, and PPTX**.
-- Its PPTX output can be opened by **Google Slides**.
-- The default HTML deck supports simple browser transitions.
-- It fits the requested `Presentation Zen` style better than a heavier slide framework.
-
-Runner-up: **Slidev** is also strong and more app-like, especially for web-native interactions, but it is heavier than needed for this talk.
-
-## Files
-
-- `slides/tropical-ruby-2026.md`: main Marp slide deck
-- `themes/tropical-ruby.css`: custom theme
-- `script/full-script.md`: speaker script matched to the slides
-- `research/sources.md`: source notes, tool choice rationale, factual anchors
+- `slides/tropical-ruby-2026.md`: main Marp deck, including presenter notes in HTML comments
+- `themes/tropical-ruby.css`: theme used by the deck
+- `script/full-script.md`: full speaker script, in slide order, with rough timing per slide
+- `research/sources.md`: factual anchors and source links
 - `.marprc.yml`: Marp configuration
+- `bin/serve-slides`: local preview server
+- `bin/build-slides`: rebuilds HTML, PDF, and PPTX
 
-## Preview And Build
+## Preview and build
 
-This repo has been tested in this environment with the wrapper scripts in `bin/`.
-
-### Preview slides in browser
+### Browser preview
 
 ```bash
 bin/serve-slides
@@ -38,13 +27,13 @@ Then open:
 http://localhost:8080/slides/tropical-ruby-2026.md
 ```
 
-If you want the raw Marp wrapper instead:
+If port `8080` is already in use:
 
 ```bash
-bin/marp --server .
+PORT=8081 bin/serve-slides
 ```
 
-### Export all slide formats
+### Rebuild all outputs
 
 ```bash
 bin/build-slides
@@ -52,19 +41,47 @@ bin/build-slides
 
 Artifacts are written to `build/`.
 
-### Preview the speaker script
-
-Open `script/full-script.md` in any Markdown editor, or inspect it in terminal:
+### Preview the script
 
 ```bash
 sed -n '1,260p' script/full-script.md
 ```
 
-## Environment Notes
+## Editing workflow
 
-- `@marp-team/marp-cli` currently fails under the local `Node.js v25.7.0`.
-- The wrapper uses `Node 22`, which was tested successfully here.
-- PDF/PPTX export also needs Chromium launched with `--no-sandbox` in this environment, which is handled by `bin/chromium-no-sandbox`.
-- This first pass intentionally uses mostly **remote image URLs** for speed.
-- For a conference-final deck, I would recommend freezing those assets locally before export.
-- Embedded video is best handled in the final HTML deck or by re-embedding the clip directly inside Google Slides after PPTX import.
+When changing the talk, keep these three things in sync:
+
+- `slides/tropical-ruby-2026.md`
+- `script/full-script.md`
+- presenter notes inside the slide deck
+
+The notes should stay shorter than the script:
+
+- use bullets, not prose blocks
+- keep them as speaking cues, not as a second full manuscript
+- keep the rough `Tempo sugerido` line aligned with the density of the slide
+
+If you add or rewrite visible text, do a cleanup pass so it still sounds human and spoken, not like generated copy.
+
+## Marp and PDF caveats
+
+This environment has a few sharp edges:
+
+- local `Node.js v25.7.0` breaks `@marp-team/marp-cli`
+- the wrappers use `Node 22`, which works here
+- PDF and PPTX export need Chromium with `--no-sandbox`, already handled by the wrapper scripts
+
+The PDF renderer is stricter than the browser and the PPTX export.
+If a layout looks fine in HTML but disappears or comes out incomplete in PDF, suspect the CSS first.
+
+Practical rule for this repo:
+
+- prefer simple flex layouts for raw HTML blocks in slides
+- avoid relying on CSS grid for slide cards and metric boxes
+- rebuild the PDF after theme or layout changes, not just the HTML
+
+## Asset notes
+
+- The deck still uses a mix of local assets and remote image URLs.
+- For a final conference-ready export, freezing more remote assets locally would make the build more stable.
+- Embedded video is better handled in the final HTML deck or re-added directly in Google Slides after PPTX import.

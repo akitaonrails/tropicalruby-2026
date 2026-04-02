@@ -172,25 +172,40 @@ section.center h1 {
 }
 
 .columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: nowrap;
   gap: 24px;
   align-items: center;
   margin-top: 24px;
 }
 
+.columns > * {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
 .columns-3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: nowrap;
   gap: 16px;
   margin-top: 22px;
 }
 
+.columns-3 > * {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
 .thumb-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 14px;
   margin-top: 22px;
+}
+
+.thumb-grid > * {
+  flex: 0 0 calc(25% - 11px);
+  min-width: 0;
 }
 
 .thumb-grid img,
@@ -199,10 +214,15 @@ section.center h1 {
 }
 
 .stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: nowrap;
   gap: 16px;
   margin-top: 24px;
+}
+
+.stats > * {
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .stats .card {
@@ -227,10 +247,15 @@ section.center h1 {
 }
 
 .timeline {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  flex-wrap: nowrap;
   gap: 12px;
   margin-top: 22px;
+}
+
+.timeline > * {
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .timeline .card {
@@ -241,4 +266,10 @@ section.center h1 {
   margin-top: 28px;
   font-size: 1.2em;
   max-width: 17ch;
+}
+
+@media print {
+  .card {
+    backdrop-filter: none;
+  }
 }
