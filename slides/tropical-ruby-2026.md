@@ -136,25 +136,160 @@ Tempo sugerido: ~0:35
 -->
 ---
 
-<!-- _class: center -->
+<!-- _class: center tone-ruby -->
 # Caso AsamiArts
 
-<div class="columns-3">
-  <div class="card"><strong>Parece liso</strong><div class="mini">sem erro, sem hesitação, sem processo visível</div></div>
-  <div class="card"><strong>Engana leigo</strong><div class="mini">a performance esconde o andaime</div></div>
-  <div class="card"><strong>Quebra na revisão</strong><div class="mini">inconsistência denuncia falta de base</div></div>
+<div style="display:flex;gap:32px;align-items:center;text-align:left;">
+  <div style="flex:0 0 42%;">
+    <div class="card">
+      <strong>Isso não é só drama de internet</strong><br />
+      tem mercado, comissão e renda real em volta disso
+    </div>
+    <div class="lead" style="max-width:none;">O ponto aqui não é fofoca. É processo falso vendido como habilidade real dentro de um mercado que vive de confiança.</div>
+  </div>
+  <div style="flex:1 1 auto;text-align:right;">
+    <img src="../assets/vgen.jpg" alt="Marketplace VGen" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
+  </div>
 </div>
 
-<div class="caption">Se depois você quiser trocar por frames literais do vídeo, este é o slide certo pra substituir.</div>
-
-
 <!--
-Tempo sugerido: ~1:10
+Tempo sugerido: ~0:45
 
 - O caso da AsamiArts me interessa não pela fofoca, mas pelo mecanismo.
-- O leigo olha um resultado liso, sem hesitação, sem erro visível, sem processo aparente, e conclui que aquilo prova domínio.
-- Só que justamente essa lisura pode ser encenação.
-- Andaime escondido.
+- Isso não afeta só ego de artista no Twitter.
+- Tem mercado real de comissão em volta disso.
+- Quando processo falso entra, confiança sai.
+-->
+---
+
+<!-- _class: center tone-ruby -->
+# Tracing sem processo
+
+<!-- pptx-video: asamiarts-tracing -->
+<div style="display:flex;gap:32px;align-items:center;text-align:left;">
+  <div style="flex:0 0 42%;">
+    <ul>
+      <li>não aparece construção bruta antes</li>
+      <li>não aparece ida e volta de correção</li>
+      <li>não aparece undo, hesitação, ajuste de proporção</li>
+      <li>parece “mão firme”, mas parece firme demais</li>
+    </ul>
+    <div class="caption">No PPTX com vídeo: clique para reproduzir.</div>
+  </div>
+  <div style="flex:1 1 auto;text-align:right;">
+    <img src="../assets/asamiarts tracing.jpg" alt="Frame do vídeo de tracing" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
+  </div>
+</div>
+
+<!--
+Tempo sugerido: ~0:55
+
+- Aqui é onde eu mostro o que um tracing falso tenta vender.
+- Não tem sketch feio antes.
+- Não tem correção de construção no meio.
+- Sai limpo demais, reto demais, confiante demais.
+-->
+---
+
+<!-- _class: center tone-ruby -->
+# A camada escondida
+
+<!-- pptx-video: tracing-hidden-layer -->
+<div style="display:flex;gap:34px;align-items:center;text-align:left;">
+  <div style="flex:0 0 48%;">
+    <ul>
+      <li>o vídeo não mostra o desenho “nascendo” de verdade</li>
+      <li>minha leitura é que existe uma camada base escondida por trás</li>
+      <li>o verde parece estar ali para sumir na edição</li>
+      <li>sem a camada escondida, a mágica some</li>
+    </ul>
+    <div class="caption">Inferência a partir do vídeo: isso parece truque de gravação, não processo honesto.</div>
+  </div>
+  <div style="flex:1 1 auto;text-align:right;">
+    <img src="../assets/tracing, hidden layer vertical.jpg" alt="Frame vertical mostrando a camada escondida" style="height:430px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
+  </div>
+</div>
+
+<!--
+Tempo sugerido: ~0:55
+
+- Esse é o pedaço mais importante.
+- Minha leitura é que o vídeo esconde uma camada pronta por trás.
+- O verde parece estar ali justamente para ser filtrado depois.
+- O vídeo vende tracing; o truque está na composição.
+-->
+---
+
+<!-- _class: center tone-ruby -->
+# A evolução não bate
+
+<div style="display:flex;gap:32px;align-items:center;text-align:left;">
+  <div style="flex:0 0 45%;">
+    <div class="card"><strong>em pouco tempo muda demais</strong><br />traço, rosto, acabamento e construção saltam sem continuidade</div>
+    <div class="lead" style="max-width:none;">Evolução humana existe, claro. O problema é quando a “mão” parece trocar de pessoa em intervalos curtos demais.</div>
+  </div>
+  <div style="flex:1 1 auto;text-align:right;">
+    <img src="../assets/asamiart inconsistent evolution.jpg" alt="Exemplo de evolução inconsistente no caso AsamiArts" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
+  </div>
+</div>
+
+<!--
+Tempo sugerido: ~0:50
+
+- Outro sinal é a inconsistência.
+- Não é só “melhorou”.
+- A mão muda demais em pouco tempo.
+- Parece mistura de fontes diferentes, não evolução orgânica.
+-->
+---
+
+<!-- _class: center tone-ruby -->
+# A alucinação entrega
+
+<div style="display:flex;gap:32px;align-items:center;text-align:left;">
+  <div style="flex:0 0 42%;">
+    <div class="card"><strong>o cano está do lado errado</strong><br />isso não é detalhe de estilo; é erro estrutural de entendimento</div>
+    <div class="lead" style="max-width:none;">É o mesmo tipo de erro que a gente já conhece em IA: a imagem parece plausível à primeira vista, mas desmonta quando você olha a anatomia do objeto.</div>
+  </div>
+  <div style="flex:1 1 auto;text-align:right;">
+    <img src="../assets/asamiarts halucination.jpg" alt="Exemplo de alucinacao em arte com arma desenhada errada" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
+  </div>
+</div>
+
+<!--
+Tempo sugerido: ~0:45
+
+- Aqui entra a alucinação mais óbvia.
+- A arma parece arma até você olhar direito.
+- O cano está do lado errado.
+- Isso é erro de entendimento, não acabamento.
+-->
+---
+
+<!-- _class: center tone-ruby -->
+# LoRA é estilo empacotado
+
+<div style="display:flex;gap:32px;align-items:center;text-align:left;">
+  <div style="flex:0 0 45%;">
+    <ul>
+      <li>LoRA é um ajuste leve em cima de um modelo base</li>
+      <li>ele empurra o modelo para um traço, tema ou artista específico</li>
+      <li>a comunidade treinou muita LoRA com imagem pública e zero autorização</li>
+      <li>depois isso volta disfarçado de “meu estilo”</li>
+    </ul>
+  </div>
+  <div style="flex:1 1 auto;text-align:right;">
+    <img src="../assets/asamiarts lora steal.jpg" alt="Exemplo de uso e roubo de estilos com LoRA" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
+  </div>
+</div>
+
+<!--
+Tempo sugerido: ~0:55
+
+- E tem outra camada aí: LoRA.
+- LoRA é um ajuste leve em cima de um modelo base para puxar um traço específico.
+- O problema é que muita LoRA foi treinada com arte pública sem autorização.
+- Aí o roubo de estilo volta embalado como ferramenta.
 -->
 ---
 

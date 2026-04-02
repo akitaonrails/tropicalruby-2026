@@ -11,7 +11,8 @@ The slides are authored in Marp, the script lives separately, and the deck is ex
 - `research/sources.md`: factual anchors and source links
 - `.marprc.yml`: Marp configuration
 - `bin/serve-slides`: local preview server
-- `bin/build-slides`: rebuilds HTML, PDF, and PPTX
+- `bin/build-slides`: rebuilds HTML, PDF, raw PPTX, and PPTX with embedded videos
+- `bin/embed-videos-pptx`: post-processes the Marp PPTX and injects local MP4s
 
 ## Preview and build
 
@@ -41,6 +42,11 @@ bin/build-slides
 
 Artifacts are written to `build/`.
 
+PPTX outputs:
+
+- `build/tropical-ruby-2026.pptx`: raw Marp export
+- `build/tropical-ruby-2026.with-video.pptx`: post-processed PPTX with embedded local MP4s
+
 ### Preview the script
 
 ```bash
@@ -63,6 +69,12 @@ The notes should stay shorter than the script:
 
 If you add or rewrite visible text, do a cleanup pass so it still sounds human and spoken, not like generated copy.
 
+If you move or redesign a slide that contains an embedded PPTX video:
+
+- keep the `<!-- pptx-video: ... -->` marker in the matching slide
+- keep the poster image in the slide so HTML/PDF still have a visible placeholder
+- rebuild the `.with-video.pptx` and verify the movie overlay still lands in the right place
+
 ## Marp and PDF caveats
 
 This environment has a few sharp edges:
@@ -84,4 +96,4 @@ Practical rule for this repo:
 
 - The deck still uses a mix of local assets and remote image URLs.
 - For a final conference-ready export, freezing more remote assets locally would make the build more stable.
-- Embedded video is better handled in the final HTML deck or re-added directly in Google Slides after PPTX import.
+- Embedded video for PowerPoint is now handled as a post-process step after Marp export, because Marp itself does not embed playable video in PPTX.

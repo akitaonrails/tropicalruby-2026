@@ -40,6 +40,7 @@ After slide or theme edits:
 
 - rebuild with `bin/build-slides`
 - check HTML, PDF, and PPTX, not just one output
+- if the deck uses PPTX video overlays, also check `build/tropical-ruby-2026.with-video.pptx`
 - if PDF breaks while HTML looks fine, simplify the layout
 
 For this repo, prefer:
@@ -51,6 +52,17 @@ Avoid:
 
 - fragile CSS grid layouts in raw HTML blocks
 - visual tricks that render in browser preview but disappear in PDF
+
+## PPTX video workflow
+
+Some slides contain `<!-- pptx-video: ... -->` markers in the markdown.
+
+Rules:
+
+- do not remove those markers unless you also remove the matching video asset and post-process entry
+- keep poster images visible in the slide itself so HTML and PDF still make sense
+- if you move the layout of a marked slide, verify the video placement in `scripts/embed_videos_pptx.py`
+- `bin/build-slides` should produce both the raw PPTX and `build/tropical-ruby-2026.with-video.pptx`
 
 ## Practical commands
 
