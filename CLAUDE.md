@@ -42,6 +42,12 @@ After slide or theme edits:
 - check HTML, PDF, and PPTX, not just one output
 - if the deck uses PPTX video overlays, also check `build/tropical-ruby-2026.with-video.pptx`
 - if PDF breaks while HTML looks fine, simplify the layout
+- keep the latest final build artifacts committed in the repo:
+  - `build/tropical-ruby-2026.html`
+  - `build/tropical-ruby-2026.pdf`
+  - `build/tropical-ruby-2026.pptx`
+  - `build/tropical-ruby-2026.with-video.pptx`
+- do not keep temporary preview images or scratch subfolders inside `build/`
 
 For this repo, prefer:
 
