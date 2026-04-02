@@ -32,9 +32,6 @@ Tempo sugerido: ~0:45
 
 <div class="stats">
   <div class="card"><strong>Codeminer 42</strong><span class="mini">cofundador, hoje no conselho</span></div>
-  <div class="card"><strong>RubyConf Brasil</strong><span class="mini">fundador e organizador até 2016</span></div>
-  <div class="card"><strong>@akitando</strong><span class="mini">500 mil+ seguidores</span></div>
-  <div class="card"><strong>Flow + Inteligência Ltda</strong><span class="mini">alcance além da bolha tech</span></div>
 </div>
 
 <!--
@@ -44,6 +41,57 @@ Tempo sugerido: ~0:40
 - Fundei e organizei a RubyConf Brasil até 2016.
 - Passei anos no YouTube com o Akitando.
 - E também fui parar fora da bolha tech, em programas como Flow e Inteligência Ltda.
+-->
+---
+
+<!-- _class: center -->
+# Fabio Akita
+
+<div class="stats">
+  <div class="card"><strong>Codeminer 42</strong><span class="mini">cofundador, hoje no conselho</span></div>
+  <div class="card"><strong>RubyConf Brasil</strong><span class="mini">fundador e organizador até 2016</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+# Fabio Akita
+
+<div class="stats">
+  <div class="card"><strong>Codeminer 42</strong><span class="mini">cofundador, hoje no conselho</span></div>
+  <div class="card"><strong>RubyConf Brasil</strong><span class="mini">fundador e organizador até 2016</span></div>
+  <div class="card"><strong>@akitando</strong><span class="mini">500 mil+ seguidores</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 3/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+# Fabio Akita
+
+<div class="stats">
+  <div class="card"><strong>Codeminer 42</strong><span class="mini">cofundador, hoje no conselho</span></div>
+  <div class="card"><strong>RubyConf Brasil</strong><span class="mini">fundador e organizador até 2016</span></div>
+  <div class="card"><strong>@akitando</strong><span class="mini">500 mil+ seguidores</span></div>
+  <div class="card"><strong>Flow + Inteligência Ltda</strong><span class="mini">alcance além da bolha tech</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 4/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -76,10 +124,6 @@ Tempo sugerido: ~0:45
 
 <div class="timeline">
   <div class="card"><strong>2019</strong><span class="mini">o inverno estava chegando</span></div>
-  <div class="card"><strong>2020</strong><span class="mini">programação não é fácil</span></div>
-  <div class="card"><strong>2022</strong><span class="mini">a bolha estourou</span></div>
-  <div class="card"><strong>2025</strong><span class="mini">LLMs são loot boxes</span></div>
-  <div class="card"><strong>2026</strong><span class="mini">agentes ficaram úteis</span></div>
 </div>
 
 <!--
@@ -89,6 +133,113 @@ Tempo sugerido: ~0:50
 - Em 2019 eu já avisava que a bolha ia azedar.
 - Em 2020 eu continuava repetindo que programação não é fácil.
 - Em 2022 a bolha estourou de vez.
+-->
+---
+
+<!-- _class: center -->
+![bg cover opacity:.10](https://img.youtube.com/vi/wpPv1dJWjDs/hqdefault.jpg)
+<div class="eyebrow">2019 → 2026</div>
+
+# Mesma tese.
+# Ferramenta nova.
+
+<div class="timeline">
+  <div class="card"><strong>2019</strong><span class="mini">o inverno estava chegando</span></div>
+  <div class="card"><strong>2020</strong><span class="mini">programação não é fácil</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/5.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+![bg cover opacity:.10](https://img.youtube.com/vi/wpPv1dJWjDs/hqdefault.jpg)
+<div class="eyebrow">2019 → 2026</div>
+
+# Mesma tese.
+# Ferramenta nova.
+
+<div class="timeline">
+  <div class="card"><strong>2019</strong><span class="mini">o inverno estava chegando</span></div>
+  <div class="card"><strong>2020</strong><span class="mini">programação não é fácil</span></div>
+  <div class="card"><strong>2022</strong><span class="mini">a bolha estourou</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 3/5.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+![bg cover opacity:.10](https://img.youtube.com/vi/wpPv1dJWjDs/hqdefault.jpg)
+<div class="eyebrow">2019 → 2026</div>
+
+# Mesma tese.
+# Ferramenta nova.
+
+<div class="timeline">
+  <div class="card"><strong>2019</strong><span class="mini">o inverno estava chegando</span></div>
+  <div class="card"><strong>2020</strong><span class="mini">programação não é fácil</span></div>
+  <div class="card"><strong>2022</strong><span class="mini">a bolha estourou</span></div>
+  <div class="card"><strong>2025</strong><span class="mini">LLMs são loot boxes</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 4/5.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+![bg cover opacity:.10](https://img.youtube.com/vi/wpPv1dJWjDs/hqdefault.jpg)
+<div class="eyebrow">2019 → 2026</div>
+
+# Mesma tese.
+# Ferramenta nova.
+
+<div class="timeline">
+  <div class="card"><strong>2019</strong><span class="mini">o inverno estava chegando</span></div>
+  <div class="card"><strong>2020</strong><span class="mini">programação não é fácil</span></div>
+  <div class="card"><strong>2022</strong><span class="mini">a bolha estourou</span></div>
+  <div class="card"><strong>2025</strong><span class="mini">LLMs são loot boxes</span></div>
+  <div class="card"><strong>2026</strong><span class="mini">agentes ficaram úteis</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 5/5.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+# A mentira antiga
+
+## “vire engenheiro
+## de software
+## em 2 meses”
+
+<div class="columns">
+  <div class="card"><strong>Fim de 2022</strong><br />layoffs vieram antes da IA saber programar direito</div>
+</div>
+
+<!--
+Tempo sugerido: ~0:55
+
+- A mentira antiga era simples: faz um cursinho rápido, vira engenheiro de software, ganha salário alto e entra no modo easy.
+- Isso sempre foi conversa mole.
+- Bootcamp ensina ferramenta.
+- Não comprime anos de julgamento de engenharia em poucos meses.
 -->
 ---
 
@@ -105,12 +256,10 @@ Tempo sugerido: ~0:50
 </div>
 
 <!--
-Tempo sugerido: ~0:55
+Tempo sugerido: incluído no slide anterior
 
-- A mentira antiga era simples: faz um cursinho rápido, vira engenheiro de software, ganha salário alto e entra no modo easy.
-- Isso sempre foi conversa mole.
-- Bootcamp ensina ferramenta.
-- Não comprime anos de julgamento de engenharia em poucos meses.
+- Reveal 2/2.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -138,8 +287,6 @@ Tempo sugerido: ~0:35
 
 <div class="columns-3">
   <div class="card"><strong>Parece liso</strong><div class="mini">sem erro, sem hesitação, sem processo visível</div></div>
-  <div class="card"><strong>Engana leigo</strong><div class="mini">a performance esconde o andaime</div></div>
-  <div class="card"><strong>Quebra na revisão</strong><div class="mini">inconsistência denuncia falta de base</div></div>
 </div>
 
 <div class="caption">Se depois você quiser trocar por frames literais do vídeo, este é o slide certo pra substituir.</div>
@@ -151,6 +298,43 @@ Tempo sugerido: ~1:10
 - O leigo olha um resultado liso, sem hesitação, sem erro visível, sem processo aparente, e conclui que aquilo prova domínio.
 - Só que justamente essa lisura pode ser encenação.
 - Andaime escondido.
+-->
+---
+
+<!-- _class: center -->
+# Caso AsamiArts
+
+<div class="columns-3">
+  <div class="card"><strong>Parece liso</strong><div class="mini">sem erro, sem hesitação, sem processo visível</div></div>
+  <div class="card"><strong>Engana leigo</strong><div class="mini">a performance esconde o andaime</div></div>
+</div>
+
+<div class="caption">Se depois você quiser trocar por frames literais do vídeo, este é o slide certo pra substituir.</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+# Caso AsamiArts
+
+<div class="columns-3">
+  <div class="card"><strong>Parece liso</strong><div class="mini">sem erro, sem hesitação, sem processo visível</div></div>
+  <div class="card"><strong>Engana leigo</strong><div class="mini">a performance esconde o andaime</div></div>
+  <div class="card"><strong>Quebra na revisão</strong><div class="mini">inconsistência denuncia falta de base</div></div>
+</div>
+
+<div class="caption">Se depois você quiser trocar por frames literais do vídeo, este é o slide certo pra substituir.</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 3/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -180,9 +364,6 @@ Tempo sugerido: ~1:00
 
 <div class="stats">
   <div class="card"><strong>512 mil</strong><span class="mini">linhas de TypeScript</span></div>
-  <div class="card"><strong>1.900</strong><span class="mini">arquivos</span></div>
-  <div class="card"><strong>59,8 MB</strong><span class="mini">de mapa do código exposto</span></div>
-  <div class="card"><strong>6,5/10</strong><span class="mini">o “espaguete de sênior”</span></div>
 </div>
 
 <!--
@@ -190,6 +371,63 @@ Tempo sugerido: ~0:45
 
 - Daí veio uma das confirmações mais engraçadas possíveis dessa tese: o vazamento do Claude Code em 31 de março de 2026.
 - A CLI oficial da Anthropic deixou escapar um mapa enorme do código e, de repente, todo mundo pôde olhar as tripas de uma das ferramentas de agente mais importantes do mercado.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">31 de março de 2026</div>
+
+# Claude Code vazou
+
+<div class="stats">
+  <div class="card"><strong>512 mil</strong><span class="mini">linhas de TypeScript</span></div>
+  <div class="card"><strong>1.900</strong><span class="mini">arquivos</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">31 de março de 2026</div>
+
+# Claude Code vazou
+
+<div class="stats">
+  <div class="card"><strong>512 mil</strong><span class="mini">linhas de TypeScript</span></div>
+  <div class="card"><strong>1.900</strong><span class="mini">arquivos</span></div>
+  <div class="card"><strong>59,8 MB</strong><span class="mini">de mapa do código exposto</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 3/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">31 de março de 2026</div>
+
+# Claude Code vazou
+
+<div class="stats">
+  <div class="card"><strong>512 mil</strong><span class="mini">linhas de TypeScript</span></div>
+  <div class="card"><strong>1.900</strong><span class="mini">arquivos</span></div>
+  <div class="card"><strong>59,8 MB</strong><span class="mini">de mapa do código exposto</span></div>
+  <div class="card"><strong>6,5/10</strong><span class="mini">o “espaguete de sênior”</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 4/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -221,7 +459,6 @@ Tempo sugerido: ~0:20
 
 <div class="columns">
   <div class="card"><strong>Nem a Anthropic escapa</strong><br />pressão de entrega também gera código tático</div>
-  <div class="card"><strong>E copiaram rápido</strong><br />free-code e reimplementações apareceram quase na hora</div>
 </div>
 
 <!--
@@ -231,6 +468,23 @@ Tempo sugerido: ~1:00
 - Não apareceu magia.
 - Apareceu uma base grande, pressionada por entrega, cheia de decisão tática, chave de recurso, remendo e complexidade operacional.
 - O famoso espaguete de sênior.
+-->
+---
+
+<!-- _class: center -->
+# A lição não foi
+# “uau, magia”
+
+<div class="columns">
+  <div class="card"><strong>Nem a Anthropic escapa</strong><br />pressão de entrega também gera código tático</div>
+  <div class="card"><strong>E copiaram rápido</strong><br />free-code e reimplementações apareceram quase na hora</div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/2.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -256,8 +510,6 @@ Tempo sugerido: ~0:35
 
 <div class="columns-3">
   <div class="card"><strong>Probabilísticas</strong><div class="mini">nunca 100% confiáveis</div></div>
-  <div class="card"><strong>Dependem de contexto</strong><div class="mini">qualidade depende do que você dá e do que você checa</div></div>
-  <div class="card"><strong>Gastam loop</strong><div class="mini">o ecossistema inteiro te incentiva a gastar mais tokens</div></div>
 </div>
 
 <!--
@@ -267,6 +519,78 @@ Tempo sugerido: ~0:55
 - Não são compiladores determinísticos.
 - Não existe garantia de correção.
 - Dá pra melhorar bastante as chances com contexto, ferramenta, ciclo de avaliação e prompt melhor? Dá.
+-->
+---
+
+<!-- _class: center -->
+# LLMs são loot boxes
+
+<div class="columns-3">
+  <div class="card"><strong>Probabilísticas</strong><div class="mini">nunca 100% confiáveis</div></div>
+  <div class="card"><strong>Dependem de contexto</strong><div class="mini">qualidade depende do que você dá e do que você checa</div></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+# LLMs são loot boxes
+
+<div class="columns-3">
+  <div class="card"><strong>Probabilísticas</strong><div class="mini">nunca 100% confiáveis</div></div>
+  <div class="card"><strong>Dependem de contexto</strong><div class="mini">qualidade depende do que você dá e do que você checa</div></div>
+  <div class="card"><strong>Gastam loop</strong><div class="mini">o ecossistema inteiro te incentiva a gastar mais tokens</div></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 3/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">2026 Ainda</div>
+
+# Modelo ainda
+# bajula e erra
+
+<div class="columns-3">
+  <div class="card"><strong>Bajula você</strong><div class="mini">muitas vezes responde o que você quer ouvir</div></div>
+</div>
+
+<!--
+Tempo sugerido: ~0:45
+
+- E eu quero deixar uma coisa bem explícita: o modelo de 2026 ainda baixa a cabeça pra você.
+- Se você vier com premissa torta, ele muitas vezes prefere te agradar em vez de te contrariar.
+- Ele também continua errando com confiança.
+- Inventa detalhe, completa lacuna do jeito errado, segue em frente como se estivesse tudo certo.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">2026 Ainda</div>
+
+# Modelo ainda
+# bajula e erra
+
+<div class="columns-3">
+  <div class="card"><strong>Bajula você</strong><div class="mini">muitas vezes responde o que você quer ouvir</div></div>
+  <div class="card"><strong>Erra confiante</strong><div class="mini">inventa detalhe e segue como se estivesse certo</div></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -283,12 +607,28 @@ Tempo sugerido: ~0:55
 </div>
 
 <!--
-Tempo sugerido: ~0:45
+Tempo sugerido: incluído no slide anterior
 
-- E eu quero deixar uma coisa bem explícita: o modelo de 2026 ainda baixa a cabeça pra você.
-- Se você vier com premissa torta, ele muitas vezes prefere te agradar em vez de te contrariar.
-- Ele também continua errando com confiança.
-- Inventa detalhe, completa lacuna do jeito errado, segue em frente como se estivesse tudo certo.
+- Reveal 3/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+# Prompt único
+# é pra demo
+
+<div class="columns">
+  <div class="card"><strong>Produção é iteração</strong><br />bug, deploy, retorno, refatoração, ajuste de prompt</div>
+</div>
+
+<!--
+Tempo sugerido: ~0:55
+
+- A fantasia do prompt único é preguiçosa.
+- Ela parte da ideia de que dá pra prever e especificar tudo antes.
+- Software real não funciona assim.
+- Produção revela coisa que você nem sabia que importava.
 -->
 ---
 
@@ -302,12 +642,32 @@ Tempo sugerido: ~0:45
 </div>
 
 <!--
-Tempo sugerido: ~0:55
+Tempo sugerido: incluído no slide anterior
 
-- A fantasia do prompt único é preguiçosa.
-- Ela parte da ideia de que dá pra prever e especificar tudo antes.
-- Software real não funciona assim.
-- Produção revela coisa que você nem sabia que importava.
+- Reveal 2/2.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">Virada</div>
+
+# Fim de 2025
+# foi diferente
+
+<div class="columns">
+  <div class="card"><strong>13 nov 2025</strong><br />GPT-5.1 saiu para desenvolvedores</div>
+</div>
+
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A virada não foi “virou gênio”. Foi modelo + ferramenta + execução no loop ficando bons o bastante pra trabalho diário.</div>
+
+<!--
+Tempo sugerido: ~0:50
+
+- uma coisa realmente mudou.
+- OpenAI lançou GPT-5.1 pra desenvolvedores em 13 de novembro de 2025.
+- Anthropic lançou Claude Opus 4.5 em 24 de novembro de 2025.
+- Esse período importa porque foi quando o conjunto modelo mais ferramentas mais execução no loop ficou bom o bastante pra deixar de ser só chatice e começar a virar alavanca diária.
 -->
 ---
 
@@ -325,12 +685,49 @@ Tempo sugerido: ~0:55
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A virada não foi “virou gênio”. Foi modelo + ferramenta + execução no loop ficando bons o bastante pra trabalho diário.</div>
 
 <!--
-Tempo sugerido: ~0:50
+Tempo sugerido: incluído no slide anterior
 
-- uma coisa realmente mudou.
-- OpenAI lançou GPT-5.1 pra desenvolvedores em 13 de novembro de 2025.
-- Anthropic lançou Claude Opus 4.5 em 24 de novembro de 2025.
-- Esse período importa porque foi quando o conjunto modelo mais ferramentas mais execução no loop ficou bom o bastante pra deixar de ser só chatice e começar a virar alavanca diária.
+- Reveal 2/2.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: statement -->
+<div class="eyebrow">O Pulo Do Gato</div>
+
+# Não foi QI.
+# Foi ferramenta.
+
+<div class="columns-3">
+  <div class="card"><strong>Shell e editor</strong><div class="mini">o modelo parou de só sugerir e passou a operar</div></div>
+</div>
+
+<!--
+Tempo sugerido: ~0:40
+
+- Eu quero martelar isso porque muita gente ainda fala como se 2026 fosse sobre um salto mágico de inteligência.
+- Não foi.
+- O pulo do gato foi ferramenta.
+- Shell, editor, execução, teste, busca, documentação, leitura de código, tudo isso entrando no loop.
+-->
+---
+
+<!-- _class: statement -->
+<div class="eyebrow">O Pulo Do Gato</div>
+
+# Não foi QI.
+# Foi ferramenta.
+
+<div class="columns-3">
+  <div class="card"><strong>Shell e editor</strong><div class="mini">o modelo parou de só sugerir e passou a operar</div></div>
+  <div class="card"><strong>Teste e execução</strong><div class="mini">erro voltou como feedback em segundos</div></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -347,12 +744,10 @@ Tempo sugerido: ~0:50
 </div>
 
 <!--
-Tempo sugerido: ~0:40
+Tempo sugerido: incluído no slide anterior
 
-- Eu quero martelar isso porque muita gente ainda fala como se 2026 fosse sobre um salto mágico de inteligência.
-- Não foi.
-- O pulo do gato foi ferramenta.
-- Shell, editor, execução, teste, busca, documentação, leitura de código, tudo isso entrando no loop.
+- Reveal 3/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -471,7 +866,6 @@ Tempo sugerido: ~0:35
 
 <div class="columns">
   <div class="card"><strong>FrankMD</strong><br />212 commits em 19 dias, refactor pesado, teste correndo atrás</div>
-  <div class="card"><strong>M.Akita Chronicles</strong><br />274 commits em 8 dias, TDD, CI e refatoração contínua</div>
 </div>
 
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A variável não foi “IA melhor”. Foi disciplina de engenharia desde o primeiro commit.</div>
@@ -483,6 +877,93 @@ Tempo sugerido: ~0:55
 - FrankMD de um lado.
 - M.Akita Chronicles do outro.
 - Mesmo desenvolvedor.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">A Prova Prática</div>
+
+# Mesmo dev.
+# Mesmo agente.
+# Processo diferente.
+
+<div class="columns">
+  <div class="card"><strong>FrankMD</strong><br />212 commits em 19 dias, refactor pesado, teste correndo atrás</div>
+  <div class="card"><strong>M.Akita Chronicles</strong><br />274 commits em 8 dias, TDD, CI e refatoração contínua</div>
+</div>
+
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A variável não foi “IA melhor”. Foi disciplina de engenharia desde o primeiro commit.</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/2.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">No Conjunto Completo Dos Projetos Citados</div>
+
+# Números
+# que pesam
+
+<div class="stats">
+  <div class="card"><strong>723.935</strong><span class="mini">linhas de código</span></div>
+</div>
+
+<div class="caption">Agregado dos projetos citados no começo da palestra, com o mesmo critério em produção e teste: só código próprio, excluindo documentação, fixtures, snapshots e árvores importadas de terceiros.</div>
+
+<!--
+Tempo sugerido: ~1:05
+
+- E aqui é onde eu boto peso na afirmação de velocidade.
+- Se eu agrego o conjunto de projetos citado no começo da palestra, dá 723.935 linhas de código, 199.250 linhas de teste, 1.116 commits e cerca de 194 horas ativas estimadas.
+- E essa conta está fechada com o mesmo critério dos dois lados: só arquivo de código próprio, separando produção de teste pelo path, e excluindo documentação, fixtures, snapshots e árvore importada de terceiros.
+- Então não tem README, arquivo auxiliar ou biblioteca de terceiro inflando número.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">No Conjunto Completo Dos Projetos Citados</div>
+
+# Números
+# que pesam
+
+<div class="stats">
+  <div class="card"><strong>723.935</strong><span class="mini">linhas de código</span></div>
+  <div class="card"><strong>199.250</strong><span class="mini">linhas de teste</span></div>
+</div>
+
+<div class="caption">Agregado dos projetos citados no começo da palestra, com o mesmo critério em produção e teste: só código próprio, excluindo documentação, fixtures, snapshots e árvores importadas de terceiros.</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">No Conjunto Completo Dos Projetos Citados</div>
+
+# Números
+# que pesam
+
+<div class="stats">
+  <div class="card"><strong>723.935</strong><span class="mini">linhas de código</span></div>
+  <div class="card"><strong>199.250</strong><span class="mini">linhas de teste</span></div>
+  <div class="card"><strong>1.116</strong><span class="mini">commits</span></div>
+</div>
+
+<div class="caption">Agregado dos projetos citados no começo da palestra, com o mesmo critério em produção e teste: só código próprio, excluindo documentação, fixtures, snapshots e árvores importadas de terceiros.</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 3/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -502,12 +983,63 @@ Tempo sugerido: ~0:55
 <div class="caption">Agregado dos projetos citados no começo da palestra, com o mesmo critério em produção e teste: só código próprio, excluindo documentação, fixtures, snapshots e árvores importadas de terceiros.</div>
 
 <!--
-Tempo sugerido: ~1:05
+Tempo sugerido: incluído no slide anterior
 
-- E aqui é onde eu boto peso na afirmação de velocidade.
-- Se eu agrego o conjunto de projetos citado no começo da palestra, dá 723.935 linhas de código, 199.250 linhas de teste, 1.116 commits e cerca de 194 horas ativas estimadas.
-- E essa conta está fechada com o mesmo critério dos dois lados: só arquivo de código próprio, separando produção de teste pelo path, e excluindo documentação, fixtures, snapshots e árvore importada de terceiros.
-- Então não tem README, arquivo auxiliar ou biblioteca de terceiro inflando número.
+- Reveal 4/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+# O que eu ganhei
+# de verdade
+
+<div class="stats">
+  <div class="card"><strong>5x a 10x</strong><span class="mini">de velocidade</span></div>
+</div>
+
+<!--
+Tempo sugerido: ~1:00
+
+- Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade.
+- Não porque o modelo escreve código perfeito.
+- Não escreve.
+- O ganho vem porque ele atravessa aquele atrito chato que normalmente quebra foco: código repetitivo, busca, refatoração repetitiva, teste repetitivo, execução de comando, tentativa rápida.
+-->
+---
+
+<!-- _class: center -->
+# O que eu ganhei
+# de verdade
+
+<div class="stats">
+  <div class="card"><strong>5x a 10x</strong><span class="mini">de velocidade</span></div>
+  <div class="card"><strong>Mais tração</strong><span class="mini">menos bloqueio, menos procrastinação</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+# O que eu ganhei
+# de verdade
+
+<div class="stats">
+  <div class="card"><strong>5x a 10x</strong><span class="mini">de velocidade</span></div>
+  <div class="card"><strong>Mais tração</strong><span class="mini">menos bloqueio, menos procrastinação</span></div>
+  <div class="card"><strong>Mais alcance</strong><span class="mini">stack inteira, ferramentas, deploy, documentação</span></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 3/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -523,12 +1055,75 @@ Tempo sugerido: ~1:05
 </div>
 
 <!--
-Tempo sugerido: ~1:00
+Tempo sugerido: incluído no slide anterior
 
-- Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade.
-- Não porque o modelo escreve código perfeito.
-- Não escreve.
-- O ganho vem porque ele atravessa aquele atrito chato que normalmente quebra foco: código repetitivo, busca, refatoração repetitiva, teste repetitivo, execução de comando, tentativa rápida.
+- Reveal 4/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">Normalizando o Ritmo</div>
+
+# 45 dias de maratona
+# não são 45 dias normais
+
+<div class="stats">
+  <div class="card"><strong>45 dias corridos</strong><span class="mini">quase 16h por dia, 7 dias por semana</span></div>
+</div>
+
+<div class="caption">Estimativa linear em calendário real de trabalho: 8h por dia, só em dias úteis.</div>
+
+<!--
+Tempo sugerido: ~0:55
+
+- Aqui eu preciso fazer a conta honesta, senão parece truque de palco.
+- Isso foi entregue em 45 dias corridos, sim.
+- Mas em ritmo de maratona: quase 16 horas por dia, 7 dias por semana.
+- Se você converte isso para um sênior trabalhando num ritmo sustentável, no máximo 8 horas por dia e só em dias úteis, essa mesma entrega com IA vira algo como 126 dias corridos, perto de 4 meses e 1 semana.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">Normalizando o Ritmo</div>
+
+# 45 dias de maratona
+# não são 45 dias normais
+
+<div class="stats">
+  <div class="card"><strong>45 dias corridos</strong><span class="mini">quase 16h por dia, 7 dias por semana</span></div>
+  <div class="card"><strong>~126 dias corridos</strong><span class="mini">algo perto de 4 meses e 1 semana</span></div>
+</div>
+
+<div class="caption">Estimativa linear em calendário real de trabalho: 8h por dia, só em dias úteis.</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">Normalizando o Ritmo</div>
+
+# 45 dias de maratona
+# não são 45 dias normais
+
+<div class="stats">
+  <div class="card"><strong>45 dias corridos</strong><span class="mini">quase 16h por dia, 7 dias por semana</span></div>
+  <div class="card"><strong>~126 dias corridos</strong><span class="mini">algo perto de 4 meses e 1 semana</span></div>
+  <div class="card"><strong>~630 a 1.260 dias corridos</strong><span class="mini">o mesmo sênior sem IA</span></div>
+</div>
+
+<div class="caption">Estimativa linear em calendário real de trabalho: 8h por dia, só em dias úteis.</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 3/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -548,12 +1143,10 @@ Tempo sugerido: ~1:00
 <div class="caption">Estimativa linear em calendário real de trabalho: 8h por dia, só em dias úteis.</div>
 
 <!--
-Tempo sugerido: ~0:55
+Tempo sugerido: incluído no slide anterior
 
-- Aqui eu preciso fazer a conta honesta, senão parece truque de palco.
-- Isso foi entregue em 45 dias corridos, sim.
-- Mas em ritmo de maratona: quase 16 horas por dia, 7 dias por semana.
-- Se você converte isso para um sênior trabalhando num ritmo sustentável, no máximo 8 horas por dia e só em dias úteis, essa mesma entrega com IA vira algo como 126 dias corridos, perto de 4 meses e 1 semana.
+- Reveal 4/4.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -582,8 +1175,6 @@ Tempo sugerido: ~0:45
 
 <div class="columns-3">
   <div class="card"><strong>TDD</strong><div class="mini">segura erro de modelo antes de virar lama</div></div>
-  <div class="card"><strong>CI por commit</strong><div class="mini">pega drift e regressão cedo</div></div>
-  <div class="card"><strong>Refatoração contínua</strong><div class="mini">evita cirurgia cara depois</div></div>
 </div>
 
 <!--
@@ -593,6 +1184,60 @@ Tempo sugerido: ~0:45
 - TDD não é perfumaria.
 - CI não é perfumaria.
 - Refatoração contínua não é perfumaria.
+-->
+---
+
+<!-- _class: center -->
+# XP não é
+# perfumaria
+
+<div class="columns-3">
+  <div class="card"><strong>TDD</strong><div class="mini">segura erro de modelo antes de virar lama</div></div>
+  <div class="card"><strong>CI por commit</strong><div class="mini">pega drift e regressão cedo</div></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+# XP não é
+# perfumaria
+
+<div class="columns-3">
+  <div class="card"><strong>TDD</strong><div class="mini">segura erro de modelo antes de virar lama</div></div>
+  <div class="card"><strong>CI por commit</strong><div class="mini">pega drift e regressão cedo</div></div>
+  <div class="card"><strong>Refatoração contínua</strong><div class="mini">evita cirurgia cara depois</div></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 3/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+# O pareamento mudou
+
+<div class="columns">
+  <div class="card"><strong>Eu trago</strong><br />direção, julgamento, contexto, gosto</div>
+</div>
+
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">IA é espelho: sênior bom ganha alavancagem, programador ruim ganha velocidade pra errar.</div>
+
+<!--
+Tempo sugerido: ~1:00
+
+- O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto.
+- O agente traz velocidade de execução, busca e fôlego operacional.
+- Se eu reduzo o agente a digitador burro, piora.
+- Se eu entrego produto e arquitetura pra ele sozinho, piora também.
 -->
 ---
 
@@ -607,12 +1252,49 @@ Tempo sugerido: ~0:45
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">IA é espelho: sênior bom ganha alavancagem, programador ruim ganha velocidade pra errar.</div>
 
 <!--
-Tempo sugerido: ~1:00
+Tempo sugerido: incluído no slide anterior
 
-- O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto.
-- O agente traz velocidade de execução, busca e fôlego operacional.
-- Se eu reduzo o agente a digitador burro, piora.
-- Se eu entrego produto e arquitetura pra ele sozinho, piora também.
+- Reveal 2/2.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">Estado dos Modelos, 1 de abril de 2026</div>
+
+# Modelos fechados
+# ainda lideram
+
+<div class="columns-3">
+  <div class="card"><strong>Anthropic</strong><div class="mini">continua no topo pra agentes de código</div></div>
+</div>
+
+<!--
+Tempo sugerido: ~0:55
+
+- No ecossistema de modelos em 1 de abril de 2026, minha leitura prática é simples.
+- Anthropic e OpenAI continuam sendo as plataformas de ponta que mais importam pra código sério.
+- Existem seguidores relevantes, como GLM, MiniMax e Kimi.
+- Open source é útil, mas ainda não empatou no fluxo completo com agentes.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">Estado dos Modelos, 1 de abril de 2026</div>
+
+# Modelos fechados
+# ainda lideram
+
+<div class="columns-3">
+  <div class="card"><strong>Anthropic</strong><div class="mini">continua no topo pra agentes de código</div></div>
+  <div class="card"><strong>OpenAI</strong><div class="mini">GPT-5.1 virou modelo forte pra código e agentes</div></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -629,12 +1311,10 @@ Tempo sugerido: ~1:00
 </div>
 
 <!--
-Tempo sugerido: ~0:55
+Tempo sugerido: incluído no slide anterior
 
-- No ecossistema de modelos em 1 de abril de 2026, minha leitura prática é simples.
-- Anthropic e OpenAI continuam sendo as plataformas de ponta que mais importam pra código sério.
-- Existem seguidores relevantes, como GLM, MiniMax e Kimi.
-- Open source é útil, mas ainda não empatou no fluxo completo com agentes.
+- Reveal 3/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -698,7 +1378,6 @@ Tempo sugerido: ~0:45
 
 <div class="columns">
   <div class="card"><strong>Barato</strong><br />CRUD, landing page, painel interno, bot, ETL, cola entre APIs</div>
-  <div class="card"><strong>Caro</strong><br />julgamento, arquitetura, gosto, operação, manutenção, dono do problema</div>
 </div>
 
 <!--
@@ -707,6 +1386,25 @@ Tempo sugerido: ~0:40
 - Esse é o corte que importa.
 - O que ficou barato foi software trivial: CRUD, landing page, painel interno, bot, ETL, cola entre APIs.
 - O que continua caro é o que sempre foi caro: julgamento, arquitetura, gosto, operação, manutenção e alguém disposto a ser dono do problema quando a coisa quebra de verdade.
+-->
+---
+
+<!-- _class: center -->
+<div class="eyebrow">Commoditização</div>
+
+# O que ficou barato
+# e o que não ficou
+
+<div class="columns">
+  <div class="card"><strong>Barato</strong><br />CRUD, landing page, painel interno, bot, ETL, cola entre APIs</div>
+  <div class="card"><strong>Caro</strong><br />julgamento, arquitetura, gosto, operação, manutenção, dono do problema</div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/2.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
@@ -734,8 +1432,6 @@ Tempo sugerido: ~0:35
 
 <div class="columns-3">
   <div class="card"><strong>Vai herdar a sujeira</strong><div class="mini">startup cheia de lixo de IA vai precisar de limpeza</div></div>
-  <div class="card"><strong>Vai aprender no caos</strong><div class="mini">igual gerações anteriores aprenderam</div></div>
-  <div class="card"><strong>Ainda precisa de sênior</strong><div class="mini">agente nenhum ensina julgamento</div></div>
 </div>
 
 <!--
@@ -745,6 +1441,39 @@ Tempo sugerido: ~0:55
 - Acho que ele mudou de forma.
 - O mundo está enchendo de sistema feito nas coxas, cheio de lixo de IA.
 - Alguém vai ter que limpar isso.
+-->
+---
+
+<!-- _class: center -->
+# Júnior não morreu
+
+<div class="columns-3">
+  <div class="card"><strong>Vai herdar a sujeira</strong><div class="mini">startup cheia de lixo de IA vai precisar de limpeza</div></div>
+  <div class="card"><strong>Vai aprender no caos</strong><div class="mini">igual gerações anteriores aprenderam</div></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 2/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
+-->
+---
+
+<!-- _class: center -->
+# Júnior não morreu
+
+<div class="columns-3">
+  <div class="card"><strong>Vai herdar a sujeira</strong><div class="mini">startup cheia de lixo de IA vai precisar de limpeza</div></div>
+  <div class="card"><strong>Vai aprender no caos</strong><div class="mini">igual gerações anteriores aprenderam</div></div>
+  <div class="card"><strong>Ainda precisa de sênior</strong><div class="mini">agente nenhum ensina julgamento</div></div>
+</div>
+
+<!--
+Tempo sugerido: incluído no slide anterior
+
+- Reveal 3/3.
+- Continuação do mesmo beat; só entra a próxima caixa.
 -->
 ---
 
