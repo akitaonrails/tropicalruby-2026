@@ -68,7 +68,7 @@ Rules:
 
 - do not remove those markers unless you also remove the matching video asset and post-process entry
 - keep poster images visible in the slide itself so HTML and PDF still make sense
-- if you move the layout of a marked slide, verify the video placement in `scripts/embed_videos_pptx.py`
+- if you move the layout of a marked slide, verify the video placement in `bin/embed_videos_pptx.py`
 - `bin/build-slides` should produce both the raw PPTX and `build/tropical-ruby-2026.with-video.pptx`
 
 ## Practical commands
@@ -103,3 +103,4 @@ Before closing a meaningful edit:
 - rebuild exports
 - confirm the PDF is not missing layout blocks
 - keep wording tight and human
+- if the user asks for `git commit`, always rebuild first so the latest final artifacts are committed together with the source changes

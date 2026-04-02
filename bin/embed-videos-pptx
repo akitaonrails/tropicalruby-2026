@@ -5,4 +5,4 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 IN="${1:-$ROOT/build/tropical-ruby-2026.pptx}"
 OUT="${2:-$ROOT/build/tropical-ruby-2026.with-video.pptx}"
 
-python "$ROOT/scripts/embed_videos_pptx.py" "$IN" "$OUT"
+python "$ROOT/bin/embed_videos_pptx.py" "$IN" "$OUT"

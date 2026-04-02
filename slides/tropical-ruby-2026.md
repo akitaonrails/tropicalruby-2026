@@ -555,8 +555,8 @@ Tempo sugerido: ~0:25
   <img src="../assets/offline/project-frankyomik-translate.png" alt="Frank Yomik" />
   <img src="../assets/offline/project-frankfbi-email.png" alt="Frank FBI" />
   <img src="../assets/ai-jail-og.png" alt="ai-jail" />
-  <img src="../assets/easy-subtitle-og.png" alt="easy-subtitle" />
-  <img src="../assets/offline/project-frankmd-hugo.jpg" alt="FrankMD Hugo" />
+  <img src="../assets/investigator-screenshot.png" alt="Frank Investigator" />
+  <img src="../assets/frankclaw-screenshot.png" alt="FrankClaw" />
 </div>
 
 <!--

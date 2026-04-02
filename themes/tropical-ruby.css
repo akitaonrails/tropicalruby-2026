@@ -357,6 +357,11 @@ section.tone-extra-dark .source-url {
   min-height: 118px;
 }
 
+.timeline .card strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
 .closing {
   margin-top: 28px;
   font-size: 1.2em;
