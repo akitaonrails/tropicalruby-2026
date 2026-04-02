@@ -27,6 +27,27 @@ section {
   padding: 64px 82px;
 }
 
+section.tone-moss {
+  background:
+    radial-gradient(circle at 82% 14%, rgba(81, 104, 77, 0.14), transparent 23%),
+    radial-gradient(circle at 10% 84%, rgba(81, 104, 77, 0.09), transparent 28%),
+    linear-gradient(180deg, #f6f3ea, #edf2e8);
+}
+
+section.tone-ruby {
+  background:
+    radial-gradient(circle at 84% 14%, rgba(179, 58, 47, 0.16), transparent 24%),
+    radial-gradient(circle at 12% 82%, rgba(179, 58, 47, 0.08), transparent 28%),
+    linear-gradient(180deg, #fbf2ee, #f7ebe5);
+}
+
+section.tone-sand {
+  background:
+    radial-gradient(circle at 86% 16%, rgba(217, 199, 167, 0.28), transparent 24%),
+    radial-gradient(circle at 10% 86%, rgba(217, 199, 167, 0.18), transparent 30%),
+    linear-gradient(180deg, #fcf8f0, #f4ecdf);
+}
+
 section::after {
   font-size: 14px;
   color: var(--muted);

@@ -72,25 +72,25 @@ Tempo sugerido: ~0:45
 
 E eu quero deixar uma coisa bem explícita: o modelo de 2026 ainda baixa a cabeça pra você. Se você vier com premissa torta, ele muitas vezes prefere te agradar em vez de te contrariar. Ele também continua errando com confiança. Inventa detalhe, completa lacuna do jeito errado, segue em frente como se estivesse tudo certo. Por isso agente sem freio é desastre. O que segura isso ainda é execução real, teste real e revisão real.
 
-## Slide 15 - Prompt único é pra demo
-Tempo sugerido: ~0:55
-
-A fantasia do prompt único é preguiçosa. Ela parte da ideia de que dá pra prever e especificar tudo antes. Software real não funciona assim. Produção revela coisa que você nem sabia que importava. A API vem torta. A infra falha do jeito errado. O usuário faz o que ninguém previu. O requisito muda. Prompt único serve pra demo. Produção pede iteração.
-
-## Slide 16 - Fim de 2025 foi diferente
+## Slide 15 - Fim de 2025 foi diferente
 Tempo sugerido: ~0:50
 
 Dito isso, uma coisa realmente mudou. OpenAI lançou GPT-5.1 pra desenvolvedores em 13 de novembro de 2025. Anthropic lançou Claude Opus 4.5 em 24 de novembro de 2025. Esse período importa porque foi quando o conjunto modelo mais ferramentas mais execução no loop ficou bom o bastante pra deixar de ser só chatice e começar a virar alavanca diária. A virada não foi “o modelo ficou genial”. A virada foi “o agente ficou útil”.
 
-## Slide 17 - Não foi QI. Foi ferramenta.
+## Slide 16 - Não foi QI. Foi ferramenta.
 Tempo sugerido: ~0:40
 
 Eu quero martelar isso porque muita gente ainda fala como se 2026 fosse sobre um salto mágico de inteligência. Não foi. O pulo do gato foi ferramenta. Shell, editor, execução, teste, busca, documentação, leitura de código, tudo isso entrando no loop. O modelo continua errando. O que mudou foi a capacidade de bater na parede, receber feedback e corrigir rápido.
 
-## Slide 18 - Ciclo do agente
+## Slide 17 - Ciclo do agente
 Tempo sugerido: ~0:35
 
 E reparem como é o ciclo útil de verdade. Eu até brinquei no slide pra formar um acróstico de “PILOTA”: planeja, investiga, lapida, opera, testa, ajusta. Não tem nada de místico nisso. É compressão de retorno de engenharia. O agente é muito rápido em rodar esse ciclo. Ele não é, por definição, sábio o bastante pra decidir sozinho qual ciclo importa.
+
+## Slide 18 - Prompt único é pra demo
+Tempo sugerido: ~0:55
+
+A fantasia do prompt único é preguiçosa. Ela parte da ideia de que dá pra prever e especificar tudo antes. Software real não funciona assim. Produção revela coisa que você nem sabia que importava. A API vem torta. A infra falha do jeito errado. O usuário faz o que ninguém previu. O requisito muda. Prompt único serve pra demo. Produção pede iteração.
 
 ## Slide 19 - Fundamento primeiro
 Tempo sugerido: ~0:50
