@@ -52,7 +52,7 @@ Tempo sugerido: ~0:40
 ![bg right:42% opacity:.18](../assets/offline/thumb-programacao-nao-e-facil.jpg)
 <div class="eyebrow">Arco Longo</div>
 
-# O pânico da IA<br>caiu em cima<br>de uma bolha velha.
+# O pânico da IA<br>caiu em cima<br>de uma <span class="em-ruby">bolha velha</span>.
 
 <div class="lead">Eu já vinha batendo na economia do programador fake antes de agentes de código prestarem pra alguma coisa.</div>
 
@@ -70,7 +70,7 @@ Tempo sugerido: ~0:45
 ![bg cover opacity:.10](../assets/offline/thumb-bolha-velha.jpg)
 <div class="eyebrow">2019 → 2026</div>
 
-# Mesma tese.<br>Ferramenta nova.
+# Mesma tese.<br><span class="em-moss">Ferramenta nova</span>.
 
 <div class="timeline">
   <div class="card"><strong>2019</strong><span class="mini">o inverno estava chegando</span></div>
@@ -210,7 +210,7 @@ Tempo sugerido: ~0:55
       <li>o verde parece estar ali para sumir na edição</li>
       <li>sem a camada escondida, a mágica some</li>
     </ul>
-    <div class="caption">Inferência a partir do vídeo: isso parece truque de gravação, não processo honesto.</div>
+    <div class="caption">Inferência a partir do vídeo: isso parece <span class="em-ruby">truque</span> de gravação, não processo honesto.</div>
   </div>
   <div style="flex:1 1 auto;text-align:right;">
     <video
@@ -395,7 +395,7 @@ Tempo sugerido: ~1:00
 <div class="eyebrow">Meu Ponto</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Empty_server_racks_-_IMG_3674.jpg</div>
 
-# IA não eliminou<br>engenharia.
+# IA não eliminou<br><span class="em-moss">engenharia</span>.
 
 ## Eliminou desculpa.
 
@@ -433,7 +433,7 @@ Tempo sugerido: ~0:55
 <div class="eyebrow">2026 Ainda</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Robot_(7127639975).jpg</div>
 
-# Modelo ainda<br>bajula e erra
+# Modelo ainda<br><span class="em-ruby">bajula</span> e <span class="em-ruby">erra</span>
 
 <div class="columns-3">
   <div class="card"><strong>Bajula você</strong><div class="mini">muitas vezes responde o que você quer ouvir</div></div>
@@ -501,7 +501,7 @@ Tempo sugerido: ~0:55
 <!-- _class: center tone-moss -->
 <div class="eyebrow">Virada</div>
 
-# Fim de 2025<br>foi diferente
+# Fim de 2025<br><span class="em-moss">foi diferente</span>
 
 <div class="stats">
   <div class="card"><strong>13 nov 2025</strong><br />GPT-5.1 saiu para desenvolvedores</div>
@@ -530,7 +530,7 @@ Tempo sugerido: ~0:50
 # Fevereiro e março<br>de 2026
 
 ## eu parei de falar  
-## e fui maratonar
+## e fui <span class="em-ruby">maratonar</span>
 
 <!--
 Tempo sugerido: ~0:25
@@ -578,7 +578,7 @@ Tempo sugerido: ~0:35
   <div class="card"><strong>M.Akita Chronicles</strong><br />274 commits em 8 dias, TDD, CI e refatoração contínua</div>
 </div>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A variável não foi “IA melhor”. Foi disciplina de engenharia desde o primeiro commit.</div>
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A variável não foi “IA melhor”. Foi <span class="em-moss">disciplina de engenharia</span> desde o primeiro commit.</div>
 
 
 <!--
@@ -669,7 +669,7 @@ Tempo sugerido: ~0:55
 <!-- _class: statement -->
 <div class="eyebrow">O Pulo Do Gato</div>
 
-# Não foi QI.<br>Foi ferramenta.
+# Não foi QI.<br>Foi <span class="em-moss">ferramenta</span>.
 
 <div class="columns-3">
   <div class="card"><strong>Shell e editor</strong><div class="mini">o modelo parou de só sugerir e passou a operar</div></div>
@@ -749,7 +749,7 @@ Tempo sugerido: ~0:50
 
 <!-- _class: center -->
 ![bg cover opacity:.12](../assets/offline/thumb-winter-is-coming.jpg)
-# Não terceirize<br>seu julgamento
+# Não terceirize<br>seu <span class="em-ruby">julgamento</span>
 
 ## nem pra guru  
 ## nem pra bootcamp  
@@ -786,7 +786,7 @@ Tempo sugerido: ~0:45
 ---
 
 <!-- _class: center tone-moss -->
-# XP não é<br>perfumaria
+# XP não é<br><span class="em-ruby">perfumaria</span>
 
 <div class="columns-3">
   <div class="card"><strong>TDD</strong><div class="mini">segura erro de modelo antes de virar lama</div></div>
@@ -904,7 +904,7 @@ Tempo sugerido: ~0:45
 <!-- _class: center tone-sand -->
 <div class="eyebrow">Commoditização</div>
 
-# O que ficou barato<br>e o que não ficou
+# O que ficou <span class="em-moss">barato</span><br>e o que não ficou
 
 <div class="columns">
   <div class="card"><strong>Barato</strong><br />CRUD, landing page, painel interno, bot, ETL, cola entre APIs</div>
@@ -958,7 +958,7 @@ Tempo sugerido: ~0:55
 <div class="eyebrow">A Correção</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Employee_Packing_Things_Into_Box.jpg</div>
 
-# Programador ruim<br>vai sair
+# Programador ruim<br><span class="em-ruby">vai sair</span>
 
 ## e isso melhora a indústria
 
@@ -1000,7 +1000,7 @@ Tempo sugerido: ~0:55
 <!-- _class: center tone-moss -->
 ![bg cover opacity:.14](../assets/offline/bg-mentor-kungfu.jpg)
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Vernon_Rieta_teaching_Kung_Fu.jpg</div>
-# Sênior tem<br>nova obrigação
+# Sênior tem<br><span class="em-moss">nova obrigação</span>
 
 ## ensinar engenharia com IA  
 ## antes do código apodrecer
@@ -1022,7 +1022,7 @@ Tempo sugerido: ~0:55
 <div class="eyebrow">Conclusão</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Building_collapse_in_S%C3%A3o_Paulo_2018_090.jpg</div>
 
-# IA não transforma<br>coder ruim<br>em engenheiro.
+# IA não transforma<br>coder ruim<br>em <span class="em-moss">engenheiro</span>.
 
 <!--
 Tempo sugerido: ~0:35
@@ -1039,7 +1039,7 @@ Tempo sugerido: ~0:35
 <div class="eyebrow">Conclusão</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mountain_Climber_In_Mountains_(Unsplash).jpg</div>
 
-# Vai sobreviver<br>quem souber<br>fazer engenharia.
+# Vai <span class="em-moss">sobreviver</span><br>quem souber<br>fazer <span class="em-moss">engenharia</span>.
 
 ## Fundamento. Disciplina. Iteração. Gosto.
 

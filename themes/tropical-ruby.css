@@ -331,6 +331,16 @@ section.tone-extra-dark .source-url {
   color: rgba(244, 239, 230, 0.6);
 }
 
+.em-ruby {
+  color: var(--ruby);
+  font-weight: 800;
+}
+
+.em-moss {
+  color: var(--moss);
+  font-weight: 800;
+}
+
 .timeline {
   display: flex;
   flex-wrap: nowrap;
