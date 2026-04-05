@@ -1,6 +1,6 @@
 # Research Notes and Sources
 
-As of **April 1, 2026**.
+As of **April 5, 2026**.
 
 ## Slide tool choice
 
@@ -24,7 +24,8 @@ Runner-up: **Slidev**
 ### OpenAI
 
 - GPT-5.1 released for developers on **November 13, 2025**.
-- Current OpenAI model docs describe GPT-5.1 as the flagship for coding and agentic tasks.
+- GPT 5.4 is the current flagship for coding and agentic tasks (as of April 2026).
+- GPT 5.4 Pro charges $180/M output tokens via OpenRouter; ChatGPT Pro ($200/month) gives unlimited access.
 
 ### Anthropic
 
@@ -55,6 +56,7 @@ Runner-up: **Slidev**
 - `2026/03/05/37-dias-de-imersão-em-vibe-coding-conclusão-quanto-a-modelos-de-negócio`
 - `2026/03/31/codigo-fonte-do-claude-code-vazou-o-que-achamos-dentro`
 - `2025/05/02/rant-llms-sao-loot-boxes`
+- `2026/04/05/testando-llms-open-source-e-comerciais-quem-consegue-bater-o-claude-opus`
 
 ### Older thesis / macro / learning arc
 
@@ -85,6 +87,9 @@ Runner-up: **Slidev**
 - Anthropic Series G / compute capacity / Claude Code growth: https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation
 - NVIDIA on pretraining, post-training and test-time scaling: https://blogs.nvidia.com/blog/ai-scaling-laws/
 - Anthropic IPO report carried by Reuters: https://m.economictimes.com/tech/artificial-intelligence/anthropic-plans-an-ipo-as-early-as-2026/amp_articleshow/125731426.cms
+- LLM benchmark article (own): https://akitaonrails.com/2026/04/05/testando-llms-open-source-e-comerciais-quem-consegue-bater-o-claude-opus/
+- GLM 5 (Z.AI): 89% cheaper than Claude Opus, only non-Anthropic/OpenAI model that generated working code in benchmark
+- frank_karaoke (Flutter/Android, karaoke scoring app): https://github.com/akitaonrails/frank_karaoke
 
 ## What is intentionally left for a later pass
 

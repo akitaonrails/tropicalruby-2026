@@ -554,7 +554,7 @@ Tempo sugerido: ~0:25
   <img src="../assets/offline/project-franksherlock.png" alt="Frank Sherlock" />
   <img src="../assets/offline/project-frankyomik-translate.png" alt="Frank Yomik" />
   <img src="../assets/offline/project-frankfbi-email.png" alt="Frank FBI" />
-  <img src="../assets/ai-jail-og.png" alt="ai-jail" />
+  <img src="../assets/frankkaraoke-screenshot.jpg" alt="Frank Karaoke" />
   <img src="../assets/investigator-screenshot.png" alt="Frank Investigator" />
   <img src="../assets/frankclaw-screenshot.png" alt="FrankClaw" />
 </div>
@@ -563,9 +563,9 @@ Tempo sugerido: ~0:25
 Tempo sugerido: ~0:35
 
 - Este slide é só a parede de projetos.
-- FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI e outros.
+- FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI, Frank Karaoke e outros.
 - O objetivo não é explicar repositório por repositório.
-- O objetivo é mostrar volume e variedade: desktop, Rails, Rust, ferramentas, mídia, deploy, software em uso real.
+- O objetivo é mostrar volume e variedade: desktop, Rails, Rust, Flutter, ferramentas, mídia, deploy, software em uso real.
 -->
 ---
 
@@ -599,21 +599,21 @@ Tempo sugerido: ~0:55
 # Números<br>que pesam
 
 <div class="stats">
-  <div class="card"><strong>723.935</strong><span class="mini">linhas de código</span></div>
-  <div class="card"><strong>199.250</strong><span class="mini">linhas de teste</span></div>
-  <div class="card"><strong>1.116</strong><span class="mini">commits</span></div>
-  <div class="card"><strong>~194 h</strong><span class="mini">horas ativas estimadas</span></div>
+  <div class="card"><strong>221.932</strong><span class="mini">linhas de código</span></div>
+  <div class="card"><strong>92.017</strong><span class="mini">linhas de teste</span></div>
+  <div class="card"><strong>1.612</strong><span class="mini">commits</span></div>
+  <div class="card"><strong>~297 h</strong><span class="mini">horas ativas estimadas</span></div>
 </div>
 
-<div class="caption">Agregado dos projetos citados no começo da palestra, com o mesmo critério em produção e teste: só código próprio, excluindo documentação, fixtures, snapshots e árvores importadas de terceiros.</div>
+<div class="caption">Agregado do recorte citado no começo, agora incluindo também `akitando-news` e `frank_karaoke`: `frank*`, `FrankMD`, `mila-bot`, `easy-*`, `ai-jail`, `akitando-news` e `frank_karaoke` (Flutter/Android). Contagem em arquivos rastreados no git, somando só linhas de código do `tokei`, separando teste por path e excluindo docs, fixtures, snapshots e árvores importadas de terceiros.</div>
 
 
 <!--
 Tempo sugerido: ~1:05
 
 - E aqui é onde eu boto peso na afirmação de velocidade.
-- Se eu agrego o conjunto de projetos citado no começo da palestra, dá 723.935 linhas de código, 199.250 linhas de teste, 1.116 commits e cerca de 194 horas ativas estimadas.
-- E essa conta está fechada com o mesmo critério dos dois lados: só arquivo de código próprio, separando produção de teste pelo path, e excluindo documentação, fixtures, snapshots e árvore importada de terceiros.
+- Recontando do zero com `tokei`, em arquivos rastreados no git, o conjunto completo citado no começo, agora com `akitando-news` e `frank_karaoke`, dá 221.932 linhas de código, 92.017 linhas de teste, 1.612 commits e cerca de 297 horas ativas estimadas.
+- E essa conta está fechada com o mesmo critério dos dois lados: só linha de código, separando produção de teste pelo path, e excluindo documentação, fixtures, snapshots, virtualenvs, node_modules e árvore importada de terceiros.
 - Então não tem README, arquivo auxiliar ou biblioteca de terceiro inflando número.
 - Com isso na mesa, agora dá pra discutir mecanismo, não fé.
 -->
@@ -832,13 +832,13 @@ Tempo sugerido: ~1:00
 ---
 
 <!-- _class: center tone-moss -->
-<div class="eyebrow">Estado dos Modelos, 1 de abril de 2026</div>
+<div class="eyebrow">Estado dos Modelos, abril de 2026</div>
 
 # Modelos fechados<br>ainda lideram
 
 <div class="columns-3">
   <div class="card"><strong>Anthropic</strong><div class="mini">continua no topo pra agentes de código</div></div>
-  <div class="card"><strong>OpenAI</strong><div class="mini">GPT-5.1 virou modelo forte pra código e agentes</div></div>
+  <div class="card"><strong>OpenAI</strong><div class="mini">GPT 5.4 virou modelo forte pra código e agentes</div></div>
   <div class="card"><strong>Seguidores</strong><div class="mini">GLM, MiniMax, Kimi; open source ainda corre atrás</div></div>
 </div>
 
@@ -846,10 +846,42 @@ Tempo sugerido: ~1:00
 <!--
 Tempo sugerido: ~0:55
 
-- No ecossistema de modelos em 1 de abril de 2026, minha leitura prática é simples.
+- No ecossistema de modelos em abril de 2026, minha leitura prática é simples.
 - Anthropic e OpenAI continuam sendo as plataformas de ponta que mais importam pra código sério.
 - Existem seguidores relevantes, como GLM, MiniMax e Kimi.
 - Open source é útil, mas ainda não empatou no fluxo completo com agentes.
+-->
+---
+
+<!-- _class: center tone-moss -->
+<div class="eyebrow">Benchmark Próprio — 22 Modelos, Código Real</div>
+
+# Quem consegue bater<br>o Claude Opus?
+
+<div style="display:flex;gap:32px;align-items:center;text-align:left;">
+  <div style="flex:0 0 48%;">
+    <div class="card" style="margin-bottom:8px;font-size:0.82em;"><strong>Só 4 geram código que roda</strong><br />Claude Sonnet 4.6, Opus 4.6, GPT 5.4 e GLM 5 (89% mais barato que Opus)</div>
+    <div class="card" style="margin-bottom:8px;font-size:0.82em;"><strong>O resto inventou APIs</strong><br />Kimi, DeepSeek, MiniMax, Qwen — alucinaram gems e endpoints que não existem</div>
+    <div class="card" style="font-size:0.82em;"><strong>Thinking separa os dois grupos</strong><br />budget extra de inferência pra planejar tool calls antes de agir — sem isso, o modelo chuta</div>
+  </div>
+  <div style="flex:1 1 auto;text-align:right;">
+    <img src="../assets/llm-benchmark-cost-vs-quality.png" alt="Custo vs qualidade — benchmark de LLMs" style="height:400px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.22);" />
+  </div>
+</div>
+
+<div class="caption">Artigo completo: akitaonrails.com/2026/04/05/testando-llms-open-source-e-comerciais-quem-consegue-bater-o-claude-opus</div>
+
+<!--
+Tempo sugerido: ~1:00
+
+- Pra não ficar só na opinião, montei um benchmark automatizado com 22 modelos.
+- Testei modelos open source locais (RTX 5090 + servidor AMD 128 GB) e comerciais via API, todos nas mesmas condições.
+- Resultado: só 4 modelos geraram código que funciona de verdade.
+- Claude Sonnet e Opus, GPT 5.4 e GLM 5.
+- O resto — Kimi, DeepSeek, MiniMax, Qwen — inventou APIs que não existem.
+- GLM 5 é 89% mais barato que Opus e foi a única alternativa fora Anthropic/OpenAI que rodou.
+- E por que os modelos de ponta ganham? Thinking. Não é mágica — é budget extra de inferência pra planejar qual ferramenta usar, em que ordem, com quais argumentos, antes de agir. Sem isso, o modelo chuta.
+- Artigo completo no blog, link no slide.
 -->
 ---
 

@@ -120,7 +120,7 @@ Então eu parei de falar disso em abstrato e fui testar com pele em jogo. Não c
 ## Slide 24 - Do zero pra software real
 Tempo sugerido: ~0:35
 
-Este slide é só a parede de projetos. FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI e outros. O objetivo não é explicar repositório por repositório. O objetivo é mostrar volume e variedade: desktop, Rails, Rust, ferramentas, mídia, deploy, software em uso real. Se a tese estava certa, ela precisava aparecer em mais de um tipo de problema.
+Este slide é só a parede de projetos. FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI, Frank Karaoke e outros. O objetivo não é explicar repositório por repositório. O objetivo é mostrar volume e variedade: desktop, Rails, Rust, ferramentas, mídia, deploy, software em uso real. Se a tese estava certa, ela precisava aparecer em mais de um tipo de problema.
 
 ## Slide 25 - Mesmo dev. Mesmo agente. Processo diferente.
 Tempo sugerido: ~0:55
@@ -130,7 +130,7 @@ Aqui entra a comparação que eu acho mais forte de todas. FrankMD de um lado. M
 ## Slide 26 - Números que pesam
 Tempo sugerido: ~1:05
 
-E aqui é onde eu boto peso na afirmação de velocidade. Se eu agrego o conjunto de projetos citado no começo da palestra, dá 723.935 linhas de código, 199.250 linhas de teste, 1.116 commits e cerca de 194 horas ativas estimadas. E essa conta está fechada com o mesmo critério dos dois lados: só arquivo de código próprio, separando produção de teste pelo path, e excluindo documentação, fixtures, snapshots e árvore importada de terceiros. Então não tem README, arquivo auxiliar ou biblioteca de terceiro inflando número. As horas também estão conservadoras. Vieram de sessões agrupadas por histórico de commit, com corte de pausa grande, sem inventar madrugada mágica e sem fingir que eu virei um robô. Inclusive tem projeto aí que entra no volume de código, mas nem entra na conta de commits porque nem repositório Git fechado ele tinha. Com isso na mesa, agora dá pra discutir mecanismo, não fé.
+E aqui é onde eu boto peso na afirmação de velocidade. Recontando do zero com `tokei`, em arquivos rastreados no git, o conjunto completo citado no começo, agora incluindo também `akitando-news` e `frank_karaoke`, dá 221.932 linhas de código, 92.017 linhas de teste, 1.612 commits e cerca de 297 horas ativas estimadas. E essa conta está fechada com o mesmo critério dos dois lados: só linha de código, separando produção de teste pelo path, e excluindo documentação, fixtures, snapshots, virtualenv, node_modules e árvore importada de terceiros. Então não tem README, arquivo auxiliar ou biblioteca de terceiro inflando número. As horas continuam conservadoras. Vieram de sessões agrupadas por histórico de commit, com corte de uma hora de pausa, acréscimo mínimo por sessão e teto diário, sem inventar madrugada mágica e sem fingir que eu virei um robô. Dos diretórios citados no começo, 14 entram também na conta de commits porque são repositórios git de verdade; os outros não mudam materialmente o volume de código. Com isso na mesa, agora dá pra discutir mecanismo, não fé.
 
 ## Slide 27 - O que eu ganhei de verdade
 Tempo sugerido: ~1:00
@@ -185,64 +185,69 @@ O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção
 ## Slide 37 - Modelos fechados ainda lideram
 Tempo sugerido: ~0:55
 
-No ecossistema de modelos em 1 de abril de 2026, minha leitura prática é simples. Anthropic e OpenAI continuam sendo as plataformas de ponta que mais importam pra código sério. Existem seguidores relevantes, como GLM, MiniMax e Kimi. Open source é útil, mas ainda não empatou no fluxo completo com agentes.
+No ecossistema de modelos em abril de 2026, minha leitura prática é simples. Anthropic e OpenAI continuam sendo as plataformas de ponta que mais importam pra código sério. Existem seguidores relevantes, como GLM, MiniMax e Kimi. Open source é útil, mas ainda não empatou no fluxo completo com agentes.
 
-## Slide 38 - Open source é útil
+## Slide 38 - Quem consegue bater o Claude Opus?
+Tempo sugerido: ~1:00
+
+Pra não ficar só na opinião, montei um benchmark automatizado com 22 modelos. Configurei modelos open source locais numa RTX 5090 e num servidor AMD com 128 GB de memória unificada, e os comerciais via API pelo OpenRouter, todos no mesmo runner e nas mesmas condições. Resultado: só 4 modelos geraram código que funciona de verdade. Claude Sonnet 4.6 e Opus 4.6, GPT 5.4 e GLM 5. O resto — Kimi, DeepSeek, MiniMax, Qwen, todos — inventou APIs que não existem. Não é que ficou com bug ou travou. É que o modelo alucinava uma gem, um método, um endpoint que nunca existiu, e o código simplesmente não roda. O destaque surpresa foi o GLM 5: 89% mais barato que Opus e foi a única alternativa fora Anthropic e OpenAI que produziu código funcional. E por que os modelos de ponta ganham? Thinking. Não é mágica. É budget extra de inferência pra planejar qual ferramenta usar, em que ordem, com quais argumentos, e se o resultado foi suficiente ou precisa de mais um passo. Sem isso, o modelo chuta. Com isso, ele planeja antes de agir. É por isso que thinking melhor mais tool support melhor importa tanto pra agentes. O artigo completo com o benchmark está no blog, tem o link no slide pra quem quiser os detalhes técnicos — VRAM, KV Cache, llama.cpp vs Ollama, custo por token, tudo.
+
+## Slide 39 - Open source é útil
 Tempo sugerido: ~0:45
 
 Isso não significa que código aberto seja inútil. Significa só que expectativa precisa ser calibrada. Dá pra fazer coisa real? Dá. Mas se você quer o melhor comportamento atual de agente de código, os modelos fechados de ponta ainda estão na frente. E o vazamento do Claude Code mostrou outra coisa importante: quando a arquitetura fica visível, o lado open source absorve muito rápido. Clone clean-room já começou a aparecer em menos de 24 horas. Fork sem telemetria e sem trava apareceu quase junto. E projetos como OpenClaw mostram que essa base já estava madura, só esperando oportunidade pra correr em cima.
 
-## Slide 39 - E o preço ficou ridículo
+## Slide 40 - E o preço ficou ridículo
 Tempo sugerido: ~0:45
 
 E aí entra a economia da coisa. Software trivial ficou barato demais. CRUD, landing page, painel interno, bot, ETL, cola entre API, esse tipo de coisa virou commodity. E quando eu olho o preço oficial da Anthropic, isso fica ainda mais óbvio. Claude Pro está em 20 dólares por mês. Max 5x em 100. Max 20x em 200. Pra alavancagem que isso dá na mão de um sênior, continua barato. Talvez subsidiado demais. Talvez não pare em pé pra sempre. Mas hoje, no estado atual do mercado, é barato.
 
-## Slide 40 - O que ficou barato e o que não ficou
+## Slide 41 - O que ficou barato e o que não ficou
 Tempo sugerido: ~0:40
 
 Esse é o corte que importa. O que ficou barato foi software trivial: CRUD, landing page, painel interno, bot, ETL, cola entre APIs. O que continua caro é o que sempre foi caro: julgamento, arquitetura, gosto, operação, manutenção e alguém disposto a ser dono do problema quando a coisa quebra de verdade.
 
-## Slide 41 - Treino e inferência disputam a mesma tomada
+## Slide 42 - Treino e inferência disputam a mesma tomada
 Tempo sugerido: ~0:55
 
 E aqui entra minha especulação sobre a economia da IA. A conta física começou a apertar. Segundo a IEA, o mundo investiu meio trilhão de dólares em data centers em 2024. Esses data centers consumiram 415 terawatt-hora de eletricidade em 2024 e a projeção é chegar perto de 945 até 2030. A própria IEA diz que, se a infraestrutura elétrica não acompanhar, uma fatia relevante dos projetos pode atrasar. E do outro lado, o tipo de produto que está puxando adoção agora não é só chatbot de resposta curta. É agente. É código. É loop longo. É inferência mais cara por usuário. Então eu não apostaria em outro salto de ordem de grandeza no frontier tão cedo. Eu apostaria em mais briga por eficiência, suporte a ferramentas, custo de inferência e produto, usando compute onde ele dá retorno agora. E se a Anthropic vier mesmo pra IPO em 2026, essa pressão por margem e previsibilidade fica ainda maior.
 
-## Slide 42 - A correção
+## Slide 43 - A correção
 Tempo sugerido: ~0:35
 
 Aqui é a parte em que eu paro de fingir diplomacia. Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo. A indústria passou anos trocando engenharia por braço barato, competência falsa e dívida técnica como se isso fosse de graça. A IA está forçando uma correção. Ótimo.
 
-## Slide 43 - Júnior não morreu
+## Slide 44 - Júnior não morreu
 Tempo sugerido: ~0:55
 
 Júnior está preocupado, mas eu não acho que o caminho acabou. Acho que ele mudou de forma. O mundo está enchendo de sistema feito nas coxas, cheio de lixo de IA. Alguém vai ter que limpar isso. E tem outro ponto: aprender ferramenta nova nunca foi o fim da profissão. Programador já teve que lidar com binário na mão, cartão perfurado, assembly, depois linguagens mais altas, framework, nuvem. Agora entrou mais uma camada. O trabalho continua sendo aprender a usar a ferramenta da vez sem terceirizar o cérebro. Então esse slide é a virada de esperança do final: o caminho não sumiu, ele só ficou mais caótico. E muita gente da minha geração aprendeu exatamente assim: no projeto real, bagunçado, cheio de cicatriz.
 
-## Slide 44 - Sênior tem nova obrigação
+## Slide 45 - Sênior tem nova obrigação
 Tempo sugerido: ~0:55
 
 Mas essa esperança só para em pé se sênior fizer o trabalho dele. Sênior não é imortal. Vai mudar de empresa, vai cansar, vai se aposentar. Se não formar substituto, a organização apodrece. Então a nova obrigação não é só usar IA bem. É ensinar engenharia com IA direito. E a correção ainda está acontecendo agora, com mais uma onda pesada de layoff na Oracle reportada em 1 de abril de 2026.
 
-## Slide 45 - IA não transforma programador ruim em engenheiro
+## Slide 46 - IA não transforma programador ruim em engenheiro
 Tempo sugerido: ~0:35
 
 Então vem a parte dura. IA não transforma programador ruim em engenheiro. Ela ajuda programador ruim a fazer estrago maior mais rápido. E ajuda engenheiro de verdade a atravessar esse caos com mais velocidade, sem deixar o software morrer.
 
-## Slide 46 - Vai sobreviver quem souber fazer engenharia
+## Slide 47 - Vai sobreviver quem souber fazer engenharia
 Tempo sugerido: ~0:40
 
 Então eu fecho assim. Não vai sobreviver quem decorou truquezinho de prompt. Vai sobreviver quem tem fundamento, disciplina, iteração e gosto. Se você tem isso, IA vira multiplicador. Se não tem, IA é só uma forma mais rápida de ser exposto.
 
-## Slide 47 - Assine The M.Akita Chronicles
+## Slide 48 - Assine The M.Akita Chronicles
 Tempo sugerido: ~0:20
 
 E já que é pra acabar sem falsa modéstia: se você curtiu essa palestra, assina o The M.Akita Chronicles. Está tudo aí na tela. É onde eu continuo publicando bastidor real, projeto real, código real e o que deu certo ou errado em produção. Quer acompanhar essa linha de raciocínio semana a semana? Vai em themakitachronicles.com e assina.
 
-## Slide 48 - Sim, este deck inteiro foi feito com IA
+## Slide 49 - Sim, este deck inteiro foi feito com IA
 Tempo sugerido: ~0:30
 
 E sim, já que o assunto da palestra é esse, vale fechar com o bastidor completo. Este deck inteiro também foi feito com IA. Pesquisa, estrutura, roteiro, presenter notes, crops, extração de frame, build, pós-processo do PPTX com vídeo, tudo saiu do mesmo fluxo. Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo e iteração curta até o negócio ficar apresentável. Então não é discurso abstrato. Eu usei essa pilha para fazer a própria palestra que vocês acabaram de ver.
 
-## Slide 49 - Obrigado
+## Slide 50 - Obrigado
 Tempo sugerido: ~0:10
 
 Obrigado. Os links estão aí embaixo: Codeminer42, The M.Akita Chronicles e o repositório dessa palestra, que eu vou abrir no dia do evento.
