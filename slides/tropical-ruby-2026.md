@@ -585,7 +585,7 @@ Terminar em: ~24:25 (95s)
 
 <!-- _class: center tone-sand -->
 ![bg cover opacity:.18](../assets/offline/bg-strongman.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Strongman_posed_with_muscles_flexed_LCCN90713156.jpg</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Basra_bodybuilding_competition_DVIDS288972.jpg</div>
 
 # Alcançamos<br>"Developer 10x"?
 
@@ -775,7 +775,9 @@ Terminar em: ~34:50 (90s)
 ---
 
 <!-- _class: center tone-moss -->
+![bg cover opacity:.16](../assets/offline/bg-altman-amodei.jpg)
 <div class="eyebrow">Estado dos Modelos, abril de 2026</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:The_Prime_Minister_meets_with_AI_developers.jpg</div>
 
 # Modelos fechados<br>ainda lideram
 
@@ -798,7 +800,9 @@ Terminar em: ~35:55 (65s)
 ---
 
 <!-- _class: center tone-moss -->
+![bg cover opacity:.14](../assets/offline/bg-datacenter.jpg)
 <div class="eyebrow">Benchmark Próprio — 22 Modelos, Código Real</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg</div>
 
 # Quem consegue bater<br>o Claude Opus?
 
@@ -831,7 +835,9 @@ Terminar em: ~37:30 (95s)
 ---
 
 <!-- _class: center tone-moss -->
+![bg cover opacity:.14](../assets/offline/bg-thinker.jpg)
 <div class="eyebrow">Por Que Tão Poucos Funcionam</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:The_Thinker_detail_of_the_Gates_of_Hell_Rodin_musée_Rodin_S.01304_Paris.jpg</div>
 
 # Não é mais só parâmetros
 
@@ -922,7 +928,9 @@ Terminar em: ~41:45 (90s)
 ---
 
 <!-- _class: center tone-sand -->
+![bg cover opacity:.14](../assets/offline/bg-atm.jpg)
 <div class="eyebrow">Assinatura Vs Token</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:ATM_PIN_buttons_20180827.jpg</div>
 
 # Assinatura ganha<br>de pay-as-you-go
 
