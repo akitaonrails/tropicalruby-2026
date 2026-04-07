@@ -49,7 +49,9 @@ Presenter notes live as HTML comments (`<!-- ... -->`) in the slide markdown.
 
 - Keep them shorter than the full script — short bullets, not dense prose
 - Treat them as stage cues
-- Keep the `Tempo sugerido` line roughly proportional to slide density
+- Notes should carry reminders the presenter won't see on the slide itself: specific numbers, dates, methodology caveats, transition cues — not a restatement of the visible content
+- The first line is `Terminar em: ~MM:SS (Ds)` — end-time on the wall clock plus current slide duration in seconds. The script file uses the same format. Both are rebuilt together whenever pacing changes.
+- Total runtime target is 50:00 (last slide ends at ~50:00)
 - If the script changes meaningfully, update the matching notes
 
 ## Slide and layout workflow
@@ -88,15 +90,16 @@ Some slides contain `<!-- pptx-video: ... -->` markers in the markdown.
 The deck has a deliberate three-act shape — don't break it casually when moving slides:
 
 - **Act 1**: the panic is misdiagnosed (thesis, older warnings, AsamiArts fraud case, Claude Code leak)
-- **Act 2**: what actually changed and the practical proof (2025 tool timeline, January 2026 trigger, marathon projects, metrics, "Não foi QI. Foi ferramenta.")
-- **Act 3**: what that means for engineers and the market (process/XP, economics, juniors/seniors, market correction, engineering as the durable thing)
+- **Act 2**: what actually changed and the practical proof ("2025 foi o ano dos Agentes" timeline → "Dezembro de 2025 foi a Virada" hinge → January 2026 trigger → marathon projects → metrics → Ciclo do Agente / PILOTA mechanism)
+- **Act 3**: what that means for engineers and the market (XP discipline, benchmark findings, pricing economics, energy speculation, "A correção", junior/senior, engineering as the durable thing)
 
-The ending has three layers: engineering conclusion → newsletter ad → meta-stinger (deck made with AI) → clean `OBRIGADO` exit.
+The ending has three layers: engineering conclusion ("Vai sobreviver quem souber fazer engenharia") → newsletter ad → meta-stinger (deck made with AI) → clean `OBRIGADO` exit.
 
 Key structural constraints:
 
-- The real midpoint turn is the jump from "Fim de 2025 foi diferente" into "Fevereiro e março de 2026" — should feel like "parei de opinar e fui testar com pele em jogo"
-- The marathon wall / comparison / metrics / gain slides are the proof block — opinion becomes evidence here
+- The real midpoint turn is the jump from "Dezembro de 2025 foi a Virada" into "Fevereiro e março de 2026" — should feel like "parei de opinar e fui testar com pele em jogo"
+- The FrankMD vs M.Akita Chronicles comparison / marathon wall / metrics / "Developer 10x?" are the proof block — opinion becomes evidence here
+- The benchmark arc (slides 33–37: "Quem consegue bater o Claude Opus?" → "Não é mais só parâmetros" → "'Coder' no nome não vira coder melhor" → "IA nunca vai ser perfeita. Mas errar ficou barato" → "Assinatura ganha de pay-as-you-go") is the hard-data block grounded in the April 5 2026 benchmark article
 - The closing run from "A correção" through "Vai sobreviver quem souber fazer engenharia" escalates: diagnosis → hope → responsibility → hard truth → final statement
 - Prefer explicit cause-and-effect bridges between major blocks over adding new content
 

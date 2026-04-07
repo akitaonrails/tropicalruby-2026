@@ -66,8 +66,9 @@ When changing the talk, keep these three things in sync:
 The notes should stay shorter than the script:
 
 - use bullets, not prose blocks
-- keep them as speaking cues, not as a second full manuscript
-- keep the rough `Tempo sugerido` line aligned with the density of the slide
+- keep them as speaking cues, not a second full manuscript
+- carry reminders that aren't visible on the slide itself (numbers, methodology, transition beats), not a restatement of what the audience is already reading
+- the first line is `Terminar em: ~MM:SS (Ds)` — end-time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. Target total runtime is 50:00.
 
 If you add or rewrite visible text, do a cleanup pass so it still sounds human and spoken, not like generated copy.
 
@@ -88,12 +89,12 @@ The current deck has a deliberate three-act shape. Try not to break it casually 
 In the current version, that means:
 
 - the intro opens with the thesis, ties it back to older warnings, then uses AsamiArts and the Claude Code leak to frame the difference between fake-looking process and real work
-- the mid-section peaks around the 2025 tool-support timeline, the January 2026 trigger, the marathon wall of projects, the numbers, and the `Não foi QI. Foi ferramenta.` argument
-- the closing widens back out to process, XP, economics, juniors/seniors, and the market correction, then lands on engineering as the durable thing
+- the mid-section peaks around the `2025 foi o ano dos Agentes` timeline, the `Dezembro de 2025 foi a Virada` hinge, the January 2026 trigger, the marathon wall of projects, `Alcançamos "Developer 10x"?`, and the `Ciclo do Agente / PILOTA` mechanism
+- the closing widens back out to XP discipline, the benchmark arc (slides 33-37), pricing economics, the energy-and-IPO speculation, market correction, juniors/seniors, and finally engineering as the durable thing
 
 The ending currently has three layers on purpose:
 
-- the engineering conclusion
+- the engineering conclusion (`Vai sobreviver quem souber fazer engenharia`)
 - the shameless newsletter ad
 - the meta-stinger that the deck itself was made with AI, followed by a clean `OBRIGADO` exit slide
 
@@ -101,10 +102,11 @@ If this sequence changes, re-check not just title order but also pacing, reveal 
 
 There are also a few narrative constraints from later story-tightening passes:
 
-- the real midpoint turn is the jump from `Fim de 2025 foi diferente` into `Fevereiro e março de 2026`
+- the real midpoint turn is the jump from `Dezembro de 2025 foi a Virada` into `Fevereiro e março de 2026`
 - that transition should feel like `parei de opinar e fui testar com pele em jogo`
-- the marathon wall, comparison slide, metrics, and gain slides are the proof block; treat them as the point where the talk stops being opinion and becomes evidence
-- after the proof block, the mechanism block should read as explanation of the evidence, not as abstract theory
+- the FrankMD vs M.Akita Chronicles comparison, the marathon wall, the metrics, and the `Developer 10x?` slide are the proof block; treat them as the point where the talk stops being opinion and becomes evidence
+- after the proof block, the `Ciclo do Agente` mechanism should read as an explanation of that evidence, not as abstract theory
+- the benchmark arc from `Quem consegue bater o Claude Opus?` through `Assinatura ganha de pay-as-you-go` is the hard-data block; every number there is grounded in the April 5 2026 benchmark article in `research/sources.md`
 - the closing run from `A correção` through `Vai sobreviver quem souber fazer engenharia` should escalate in this order:
   - diagnosis
   - hope

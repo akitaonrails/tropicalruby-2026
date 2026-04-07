@@ -87,8 +87,17 @@ Runner-up: **Slidev**
 - Anthropic Series G / compute capacity / Claude Code growth: https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation
 - NVIDIA on pretraining, post-training and test-time scaling: https://blogs.nvidia.com/blog/ai-scaling-laws/
 - Anthropic IPO report carried by Reuters: https://m.economictimes.com/tech/artificial-intelligence/anthropic-plans-an-ipo-as-early-as-2026/amp_articleshow/125731426.cms
-- LLM benchmark article (own): https://akitaonrails.com/2026/04/05/testando-llms-open-source-e-comerciais-quem-consegue-bater-o-claude-opus/
-- GLM 5 (Z.AI): 89% cheaper than Claude Opus, only non-Anthropic/OpenAI model that generated working code in benchmark
+- LLM benchmark article (own, April 5, 2026): https://akitaonrails.com/2026/04/05/testando-llms-open-source-e-comerciais-quem-consegue-bater-o-claude-opus/
+  - **Primary source for slides 33–37.** Published the same day akitaonrails.com turned 20 years old.
+  - 22 models tested on identical runner. Only 4 produced working code: Claude Sonnet 4.6, Opus 4.6, GPT 5.4, and the GLM 5 / 5.1 pair from Z.AI.
+  - GLM 5 is ~89% cheaper than Opus; GLM 5 if you need centralized OpenRouter billing, GLM 5.1 direct via Z.AI for a rounder project.
+  - Per-token pricing on OpenRouter (slide 37): GPT 5.4 Pro $180/M output, Opus $25/M, GLM 5 $2.30/M, Qwen 3.6 Plus free (rate-limited).
+  - Subscription vs API math for moderate coding use (~15M input + ~3M output tokens/month): GPT 5.4 Pro via API ≈ $990/mo vs ChatGPT Pro $200/mo unlimited (5× cheaper); Claude Opus via API ≈ $450/mo vs Claude Max 20x $200/mo (~220K tokens/5hr, ~half price).
+  - Qwen family (slide 35): Coder-labeled models underperformed general ones. Qwen 3 Coder 30B hardcoded a mock string; Qwen 2.5 Coder 32B ran 90min timeout with zero files. The only Qwen variation still worth testing is Qwen 3.5 35B-A3B MoE general (runs Rails, hallucinations fixable in 1-2 follow-ups).
+  - DeepSeek fails the agentic benchmark not because of model quality but because it doesn't close the three conditions (prompt caching + tool calling + reasoning/thinking) together.
+  - Hardware behind the benchmark: RTX 5090 (32GB GDDR7) + Minisforum MS-S1 with AMD Ryzen AI Max+ 395 and 128GB unified memory. Open source via llama.cpp local, commercial via OpenRouter.
+- claw-code (clean-room clone of Claude Code, <24h after leak): https://github.com/ultraworkers/claw-code
+- memclaw (Claude-inspired memory system for OpenClaw): https://github.com/Felo-Inc/memclaw
 - frank_karaoke (Flutter/Android, karaoke scoring app): https://github.com/akitaonrails/frank_karaoke
 
 ## What is intentionally left for a later pass
