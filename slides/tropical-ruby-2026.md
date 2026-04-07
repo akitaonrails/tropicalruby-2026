@@ -961,7 +961,6 @@ Terminar em: ~43:10 (85s)
 - Disclaimer honesto: provavelmente subsidiado, pode não durar pra sempre
 - Contexto: Anthropic preparando IPO em 2026 pressiona essa margem (puxa pro slide seguinte)
 -->
--->
 ---
 
 <!-- _class: center tone-sand -->
