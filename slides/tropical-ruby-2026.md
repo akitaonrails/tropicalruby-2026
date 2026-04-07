@@ -332,9 +332,9 @@ Terminar em: ~13:35 (90s)
 ---
 
 <!-- _class: center tone-ruby -->
-![bg cover opacity:.16](../assets/offline/bg-water-leak.jpg)
+![bg cover opacity:.18](../assets/offline/bg-waterfall.jpg)
 <div class="eyebrow">31 de março de 2026</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Peacock_Street_water_main_break_986.jpg</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls,_West_view_20170418_1.jpg</div>
 
 # Claude Code vazou
 
@@ -584,8 +584,8 @@ Terminar em: ~24:25 (95s)
 ---
 
 <!-- _class: center tone-sand -->
-![bg cover opacity:.16](../assets/offline/bg-sprint-runners.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Brad_Kahlefeldt_and_Ned_Mortimer_running_in_the_50m_running_sprint.jpg</div>
+![bg cover opacity:.18](../assets/offline/bg-strongman.jpg)
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Strongman_posed_with_muscles_flexed_LCCN90713156.jpg</div>
 
 # Alcançamos<br>"Developer 10x"?
 
@@ -662,6 +662,9 @@ Terminar em: ~28:50 (85s)
 ---
 
 <!-- _class: center tone-moss -->
+![bg cover opacity:.16](../assets/offline/bg-magician.jpg)
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Thurston,_master_magician_all_out_of_a_hat._LCCN2014636958.jpg</div>
+
 # Prompt único<br>é pra demo
 
 <div class="columns">
