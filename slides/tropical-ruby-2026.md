@@ -43,11 +43,11 @@ Tempo sugerido: ~0:45
 <!--
 Tempo sugerido: ~0:50
 
-- Pra quem só me conhece por um pedaço da internet: fui cofundador da Codeminer 42 e hoje estou no conselho.
-- Fundei e organizei a RubyConf Brasil até 2016.
-- Passei anos no YouTube com o Akitando, mais de 500 mil seguidores, e sigo ativo no X como @akitaonrails com cerca de 83,7 mil.
-- E o akitaonrails.com completou 20 anos em 5 de abril de 2026, mais de 700 artigos publicados, agora em português e inglês.
-- Também fui parar fora da bolha tech, em Flow e Inteligência Ltda.
+- Cards já mostram os números — aproveitar pra mencionar contexto
+- RubyConf Brasil: fundei e organizei até 2016
+- @akitando: entrevistas do Flow e Inteligência Ltda, alcance fora da bolha tech
+- akitaonrails.com: 20 anos no dia 5 de abril de 2026, mesma data do artigo do benchmark — coincidência boa de puxar
+- Fecha: "não é currículo, é pra explicar por que eu já vi essa fita antes e não compro hype fácil"
 -->
 ---
 
@@ -347,8 +347,10 @@ Tempo sugerido: ~1:00
 <!--
 Tempo sugerido: ~0:45
 
-- Daí veio uma das confirmações mais engraçadas possíveis dessa tese: o vazamento do Claude Code em 31 de março de 2026.
-- A CLI oficial da Anthropic deixou escapar um mapa enorme do código e, de repente, todo mundo pôde olhar as tripas de uma das ferramentas de agente mais importantes do mercado.
+- 31 de março de 2026 — data do leak, poucos dias antes da palestra
+- CLI oficial da Anthropic deixou escapar source map: 512k linhas TypeScript, 1.900 arquivos, 59,8MB
+- Nota "6.5/10" é a minha avaliação no artigo: espaguete de sênior, não código ruim
+- Tom: "confirmação engraçada da tese" — nem a Anthropic escapa de pressão de entrega
 -->
 ---
 
@@ -459,10 +461,11 @@ Tempo sugerido: ~0:55
 <!--
 Tempo sugerido: ~1:00
 
-- Não foi só sair modelo novo. Foi modelo + CLI de agente alinhando ao mesmo tempo.
-- 13 de novembro: GPT-5.1 sai e o Codex CLI fica bom o bastante pra tarefa longa de verdade.
-- 24 de novembro: Opus 4.5 sai e o Claude Code amadurece com thinking entre tool calls.
-- Dezembro: deu pra começar a usar isso pra trabalho real. Janeiro de 2026: eu entrei.
+- Datas marcantes: 13 nov (GPT-5.1 + Codex CLI), 24 nov (Opus 4.5 + Claude Code), 11 dias de distância
+- A chave não foi só o modelo novo — foi a CLI de agente amadurecendo junto, nos DOIS lados na mesma janela
+- Dezembro 2025: muita gente boa começou a testar pra valer no trabalho real
+- Janeiro 2026: foi quando eu entrei na maratona — primeira vez que senti que valia apostar tempo
+- Puxa a ponte pro próximo slide: "parei de opinar e fui testar com pele em jogo"
 -->
 ---
 
@@ -553,11 +556,13 @@ Tempo sugerido: ~0:55
 <!--
 Tempo sugerido: ~1:05
 
-- E aqui é onde eu boto peso na afirmação de velocidade.
-- Recontando do zero com `tokei`, em arquivos rastreados no git, o conjunto completo citado no começo, agora com `akitando-news` e `frank_karaoke`, dá 221.932 linhas de código, 92.017 linhas de teste, 1.612 commits e cerca de 297 horas ativas estimadas.
-- E essa conta está fechada com o mesmo critério dos dois lados: só linha de código, separando produção de teste pelo path, e excluindo documentação, fixtures, snapshots, virtualenvs, node_modules e árvore importada de terceiros.
-- Então não tem README, arquivo auxiliar ou biblioteca de terceiro inflando número.
-- Com isso na mesa, agora dá pra discutir mecanismo, não fé.
+- Ferramenta de contagem: `tokei` sobre arquivos rastreados no git
+- Critério: só linha de código, teste separado por path, sem docs/fixtures/snapshots/virtualenv/node_modules/vendor
+- Sem README, sem auxiliar, sem lib de terceiro inflando número
+- Dos projetos citados, 14 entram na conta de commits (os outros não são git repos)
+- Horas conservadoras: sessões agrupadas por histórico, corte de 1h de pausa, teto diário
+- Antecipa crítica: "esses 297h não são 500+h que eu menciono em outros lugares" — 297h = commit-tracked, 500h = inclui pesquisa/planejamento/debug fora de sessão
+- Fecha: "agora dá pra discutir mecanismo, não fé"
 -->
 ---
 
@@ -629,10 +634,11 @@ Tempo sugerido: ~1:00
 <!--
 Tempo sugerido: ~0:55
 
-- Aqui eu preciso fazer a conta honesta, senão parece truque de palco.
-- Isso foi entregue em 45 dias corridos, sim.
-- Mas em ritmo de maratona: quase 16 horas por dia, 7 dias por semana.
-- Se você converte isso para um sênior trabalhando num ritmo sustentável, no máximo 8 horas por dia e só em dias úteis, essa mesma entrega com IA vira algo como 126 dias corridos, perto de 4 meses e 1 semana.
+- Não é truque de palco — ritmo real foi ~16h/dia, 7 dias/semana por 45 dias corridos
+- Conversão pra ritmo sustentável de sênior (8h/dia, só dias úteis) → ~126 dias = ~4 meses e 1 semana
+- Em cima disso, aplicar o 5-10x sem IA → ~630 a 1.260 dias corridos = ~21 a 42 meses = 1,8 a 3,5 anos
+- Disclaimer: conta linear, ordem de grandeza, não previsão exata
+- Mensagem: não é 45 dias contra 45 dias, é 45 dias de maratona contra anos de desenvolvimento normal
 -->
 ---
 
@@ -788,14 +794,15 @@ Tempo sugerido: ~0:55
 <!--
 Tempo sugerido: ~1:00
 
-- Pra não ficar só na opinião, montei um benchmark automatizado com 22 modelos.
-- Testei modelos open source locais (RTX 5090 + servidor AMD 128 GB) e comerciais via API, todos nas mesmas condições.
-- Resultado: só 4 modelos geraram código que funciona de verdade.
-- Claude Sonnet e Opus, GPT 5.4 e GLM 5 / 5.1 (GLM 5 se você quer billing centralizado no OpenRouter, GLM 5.1 direto na Z.AI).
-- O resto — Kimi, DeepSeek, MiniMax, Qwen — inventou APIs que não existem.
-- GLM 5 é 89% mais barato que Opus e foi a única alternativa fora Anthropic/OpenAI que rodou.
-- E por que os modelos de ponta ganham? Thinking. Não é mágica — é budget extra de inferência pra planejar qual ferramenta usar, em que ordem, com quais argumentos, antes de agir. Sem isso, o modelo chuta.
-- Artigo completo no blog, link no slide.
+- Benchmark: 22 modelos, mesmo runner, mesmas condições, mesmo task (app Rails com RubyLLM)
+- Hardware: RTX 5090 (32GB GDDR7) + Minisforum AMD Ryzen AI Max 395 com 128GB memória unificada
+- Comerciais via OpenRouter, open source local em llama.cpp
+- Só 4 passaram: Claude Sonnet 4.6, Opus 4.6, GPT 5.4, e dupla GLM 5 + 5.1 (Z.AI)
+- Distinção GLM: 5 = billing centralizado no OpenRouter, 5.1 = direto na Z.AI, projeto mais redondo
+- Falhas típicas: inventaram gem inexistente, método inexistente, endpoint que não existe
+- GLM 5 = 89% mais barato que Opus (único não-Anthropic/OpenAI que entregou)
+- Thinking não é mágica, é budget extra de inferência pra planejar tool calls antes de agir
+- Se perguntarem detalhes técnicos: VRAM, KV Cache, llama.cpp vs Ollama, token pricing — tudo no artigo
 -->
 ---
 
@@ -815,11 +822,13 @@ Tempo sugerido: ~1:00
 <!--
 Tempo sugerido: ~0:55
 
-- Por que só 4 modelos passam no benchmark? Não é tamanho de modelo. Tamanho virou commodity.
-- Prompt caching: sem KV cache, cada turno relê tudo e o custo do loop do agente explode.
-- Tool calling: o modelo precisa escolher a ferramenta, montar argumento e tratar resultado de volta.
-- Reasoning / thinking: budget extra de inferência pra planejar antes de agir.
-- Sem essas três condições casadas, não tem agente que funcione na prática.
+- Gancho: "por que só 4 modelos passaram no benchmark?"
+- Tamanho virou commodity — não é parâmetro, é infraestrutura
+- Prompt caching → KV cache; sem isso sessão longa do Claude Code explode em custo
+- Tool calling → open source frequentemente trava ou inventa método
+- Thinking / reasoning → Anthropic chama de "thinking", é budget extra de inferência
+- Exemplo pra cravar: DeepSeek — modelo ok, falha por não fechar os 3
+- Puxar pro próximo slide: "Coder" no nome falha pelos mesmos motivos
 -->
 ---
 
@@ -844,12 +853,15 @@ Tempo sugerido: ~0:55
 <!--
 Tempo sugerido: ~0:50
 
-- Outra surpresa do benchmark: a intuição de que modelo com "Coder" no nome é melhor pra programação não bateu.
-- Dos três Qwen Coder dedicados, dois falharam catastroficamente e um nem rodou direito.
-- As versões gerais do Qwen bateram as Coder dedicadas. Fine-tuning específico pra código não substituiu fluxo completo de agente.
-- Até a distilação do Claude no Qwen 3.5 27B prometia "Claude em casa" e entregou alucinação de API.
-- Se alguém insistir em testar Qwen pra código, só o 3.5 35B-A3B geral (MoE) vale a pena — e mesmo assim fica bem atrás dos modelos de ponta.
-- Conclusão: marketing label não substitui as três condições do slide anterior.
+- Gancho: "intuição era que 'Coder' no nome seria melhor — deu o contrário"
+- 3 Qwen Coder testados, 2 falharam catastroficamente, 1 nem rodou
+- Detalhe marcante: 3 Coder 30B devolveu string MOCKADA HARDCODED em vez de chamar API
+- 2.5 Coder 32B → 90 min de timeout, zero arquivos
+- Versões gerais bateram Coder dedicadas → fine-tuning em código ≠ fluxo de agente
+- Distilado do Claude (3.5 27B) era a aposta "Claude em casa" → rodou Rails mas alucinou API toda
+- Qwen do card verde = 3.5 35B-A3B (MoE geral), 5090, 1-2 follow-ups arrumam, o "menos ruim"
+- Quwen = Qianwen = "mil perguntas" em mandarim (se quiser soltar a curiosidade sobre o nome)
+- Amarrar: mesmas 3 condições do slide anterior — label não substitui infraestrutura
 -->
 ---
 
@@ -873,11 +885,15 @@ Tempo sugerido: ~0:50
 <!--
 Tempo sugerido: ~1:00
 
-- LLM nunca vai ser determinística. Vai continuar errando, alucinando, baixando a cabeça pro usuário.
-- Mas o ciclo de feedback ficou tão curto que errar deixou de ser caro.
-- Loop de agente roda, quebra, recebe stack trace, conserta, tenta de novo — em segundos.
-- E quando algo fica imperfeito mas barato, o open source corre por cima: claw-code apareceu como clone clean-room do Claude Code em 24h, free-code apareceu sem telemetria, e o OpenClaw já tinha base madura — agora com memclaw plugado, que é um sistema de memória inspirado no do próprio Claude.
-- O que ficou barato é software trivial: CRUD, landing, bot, ETL. O que continua caro é o que sempre foi: julgamento, arquitetura, operação, dono do problema.
+- Ponto conceitual: não é que modelo ficou perfeito, é que errar ficou BARATO
+- Chave da virada: ciclo de feedback curto → stack trace → conserto → retry em segundos
+- claw-code → clone clean-room, github.com/ultraworkers/claw-code, <24h depois do leak
+- free-code → fork sem telemetria, sem travas
+- OpenClaw + memclaw → memclaw é sistema de memória inspirado no do Claude, github.com/Felo-Inc/memclaw
+- Mensagem: open source absorveu comportamento E padrões internos, muito rápido
+- Corte de mercado → barato: CRUD, landing, bot, ETL, cola entre API
+- Caro continua igual: julgamento, arquitetura, operação, dono do problema
+- Background: kintsugi — cerâmica quebrada consertada com ouro, o "defeito vira feature"
 -->
 ---
 
@@ -903,11 +919,16 @@ Tempo sugerido: ~1:00
 <!--
 Tempo sugerido: ~0:55
 
-- Pay-as-you-go via API parece mais "honesto", mas sai caro rapidíssimo pra quem usa pesado.
-- GPT 5.4 Pro na API bate ~US$ 990/mês num uso moderado; ChatGPT Pro a US$ 200/mês ilimitado é 5x mais barato.
-- Claude Opus na API chega perto de US$ 450/mês; Claude Max 20x a US$ 200/mês cobre uso pesado pela metade.
-- O recado: se você usa coding agent sério no dia a dia, assinatura é muito mais cost-effective.
-- Talvez subsidiado demais. Talvez não pare em pé pra sempre. Mas hoje, é assim.
+- Suposição do benchmark: ~15M tokens input + ~3M output por mês (uso moderado de coding)
+- GPT 5.4 Pro via API: $180/M output tokens no OpenRouter (número bruto que vira os $990)
+- Claude Opus via API: $25/M output tokens (vira os $450)
+- GLM 5 via API: $2.30/M (89% mais barato que Opus — lembrar se alguém perguntar)
+- Qwen 3.6 Plus é grátis no OpenRouter, mas rate-limited
+- ChatGPT Pro $200 = ilimitado → 5x mais barato que pagar GPT 5.4 Pro por token
+- Claude Max 20x $200 → ~220K tokens a cada 5h, ~metade do preço do Opus na API
+- Disclaimer honesto: provavelmente subsidiado, pode não durar pra sempre
+- Contexto: Anthropic preparando IPO em 2026 pressiona essa margem (puxa pro slide seguinte)
+-->
 -->
 ---
 
