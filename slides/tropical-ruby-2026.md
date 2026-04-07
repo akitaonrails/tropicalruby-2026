@@ -18,7 +18,7 @@ description: Keynote em pt-BR sobre agile vibe coding, agentes de IA, engenharia
 ## Não engenharia.
 
 <!--
-Chegar em: ~00:00
+Chegar em: ~00:00 (75s)
 
 - Eu quero abrir cravando a tese, porque o resto da palestra existe só pra sustentar isso.
 - Sim, IA está substituindo gente em software.
@@ -41,7 +41,7 @@ Chegar em: ~00:00
 
 
 <!--
-Chegar em: ~00:45
+Chegar em: ~01:15 (60s)
 
 - Cards já mostram os números — aproveitar pra mencionar contexto
 - RubyConf Brasil: fundei e organizei até 2016
@@ -60,7 +60,7 @@ Chegar em: ~00:45
 <div class="lead">Eu já vinha batendo na economia do programador fake antes de agentes de código prestarem pra alguma coisa.</div>
 
 <!--
-Chegar em: ~01:35
+Chegar em: ~02:15 (55s)
 
 - Eu não comecei a falar disso quando IA virou moda.
 - Eu já vinha batendo na bolha da programação, na economia do programador ruim, nas promessas de curso e bootcamp, muito antes de agente de código prestar pra alguma coisa.
@@ -85,7 +85,7 @@ Chegar em: ~01:35
 
 
 <!--
-Chegar em: ~02:20
+Chegar em: ~03:10 (60s)
 
 - Tem uma linha reta aqui.
 - Em 2019 eu já avisava que a bolha ia azedar.
@@ -109,7 +109,7 @@ Chegar em: ~02:20
 
 
 <!--
-Chegar em: ~03:10
+Chegar em: ~04:10 (65s)
 
 - A mentira antiga era simples: faz um cursinho rápido, vira engenheiro de software, ganha salário alto e entra no modo easy.
 - Isso sempre foi conversa mole.
@@ -128,7 +128,7 @@ Chegar em: ~03:10
 ## “IA vai substituir programador.”
 
 <!--
-Chegar em: ~04:05
+Chegar em: ~05:15 (45s)
 
 - Pra explicar o pânico atual, eu quero fazer uma tangente rápida com um universo que eu acompanho por hobby: drama de VTuber e drama de arte.
 - O padrão emocional é o mesmo.
@@ -154,7 +154,7 @@ Chegar em: ~04:05
 </div>
 
 <!--
-Chegar em: ~04:40
+Chegar em: ~06:00 (55s)
 
 - O caso da AsamiArts me interessa não pela fofoca, mas pelo mecanismo.
 - Isso não afeta só ego de artista no Twitter.
@@ -192,7 +192,7 @@ Chegar em: ~04:40
 </div>
 
 <!--
-Chegar em: ~05:25
+Chegar em: ~06:55 (65s)
 
 - Aqui é onde eu mostro o que um tracing falso tenta vender.
 - Não tem sketch feio antes.
@@ -230,7 +230,7 @@ Chegar em: ~05:25
 </div>
 
 <!--
-Chegar em: ~06:20
+Chegar em: ~08:00 (65s)
 
 - Esse é o pedaço mais importante.
 - Minha leitura é que o vídeo esconde uma camada pronta por trás.
@@ -253,7 +253,7 @@ Chegar em: ~06:20
 </div>
 
 <!--
-Chegar em: ~07:15
+Chegar em: ~09:05 (60s)
 
 - Outro sinal é a inconsistência.
 - Não é só “melhorou”.
@@ -276,7 +276,7 @@ Chegar em: ~07:15
 </div>
 
 <!--
-Chegar em: ~08:05
+Chegar em: ~10:05 (55s)
 
 - Aqui entra a alucinação mais óbvia.
 - A arma parece arma até você olhar direito.
@@ -303,7 +303,7 @@ Chegar em: ~08:05
 </div>
 
 <!--
-Chegar em: ~08:50
+Chegar em: ~11:00 (65s)
 
 - E tem outra camada aí: LoRA.
 - LoRA é um ajuste leve em cima de um modelo base para puxar um traço específico.
@@ -322,7 +322,7 @@ Chegar em: ~08:50
 ## Ele te acelera: se você for bom, fica ainda melhor. Se você for ruim, vai ficar ainda pior.
 
 <!--
-Chegar em: ~09:45
+Chegar em: ~12:05 (90s)
 
 - IA não cria competência do nada.
 - Ela amplifica o que você já é.
@@ -345,7 +345,7 @@ Chegar em: ~09:45
 
 
 <!--
-Chegar em: ~10:45
+Chegar em: ~13:35 (55s)
 
 - 31 de março de 2026 — data do leak, poucos dias antes da palestra
 - CLI oficial da Anthropic deixou escapar source map: 512k linhas TypeScript, 1.900 arquivos, 59,8MB
@@ -370,7 +370,7 @@ Chegar em: ~10:45
 </div>
 
 <!--
-Chegar em: ~11:30
+Chegar em: ~14:30 (90s)
 
 - Abriram o código. O que apareceu? Não foi magia.
 - Foi espaguete de sênior: base grande, pressionada por entrega, cheia de remendo.
@@ -389,7 +389,7 @@ Chegar em: ~11:30
 
 
 <!--
-Chegar em: ~12:30
+Chegar em: ~16:00 (65s)
 
 - Eu chamei LLMs de loot boxes porque elas são probabilísticas.
 - Não são compiladores determinísticos.
@@ -413,7 +413,7 @@ Chegar em: ~12:30
 
 
 <!--
-Chegar em: ~13:25
+Chegar em: ~17:05 (55s)
 
 - E eu quero deixar uma coisa bem explícita: o modelo de 2026 ainda baixa a cabeça pra você.
 - Se você vier com premissa torta, ele muitas vezes prefere te agradar em vez de te contrariar.
@@ -437,7 +437,7 @@ Chegar em: ~13:25
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Não foi um dia mágico. Foi o ano inteiro fechando modelo, thinking, tool support e operação.</div>
 
 <!--
-Chegar em: ~14:10
+Chegar em: ~18:00 (65s)
 
 - Pra mim, 2025 foi o ano em que a pilha foi fechando.
 - Em março, tool support virou plataforma de verdade.
@@ -459,7 +459,7 @@ Chegar em: ~14:10
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Modelo novo + CLI de agente madura, os dois ao mesmo tempo. Em dezembro deu pra apostar tempo de verdade. Em janeiro de 2026 eu entrei nessa também — foi daí que saiu a maratona.</div>
 
 <!--
-Chegar em: ~15:05
+Chegar em: ~19:05 (75s)
 
 - Datas marcantes: 13 nov (GPT-5.1 + Codex CLI), 24 nov (Opus 4.5 + Claude Code), 11 dias de distância
 - A chave não foi só o modelo novo — foi a CLI de agente amadurecendo junto, nos DOIS lados na mesma janela
@@ -479,7 +479,7 @@ Chegar em: ~15:05
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg</div>
 
 <!--
-Chegar em: ~16:05
+Chegar em: ~20:20 (30s)
 
 - Então eu parei de opinar e fui testar com pele em jogo.
 - Não com prompt de brinquedo.
@@ -505,7 +505,7 @@ Chegar em: ~16:05
 </div>
 
 <!--
-Chegar em: ~16:30
+Chegar em: ~20:50 (35s)
 
 - Este slide é só a parede de projetos.
 - FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI, Frank Karaoke e outros.
@@ -528,7 +528,7 @@ Chegar em: ~16:30
 
 
 <!--
-Chegar em: ~17:05
+Chegar em: ~21:25 (85s)
 
 - Aqui entra a comparação que eu acho mais forte de todas.
 - FrankMD de um lado.
@@ -554,7 +554,7 @@ Chegar em: ~17:05
 
 
 <!--
-Chegar em: ~18:00
+Chegar em: ~22:50 (95s)
 
 - Ferramenta de contagem: `tokei` sobre arquivos rastreados no git
 - Critério: só linha de código, teste separado por path, sem docs/fixtures/snapshots/virtualenv/node_modules/vendor
@@ -581,7 +581,7 @@ Chegar em: ~18:00
 
 
 <!--
-Chegar em: ~19:05
+Chegar em: ~24:25 (90s)
 
 - Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade.
 - Não porque o modelo escreve código perfeito.
@@ -607,7 +607,7 @@ Chegar em: ~19:05
 </div>
 
 <!--
-Chegar em: ~20:05
+Chegar em: ~25:55 (90s)
 
 - O pulo do gato não foi QI mágico, foi ferramenta entrando no loop.
 - Shell, editor, execução, teste, busca, contexto — tudo isso virou parte do ciclo do agente.
@@ -632,7 +632,7 @@ Chegar em: ~20:05
 
 
 <!--
-Chegar em: ~21:05
+Chegar em: ~27:25 (85s)
 
 - Não é truque de palco — ritmo real foi ~16h/dia, 7 dias/semana por 45 dias corridos
 - Conversão pra ritmo sustentável de sênior (8h/dia, só dias úteis) → ~126 dias = ~4 meses e 1 semana
@@ -652,7 +652,7 @@ Chegar em: ~21:05
 
 
 <!--
-Chegar em: ~22:00
+Chegar em: ~28:50 (65s)
 
 - A fantasia do prompt único é preguiçosa.
 - Ela parte da ideia de que dá pra prever e especificar tudo antes.
@@ -674,7 +674,7 @@ Chegar em: ~22:00
 </div>
 
 <!--
-Chegar em: ~22:55
+Chegar em: ~29:55 (60s)
 
 - É por isso que o Akita antigo continua valendo.
 - Não terceirize sua decisão.
@@ -694,7 +694,7 @@ Chegar em: ~22:55
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A lógica continua a mesma: experimento pequeno, feedback rápido, correção contínua.</div>
 
 <!--
-Chegar em: ~23:45
+Chegar em: ~30:55 (55s)
 
 - O mais difícil de ensinar pra iniciante é isso: julgamento não é uma coisa que você baixa pronta.
 - Não vem de influencer, não vem de bootcamp, não vem de modelo.
@@ -717,7 +717,7 @@ Chegar em: ~23:45
 </div>
 
 <!--
-Chegar em: ~24:30
+Chegar em: ~31:50 (90s)
 
 - Agile Vibe Coding é XP com pareamento de máquina. A estrutura por baixo é velha.
 - TDD não é perfumaria. Segura erro de modelo antes de virar lama.
@@ -741,7 +741,7 @@ Chegar em: ~24:30
 
 
 <!--
-Chegar em: ~25:30
+Chegar em: ~33:20 (90s)
 
 - O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto.
 - O agente traz velocidade de execução, busca e fôlego operacional.
@@ -764,7 +764,7 @@ Chegar em: ~25:30
 <div class="caption">MiniMax, Kimi e o resto ainda correm atrás. Open source tem utilidade, mas não empatou no fluxo completo com agentes.</div>
 
 <!--
-Chegar em: ~26:30
+Chegar em: ~34:50 (65s)
 
 - No ecossistema de modelos em abril de 2026, minha leitura prática é simples.
 - Anthropic e OpenAI continuam sendo as plataformas de ponta que mais importam pra código sério.
@@ -792,7 +792,7 @@ Chegar em: ~26:30
 <div class="caption">Artigo completo: akitaonrails.com/2026/04/05/testando-llms-open-source-e-comerciais-quem-consegue-bater-o-claude-opus</div>
 
 <!--
-Chegar em: ~27:25
+Chegar em: ~35:55 (95s)
 
 - Benchmark: 22 modelos, mesmo runner, mesmas condições, mesmo task (app Rails com RubyLLM)
 - Hardware: RTX 5090 (32GB GDDR7) + Minisforum AMD Ryzen AI Max 395 com 128GB memória unificada
@@ -820,7 +820,7 @@ Chegar em: ~27:25
 <div class="caption">Tamanho de modelo virou commodity. As três condições acima é que separam quem aguenta um agente real — DeepSeek, por exemplo, falha hoje justamente por não fechar essas três.</div>
 
 <!--
-Chegar em: ~28:25
+Chegar em: ~37:30 (85s)
 
 - Gancho: "por que só 4 modelos passaram no benchmark?"
 - Tamanho virou commodity — não é parâmetro, é infraestrutura
@@ -851,7 +851,7 @@ Chegar em: ~28:25
 </div>
 
 <!--
-Chegar em: ~29:20
+Chegar em: ~38:55 (80s)
 
 - Gancho: "intuição era que 'Coder' no nome seria melhor — deu o contrário"
 - 3 Qwen Coder testados, 2 falharam catastroficamente, 1 nem rodou
@@ -883,7 +883,7 @@ Chegar em: ~29:20
 <div class="caption" style="margin-top:18px;"><strong>Barato:</strong> CRUD, landing page, painel interno, bot, ETL, cola entre APIs. &nbsp;|&nbsp; <strong>Caro continua o que sempre foi:</strong> julgamento, arquitetura, operação, dono do problema.</div>
 
 <!--
-Chegar em: ~30:10
+Chegar em: ~40:15 (90s)
 
 - Ponto conceitual: não é que modelo ficou perfeito, é que errar ficou BARATO
 - Chave da virada: ciclo de feedback curto → stack trace → conserto → retry em segundos
@@ -917,7 +917,7 @@ Chegar em: ~30:10
 <div class="caption">Estimativa pra uso moderado de coding (~15M input + ~3M output tokens/mês).</div>
 
 <!--
-Chegar em: ~31:10
+Chegar em: ~41:45 (85s)
 
 - Suposição do benchmark: ~15M tokens input + ~3M output por mês (uso moderado de coding)
 - GPT 5.4 Pro via API: $180/M output tokens no OpenRouter (número bruto que vira os $990)
@@ -952,7 +952,7 @@ Meu palpite: com energia, margem e demanda apertando, eu esperaria menos milagre
 </div>
 
 <!--
-Chegar em: ~32:05
+Chegar em: ~43:10 (85s)
 
 - Aqui entra minha especulação.
 - A conta física começou a apertar.
@@ -976,7 +976,7 @@ Chegar em: ~32:05
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">E a correção continua agora. Em 1 de abril de 2026, a Oracle entrou em mais uma rodada grande de layoffs.</div>
 
 <!--
-Chegar em: ~33:00
+Chegar em: ~44:35 (60s)
 
 - Aqui é a parte em que eu paro de fingir diplomacia.
 - Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo.
@@ -1005,7 +1005,7 @@ Chegar em: ~33:00
 </div>
 
 <!--
-Chegar em: ~33:45
+Chegar em: ~45:35 (100s)
 
 - Júnior não morreu, só mudou de forma. Vai herdar a sujeira da era do vibe coding sem freio.
 - Aprender no projeto bagunçado é como gerações anteriores aprenderam. Não é tragédia, é cicatriz.
@@ -1025,7 +1025,7 @@ Chegar em: ~33:45
 ## Fundamento. Disciplina. Iteração. Gosto.
 
 <!--
-Chegar em: ~34:55
+Chegar em: ~47:15 (95s)
 
 - Parte dura: IA não transforma programador ruim em engenheiro. Ajuda a fazer estrago maior mais rápido.
 - E ajuda engenheiro de verdade a atravessar o caos mais rápido, sem deixar o software morrer.
@@ -1049,7 +1049,7 @@ Chegar em: ~34:55
 </div>
 
 <!--
-Chegar em: ~35:55
+Chegar em: ~48:50 (25s)
 
 - E já que é pra acabar sem falsa modéstia: se você curtiu essa palestra, assina o The M.Akita Chronicles.
 - Está tudo aí na tela.
@@ -1075,7 +1075,7 @@ Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo no PPTX 
 </div>
 
 <!--
-Chegar em: ~36:15
+Chegar em: ~49:15 (35s)
 
 - E sim, já que o tema da palestra pede isso, este deck inteiro também foi feito com IA.
 - Pesquisa, estrutura, roteiro, notas, crops, builds e automação saíram do mesmo fluxo.
@@ -1099,7 +1099,7 @@ Chegar em: ~36:15
 </div>
 
 <!--
-Chegar em: ~36:45
+Chegar em: ~49:50 (10s)
 
 - Obrigado.
 - Os links estão aí embaixo.
