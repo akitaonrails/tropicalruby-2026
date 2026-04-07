@@ -30,21 +30,24 @@ Tempo sugerido: ~0:45
 <!-- _class: center tone-moss -->
 # Fabio Akita
 
-<div class="stats">
-  <div class="card"><strong>Codeminer 42</strong><span class="mini">cofundador, hoje no conselho</span></div>
-  <div class="card"><strong>RubyConf Brasil</strong><span class="mini">fundador e organizador até 2016</span></div>
-  <div class="card"><strong>@akitando</strong><span class="mini">500 mil+ seguidores</span></div>
-  <div class="card"><strong>Flow + Inteligência Ltda</strong><span class="mini">alcance além da bolha tech</span></div>
+<div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:24px;justify-content:center;">
+  <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">Codeminer 42</strong><span class="mini">cofundador, hoje no conselho</span></div>
+  <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">RubyConf Brasil</strong><span class="mini">fundador e organizador até 2016</span></div>
+  <div class="card" style="flex:0 0 calc(33.33% - 10px);background:rgba(107,142,90,0.24);border:2px solid #6b8e5a;"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">akitaonrails.com ✦</strong><span class="mini">20 anos em 5 de abril de 2026, 700+ artigos, agora em pt-BR e en</span></div>
+  <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;"><svg width="22" height="22" viewBox="0 0 24 24" fill="#c4302b" style="vertical-align:-4px;margin-right:6px;"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.546 15.568V8.432L15.818 12l-6.272 3.568z"/></svg>@akitando</strong><span class="mini">500 mil+ seguidores no YouTube</span></div>
+  <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-3px;margin-right:6px;"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@akitaonrails</strong><span class="mini">83,7 mil seguidores no X</span></div>
+  <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">Flow + Inteligência Ltda</strong><span class="mini">alcance além da bolha tech</span></div>
 </div>
 
 
 <!--
-Tempo sugerido: ~0:40
+Tempo sugerido: ~0:50
 
 - Pra quem só me conhece por um pedaço da internet: fui cofundador da Codeminer 42 e hoje estou no conselho.
 - Fundei e organizei a RubyConf Brasil até 2016.
-- Passei anos no YouTube com o Akitando.
-- E também fui parar fora da bolha tech, em programas como Flow e Inteligência Ltda.
+- Passei anos no YouTube com o Akitando, mais de 500 mil seguidores, e sigo ativo no X como @akitaonrails com cerca de 83,7 mil.
+- E o akitaonrails.com completou 20 anos em 5 de abril de 2026, mais de 700 artigos publicados, agora em português e inglês.
+- Também fui parar fora da bolha tech, em Flow e Inteligência Ltda.
 -->
 ---
 
@@ -314,17 +317,17 @@ Tempo sugerido: ~0:55
 <div class="eyebrow">Mesma Regra No Código</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Part_of_my_messy_desk_(430672681).jpg</div>
 
-# Trabalho de verdade<br>parece bagunçado.
+# IA reflete quem você é
 
-## IA só amplifica o que já estava lá.
+## Ele te acelera: se você for bom, fica ainda melhor. Se você for ruim, vai ficar ainda pior.
 
 <!--
 Tempo sugerido: ~1:00
 
-- E é aqui que isso volta pro código.
-- Trabalho de verdade parece bagunçado.
-- Artista de verdade erra, corrige, revisa, ajusta composição, muda junto com o pedido do cliente.
-- Engenheiro de verdade faz a mesma coisa.
+- IA não cria competência do nada.
+- Ela amplifica o que você já é.
+- Bom engenheiro: produz mais, mais rápido.
+- Mau engenheiro: produz lixo mais rápido.
 -->
 ---
 
@@ -352,10 +355,12 @@ Tempo sugerido: ~0:45
 <!-- _class: center -->
 <div class="eyebrow">A Faísca</div>
 
+# A lição não foi "uau, magia"
+
 <div style="display:flex;gap:34px;align-items:center;text-align:left;">
-  <div style="flex:0 0 39%;">
-    <h1 style="margin:0 0 18px 0;line-height:0.95;">Não foi rumor.<br />Foi vazamento.</h1>
-    <div class="lead" style="max-width:none;margin:0;">A imagem de abertura do seu artigo já conta a história inteira: source map exposto, árvore de arquivos na mão de todo mundo e a mística indo embora em tempo real.</div>
+  <div style="flex:0 0 42%;">
+    <div class="card" style="margin-bottom:12px;"><strong>Nem a Anthropic escapa</strong><br />pressão de entrega também gera código tático</div>
+    <div class="card"><strong>E copiaram rápido</strong><br />free-code e reimplementações apareceram quase na hora</div>
   </div>
   <div style="flex:1 1 auto;text-align:right;">
     <img src="../assets/claude-code-leak-tweet.png" alt="Tweet do vazamento do Claude Code" style="height:480px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
@@ -363,48 +368,11 @@ Tempo sugerido: ~0:45
 </div>
 
 <!--
-Tempo sugerido: ~0:20
-
-- E eu quis colocar a imagem de abertura do artigo justamente por isso.
-- Ela resume o clima do negócio em um frame: o tweet, o link, a árvore de arquivos aparecendo, e a internet inteira percebendo em tempo real que dava pra abrir a caixa-preta.
-- A mística acabou ali.
--->
----
-
-<!-- _class: center tone-ruby -->
-# A lição não foi<br>“uau, magia”
-
-<div class="columns">
-  <div class="card"><strong>Nem a Anthropic escapa</strong><br />pressão de entrega também gera código tático</div>
-  <div class="card"><strong>E copiaram rápido</strong><br />free-code e reimplementações apareceram quase na hora</div>
-</div>
-
-
-<!--
 Tempo sugerido: ~1:00
 
-- E o que apareceu lá dentro? Não apareceu perfeição divina.
-- Não apareceu magia.
-- Apareceu uma base grande, pressionada por entrega, cheia de decisão tática, chave de recurso, remendo e complexidade operacional.
-- O famoso espaguete de sênior.
--->
----
-
-<!-- _class: statement -->
-![bg cover opacity:.18](../assets/offline/bg-server-racks.jpg)
-<div class="eyebrow">Meu Ponto</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Empty_server_racks_-_IMG_3674.jpg</div>
-
-# IA não eliminou<br><span class="em-moss">engenharia</span>.
-
-## Eliminou desculpa.
-
-<!--
-Tempo sugerido: ~0:35
-
-- Então meu ponto central é esse: IA não eliminou a necessidade de engenharia.
-- Ela eliminou desculpa.
-- Ela escancarou a diferença entre quem sabe fazer sistema sobreviver em produção e quem só sabe produzir resposta plausível.
+- Abriram o código. O que apareceu? Não foi magia.
+- Foi espaguete de sênior: base grande, pressionada por entrega, cheia de remendo.
+- E quase imediatamente começaram a reimplementar. Quando a mística some, sobra engenharia.
 -->
 ---
 
@@ -455,7 +423,7 @@ Tempo sugerido: ~0:45
 <!-- _class: center tone-moss -->
 <div class="eyebrow">Linha Do Tempo</div>
 
-# 2025 fechou a pilha
+# 2025 foi o ano dos Agentes
 
 <div class="stats">
   <div class="card"><strong>mar 2025</strong><span class="mini">Responses API, tools e Agents SDK viram produto</span></div>
@@ -479,48 +447,22 @@ Tempo sugerido: ~0:55
 <!-- _class: center tone-moss -->
 <div class="eyebrow">Convergência</div>
 
-# Modelo + ferramenta + CLI
+# Dezembro de 2025 foi a Virada
 
 <div class="columns">
-  <div class="card"><strong>OpenAI</strong><br />Responses API em março, GPT-5 em agosto, GPT-5.1 em novembro, Codex CLI e Codex na nuvem trazendo shell, patch e tarefas longas pro fluxo real</div>
-  <div class="card"><strong>Anthropic</strong><br />Claude 4 em maio, Opus 4.5 em novembro, Claude Code no terminal, no editor e em execução em segundo plano com thinking entre chamadas de ferramenta</div>
+  <div class="card"><strong>OpenAI — 13 nov</strong><br />GPT-5.1 sai pra desenvolvedores e o Codex CLI finalmente fica bom o bastante pra rodar tarefa longa de verdade no terminal</div>
+  <div class="card"><strong>Anthropic — 24 nov</strong><br />Claude Opus 4.5 sai e o Claude Code amadurece com thinking entre tool calls, execução em background e fluxo de agente sério</div>
 </div>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Quando frontier model, tool support e terminal agent alinharam, dezembro virou mês de experimento sério.</div>
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Modelo novo + CLI de agente madura, os dois ao mesmo tempo. Em dezembro deu pra apostar tempo de verdade. Em janeiro de 2026 eu entrei nessa também — foi daí que saiu a maratona.</div>
 
 <!--
-Tempo sugerido: ~0:55
+Tempo sugerido: ~1:00
 
-- O ponto não foi só sair modelo novo.
-- O ponto foi alinhar três camadas ao mesmo tempo: modelo melhor, suporte melhor de ferramenta, e CLI boa o bastante pra usar isso no trabalho.
-- A OpenAI empurrou a pilha de plataforma e Codex.
-- A Anthropic empurrou Claude 4, Opus 4.5 e Claude Code.
--->
----
-
-<!-- _class: center tone-moss -->
-<div class="eyebrow">Virada</div>
-
-# Fim de 2025<br><span class="em-moss">foi diferente</span>
-
-<div class="stats">
-  <div class="card"><strong>13 nov 2025</strong><br />GPT-5.1 saiu para desenvolvedores</div>
-  <div class="card"><strong>24 nov 2025</strong><br />Claude Opus 4.5 saiu</div>
-  <div class="card"><strong>dez 2025</strong><br />gente boa começou a testar isso pra valer</div>
-</div>
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Em janeiro de 2026 eu entrei nessa também. Foi daí que saiu a maratona.</div>
-
-
-<!--
-Tempo sugerido: ~0:50
-
-- uma coisa realmente mudou.
-- OpenAI lançou GPT-5.1 pra desenvolvedores em 13 de novembro de 2025.
-- Anthropic lançou Claude Opus 4.5 em 24 de novembro de 2025.
-- Em dezembro, muita gente boa começou a testar isso pesado no trabalho real.
-- Foi a primeira vez que isso ficou bom o bastante pra apostar tempo real.
-- Em janeiro de 2026, eu entrei nessa também.
+- Não foi só sair modelo novo. Foi modelo + CLI de agente alinhando ao mesmo tempo.
+- 13 de novembro: GPT-5.1 sai e o Codex CLI fica bom o bastante pra tarefa longa de verdade.
+- 24 de novembro: Opus 4.5 sai e o Claude Code amadurece com thinking entre tool calls.
+- Dezembro: deu pra começar a usar isso pra trabalho real. Janeiro de 2026: eu entrei.
 -->
 ---
 
@@ -623,7 +565,7 @@ Tempo sugerido: ~1:05
 ![bg cover opacity:.16](../assets/offline/bg-sprint-runners.jpg)
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Brad_Kahlefeldt_and_Ned_Mortimer_running_in_the_50m_running_sprint.jpg</div>
 
-# O que eu ganhei<br>de verdade
+# Alcançamos<br>"Developer 10x"?
 
 <div class="stats">
   <div class="card"><strong>5x a 10x</strong><span class="mini">de velocidade</span></div>
@@ -640,6 +582,32 @@ Tempo sugerido: ~1:00
 - Não porque o modelo escreve código perfeito.
 - Não escreve.
 - O ganho vem porque ele atravessa aquele atrito chato que normalmente quebra foco: código repetitivo, busca, refatoração repetitiva, teste repetitivo, execução de comando, tentativa rápida.
+-->
+---
+
+<!-- _class: statement tone-moss -->
+![bg cover opacity:.18](../assets/offline/bg-f35a.jpg)
+<div class="eyebrow">Ciclo do Agente</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:F-35A_flight_(cropped).jpg</div>
+
+<div style="display:flex;gap:36px;align-items:center;text-align:left;">
+  <div style="flex:1 1 58%;">
+    <h1 style="margin:0;line-height:1.05;">Planeja.<br>Investiga.<br>Lapida.<br>Opera.<br>Testa.<br>Ajusta.</h1>
+  </div>
+  <div style="flex:0 0 38%;display:flex;flex-direction:column;gap:14px;">
+    <div class="card"><strong>Shell e editor</strong><div class="mini">o modelo parou de só sugerir e passou a operar</div></div>
+    <div class="card"><strong>Teste e execução</strong><div class="mini">erro voltou como feedback em segundos</div></div>
+    <div class="card"><strong>Busca e contexto</strong><div class="mini">documentação e código viraram parte do loop</div></div>
+  </div>
+</div>
+
+<!--
+Tempo sugerido: ~1:00
+
+- O pulo do gato não foi QI mágico, foi ferramenta entrando no loop.
+- Shell, editor, execução, teste, busca, contexto — tudo isso virou parte do ciclo do agente.
+- Acróstico PILOTA: planeja, investiga, lapida, opera, testa, ajusta.
+- Não tem nada de místico. É compressão de retorno de engenharia.
 -->
 ---
 
@@ -665,46 +633,6 @@ Tempo sugerido: ~0:55
 - Isso foi entregue em 45 dias corridos, sim.
 - Mas em ritmo de maratona: quase 16 horas por dia, 7 dias por semana.
 - Se você converte isso para um sênior trabalhando num ritmo sustentável, no máximo 8 horas por dia e só em dias úteis, essa mesma entrega com IA vira algo como 126 dias corridos, perto de 4 meses e 1 semana.
--->
----
-
-<!-- _class: statement -->
-<div class="eyebrow">O Pulo Do Gato</div>
-
-# Não foi QI.<br>Foi <span class="em-moss">ferramenta</span>.
-
-<div class="columns-3">
-  <div class="card"><strong>Shell e editor</strong><div class="mini">o modelo parou de só sugerir e passou a operar</div></div>
-  <div class="card"><strong>Teste e execução</strong><div class="mini">erro voltou como feedback em segundos</div></div>
-  <div class="card"><strong>Busca e contexto</strong><div class="mini">documentação e código viraram parte do loop</div></div>
-</div>
-
-
-<!--
-Tempo sugerido: ~0:40
-
-- Eu quero martelar isso porque muita gente ainda fala como se 2026 fosse sobre um salto mágico de inteligência.
-- Não foi.
-- O pulo do gato foi ferramenta.
-- Shell, editor, execução, teste, busca, documentação, leitura de código, tudo isso entrando no loop.
-- A prova prática só ficou plausível por causa disso.
--->
----
-
-<!-- _class: statement tone-moss -->
-![bg cover opacity:.18](../assets/offline/bg-f35a.jpg)
-<div class="eyebrow">Ciclo do Agente</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:F-35A_flight_(cropped).jpg</div>
-
-# Planeja.<br>Investiga.<br>Lapida.<br>Opera.<br>Testa.<br>Ajusta.
-
-<!--
-Tempo sugerido: ~0:35
-
-- E reparem como é o ciclo útil de verdade.
-- Eu até brinquei no slide pra formar um acróstico de “PILOTA”: planeja, investiga, lapida, opera, testa, ajusta.
-- Não tem nada de místico nisso.
-- É compressão de retorno de engenharia.
 -->
 ---
 
@@ -774,21 +702,7 @@ Tempo sugerido: ~0:45
 
 # Agile Vibe Coding
 
-## é XP com pareamento
-## programming de máquina
-
-<!--
-Tempo sugerido: ~0:45
-
-- É por isso que eu uso o termo Agile Vibe Coding, mas também faço questão de desmistificar.
-- A estrutura de verdade por baixo é velha.
-- É Extreme Programming.
-- O pareamento mudou porque agora meu par é uma máquina.
--->
----
-
-<!-- _class: center tone-moss -->
-# XP não é<br><span class="em-ruby">perfumaria</span>
+## é XP com pareamento de máquina
 
 <div class="columns-3">
   <div class="card"><strong>TDD</strong><div class="mini">segura erro de modelo antes de virar lama</div></div>
@@ -796,14 +710,13 @@ Tempo sugerido: ~0:45
   <div class="card"><strong>Refatoração contínua</strong><div class="mini">evita cirurgia cara depois</div></div>
 </div>
 
-
 <!--
-Tempo sugerido: ~0:45
+Tempo sugerido: ~1:00
 
-- E aqui vale separar uma coisa importante.
-- TDD não é perfumaria.
-- CI não é perfumaria.
-- Refatoração contínua não é perfumaria.
+- Agile Vibe Coding é XP com pareamento de máquina. A estrutura por baixo é velha.
+- TDD não é perfumaria. Segura erro de modelo antes de virar lama.
+- CI por commit pega drift e regressão cedo.
+- Refatoração contínua evita cirurgia cara depois.
 -->
 ---
 
@@ -839,17 +752,18 @@ Tempo sugerido: ~1:00
 <div class="columns-3">
   <div class="card"><strong>Anthropic</strong><div class="mini">continua no topo pra agentes de código</div></div>
   <div class="card"><strong>OpenAI</strong><div class="mini">GPT 5.4 virou modelo forte pra código e agentes</div></div>
-  <div class="card"><strong>Seguidores</strong><div class="mini">GLM, MiniMax, Kimi; open source ainda corre atrás</div></div>
+  <div class="card"><strong>GLM 5.1 (Z.AI)</strong><div class="mini">único concorrente real fora de Anthropic e OpenAI</div></div>
 </div>
 
+<div class="caption">MiniMax, Kimi e o resto ainda correm atrás. Open source tem utilidade, mas não empatou no fluxo completo com agentes.</div>
 
 <!--
 Tempo sugerido: ~0:55
 
 - No ecossistema de modelos em abril de 2026, minha leitura prática é simples.
 - Anthropic e OpenAI continuam sendo as plataformas de ponta que mais importam pra código sério.
-- Existem seguidores relevantes, como GLM, MiniMax e Kimi.
-- Open source é útil, mas ainda não empatou no fluxo completo com agentes.
+- Fora desses dois, o único concorrente que realmente entregou no meu benchmark foi o GLM 5.1 da Z.AI.
+- MiniMax, Kimi e o resto ainda correm atrás. Open source tem utilidade, mas não empatou no fluxo completo com agentes.
 -->
 ---
 
@@ -860,7 +774,7 @@ Tempo sugerido: ~0:55
 
 <div style="display:flex;gap:32px;align-items:center;text-align:left;">
   <div style="flex:0 0 48%;">
-    <div class="card" style="margin-bottom:8px;font-size:0.82em;"><strong>Só 4 geram código que roda</strong><br />Claude Sonnet 4.6, Opus 4.6, GPT 5.4 e GLM 5 (89% mais barato que Opus)</div>
+    <div class="card" style="margin-bottom:8px;font-size:0.82em;"><strong>Só 4 geram código que roda</strong><br />Claude Sonnet 4.6, Opus 4.6, GPT 5.4 e GLM 5 / 5.1 (da Z.AI, ~89% mais barato que Opus)</div>
     <div class="card" style="margin-bottom:8px;font-size:0.82em;"><strong>O resto inventou APIs</strong><br />Kimi, DeepSeek, MiniMax, Qwen — alucinaram gems e endpoints que não existem</div>
     <div class="card" style="font-size:0.82em;"><strong>Thinking separa os dois grupos</strong><br />budget extra de inferência pra planejar tool calls antes de agir — sem isso, o modelo chuta</div>
   </div>
@@ -877,7 +791,7 @@ Tempo sugerido: ~1:00
 - Pra não ficar só na opinião, montei um benchmark automatizado com 22 modelos.
 - Testei modelos open source locais (RTX 5090 + servidor AMD 128 GB) e comerciais via API, todos nas mesmas condições.
 - Resultado: só 4 modelos geraram código que funciona de verdade.
-- Claude Sonnet e Opus, GPT 5.4 e GLM 5.
+- Claude Sonnet e Opus, GPT 5.4 e GLM 5 / 5.1 (GLM 5 se você quer billing centralizado no OpenRouter, GLM 5.1 direto na Z.AI).
 - O resto — Kimi, DeepSeek, MiniMax, Qwen — inventou APIs que não existem.
 - GLM 5 é 89% mais barato que Opus e foi a única alternativa fora Anthropic/OpenAI que rodou.
 - E por que os modelos de ponta ganham? Thinking. Não é mágica — é budget extra de inferência pra planejar qual ferramenta usar, em que ordem, com quais argumentos, antes de agir. Sem isso, o modelo chuta.
@@ -885,74 +799,115 @@ Tempo sugerido: ~1:00
 -->
 ---
 
-<!-- _class: center -->
-# Open source é útil
+<!-- _class: center tone-moss -->
+<div class="eyebrow">Por Que Tão Poucos Funcionam</div>
 
-## mas ainda não é ponta
+# Não é mais só parâmetros
 
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 45%;">
-    <div class="card" style="margin-bottom:12px;"><strong>clone clean-room em menos de 24h</strong><br />o leak já estava gerando reimplementação no dia seguinte</div>
-    <div class="card" style="margin-bottom:12px;"><strong>free-code sem guarda-corpo</strong><br />telemetria e travas arrancadas quase na hora</div>
-    <div class="card"><strong>OpenClaw mostra o terreno pronto</strong><br />o lado open source já estava maduro pra correr em cima</div>
+<div class="columns-3">
+  <div class="card"><strong>Prompt Caching</strong><div class="mini">sem cache de KV, cada turno relê o contexto inteiro e o custo explode no loop do agente</div></div>
+  <div class="card"><strong>Tool Calling</strong><div class="mini">o modelo precisa decidir qual ferramenta chamar, com quais argumentos, e tratar o resultado de volta</div></div>
+  <div class="card"><strong>Reasoning / Thinking</strong><div class="mini">budget extra de inferência pra planejar antes de agir, em vez de chutar a primeira coisa</div></div>
+</div>
+
+<div class="caption">Tamanho de modelo virou commodity. As três condições acima é que separam quem aguenta um agente real — DeepSeek, por exemplo, falha hoje justamente por não fechar essas três.</div>
+
+<!--
+Tempo sugerido: ~0:55
+
+- Por que só 4 modelos passam no benchmark? Não é tamanho de modelo. Tamanho virou commodity.
+- Prompt caching: sem KV cache, cada turno relê tudo e o custo do loop do agente explode.
+- Tool calling: o modelo precisa escolher a ferramenta, montar argumento e tratar resultado de volta.
+- Reasoning / thinking: budget extra de inferência pra planejar antes de agir.
+- Sem essas três condições casadas, não tem agente que funcione na prática.
+-->
+---
+
+<!-- _class: center tone-moss -->
+![bg cover opacity:.12](../assets/offline/bg-bamboo-slips.jpg)
+<div class="eyebrow">Surpresa Da Família Qwen</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Ancient_Chinese_Writing_on_Warring_States_Bamboo_Slips_1.jpg</div>
+
+# "Coder" no nome não vira coder melhor
+
+<div style="display:flex;flex-direction:column;gap:18px;margin-top:24px;">
+  <div style="display:flex;gap:18px;">
+    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;"><strong style="font-size:1.1em;">Qwen 3 Coder 30B</strong><div class="mini" style="margin-top:8px;">devolveu string mockada hardcoded em vez de chamar a API</div></div>
+    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;"><strong style="font-size:1.1em;">Qwen 2.5 Coder 32B</strong><div class="mini" style="margin-top:8px;">90 minutos de timeout, zero arquivos escritos</div></div>
   </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/openclaw-repo-page-cropped.png" alt="Projeto OpenClaw no GitHub" style="height:430px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
+  <div style="display:flex;gap:18px;">
+    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;"><strong style="font-size:1.1em;">Qwen 3.5 27B distilado do Claude 4.6</strong><div class="mini" style="margin-top:8px;">"Claude em casa" rodou Rails mas alucinou a API toda</div></div>
+    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;background:rgba(107,142,90,0.24);border:2px solid #6b8e5a;"><strong style="font-size:1.1em;">Qwen 3.5 35B-A3B (MoE geral) ✓</strong><div class="mini" style="margin-top:8px;">único que vale a tentativa: rodou Rails e alucinações somem em 1-2 follow-ups — ainda assim atrás de Claude, GPT 5.4 e GLM 5.1</div></div>
   </div>
 </div>
 
 <!--
-Tempo sugerido: ~0:45
+Tempo sugerido: ~0:50
 
-- Isso não significa que código aberto seja inútil.
-- Significa só que expectativa precisa ser calibrada.
-- Dá pra fazer coisa real? Dá.
-- Mas se você quer o melhor comportamento atual de agente de código, os modelos fechados de ponta ainda estão na frente.
+- Outra surpresa do benchmark: a intuição de que modelo com "Coder" no nome é melhor pra programação não bateu.
+- Dos três Qwen Coder dedicados, dois falharam catastroficamente e um nem rodou direito.
+- As versões gerais do Qwen bateram as Coder dedicadas. Fine-tuning específico pra código não substituiu fluxo completo de agente.
+- Até a distilação do Claude no Qwen 3.5 27B prometia "Claude em casa" e entregou alucinação de API.
+- Se alguém insistir em testar Qwen pra código, só o 3.5 35B-A3B geral (MoE) vale a pena — e mesmo assim fica bem atrás dos modelos de ponta.
+- Conclusão: marketing label não substitui as três condições do slide anterior.
+-->
+---
+
+<!-- _class: center tone-moss -->
+![bg cover opacity:.14](../assets/offline/bg-kintsugi.jpg)
+<div class="eyebrow">Aceitando A Imperfeição</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Kintsugi.jpg</div>
+
+# IA nunca vai ser <span class="em-moss">perfeita</span>.
+
+## Mas errar ficou barato.
+
+<div class="columns-3">
+  <div class="card"><strong>claw-code: clean-room em 24h</strong><div class="mini">clone do Claude Code reimplementado do zero logo depois do leak</div></div>
+  <div class="card"><strong>free-code: fork sem amarras</strong><div class="mini">telemetria e travas arrancadas quase na hora</div></div>
+  <div class="card"><strong>OpenClaw + memclaw</strong><div class="mini">base madura, já com memclaw plugado — sistema de memória inspirado no do Claude</div></div>
+</div>
+
+<div class="caption" style="margin-top:18px;"><strong>Barato:</strong> CRUD, landing page, painel interno, bot, ETL, cola entre APIs. &nbsp;|&nbsp; <strong>Caro continua o que sempre foi:</strong> julgamento, arquitetura, operação, dono do problema.</div>
+
+<!--
+Tempo sugerido: ~1:00
+
+- LLM nunca vai ser determinística. Vai continuar errando, alucinando, baixando a cabeça pro usuário.
+- Mas o ciclo de feedback ficou tão curto que errar deixou de ser caro.
+- Loop de agente roda, quebra, recebe stack trace, conserta, tenta de novo — em segundos.
+- E quando algo fica imperfeito mas barato, o open source corre por cima: claw-code apareceu como clone clean-room do Claude Code em 24h, free-code apareceu sem telemetria, e o OpenClaw já tinha base madura — agora com memclaw plugado, que é um sistema de memória inspirado no do próprio Claude.
+- O que ficou barato é software trivial: CRUD, landing, bot, ETL. O que continua caro é o que sempre foi: julgamento, arquitetura, operação, dono do problema.
 -->
 ---
 
 <!-- _class: center tone-sand -->
-# E o preço<br>ficou ridículo
+<div class="eyebrow">Assinatura Vs Token</div>
+
+# Assinatura ganha<br>de pay-as-you-go
 
 <div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 45%;">
-    <div class="lead" style="max-width:none;margin:0 0 14px 0;">CRUD, landing page, painel interno, bot, ETL, cola entre APIs: software trivial virou commodity.</div>
-    <div class="card" style="margin-bottom:12px;"><strong>Claude Pro</strong><br />US$ 20 por mês</div>
-    <div class="card" style="margin-bottom:12px;"><strong>Max 5x</strong><br />US$ 100 por mês</div>
-    <div class="card"><strong>Max 20x</strong><br />US$ 200 por mês</div>
+  <div style="flex:0 0 42%;">
+    <div class="card" style="margin-bottom:10px;font-size:0.85em;"><strong>GPT 5.4 Pro na API</strong><div class="mini">~US$ 990/mês pagando por token no OpenRouter</div></div>
+    <div class="card" style="margin-bottom:10px;font-size:0.85em;"><strong>ChatGPT Pro</strong><div class="mini">US$ 200/mês ilimitado — 5x mais barato que a API</div></div>
+    <div class="card" style="margin-bottom:10px;font-size:0.85em;"><strong>Claude Opus na API</strong><div class="mini">~US$ 450/mês pagando Opus por token</div></div>
+    <div class="card" style="font-size:0.85em;"><strong>Claude Max 20x</strong><div class="mini">US$ 200/mês, ~220K tokens a cada 5h — metade do preço</div></div>
   </div>
   <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/anthropic-claude-plan-help.png" alt="Planos Claude na Anthropic" style="height:430px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.20);" />
+    <img src="../assets/llm-benchmark-monthly-pricing.png" alt="Custo mensal estimado: assinatura vs API por token" style="height:440px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.20);" />
   </div>
 </div>
 
-<!--
-Tempo sugerido: ~0:45
-
-- E aí entra a economia da coisa.
-- Software trivial ficou barato demais.
-- CRUD, landing page, painel interno, bot, ETL, cola entre API, esse tipo de coisa virou commodity.
-- E quando eu olho o preço oficial da Anthropic, isso fica ainda mais óbvio.
--->
----
-
-<!-- _class: center tone-sand -->
-<div class="eyebrow">Commoditização</div>
-
-# O que ficou <span class="em-moss">barato</span><br>e o que não ficou
-
-<div class="columns">
-  <div class="card"><strong>Barato</strong><br />CRUD, landing page, painel interno, bot, ETL, cola entre APIs</div>
-  <div class="card"><strong>Caro</strong><br />julgamento, arquitetura, gosto, operação, manutenção, dono do problema</div>
-</div>
-
+<div class="caption">Estimativa pra uso moderado de coding (~15M input + ~3M output tokens/mês).</div>
 
 <!--
-Tempo sugerido: ~0:40
+Tempo sugerido: ~0:55
 
-- Esse é o corte que importa.
-- O que ficou barato foi software trivial: CRUD, landing page, painel interno, bot, ETL, cola entre APIs.
-- O que continua caro é o que sempre foi caro: julgamento, arquitetura, gosto, operação, manutenção e alguém disposto a ser dono do problema quando a coisa quebra de verdade.
+- Pay-as-you-go via API parece mais "honesto", mas sai caro rapidíssimo pra quem usa pesado.
+- GPT 5.4 Pro na API bate ~US$ 990/mês num uso moderado; ChatGPT Pro a US$ 200/mês ilimitado é 5x mais barato.
+- Claude Opus na API chega perto de US$ 450/mês; Claude Max 20x a US$ 200/mês cobre uso pesado pela metade.
+- O recado: se você usa coding agent sério no dia a dia, assinatura é muito mais cost-effective.
+- Talvez subsidiado demais. Talvez não pare em pé pra sempre. Mas hoje, é assim.
 -->
 ---
 
@@ -997,77 +952,44 @@ Tempo sugerido: ~0:55
 
 ## e isso melhora a indústria
 
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">E a correção continua agora. Em 1 de abril de 2026, a Oracle entrou em mais uma rodada grande de layoffs.</div>
+
 <!--
-Tempo sugerido: ~0:35
+Tempo sugerido: ~0:45
 
 - Aqui é a parte em que eu paro de fingir diplomacia.
 - Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo.
 - A indústria passou anos trocando engenharia por competência fake e dívida técnica.
-- A IA está forçando uma correção.
--->
----
-
-<!-- _class: center tone-moss -->
-![bg cover opacity:.16](../assets/offline/bg-eniac.jpg)
-# Júnior não morreu
-
-<div class="columns-3">
-  <div class="card"><strong>Vai herdar a sujeira</strong><div class="mini">startup cheia de lixo de IA vai precisar de limpeza</div></div>
-  <div class="card"><strong>Vai aprender no caos</strong><div class="mini">igual gerações anteriores aprenderam</div></div>
-  <div class="card"><strong>Ainda precisa de sênior</strong><div class="mini">agente nenhum ensina julgamento</div></div>
-</div>
-
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Eniac_(cropped).jpg</div>
-
-
-<!--
-Tempo sugerido: ~0:55
-
-- Júnior está preocupado, mas eu não acho que o caminho acabou.
-- Acho que ele mudou de forma.
-- O mundo está enchendo de sistema feito nas coxas, cheio de lixo de IA.
-- Ferramenta nova não mata profissão.
-- Ninguém sente falta de programar em binário ou cartão perfurado.
-- Essa é a virada de esperança do final.
-- Alguém vai ter que limpar isso.
+- A correção continua: Oracle reportou mais uma onda pesada de layoffs em 1 de abril de 2026.
 -->
 ---
 
 <!-- _class: center tone-moss -->
 ![bg cover opacity:.14](../assets/offline/bg-mentor-kungfu.jpg)
-# Sênior tem<br><span class="em-moss">nova obrigação</span>
-
-## ensinar engenharia com IA  
-## antes do código apodrecer
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">E a correção continua agora. Em 1 de abril de 2026, a Oracle entrou em mais uma rodada grande de layoffs.</div>
-
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Vernon_Rieta_teaching_Kung_Fu.jpg</div>
 
-<!--
-Tempo sugerido: ~0:55
+# Júnior herda. Sênior ensina.
 
-- Mas essa esperança só para em pé se sênior fizer o trabalho dele.
-- Sênior não é imortal.
-- Vai mudar de empresa, vai cansar, vai se aposentar.
-- Se não formar substituto, a organização apodrece.
--->
----
-
-<!-- _class: statement -->
-![bg cover opacity:.16](../assets/offline/bg-building-collapse.jpg)
-<div class="eyebrow">Conclusão</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Building_collapse_in_S%C3%A3o_Paulo_2018_090.jpg</div>
-
-# IA não transforma<br>coder ruim<br>em <span class="em-moss">engenheiro</span>.
+<div style="display:flex;gap:32px;align-items:flex-start;text-align:left;margin-top:18px;">
+  <div style="flex:1 1 50%;">
+    <div class="card" style="margin-bottom:10px;"><strong>Júnior vai herdar a sujeira</strong><div class="mini">startup cheia de lixo de IA vai precisar de limpeza</div></div>
+    <div class="card" style="margin-bottom:10px;"><strong>Vai aprender no caos</strong><div class="mini">igual gerações anteriores aprenderam</div></div>
+    <div class="card"><strong>Ainda precisa de sênior</strong><div class="mini">agente nenhum ensina julgamento</div></div>
+  </div>
+  <div style="flex:1 1 50%;">
+    <div class="card" style="margin-bottom:10px;"><strong>Sênior não é imortal</strong><div class="mini">muda de empresa, cansa, se aposenta</div></div>
+    <div class="card" style="margin-bottom:10px;"><strong>Nova obrigação</strong><div class="mini">ensinar engenharia com IA antes do código apodrecer</div></div>
+    <div class="card"><strong>Sem isso a organização apodrece</strong><div class="mini">não basta usar IA bem, tem que formar substituto</div></div>
+  </div>
+</div>
 
 <!--
-Tempo sugerido: ~0:35
+Tempo sugerido: ~1:10
 
-- Então vem a parte dura.
-- IA não transforma programador ruim em engenheiro.
-- Ela ajuda programador ruim a fazer estrago maior mais rápido.
-- E ajuda engenheiro de verdade a atravessar esse caos com mais velocidade, sem deixar o software morrer.
+- Júnior não morreu, só mudou de forma. Vai herdar a sujeira da era do vibe coding sem freio.
+- Aprender no projeto bagunçado é como gerações anteriores aprenderam. Não é tragédia, é cicatriz.
+- Mas isso só para em pé se sênior fizer o trabalho dele: ensinar engenharia com IA antes do código apodrecer.
+- Sênior não é imortal. Se não formar substituto, a organização apodrece.
 -->
 ---
 
@@ -1078,15 +1000,16 @@ Tempo sugerido: ~0:35
 
 # Vai <span class="em-moss">sobreviver</span><br>quem souber<br>fazer <span class="em-moss">engenharia</span>.
 
+## IA não transforma coder ruim em engenheiro.
 ## Fundamento. Disciplina. Iteração. Gosto.
 
 <!--
-Tempo sugerido: ~0:40
+Tempo sugerido: ~1:00
 
-- Então eu fecho assim.
-- Não vai sobreviver quem decorou truquezinho de prompt.
-- Vai sobreviver quem tem fundamento, disciplina, iteração e gosto.
-- Se você tem isso, IA vira multiplicador.
+- Parte dura: IA não transforma programador ruim em engenheiro. Ajuda a fazer estrago maior mais rápido.
+- E ajuda engenheiro de verdade a atravessar o caos mais rápido, sem deixar o software morrer.
+- Então eu fecho assim: vai sobreviver quem tem fundamento, disciplina, iteração e gosto.
+- Se você tem isso, IA vira multiplicador. Se não tem, IA é só uma forma mais rápida de ser exposto.
 -->
 ---
 
