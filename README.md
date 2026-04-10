@@ -1,5 +1,7 @@
 # Tropical Ruby 2026 Keynote
 
+**[View the presentation live](https://akitaonrails.github.io/tropicalruby-2026/)**
+
 This repo holds the working deck for the `Tropical Ruby 2026` keynote.
 The slides are authored in Marp, the script lives separately, and the deck is exported to HTML, PDF, and PPTX from the same source.
 
