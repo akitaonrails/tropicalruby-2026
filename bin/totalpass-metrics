@@ -1,0 +1,291 @@
+#!/usr/bin/env python3
+import json
+import os
+import subprocess
+import tempfile
+from pathlib import Path
+
+
+HOME_PROJECTS = Path("/home/akitaonrails/Projects")
+TMP_ROOT = Path("/tmp/totalpass-metrics")
+
+PROJECTS = [
+    {"name": "distrobox-gaming", "path": HOME_PROJECTS / "distrobox-gaming", "mode": "snapshot"},
+    {"name": "llm-coding-benchmark", "path": HOME_PROJECTS / "llm-coding-benchmark", "mode": "snapshot"},
+    {"name": "frank_investigator", "path": HOME_PROJECTS / "frank_investigator", "mode": "snapshot"},
+    {"name": "ai-jail", "path": HOME_PROJECTS / "ai-jail", "mode": "snapshot"},
+    {
+        "name": "akitaonrails.github.io / akitaonrails-hugo",
+        "path": HOME_PROJECTS / "akitaonrails-hugo",
+        "mode": "site-ai-era",
+        "start_commit": "440470b",
+    },
+    {"name": "FrankSherlock / frank_sherlock", "path": HOME_PROJECTS / "frank_sherlock", "mode": "snapshot"},
+    {"name": "FrankClaw / frankclaw", "path": HOME_PROJECTS / "frankclaw", "mode": "snapshot"},
+    {"name": "FrankMD", "path": HOME_PROJECTS / "FrankMD", "mode": "snapshot"},
+    {"name": "FrankMega / frank_mega", "path": HOME_PROJECTS / "frank_mega", "mode": "snapshot"},
+    {"name": "frank_fbi", "path": HOME_PROJECTS / "frank_fbi", "mode": "snapshot"},
+    {"name": "NW-Omarchy", "path": HOME_PROJECTS / "NW-Omarchy", "mode": "snapshot"},
+    {
+        "name": "shadPS4 / gamma-debug",
+        "path": HOME_PROJECTS / "shadPS4",
+        "mode": "branch-added",
+        "base": "main",
+        "branch": "gamma-debug",
+    },
+    {"name": "distrobox-llm", "path": HOME_PROJECTS / "distrobox-llm", "mode": "snapshot"},
+    {"name": "easy-ffmpeg", "path": HOME_PROJECTS / "easy-ffmpeg", "mode": "snapshot"},
+    {"name": "easy-subtitle", "path": HOME_PROJECTS / "easy-subtitle", "mode": "snapshot"},
+    {"name": "frank_karaoke", "path": HOME_PROJECTS / "frank_karaoke", "mode": "snapshot"},
+    {"name": "tvclipboard", "path": HOME_PROJECTS / "tvclipboard", "mode": "snapshot"},
+    {"name": "FrankYomik / frank_yomik", "path": HOME_PROJECTS / "frank_yomik", "mode": "snapshot"},
+    {
+        "name": "autohaus-reverse-engineer / archived autohaus",
+        "path": Path("/mnt/megachad/Projects - Archived/autohaus"),
+        "mode": "snapshot",
+    },
+    {"name": "mila-bot", "path": HOME_PROJECTS / "mila-bot", "mode": "snapshot"},
+    {"name": "thinkpad-omarchy-config", "path": HOME_PROJECTS / "thinkpad-omarchy-config", "mode": "snapshot"},
+    {"name": "homelab-docs", "path": HOME_PROJECTS / "homelab-docs", "mode": "snapshot"},
+    {
+        "name": "my-omarchy-config",
+        "path": TMP_ROOT / "my-omarchy-config",
+        "mode": "snapshot",
+        "remote": "ssh://git@192.168.0.90:2224/akitaonrails/my-omarchy-config.git",
+    },
+    {
+        "name": "emulators-reorg-2026",
+        "path": TMP_ROOT / "emulators-reorg-2026",
+        "mode": "snapshot",
+        "remote": "ssh://git@192.168.0.90:2224/akitaonrails/emulators-reorg-2026.git",
+    },
+]
+
+SOURCE_EXT = {
+    "py", "rb", "js", "jsx", "ts", "tsx", "go", "rs", "c", "cc", "cpp", "cxx", "h", "hpp", "hxx",
+    "java", "kt", "swift", "php", "ex", "exs", "cr", "sh", "bash", "zsh", "fish", "css", "scss",
+    "sass", "less", "html", "htm", "erb", "haml", "slim", "vue", "svelte", "json", "yaml", "yml",
+    "toml", "ini", "sql", "rake", "ru", "builder", "jbuilder", "xml", "gradle", "cmake", "qml",
+    "glsl", "vert", "frag", "metal", "mm", "m", "mjs", "cjs", "mts", "cts",
+}
+CONTENT_EXT = {"md", "markdown", "mdx", "txt"}
+ASSET_EXT = {
+    "png", "jpg", "jpeg", "gif", "webp", "svg", "pdf", "mp4", "mov", "avi", "mkv", "ico", "icns",
+    "wav", "mp3", "flac", "zip", "gz", "tgz", "bz2", "xz", "apk", "dmg", "exe", "bin", "dat",
+    "sqlite", "db", "rdb", "pkl", "safetensors", "onnx", "lock", "csv", "tsv", "txt", "log",
+}
+INCLUDE_NAMES = {"Gemfile", "Rakefile", "Procfile", "Dockerfile", "Brewfile", "Guardfile", "Makefile", "CMakeLists.txt", "Justfile"}
+EXCLUDE_PARTS = {
+    ".git", ".github", "node_modules", ".venv", "venv", "site-packages", ".cargo-local", ".npm-local",
+    ".cache-local", "dist", "build", "coverage", "tmp", "log", "logs", "vendor/bundle", "public/assets",
+    "target", ".next", ".nuxt", ".svelte-kit", ".pytest_cache", "__pycache__", ".terraform", ".bundle",
+}
+EXCLUDE_CONTENT_NOISE_DIRS = {"fixtures", "fixture", "snapshots", "snapshot", "examples", "example", "samples", "sample", "demo", "demos"}
+TEST_MARKERS = ("/test/", "/tests/", "/spec/", "/e2e/", "/features/", "/__tests__/")
+
+
+def run(args, cwd=None):
+    return subprocess.check_output(args, cwd=cwd, text=True, stderr=subprocess.DEVNULL)
+
+
+def git(repo, *args):
+    return run(["git", "-C", str(repo), *args])
+
+
+def ensure_repo(project):
+    path = Path(project["path"])
+    if path.exists():
+        return path
+    remote = project.get("remote")
+    if not remote:
+        return path
+    path.parent.mkdir(parents=True, exist_ok=True)
+    subprocess.check_call(["git", "clone", "--quiet", remote, str(path)])
+    return path
+
+
+def include_file(path):
+    parts = [part.lower() for part in Path(path).parts]
+    if any(part in EXCLUDE_PARTS for part in parts):
+        return False
+    if any(part in EXCLUDE_CONTENT_NOISE_DIRS for part in parts):
+        return False
+    base = Path(path).name
+    if base in INCLUDE_NAMES:
+        return True
+    if "." not in base:
+        return False
+    ext = base.rsplit(".", 1)[1].lower()
+    if ext in ASSET_EXT:
+        return False
+    if ext in CONTENT_EXT:
+        return True
+    return ext in SOURCE_EXT
+
+
+def is_test(path):
+    normalized = "/" + path.strip("./")
+    return any(marker in normalized for marker in TEST_MARKERS)
+
+
+def tokei_paths(paths):
+    paths = [str(path) for path in paths]
+    if not paths:
+        return 0
+    total = 0
+    for i in range(0, len(paths), 200):
+        data = json.loads(run(["tokei", "--output", "json", *paths[i:i + 200]]))
+        total += sum(value.get("code", 0) + value.get("comments", 0) for key, value in data.items() if key != "Total")
+    return total
+
+
+def tokei_text(lines, suffix):
+    if not lines:
+        return 0
+    with tempfile.NamedTemporaryFile("w", suffix=suffix or ".txt", delete=False) as handle:
+        handle.write("\n".join(lines) + "\n")
+        name = handle.name
+    try:
+        data = json.loads(run(["tokei", "--output", "json", name]))
+        return sum(value.get("code", 0) + value.get("comments", 0) for key, value in data.items() if key != "Total")
+    finally:
+        os.unlink(name)
+
+
+def snapshot_metrics(repo):
+    files = [file for file in git(repo, "ls-files").splitlines() if include_file(file)]
+    prod_files = [Path(repo) / file for file in files if not is_test(file)]
+    test_files = [Path(repo) / file for file in files if is_test(file)]
+    commits = int(git(repo, "rev-list", "--count", "HEAD").strip())
+    timestamps = [int(line) for line in git(repo, "log", "--format=%ct", "HEAD").splitlines()]
+    return tokei_paths(prod_files), tokei_paths(test_files), commits, timestamps, len(files), "snapshot tracked useful lines"
+
+
+def added_diff_metrics(repo, base_rev, target_rev):
+    diff = run(["git", "-C", str(repo), "diff", "--unified=0", "--no-color", f"{base_rev}..{target_rev}"])
+    current = None
+    buckets = {}
+    for line in diff.splitlines():
+        if line.startswith("+++ b/"):
+            current = line[6:]
+            if include_file(current):
+                buckets.setdefault(current, [])
+            else:
+                current = None
+        elif line.startswith("+++ /dev/null"):
+            current = None
+        elif current and line.startswith("+") and not line.startswith("+++"):
+            buckets[current].append(line[1:])
+    prod = test = 0
+    file_count = 0
+    for path, lines in buckets.items():
+        count = tokei_text(lines, Path(path).suffix)
+        if not count:
+            continue
+        file_count += 1
+        if is_test(path):
+            test += count
+        else:
+            prod += count
+    return prod, test, file_count
+
+
+def branch_added_metrics(repo, project):
+    base = git(repo, "merge-base", project["base"], project["branch"]).strip()
+    prod, test, files = added_diff_metrics(repo, base, project["branch"])
+    commits = int(git(repo, "rev-list", "--count", f"{project['base']}..{project['branch']}").strip())
+    timestamps = [int(line) for line in git(repo, "log", "--format=%ct", f"{project['base']}..{project['branch']}").splitlines()]
+    return prod, test, commits, timestamps, files, f"added useful lines in {project['branch']} vs {project['base']} ({base[:7]})"
+
+
+def site_ai_metrics(repo, project):
+    base = git(repo, "rev-parse", f"{project['start_commit']}^").strip()
+    prod, test, files = added_diff_metrics(repo, base, "HEAD")
+    commits = 0
+    timestamps = []
+    for line in git(repo, "log", "--format=%an <%ae>%x00%ct", f"{base}..HEAD").splitlines():
+        author, timestamp = line.split("\x00")
+        if author in {"AkitaOnRails <fabioakita@gmail.com>", "Fabio Akita <akitaonrails@users.noreply.github.com>"}:
+            commits += 1
+            timestamps.append(int(timestamp))
+    return prod, test, commits, timestamps, files, f"added useful lines since AI-era start {project['start_commit']}"
+
+
+def estimate_hours(timestamps):
+    if not timestamps:
+        return 0.0, 0
+    ordered = sorted(timestamps)
+    sessions = []
+    start = last = ordered[0]
+    for timestamp in ordered[1:]:
+        if timestamp - last <= 90 * 60:
+            last = timestamp
+        else:
+            sessions.append((start, last))
+            start = last = timestamp
+    sessions.append((start, last))
+
+    hours = 0.0
+    for start, last in sessions:
+        session_hours = (last - start) / 3600 + (20 / 60)
+        hours += min(session_hours, 8.0)
+    return hours, len(sessions)
+
+
+def main():
+    rows = []
+    all_timestamps = []
+    for project in PROJECTS:
+        repo = ensure_repo(project)
+        if not repo.exists() or not (repo / ".git").exists():
+            rows.append({"name": project["name"], "missing": True, "path": str(repo)})
+            continue
+        if project["mode"] == "snapshot":
+            prod, test, commits, timestamps, files, note = snapshot_metrics(repo)
+        elif project["mode"] == "branch-added":
+            prod, test, commits, timestamps, files, note = branch_added_metrics(repo, project)
+        elif project["mode"] == "site-ai-era":
+            prod, test, commits, timestamps, files, note = site_ai_metrics(repo, project)
+        else:
+            raise SystemExit(f"Unknown mode: {project['mode']}")
+
+        hours, sessions = estimate_hours(timestamps)
+        all_timestamps.extend(timestamps)
+        rows.append({
+            "name": project["name"],
+            "prod": prod,
+            "test": test,
+            "total": prod + test,
+            "commits": commits,
+            "hours": hours,
+            "sessions": sessions,
+            "files": files,
+            "note": note,
+            "path": str(repo),
+        })
+
+    total_prod = sum(row.get("prod", 0) for row in rows)
+    total_test = sum(row.get("test", 0) for row in rows)
+    total_commits = sum(row.get("commits", 0) for row in rows)
+    total_hours, total_sessions = estimate_hours(all_timestamps)
+
+    print("| Project | Prod LOC | Test LOC | Commits | Est. hours | Note |")
+    print("| --- | ---: | ---: | ---: | ---: | --- |")
+    for row in rows:
+        if row.get("missing"):
+            print(f"| {row['name']} | missing | missing | 0 | 0.0 | `{row['path']}` not found |")
+            continue
+        print(f"| {row['name']} | {row['prod']:,} | {row['test']:,} | {row['commits']:,} | {row['hours']:.1f} | {row['note']} |")
+    print()
+    print(f"TOTAL_PROD_LOC={total_prod}")
+    print(f"TOTAL_TEST_LOC={total_test}")
+    print(f"TOTAL_LOC={total_prod + total_test}")
+    print(f"TOTAL_COMMITS={total_commits}")
+    print(f"TOTAL_EST_HOURS={total_hours:.1f}")
+    print(f"TOTAL_SESSIONS={total_sessions}")
+    print()
+    print("Hour estimate: combined commit timestamps, new session after 90 minutes idle, +20 minutes per session, capped at 8h/session.")
+
+
+if __name__ == "__main__":
+    main()

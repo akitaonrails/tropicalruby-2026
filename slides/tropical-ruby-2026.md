@@ -555,30 +555,29 @@ Terminar em: ~22:50 (85s)
 
 <!-- _class: center tone-sand -->
 ![bg cover opacity:.16](../assets/offline/bg-elephant.jpg)
-<div class="eyebrow">No Conjunto Completo Dos Projetos Citados</div>
+<div class="eyebrow">Recorte TotalPass 2026</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:African_Bull_elephant_walking_towards_camera_in_August_2013.jpg</div>
 
 # Números<br>que pesam
 
 <div class="stats">
-  <div class="card"><strong>221.932</strong><span class="mini">linhas de código</span></div>
-  <div class="card"><strong>92.017</strong><span class="mini">linhas de teste</span></div>
-  <div class="card"><strong>1.612</strong><span class="mini">commits</span></div>
-  <div class="card"><strong>~297 h</strong><span class="mini">horas ativas estimadas</span></div>
+  <div class="card"><strong>391.796</strong><span class="mini">linhas úteis</span></div>
+  <div class="card"><strong>58.967</strong><span class="mini">linhas de teste</span></div>
+  <div class="card"><strong>2.029</strong><span class="mini">commits</span></div>
+  <div class="card"><strong>~429 h</strong><span class="mini">horas ativas estimadas</span></div>
 </div>
 
-<div class="caption">Agregado do recorte citado no começo, agora incluindo também `akitando-news` e `frank_karaoke`: `frank*`, `FrankMD`, `mila-bot`, `easy-*`, `ai-jail`, `akitando-news` e `frank_karaoke` (Flutter/Android). Contagem em arquivos rastreados no git, somando só linhas de código do `tokei`, separando teste por path e excluindo docs, fixtures, snapshots e árvores importadas de terceiros.</div>
+<div class="caption">Agregado de 24 projetos AI-assisted: `tokei` sem linhas em branco, contando código + comentários + markdown/conteúdo rastreado. `shadPS4` só na branch `gamma-debug`; `akitaonrails-hugo` só no recorte AI-era. Testes separados por path. Fora: assets, vendor, build, fixtures, snapshots e árvore de terceiros.</div>
 
 
 <!--
 Terminar em: ~24:25 (95s)
 
-- Ferramenta de contagem: `tokei` sobre arquivos rastreados no git
-- Critério: só linha de código, teste separado por path, sem docs/fixtures/snapshots/virtualenv/node_modules/vendor
-- Sem README, sem auxiliar, sem lib de terceiro inflando número
-- Dos projetos citados, 14 entram na conta de commits (os outros não são git repos)
-- Horas conservadoras: sessões agrupadas por histórico, corte de 1h de pausa, teto diário
-- Antecipa crítica: "esses 297h não são 500+h que eu menciono em outros lugares" — 297h = commit-tracked, 500h = inclui pesquisa/planejamento/debug fora de sessão
+- Ferramenta: `bin/totalpass-metrics`, usando `tokei`
+- Critério: linhas úteis rastreadas em git; teste por path; sem branco/assets/vendor/build
+- Exceções: `shadPS4` só `gamma-debug`; site só recorte AI-era
+- Horas: sessões agrupadas por commit, 90min de corte, +20min por sessão, 8h de teto
+- Antecipa crítica: "~429h não é tudo que eu trabalhei" — é só o rastreável por commit
 - Fecha: "agora dá pra discutir mecanismo, não fé"
 -->
 ---
