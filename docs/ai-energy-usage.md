@@ -22,6 +22,14 @@ Research compiled April 2026 for Tropical Ruby 2026 keynote. Numbers sourced fro
 - **2030**: 426 TWh — a 133% increase from 2024 (Pew); other estimates range to 400 TWh (IEA)
 - **US share**: nearly 50% of global data center electricity consumption
 
+### The EV Comparison
+
+- Global EV electricity consumption (2024): **~130 TWh/year** (IEA Global EV Outlook)
+- Global EV electricity consumption projected for 2030: **~600–1,400 TWh** depending on adoption scenario (IEA)
+- Global data center growth 2024 → 2026: **+685 TWh** (from 415 to 1,100 TWh, IEA revised Dec 2025)
+- **Implication:** in just 2 years, AI data centers added approximately **5× the entire current global EV fleet's electricity demand** to the grid. EVs were supposed to be the decade's defining new grid load. Data centers ate that conversation.
+- US-specific: a single new hyperscale AI campus (~300 MW, ~2.6 TWh/year) consumes more electricity than ~500K-700K EVs at average annual mileage
+
 ### Regional Hotspots
 
 - **Virginia**: ~26% of state electricity goes to data centers (2023), hosts over a third of the world's data centers

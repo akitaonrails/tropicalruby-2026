@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import hashlib
 import re
 import shutil
 import sys
@@ -124,13 +125,30 @@ def main(argv: list[str]) -> int:
     for key, spec in VIDEO_SPECS.items():
         slide_no = markers[key]
         slide = prs.slides[slide_no - 1]
-        place = spec.placement
+
+        # Find the picture Marp already placed for the poster image.
+        # When present, reuse its position/size and remove it so the video
+        # sits exactly where the placeholder was — no overlap, no resize.
+        poster_pic = find_poster_picture(slide, spec.poster)
+        if poster_pic is not None:
+            left = poster_pic.left
+            top = poster_pic.top
+            width = poster_pic.width
+            height = poster_pic.height
+            remove_shape(poster_pic)
+        else:
+            place = spec.placement
+            left = emu(place.left, slide_width)
+            top = emu(place.top, slide_height)
+            width = emu(place.width, slide_width)
+            height = emu(place.height, slide_height)
+
         movie = slide.shapes.add_movie(
             str(spec.movie),
-            emu(place.left, slide_width),
-            emu(place.top, slide_height),
-            emu(place.width, slide_width),
-            emu(place.height, slide_height),
+            left,
+            top,
+            width,
+            height,
             poster_frame_image=str(spec.poster),
             mime_type=spec.mime_type,
         )
@@ -139,6 +157,31 @@ def main(argv: list[str]) -> int:
     prs.save(str(output_pptx))
     print(f"Embedded {len(VIDEO_SPECS)} videos into {output_pptx}")
     return 0
+
+
+def find_poster_picture(slide, poster_path: Path):
+    """Locate the picture shape on `slide` whose embedded image matches `poster_path`.
+
+    Marp renders an HTML `<video poster="...">` (or the `<img>`-only fallback)
+    as a regular picture shape in the PPTX. We match by SHA1 of the raw image
+    blob — exact same bytes as the poster file on disk.
+    """
+    poster_sha = hashlib.sha1(poster_path.read_bytes()).hexdigest()
+    for shape in slide.shapes:
+        if not getattr(shape, "image", None):
+            continue
+        try:
+            if shape.image.sha1 == poster_sha:
+                return shape
+        except (AttributeError, ValueError):
+            continue
+    return None
+
+
+def remove_shape(shape) -> None:
+    """Remove `shape` from its parent (PPTX has no first-class delete API)."""
+    sp = shape._element
+    sp.getparent().remove(sp)
 
 
 def enable_autoplay_and_loop(slide, shape_id: int) -> None:
