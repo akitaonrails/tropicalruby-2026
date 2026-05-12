@@ -3,3 +3,4 @@ build/*
 !build/tropical-ruby-2026.pdf
 !build/tropical-ruby-2026.pptx
 !build/tropical-ruby-2026.with-video.pptx
+.ai-jail
