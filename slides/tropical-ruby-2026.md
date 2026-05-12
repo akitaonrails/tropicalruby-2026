@@ -123,7 +123,7 @@ Restam: ~56:25 (25s)
 -->
 ---
 
-<!-- _class: center -->
+<!-- _class: center tone-ruby -->
 <div class="eyebrow">Akitando, antes da IA virar moda</div>
 
 # Eu Avisei
@@ -799,6 +799,45 @@ Restam: ~33:37 (90s)
 -->
 ---
 
+<!-- _class: center tone-sand -->
+<div class="eyebrow">Código e dados públicos</div>
+
+# github.com/akitaonrails/<br>llm-coding-benchmark
+
+<div style="display:flex;justify-content:center;margin-top:10px;">
+  <img src="../assets/llm-coding-benchmark.png" alt="LLM Coding Benchmark — README do repo" style="max-height:470px;" />
+</div>
+
+<!--
+Restam: ~33:25 (12s)
+
+- O repositório que sustenta todo o argumento que vem a seguir.
+- 4 rodadas documentadas: 5/abr (original), 18/abr (multi-modelo), 24/abr (canonical), 25/abr (orquestração), 4/mai (DeepSeek via DeepClaude).
+- 121 stars, infra em OpenCode, prompt e config versionados.
+- Quem quiser reproduzir, está tudo lá.
+-->
+---
+
+<!-- _class: center tone-sand -->
+<div class="eyebrow">Resultado Consolidado</div>
+
+# Benchmark Ranking<br><span class="em-moss">(Maio/2026)</span>
+
+<div style="display:flex;justify-content:center;margin-top:6px;">
+  <img src="../assets/benchmark-ranking.png" alt="Ranking final dos 24 modelos por score, tier, RubyLLM, tempo e custo" style="max-height:490px;" />
+</div>
+
+<!--
+Restam: ~33:13 (12s)
+
+- 24 modelos, score 0-100, Tier A/B/C/D.
+- Topo: Opus 4.7 e GPT 5.4 xHigh empatam em 97. GPT 5.5 em 96 (40% mais barato). DeepSeek V4 Pro (DeepClaude) em 89. Kimi K2.6 em 87.
+- Tier A custo extremo: $0.30 (Kimi) → $16 (GPT 5.4).
+- Tier B e abaixo: Sonnet, DeepSeek V4 Flash, Grok 4.3, Qwen, MiMo, GLM.
+- Tier D (lixo): Grok 4.20, GPT OSS 20B local.
+-->
+---
+
 <!-- _class: center tone-moss -->
 ![bg cover opacity:.16](../assets/offline/bg-altman-amodei.jpg)
 <div class="eyebrow">Estado dos Modelos, abril de 2026</div>
@@ -815,7 +854,7 @@ Restam: ~33:37 (90s)
 <div class="caption">A virada da última rodada do benchmark: chineses entraram no Tier A, GLM caiu de tier. Open source ainda não substitui o fluxo completo com agentes — mas o gap encurtou.</div>
 
 <!--
-Restam: ~32:32 (65s)
+Restam: ~32:08 (65s)
 
 - Em abril de 2026, leitura prática: Anthropic e OpenAI continuam no topo pra código sério.
 - Anthropic: Opus 4.6 ainda é meu padrão diário, 4.7 está no topo do benchmark objetivo (97/100).
@@ -847,7 +886,7 @@ Restam: ~32:32 (65s)
 <div class="caption">Artigos: akitaonrails.com — benchmark canonical 24/abr/26 + DeepClaude unlock 4/mai/26</div>
 
 <!--
-Restam: ~30:57 (95s)
+Restam: ~30:33 (95s)
 
 - Benchmark: 24 modelos, mesmo runner, mesmo task (app Rails com RubyLLM).
 - Rubrica em 8 dimensões: completude, RubyLLM, testes, error handling, persistência, Hotwire, arquitetura, prod-ready. Score 0-100, Tier A/B/C/D.
@@ -875,7 +914,7 @@ Restam: ~30:57 (95s)
 <div class="caption">Tamanho de modelo virou commodity. As três condições acima é que separam quem aguenta um agente real — DeepSeek, por exemplo, falha hoje justamente por não fechar essas três.</div>
 
 <!--
-Restam: ~29:32 (85s)
+Restam: ~29:08 (85s)
 
 - Gancho: "por que só 4 modelos passaram no benchmark?"
 - Tamanho virou commodity — não é parâmetro, é infraestrutura
@@ -906,7 +945,7 @@ Restam: ~29:32 (85s)
 </div>
 
 <!--
-Restam: ~28:12 (80s)
+Restam: ~27:48 (80s)
 
 - Gancho: "intuição era que 'Coder' no nome seria melhor — deu o contrário"
 - 3 Qwen Coder testados, 2 falharam catastroficamente, 1 nem rodou
@@ -938,7 +977,7 @@ Restam: ~28:12 (80s)
 <div class="caption" style="margin-top:18px;"><strong>Barato:</strong> CRUD, landing page, painel interno, bot, ETL, cola entre APIs. &nbsp;|&nbsp; <strong>Caro continua o que sempre foi:</strong> julgamento, arquitetura, operação, dono do problema.</div>
 
 <!--
-Restam: ~26:42 (90s)
+Restam: ~26:18 (90s)
 
 - Ponto conceitual: não é que modelo ficou perfeito, é que errar ficou BARATO
 - Chave da virada: ciclo de feedback curto → stack trace → conserto → retry em segundos
@@ -974,7 +1013,7 @@ Restam: ~26:42 (90s)
 <div class="caption">Estimativa pra uso moderado de coding (~15M input + ~3M output tokens/mês).</div>
 
 <!--
-Restam: ~25:17 (85s)
+Restam: ~24:53 (85s)
 
 - Suposição do benchmark: ~15M tokens input + ~3M output por mês (uso moderado de coding)
 - GPT 5.4 Pro via API: $180/M output tokens — vira os ~$990/mês
@@ -1015,7 +1054,7 @@ Restam: ~25:17 (85s)
 <div class="caption" style="margin-top:14px;">GLM 5.1 caiu pra Tier C (DSL inventada). MiMo V2.5 Pro caiu pra Tier B. O gap fechou em qualidade, não em variedade — só Kimi e DeepSeek bem orquestrados aguentam Tier A hoje.</div>
 
 <!--
-Restam: ~24:52 (25s)
+Restam: ~24:28 (25s)
 
 - Recorte importante da última rodada do benchmark: pela primeira vez, chineses chegaram no Tier A.
 - Kimi K2.6 (Moonshot): 87/100, $0.30/run, Tier A mais barato do benchmark.
@@ -1047,7 +1086,7 @@ Meu palpite: com energia, margem e demanda apertando, eu esperaria menos milagre
 </div>
 
 <!--
-Restam: ~23:27 (85s)
+Restam: ~23:03 (85s)
 
 - Aqui entra minha especulação.
 - A conta física começou a apertar.
@@ -1071,7 +1110,7 @@ Restam: ~23:27 (85s)
 <div class="caption" style="margin-top:10px;">Fonte: tech-insider.org/us-ai-data-center-delays-cancellations-7gw-capacity-crisis-2026 (Bloomberg + Sightline Climate + US ITC, abril/maio 2026)</div>
 
 <!--
-Restam: ~23:07 (20s)
+Restam: ~22:43 (20s)
 
 - Anunciado pra 2026: ~12 GW. Em obra de verdade: ~5 GW. Buraco: 7 GW.
 - ~Metade dos data centers de 2026 atrasou ou foi cancelado (Bloomberg confirma 30-50%).
@@ -1095,7 +1134,7 @@ Restam: ~23:07 (20s)
 </div>
 
 <!--
-Restam: ~22:52 (15s)
+Restam: ~22:28 (15s)
 
 - Mesmo com a correção em curso, a corrida por compute não desacelera.
 - Anthropic e xAI assinando contratos gigantes de capacidade pra 2026.
@@ -1128,7 +1167,7 @@ Restam: ~22:52 (15s)
 </div>
 
 <!--
-Restam: ~22:32 (20s)
+Restam: ~22:08 (20s)
 
 - Em meio à confusão de modelos e benchmark, esses são os 4 CLI de agente que aguentam trabalho sério hoje.
 - Claude Code (Anthropic, padrão diário) e Codex (OpenAI, equivalente em qualidade).
@@ -1149,7 +1188,7 @@ Restam: ~22:32 (20s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">E a correção continua agora. Em 1 de abril de 2026, a Oracle entrou em mais uma rodada grande de layoffs.</div>
 
 <!--
-Restam: ~21:32 (60s)
+Restam: ~21:08 (60s)
 
 - Aqui é a parte em que eu paro de fingir diplomacia.
 - Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo.
@@ -1158,7 +1197,7 @@ Restam: ~21:32 (60s)
 -->
 ---
 
-<!-- _class: center -->
+<!-- _class: center tone-ruby -->
 ![bg cover opacity:.16](../assets/offline/thumb-asamiarts.jpg)
 <div class="eyebrow">A Analogia</div>
 
@@ -1168,7 +1207,7 @@ Restam: ~21:32 (60s)
 ## “IA vai substituir programador.”
 
 <!--
-Restam: ~20:47 (45s)
+Restam: ~20:23 (45s)
 
 - Pra explicar o pânico atual, eu quero fazer uma tangente rápida com um universo que eu acompanho por hobby: drama de VTuber e drama de arte.
 - O padrão emocional é o mesmo.
@@ -1194,7 +1233,7 @@ Restam: ~20:47 (45s)
 </div>
 
 <!--
-Restam: ~19:52 (55s)
+Restam: ~19:28 (55s)
 
 - O caso da AsamiArts me interessa não pela fofoca, mas pelo mecanismo.
 - Isso não afeta só ego de artista no Twitter.
@@ -1232,7 +1271,7 @@ Restam: ~19:52 (55s)
 </div>
 
 <!--
-Restam: ~18:47 (65s)
+Restam: ~18:23 (65s)
 
 - Aqui é onde eu mostro o que um tracing falso tenta vender.
 - Não tem sketch feio antes.
@@ -1270,7 +1309,7 @@ Restam: ~18:47 (65s)
 </div>
 
 <!--
-Restam: ~17:42 (65s)
+Restam: ~17:18 (65s)
 
 - Esse é o pedaço mais importante.
 - Minha leitura é que o vídeo esconde uma camada pronta por trás.
@@ -1293,7 +1332,7 @@ Restam: ~17:42 (65s)
 </div>
 
 <!--
-Restam: ~16:42 (60s)
+Restam: ~16:18 (60s)
 
 - Outro sinal é a inconsistência.
 - Não é só “melhorou”.
@@ -1316,7 +1355,7 @@ Restam: ~16:42 (60s)
 </div>
 
 <!--
-Restam: ~15:47 (55s)
+Restam: ~15:23 (55s)
 
 - Aqui entra a alucinação mais óbvia.
 - A arma parece arma até você olhar direito.
@@ -1343,7 +1382,7 @@ Restam: ~15:47 (55s)
 </div>
 
 <!--
-Restam: ~14:42 (65s)
+Restam: ~14:18 (65s)
 
 - E tem outra camada aí: LoRA.
 - LoRA é um ajuste leve em cima de um modelo base para puxar um traço específico.
@@ -1362,7 +1401,7 @@ Restam: ~14:42 (65s)
 ## Ele te acelera: se você for bom, fica ainda melhor. Se você for ruim, vai ficar ainda pior.
 
 <!--
-Restam: ~13:12 (90s)
+Restam: ~12:48 (90s)
 
 - IA não cria competência do nada.
 - Ela amplifica o que você já é.
@@ -1391,7 +1430,7 @@ Restam: ~13:12 (90s)
 </div>
 
 <!--
-Restam: ~11:32 (100s)
+Restam: ~11:08 (100s)
 
 - Júnior não morreu, só mudou de forma. Vai herdar a sujeira da era do vibe coding sem freio.
 - Aprender no projeto bagunçado é como gerações anteriores aprenderam. Não é tragédia, é cicatriz.
@@ -1411,7 +1450,7 @@ Restam: ~11:32 (100s)
 ## Fundamento. Disciplina. Iteração. Gosto.
 
 <!--
-Restam: ~09:57 (95s)
+Restam: ~09:33 (95s)
 
 - Parte dura: IA não transforma programador ruim em engenheiro. Ajuda a fazer estrago maior mais rápido.
 - E ajuda engenheiro de verdade a atravessar o caos mais rápido, sem deixar o software morrer.
@@ -1435,12 +1474,35 @@ Restam: ~09:57 (95s)
 </div>
 
 <!--
-Restam: ~09:32 (25s)
+Restam: ~09:08 (25s)
 
 - E já que é pra acabar sem falsa modéstia: se você curtiu essa palestra, assina o The M.Akita Chronicles.
 - Está tudo aí na tela.
 - É onde eu continuo publicando bastidor real, projeto real, código real e o que deu certo ou errado em produção.
 - Quer acompanhar essa linha de raciocínio semana a semana? Vai em themakitachronicles.com e assina.
+-->
+---
+
+<!-- _class: center tone-extra -->
+<div class="eyebrow">Bastidor — outra aplicação prática</div>
+
+# Traduzindo 20 anos de Posts<br>e <span class="em-moss">150 vídeos</span>
+
+<div style="display:flex;justify-content:center;align-items:center;gap:28px;margin-top:8px;max-width:1100px;margin-left:auto;margin-right:auto;">
+  <img src="../assets/akitaonrails-20-years.png" alt="akitaonrails.com com toggle PT/EN" style="max-height:430px;" />
+  <img src="../assets/youtube-ingles.png" alt="Canal Akitando com títulos traduzidos pra inglês" style="max-height:430px;" />
+</div>
+
+<div class="caption" style="margin-top:8px;">700+ posts em pt-BR e en, agora bilingues. 150+ vídeos do Akitando legendados em inglês — pipeline tudo com agente.</div>
+
+<!--
+Restam: ~08:53 (15s)
+
+- Outra prova prática do mesmo argumento da palestra.
+- akitaonrails.com: 700+ posts ganharam versão em inglês, com toggle PT/EN.
+- Canal Akitando: 150+ vídeos receberam tradução de título, descrição e legenda em inglês.
+- Pipeline rodado com agente — não foi "vai traduzir um por um na mão".
+- Mesma lógica do resto da palestra: IA como multiplicador de quem já tem o conteúdo, não substituta de quem nunca produziu nada.
 -->
 ---
 
@@ -1461,7 +1523,7 @@ Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo no PPTX 
 </div>
 
 <!--
-Restam: ~08:57 (35s)
+Restam: ~08:18 (35s)
 
 - E sim, já que o tema da palestra pede isso, este deck inteiro também foi feito com IA.
 - Pesquisa, estrutura, roteiro, notas, crops, builds e automação saíram do mesmo fluxo.
@@ -1485,7 +1547,7 @@ Restam: ~08:57 (35s)
 </div>
 
 <!--
-Restam: ~08:47 (10s)
+Restam: ~08:08 (10s)
 
 - Obrigado.
 - Os links estão aí embaixo.
