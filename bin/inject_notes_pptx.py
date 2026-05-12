@@ -45,14 +45,14 @@ def split_slides(markdown: str) -> list[str]:
 def extract_note(slide_body: str) -> str:
     """Pull the presenter-note text from a slide's HTML comment block.
 
-    A presenter-note block in this deck always starts with `Terminar em:`.
-    Other HTML comments in the markdown (Marp directives like
-    `<!-- _class: ... -->`, the `<!-- pptx-video: ... -->` markers, etc.)
-    are intentionally skipped.
+    A presenter-note block in this deck always starts with a countdown
+    label like `Restam:` (or legacy `Terminar em:`). Other HTML comments
+    in the markdown (Marp directives like `<!-- _class: ... -->`, the
+    `<!-- pptx-video: ... -->` markers, etc.) are intentionally skipped.
     """
     for raw in COMMENT_RE.findall(slide_body):
         body = raw.strip()
-        if body.startswith("Terminar em:"):
+        if body.startswith("Restam:") or body.startswith("Terminar em:"):
             return body
     return ""
 

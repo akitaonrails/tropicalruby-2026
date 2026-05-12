@@ -50,8 +50,8 @@ Presenter notes live as HTML comments (`<!-- ... -->`) in the slide markdown.
 - Keep them shorter than the full script — short bullets, not dense prose
 - Treat them as stage cues
 - Notes should carry reminders the presenter won't see on the slide itself: specific numbers, dates, methodology caveats, transition cues — not a restatement of the visible content
-- The first line is `Terminar em: ~MM:SS (Ds)` — end-time on the wall clock plus current slide duration in seconds. The script file uses the same format. Both are rebuilt together whenever pacing changes.
-- Total runtime target is 50:00 (last slide ends at ~50:00)
+- The first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock (starting from a 60:00 slot, counting down to 00:00) plus current slide duration in seconds. The script file uses the same format. Both are rebuilt together whenever pacing changes.
+- Total slot is 60:00; deck currently lands at ~08:47 remaining (buffer for Q&A). Actual deck runtime is ~51:13.
 - If the script changes meaningfully, update the matching notes
 
 ## Slide and layout workflow

@@ -91,14 +91,24 @@ Research compiled April 2026 for Tropical Ruby 2026 keynote. Numbers sourced fro
 - Data centers add 5-7 GW annually to demand; new supply delivers only 2-3 GW
 - Interconnection queue wait times now exceed 36 months
 
-### Build Delays and Cancellations
+### Build Delays and Cancellations — the 7 GW shortfall
 
-- **Nearly half of all US data centers planned for 2026 have been delayed or canceled** (Tom's Hardware, TechRadar)
-- Only ~one-third of the 12 GW of capacity expected in 2026 is under active construction
+- **12 GW announced for 2026 in the US; only ~5 GW under active construction** = a **7 GW shortfall** (Sightline Climate, April 2026; tech-insider.org)
+- **Bloomberg confirms 30–50% delay/cancellation rate** for planned 2026 data centers
+- The 7 GW gap ≈ **30 to 70 large AI training campuses** not delivered on schedule, at ~$1–4B capex each — tens of billions of dollars deferred
+- Pipeline erosion goes further out:
+  - 2027: 21.5 GW announced, only **6.3 GW broken ground**
+  - 2028–2032: 37 GW announced, only **4.5 GW under construction**
+  - Cumulative announced-but-unbuilt: **>50 GW**
+- **Capex held firm at $650B (2025–2026)** for the Big Four hyperscalers (Alphabet, Amazon, Meta, Microsoft) — the bottleneck is *conversion*, not capital
+- **OpenAI Stargate ($500B program)**: anchor site in Abilene, TX shows no significant physical progress as of April 2026
 - Root cause: electrical component shortages (transformers, switchgear, batteries)
-- Lead times for high-power transformers have expanded dramatically
+- **Lead times for high-power transformers have stretched to 5 years** (US ITC data)
+- Chinese tariffs add 15–25% on power equipment costs
+- Grid interconnection queue: up to **5-year wait** to energize a new data center
 - China supplies 40% of US battery imports and ~30% of transformer/switchgear components
 - US imports of high-power transformers from China surged from <1,500 units (2022) to >8,000 units (2025)
+- Memory/storage spiral spilling out: **5x memory and 3x storage cost increases** since Q1 2025, with consumer devices absorbing the pass-through
 
 ### Electricity Price Impact on Consumers
 
@@ -269,7 +279,7 @@ The current slide ("Treino e inferencia disputam a mesma tomada") states:
 |-------------|--------|---------------|
 | "US$ 500 bi investimento global em data centers em 2024" | **Conservative but defensible** — 2024 Big Four capex was ~$222B; total global DC investment (including non-hyperscaler) was roughly $500B. For 2026 the number is $660-690B for hyperscalers alone |
 | "415 -> 945 TWh consumo eletrico 2024 ate 2030" | **Correct** — IEA base case. Some newer IEA revisions push 2026 alone to 1,100 TWh (includes all data centers, not just AI) |
-| "20% dos projetos podem atrasar por gargalo de rede" | **Understated** — actual figure is closer to 33-50% of planned 2026 builds delayed or canceled |
+| "20% dos projetos podem atrasar por gargalo de rede" | **Understated** — Bloomberg confirms 30–50% delayed/canceled in 2026. Sightline Climate: 12 GW announced vs 5 GW under construction = **7 GW shortfall**. The new slide 41 ("7 GW que não saem do papel") replaces this number with the harder figure. |
 | "2,5 bi/ano ritmo anual do Claude Code" | Anthropic-specific claim, not energy-related |
 
 ### Potential New Data Points for the Slide
@@ -297,6 +307,7 @@ The current slide ("Treino e inferencia disputam a mesma tomada") states:
 - [CNBC — Sanders and DeSantis vs. Data Center Boom](https://www.cnbc.com/2026/01/01/ai-data-centers-bernie-sanders-ron-desantis-electricity-prices.html)
 - [Sanders.senate.gov — AI Data Center Moratorium Act](https://www.sanders.senate.gov/press-releases/news-sanders-ocasio-cortez-announce-ai-data-center-moratorium-act/)
 - [Tom's Hardware — Half of Planned US Data Center Builds Delayed](https://www.tomshardware.com/tech-industry/artificial-intelligence/half-of-planned-us-data-center-builds-have-been-delayed-or-canceled-growth-limited-by-shortages-of-power-infrastructure-and-parts-from-china-the-ai-build-out-flips-the-breakers)
+- [Tech Insider — US AI Data Center Delays: 7 GW Capacity Crisis (April 17 / May 2026)](https://tech-insider.org/us-ai-data-center-delays-cancellations-7gw-capacity-crisis-2026/) — Bloomberg + Sightline Climate + US ITC synthesis
 - [Fortune — US Data Center Development Hit Snags](https://fortune.com/2026/03/18/power-grids-snags-electricity-limits-data-centers/)
 - [PJM Inside Lines — Long-Term Load Forecast](https://insidelines.pjm.com/2025-long-term-load-forecast-report-predicts-significant-increase-in-electricity-demand/)
 - [NRDC — PJM Auction Fails to Procure Supply](https://www.nrdc.org/press-releases/first-time-history-pjm-auction-fails-procure-necessary-power-supply)
