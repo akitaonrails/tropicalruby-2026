@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A Marp-based keynote deck for Tropical Ruby 2026, not a generic app. Most changes touch talk structure, wording, layout, or export quality. The talk is in pt-BR, authored by Fabio Akita.
+A Marp-based keynote deck for **TotalPass 2026** (originally written for Tropical Ruby 2026 and updated for this event). Most changes touch talk structure, wording, layout, or export quality. The talk is in pt-BR, authored by Fabio Akita.
 
 ## Key files
 

@@ -4,7 +4,7 @@
 
 > **Branch note:** this branch (`totalpass2026`) is the updated edition prepared for the **TotalPass 2026** event. The original Tropical Ruby 2026 deck lives on [`master`](https://github.com/akitaonrails/tropicalruby-2026/tree/master).
 
-This repo holds the working deck for the `Tropical Ruby 2026` keynote.
+This repo holds the working deck for the `TotalPass 2026` keynote (with the original `Tropical Ruby 2026` edition still available on the `master` branch).
 The slides are authored in Marp, the script lives separately, and the deck is exported to HTML, PDF, and PPTX from the same source.
 
 ## Main files

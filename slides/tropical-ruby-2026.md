@@ -3,14 +3,14 @@ marp: true
 theme: tropical-ruby
 paginate: true
 html: true
-title: Tropical Ruby 2026 - Agile Vibe Coding
+title: TotalPass 2026 - Agile Vibe Coding
 author: Fabio Akita
 description: Keynote em pt-BR sobre agile vibe coding, agentes de IA, engenharia e o pós-bolha da programação.
 ---
 
 <!-- _class: title -->
 ![bg right:41% cover](../assets/akita-upscaled-gemini31.png)
-<div class="eyebrow">Tropical Ruby 2026 Keynote</div>
+<div class="eyebrow">TotalPass 2026 Keynote</div>
 
 # <span style="font-size:1.6em;display:block;line-height:1;">Agile</span><span style="display:block;margin-top:6px;">Vibe Coding</span>
 

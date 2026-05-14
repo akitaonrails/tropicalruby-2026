@@ -1,4 +1,4 @@
-# Tropical Ruby 2026 - Roteiro Completo
+# TotalPass 2026 - Roteiro Completo
 
 Este roteiro acompanha a versão em PT-BR do deck em `slides/tropical-ruby-2026.md`.
 
