@@ -50,8 +50,8 @@ Artifacts are written to `build/`.
 
 PPTX outputs:
 
-- `build/tropical-ruby-2026.pptx`: raw Marp export
-- `build/tropical-ruby-2026.with-video.pptx`: post-processed PPTX with embedded local MP4s
+- `build/totalpass-2026.pptx`: raw Marp export
+- `build/totalpass-2026.with-video.pptx`: post-processed PPTX with embedded local MP4s
 
 ### Preview the script
 

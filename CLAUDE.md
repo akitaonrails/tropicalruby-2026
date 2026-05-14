@@ -60,7 +60,7 @@ After slide or theme edits:
 
 - Rebuild with `bin/build-slides`
 - Check HTML, PDF, and PPTX — not just one output
-- If the deck uses PPTX video overlays, also check `build/tropical-ruby-2026.with-video.pptx`
+- If the deck uses PPTX video overlays, also check `build/totalpass-2026.with-video.pptx`
 - If PDF breaks while HTML looks fine, trust the PDF problem and simplify the layout
 - Keep the latest final build artifacts committed in the repo
 - Do not keep temporary preview images or scratch subfolders inside `build/`
@@ -83,7 +83,7 @@ Some slides contain `<!-- pptx-video: ... -->` markers in the markdown.
 - Do not remove those markers unless you also remove the matching video asset and post-process entry
 - Keep poster images visible in the slide so HTML and PDF still make sense
 - If you move a marked slide's layout, verify video placement in `bin/embed_videos_pptx.py`
-- `bin/build-slides` produces both the raw PPTX and `build/tropical-ruby-2026.with-video.pptx`
+- `bin/build-slides` produces both the raw PPTX and `build/totalpass-2026.with-video.pptx`
 
 ## Narrative structure
 
