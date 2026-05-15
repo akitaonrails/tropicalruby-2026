@@ -207,102 +207,107 @@ Restam: ~25:38 (25s)
 
 Vale um recorte separado pra um ponto novo dessa última rodada: pela primeira vez, modelos chineses entraram no Tier A do benchmark. Kimi K2.6, da Moonshot, ficou em 87 sobre 100, e é o Tier A mais barato do benchmark — 30 centavos por run, com FakeChat correto, rescue de erro e session cookie multi-worker safe. E o DeepSeek V4 Pro destravou pulando pra 89, mas só conseguiu isso com um shim chamado DeepClaude que troca o endpoint do Claude Code pra OpenRouter. No opencode, V4 Pro travava no protocolo de thinking — o ai-sdk strippa o reasoning_content e a DeepSeek devolve 400. Era harness, não modelo. Trocou o harness, foi pra Tier A.
 
-## Slide 42 - Treino e inferência disputam a mesma tomada
-Restam: ~24:13 (85s)
+## Slide 42 - China still blocking H200?
+Restam: ~25:23 (15s)
+
+E a geopolítica entrou de cabeça nessa corrida. Em maio, os Estados Unidos liberaram a venda de Nvidia H200 pra dez empresas chinesas. Pequim disse "não, usa o que tem em casa" — Huawei Ascend, Cambricon, Biren. Forçando o ecossistema doméstico a maturar. E enquanto isso, a Nvidia bateu 5 trilhões e meio de dólares de valor de mercado, maior que o PIB de qualquer país exceto Estados Unidos e China. A briga de compute não é mais só sobre quem tem mais GPU. É sobre quem controla o silício. E os modelos chineses que entraram no Tier A do meu benchmark — Kimi K2.6 e DeepSeek V4 Pro — rodam exatamente no hardware que Pequim quer ver crescendo.
+
+## Slide 43 - Treino e inferência disputam a mesma tomada
+Restam: ~23:58 (85s)
 
 E aqui entra minha especulação sobre a economia da IA. A conta física começou a apertar de verdade. Os quatro grandes — Alphabet, Amazon, Meta e Microsoft — comprometeram cerca de 650 bilhões de dólares em capex de IA pra 2025 e 2026 juntos. Em 2024 isso era 222 bilhões. Triplicou em dois anos. Do outro lado, a IEA revisou pra cima em dezembro de 2025 e agora projeta 1.100 terawatt-hora de consumo elétrico em data centers globais em 2026 — equivalente ao Japão inteiro. Em 2024 eram 415. E tem mais um detalhe que muda a leitura: a Epoch AI mostra que inferência saiu de 33% do compute em 2023 e deve bater 67% em 2026. Não é mais só treino que consome a tomada. Agente queima muito mais inferência por usuário do que chatbot bobo. Então eu não apostaria em outro salto de ordem de grandeza no frontier tão cedo. Eu apostaria em briga por eficiência, suporte a ferramentas, custo de inferência e produto. E se a Anthropic vier mesmo pra IPO em 2026, essa pressão por margem e previsibilidade fica ainda maior.
 
-## Slide 43 - Carro elétrico ia salvar. IA comeu a economia.
-Restam: ~23:53 (20s)
+## Slide 44 - Carro elétrico ia salvar. IA comeu a economia.
+Restam: ~23:38 (20s)
 
 Tem uma ironia que vale destacar. Carro elétrico ia ser a grande economia de energia da década. A frota global de EV hoje consome cerca de 130 terawatt-hora por ano, segundo a IEA. O crescimento de data center sozinho, entre 2024 e 2026, foi de 685 terawatt-hora. Em dois anos, IA adicionou na rede aproximadamente cinco vezes toda a eletricidade que a frota global de carro elétrico consome hoje. EV e data center disputam o mesmo megawatt — e data center está ganhando de longe.
 
-## Slide 44 - 7 GW que não saem do papel em 2026
-Restam: ~23:33 (20s)
+## Slide 45 - 7 GW que não saem do papel em 2026
+Restam: ~23:18 (20s)
 
 E pra deixar a conta física concreta: dos cerca de 12 gigawatts de data center anunciados pra 2026 nos Estados Unidos, só uns 5 estão em obra de verdade. Os outros 7 atrasaram ou foram cancelados. Bloomberg confirma um intervalo de 30 a 50 por cento. O gargalo não é dinheiro, é equipamento físico: transformador de alta tensão tem fila de até 5 anos, switchgear escasso, tarifa chinesa de 15 a 25 por cento. Fila de conexão à rede leva até 5 anos. E mesmo assim os hyperscalers não recuaram o capex de 650 bilhões pra 2025 e 2026. Dólar sobra. Tomada não.
 
-## Slide 45 - A corrida por compute acelera em 2026
-Restam: ~23:18 (15s)
+## Slide 46 - A corrida por compute acelera em 2026
+Restam: ~23:03 (15s)
 
 Mas mesmo com essa correção em curso, a corrida por compute não desacelerou. Em 2026, Anthropic e xAI fecharam contratos pesados de capacidade pra suprir treino e inferência. A fila do mercado não é mais por desenvolvedor júnior. É por GPU, energia e data center.
 
-## Slide 46 - As Únicas Ferramentas pra Usar Agora
-Restam: ~22:58 (20s)
+## Slide 47 - As Únicas Ferramentas pra Usar Agora
+Restam: ~22:43 (20s)
 
 Aproveitando que falei do mar de modelos, esses são os quatro CLI de agente que realmente aguentam trabalho sério em maio de 2026. Claude Code, da Anthropic, é o meu padrão diário. Codex, da OpenAI, é o equivalente do outro lado. E os agnósticos: opencode e Crush, que rodam qualquer modelo via OpenRouter — úteis pra testar Tier A chinês ou pra quem não quer ficar preso num provedor só. O resto é orbital. Esses quatro cobrem o agente de terminal hoje.
 
-## Slide 47 - A correção
-Restam: ~21:58 (60s)
+## Slide 48 - A correção
+Restam: ~21:43 (60s)
 
 Aqui é a parte em que eu paro de fingir diplomacia. Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo. A indústria passou anos trocando engenharia por braço barato, competência falsa e dívida técnica como se isso fosse de graça. A IA está forçando uma correção. Ótimo. E essa correção continua acontecendo agora: em 1 de abril de 2026, a Oracle reportou mais uma onda pesada de layoffs. Não é fim do mundo. É a indústria voltando pro preço certo.
 
-## Slide 48 - Mesmo medo
-Restam: ~21:13 (45s)
+## Slide 49 - Mesmo medo
+Restam: ~20:58 (45s)
 
 Pra explicar o pânico atual, eu quero fazer uma tangente rápida com um universo que eu acompanho por hobby: drama de VTuber e drama de arte. O padrão emocional é o mesmo. No mundo da arte dizem que IA vai substituir artista. No nosso dizem que IA vai substituir programador. Nos dois casos, o desespero maior vem de quem entende o ofício de forma rasa.
 
-## Slide 49 - Caso AsamiArts
-Restam: ~20:18 (55s)
+## Slide 50 - Caso AsamiArts
+Restam: ~20:03 (55s)
 
 O caso da AsamiArts me interessa não pela fofoca, mas pelo mecanismo. Isso não é só briguinha de internet. Tem mercado real de comissão em volta disso. Tem artista tentando viver disso. Tem cliente apostando dinheiro e confiança nisso. Então quando processo falso entra na equação, não é só estética que desanda. A confiança do mercado inteiro começa a apodrecer.
 
-## Slide 50 - Tracing sem processo
-Restam: ~19:13 (65s)
+## Slide 51 - Tracing sem processo
+Restam: ~18:58 (65s)
 
 Aqui é onde eu mostro o cheiro do negócio. Num processo normal você vê construção, hesitação, ida e volta, correção de proporção, sketch feio antes do refinamento. Nesse vídeo não. Ele já sai limpo demais, confiante demais, liso demais. Não tem erro feio. Não tem indecisão. Não tem undo. Parece virtuose. Pra mim, parece teatro.
 
-## Slide 51 - A camada escondida
-Restam: ~18:08 (65s)
+## Slide 52 - A camada escondida
+Restam: ~17:53 (65s)
 
 E aqui entra a parte mais interessante. A minha leitura é que existe uma camada base escondida por trás, e o vídeo está montado pra disfarçar isso. O verde parece estar ali justamente pra sumir na edição, porque quase não aparece outro verde competindo com ele. Então o vídeo não mostra o desenho nascendo. Mostra um truque de composição vendendo a sensação de tracing ao vivo.
 
-## Slide 52 - A evolução não bate
-Restam: ~17:08 (60s)
+## Slide 53 - A evolução não bate
+Restam: ~16:53 (60s)
 
 Outro sinal é a inconsistência. Evolução humana existe, claro. O problema é quando a mão muda demais num intervalo curto demais. Rosto muda, acabamento muda, construção muda, linguagem de linha muda. Não parece uma pessoa amadurecendo. Parece mistura de fonte, mistura de ferramenta, mistura de origem.
 
-## Slide 53 - A alucinação entrega
-Restam: ~16:13 (55s)
+## Slide 54 - A alucinação entrega
+Restam: ~15:58 (55s)
 
 Aí entra a parte que entrega de vez: alucinação estrutural. A arma parece arma de longe. Quando você olha direito, o cano está do lado errado. Isso não é detalhe de estilo. Isso é erro de entendimento do objeto. É o mesmo tipo de erro que a gente já conhece em imagem gerada por IA: plausível no primeiro olhar, desmontando no segundo.
 
-## Slide 54 - LoRA é estilo empacotado
-Restam: ~15:08 (65s)
+## Slide 55 - LoRA é estilo empacotado
+Restam: ~14:53 (65s)
 
 E tem mais uma camada aqui: LoRA. Pra quem não acompanha isso, LoRA é um ajuste leve em cima de um modelo base, usado pra empurrar o resultado pra um traço, tema ou artista específico. O problema é que a comunidade treinou muita LoRA em cima de arte pública sem autorização. Então o roubo de estilo volta embalado como ferramenta. Depois alguém mistura isso tudo e vende como se fosse voz própria.
 
-## Slide 55 - IA reflete quem você é
-Restam: ~13:38 (90s)
+## Slide 56 - IA reflete quem você é
+Restam: ~13:23 (90s)
 
 E é aqui que isso volta pro código. IA não cria competência do nada. Ela reflete o que você já é. Se você é um bom engenheiro, ela vai te fazer produzir mais, mais rápido, com mais qualidade. Se você é um mau engenheiro, ela vai te ajudar a produzir lixo numa velocidade que você nunca conseguiria sozinho. Isso vale pra arte, vale pro código, vale pra qualquer área onde você tente usar IA como atalho pra substituir fundação. Não existe atalho pra competência.
 
-## Slide 56 - Júnior herda. Sênior ensina.
-Restam: ~11:58 (100s)
+## Slide 57 - Júnior herda. Sênior ensina.
+Restam: ~11:43 (100s)
 
 Júnior está preocupado, mas eu não acho que o caminho acabou. Acho que ele mudou de forma. O mundo está enchendo de sistema feito nas coxas, cheio de lixo de IA, e alguém vai ter que limpar isso. Aprender ferramenta nova nunca foi o fim da profissão: binário, cartão perfurado, assembly, linguagens mais altas, framework, nuvem, agora agente. Muita gente da minha geração aprendeu exatamente assim, no projeto real, bagunçado, cheio de cicatriz. Então a virada de esperança é essa: o caminho não sumiu, ele só ficou mais caótico. Mas isso só para em pé se sênior fizer o trabalho dele. Sênior não é imortal. Vai mudar de empresa, vai cansar, vai se aposentar. Se não formar substituto, a organização apodrece. A nova obrigação do sênior não é só usar IA bem. É ensinar engenharia com IA direito, antes do código apodrecer. Agente nenhum ensina julgamento.
 
-## Slide 57 - Vai sobreviver quem souber fazer engenharia
-Restam: ~10:23 (95s)
+## Slide 58 - Vai sobreviver quem souber fazer engenharia
+Restam: ~10:08 (95s)
 
 Então vem a parte dura. IA não transforma programador ruim em engenheiro. Ela ajuda programador ruim a fazer estrago maior mais rápido. E ajuda engenheiro de verdade a atravessar esse caos com mais velocidade, sem deixar o software morrer. Então eu fecho assim. Não vai sobreviver quem decorou truquezinho de prompt. Vai sobreviver quem tem fundamento, disciplina, iteração e gosto. Se você tem isso, IA vira multiplicador. Se não tem, IA é só uma forma mais rápida de ser exposto.
 
-## Slide 58 - Assine The M.Akita Chronicles
-Restam: ~09:58 (25s)
+## Slide 59 - Assine The M.Akita Chronicles
+Restam: ~09:43 (25s)
 
 E já que é pra acabar sem falsa modéstia: se você curtiu essa palestra, assina o The M.Akita Chronicles. Está tudo aí na tela. É onde eu continuo publicando bastidor real, projeto real, código real e o que deu certo ou errado em produção. Quer acompanhar essa linha de raciocínio semana a semana? Vai em themakitachronicles.com e assina.
 
-## Slide 59 - Traduzindo 20 anos de Posts e 150 videos
-Restam: ~09:43 (15s)
+## Slide 60 - Traduzindo 20 anos de Posts e 150 videos
+Restam: ~09:28 (15s)
 
 E pra fechar de tema com a palestra: o mesmo argumento que apliquei em código eu apliquei no conteúdo. O akitaonrails.com inteiro, 700 posts em 20 anos, ganhou versão em inglês com toggle PT/EN. E o canal Akitando teve 150 vídeos legendados em inglês. Pipeline tudo rodando com agente — eu não traduzi nada na mão. É o mesmo padrão: IA como multiplicador pra quem já tem trabalho feito, não substituta pra quem nunca produziu.
 
-## Slide 60 - Sim, este deck inteiro foi feito com IA
-Restam: ~09:08 (35s)
+## Slide 61 - Sim, este deck inteiro foi feito com IA
+Restam: ~08:53 (35s)
 
 E sim, já que o assunto da palestra é esse, vale fechar com o bastidor completo. Este deck inteiro também foi feito com IA. Pesquisa, estrutura, roteiro, presenter notes, crops, extração de frame, build, pós-processo do PPTX com vídeo, tudo saiu do mesmo fluxo. Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo e iteração curta até o negócio ficar apresentável. Então não é discurso abstrato. Eu usei essa pilha para fazer a própria palestra que vocês acabaram de ver.
 
-## Slide 61 - Obrigado
-Restam: ~08:58 (10s)
+## Slide 62 - Obrigado
+Restam: ~08:43 (10s)
 
 Obrigado. Os links estão aí embaixo: Codeminer42, The M.Akita Chronicles e o repositório dessa palestra, que eu vou abrir no dia do evento.

@@ -1068,6 +1068,33 @@ Restam: ~25:38 (25s)
 -->
 ---
 
+<!-- _class: center tone-ruby -->
+<div class="eyebrow">Hardware × Geopolítica</div>
+
+# China still <span class="em-ruby">blocking H200?</span>
+
+<div style="display:flex;justify-content:center;align-items:center;gap:22px;margin-top:8px;max-width:1140px;margin-left:auto;margin-right:auto;">
+  <div style="flex:1 1 0;">
+    <img src="../assets/h200-china-block.png" alt="Trump says China is blocking Nvidia H200 purchases despite US approval" style="width:100%;border-radius:12px;box-shadow:0 12px 24px rgba(0,0,0,0.24);" />
+    <div style="font-size:0.58em;opacity:0.72;margin-top:6px;text-align:center;">tomshardware.com/tech-industry/trump-says-china-is-blocking-h200-purchases</div>
+  </div>
+  <div style="flex:1 1 0;">
+    <img src="../assets/nvidia-5-5-trillion.png" alt="Nvidia hits $5.5 trillion — more than the GDP of every country but the US and China" style="width:100%;border-radius:12px;box-shadow:0 12px 24px rgba(0,0,0,0.24);" />
+    <div style="font-size:0.58em;opacity:0.72;margin-top:6px;text-align:center;">finance.yahoo.com/news/nvidia-hits-5-5-trillion-155206232.html</div>
+  </div>
+</div>
+
+<!--
+Restam: ~25:23 (15s)
+
+- 10 empresas chinesas com aprovação dos EUA pra importar H200 — Pequim disse "não, usa o que tem em casa" (Huawei Ascend 910C, Cambricon, Biren).
+- Ao mesmo tempo, Nvidia bate US$ 5,5 trilhões de market cap — mais que o PIB de qualquer país exceto EUA e China.
+- A geopolítica entrou na corrida por compute: não é mais só quem tem mais GPU, é quem controla o silício.
+- Kimi K2.6 e DeepSeek V4 Pro rodam justamente no hardware que Pequim está forçando a maturar.
+- Implicação: a tomada e o chip viraram parte da mesma briga.
+-->
+---
+
 <!-- _class: center tone-sand -->
 <div class="eyebrow">Economia da IA</div>
 
@@ -1088,7 +1115,7 @@ Meu palpite: com energia, margem e demanda apertando, eu esperaria menos milagre
 </div>
 
 <!--
-Restam: ~24:13 (85s)
+Restam: ~23:58 (85s)
 
 - Aqui entra minha especulação. A conta física começou a apertar.
 - Capex: $650 bi 2025-2026 dos 4 grandes (Alphabet, Amazon, Meta, Microsoft). Em 2024 era ~$222 bi — quase 3x em 2 anos.
@@ -1117,7 +1144,7 @@ Em 2 anos, IA adicionou na rede <span class="em-ruby">~5× toda a eletricidade q
 </div>
 
 <!--
-Restam: ~23:53 (20s)
+Restam: ~23:38 (20s)
 
 - EV global hoje: ~130 TWh/ano (IEA Global EV Outlook 2024).
 - DC global: 415 → 1.100 TWh entre 2024 e 2026 (+685 TWh).
@@ -1139,7 +1166,7 @@ Restam: ~23:53 (20s)
 <div class="caption" style="margin-top:10px;">Fonte: tech-insider.org/us-ai-data-center-delays-cancellations-7gw-capacity-crisis-2026 (Bloomberg + Sightline Climate + US ITC, abril/maio 2026)</div>
 
 <!--
-Restam: ~23:33 (20s)
+Restam: ~23:18 (20s)
 
 - Anunciado pra 2026: ~12 GW. Em obra de verdade: ~5 GW. Buraco: 7 GW.
 - ~Metade dos data centers de 2026 atrasou ou foi cancelado (Bloomberg confirma 30-50%).
@@ -1163,7 +1190,7 @@ Restam: ~23:33 (20s)
 </div>
 
 <!--
-Restam: ~23:18 (15s)
+Restam: ~23:03 (15s)
 
 - Mesmo com a correção em curso, a corrida por compute não desacelera.
 - Anthropic e xAI assinando contratos gigantes de capacidade pra 2026.
@@ -1196,7 +1223,7 @@ Restam: ~23:18 (15s)
 </div>
 
 <!--
-Restam: ~22:58 (20s)
+Restam: ~22:43 (20s)
 
 - Em meio à confusão de modelos e benchmark, esses são os 4 CLI de agente que aguentam trabalho sério hoje.
 - Claude Code (Anthropic, padrão diário) e Codex (OpenAI, equivalente em qualidade).
@@ -1217,7 +1244,7 @@ Restam: ~22:58 (20s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">E a correção continua agora. Em 1 de abril de 2026, a Oracle entrou em mais uma rodada grande de layoffs.</div>
 
 <!--
-Restam: ~21:58 (60s)
+Restam: ~21:43 (60s)
 
 - Aqui é a parte em que eu paro de fingir diplomacia.
 - Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo.
@@ -1236,7 +1263,7 @@ Restam: ~21:58 (60s)
 ## “IA vai substituir programador.”
 
 <!--
-Restam: ~21:13 (45s)
+Restam: ~20:58 (45s)
 
 - Pra explicar o pânico atual, eu quero fazer uma tangente rápida com um universo que eu acompanho por hobby: drama de VTuber e drama de arte.
 - O padrão emocional é o mesmo.
@@ -1262,7 +1289,7 @@ Restam: ~21:13 (45s)
 </div>
 
 <!--
-Restam: ~20:18 (55s)
+Restam: ~20:03 (55s)
 
 - O caso da AsamiArts me interessa não pela fofoca, mas pelo mecanismo.
 - Isso não afeta só ego de artista no Twitter.
@@ -1300,7 +1327,7 @@ Restam: ~20:18 (55s)
 </div>
 
 <!--
-Restam: ~19:13 (65s)
+Restam: ~18:58 (65s)
 
 - Aqui é onde eu mostro o que um tracing falso tenta vender.
 - Não tem sketch feio antes.
@@ -1338,7 +1365,7 @@ Restam: ~19:13 (65s)
 </div>
 
 <!--
-Restam: ~18:08 (65s)
+Restam: ~17:53 (65s)
 
 - Esse é o pedaço mais importante.
 - Minha leitura é que o vídeo esconde uma camada pronta por trás.
@@ -1361,7 +1388,7 @@ Restam: ~18:08 (65s)
 </div>
 
 <!--
-Restam: ~17:08 (60s)
+Restam: ~16:53 (60s)
 
 - Outro sinal é a inconsistência.
 - Não é só “melhorou”.
@@ -1384,7 +1411,7 @@ Restam: ~17:08 (60s)
 </div>
 
 <!--
-Restam: ~16:13 (55s)
+Restam: ~15:58 (55s)
 
 - Aqui entra a alucinação mais óbvia.
 - A arma parece arma até você olhar direito.
@@ -1411,7 +1438,7 @@ Restam: ~16:13 (55s)
 </div>
 
 <!--
-Restam: ~15:08 (65s)
+Restam: ~14:53 (65s)
 
 - E tem outra camada aí: LoRA.
 - LoRA é um ajuste leve em cima de um modelo base para puxar um traço específico.
@@ -1430,7 +1457,7 @@ Restam: ~15:08 (65s)
 ## Ele te acelera: se você for bom, fica ainda melhor. Se você for ruim, vai ficar ainda pior.
 
 <!--
-Restam: ~13:38 (90s)
+Restam: ~13:23 (90s)
 
 - IA não cria competência do nada.
 - Ela amplifica o que você já é.
@@ -1459,7 +1486,7 @@ Restam: ~13:38 (90s)
 </div>
 
 <!--
-Restam: ~11:58 (100s)
+Restam: ~11:43 (100s)
 
 - Júnior não morreu, só mudou de forma. Vai herdar a sujeira da era do vibe coding sem freio.
 - Aprender no projeto bagunçado é como gerações anteriores aprenderam. Não é tragédia, é cicatriz.
@@ -1479,7 +1506,7 @@ Restam: ~11:58 (100s)
 ## Fundamento. Disciplina. Iteração. Gosto.
 
 <!--
-Restam: ~10:23 (95s)
+Restam: ~10:08 (95s)
 
 - Parte dura: IA não transforma programador ruim em engenheiro. Ajuda a fazer estrago maior mais rápido.
 - E ajuda engenheiro de verdade a atravessar o caos mais rápido, sem deixar o software morrer.
@@ -1503,7 +1530,7 @@ Restam: ~10:23 (95s)
 </div>
 
 <!--
-Restam: ~09:58 (25s)
+Restam: ~09:43 (25s)
 
 - E já que é pra acabar sem falsa modéstia: se você curtiu essa palestra, assina o The M.Akita Chronicles.
 - Está tudo aí na tela.
@@ -1525,7 +1552,7 @@ Restam: ~09:58 (25s)
 <div class="caption" style="margin-top:8px;">700+ posts em pt-BR e en, agora bilingues. 150+ vídeos do Akitando legendados em inglês — pipeline tudo com agente.</div>
 
 <!--
-Restam: ~09:43 (15s)
+Restam: ~09:28 (15s)
 
 - Outra prova prática do mesmo argumento da palestra.
 - akitaonrails.com: 700+ posts ganharam versão em inglês, com toggle PT/EN.
@@ -1552,7 +1579,7 @@ Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo no PPTX 
 </div>
 
 <!--
-Restam: ~09:08 (35s)
+Restam: ~08:53 (35s)
 
 - E sim, já que o tema da palestra pede isso, este deck inteiro também foi feito com IA.
 - Pesquisa, estrutura, roteiro, notas, crops, builds e automação saíram do mesmo fluxo.
@@ -1576,7 +1603,7 @@ Restam: ~09:08 (35s)
 </div>
 
 <!--
-Restam: ~08:58 (10s)
+Restam: ~08:43 (10s)
 
 - Obrigado.
 - Os links estão aí embaixo.
