@@ -390,19 +390,28 @@ Restam: ~47:00 (35s)
 ---
 
 <!-- _class: center tone-moss -->
-![bg cover opacity:.22](../assets/flow/github.png)
+![bg cover opacity:.18](../assets/flow/github.png)
 <div class="eyebrow">Repositórios públicos</div>
 
-# 24 projetos<br><span class="em-moss">abertos</span>
+# 24 projetos<br><span class="em-ruby">(experimentais)</span>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">github.com/akitaonrails — tudo o que rolou na maratona, código aberto.</div>
+<div style="display:flex;gap:28px;align-items:center;justify-content:center;margin-top:8px;max-width:1100px;margin-left:auto;margin-right:auto;">
+  <div style="flex:1 1 0;text-align:left;">
+    <div class="lead" style="margin:0;">github.com/akitaonrails — tudo o que rolou na maratona, código aberto.</div>
+    <div class="caption" style="margin-top:14px;">"Todos os 24 projetos são perfeitos, modelos de excelência de código?" <strong>Absolutamente não.</strong> São experimentos honestos: alguns viraram software de uso diário, outros são protótipos. O importante foi rodar o ciclo de verdade.</div>
+  </div>
+  <div style="flex:0 0 42%;">
+    <img src="../assets/maratona-conclusion.png" alt="Artigo: Terminando minha maratona de IA — sucesso ou fracasso?" style="width:100%;border-radius:14px;box-shadow:0 14px 30px rgba(0,0,0,0.22);" />
+  </div>
+</div>
 
 <!--
 Restam: ~46:48 (12s)
 
-- Tudo aberto no GitHub.
-- 24 projetos, várias linguagens, vários domínios.
-- O que vem a seguir são alguns recortes rápidos.
+- 24 projetos, várias linguagens, vários domínios — todos abertos no GitHub.
+- Importante: nem todos são produção. São experimentais por definição — alguns viraram software de uso diário (FrankMD, ai-jail), outros são protótipos honestos.
+- Link pro post: akitaonrails.com/2026/05/14/terminando-maratona-ia-sucesso-ou-fracasso
+- O ponto da maratona não foi entregar 24 produtos perfeitos. Foi rodar o ciclo de agente de verdade em escala.
 -->
 ---
 
@@ -656,34 +665,6 @@ Restam: ~42:17 (95s)
 ---
 
 <!-- _class: center tone-sand -->
-![bg cover opacity:.14](../assets/offline/bg-marathon.jpg)
-<div class="eyebrow">Normalizando o Ritmo</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Berlin-Marathon_2015_Runners_14.jpg</div>
-
-# 3 meses de maratona<br>não são 3 meses normais
-
-<div class="stats">
-  <div class="card"><strong>~90 dias corridos</strong><span class="mini">quase 16h por dia, 7 dias por semana</span></div>
-  <div class="card"><strong>~252 dias corridos</strong><span class="mini">algo perto de 8 meses e 1 semana</span></div>
-  <div class="card"><strong>~1.260 a 2.520 dias corridos</strong><span class="mini">o mesmo sênior sem IA</span></div>
-  <div class="card"><strong>~42 a 84 meses</strong><span class="mini">ou cerca de 3,5 a 7 anos</span></div>
-</div>
-
-<div class="caption">Estimativa linear em calendário real de trabalho: 8h por dia, só em dias úteis.</div>
-
-
-<!--
-Restam: ~40:52 (85s)
-
-- Não é truque de palco — ritmo real foi ~16h/dia, 7 dias/semana por ~90 dias corridos (fev, mar, abr)
-- Conversão pra ritmo sustentável de sênior (8h/dia, só dias úteis) → ~252 dias = ~8 meses e 1 semana
-- Em cima disso, aplicar o 5-10x sem IA → ~1.260 a 2.520 dias corridos = ~42 a 84 meses = 3,5 a 7 anos
-- Disclaimer: conta linear, ordem de grandeza, não previsão exata
-- Mensagem: não é 3 meses contra 3 meses, é 3 meses de maratona contra anos de desenvolvimento normal
--->
----
-
-<!-- _class: center tone-sand -->
 ![bg cover opacity:.18](../assets/offline/bg-strongman.jpg)
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Basra_bodybuilding_competition_DVIDS288972.jpg</div>
 
@@ -698,7 +679,7 @@ Restam: ~40:52 (85s)
 
 
 <!--
-Restam: ~39:22 (90s)
+Restam: ~40:47 (90s)
 
 - Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade.
 - Não porque o modelo escreve código perfeito.
@@ -720,7 +701,7 @@ Restam: ~39:22 (90s)
 
 
 <!--
-Restam: ~38:17 (65s)
+Restam: ~39:42 (65s)
 
 - A fantasia do prompt único é preguiçosa.
 - Ela parte da ideia de que dá pra prever e especificar tudo antes.
@@ -744,7 +725,7 @@ Restam: ~38:17 (65s)
 </div>
 
 <!--
-Restam: ~37:17 (60s)
+Restam: ~38:42 (60s)
 
 - É por isso que o Akita antigo continua valendo.
 - Não terceirize sua decisão.
@@ -764,7 +745,7 @@ Restam: ~37:17 (60s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A lógica continua a mesma: experimento pequeno, feedback rápido, correção contínua.</div>
 
 <!--
-Restam: ~36:22 (55s)
+Restam: ~37:47 (55s)
 
 - O mais difícil de ensinar pra iniciante é isso: julgamento não é uma coisa que você baixa pronta.
 - Não vem de influencer, não vem de bootcamp, não vem de modelo.
@@ -787,7 +768,7 @@ Restam: ~36:22 (55s)
 </div>
 
 <!--
-Restam: ~34:52 (90s)
+Restam: ~36:17 (90s)
 
 - Agile Vibe Coding é XP com pareamento de máquina. A estrutura por baixo é velha.
 - TDD não é perfumaria. Segura erro de modelo antes de virar lama.
@@ -811,7 +792,7 @@ Restam: ~34:52 (90s)
 
 
 <!--
-Restam: ~33:22 (90s)
+Restam: ~34:47 (90s)
 
 - O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto.
 - O agente traz velocidade de execução, busca e fôlego operacional.
@@ -830,7 +811,7 @@ Restam: ~33:22 (90s)
 </div>
 
 <!--
-Restam: ~33:10 (12s)
+Restam: ~34:35 (12s)
 
 - O repositório que sustenta todo o argumento que vem a seguir.
 - 4 rodadas documentadas: 5/abr (original), 18/abr (multi-modelo), 24/abr (canonical), 25/abr (orquestração), 4/mai (DeepSeek via DeepClaude).
@@ -849,7 +830,7 @@ Restam: ~33:10 (12s)
 </div>
 
 <!--
-Restam: ~32:58 (12s)
+Restam: ~34:23 (12s)
 
 - 24 modelos, score 0-100, Tier A/B/C/D.
 - Topo: Opus 4.7 e GPT 5.4 xHigh empatam em 97. GPT 5.5 em 96 (40% mais barato). DeepSeek V4 Pro (DeepClaude) em 89. Kimi K2.6 em 87.
@@ -875,7 +856,7 @@ Restam: ~32:58 (12s)
 <div class="caption">A virada da última rodada do benchmark: chineses entraram no Tier A, GLM caiu de tier. Open source ainda não substitui o fluxo completo com agentes — mas o gap encurtou.</div>
 
 <!--
-Restam: ~31:53 (65s)
+Restam: ~33:18 (65s)
 
 - Em abril de 2026, leitura prática: Anthropic e OpenAI continuam no topo pra código sério.
 - Anthropic: Opus 4.6 ainda é meu padrão diário, 4.7 está no topo do benchmark objetivo (97/100).
@@ -907,7 +888,7 @@ Restam: ~31:53 (65s)
 <div class="caption">Artigos: akitaonrails.com — benchmark canonical 24/abr/26 + DeepClaude unlock 4/mai/26</div>
 
 <!--
-Restam: ~30:18 (95s)
+Restam: ~31:43 (95s)
 
 - Benchmark: 24 modelos, mesmo runner, mesmo task (app Rails com RubyLLM).
 - Rubrica em 8 dimensões: completude, RubyLLM, testes, error handling, persistência, Hotwire, arquitetura, prod-ready. Score 0-100, Tier A/B/C/D.
@@ -935,7 +916,7 @@ Restam: ~30:18 (95s)
 <div class="caption">Tamanho de modelo virou commodity. As três condições acima é que separam quem aguenta um agente real — DeepSeek, por exemplo, falha hoje justamente por não fechar essas três.</div>
 
 <!--
-Restam: ~28:53 (85s)
+Restam: ~30:18 (85s)
 
 - Gancho: "por que só 4 modelos passaram no benchmark?"
 - Tamanho virou commodity — não é parâmetro, é infraestrutura
@@ -966,7 +947,7 @@ Restam: ~28:53 (85s)
 </div>
 
 <!--
-Restam: ~27:33 (80s)
+Restam: ~28:58 (80s)
 
 - Gancho: "intuição era que 'Coder' no nome seria melhor — deu o contrário"
 - 3 Qwen Coder testados, 2 falharam catastroficamente, 1 nem rodou
@@ -998,7 +979,7 @@ Restam: ~27:33 (80s)
 <div class="caption" style="margin-top:18px;"><strong>Barato:</strong> CRUD, landing page, painel interno, bot, ETL, cola entre APIs. &nbsp;|&nbsp; <strong>Caro continua o que sempre foi:</strong> julgamento, arquitetura, operação, dono do problema.</div>
 
 <!--
-Restam: ~26:03 (90s)
+Restam: ~27:28 (90s)
 
 - Ponto conceitual: não é que modelo ficou perfeito, é que errar ficou BARATO
 - Chave da virada: ciclo de feedback curto → stack trace → conserto → retry em segundos
@@ -1034,7 +1015,7 @@ Restam: ~26:03 (90s)
 <div class="caption">Estimativa pra uso moderado de coding (~15M input + ~3M output tokens/mês).</div>
 
 <!--
-Restam: ~24:38 (85s)
+Restam: ~26:03 (85s)
 
 - Suposição do benchmark: ~15M tokens input + ~3M output por mês (uso moderado de coding)
 - GPT 5.4 Pro via API: $180/M output tokens — vira os ~$990/mês
@@ -1075,7 +1056,7 @@ Restam: ~24:38 (85s)
 <div class="caption" style="margin-top:14px;">GLM 5.1 caiu pra Tier C (DSL inventada). MiMo V2.5 Pro caiu pra Tier B. O gap fechou em qualidade, não em variedade — só Kimi e DeepSeek bem orquestrados aguentam Tier A hoje.</div>
 
 <!--
-Restam: ~24:13 (25s)
+Restam: ~25:38 (25s)
 
 - Recorte importante da última rodada do benchmark: pela primeira vez, chineses chegaram no Tier A.
 - Kimi K2.6 (Moonshot): 87/100, $0.30/run, Tier A mais barato do benchmark.
@@ -1107,7 +1088,7 @@ Meu palpite: com energia, margem e demanda apertando, eu esperaria menos milagre
 </div>
 
 <!--
-Restam: ~22:48 (85s)
+Restam: ~24:13 (85s)
 
 - Aqui entra minha especulação. A conta física começou a apertar.
 - Capex: $650 bi 2025-2026 dos 4 grandes (Alphabet, Amazon, Meta, Microsoft). Em 2024 era ~$222 bi — quase 3x em 2 anos.
@@ -1136,7 +1117,7 @@ Em 2 anos, IA adicionou na rede <span class="em-ruby">~5× toda a eletricidade q
 </div>
 
 <!--
-Restam: ~22:28 (20s)
+Restam: ~23:53 (20s)
 
 - EV global hoje: ~130 TWh/ano (IEA Global EV Outlook 2024).
 - DC global: 415 → 1.100 TWh entre 2024 e 2026 (+685 TWh).
@@ -1158,7 +1139,7 @@ Restam: ~22:28 (20s)
 <div class="caption" style="margin-top:10px;">Fonte: tech-insider.org/us-ai-data-center-delays-cancellations-7gw-capacity-crisis-2026 (Bloomberg + Sightline Climate + US ITC, abril/maio 2026)</div>
 
 <!--
-Restam: ~22:08 (20s)
+Restam: ~23:33 (20s)
 
 - Anunciado pra 2026: ~12 GW. Em obra de verdade: ~5 GW. Buraco: 7 GW.
 - ~Metade dos data centers de 2026 atrasou ou foi cancelado (Bloomberg confirma 30-50%).
@@ -1182,7 +1163,7 @@ Restam: ~22:08 (20s)
 </div>
 
 <!--
-Restam: ~21:53 (15s)
+Restam: ~23:18 (15s)
 
 - Mesmo com a correção em curso, a corrida por compute não desacelera.
 - Anthropic e xAI assinando contratos gigantes de capacidade pra 2026.
@@ -1215,7 +1196,7 @@ Restam: ~21:53 (15s)
 </div>
 
 <!--
-Restam: ~21:33 (20s)
+Restam: ~22:58 (20s)
 
 - Em meio à confusão de modelos e benchmark, esses são os 4 CLI de agente que aguentam trabalho sério hoje.
 - Claude Code (Anthropic, padrão diário) e Codex (OpenAI, equivalente em qualidade).
@@ -1236,7 +1217,7 @@ Restam: ~21:33 (20s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">E a correção continua agora. Em 1 de abril de 2026, a Oracle entrou em mais uma rodada grande de layoffs.</div>
 
 <!--
-Restam: ~20:33 (60s)
+Restam: ~21:58 (60s)
 
 - Aqui é a parte em que eu paro de fingir diplomacia.
 - Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo.
@@ -1255,7 +1236,7 @@ Restam: ~20:33 (60s)
 ## “IA vai substituir programador.”
 
 <!--
-Restam: ~19:48 (45s)
+Restam: ~21:13 (45s)
 
 - Pra explicar o pânico atual, eu quero fazer uma tangente rápida com um universo que eu acompanho por hobby: drama de VTuber e drama de arte.
 - O padrão emocional é o mesmo.
@@ -1281,7 +1262,7 @@ Restam: ~19:48 (45s)
 </div>
 
 <!--
-Restam: ~18:53 (55s)
+Restam: ~20:18 (55s)
 
 - O caso da AsamiArts me interessa não pela fofoca, mas pelo mecanismo.
 - Isso não afeta só ego de artista no Twitter.
@@ -1319,7 +1300,7 @@ Restam: ~18:53 (55s)
 </div>
 
 <!--
-Restam: ~17:48 (65s)
+Restam: ~19:13 (65s)
 
 - Aqui é onde eu mostro o que um tracing falso tenta vender.
 - Não tem sketch feio antes.
@@ -1357,7 +1338,7 @@ Restam: ~17:48 (65s)
 </div>
 
 <!--
-Restam: ~16:43 (65s)
+Restam: ~18:08 (65s)
 
 - Esse é o pedaço mais importante.
 - Minha leitura é que o vídeo esconde uma camada pronta por trás.
@@ -1380,7 +1361,7 @@ Restam: ~16:43 (65s)
 </div>
 
 <!--
-Restam: ~15:43 (60s)
+Restam: ~17:08 (60s)
 
 - Outro sinal é a inconsistência.
 - Não é só “melhorou”.
@@ -1403,7 +1384,7 @@ Restam: ~15:43 (60s)
 </div>
 
 <!--
-Restam: ~14:48 (55s)
+Restam: ~16:13 (55s)
 
 - Aqui entra a alucinação mais óbvia.
 - A arma parece arma até você olhar direito.
@@ -1430,7 +1411,7 @@ Restam: ~14:48 (55s)
 </div>
 
 <!--
-Restam: ~13:43 (65s)
+Restam: ~15:08 (65s)
 
 - E tem outra camada aí: LoRA.
 - LoRA é um ajuste leve em cima de um modelo base para puxar um traço específico.
@@ -1449,7 +1430,7 @@ Restam: ~13:43 (65s)
 ## Ele te acelera: se você for bom, fica ainda melhor. Se você for ruim, vai ficar ainda pior.
 
 <!--
-Restam: ~12:13 (90s)
+Restam: ~13:38 (90s)
 
 - IA não cria competência do nada.
 - Ela amplifica o que você já é.
@@ -1478,7 +1459,7 @@ Restam: ~12:13 (90s)
 </div>
 
 <!--
-Restam: ~10:33 (100s)
+Restam: ~11:58 (100s)
 
 - Júnior não morreu, só mudou de forma. Vai herdar a sujeira da era do vibe coding sem freio.
 - Aprender no projeto bagunçado é como gerações anteriores aprenderam. Não é tragédia, é cicatriz.
@@ -1498,7 +1479,7 @@ Restam: ~10:33 (100s)
 ## Fundamento. Disciplina. Iteração. Gosto.
 
 <!--
-Restam: ~08:58 (95s)
+Restam: ~10:23 (95s)
 
 - Parte dura: IA não transforma programador ruim em engenheiro. Ajuda a fazer estrago maior mais rápido.
 - E ajuda engenheiro de verdade a atravessar o caos mais rápido, sem deixar o software morrer.
@@ -1522,7 +1503,7 @@ Restam: ~08:58 (95s)
 </div>
 
 <!--
-Restam: ~08:33 (25s)
+Restam: ~09:58 (25s)
 
 - E já que é pra acabar sem falsa modéstia: se você curtiu essa palestra, assina o The M.Akita Chronicles.
 - Está tudo aí na tela.
@@ -1544,7 +1525,7 @@ Restam: ~08:33 (25s)
 <div class="caption" style="margin-top:8px;">700+ posts em pt-BR e en, agora bilingues. 150+ vídeos do Akitando legendados em inglês — pipeline tudo com agente.</div>
 
 <!--
-Restam: ~08:18 (15s)
+Restam: ~09:43 (15s)
 
 - Outra prova prática do mesmo argumento da palestra.
 - akitaonrails.com: 700+ posts ganharam versão em inglês, com toggle PT/EN.
@@ -1571,7 +1552,7 @@ Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo no PPTX 
 </div>
 
 <!--
-Restam: ~07:43 (35s)
+Restam: ~09:08 (35s)
 
 - E sim, já que o tema da palestra pede isso, este deck inteiro também foi feito com IA.
 - Pesquisa, estrutura, roteiro, notas, crops, builds e automação saíram do mesmo fluxo.
@@ -1595,7 +1576,7 @@ Restam: ~07:43 (35s)
 </div>
 
 <!--
-Restam: ~07:33 (10s)
+Restam: ~08:58 (10s)
 
 - Obrigado.
 - Os links estão aí embaixo.
