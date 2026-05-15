@@ -207,7 +207,7 @@ Restam: ~25:38 (25s)
 
 Vale um recorte separado pra um ponto novo dessa última rodada: pela primeira vez, modelos chineses entraram no Tier A do benchmark. Kimi K2.6, da Moonshot, ficou em 87 sobre 100, e é o Tier A mais barato do benchmark — 30 centavos por run, com FakeChat correto, rescue de erro e session cookie multi-worker safe. E o DeepSeek V4 Pro destravou pulando pra 89, mas só conseguiu isso com um shim chamado DeepClaude que troca o endpoint do Claude Code pra OpenRouter. No opencode, V4 Pro travava no protocolo de thinking — o ai-sdk strippa o reasoning_content e a DeepSeek devolve 400. Era harness, não modelo. Trocou o harness, foi pra Tier A.
 
-## Slide 42 - China still blocking H200?
+## Slide 42 - China ainda bloqueia o H200?
 Restam: ~25:23 (15s)
 
 E a geopolítica entrou de cabeça nessa corrida. Em maio, os Estados Unidos liberaram a venda de Nvidia H200 pra dez empresas chinesas. Pequim disse "não, usa o que tem em casa" — Huawei Ascend, Cambricon, Biren. Forçando o ecossistema doméstico a maturar. E enquanto isso, a Nvidia bateu 5 trilhões e meio de dólares de valor de mercado, maior que o PIB de qualquer país exceto Estados Unidos e China. A briga de compute não é mais só sobre quem tem mais GPU. É sobre quem controla o silício. E os modelos chineses que entraram no Tier A do meu benchmark — Kimi K2.6 e DeepSeek V4 Pro — rodam exatamente no hardware que Pequim quer ver crescendo.

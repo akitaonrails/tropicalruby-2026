@@ -1071,7 +1071,7 @@ Restam: ~25:38 (25s)
 <!-- _class: center tone-ruby -->
 <div class="eyebrow">Hardware × Geopolítica</div>
 
-# China still <span class="em-ruby">blocking H200?</span>
+# China ainda <span class="em-ruby">bloqueia o H200?</span>
 
 <div style="display:flex;justify-content:center;align-items:center;gap:22px;margin-top:8px;max-width:1140px;margin-left:auto;margin-right:auto;">
   <div style="flex:1 1 0;">
