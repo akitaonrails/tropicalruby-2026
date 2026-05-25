@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A Marp-based keynote deck for **TotalPass 2026** (originally written for Tropical Ruby 2026 and updated for this event). Most changes touch talk structure, wording, layout, or export quality. The talk is in pt-BR, authored by Fabio Akita.
+A Marp-based keynote deck for **Web Summit Rio 2026**, condensed from the TotalPass 2026 version into a technology pitch. Most changes touch talk structure, wording, layout, or export quality. The talk is in pt-BR, authored by Fabio Akita.
+
+Current branch goal: keep this as a maximum 20-minute pitch, not a full lecture. The current cut is 29 slides, ~19:00 runtime, ending with ~01:00 buffer.
 
 ## Key files
 
@@ -50,8 +52,8 @@ Presenter notes live as HTML comments (`<!-- ... -->`) in the slide markdown.
 - Keep them shorter than the full script — short bullets, not dense prose
 - Treat them as stage cues
 - Notes should carry reminders the presenter won't see on the slide itself: specific numbers, dates, methodology caveats, transition cues — not a restatement of the visible content
-- The first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock (starting from a 60:00 slot, counting down to 00:00) plus current slide duration in seconds. The script file uses the same format. Both are rebuilt together whenever pacing changes.
-- Total slot is 60:00; deck currently lands at ~08:47 remaining (buffer for Q&A). Actual deck runtime is ~51:13.
+- The first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock (starting from a 20:00 slot, counting down to 00:00) plus current slide duration in seconds. The script file uses the same format. Both are rebuilt together whenever pacing changes.
+- Total slot is 20:00; deck currently lands at ~01:00 remaining (buffer for Q&A). Actual deck runtime is ~19:00.
 - If the script changes meaningfully, update the matching notes
 
 ## Slide and layout workflow
@@ -87,21 +89,22 @@ Some slides contain `<!-- pptx-video: ... -->` markers in the markdown.
 
 ## Narrative structure
 
-The deck has a deliberate three-act shape — don't break it casually when moving slides:
+This branch is a condensed Web Summit pitch. Keep the spine tight:
 
-- **Act 1**: the panic is misdiagnosed (thesis, older warnings, AsamiArts fraud case, Claude Code leak)
-- **Act 2**: what actually changed and the practical proof ("2025 foi o ano dos Agentes" timeline → "Dezembro de 2025 foi a Virada" hinge → January 2026 trigger → marathon projects → metrics → Ciclo do Agente / PILOTA mechanism)
-- **Act 3**: what that means for engineers and the market (XP discipline, benchmark findings, pricing economics, energy speculation, "A correção", junior/senior, engineering as the durable thing)
-
-The ending has three layers: engineering conclusion ("Vai sobreviver quem souber fazer engenharia") → newsletter ad → meta-stinger (deck made with AI) → clean `OBRIGADO` exit.
+- **What changed**: agents, not chatbots, made the software loop operational.
+- **What was tested**: 26 real projects, open code, measured commits/LOC/time.
+- **What worked**: Agile Vibe Coding as XP with machine pairing.
+- **What the data says**: model choice matters, but process and harness matter more.
+- **What supports the workflow**: ai-jail, ai-memory, and ai-usagebar keep multi-harness work controlled.
+- **What to do now**: adopt disciplined AI engineering, not prompt theater.
 
 Key structural constraints:
 
-- The real midpoint turn is the jump from "Dezembro de 2025 foi a Virada" into "Fevereiro e março de 2026" — should feel like "parei de opinar e fui testar com pele em jogo"
-- The FrankMD vs M.Akita Chronicles comparison / marathon wall / metrics / "Developer 10x?" are the proof block — opinion becomes evidence here
-- The benchmark arc (slides 33–37: "Quem consegue bater o Claude Opus?" → "Não é mais só parâmetros" → "'Coder' no nome não vira coder melhor" → "IA nunca vai ser perfeita. Mas errar ficou barato" → "Assinatura ganha de pay-as-you-go") is the hard-data block grounded in the April 5 2026 benchmark article
-- The closing run from "A correção" through "Vai sobreviver quem souber fazer engenharia" escalates: diagnosis → hope → responsibility → hard truth → final statement
-- Prefer explicit cause-and-effect bridges between major blocks over adding new content
+- Do not re-expand the TotalPass lecture blocks unless explicitly asked: layoffs, bootcamp fraud, Claude Code leak, AsamiArts/art analogy, China/geopolitics, and data-center energy were intentionally cut.
+- The proof block is now compact: project wall → 26 projects → FrankMD vs M.Akita Chronicles → metrics → "Developer 10x?".
+- The benchmark/tooling block is intentionally short: repo → ranking → infrastructure conditions → error-cost/pricing/tools → compact open-source toolkit.
+- Keep one ending: engineering conclusion → quick YouTube/newsletter plugs → meta-stinger (deck made with AI) → clean `OBRIGADO` exit.
+- Prefer compression and cause-and-effect bridges over adding new content.
 
 ## Build environment caveats
 

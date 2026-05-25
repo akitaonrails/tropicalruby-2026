@@ -3,26 +3,25 @@ marp: true
 theme: tropical-ruby
 paginate: true
 html: true
-title: TotalPass 2026 - Agile Vibe Coding
+title: Web Summit Rio 2026 - Agile Vibe Coding
 author: Fabio Akita
-description: Keynote em pt-BR sobre agile vibe coding, agentes de IA, engenharia e o pós-bolha da programação.
+description: Pitch em pt-BR sobre agentes de IA, engenharia, processo e o uso prático de AI-assisted coding em 2026.
 ---
 
 <!-- _class: title -->
 ![bg right:41% cover](../assets/akita-upscaled-gemini31.png)
-<div class="eyebrow">TotalPass 2026 Keynote</div>
+<div class="eyebrow">Web Summit Rio 2026 Pitch</div>
 
 # <span style="font-size:1.6em;display:block;line-height:1;">Agile</span><span style="display:block;margin-top:6px;">Vibe Coding</span>
 
-## O que avançou no ecossistema de IA em 2026?
+## O Preço de Vibe Coding
 
 <!--
-Restam: ~58:45 (75s)
+Restam: ~19:10 (50s)
 
-- Eu quero abrir cravando a tese, porque o resto da palestra existe só pra sustentar isso.
-- Sim, IA está substituindo gente em software.
-- Mas não do jeito raso que o pânico de internet adora vender.
-- O que ela pega primeiro é produtividade fake, senioridade fake e aquela engenharia porca que sobreviveu durante anos porque o mercado aceitava jogar dinheiro fora.
+- Abrir direto: isto é uma pitch talk, não a versão longa.
+- Tese: agentes mudaram o custo de construir software, mas não aboliram engenharia.
+- A pergunta certa não é "IA substitui dev?". É "qual processo sobrevive quando o erro ficou barato?"
 -->
 ---
 
@@ -32,271 +31,97 @@ Restam: ~58:45 (75s)
 <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:24px;justify-content:center;">
   <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">Codeminer 42</strong><span class="mini">cofundador, hoje no conselho</span></div>
   <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">RubyConf Brasil</strong><span class="mini">fundador e organizador até 2016</span></div>
-  <div class="card" style="flex:0 0 calc(33.33% - 10px);background:rgba(107,142,90,0.24);border:2px solid #6b8e5a;"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">akitaonrails.com ✦</strong><span class="mini">20 anos em 5 de abril de 2026, 700+ artigos, agora em pt-BR e en</span></div>
+  <div class="card" style="flex:0 0 calc(33.33% - 10px);background:rgba(107,142,90,0.24);border:2px solid #6b8e5a;"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">akitaonrails.com</strong><span class="mini">20 anos em 5 de abril de 2026, 700+ artigos, agora em pt-BR e en</span></div>
   <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;"><svg width="22" height="22" viewBox="0 0 24 24" fill="#c4302b" style="vertical-align:-4px;margin-right:6px;"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.546 15.568V8.432L15.818 12l-6.272 3.568z"/></svg>@akitando</strong><span class="mini">500 mil+ seguidores no YouTube</span></div>
   <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-3px;margin-right:6px;"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@akitaonrails</strong><span class="mini">83,7 mil seguidores no X</span></div>
   <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">Flow + Inteligência Ltda</strong><span class="mini">alcance além da bolha tech</span></div>
 </div>
 
-
 <!--
-Restam: ~57:45 (60s)
+Restam: ~18:25 (45s)
 
-- Cards já mostram os números — aproveitar pra mencionar contexto
-- RubyConf Brasil: fundei e organizei até 2016
-- @akitando: entrevistas do Flow e Inteligência Ltda, alcance fora da bolha tech
-- akitaonrails.com: 20 anos no dia 5 de abril de 2026, mesma data do artigo do benchmark — coincidência boa de puxar
-- Fecha: "não é currículo, é pra explicar por que eu já vi essa fita antes e não compro hype fácil"
+- Contexto rápido, sem virar currículo.
+- Já vi hype demais para comprar fantasia fácil.
+- O valor aqui vem de teste prático, código aberto e anos vendo moda passar.
 -->
 ---
 
 <!-- _class: statement -->
 ![bg right:42% opacity:.18](../assets/offline/thumb-programacao-nao-e-facil.jpg)
-<div class="eyebrow">Arco Longo</div>
+<div class="eyebrow">Antes do GPT</div>
 
-# O pânico da IA<br>caiu em cima<br>de uma <span class="em-ruby">bolha velha</span>.
+# A bolha era velha.
 
-<div class="lead">Eu já vinha batendo na economia do programador fake antes de agentes de código prestarem pra alguma coisa.</div>
+## O ChatGPT foi o prego no caixão.
 
-<!--
-Restam: ~56:50 (55s)
-
-- Eu não comecei a falar disso quando IA virou moda.
-- Eu já vinha batendo na bolha da programação, na economia do programador ruim, nas promessas de curso e bootcamp, muito antes de agente de código prestar pra alguma coisa.
-- A IA não inventou essa fraqueza.
-- Ela só escancarou mais rápido.
--->
----
-
-<!-- _class: center tone-ruby -->
-![bg cover opacity:.12](../assets/offline/bg-empty-office.jpg)
-<div class="eyebrow">Crunchbase Tech Layoffs Tracker</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Empty_office.jpg</div>
-
-# Meio milhão de demitidos<br>em tech <span class="em-ruby">desde 2022</span>
-
-<div style="display:grid;grid-template-columns:repeat(4, 1fr);gap:14px;margin-top:8px;max-width:1100px;margin-left:auto;margin-right:auto;">
-  <div class="card" style="padding:14px 10px;text-align:center;">
-    <div style="font-size:0.78em;opacity:0.75;">2022</div>
-    <div style="font-size:1.8em;font-weight:700;line-height:1.05;">93K+</div>
-    <div style="font-size:0.62em;opacity:0.7;margin-top:4px;">a correção começa</div>
-  </div>
-  <div class="card" style="padding:14px 10px;text-align:center;">
-    <div style="font-size:0.78em;opacity:0.75;">2023</div>
-    <div style="font-size:1.8em;font-weight:700;line-height:1.05;">191K+</div>
-    <div style="font-size:0.62em;opacity:0.7;margin-top:4px;">pico do techlash</div>
-  </div>
-  <div class="card" style="padding:14px 10px;text-align:center;">
-    <div style="font-size:0.78em;opacity:0.75;">2024</div>
-    <div style="font-size:1.8em;font-weight:700;line-height:1.05;">95K+</div>
-    <div style="font-size:0.62em;opacity:0.7;margin-top:4px;">ritmo segue</div>
-  </div>
-  <div class="card" style="padding:14px 10px;text-align:center;">
-    <div style="font-size:0.78em;opacity:0.75;">2025</div>
-    <div style="font-size:1.8em;font-weight:700;line-height:1.05;">127K</div>
-    <div style="font-size:0.62em;opacity:0.7;margin-top:4px;">Intel 27K, Microsoft 15K</div>
-  </div>
-</div>
-
-<div style="display:flex;justify-content:center;gap:14px;margin-top:14px;max-width:1100px;margin-left:auto;margin-right:auto;">
-  <div class="card" style="padding:14px 18px;flex:1 1 0;">
-    <strong style="font-size:1.05em;">2026 já decolou</strong>
-    <div style="font-size:0.78em;margin-top:6px;line-height:1.4;">
-      <strong>Oracle:</strong> 20-30K demitidos por e-mail em 31/mar &nbsp;·&nbsp;
-      <strong>Meta:</strong> 8K cortados em maio (capex de IA subiu pra $145 bi) &nbsp;·&nbsp;
-      <strong>Abril:</strong> 83.387 cortes em tech, 21.490 atribuídos a IA
-    </div>
-  </div>
-</div>
-
-<div class="caption" style="margin-top:8px;font-size:0.62em;">Fontes: news.crunchbase.com/startups/tech-layoffs (atualizado 22/abr/26) · techcrunch.com (Oracle, 8/mai/26) · 247wallst.com (Meta, 8/mai/26)</div>
-
-<!--
-Restam: ~56:25 (25s)
-
-- ~507K demitidos em tech só nos EUA, 2022-2025 (Crunchbase tracker).
-- 2023 foi o pico: 191K. 2025 voltou a subir: 127K, liderado por Intel (27K), Microsoft (15K), Verizon (15K), Amazon (14,7K).
-- 2026 já decolou: Oracle 20-30K em 31/mar (por e-mail, severance fraco, RSUs perdidas), Meta 8K em maio.
-- Abril/26 sozinho: 83.387 cortes em tech, 21.490 já citando IA explicitamente.
-- Meta subiu capex de IA pra $125-145 bi em 2026 — CFO falou em "leaner operating model" pra compensar.
-- Crunchbase só conta EUA; total global é maior.
--->
----
-
-<!-- _class: center tone-ruby -->
-<div class="eyebrow">Akitando, antes da IA virar moda</div>
-
-# Eu Avisei
-
-<div style="display:flex;justify-content:center;gap:32px;margin-top:18px;">
-  <div style="display:flex;flex-direction:column;align-items:center;">
-    <img src="../assets/flow/eu-avisei-1.jpg" alt="O que os cursos não te ensinam sobre mercados" style="max-height:420px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-    <div style="font-size:0.62em;opacity:0.7;margin-top:8px;">youtube.com/watch?v=L0hTOY5n9G8</div>
-  </div>
-  <div style="display:flex;flex-direction:column;align-items:center;">
-    <img src="../assets/flow/eu-avisei-2.jpg" alt="Rant: Programação não é fácil" style="max-height:420px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-    <div style="font-size:0.62em;opacity:0.7;margin-top:8px;">youtube.com/watch?v=V7oUDL7E1g4</div>
-  </div>
+<div class="columns" style="margin-top:28px;">
+  <div class="card"><strong>2020-2022</strong><br />eu já batia na promessa "qualquer um programa"</div>
+  <div class="card"><strong>fim de 2022</strong><br />a correção começou antes da IA programar direito</div>
 </div>
 
 <!--
-Restam: ~56:10 (15s)
+Restam: ~17:40 (45s)
 
-- Dois vídeos antigos do canal.
-- "O que os cursos não te ensinam sobre mercados" e "Rant: programação não é fácil".
-- Já estavam batendo na mesma tecla muito antes da IA virar pauta.
--->
----
-
-<!-- _class: center -->
-![bg cover opacity:.14](../assets/offline/thumb-cursos-nao-ensinam.jpg)
-# A mentira antiga
-
-## “vire engenheiro
-## de software
-## em 2 meses”
-
-<div class="columns">
-  <div class="card"><strong>Fim de 2022</strong><br />layoffs vieram antes da IA saber programar direito</div>
-  <div class="card"><strong>ChatGPT</strong><br />foi acelerador, não causa original</div>
-</div>
-
-
-<!--
-Restam: ~55:05 (65s)
-
-- A mentira antiga era simples: faz um cursinho rápido, vira engenheiro de software, ganha salário alto e entra no modo easy.
-- Isso sempre foi conversa mole.
-- Bootcamp ensina ferramenta.
-- Não comprime anos de julgamento de engenharia em poucos meses.
--->
----
-
-<!-- _class: center tone-ruby -->
-![bg cover opacity:.18](../assets/offline/bg-waterfall.jpg)
-<div class="eyebrow">31 de março de 2026</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls,_West_view_20170418_1.jpg</div>
-
-# Claude Code vazou
-
-<div class="stats">
-  <div class="card"><strong>512 mil</strong><span class="mini">linhas de TypeScript</span></div>
-  <div class="card"><strong>1.900</strong><span class="mini">arquivos</span></div>
-  <div class="card"><strong>59,8 MB</strong><span class="mini">de mapa do código exposto</span></div>
-  <div class="card"><strong>6,5/10</strong><span class="mini">o “espaguete de sênior”</span></div>
-</div>
-
-
-<!--
-Restam: ~54:10 (55s)
-
-- 31 de março de 2026 — data do leak, poucos dias antes da palestra
-- CLI oficial da Anthropic deixou escapar source map: 512k linhas TypeScript, 1.900 arquivos, 59,8MB
-- Nota "6.5/10" é a minha avaliação no artigo: espaguete de sênior, não código ruim
-- Tom: "confirmação engraçada da tese" — nem a Anthropic escapa de pressão de entrega
--->
----
-
-<!-- _class: center -->
-![bg cover opacity:.14](../assets/offline/bg-spaghetti-cables.jpg)
-<div class="eyebrow">A Faísca</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Server_Rack_with_Spaghetti-Like_Mass_of_Network_Cables.jpg</div>
-
-# A lição não foi "uau, magia"
-
-<div style="display:flex;gap:34px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <div class="card" style="margin-bottom:12px;"><strong>Nem a Anthropic escapa</strong><br />pressão de entrega também gera código tático</div>
-    <div class="card"><strong>E copiaram rápido</strong><br />free-code e reimplementações apareceram quase na hora</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/claude-code-leak-tweet.png" alt="Tweet do vazamento do Claude Code" style="height:480px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-  </div>
-</div>
-
-<!--
-Restam: ~52:40 (90s)
-
-- Abriram o código. O que apareceu? Não foi magia.
-- Foi espaguete de sênior: base grande, pressionada por entrega, cheia de remendo.
-- E quase imediatamente começaram a reimplementar. Quando a mística some, sobra engenharia.
+- Amarrar autoridade: não comecei a falar disso quando IA virou moda.
+- O canal de 500k+ já vinha batendo na bolha do programador fake e nos cursos prometendo atalho.
+- ChatGPT apareceu logo depois e virou o prego no caixão da fantasia.
 -->
 ---
 
 <!-- _class: center tone-moss -->
-![bg cover opacity:.18](../assets/offline/bg-tropical-jungle.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Khao_Sok_primary_tropical_rainforest,_southern_Thailand.jpg</div>
+<div class="eyebrow">2022-2024</div>
 
-# LLMs são<br>Papagaios <span class="em-moss">Estocásticos</span>
+# A corrida era<br><span class="em-moss">parâmetro + compute</span>
 
-<div style="display:flex;justify-content:center;margin-top:8px;">
-  <img src="../assets/stochastic_parrots.webp" alt="Ilustração de papagaios coloridos com balões de fala caóticos" style="max-height:440px;border-radius:16px;" />
+<div style="display:flex;gap:30px;align-items:center;text-align:left;margin-top:10px;">
+  <div style="flex:0 0 43%;display:flex;flex-direction:column;gap:12px;">
+    <div class="card"><strong>GPT-3</strong><div class="mini">175B parâmetros virou o marco público da era moderna</div></div>
+    <div class="card"><strong>PaLM / Llama / DeepSeek</strong><div class="mini">centenas de bilhões; MoE chega para ativar só parte do modelo</div></div>
+    <div class="card"><strong>Lei de escala</strong><div class="mini">mais dado + mais parâmetro + mais compute ainda ajuda, mas cobra caro</div></div>
+  </div>
+  <div style="flex:1 1 auto;text-align:right;">
+    <img src="../assets/ai-scaling-laws-nvidia.jpg" alt="NVIDIA scaling laws chart" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.22);" />
+    <div class="caption" style="margin-top:8px;text-align:left;">NVIDIA, 2025: pretraining, post-training e test-time scaling.</div>
+  </div>
 </div>
 
 <!--
-Restam: ~52:25 (15s)
+Restam: ~16:55 (45s)
 
-- Termo cunhado em 2021 por Bender, Gebru, McMillan-Major e Mitchell ("On the Dangers of Stochastic Parrots").
-- LLM repete padrões de tokens aprendidos sem entender o que diz.
-- Bonito de fluência, fraco de compromisso com verdade.
-- É exatamente isso que faz o modelo errar com confiança e bajular o usuário.
-- Puxa direto pro próximo slide: por isso são loot boxes — fluência probabilística sem garantia.
+- A história até ali era intuitiva: maior modelo, mais dados, mais GPU.
+- Isso entregou GPT-3, PaLM, Llama grande, DeepSeek V3 671B MoE.
+- Mas aumento de parâmetro começou a cobrar cada vez mais por ganho incremental.
 -->
 ---
 
 <!-- _class: center tone-sand -->
-![bg cover opacity:.14](../assets/offline/bg-slot-machines.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Slot_machines_at_Monte_Carlo_hotel,_Las_Vegas.jpg</div>
+<div class="eyebrow">O gargalo mudou</div>
 
-# LLMs são loot boxes
+# De treino gigante<br>para inferência útil
 
-<div class="columns-3">
-  <div class="card"><strong>Probabilísticas</strong><div class="mini">nunca 100% confiáveis</div></div>
-  <div class="card"><strong>Dependem de contexto</strong><div class="mini">qualidade depende do que você dá e do que você checa</div></div>
-  <div class="card"><strong>Gastam loop</strong><div class="mini">o ecossistema inteiro te incentiva a gastar mais tokens</div></div>
+<div class="columns-3" style="margin-top:24px;">
+  <div class="card"><strong>Treino ficou caro</strong><div class="mini">frontier training já passa de 100 MW; Epoch projeta múltiplos GW até 2030</div></div>
+  <div class="card"><strong>Data center é lento</strong><div class="mini">transformador, energia, terreno, conexão: não nasce em sprint</div></div>
+  <div class="card"><strong>Uso virou carga</strong><div class="mini">agente troca um prompt por dezenas de chamadas, tool calls e retries</div></div>
 </div>
 
+<div class="lead" style="max-width:960px;margin:26px auto 0 auto;text-align:center;">O ganho passou a vir de usar melhor o modelo existente: reasoning, tool calling, KV cache, prompt caching e harness maduro.</div>
 
 <!--
-Restam: ~51:20 (65s)
+Restam: ~16:10 (45s)
 
-- Eu chamei LLMs de loot boxes porque elas são probabilísticas.
-- Não são compiladores determinísticos.
-- Não existe garantia de correção.
-- Dá pra melhorar bastante as chances com contexto, ferramenta, ciclo de avaliação e prompt melhor? Dá.
--->
----
-
-<!-- _class: center tone-sand -->
-![bg cover opacity:.16](../assets/offline/bg-building-collapse.jpg)
-<div class="eyebrow">2026 Ainda</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Building_collapse_in_S%C3%A3o_Paulo_2018_090.jpg</div>
-
-# LLMs ainda<br><span class="em-ruby">bajulam</span> e <span class="em-ruby">erram</span>
-
-<div class="columns-3">
-  <div class="card"><strong>Bajula você</strong><div class="mini">muitas vezes responde o que você quer ouvir</div></div>
-  <div class="card"><strong>Erra confiante</strong><div class="mini">inventa detalhe e segue como se estivesse certo</div></div>
-  <div class="card"><strong>Precisa de freio</strong><div class="mini">execução, teste e revisão continuam obrigatórios</div></div>
-</div>
-
-
-<!--
-Restam: ~50:25 (55s)
-
-- E eu quero deixar uma coisa bem explícita: o modelo de 2026 ainda baixa a cabeça pra você.
-- Se você vier com premissa torta, ele muitas vezes prefere te agradar em vez de te contrariar.
-- Ele também continua errando com confiança.
-- Inventa detalhe, completa lacuna do jeito errado, segue em frente como se estivesse tudo certo.
+- Não dizer que scaling morreu; dizer que o ganho marginal ficou caro.
+- Data center é escasso e lento; parte relevante da pressão vai para inferência conforme o uso cresce.
+- Agents aproveitam otimizações de inferência e ferramenta, sem depender de mais uma ordem de magnitude de parâmetro.
 -->
 ---
 
 <!-- _class: center tone-moss -->
 ![bg cover opacity:.14](../assets/offline/bg-smith-mannequins.jpg)
-<div class="eyebrow">Linha Do Tempo</div>
+<div class="eyebrow">A mudança real</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Smith_Matrix_mannequins.jpg</div>
 
-# A grande mudança em 2025: <span class="em-moss">AGENTES</span>
+# 2025 foi o ano dos <span class="em-moss">AGENTES</span>
 
 <div class="stats">
   <div class="card"><strong>mar 2025</strong><span class="mini">Responses API, tools e Agents SDK viram produto</span></div>
@@ -305,40 +130,14 @@ Restam: ~50:25 (55s)
   <div class="card"><strong>nov 2025</strong><span class="mini">GPT-5.1 e Opus 4.5 refinam uso diário</span></div>
 </div>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Não foi um dia mágico. Foi o ano inteiro fechando modelo, thinking, tool support e operação.</div>
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Não foi chatbot mais esperto. Foi modelo, ferramenta, terminal e loop fechando juntos.</div>
 
 <!--
-Restam: ~49:20 (65s)
+Restam: ~15:15 (55s)
 
-- Pra mim, 2025 foi o ano em que a pilha foi fechando.
-- Em março, tool support virou plataforma de verdade.
-- Em maio, a Anthropic já estava falando de thinking com tool use e colocando Claude Code em circulação séria.
-- Em agosto e novembro, os modelos de fronteira ficaram mais estáveis nesse loop.
--->
----
-
-<!-- _class: center tone-moss -->
-![bg cover opacity:.16](../assets/offline/bg-fireworks-2025.jpg)
-<div class="eyebrow">Convergência</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:2025_New_Year_Fireworks_in_Tamsui,_New_Taipei_(54238509557).jpg</div>
-
-# Dezembro de 2025 foi a Virada
-
-<div class="columns">
-  <div class="card"><strong>OpenAI — 13 nov</strong><br />GPT-5.1 sai pra desenvolvedores e o Codex CLI finalmente fica bom o bastante pra rodar tarefa longa de verdade no terminal</div>
-  <div class="card"><strong>Anthropic — 24 nov</strong><br />Claude Opus 4.5 sai e o Claude Code amadurece com thinking entre tool calls, execução em background e fluxo de agente sério</div>
-</div>
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Modelo novo + CLI de agente madura, os dois ao mesmo tempo. Em dezembro deu pra apostar tempo de verdade. Em janeiro de 2026 eu entrei nessa também — foi daí que saiu a maratona.</div>
-
-<!--
-Restam: ~48:05 (75s)
-
-- Datas marcantes: 13 nov (GPT-5.1 + Codex CLI), 24 nov (Opus 4.5 + Claude Code), 11 dias de distância
-- A chave não foi só o modelo novo — foi a CLI de agente amadurecendo junto, nos DOIS lados na mesma janela
-- Dezembro 2025: muita gente boa começou a testar pra valer no trabalho real
-- Janeiro 2026: foi quando eu entrei na maratona — primeira vez que senti que valia apostar tempo
-- Puxa a ponte pro próximo slide: "parei de opinar e fui testar com pele em jogo"
+- O produto mudou de autocomplete para agente operacional.
+- Thinking/reasoning, tool calling e caching viraram a diferença prática.
+- Harness maduro é o que deixa isso virar trabalho diário, não demo.
 -->
 ---
 
@@ -352,18 +151,17 @@ Restam: ~48:05 (75s)
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg</div>
 
 <!--
-Restam: ~47:35 (30s)
+Restam: ~14:55 (20s)
 
-- Então eu parei de opinar e fui testar com pele em jogo.
-- Não com prompt de brinquedo.
-- Não com videozinho fake de SaaS em dez minutos.
-- Projeto real.
+- Pele em jogo.
+- Nada de prompt de brinquedo ou demo de SaaS fake.
+- Projeto real, bug real, deploy real, pós-produção real.
 -->
 ---
 
 <!-- _class: center tone-sand -->
 ![bg cover opacity:.14](../assets/offline/bg-potter-clay.jpg)
-<div class="eyebrow">Painel de Projetos</div>
+<div class="eyebrow">Painel de projetos</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Potter_shaping_clay_on_a_traditional_manual_potter’s_wheel_in_India_01.jpg</div>
 
 # Do zero<br>pra software real
@@ -380,12 +178,11 @@ Restam: ~47:35 (30s)
 </div>
 
 <!--
-Restam: ~47:00 (35s)
+Restam: ~14:30 (25s)
 
-- Este slide é só a parede de projetos.
-- FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI, Frank Karaoke e outros.
-- O objetivo não é explicar repositório por repositório.
-- O objetivo é mostrar volume e variedade: desktop, Rails, Rust, Flutter, ferramentas, mídia, deploy, software em uso real.
+- Não explicar projeto por projeto nesta versão.
+- Mostrar variedade: desktop, Rails, Rust, Flutter, mídia, deploy, ferramenta de uso real.
+- O ponto é escala de experimentação, não portfólio bonito.
 -->
 ---
 
@@ -393,274 +190,73 @@ Restam: ~47:00 (35s)
 ![bg cover opacity:.18](../assets/flow/github.png)
 <div class="eyebrow">Repositórios públicos</div>
 
-# 24 projetos<br><span class="em-ruby">(experimentais)</span>
+# 26 projetos<br><span class="em-ruby">(experimentais)</span>
 
 <div style="display:flex;gap:28px;align-items:center;justify-content:center;margin-top:8px;max-width:1100px;margin-left:auto;margin-right:auto;">
   <div style="flex:1 1 0;text-align:left;">
-    <div class="lead" style="margin:0;">github.com/akitaonrails — tudo o que rolou na maratona, código aberto.</div>
-    <div class="caption" style="margin-top:14px;">"Todos os 24 projetos são perfeitos, modelos de excelência de código?" <strong>Absolutamente não.</strong> São experimentos honestos: alguns viraram software de uso diário, outros são protótipos. O importante foi rodar o ciclo de verdade.</div>
+    <div class="lead" style="margin:0;">github.com/akitaonrails - tudo aberto, inclusive os erros.</div>
+    <div class="caption" style="margin-top:14px;">"Todos os 26 projetos são perfeitos, modelos de excelência de código?" <strong>Absolutamente não.</strong> Alguns viraram software de uso diário, outros são protótipos. O importante foi rodar o ciclo de verdade.</div>
   </div>
   <div style="flex:0 0 42%;">
-    <img src="../assets/maratona-conclusion.png" alt="Artigo: Terminando minha maratona de IA — sucesso ou fracasso?" style="width:100%;border-radius:14px;box-shadow:0 14px 30px rgba(0,0,0,0.22);" />
+    <img src="../assets/maratona-conclusion.png" alt="Artigo: Terminando minha maratona de IA - sucesso ou fracasso?" style="width:100%;height:210px;object-fit:cover;object-position:top;border-radius:14px;box-shadow:0 14px 30px rgba(0,0,0,0.22);" />
   </div>
 </div>
 
 <!--
-Restam: ~46:48 (12s)
+Restam: ~14:05 (25s)
 
-- 24 projetos, várias linguagens, vários domínios — todos abertos no GitHub.
-- Importante: nem todos são produção. São experimentais por definição — alguns viraram software de uso diário (FrankMD, ai-jail), outros são protótipos honestos.
-- Link pro post: akitaonrails.com/2026/05/14/terminando-maratona-ia-sucesso-ou-fracasso
-- O ponto da maratona não foi entregar 24 produtos perfeitos. Foi rodar o ciclo de agente de verdade em escala.
--->
----
-
-<!-- _class: center tone-sand -->
-
-# ai-jail
-
-<div style="display:flex;justify-content:center;margin-top:8px;">
-  <img src="../assets/ai-jail.png" alt="ai-jail — sandbox para agentes de IA" style="max-height:480px;" />
-</div>
-
-<div class="caption">Sandbox multi-OS pra rodar Claude Code, Codex, opencode e Crush sem dar acesso total à máquina. 393 stars, em mise/Homebrew/cargo/Nix.</div>
-
-<!--
-Restam: ~46:35 (13s)
-
-- ai-jail: sandbox pra rodar agentes de IA com escopo limitado.
-- Linux usa bwrap, macOS usa sandbox-exec.
-- Isola os 4 CLIs principais (Claude Code, Codex, opencode, Crush).
-- 393 stars, 44 forks, 25+ releases. Instala via mise, brew, cargo ou Nix.
-- Surgiu da minha própria necessidade de rodar agente com --yolo sem entregar a chave da casa.
--->
----
-
-<!-- _class: center tone-sand -->
-
-# Frank Investigator
-
-<div style="display:flex;justify-content:center;margin-top:8px;">
-  <img src="../assets/flow/investigator.png" alt="Frank Investigator" style="max-height:520px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-</div>
-
-<div class="caption">Painel de pesquisa automatizada — agente que cruza fontes e monta dossiê.</div>
-
-<!--
-Restam: ~46:25 (10s)
-
-- Frank Investigator.
-- Painel para investigação cruzando várias fontes.
-- Caso de uso: pesquisa séria sem ficar copiando aba a aba.
--->
----
-
-<!-- _class: center tone-sand -->
-
-# Frank Yomik — Kindle
-
-<!-- pptx-video: frank-yomik-kindle -->
-<div style="display:flex;justify-content:center;margin-top:8px;">
-  <video
-    src="../assets/flow/kindle.mp4"
-    poster="../assets/flow/kindle.jpg"
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="auto"
-    style="max-height:500px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);background:#000;"
-  ></video>
-</div>
-
-<div class="caption">Leitor com tradução em tempo real direto na página do Kindle.</div>
-
-<!--
-Restam: ~46:12 (13s)
-
-- Frank Yomik, parte 1.
-- Tradução em tempo real para Kindle.
-- Mesmo agente que escreveu Frank MD e Sherlock.
--->
----
-
-<!-- _class: center tone-sand -->
-
-# Frank Yomik — Webtoon
-
-<!-- pptx-video: frank-yomik-webtoon -->
-<div style="display:flex;justify-content:center;margin-top:8px;">
-  <video
-    src="../assets/flow/webtoon.mp4"
-    poster="../assets/flow/webtoon.jpg"
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="auto"
-    style="max-height:500px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);background:#000;"
-  ></video>
-</div>
-
-<div class="caption">Mesmo Yomik, agora traduzindo webtoon coreano página por página.</div>
-
-<!--
-Restam: ~46:01 (11s)
-
-- Frank Yomik, parte 2.
-- Mesmo app, formato diferente: webtoon coreano.
-- O agente generalizou o pipeline de tradução pra outro tipo de mídia.
--->
----
-
-<!-- _class: center tone-sand -->
-
-# Frank Karaoke
-
-<div style="display:flex;justify-content:center;margin-top:8px;">
-  <img src="../assets/flow/karaoke.jpg" alt="Frank Karaoke" style="max-height:520px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-</div>
-
-<div class="caption">Pipeline de áudio + letra sincronizada para karaoke caseiro.</div>
-
-<!--
-Restam: ~45:51 (10s)
-
-- Frank Karaoke.
-- Pipeline de áudio: separa vozes, transcreve, sincroniza letra.
-- Saída pronta pra karaoke.
--->
----
-
-<!-- _class: center tone-sand -->
-
-# Frank Sherlock
-
-<div style="display:flex;justify-content:center;margin-top:8px;">
-  <img src="../assets/flow/sherlock.png" alt="Frank Sherlock" style="max-height:520px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-</div>
-
-<div class="caption">Caça nome em redes sociais e monta o rastro de presença online.</div>
-
-<!--
-Restam: ~45:41 (10s)
-
-- Frank Sherlock.
-- Cruza redes sociais a partir de um handle.
-- Útil pra verificar identidade ou levantar contexto.
--->
----
-
-<!-- _class: center tone-sand -->
-
-# Experimento Godot — Super Mario
-
-<!-- pptx-video: godot-mario -->
-<div style="display:flex;justify-content:center;margin-top:8px;">
-  <video
-    src="../assets/flow/mario.mp4"
-    poster="../assets/flow/mario.jpg"
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="auto"
-    style="max-height:500px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);background:#000;"
-  ></video>
-</div>
-
-<div class="caption">Game engine Godot 4 — clone de plataforma estilo Mario, do zero, com agente.</div>
-
-<!--
-Restam: ~45:28 (13s)
-
-- Experimento Godot, parte 1.
-- Plataforma estilo Mario.
-- Tudo escrito pelo agente, eu só dirigi.
--->
----
-
-<!-- _class: center tone-sand -->
-
-# Experimento Godot — Streets of Rage
-
-<!-- pptx-video: godot-streets-of-rage -->
-<div style="display:flex;justify-content:center;margin-top:8px;">
-  <video
-    src="../assets/flow/streets of rage.mp4"
-    poster="../assets/flow/streets of rage.jpg"
-    autoplay
-    muted
-    loop
-    playsinline
-    preload="auto"
-    style="max-height:500px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);background:#000;"
-  ></video>
-</div>
-
-<div class="caption">Mesma engine, gênero diferente — beat 'em up estilo Streets of Rage.</div>
-
-<!--
-Restam: ~45:17 (11s)
-
-- Experimento Godot, parte 2.
-- Mesma engine, gênero diferente: beat 'em up.
-- Mostra que o agente generaliza entre estilos.
+- 26 projetos, várias linguagens, vários domínios.
+- Disclaimer honesto: experimental não é sinônimo de perfeito.
+- A prova não é "olha que produto lindo". É "rodei o ciclo em escala".
 -->
 ---
 
 <!-- _class: center tone-sand -->
 ![bg cover opacity:.14](../assets/offline/bg-swordsmith.jpg)
-<div class="eyebrow">A Prova Prática</div>
+<div class="eyebrow">A prova pratica</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Master-Swordsmith-Goro-Masamune-Ukiyo-e.png</div>
 
 # Mesmo dev.<br>Mesmo agente.<br>Processo diferente.
 
 <div class="columns">
-  <div class="card"><strong>FrankMD</strong><br />212 commits em 19 dias, refactor pesado, teste correndo atrás</div>
+  <div class="card"><strong>FrankMD</strong><br />212 commits em 19 dias, refactor pesado, teste correndo atras</div>
   <div class="card"><strong>M.Akita Chronicles</strong><br />274 commits em 8 dias, TDD, CI e refatoração contínua</div>
 </div>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A variável não foi “IA melhor”. Foi <span class="em-moss">disciplina de engenharia</span> desde o primeiro commit.</div>
-
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A variável não foi "IA melhor". Foi <span class="em-moss">disciplina de engenharia</span> desde o primeiro commit.</div>
 
 <!--
-Restam: ~43:52 (85s)
+Restam: ~13:05 (60s)
 
-- Aqui entra a comparação que eu acho mais forte de todas.
-- FrankMD de um lado.
-- M.Akita Chronicles do outro.
-- Mesmo desenvolvedor.
-- Aqui deixa de ser opinião e vira evidência.
+- Esta comparação é o coração da palestra curta.
+- Mesmo dev, mesmo agente, resultado diferente por causa do processo.
+- FrankMD pagou decisão tardia. Chronicles começou com TDD, CI e refatoração contínua.
 -->
 ---
 
 <!-- _class: center tone-sand -->
 ![bg cover opacity:.16](../assets/offline/bg-elephant.jpg)
-<div class="eyebrow">Recorte TotalPass 2026</div>
+<div class="eyebrow">Recorte Web Summit Rio 2026</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:African_Bull_elephant_walking_towards_camera_in_August_2013.jpg</div>
 
 # Números<br>que pesam
 
 <div class="stats">
-  <div class="card"><strong>391.796</strong><span class="mini">linhas úteis</span></div>
-  <div class="card"><strong>58.967</strong><span class="mini">linhas de teste</span></div>
-  <div class="card"><strong>2.029</strong><span class="mini">commits</span></div>
-  <div class="card"><strong>~429 h</strong><span class="mini">horas ativas estimadas</span></div>
+  <div class="card"><strong>432.134</strong><span class="mini">linhas úteis</span></div>
+  <div class="card"><strong>62.643</strong><span class="mini">linhas de teste</span></div>
+  <div class="card"><strong>2.241</strong><span class="mini">commits</span></div>
+  <div class="card"><strong>~473 h</strong><span class="mini">horas ativas estimadas</span></div>
 </div>
 
-<div class="caption">Agregado de 24 projetos AI-assisted: `tokei` sem linhas em branco, contando código + comentários + markdown/conteúdo rastreado. `shadPS4` só na branch `gamma-debug`; `akitaonrails-hugo` só no recorte AI-era. Testes separados por path. Fora: assets, vendor, build, fixtures, snapshots e árvore de terceiros.</div>
-
+<div class="caption">Agregado de 26 projetos AI-assisted: `tokei` sem linhas em branco, contando código + comentários + markdown/conteúdo rastreado. `shadPS4` só na branch `gamma-debug`; `akitaonrails-hugo` só no recorte AI-era. Testes separados por path. Fora: assets, vendor, build, fixtures, snapshots e árvore de terceiros.</div>
 
 <!--
-Restam: ~42:17 (95s)
+Restam: ~12:00 (65s)
 
-- Ferramenta: `bin/totalpass-metrics`, usando `tokei`
-- Critério: linhas úteis rastreadas em git; teste por path; sem branco/assets/vendor/build
-- Exceções: `shadPS4` só `gamma-debug`; site só recorte AI-era
-- Horas: sessões agrupadas por commit, 90min de corte, +20min por sessão, 8h de teto
-- Antecipa crítica: "~429h não é tudo que eu trabalhei" — é só o rastreável por commit
-- Fecha: "agora dá pra discutir mecanismo, não fé"
+- Ferramenta: `bin/totalpass-metrics`, usando `tokei`.
+- Critério: linha útil rastreada em git; sem branco, asset, vendor, build ou árvore de terceiros.
+- Horas: sessões por commit, 90 min de corte, +20 min por sessão, teto de 8h.
+- Não é tudo que trabalhei. É só o que dá para defender olhando commit.
 -->
 ---
 
@@ -674,17 +270,16 @@ Restam: ~42:17 (95s)
   <div class="card"><strong>5x a 10x</strong><span class="mini">de velocidade</span></div>
   <div class="card"><strong>Mais tração</strong><span class="mini">menos bloqueio, menos procrastinação</span></div>
   <div class="card"><strong>Mais alcance</strong><span class="mini">stack inteira, ferramentas, deploy, documentação</span></div>
-  <div class="card"><strong>Mais confiança</strong><span class="mini">testes, integração contínua, refatoração, produção</span></div>
+  <div class="card"><strong>Mais confiança</strong><span class="mini">testes, CI, refatoração, produção</span></div>
 </div>
 
-
 <!--
-Restam: ~40:47 (90s)
+Restam: ~11:10 (50s)
 
-- Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade.
-- Não porque o modelo escreve código perfeito.
-- Não escreve.
-- O ganho vem porque ele atravessa aquele atrito chato que normalmente quebra foco: código repetitivo, busca, refatoração repetitiva, teste repetitivo, execução de comando, tentativa rápida.
+- Resumo honesto da experiência: 5x a 10x em muitas tarefas.
+- Não porque modelo ficou perfeito.
+- O ganho vem de reduzir atrito: busca, repetição, teste, refactor, comando, tentativa rápida.
+- Confiança só veio quando teste, CI e revisão continuaram no loop.
 -->
 ---
 
@@ -696,66 +291,21 @@ Restam: ~40:47 (90s)
 
 <div class="columns">
   <div class="card"><strong>Produção é iteração</strong><br />bug, deploy, retorno, refatoração, ajuste de prompt</div>
-  <div class="card"><strong>“Pronto” é mentira</strong><br />125 commits de pós-produção em 4 projetos</div>
-</div>
-
-
-<!--
-Restam: ~39:42 (65s)
-
-- A fantasia do prompt único é preguiçosa.
-- Ela parte da ideia de que dá pra prever e especificar tudo antes.
-- Software real não funciona assim.
-- Produção revela coisa que você nem sabia que importava.
--->
----
-
-<!-- _class: center -->
-![bg cover opacity:.12](../assets/offline/bg-foundation.jpg)
-<div class="eyebrow">Akita Antigo Continua Certo</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Rebar_installation_in_the_Pier_Foundation_(rubin-20160209-110033).jpg</div>
-
-# Fundamento primeiro
-
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px;max-width:920px;margin-left:auto;margin-right:auto;">
-  <img src="../assets/offline/thumb-cursos-nao-ensinam.jpg" alt="Akita, quais cursos você recomenda? E o low-code? E o GPT-3?" style="width:100%;height:auto;border-radius:14px;" />
-  <img src="../assets/offline/thumb-aprendendo-a-aprender.jpg" alt="Rant: Programação não é fácil" style="width:100%;height:auto;border-radius:14px;" />
-  <img src="../assets/offline/thumb-programacao-nao-e-facil.jpg" alt="Mercado financeiro pós-pandemia: a tempestade perfeita?" style="width:100%;height:auto;border-radius:14px;" />
-  <img src="../assets/offline/thumb-beira-do-caos.jpg" alt="Guia definitivo de aprendendo a aprender" style="width:100%;height:auto;border-radius:14px;" />
+  <div class="card"><strong>"Pronto" é mentira</strong><br />125 commits de pós-produção em 4 projetos</div>
 </div>
 
 <!--
-Restam: ~38:42 (60s)
+Restam: ~10:25 (45s)
 
-- É por isso que o Akita antigo continua valendo.
-- Não terceirize sua decisão.
-- Aprenda a aprender.
-- Entenda que programação não é fácil.
--->
----
-
-<!-- _class: center -->
-![bg cover opacity:.12](../assets/offline/thumb-winter-is-coming.jpg)
-# Não terceirize<br>seu <span class="em-ruby">julgamento</span>
-
-## nem pra guru  
-## nem pra bootcamp  
-## nem pro modelo
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A lógica continua a mesma: experimento pequeno, feedback rápido, correção contínua.</div>
-
-<!--
-Restam: ~37:47 (55s)
-
-- O mais difícil de ensinar pra iniciante é isso: julgamento não é uma coisa que você baixa pronta.
-- Não vem de influencer, não vem de bootcamp, não vem de modelo.
-- O modelo mental continua o mesmo: experimento pequeno na beira do caos, erro cedo, retorno rápido, correção contínua.
+- A fantasia do prompt único vende bem no palco, mas morre em produção.
+- Software real revela requisito, falha de API, bug de infra e uso que ninguém previu.
+- Agente bom precisa de loop, não de uma frase mágica.
 -->
 ---
 
 <!-- _class: center tone-moss -->
 ![bg cover opacity:.10](../assets/offline/bg-agile-lifecycle.jpg)
-<div class="eyebrow">Nome Verdadeiro</div>
+<div class="eyebrow">Nome verdadeiro</div>
 
 # <span style="font-size:1.35em;font-weight:900;letter-spacing:-0.02em;">Agile Vibe Coding</span>
 
@@ -768,12 +318,11 @@ Restam: ~37:47 (55s)
 </div>
 
 <!--
-Restam: ~36:17 (90s)
+Restam: ~09:25 (60s)
 
-- Agile Vibe Coding é XP com pareamento de máquina. A estrutura por baixo é velha.
-- TDD não é perfumaria. Segura erro de modelo antes de virar lama.
-- CI por commit pega drift e regressão cedo.
-- Refatoração contínua evita cirurgia cara depois.
+- O termo pega, mas por baixo é XP.
+- TDD, CI e refatoração não ficaram velhos. Ficaram mais importantes.
+- Com agente, dívida técnica cresce rápido. O freio também precisa ficar rápido.
 -->
 ---
 
@@ -790,14 +339,12 @@ Restam: ~36:17 (90s)
 
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">IA é espelho: sênior bom ganha alavancagem, programador ruim ganha velocidade pra errar.</div>
 
-
 <!--
-Restam: ~34:47 (90s)
+Restam: ~08:35 (50s)
 
-- O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto.
-- O agente traz velocidade de execução, busca e fôlego operacional.
-- Se eu reduzo o agente a digitador burro, piora.
-- Se eu entrego produto e arquitetura pra ele sozinho, piora também.
+- Divisão de responsabilidade: humano dirige, agente executa rápido.
+- Reduzir agente a digitador burro desperdiça ferramenta.
+- Entregar arquitetura para ele sozinho também piora.
 -->
 ---
 
@@ -807,21 +354,20 @@ Restam: ~34:47 (90s)
 # github.com/akitaonrails/<br>llm-coding-benchmark
 
 <div style="display:flex;justify-content:center;margin-top:10px;">
-  <img src="../assets/llm-coding-benchmark.png" alt="LLM Coding Benchmark — README do repo" style="max-height:470px;" />
+  <img src="../assets/llm-coding-benchmark.png" alt="LLM Coding Benchmark - README do repo" style="max-height:470px;" />
 </div>
 
 <!--
-Restam: ~34:35 (12s)
+Restam: ~08:20 (15s)
 
-- O repositório que sustenta todo o argumento que vem a seguir.
-- 4 rodadas documentadas: 5/abr (original), 18/abr (multi-modelo), 24/abr (canonical), 25/abr (orquestração), 4/mai (DeepSeek via DeepClaude).
-- 121 stars, infra em OpenCode, prompt e config versionados.
-- Quem quiser reproduzir, está tudo lá.
+- Tudo aberto: prompt, runner, config e resultados.
+- Quatro rodadas documentadas entre abril e maio.
+- Ponte rápida para o ranking.
 -->
 ---
 
 <!-- _class: center tone-sand -->
-<div class="eyebrow">Resultado Consolidado</div>
+<div class="eyebrow">Resultado consolidado</div>
 
 # <span class="em-moss">Maio/2026</span>
 
@@ -830,140 +376,43 @@ Restam: ~34:35 (12s)
 </div>
 
 <!--
-Restam: ~34:23 (12s)
+Restam: ~07:30 (50s)
 
-- 24 modelos, score 0-100, Tier A/B/C/D.
-- Topo: Opus 4.7 e GPT 5.4 xHigh empatam em 97. GPT 5.5 em 96 (40% mais barato). DeepSeek V4 Pro (DeepClaude) em 89. Kimi K2.6 em 87.
-- Tier A custo extremo: $0.30 (Kimi) → $16 (GPT 5.4).
-- Tier B e abaixo: Sonnet, DeepSeek V4 Flash, Grok 4.3, Qwen, MiMo, GLM.
-- Tier D (lixo): Grok 4.20, GPT OSS 20B local.
--->
----
-
-<!-- _class: center tone-moss -->
-![bg cover opacity:.16](../assets/offline/bg-altman-amodei.jpg)
-<div class="eyebrow">Estado dos Modelos, abril de 2026</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:The_Prime_Minister_meets_with_AI_developers.jpg</div>
-
-# Modelos fechados<br>ainda lideram
-
-<div class="columns-3">
-  <div class="card"><strong>Anthropic</strong><div class="mini">Opus 4.6/4.7 e Sonnet 4.6 ainda no topo pra código sério</div></div>
-  <div class="card"><strong>OpenAI</strong><div class="mini">GPT 5.4 e 5.5 via Codex empatam com Opus em qualidade</div></div>
-  <div class="card"><strong>China entrou no Tier A</strong><div class="mini">Kimi K2.6 e DeepSeek V4 Pro chegaram em abril/26</div></div>
-</div>
-
-<div class="caption">A virada da última rodada do benchmark: chineses entraram no Tier A, GLM caiu de tier. Open source ainda não substitui o fluxo completo com agentes — mas o gap encurtou.</div>
-
-<!--
-Restam: ~33:18 (65s)
-
-- Em abril de 2026, leitura prática: Anthropic e OpenAI continuam no topo pra código sério.
-- Anthropic: Opus 4.6 ainda é meu padrão diário, 4.7 está no topo do benchmark objetivo (97/100).
-- OpenAI: GPT 5.4 e 5.5 via Codex empatam com Opus (97 e 96/100). 5.5 é 40% mais barato.
-- Surpresa da última rodada: chineses entraram no Tier A — Kimi K2.6 e DeepSeek V4 Pro.
-- GLM 5.1 caiu pra Tier C: DSL inventada e history descartada por turno.
-- Open source tem utilidade, mas ainda não empata no fluxo completo com agentes.
--->
----
-
-<!-- _class: center tone-moss -->
-![bg cover opacity:.14](../assets/offline/bg-datacenter.jpg)
-<div class="eyebrow">Benchmark Próprio — 22 Modelos, Código Real</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg</div>
-
-# Quem consegue bater<br>o Claude Opus?
-
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 50%;">
-    <div class="card" style="margin-bottom:8px;font-size:0.78em;"><strong>7 modelos no Tier A em abril/26</strong><br />Opus 4.7 e GPT 5.4 empatam no topo (97/100). GPT 5.5 (96), DeepSeek V4 Pro via DeepClaude (89), Kimi K2.6 (87), Opus 4.6 (83), Gemini 3.1 Pro (82)</div>
-    <div class="card" style="margin-bottom:8px;font-size:0.78em;"><strong>Chineses fecharam o gap</strong><br />Kimi K2.6 e Gemini 3.1 Pro entregam Tier A. GLM 5.1 ficou em Tier C com DSL inventada e history descartada por turno.</div>
-    <div class="card" style="font-size:0.78em;"><strong>Thinking + tool calling + cache</strong><br />tamanho virou commodity. O que separa Tier A das outras é infraestrutura, não parâmetros — sem isso, o modelo chuta</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/llm-benchmark-cost-vs-quality.png" alt="Custo vs qualidade — benchmark de LLMs" style="height:400px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.22);" />
-  </div>
-</div>
-
-<div class="caption">Artigos: akitaonrails.com — benchmark canonical 24/abr/26 + DeepClaude unlock 4/mai/26</div>
-
-<!--
-Restam: ~31:43 (95s)
-
-- Benchmark: 24 modelos, mesmo runner, mesmo task (app Rails com RubyLLM).
-- Rubrica em 8 dimensões: completude, RubyLLM, testes, error handling, persistência, Hotwire, arquitetura, prod-ready. Score 0-100, Tier A/B/C/D.
-- Top: Opus 4.7 e GPT 5.4 xHigh empatam em 97/100. GPT 5.5 lança 40% mais barato pelo mesmo resultado (96/100).
-- DeepSeek V4 Pro destrava com DeepClaude (shim pro Claude Code) e cai pra Tier A em 89/100.
-- Kimi K2.6 é o Tier A mais barato do benchmark — $0.30/run, 3-50x mais barato que Opus/GPT.
-- Kimi K2.6 e Gemini 3.1 Pro entregam Tier A; GLM 5.1 ficou em Tier C (DSL inventada + history descartada por turno).
-- Mensagem central: tamanho virou commodity, infraestrutura é o que separa os tiers.
+- 24 modelos, mesma tarefa, score 0-100, Tier A/B/C/D.
+- Topo: Opus 4.7 e GPT 5.4 empatam em 97. GPT 5.5 vem em 96 e custa menos.
+- DeepSeek V4 Pro e Kimi K2.6 mostram que o gap fechou, mas só quando o harness aguenta.
+- Mensagem: escolher modelo importa, mas o fluxo importa mais.
 -->
 ---
 
 <!-- _class: center tone-moss -->
 ![bg cover opacity:.14](../assets/offline/bg-thinker.jpg)
-<div class="eyebrow">Por Que Tão Poucos Funcionam</div>
+<div class="eyebrow">O que separa Tier A</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:The_Thinker_detail_of_the_Gates_of_Hell_Rodin_musée_Rodin_S.01304_Paris.jpg</div>
 
-# Não é mais só parâmetros
+# Não é mais só parâmetro
 
 <div class="columns-3">
-  <div class="card"><strong>Prompt Caching</strong><div class="mini">sem cache de KV, cada turno relê o contexto inteiro e o custo explode no loop do agente</div></div>
-  <div class="card"><strong>Tool Calling</strong><div class="mini">o modelo precisa decidir qual ferramenta chamar, com quais argumentos, e tratar o resultado de volta</div></div>
-  <div class="card"><strong>Reasoning / Thinking</strong><div class="mini">budget extra de inferência pra planejar antes de agir, em vez de chutar a primeira coisa</div></div>
+  <div class="card"><strong>Prompt caching</strong><div class="mini">sem cache, cada turno relê o contexto inteiro e o custo explode</div></div>
+  <div class="card"><strong>Tool calling</strong><div class="mini">o modelo precisa chamar ferramenta certa, com argumento certo</div></div>
+  <div class="card"><strong>Reasoning</strong><div class="mini">budget extra para planejar antes de agir</div></div>
 </div>
 
-<div class="caption">Tamanho de modelo virou commodity. As três condições acima é que separam quem aguenta um agente real — DeepSeek, por exemplo, falha hoje justamente por não fechar essas três.</div>
+<div class="caption">Tamanho virou commodity. Agente real precisa de infraestrutura de inferência, não só parâmetro no release note.</div>
 
 <!--
-Restam: ~30:18 (85s)
+Restam: ~06:35 (55s)
 
-- Gancho: "por que só 4 modelos passaram no benchmark?"
-- Tamanho virou commodity — não é parâmetro, é infraestrutura
-- Prompt caching → KV cache; sem isso sessão longa do Claude Code explode em custo
-- Tool calling → open source frequentemente trava ou inventa método
-- Thinking / reasoning → Anthropic chama de "thinking", é budget extra de inferência
-- Exemplo pra cravar: DeepSeek — modelo ok, falha por não fechar os 3
-- Puxar pro próximo slide: "Coder" no nome falha pelos mesmos motivos
--->
----
-
-<!-- _class: center tone-moss -->
-![bg cover opacity:.12](../assets/offline/bg-bamboo-slips.jpg)
-<div class="eyebrow">Surpresa Da Família Qwen</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Ancient_Chinese_Writing_on_Warring_States_Bamboo_Slips_1.jpg</div>
-
-# "Coder" no nome não vira coder melhor
-
-<div style="display:flex;flex-direction:column;gap:18px;margin-top:24px;">
-  <div style="display:flex;gap:18px;">
-    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;"><strong style="font-size:1.1em;">Qwen 3 Coder 30B</strong><div class="mini" style="margin-top:8px;">devolveu string mockada hardcoded em vez de chamar a API</div></div>
-    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;"><strong style="font-size:1.1em;">Qwen 2.5 Coder 32B</strong><div class="mini" style="margin-top:8px;">90 minutos de timeout, zero arquivos escritos</div></div>
-  </div>
-  <div style="display:flex;gap:18px;">
-    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;"><strong style="font-size:1.1em;">Qwen 3.5 27B distilado do Claude 4.6</strong><div class="mini" style="margin-top:8px;">"Claude em casa" rodou Rails mas alucinou a API toda</div></div>
-    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;background:rgba(107,142,90,0.24);border:2px solid #6b8e5a;"><strong style="font-size:1.1em;">Qwen 3.5 35B-A3B (MoE geral) ✓</strong><div class="mini" style="margin-top:8px;">único que vale a tentativa: rodou Rails e alucinações somem em 1-2 follow-ups — ainda assim atrás de Claude, GPT 5.4 e GLM 5.1</div></div>
-  </div>
-</div>
-
-<!--
-Restam: ~28:58 (80s)
-
-- Gancho: "intuição era que 'Coder' no nome seria melhor — deu o contrário"
-- 3 Qwen Coder testados, 2 falharam catastroficamente, 1 nem rodou
-- Detalhe marcante: 3 Coder 30B devolveu string MOCKADA HARDCODED em vez de chamar API
-- 2.5 Coder 32B → 90 min de timeout, zero arquivos
-- Versões gerais bateram Coder dedicadas → fine-tuning em código ≠ fluxo de agente
-- Distilado do Claude (3.5 27B) era a aposta "Claude em casa" → rodou Rails mas alucinou API toda
-- Qwen do card verde = 3.5 35B-A3B (MoE geral), 5090, 1-2 follow-ups arrumam, o "menos ruim"
-- Quwen = Qianwen = "mil perguntas" em mandarim (se quiser soltar a curiosidade sobre o nome)
-- Amarrar: mesmas 3 condições do slide anterior — label não substitui infraestrutura
+- A pergunta do ranking: por que poucos modelos aguentam?
+- Parâmetro virou commodity.
+- O que separa: cache, tool calling e reasoning trabalhando juntos.
+- Sem isso, o modelo até sabe responder, mas não aguenta um loop de agente.
 -->
 ---
 
 <!-- _class: center tone-moss -->
 ![bg cover opacity:.14](../assets/offline/bg-kintsugi.jpg)
-<div class="eyebrow">Aceitando A Imperfeição</div>
+<div class="eyebrow">A virada econômica</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Kintsugi.jpg</div>
 
 # IA nunca vai ser <span class="em-moss">perfeita</span>.
@@ -971,237 +420,27 @@ Restam: ~28:58 (80s)
 ## Mas errar ficou barato.
 
 <div class="columns-3">
-  <div class="card"><strong>claw-code: clean-room em 24h</strong><div class="mini">clone do Claude Code reimplementado do zero logo depois do leak</div></div>
-  <div class="card"><strong>free-code: fork sem amarras</strong><div class="mini">telemetria e travas arrancadas quase na hora</div></div>
-  <div class="card"><strong>OpenClaw + memclaw</strong><div class="mini">base madura, já com memclaw plugado — sistema de memória inspirado no do Claude</div></div>
+  <div class="card"><strong>Roda</strong><div class="mini">agente executa, testa, quebra e mostra o stack trace</div></div>
+  <div class="card"><strong>Corrige</strong><div class="mini">o loop volta em segundos, não em dias</div></div>
+  <div class="card"><strong>Decide</strong><div class="mini">humano ainda corta escopo, arquitetura e risco</div></div>
 </div>
 
-<div class="caption" style="margin-top:18px;"><strong>Barato:</strong> CRUD, landing page, painel interno, bot, ETL, cola entre APIs. &nbsp;|&nbsp; <strong>Caro continua o que sempre foi:</strong> julgamento, arquitetura, operação, dono do problema.</div>
+<div class="caption" style="margin-top:18px;"><strong>Barato:</strong> CRUD, landing page, painel interno, bot, ETL, cola entre APIs. &nbsp;|&nbsp; <strong>Caro:</strong> julgamento, arquitetura, operação, dono do problema.</div>
 
 <!--
-Restam: ~27:28 (90s)
+Restam: ~05:45 (50s)
 
-- Ponto conceitual: não é que modelo ficou perfeito, é que errar ficou BARATO
-- Chave da virada: ciclo de feedback curto → stack trace → conserto → retry em segundos
-- claw-code → clone clean-room, github.com/ultraworkers/claw-code, <24h depois do leak
-- free-code → fork sem telemetria, sem travas
-- OpenClaw + memclaw → memclaw é sistema de memória inspirado no do Claude, github.com/Felo-Inc/memclaw
-- Mensagem: open source absorveu comportamento E padrões internos, muito rápido
-- Corte de mercado → barato: CRUD, landing, bot, ETL, cola entre API
-- Caro continua igual: julgamento, arquitetura, operação, dono do problema
-- Background: kintsugi — cerâmica quebrada consertada com ouro, o "defeito vira feature"
+- A leitura errada é esperar modelo perfeito.
+- A leitura certa: o custo do erro caiu.
+- Stack trace, conserto e retry em segundos mudam a economia do software trivial.
+- Mas decisão, arquitetura e operação continuam caros.
 -->
 ---
 
 <!-- _class: center tone-sand -->
-![bg cover opacity:.14](../assets/offline/bg-atm.jpg)
-<div class="eyebrow">Assinatura Vs Token</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:ATM_PIN_buttons_20180827.jpg</div>
+<div class="eyebrow">Recomendação prática</div>
 
-# Assinatura ganha<br>de pay-as-you-go
-
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <div class="card" style="margin-bottom:10px;font-size:0.85em;"><strong>GPT 5.4 / 5.5 Pro na API</strong><div class="mini">~$990/mês via token. GPT 5.5 corta 40% mantendo a qualidade.</div></div>
-    <div class="card" style="margin-bottom:10px;font-size:0.85em;"><strong>ChatGPT Pro</strong><div class="mini">$200/mês ilimitado — 5x mais barato que a API. Codex já entrou na cota.</div></div>
-    <div class="card" style="margin-bottom:10px;font-size:0.85em;"><strong>Claude Opus 4.6/4.7 na API</strong><div class="mini">~$450/mês via token. Por run: ~$1.10.</div></div>
-    <div class="card" style="font-size:0.85em;"><strong>Tier A chinês</strong><div class="mini">Kimi K2.6 $0.30/run, DeepSeek V4 Pro (DeepClaude) $3.14/run</div></div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/llm-benchmark-monthly-pricing.png" alt="Custo mensal estimado: assinatura vs API por token" style="height:440px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.20);" />
-  </div>
-</div>
-
-<div class="caption">Estimativa pra uso moderado de coding (~15M input + ~3M output tokens/mês).</div>
-
-<!--
-Restam: ~26:03 (85s)
-
-- Suposição do benchmark: ~15M tokens input + ~3M output por mês (uso moderado de coding)
-- GPT 5.4 Pro via API: $180/M output tokens — vira os ~$990/mês
-- GPT 5.5 (abril/26): mesma qualidade do 5.4, 40% mais barato em tokens. ~$10/run vs $16/run.
-- Claude Opus 4.6/4.7 via API: ~$25/M output tokens → ~$450/mês ou ~$1.10/run
-- ChatGPT Pro $200 = ilimitado, e Codex agora consome da mesma cota — 5x mais barato que API
-- Claude Max 20x $200 → ~220K tokens a cada 5h, ~metade do preço do Opus na API
-- Tier A chinês entrou na conta: Kimi K2.6 $0.30/run, DeepSeek V4 Pro via DeepClaude $3.14/run
-- Disclaimer honesto: provavelmente subsidiado, pode não durar pra sempre
-- Contexto: Anthropic preparando IPO em 2026 pressiona essa margem (puxa pro slide seguinte)
--->
----
-
-<!-- _class: center tone-moss -->
-<div class="eyebrow">Chineses no Tier A</div>
-
-# China chegou perto<br>do <span class="em-moss">topo</span>
-
-<div style="display:flex;gap:24px;align-items:stretch;margin-top:20px;">
-  <div class="card" style="flex:1 1 0;padding:24px;font-size:0.88em;">
-    <strong style="font-size:1.15em;">Kimi K2.6 (Moonshot)</strong>
-    <div style="margin-top:10px;line-height:1.45;">
-      <strong>87/100 Tier A</strong> — único Tier A não-ocidental por mérito direto.<br />
-      $0.30/run, 20 min. <strong>Tier A mais barato</strong> do benchmark (3 a 50x mais barato que Opus/GPT).<br />
-      FakeChat com signature correta, rescue de erro, session cookie multi-worker safe.
-    </div>
-  </div>
-  <div class="card" style="flex:1 1 0;padding:24px;font-size:0.88em;">
-    <strong style="font-size:1.15em;">DeepSeek V4 Pro</strong>
-    <div style="margin-top:10px;line-height:1.45;">
-      <strong>89/100 Tier A</strong> — destrava só com <strong>DeepClaude</strong> (shim que troca o endpoint do Claude Code).<br />
-      $3.14/run, 18 min. No opencode fica em limbo: protocolo de thinking incompatível com ai-sdk.<br />
-      Modelo era capaz; faltava harness que falasse o protocolo dele.
-    </div>
-  </div>
-</div>
-
-<div class="caption" style="margin-top:14px;">GLM 5.1 caiu pra Tier C (DSL inventada). MiMo V2.5 Pro caiu pra Tier B. O gap fechou em qualidade, não em variedade — só Kimi e DeepSeek bem orquestrados aguentam Tier A hoje.</div>
-
-<!--
-Restam: ~25:38 (25s)
-
-- Recorte importante da última rodada do benchmark: pela primeira vez, chineses chegaram no Tier A.
-- Kimi K2.6 (Moonshot): 87/100, $0.30/run, Tier A mais barato do benchmark.
-- DeepSeek V4 Pro: 89/100 SÓ via DeepClaude — shim que troca o endpoint do Claude Code pra OpenRouter.
-- No opencode, V4 Pro travava no protocolo de thinking (reasoning_content stripping no ai-sdk).
-- Era harness, não modelo. Trocou o harness, foi pra Tier A.
-- GLM 5.1 ficou em Tier C, MiMo em Tier B — só Kimi e DeepSeek bem orquestrados aguentam Tier A hoje.
-- Mensagem: gap fechou em qualidade, não em variedade — preço caiu, mas é só Kimi e DeepSeek bem orquestrados.
--->
----
-
-<!-- _class: center tone-ruby -->
-<div class="eyebrow">Hardware × Geopolítica</div>
-
-# China ainda <span class="em-ruby">bloqueia o H200?</span>
-
-<div style="display:flex;justify-content:center;align-items:center;gap:22px;margin-top:8px;max-width:1140px;margin-left:auto;margin-right:auto;">
-  <div style="flex:1 1 0;">
-    <img src="../assets/h200-china-block.png" alt="Trump says China is blocking Nvidia H200 purchases despite US approval" style="width:100%;border-radius:12px;box-shadow:0 12px 24px rgba(0,0,0,0.24);" />
-    <div style="font-size:0.58em;opacity:0.72;margin-top:6px;text-align:center;">tomshardware.com/tech-industry/trump-says-china-is-blocking-h200-purchases</div>
-  </div>
-  <div style="flex:1 1 0;">
-    <img src="../assets/nvidia-5-5-trillion.png" alt="Nvidia hits $5.5 trillion — more than the GDP of every country but the US and China" style="width:100%;border-radius:12px;box-shadow:0 12px 24px rgba(0,0,0,0.24);" />
-    <div style="font-size:0.58em;opacity:0.72;margin-top:6px;text-align:center;">finance.yahoo.com/news/nvidia-hits-5-5-trillion-155206232.html</div>
-  </div>
-</div>
-
-<!--
-Restam: ~25:23 (15s)
-
-- 10 empresas chinesas com aprovação dos EUA pra importar H200 — Pequim disse "não, usa o que tem em casa" (Huawei Ascend 910C, Cambricon, Biren).
-- Ao mesmo tempo, Nvidia bate US$ 5,5 trilhões de market cap — mais que o PIB de qualquer país exceto EUA e China.
-- A geopolítica entrou na corrida por compute: não é mais só quem tem mais GPU, é quem controla o silício.
-- Kimi K2.6 e DeepSeek V4 Pro rodam justamente no hardware que Pequim está forçando a maturar.
-- Implicação: a tomada e o chip viraram parte da mesma briga.
--->
----
-
-<!-- _class: center tone-sand -->
-<div class="eyebrow">Economia da IA</div>
-
-# Treino e inferência<br>disputam a mesma tomada
-
-<div class="columns" style="margin-top:28px;">
-  <div class="card"><strong>US$ 650 bi</strong><div class="mini">capex de hyperscaler em 2025–2026 (Alphabet, Amazon, Meta, Microsoft)</div></div>
-  <div class="card"><strong>415 → 1.100 TWh</strong><div class="mini">consumo elétrico de data centers de 2024 até 2026 (IEA, revisado em dez/25)</div></div>
-</div>
-
-<div class="columns" style="margin-top:16px;">
-  <div class="card"><strong>33% → 67%</strong><div class="mini">fatia de compute em inferência, 2023 → 2026 (Epoch AI) — agente puxa mais que chatbot</div></div>
-  <div class="card"><strong>2,5 bi/ano</strong><div class="mini">ritmo anual do Claude Code, com uso semanal dobrando desde 1 jan 2026</div></div>
-</div>
-
-<div class="lead" style="max-width:900px;margin:18px auto 0 auto;text-align:center;">
-Meu palpite: com energia, margem e demanda apertando, eu esperaria menos milagre de treino e mais briga por eficiência, suporte a ferramentas e inferência.
-</div>
-
-<!--
-Restam: ~23:58 (85s)
-
-- Aqui entra minha especulação. A conta física começou a apertar.
-- Capex: $650 bi 2025-2026 dos 4 grandes (Alphabet, Amazon, Meta, Microsoft). Em 2024 era ~$222 bi — quase 3x em 2 anos.
-- TWh: IEA revisou pra cima em dez/25, 2026 já bate 1.100 TWh global (equivalente ao Japão inteiro).
-- Inferência: passou de 33% em 2023 pra projetado 67% em 2026 (Epoch AI). Agente queima inferência por usuário muito mais que chatbot.
-- Não espero outro salto de ordem de grandeza no treino tão cedo — espero briga por eficiência, serving, tool support e produto.
-- Se Anthropic for pra IPO em 2026, pressão por margem e previsibilidade só aumenta.
-- Próximo slide: a ironia do carro elétrico vs IA na mesma tomada.
--->
----
-
-<!-- _class: center tone-sand -->
-![bg cover opacity:.14](../assets/offline/bg-ev-charging.jpg)
-<div class="eyebrow">A Ironia da Tomada</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Electric_car_charging_station_in_Begumpet,_Hyderabad.jpg</div>
-
-# Carro elétrico ia salvar.<br>IA <span class="em-ruby">comeu a economia</span>.
-
-<div class="columns" style="margin-top:24px;">
-  <div class="card"><strong>~130 TWh/ano</strong><div class="mini">toda a frota global de EV em 2024 (IEA)</div></div>
-  <div class="card"><strong>+685 TWh</strong><div class="mini">crescimento de data center em 2 anos, 2024 → 2026</div></div>
-</div>
-
-<div class="lead" style="max-width:880px;margin:22px auto 0 auto;text-align:center;">
-Em 2 anos, IA adicionou na rede <span class="em-ruby">~5× toda a eletricidade que a frota global de EV consome hoje</span>.
-</div>
-
-<!--
-Restam: ~23:38 (20s)
-
-- EV global hoje: ~130 TWh/ano (IEA Global EV Outlook 2024).
-- DC global: 415 → 1.100 TWh entre 2024 e 2026 (+685 TWh).
-- 685 / 130 ≈ 5,3x — em 2 anos, IA adicionou 5x toda a frota de EV.
-- EV ia ser a grande economia da década. IA comeu essa economia de uma sentada.
-- Mesmo megawatt, demandas diferentes — data center está ganhando de longe.
--->
----
-
-<!-- _class: center tone-ruby -->
-<div class="eyebrow">A Conta Física Apertou</div>
-
-# 7 GW que não saem<br>do <span class="em-ruby">papel em 2026</span>
-
-<div style="display:flex;justify-content:center;margin-top:10px;">
-  <img src="../assets/gigawatt-crisis.png" alt="Crise de capacidade — 7 GW de data centers atrasados ou cancelados em 2026" style="max-height:430px;" />
-</div>
-
-<div class="caption" style="margin-top:10px;">Fonte: tech-insider.org/us-ai-data-center-delays-cancellations-7gw-capacity-crisis-2026 (Bloomberg + Sightline Climate + US ITC, abril/maio 2026)</div>
-
-<!--
-Restam: ~23:18 (20s)
-
-- Anunciado pra 2026: ~12 GW. Em obra de verdade: ~5 GW. Buraco: 7 GW.
-- ~Metade dos data centers de 2026 atrasou ou foi cancelado (Bloomberg confirma 30-50%).
-- Equivale a 30-70 campi de IA não entregues, ~$1-4 bi cada em capex.
-- Gargalo físico: transformador de alta tensão com fila de até 5 anos (US ITC); switchgear, baterias e tarifa chinesa de 15-25% em cima.
-- Fila de conexão à rede: até 5 anos pra ligar 1 data center novo na rede.
-- Pipeline pior em 2027 (21,5 GW anunciado, só 6,3 GW em obra) e 2028-2032 (37 GW anunciado, só 4,5 GW).
-- Mas o capex dos hyperscalers NÃO recuou: $650 bi em 2025-2026 (Alphabet, Amazon, Meta, Microsoft) — dinheiro tem, falta megawatt.
-- OpenAI Stargate ($500 bi) em Abilene, Texas: zero progresso físico relevante até abril/26.
-- Mensagem: dólar sobra, tomada não. É a contradição que ancora o slide seguinte.
--->
----
-
-<!-- _class: center tone-sand -->
-<div class="eyebrow">Mercado de Compute</div>
-
-# A corrida por compute<br><span class="em-moss">acelera em 2026</span>
-
-<div style="display:flex;justify-content:center;margin-top:18px;">
-  <img src="../assets/flow/antropic-xai.png" alt="Anthropic e xAI" style="max-height:480px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-</div>
-
-<!--
-Restam: ~23:03 (15s)
-
-- Mesmo com a correção em curso, a corrida por compute não desacelera.
-- Anthropic e xAI assinando contratos gigantes de capacidade pra 2026.
-- O dinheiro de infraestrutura segue subindo: a fila não é por talento júnior, é por GPU e energia.
--->
----
-
-<!-- _class: center tone-sand -->
-<div class="eyebrow">Recomendação Prática</div>
-
-# As Únicas Ferramentas pra <span class="em-moss">Usar Agora</span>
+# As únicas ferramentas pra <span class="em-moss">usar agora</span>
 
 <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:18px;margin-top:10px;max-width:1080px;margin-left:auto;margin-right:auto;">
   <div style="flex:0 0 calc(50% - 18px);display:flex;flex-direction:column;align-items:center;">
@@ -1217,281 +456,120 @@ Restam: ~23:03 (15s)
     <div style="margin-top:6px;font-size:0.85em;"><strong>opencode</strong></div>
   </div>
   <div style="flex:0 0 calc(50% - 18px);display:flex;flex-direction:column;align-items:center;">
-    <img src="../assets/clis/screenshot-2026-05-12_15-33-02.png" alt="Crush" style="width:100%;max-height:170px;object-fit:contain;" />
-    <div style="margin-top:6px;font-size:0.85em;"><strong>Crush</strong></div>
+    <img src="../assets/clis/oh-my-pi.png" alt="Oh-My-Pi" style="width:100%;max-height:170px;object-fit:contain;" />
+    <div style="margin-top:6px;font-size:0.85em;"><strong>Oh-My-Pi</strong></div>
   </div>
 </div>
 
 <!--
-Restam: ~22:43 (20s)
+Restam: ~05:15 (30s)
 
-- Em meio à confusão de modelos e benchmark, esses são os 4 CLI de agente que aguentam trabalho sério hoje.
-- Claude Code (Anthropic, padrão diário) e Codex (OpenAI, equivalente em qualidade).
-- opencode e Crush: agnósticos a modelo, úteis pra Tier A chinês e benchmarks neutros.
-- Resto (Aider, Cursor, Cline, Windsurf, etc.) tem espaço, mas esses 4 cobrem o caso de uso de agente terminal sério.
+- Em maio de 2026, estes quatro cobrem o caso sério de agente de terminal.
+- Claude Code e Codex para fronteira fechada.
+- opencode e Oh-My-Pi para modelo agnóstico, benchmark e OpenRouter.
 -->
 ---
 
-<!-- _class: center tone-ruby -->
-![bg cover opacity:.12](../assets/offline/bg-layoff-box.jpg)
-<div class="eyebrow">A Correção</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Employee_Packing_Things_Into_Box.jpg</div>
+<!-- _class: center tone-sand -->
+![bg cover opacity:.10](../assets/offline/bg-spaghetti-cables.jpg)
+<div class="eyebrow">Toolkit open source</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Server_Rack_with_Spaghetti-Like_Mass_of_Network_Cables.jpg</div>
 
-# Programador ruim<br><span class="em-ruby">vai sair</span>
+# Trocar de harness<br>sem perder controle
 
-## e isso melhora a indústria
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">E a correção continua agora. Em 1 de abril de 2026, a Oracle entrou em mais uma rodada grande de layoffs.</div>
+<div style="display:flex;gap:18px;align-items:stretch;justify-content:center;margin-top:18px;">
+  <div class="card" style="flex:1 1 0;padding:18px;display:flex;flex-direction:column;align-items:center;min-height:330px;">
+    <img src="../assets/ai-jail.png" alt="ai-jail" style="height:135px;max-width:100%;object-fit:contain;margin-bottom:12px;" />
+    <strong style="font-size:1.2em;">ai-jail</strong>
+    <div class="mini" style="margin-top:8px;">autonomia do agente com cerca no filesystem</div>
+  </div>
+  <div class="card" style="flex:1 1 0;padding:18px;display:flex;flex-direction:column;align-items:center;min-height:330px;background:rgba(107,142,90,0.18);border:2px solid #6b8e5a;">
+    <img src="../assets/ai-memory-logo.png" alt="ai-memory" style="height:120px;max-width:100%;object-fit:contain;margin-bottom:20px;" />
+    <strong style="font-size:1.2em;">ai-memory</strong>
+    <div class="mini" style="margin-top:8px;">contexto que sobrevive ao Claude, Codex e opencode</div>
+  </div>
+  <div class="card" style="flex:1 1 0;padding:18px;display:flex;flex-direction:column;align-items:center;min-height:330px;">
+    <img src="../assets/ai-usagebar-waybar.png" alt="ai-usagebar" style="height:135px;max-width:100%;object-fit:cover;object-position:right top;border-radius:10px;margin-bottom:12px;" />
+    <strong style="font-size:1.2em;">ai-usagebar</strong>
+    <div class="mini" style="margin-top:8px;">limite de plano visível antes de travar no meio da refatoração</div>
+  </div>
+</div>
 
 <!--
-Restam: ~21:43 (60s)
+Restam: ~04:50 (25s)
 
-- Aqui é a parte em que eu paro de fingir diplomacia.
-- Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo.
-- A indústria passou anos trocando engenharia por competência fake e dívida técnica.
-- A correção continua: Oracle reportou mais uma onda pesada de layoffs em 1 de abril de 2026.
+- Não é mais um orquestrador mágico.
+- É kit de operação: cerca, memória e medidor de limite.
+- Usagebar é apoio. Jail e memory são os conceitos importantes para trocar de harness sem virar bagunça.
 -->
 ---
 
 <!-- _class: center tone-ruby -->
-![bg cover opacity:.16](../assets/offline/thumb-asamiarts.jpg)
-<div class="eyebrow">A Analogia</div>
+![bg right:43% contain](../assets/ai-jail-og.png)
+<div class="eyebrow">ai-jail</div>
 
-# Mesmo medo.
+# Autonomia<br>com cerca
 
-## “IA vai substituir artista.”  
-## “IA vai substituir programador.”
+<div style="display:flex;flex-direction:column;gap:12px;max-width:650px;margin-top:12px;text-align:left;">
+  <div class="card"><strong>Modo sem freio no harness</strong><div class="mini">Claude/Codex com permissões perigosas, menos confirmação a cada passo</div></div>
+  <div class="card"><strong>Trava no sistema operacional</strong><div class="mini">projeto read-write; host, home, cache e dotfiles ficam fora ou controlados</div></div>
+  <div class="card"><strong>Política versionável</strong><div class="mini">`.ai-jail`, `--dry-run`, `--mask .env`, `--private-home`, `--lockdown`</div></div>
+</div>
+
+<div class="caption" style="margin-top:14px;text-align:left;max-width:650px;">Não é VM nem blindagem militar. É uma camada prática para deixar o agente trabalhar rápido sem dar a chave da casa.</div>
 
 <!--
-Restam: ~20:58 (45s)
+Restam: ~04:10 (40s)
 
-- Pra explicar o pânico atual, eu quero fazer uma tangente rápida com um universo que eu acompanho por hobby: drama de VTuber e drama de arte.
-- O padrão emocional é o mesmo.
-- No mundo da arte dizem que IA vai substituir artista.
-- No nosso dizem que IA vai substituir programador.
+- Uso preferido: tirar fricção dentro do harness, colocar a trava no OS.
+- O agente trabalha rápido no projeto; o resto do host não fica aberto por acidente.
+- Não vender como segurança absoluta: sandbox de processo não é VM.
 -->
 ---
 
-<!-- _class: center tone-ruby -->
-# Caso AsamiArts
+<!-- _class: center tone-moss -->
+<div class="eyebrow">ai-memory</div>
 
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <div class="card">
-      <strong>Isso não é só drama de internet</strong><br />
-      tem mercado, comissão e renda real em volta disso
-    </div>
-    <div class="lead" style="max-width:none;">O ponto aqui não é fofoca. É processo falso vendido como habilidade real dentro de um mercado que vive de confiança.</div>
+<h1 style="font-size:2.45em;line-height:0.95;margin:0 0 16px 0;">Contexto que sobrevive<br>ao harness</h1>
+
+<div style="display:flex;gap:28px;align-items:center;text-align:left;margin-top:0;">
+  <div style="flex:0 0 45%;">
+    <img src="../assets/ai-memory-logo.png" alt="ai-memory" style="width:100%;max-height:92px;object-fit:contain;margin-bottom:8px;" />
+    <div class="card" style="margin-bottom:8px;padding:14px 16px;"><strong style="font-size:1.05em;">Hooks capturam</strong><div class="mini">prompt, tool call, decisão e boundary de sessão</div></div>
+    <div class="card" style="margin-bottom:8px;padding:14px 16px;"><strong style="font-size:1.05em;">Markdown vira memória</strong><div class="mini">wiki versionável, FTS5, handoff e busca via MCP</div></div>
+    <div class="card" style="padding:14px 16px;"><strong style="font-size:1.05em;">Troca de agente sem reexplicar</strong><div class="mini">fecha Claude hoje, abre Codex amanhã no mesmo diretório</div></div>
   </div>
   <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/vgen.jpg" alt="Marketplace VGen" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
+    <img src="../assets/ai-memory-web-home.png" alt="ai-memory web UI" style="width:100%;max-height:330px;object-fit:contain;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
+    <div class="caption" style="margin-top:10px;text-align:left;">Não substitui `docs/` canônico. Cobre gotchas, decisões transitórias e handoff entre sessões.</div>
   </div>
 </div>
 
 <!--
-Restam: ~20:03 (55s)
+Restam: ~03:30 (40s)
 
-- O caso da AsamiArts me interessa não pela fofoca, mas pelo mecanismo.
-- Isso não afeta só ego de artista no Twitter.
-- Tem mercado real de comissão em volta disso.
-- Quando processo falso entra, confiança sai.
--->
----
-
-<!-- _class: center tone-ruby -->
-# Tracing sem processo
-
-<!-- pptx-video: asamiarts-tracing -->
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <ul>
-      <li>não aparece construção bruta antes</li>
-      <li>não aparece ida e volta de correção</li>
-      <li>não aparece undo, hesitação, ajuste de proporção</li>
-      <li>parece “mão firme”, mas parece firme demais</li>
-    </ul>
-    <div class="caption">No HTML e no PPTX com vídeo: reprodução automática em loop.</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <video
-      src="../assets/asamiarts tracing.mp4"
-      poster="../assets/asamiarts tracing.jpg"
-      autoplay
-      muted
-      loop
-      playsinline
-      preload="auto"
-      style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);background:#000;"
-    ></video>
-  </div>
-</div>
-
-<!--
-Restam: ~18:58 (65s)
-
-- Aqui é onde eu mostro o que um tracing falso tenta vender.
-- Não tem sketch feio antes.
-- Não tem correção de construção no meio.
-- Sai limpo demais, reto demais, confiante demais.
--->
----
-
-<!-- _class: center tone-ruby -->
-# A camada escondida
-
-<!-- pptx-video: tracing-hidden-layer -->
-<div style="display:flex;gap:34px;align-items:center;text-align:left;">
-  <div style="flex:0 0 48%;">
-    <ul>
-      <li>o vídeo não mostra o desenho “nascendo” de verdade</li>
-      <li>minha leitura é que existe uma camada base escondida por trás</li>
-      <li>o verde parece estar ali para sumir na edição</li>
-      <li>sem a camada escondida, a mágica some</li>
-    </ul>
-    <div class="caption">Inferência a partir do vídeo: isso parece <span class="em-ruby">truque</span> de gravação, não processo honesto.</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <video
-      src="../assets/tracing, hidden layer vertical.mp4"
-      poster="../assets/tracing, hidden layer vertical.jpg"
-      autoplay
-      muted
-      loop
-      playsinline
-      preload="auto"
-      style="height:430px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);background:#000;"
-    ></video>
-  </div>
-</div>
-
-<!--
-Restam: ~17:53 (65s)
-
-- Esse é o pedaço mais importante.
-- Minha leitura é que o vídeo esconde uma camada pronta por trás.
-- O verde parece estar ali justamente para ser filtrado depois.
-- O vídeo vende tracing; o truque está na composição.
--->
----
-
-<!-- _class: center tone-ruby -->
-# A evolução não bate
-
-<div style="display:flex;gap:28px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <div class="card"><strong>em pouco tempo muda demais</strong><br />traço, rosto, acabamento e construção saltam sem continuidade</div>
-    <div class="lead" style="max-width:none;">Evolução humana existe, claro. O problema é quando a “mão” parece trocar de pessoa em intervalos curtos demais.</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/asamiart inconsistent evolution.jpg" alt="Exemplo de evolução inconsistente no caso AsamiArts" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
-  </div>
-</div>
-
-<!--
-Restam: ~16:53 (60s)
-
-- Outro sinal é a inconsistência.
-- Não é só “melhorou”.
-- A mão muda demais em pouco tempo.
-- Parece mistura de fontes diferentes, não evolução orgânica.
--->
----
-
-<!-- _class: center tone-ruby -->
-# A alucinação entrega
-
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <div class="card"><strong>o cano está do lado errado</strong><br />isso não é detalhe de estilo; é erro estrutural de entendimento</div>
-    <div class="lead" style="max-width:none;">É o mesmo tipo de erro que a gente já conhece em IA: a imagem parece plausível à primeira vista, mas desmonta quando você olha a anatomia do objeto.</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/asamiarts halucination.jpg" alt="Exemplo de alucinacao em arte com arma desenhada errada" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
-  </div>
-</div>
-
-<!--
-Restam: ~15:58 (55s)
-
-- Aqui entra a alucinação mais óbvia.
-- A arma parece arma até você olhar direito.
-- O cano está do lado errado.
-- Isso é erro de entendimento, não acabamento.
--->
----
-
-<!-- _class: center tone-ruby -->
-# LoRA é estilo empacotado
-
-<div style="display:flex;gap:28px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <ul>
-      <li>LoRA é um ajuste leve em cima de um modelo base</li>
-      <li>ele empurra o modelo para um traço, tema ou artista específico</li>
-      <li>a comunidade treinou muita LoRA com imagem pública e zero autorização</li>
-      <li>depois isso volta disfarçado de “meu estilo”</li>
-    </ul>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/asamiarts lora steal frame.jpg" alt="Exemplo de uso e roubo de estilos com LoRA" style="width:100%;height:440px;object-fit:contain;object-position:center top;background:#fff;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
-  </div>
-</div>
-
-<!--
-Restam: ~14:53 (65s)
-
-- E tem outra camada aí: LoRA.
-- LoRA é um ajuste leve em cima de um modelo base para puxar um traço específico.
-- O problema é que muita LoRA foi treinada com arte pública sem autorização.
-- Aí o roubo de estilo volta embalado como ferramenta.
+- Problema: harness compacta ou acaba, e o próximo agente esquece as últimas horas.
+- ai-memory captura e consolida em markdown pesquisável.
+- Documentação importante ainda vai para `docs/`; memória cobre o transitório que seria perdido.
 -->
 ---
 
 <!-- _class: statement -->
 ![bg right:45% opacity:.22](../assets/offline/bg-mirror-vanity.jpg)
-<div class="eyebrow">Mesma Regra No Código</div>
+<div class="eyebrow">A regra que não mudou</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Peter_Candid_(attr)_Allegory_of_vanity.jpg</div>
 
 # IA reflete quem você é
 
-## Ele te acelera: se você for bom, fica ainda melhor. Se você for ruim, vai ficar ainda pior.
+## Ela te acelera: se você for bom, fica melhor. Se for ruim, vai errar mais rápido.
 
 <!--
-Restam: ~13:23 (90s)
+Restam: ~02:50 (40s)
 
 - IA não cria competência do nada.
-- Ela amplifica o que você já é.
-- Bom engenheiro: produz mais, mais rápido.
-- Mau engenheiro: produz lixo mais rápido.
--->
----
-
-<!-- _class: center tone-moss -->
-![bg cover opacity:.14](../assets/offline/bg-mentor-kungfu.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Vernon_Rieta_teaching_Kung_Fu.jpg</div>
-
-# Júnior herda. Sênior ensina.
-
-<div style="display:flex;gap:32px;align-items:flex-start;text-align:left;margin-top:18px;">
-  <div style="flex:1 1 50%;">
-    <div class="card" style="margin-bottom:10px;"><strong>Júnior vai herdar a sujeira</strong><div class="mini">startup cheia de lixo de IA vai precisar de limpeza</div></div>
-    <div class="card" style="margin-bottom:10px;"><strong>Vai aprender no caos</strong><div class="mini">igual gerações anteriores aprenderam</div></div>
-    <div class="card"><strong>Ainda precisa de sênior</strong><div class="mini">agente nenhum ensina julgamento</div></div>
-  </div>
-  <div style="flex:1 1 50%;">
-    <div class="card" style="margin-bottom:10px;"><strong>Sênior não é imortal</strong><div class="mini">muda de empresa, cansa, se aposenta</div></div>
-    <div class="card" style="margin-bottom:10px;"><strong>Nova obrigação</strong><div class="mini">ensinar engenharia com IA antes do código apodrecer</div></div>
-    <div class="card"><strong>Sem isso a organização apodrece</strong><div class="mini">não basta usar IA bem, tem que formar substituto</div></div>
-  </div>
-</div>
-
-<!--
-Restam: ~11:43 (100s)
-
-- Júnior não morreu, só mudou de forma. Vai herdar a sujeira da era do vibe coding sem freio.
-- Aprender no projeto bagunçado é como gerações anteriores aprenderam. Não é tragédia, é cicatriz.
-- Mas isso só para em pé se sênior fizer o trabalho dele: ensinar engenharia com IA antes do código apodrecer.
-- Sênior não é imortal. Se não formar substituto, a organização apodrece.
+- Bom engenheiro ganha alavancagem.
+- Mau engenheiro ganha velocidade para produzir lixo.
+- Esta é a ponte para o fechamento.
 -->
 ---
 
@@ -1506,59 +584,61 @@ Restam: ~11:43 (100s)
 ## Fundamento. Disciplina. Iteração. Gosto.
 
 <!--
-Restam: ~10:08 (95s)
+Restam: ~01:55 (55s)
 
-- Parte dura: IA não transforma programador ruim em engenheiro. Ajuda a fazer estrago maior mais rápido.
-- E ajuda engenheiro de verdade a atravessar o caos mais rápido, sem deixar o software morrer.
-- Então eu fecho assim: vai sobreviver quem tem fundamento, disciplina, iteração e gosto.
-- Se você tem isso, IA vira multiplicador. Se não tem, IA é só uma forma mais rápida de ser exposto.
+- Fechar sem moralismo longo.
+- IA ajuda programador ruim a fazer estrago maior mais rápido.
+- Ajuda engenheiro bom a atravessar o caos sem deixar o software morrer.
+- Não é truque de prompt. É fundamento, disciplina, iteração e gosto.
 -->
 ---
 
 <!-- _class: center tone-extra -->
-<div class="eyebrow">Merchan Sem Vergonha</div>
+![bg cover opacity:.12](../assets/epilogue-workflow-bg.png)
+<div class="eyebrow">Akitando</div>
+
+# O canal também<br>virou inglês
+
+<div style="display:flex;gap:28px;align-items:center;text-align:left;margin-top:6px;">
+  <div style="flex:0 0 35%;">
+    <div class="card" style="margin-bottom:12px;"><strong>150+ vídeos</strong><div class="mini">traduzidos e legendados com agente</div></div>
+    <div class="card" style="margin-bottom:12px;"><strong>20 anos de conteúdo</strong><div class="mini">blog bilingue e canal pronto pra mandar pra fora</div></div>
+    <div class="lead" style="max-width:none;margin:0;">youtube.com/@Akitando</div>
+  </div>
+  <div style="flex:1 1 auto;text-align:right;">
+    <img src="../assets/youtube-ingles.png" alt="Canal Akitando com títulos em inglês" style="width:100%;max-height:420px;object-fit:cover;object-position:top;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
+  </div>
+</div>
+
+<!--
+Restam: ~01:45 (10s)
+
+- Merchan rápido: canal traduzido.
+- 150+ vídeos do Akitando em inglês.
+- Pipeline com agente, não trabalho manual.
+-->
+---
+
+<!-- _class: center tone-extra -->
+<div class="eyebrow">Merchan sem vergonha</div>
 
 <div style="display:flex;gap:36px;align-items:center;text-align:left;">
   <div style="flex:0 0 40%;">
     <h1 style="margin:0 0 18px 0;line-height:0.95;">Assine<br />The M.Akita Chronicles</h1>
     <div style="font-size:1.05em;font-weight:700;margin:0 0 18px 0;">themakitachronicles.com</div>
-    <div class="lead" style="max-width:none;margin:0;">Se você curtiu essa palestra, vai lá assinar. Toda semana tem bastidor real, código real e projeto real em produção.</div>
+    <div class="lead" style="max-width:none;margin:0;">Notícias de tecnologia, opinião, código aberto e bastidor de projeto real. Toda semana.</div>
   </div>
   <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/makita-chronicles-subscribe-cropped.png" alt="The M.Akita Chronicles" style="height:560px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
+    <img src="../assets/makita-chronicles-subscribe-cropped.png" alt="The M.Akita Chronicles" style="height:520px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
   </div>
 </div>
 
 <!--
-Restam: ~09:43 (25s)
+Restam: ~01:35 (10s)
 
-- E já que é pra acabar sem falsa modéstia: se você curtiu essa palestra, assina o The M.Akita Chronicles.
-- Está tudo aí na tela.
-- É onde eu continuo publicando bastidor real, projeto real, código real e o que deu certo ou errado em produção.
-- Quer acompanhar essa linha de raciocínio semana a semana? Vai em themakitachronicles.com e assina.
--->
----
-
-<!-- _class: center tone-extra -->
-<div class="eyebrow">Bastidor — outra aplicação prática</div>
-
-# Traduzindo 20 anos de Posts<br>e <span class="em-moss">150 vídeos</span>
-
-<div style="display:flex;justify-content:center;align-items:center;gap:28px;margin-top:8px;max-width:1100px;margin-left:auto;margin-right:auto;">
-  <img src="../assets/akitaonrails-20-years.png" alt="akitaonrails.com com toggle PT/EN" style="max-height:430px;" />
-  <img src="../assets/youtube-ingles.png" alt="Canal Akitando com títulos traduzidos pra inglês" style="max-height:430px;" />
-</div>
-
-<div class="caption" style="margin-top:8px;">700+ posts em pt-BR e en, agora bilingues. 150+ vídeos do Akitando legendados em inglês — pipeline tudo com agente.</div>
-
-<!--
-Restam: ~09:28 (15s)
-
-- Outra prova prática do mesmo argumento da palestra.
-- akitaonrails.com: 700+ posts ganharam versão em inglês, com toggle PT/EN.
-- Canal Akitando: 150+ vídeos receberam tradução de título, descrição e legenda em inglês.
-- Pipeline rodado com agente — não foi "vai traduzir um por um na mão".
-- Mesma lógica do resto da palestra: IA como multiplicador de quem já tem o conteúdo, não substituta de quem nunca produziu nada.
+- Segundo merchan rápido.
+- Newsletter semanal: notícias de tecnologia, opinião, código aberto e bastidor real.
+- Link: themakitachronicles.com.
 -->
 ---
 
@@ -1571,20 +651,19 @@ Restam: ~09:28 (15s)
 <div class="columns-3">
   <div class="card"><strong>Pesquisa e estrutura</strong><div class="mini">fontes, ordem dos argumentos, cortes e rearranjos</div></div>
   <div class="card"><strong>Texto sincronizado</strong><div class="mini">slides, roteiro e presenter notes mantidos juntos</div></div>
-  <div class="card"><strong>Mídia e acabamento</strong><div class="mini">frames, crops, vídeos, builds e pós-processo do PPTX</div></div>
+  <div class="card"><strong>Mídia e acabamento</strong><div class="mini">frames, crops, builds e pós-processo do PPTX</div></div>
 </div>
 
 <div class="lead" style="max-width:980px;margin:22px auto 0 auto;text-align:center;">
-Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo no PPTX e iteração curta até o resultado fechar.
+Agente no terminal, Marp para gerar o deck, scripts para automatizar build e iteração curta até o resultado fechar.
 </div>
 
 <!--
-Restam: ~08:53 (35s)
+Restam: ~01:05 (30s)
 
-- E sim, já que o tema da palestra pede isso, este deck inteiro também foi feito com IA.
-- Pesquisa, estrutura, roteiro, notas, crops, builds e automação saíram do mesmo fluxo.
-- Agente no terminal, Marp para o deck e script para pós-processar o PPTX com vídeo.
-- Não é discurso abstrato. Eu usei isso pra fazer a própria palestra.
+- Meta-stinger curto, sem virar propaganda.
+- A própria palestra foi feita com a pilha que estou defendendo.
+- Pesquisa, roteiro, notas, cortes, build e acabamento no mesmo fluxo.
 -->
 ---
 
@@ -1603,8 +682,8 @@ Restam: ~08:53 (35s)
 </div>
 
 <!--
-Restam: ~08:43 (10s)
+Restam: ~01:00 (5s)
 
 - Obrigado.
-- Os links estão aí embaixo.
+- Links no rodapé.
 -->

@@ -14,6 +14,8 @@ PROJECTS = [
     {"name": "llm-coding-benchmark", "path": HOME_PROJECTS / "llm-coding-benchmark", "mode": "snapshot"},
     {"name": "frank_investigator", "path": HOME_PROJECTS / "frank_investigator", "mode": "snapshot"},
     {"name": "ai-jail", "path": HOME_PROJECTS / "ai-jail", "mode": "snapshot"},
+    {"name": "ai-memory", "path": HOME_PROJECTS / "ai-memory", "mode": "snapshot"},
+    {"name": "ai-usagebar", "path": HOME_PROJECTS / "ai-usagebar", "mode": "snapshot"},
     {
         "name": "akitaonrails.github.io / akitaonrails-hugo",
         "path": HOME_PROJECTS / "akitaonrails-hugo",

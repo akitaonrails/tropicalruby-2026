@@ -1,313 +1,148 @@
-# TotalPass 2026 - Roteiro Completo
+# Web Summit Rio 2026 - Roteiro Completo
 
 Este roteiro acompanha a versão em PT-BR do deck em `slides/tropical-ruby-2026.md`.
 
 ## Slide 1 - Agile Vibe Coding
-Restam: ~58:45 (75s)
+Restam: ~19:10 (50s)
 
-Eu quero abrir cravando a tese, porque o resto da palestra existe só pra sustentar isso. Sim, IA está substituindo gente em software. Mas não do jeito raso que o pânico de internet adora vender. O que ela pega primeiro é produtividade fake, senioridade fake e aquela engenharia porca que sobreviveu durante anos porque o mercado aceitava jogar dinheiro fora. Engenharia de verdade não está acabando. Se alguma coisa mudou, foi o contrário: ela ficou mais valiosa.
+Aqui é a versão curta, então vou direto: agentes de IA mudaram o custo de construir software, mas não aboliram engenharia. Perguntar "IA substitui programador?" é pouco. A pergunta que importa é: qual processo sobrevive quando errar ficou barato e entregar ficou rápido? O que eu vou defender é simples: agente bom aumenta muito a produtividade de quem sabe dirigir. Mas ele também acelera a bagunça de quem não sabe.
 
 ## Slide 2 - Fabio Akita
-Restam: ~57:45 (60s)
+Restam: ~18:25 (45s)
 
-Pra quem só me conhece por um pedaço da internet: fui cofundador da Codeminer 42 e hoje estou no conselho. Fundei e organizei a RubyConf Brasil até 2016. Passei anos no YouTube com o Akitando, mais de quinhentos mil seguidores, e sigo ativo no X como @akitaonrails, com cerca de oitenta e três mil seguidores lá também. E o akitaonrails.com acabou de completar 20 anos no dia 5 de abril de 2026, com mais de 700 artigos publicados, agora em português e inglês. Também fui parar fora da bolha tech, em programas como Flow e Inteligência Ltda. Estou falando isso por um motivo simples: eu já vi hype demais, mercado demais e promessa furada demais pra comprar fantasia fácil.
+Pra quem não me conhece: fui cofundador da Codeminer 42, fundei a RubyConf Brasil, mantenho o Akitando no YouTube com mais de 500 mil seguidores, e o akitaonrails.com acabou de fazer 20 anos. Estou dizendo isso por um motivo simples: eu já vi hype demais. Eu não comecei a falar da bolha do programador fake quando IA virou moda. Eu já vinha batendo nessa tecla antes.
 
-## Slide 3 - O pânico da IA caiu em cima de uma bolha velha
-Restam: ~56:50 (55s)
+## Slide 3 - A bolha era velha. O ChatGPT foi o prego no caixão.
+Restam: ~17:40 (45s)
 
-Eu não comecei a falar disso quando IA virou moda. Eu já vinha batendo na bolha da programação, na economia do programador ruim, nas promessas de curso e bootcamp, muito antes de agente de código prestar pra alguma coisa. A IA não inventou essa fraqueza. Ela só escancarou mais rápido.
+Antes do GPT, a indústria já vendia uma mentira confortável: qualquer um faz um cursinho, aprende uma ferramenta e vira engenheiro de software. Eu já criticava isso no canal. A correção começou em 2022, antes da IA programar direito. Aí o ChatGPT apareceu logo depois e virou o prego no caixão. Ele não criou a bolha. Ele expôs a bolha.
 
-## Slide 4 - Meio milhão de demitidos em tech desde 2022
-Restam: ~56:25 (25s)
+## Slide 4 - A corrida era parâmetro + compute
+Restam: ~16:55 (45s)
 
-E os números do Crunchbase confirmam que a correção começou bem antes da IA pegar agente. Em 2022, mais de 93 mil demissões em tech nos EUA. 2023 foi o pico, 191 mil. 2024, 95 mil. 2025, 127 mil — Intel cortou 27 mil sozinha, Microsoft 15 mil, Verizon 15 mil, Amazon quase 15 mil. E 2026 já decolou. A Oracle demitiu entre 20 e 30 mil por e-mail em 31 de março, sem aviso prévio e com severance picado. A Meta cortou 8 mil em maio, depois de subir o capex de IA pra 145 bilhões. Só em abril foram 83 mil cortes em tech, com 21 mil já atribuídos a IA. Total acumulado desde 2022: mais de meio milhão. E isso só nos Estados Unidos.
+De 2022 até 2024, a leitura dominante era quase sempre a mesma: modelo maior, mais dado, mais GPU. GPT-3 com 175 bilhões de parâmetros virou o marco público. Depois vieram modelos com centenas de bilhões, MoE, clusters cada vez maiores. Scaling law funciona. Não estou dizendo que morreu. O ponto é outro: cada salto começou a cobrar mais caro por ganho incremental menor.
 
-## Slide 5 - Eu Avisei
-Restam: ~56:10 (15s)
+## Slide 5 - De treino gigante para inferência útil
+Restam: ~16:10 (45s)
 
-Pra mostrar que eu não comecei a falar disso agora, são dois vídeos antigos do canal Akitando, de antes da IA virar pauta. "O que os cursos não te ensinam sobre mercados" e "Programação não é fácil". A tese é a mesma de hoje — mudou só a ferramenta.
+E a conta física começou a apertar. Treino frontier já consome escala de data center sério. Construir data center é lento: energia, transformador, terreno, fibra, conexão à rede. Ao mesmo tempo, os modelos ficaram úteis o bastante para muita gente usar todo dia. A pressão sai só do treino e vai para inferência: reasoning, tool calling, cache, prompt caching, dezenas de chamadas por agente. O ganho passa a vir de usar melhor o modelo que já existe.
 
-## Slide 6 - A mentira antiga
-Restam: ~55:05 (65s)
+## Slide 6 - 2025 foi o ano dos AGENTES
+Restam: ~15:15 (55s)
 
-A mentira antiga era simples: faz um cursinho rápido, vira engenheiro de software, ganha salário alto e entra no modo easy. Isso sempre foi conversa mole. Bootcamp ensina ferramenta. Não comprime anos de julgamento de engenharia em poucos meses. O mercado fingiu que isso era verdade durante um tempo. A realidade cobrou a conta. E essa cobrança começou no fim de 2022, antes da IA programar direito.
+Por isso 2025 foi a virada. Não porque o chatbot ficou um pouco mais esperto. Foi a pilha fechando: APIs com ferramentas, CLIs de agente, thinking entre tool calls, cache, contexto maior, execução no terminal. O produto deixou de ser "me responde" e virou "trabalha comigo no projeto por uma hora". Esse detalhe muda tudo para programação.
 
-## Slide 7 - Claude Code vazou
-Restam: ~54:10 (55s)
+## Slide 7 - Fevereiro a maio de 2026
+Restam: ~14:55 (20s)
 
-Daí veio uma das confirmações mais engraçadas possíveis dessa tese: o vazamento do Claude Code em 31 de março de 2026. A CLI oficial da Anthropic deixou escapar um mapa enorme do código e, de repente, todo mundo pôde olhar as tripas de uma das ferramentas de agente mais importantes do mercado.
+Então eu parei de falar disso em abstrato e fui testar com pele em jogo. De fevereiro a maio. Nada de prompt de brinquedo, nada de vídeo fake de SaaS em dez minutos. Projeto real, bug real, deploy real, pós-produção real.
 
-## Slide 8 - A lição não foi “uau, magia”
-Restam: ~52:40 (90s)
+## Slide 8 - Do zero pra software real
+Restam: ~14:30 (25s)
 
-Abriram o código. O que apareceu lá dentro? Não foi perfeição divina. Foi uma base grande, pressionada por entrega, cheia de decisão tática, remendo e complexidade operacional. O famoso espaguete de sênior. E o mais importante: quase imediatamente começaram a copiar comportamento e reimplementar partes. Esse é o ponto. Quando a mística some, sobra engenharia.
+Este slide é só a parede de projetos. Não vou explicar um por um aqui. A ideia é mostrar variedade: desktop, Rails, Rust, Flutter, mídia, deploy, ferramenta de uso real. Se a tese presta, ela precisa sobreviver a mais de um tipo de problema.
 
-## Slide 9 - LLMs são Papagaios Estocásticos
-Restam: ~52:25 (15s)
+## Slide 9 - 26 projetos experimentais
+Restam: ~14:05 (25s)
 
-E essa é a forma mais honesta de descrever o que um LLM faz por baixo: papagaio estocástico. Termo cunhado em 2021 por Emily Bender e a turma da Timnit Gebru. O modelo repete padrões de token aprendidos no treino, com fluência impressionante, mas sem entender o que diz. É bonito de leitura e fraco de compromisso com verdade. É por isso que ele erra com confiança, alucina API e te bajula em vez de te contrariar.
+Tudo está aberto no GitHub. São 26 projetos em várias linguagens e domínios. Disclaimer honesto: não são 26 projetos perfeitos. Alguns viraram software de uso diário, outros são protótipos. O ponto não era fingir excelência. Era rodar o ciclo de agente em escala e ver onde ele quebra.
 
-## Slide 10 - LLMs são loot boxes
-Restam: ~51:20 (65s)
+## Slide 10 - Mesmo dev. Mesmo agente. Processo diferente.
+Restam: ~13:05 (60s)
 
-Eu chamei LLMs de loot boxes porque elas são probabilísticas. Não são compiladores determinísticos. Não existe garantia de correção. Dá pra melhorar bastante as chances com contexto, ferramenta, ciclo de avaliação e prompt melhor? Dá. Mas você continua jogando com probabilidade. É por isso que fundamento continua importando. No fim, ainda precisa existir alguém capaz de julgar o resultado.
+Esta comparação é o coração da palestra curta. Mesmo dev, mesmo agente, processo diferente. No FrankMD, eu paguei várias decisões tardias: refactor pesado, teste correndo atrás, organização mais traumática. No M.Akita Chronicles, entrei desde o começo com TDD, CI e refatoração contínua. Resultado: 212 commits em 19 dias de um lado, 274 commits em 8 dias do outro. A variável não foi uma IA melhor. Foi disciplina de engenharia.
 
-## Slide 11 - Modelo ainda bajula e erra
-Restam: ~50:25 (55s)
+## Slide 11 - Números que pesam
+Restam: ~12:00 (65s)
 
-E eu quero deixar uma coisa bem explícita: o modelo de 2026 ainda baixa a cabeça pra você. Se você vier com premissa torta, ele muitas vezes prefere te agradar em vez de te contrariar. Ele também continua errando com confiança. Inventa detalhe, completa lacuna do jeito errado, segue em frente como se estivesse tudo certo. Por isso agente sem freio é desastre. O que segura isso ainda é execução real, teste real e revisão real.
+Recontando tudo com `tokei`, no recorte da maratona, deu 432.134 linhas úteis, 62.643 linhas de teste, 2.241 commits e cerca de 473 horas ativas estimadas. O critério foi conservador: arquivo rastreado em git, sem linha em branco, sem asset, sem build, sem vendor, sem árvore de terceiro. As horas também são defensáveis: sessões agrupadas por commit, corte de pausa, teto diário. Não é tudo que eu trabalhei. É só o que dá para defender olhando commit.
 
-## Slide 12 - 2025 foi o ano dos Agentes
-Restam: ~49:20 (65s)
+## Slide 12 - Alcançamos "Developer 10x"?
+Restam: ~11:10 (50s)
 
-Pra mim, 2025 foi o ano em que a pilha foi fechando. Em março, a OpenAI transformou tool support em plataforma de verdade. Em maio, a Anthropic já estava empurrando thinking com tool use e levando Claude Code pra um estado mais sério. Em agosto, GPT-5 começou a aguentar loop longo com menos tropeço. Em novembro, GPT-5.1 e Opus 4.5 deixaram isso mais redondo pra uso diário. Não foi um dia mágico. Foi o ano inteiro fechando modelo, thinking, tool support e operação.
+Minha resposta honesta: em muita coisa, sim, 5x a 10x de velocidade. Não porque o modelo escreve código perfeito. Ele não escreve. O ganho vem porque ele atravessa atrito: busca, boilerplate, refactor repetitivo, teste repetitivo, comando, tentativa rápida. Mas a confiança só veio porque o resto continuou existindo: teste, CI, revisão e produção.
 
-## Slide 13 - Dezembro de 2025 foi a Virada
-Restam: ~48:05 (75s)
+## Slide 13 - Prompt único é pra demo
+Restam: ~10:25 (45s)
 
-E aí, em duas semanas de novembro de 2025, tudo alinhou. Em 13 de novembro a OpenAI lançou o GPT-5.1 pra desenvolvedores, e ao mesmo tempo o Codex CLI finalmente ficou bom o bastante pra rodar tarefa longa de verdade no terminal. Onze dias depois, em 24 de novembro, a Anthropic soltou o Opus 4.5 e o Claude Code amadureceu com thinking entre chamadas de ferramenta, execução em background, fluxo de agente sério. Não foi modelo novo isolado. Foi modelo novo mais CLI de agente madura, dos dois lados, na mesma janela. Em dezembro de 2025, dava pra começar a apostar tempo de verdade nisso. Foi por isso que janeiro de 2026 virou minha entrada na maratona.
+A fantasia do prompt único vende bem no palco, mas morre em produção. Software real revela coisa que você não previu. A API vem torta, a infra falha do jeito errado, o usuário faz o que ninguém imaginou, o requisito muda. Prompt único serve para demo. Produto precisa de iteração.
 
-## Slide 14 - Fevereiro a maio de 2026
-Restam: ~47:35 (30s)
+## Slide 14 - Agile Vibe Coding
+Restam: ~09:25 (60s)
 
-Então eu parei de falar disso em abstrato e fui testar com pele em jogo. Foi de fevereiro até maio. Não com prompt de brinquedo. Não com videozinho fake de SaaS em dez minutos. Projeto real. Deploy real. Teste real. Bug real. Pós-produção real.
+Eu chamo de Agile Vibe Coding porque pega. Mas por baixo não tem misticismo: é Extreme Programming com pareamento de máquina. TDD, CI por commit e refatoração contínua não ficaram velhos. Ficaram mais importantes. O modelo erra. TDD segura parte desse erro antes de virar lama. CI pega drift e regressão cedo. Refatoração contínua impede o agente de afundar em dívida técnica em poucos dias.
 
-## Slide 15 - Do zero pra software real
-Restam: ~47:00 (35s)
+## Slide 15 - O pareamento mudou
+Restam: ~08:35 (50s)
 
-Este slide é só a parede de projetos. FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI, Frank Karaoke e outros. O objetivo não é explicar repositório por repositório. O objetivo é mostrar volume e variedade: desktop, Rails, Rust, ferramentas, mídia, deploy, software em uso real. Se a tese estava certa, ela precisava aparecer em mais de um tipo de problema.
+A melhor divisão de responsabilidade que encontrei foi esta: eu trago direção, julgamento, contexto e gosto. O agente traz velocidade de execução, busca e fôlego operacional. Se eu reduzo o agente a digitador burro, desperdiço a ferramenta. Se eu entrego produto e arquitetura para ele sozinho, piora. A alavancagem está no par, não na terceirização da cabeça.
 
-## Slide 16 - 24 projetos (experimentais)
-Restam: ~46:48 (12s)
+## Slide 16 - github.com/akitaonrails/llm-coding-benchmark
+Restam: ~08:20 (15s)
 
-Tudo aberto no GitHub. São 24 repositórios em várias linguagens e domínios. E aqui vale o disclaimer honesto que eu escrevi no post de fechamento da maratona: "todos os 24 são perfeitos, modelos de excelência de código?" Absolutamente não. São experimentos. Alguns viraram software de uso diário, outros são protótipos. O ponto não era entregar 24 produtos perfeitos. Era rodar o ciclo do agente em escala, de verdade.
+Para não ficar só na minha opinião, também abri o benchmark. Prompt, runner, configuração e resultados estão no GitHub. Quatro rodadas entre abril e maio. Quem quiser reproduzir, pode clonar.
 
-## Slide 17 - ai-jail
-Restam: ~46:35 (13s)
+## Slide 17 - Benchmark Ranking (Maio/2026)
+Restam: ~07:30 (50s)
 
-O primeiro recorte é meta: o ai-jail. É um sandbox que isola os agentes de IA — Claude Code, Codex, opencode, Crush — pra eles só mexerem no que você liberar. Linux usa bwrap, macOS usa sandbox-exec. Saiu da minha própria necessidade: rodar agente em modo yolo sem entregar a chave da casa. Já tem quase 400 estrelas no GitHub.
+O ranking consolidado tem 24 modelos, mesma tarefa e score de 0 a 100. Opus 4.7 e GPT 5.4 empatam no topo. GPT 5.5 chega praticamente junto e mais barato. DeepSeek V4 Pro e Kimi K2.6 mostram que o gap fechou, mas só quando o harness aguenta. A leitura prática é: escolher modelo importa, claro. Mas o fluxo importa mais.
 
-## Slide 18 - Frank Investigator
-Restam: ~46:25 (10s)
+## Slide 18 - Não é mais só parâmetro
+Restam: ~06:35 (55s)
 
-O Frank Investigator é um painel de pesquisa automatizada. Cruza várias fontes e monta um dossiê. Útil quando você precisa investigar alguma coisa séria sem ficar pulando de aba em aba.
+O que separa modelo que aguenta agente real não é só tamanho. Parâmetro virou commodity. Tier A depende de infraestrutura de inferência: prompt caching, tool calling e reasoning. Sem cache, o custo do loop explode. Sem tool calling decente, o modelo chama coisa errada ou inventa método. Sem reasoning, ele chuta antes de planejar. Poucos passam porque poucos fecham as três coisas juntas.
 
-## Slide 19 - Frank Yomik (Kindle)
-Restam: ~46:12 (13s)
+## Slide 19 - IA nunca vai ser perfeita. Mas errar ficou barato.
+Restam: ~05:45 (50s)
 
-Frank Yomik, parte um. Tradução em tempo real direto na página do Kindle. Mesmo agente que escreveu o FrankMD e o Sherlock. Pipeline de leitura, OCR e tradução amarrados.
+Muita gente ainda espera o modelo perfeito. Eu acho que essa leitura está errada. LLM vai continuar errando. A virada foi outra: o custo do erro caiu. O agente roda, quebra, recebe stack trace, corrige e tenta de novo em segundos. Isso muda a economia do software trivial. Julgamento, arquitetura e operação continuam caros.
 
-## Slide 20 - Frank Yomik (Webtoon)
-Restam: ~46:01 (11s)
+## Slide 20 - As únicas ferramentas pra usar agora
+Restam: ~05:15 (30s)
 
-Frank Yomik, parte dois. Mesmo app, agora traduzindo webtoon coreano. O agente generalizou o pipeline de tradução pra outro tipo de mídia sem precisar começar do zero.
+Em maio de 2026, estes são os quatro CLIs que eu realmente usaria para agente de terminal sério: Claude Code, Codex, opencode e Oh-My-Pi. Claude Code e Codex cobrem os modelos fechados de fronteira. opencode e Oh-My-Pi são bons quando você quer ser agnóstico, testar modelo chinês ou rodar via OpenRouter.
 
-## Slide 21 - Frank Karaoke
-Restam: ~45:51 (10s)
+## Slide 21 - Trocar de harness sem perder controle
+Restam: ~04:50 (25s)
 
-Frank Karaoke. Pipeline de áudio: separa as vozes, transcreve a letra, sincroniza com a faixa. Saída pronta pra karaoke caseiro.
+Como eu alterno entre harnesses, acabei criando um kit pequeno para não virar bagunça. Não é orquestrador mágico. É operação básica: ai-jail para dar autonomia com cerca, ai-memory para o contexto sobreviver entre sessões e harnesses, e ai-usagebar para eu saber quando estou perto do limite e preciso trocar de cavalo.
 
-## Slide 22 - Frank Sherlock
-Restam: ~45:41 (10s)
+## Slide 22 - ai-jail: autonomia com cerca
+Restam: ~04:10 (40s)
 
-Frank Sherlock. Caça um handle em redes sociais e monta o rastro de presença online da pessoa. Útil pra verificar identidade ou levantar contexto rápido.
+O ai-jail nasceu porque eu gosto de rodar Claude e Codex em modo sem freio, mas não quero dar a chave da casa. Eu tiro a fricção de confirmação dentro do harness e coloco a trava no sistema operacional. O projeto fica read-write. O resto do host fica fora, read-only, mascarado ou mapeado explicitamente. Não é VM, não é blindagem militar, mas é uma camada prática.
 
-## Slide 23 - Experimento Godot - Super Mario
-Restam: ~45:28 (13s)
+## Slide 23 - ai-memory: contexto que sobrevive ao harness
+Restam: ~03:30 (40s)
 
-Já o experimento de Godot, parte um. Engine de jogo, plataforma estilo Mario, escrita do zero pelo agente. Eu só dirigi, não toquei no código de game logic.
+O ai-memory resolve outro problema: harness esquece. Claude compacta, Codex compacta, sessão acaba, e o próximo agente não sabe por que você tomou uma decisão duas horas atrás. Ele captura prompts, tool calls e boundaries de sessão, consolida em markdown, indexa com FTS5 e expõe handoff e busca via MCP. Não substitui documentação canônica em `docs/`. Cobre o meio do caminho.
 
-## Slide 24 - Experimento Godot - Streets of Rage
-Restam: ~45:17 (11s)
+## Slide 24 - IA reflete quem você é
+Restam: ~02:50 (40s)
 
-Experimento Godot, parte dois. Mesma engine, gênero diferente: beat 'em up estilo Streets of Rage. Mostra que o agente generaliza entre estilos sem perder a mão.
+E aqui está a regra que não mudou: IA não cria competência do nada. Ela reflete quem você é. Se você é bom engenheiro, ela te faz produzir mais, mais rápido. Se você é ruim, ela te ajuda a produzir lixo numa velocidade que você nunca conseguiria sozinho.
 
-## Slide 25 - Mesmo dev. Mesmo agente. Processo diferente.
-Restam: ~43:52 (85s)
+## Slide 25 - Vai sobreviver quem souber fazer engenharia
+Restam: ~01:55 (55s)
 
-Aqui entra a comparação que eu acho mais forte de todas. FrankMD de um lado. M.Akita Chronicles do outro. Mesmo desenvolvedor. Mesmo agente. Processo diferente. No FrankMD eu ainda estava pagando várias decisões tardias: refactor pesado, teste correndo atrás, reorganização mais traumática. No M.Akita Chronicles entrou TDD, CI e refatoração contínua desde o começo. Resultado: 212 commits em 19 dias num caso, 274 commits em 8 dias no outro. A variável não foi “IA melhor”. Foi disciplina de engenharia. É aqui que a conversa deixa de ser opinião e vira evidência.
+Então eu fecho assim: IA não transforma coder ruim em engenheiro. Ela ajuda coder ruim a fazer estrago maior, mais rápido. E ajuda engenheiro bom a atravessar o caos sem deixar o software morrer. Não vai sobreviver quem decorou truque de prompt. Vai sobreviver quem tem fundamento, disciplina, iteração e gosto.
 
-## Slide 26 - Números que pesam
-Restam: ~42:17 (95s)
+## Slide 26 - O canal também virou inglês
+Restam: ~01:45 (10s)
 
-E aqui é onde eu boto peso na afirmação de velocidade. Recontando do zero com `tokei`, agora no recorte novo da TotalPass, dá 391.796 linhas úteis, 58.967 linhas de teste, 2.029 commits e cerca de 429 horas ativas estimadas. Entraram 24 projetos AI-assisted: FrankMD, FrankClaw, Frank Sherlock, FrankMega, Frank Yomik, Frank FBI, Investigator, Karaoke, easy-ffmpeg, easy-subtitle, ai-jail, mila-bot, configs de Omarchy, homelab, shadPS4, e outros. A regra é simples: arquivo rastreado no git, sem linha em branco, sem asset, sem build, sem vendor, sem árvore de terceiro. Para software, isso é código e comentários rastreados pelo `tokei`. Para blog, docs, relatórios e conteúdo, markdown também conta, porque ali ele é o produto do trabalho. Teste continua separado por path. No `shadPS4` eu não contei o emulador inteiro; contei só a branch experimental `gamma-debug`. No site, não contei o blog inteiro; contei só o recorte AI-era. As horas continuam conservadoras: sessões por histórico de commit, corte de 90 minutos de pausa, mais 20 minutos por sessão, teto de 8 horas. Não é tudo que eu trabalhei. É só o que dá pra defender olhando commit. Com isso na mesa, agora dá pra discutir mecanismo, não fé.
+Dois merchans rápidos antes de sair. O Akitando também virou inglês: mais de 150 vídeos traduzidos e legendados com agente, além do blog bilingue. Se quiser mandar meu conteúdo pra alguém de fora do Brasil, começa por youtube.com/@Akitando.
 
-## Slide 27 - Alcançamos "Developer 10x"?
-Restam: ~40:47 (90s)
+## Slide 27 - Assine The M.Akita Chronicles
+Restam: ~01:35 (10s)
 
-Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade. Não porque o modelo escreve código perfeito. Não escreve. O ganho vem porque ele atravessa aquele atrito chato que normalmente quebra foco: código repetitivo, busca, refatoração repetitiva, teste repetitivo, execução de comando, tentativa rápida. A confiança, por outro lado, só veio porque o resto continuou existindo: teste, integração contínua, refatoração, produção. E isso já aponta para a causa: a virada não foi genialidade súbita, foi loop melhor.
+E o acompanhamento semanal fica no The M.Akita Chronicles: notícias de tecnologia, opinião, código aberto e bastidor de projeto real. Sem verniz. themakitachronicles.com.
 
-## Slide 28 - Prompt único é pra demo
-Restam: ~39:42 (65s)
+## Slide 28 - Sim, este deck inteiro foi feito com IA
+Restam: ~01:05 (30s)
 
-A fantasia do prompt único é preguiçosa. Ela parte da ideia de que dá pra prever e especificar tudo antes. Software real não funciona assim. Produção revela coisa que você nem sabia que importava. A API vem torta. A infra falha do jeito errado. O usuário faz o que ninguém previu. O requisito muda. Prompt único serve pra demo. Produção pede iteração.
+E sim, este deck também foi feito com IA. Pesquisa, estrutura, roteiro, presenter notes, cortes, build e acabamento vieram do mesmo fluxo: agente no terminal, Marp, scripts e iteração curta. Então não é discurso abstrato. Eu usei a pilha para fazer a própria palestra.
 
-## Slide 29 - Fundamento primeiro
-Restam: ~38:42 (60s)
+## Slide 29 - Obrigado
+Restam: ~01:00 (5s)
 
-É por isso que o Akita antigo continua valendo. Não terceirize sua decisão. Aprenda a aprender. Entenda que programação não é fácil. Essas ideias envelhecem bem porque não dependem de framework, nem de hype, nem de geração de modelo. Elas falam de formação mental.
-
-## Slide 30 - Não terceirize seu julgamento
-Restam: ~37:47 (55s)
-
-O mais difícil de ensinar pra iniciante é isso: julgamento não é uma coisa que você baixa pronta. Não vem de influencer, não vem de bootcamp, não vem de modelo. O modelo mental continua o mesmo: experimento pequeno na beira do caos, erro cedo, retorno rápido, correção contínua.
-
-## Slide 31 - Agile Vibe Coding
-Restam: ~36:17 (90s)
-
-Eu uso o termo Agile Vibe Coding porque pega, mas faço questão de desmistificar na hora. A estrutura de verdade por baixo é velha. É Extreme Programming. O que mudou foi o par: agora meu par é uma máquina. O resto continua igual. Entrega pequena, retorno constante, teste, refatoração, atenção obsessiva em software funcionando. E aí eu quero atacar uma coisa que alguns jovens vivem reclamando. TDD, CI por commit, refatoração contínua. Isso não é perfumaria. TDD segura o modelo quando ele viaja, e ele viaja. CI por commit pega drift e regressão cedo, antes de virar uma dor de cabeça de duas horas. E sem refatoração contínua, o agente afunda num pântano de dívida técnica em poucos dias, e aí fica improdutivo. Com agente no meio, essas três coisas ficam mais importantes. Não menos.
-
-## Slide 32 - O pareamento mudou
-Restam: ~34:47 (90s)
-
-O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto. O agente traz velocidade de execução, busca e fôlego operacional. Se eu reduzo o agente a digitador burro, piora. Se eu entrego produto e arquitetura pra ele sozinho, piora também. A alavancagem está nessa divisão. É por isso que eu digo que IA é espelho: sênior bom ganha potência; programador ruim ganha potência pra fazer merda mais rápido.
-
-## Slide 33 - github.com/akitaonrails/llm-coding-benchmark
-Restam: ~34:35 (12s)
-
-Antes de mostrar o ranking, vale dizer que tudo isso está aberto. O repositório está em github.com/akitaonrails/llm-coding-benchmark. Quatro rodadas documentadas em abril e maio, prompt e configuração versionados, dados brutos no repo. Quem quiser reproduzir o benchmark com seus próprios modelos, é só clonar.
-
-## Slide 34 - Benchmark Ranking (Maio/2026)
-Restam: ~34:23 (12s)
-
-E o ranking final dos 24 modelos é esse. Score de 0 a 100 em 8 dimensões: completude, RubyLLM, testes, error handling, persistência, Hotwire, arquitetura e produção. Tier A acima de 80, B entre 60 e 79, C de 40 a 59, D abaixo disso. Tier A reúne 7 modelos. Opus 4.7 e GPT 5.4 empatam no topo, GPT 5.5 e DeepSeek V4 Pro logo atrás, e Kimi K2.6 fecha o grupo dos viáveis.
-
-## Slide 35 - Modelos fechados ainda lideram
-Restam: ~33:18 (65s)
-
-No ecossistema de modelos em abril de 2026, minha leitura prática é simples. Anthropic e OpenAI continuam no topo pra código sério: Opus 4.6 e 4.7 do lado da Anthropic, GPT 5.4 e 5.5 via Codex do lado da OpenAI. A novidade é que os chineses entraram no Tier A pela primeira vez. Kimi K2.6 e DeepSeek V4 Pro chegaram lá em abril. GLM 5.1 ficou em Tier C porque a DSL fluida dele é inventada e a history é descartada a cada turno. Open source tem utilidade, mas ainda não empata no fluxo completo com agentes — o gap encurtou, mas existe.
-
-## Slide 36 - Quem consegue bater o Claude Opus?
-Restam: ~31:43 (95s)
-
-Pra não ficar só na opinião, montei um benchmark automatizado com 24 modelos. Open source locais numa RTX 5090 e num servidor AMD com 128 GB de memória unificada, comerciais via API pelo OpenRouter, todos no mesmo runner, mesmas condições. A rubrica tem 8 dimensões: completude do deliverable, RubyLLM correto, qualidade dos testes, error handling, persistência, Hotwire de verdade, arquitetura e prod-ready. Score 0 a 100, dividido em Tier A, B, C, D. Resultado: 7 modelos chegaram no Tier A. Opus 4.7 e GPT 5.4 xHigh empatam no topo, 97 sobre 100. GPT 5.5, que saiu em abril, lança 40% mais barato com a mesma qualidade. DeepSeek V4 Pro destrava só com um shim chamado DeepClaude e pula direto pra Tier A em 89. Kimi K2.6 fica em 87 e é o Tier A mais barato do benchmark inteiro — 30 centavos por run. Opus 4.6 em 83. Gemini 3.1 Pro em 82. Kimi e Gemini entregam Tier A; GLM 5.1 ficou em Tier C porque a DSL fluida dele é inventada e a history é descartada por turno. E a pergunta de fundo continua a mesma: por que os modelos de ponta ganham? Não é tamanho. É infraestrutura — thinking, tool calling e prompt caching casados. Tamanho virou commodity. Sem essa pilha completa, o modelo chuta. Com, ele planeja antes de agir.
-
-## Slide 37 - Não é mais só parâmetros
-Restam: ~30:18 (85s)
-
-Aí vem a pergunta óbvia quando alguém olha esse benchmark: por que só esses quatro? E a resposta curta é que tamanho de modelo não é mais o que separa os bons dos ruins. Tamanho virou commodity. O que separa quem aguenta um agente real de verdade são três coisas que precisam estar casadas. Tem que ter prompt caching. Sem KV cache decente, cada turno do agente relê o contexto inteiro, e o custo do loop explode. Você não consegue segurar uma sessão longa de Claude Code rodando se a infraestrutura não cacheia direito. Tem que ter tool calling de verdade. O modelo precisa escolher qual ferramenta chamar, montar os argumentos corretamente, receber resultado de volta e usar isso pro próximo passo. Muito modelo open source fala que faz tool calling, mas na prática ou trava ou inventa método que não existe. E tem que ter reasoning, ou thinking, como a Anthropic chama. Que é basicamente um budget extra de inferência pra planejar antes de agir em vez de chutar a primeira resposta que vem. Sem esses três casados, não tem agente que funcione na prática. Poucos modelos passam porque poucos fecham essas três coisas juntas. Não é falta de parâmetro, é falta de infraestrutura completa. O DeepSeek é o exemplo mais gritante disso hoje. O modelo em si não é ruim. Mas ele falha no fluxo de agente justamente porque não fecha essas três condições juntas.
-
-## Slide 38 - "Coder" no nome não vira coder melhor
-Restam: ~28:58 (80s)
-
-E tem outra surpresa do benchmark que vale a pena destacar, porque vai contra o consenso. A intuição de quase todo mundo é que modelos com "Coder" no nome são os melhores pra programação, afinal foram fine-tunados especificamente em código. Mas no benchmark deu o oposto. Dos três Qwen Coder dedicados, dois falharam catastroficamente: o Qwen 3 Coder 30B devolveu uma string mockada hardcoded em vez de chamar a API, e o Qwen 2.5 Coder 32B rodou 90 minutos de timeout sem escrever um único arquivo. O terceiro nem rodou direito. Enquanto isso, as versões gerais do Qwen se saíram melhor que as Coder dedicadas. O Qwen 3.5 35B-A3B, que é MoE geral, rodou Rails na RTX 5090 e as alucinações que apareceram eram resolvíveis em um ou dois follow-ups. Foi o menos ruim da família. Ou seja, versão geral bateu as Coder dedicadas. E mais: eu coloquei no benchmark o Qwen 3.5 27B distilado direto do Claude 4.6 Opus, exatamente pra testar a promessa de "Claude em casa". Rodou Rails, mas alucinou a API toda. Distilação não foi o atalho. E pra não sair nenhum mal-entendido: se alguém insistir em testar Qwen pra código, a única variação que ainda vale gastar tempo avaliando é o Qwen 3.5 35B-A3B MoE geral — e mesmo ele fica bem atrás de Claude, GPT 5.4 e GLM 5.1. A lição amarra direto com o slide anterior: marketing label não substitui as três condições — prompt caching, tool calling e reasoning casados. Sem essas três, não importa quantas vezes você ponha "Coder" no nome do modelo.
-
-## Slide 39 - IA nunca vai ser perfeita. Mas errar ficou barato.
-Restam: ~27:28 (90s)
-
-E aqui é onde eu acho que muita gente ainda erra a leitura do mercado. LLM nunca vai ser determinística. Não importa qual modelo você esteja olhando, ele vai continuar errando, alucinando, baixando a cabeça pro usuário, inventando endpoint que não existe. Isso não vai sumir. O que mudou não foi a perfeição do modelo. Foi o custo de errar. O ciclo de feedback ficou tão curto que errar deixou de ser caro. O agente roda, quebra, recebe o stack trace, conserta, tenta de novo, em segundos. A gente parou de esperar o modelo perfeito e passou a usar o modelo imperfeito dentro de um loop barato. Essa é a virada que importa. E quando algo fica imperfeito mas barato, o open source corre por cima muito rápido. O claw-code apareceu como clone clean-room do Claude Code em menos de 24 horas, direto no GitHub da ultraworkers. Quase junto veio o free-code, que é um fork sem telemetria e sem as travas. E o OpenClaw, que já era um projeto maduro antes do leak, ganhou um empurrão: agora tem o memclaw plugado nele, que é um sistema de memória inspirado no do próprio Claude Code. Ou seja, não foi só copiar comportamento de fora, a galera do open source também está absorvendo os padrões internos e recriando por cima. E o corte de mercado que sai disso você já viu. O que ficou barato é software trivial. CRUD, landing page, painel interno, bot, ETL, cola entre APIs. O que continua caro é o que sempre foi. Julgamento, arquitetura, operação, manutenção e alguém disposto a ser dono do problema.
-
-## Slide 40 - Assinatura ganha de pay-as-you-go
-Restam: ~26:03 (85s)
-
-E quando você vai olhar o preço, tem um detalhe que muita gente ignora. Pay-as-you-go via API parece mais honesto, mas sai muito caro muito rápido pra quem usa isso pra coding todo dia. Pagando GPT 5.4 Pro por token no OpenRouter, num uso moderado de uns 15 milhões de tokens de input e 3 milhões de output por mês, você bate perto de 990 dólares por mês. Enquanto isso, a assinatura do ChatGPT Pro é 200 dólares por mês, ilimitada, e em abril a OpenAI moveu o Codex pra dentro dessa mesma cota. Assinatura é cinco vezes mais barata que API. E o GPT 5.5, que saiu em abril, ainda corta os tokens em 40% mantendo a mesma qualidade do 5.4. Do lado da Anthropic a conta é parecida. Pagando Claude Opus por token, o mesmo uso moderado bate perto de 450 dólares por mês. O Claude Max 20x é 200 dólares por mês, dá uns 220 mil tokens a cada 5 horas, e cobre uso pesado pela metade do preço. Vale notar também: o que entrou de Tier A chinês na rodada custa centavos por run — Kimi K2.6 são 30 centavos, DeepSeek V4 Pro via DeepClaude são 3 dólares e 14 centavos. Então, traduzindo: se você usa coding agent sério no dia a dia, assinatura é muito mais barata do que pagar por token. Talvez esteja subsidiado demais. Talvez não pare em pé pra sempre. Mas hoje, no estado atual, é assim.
-
-## Slide 41 - China chegou perto do topo
-Restam: ~25:38 (25s)
-
-Vale um recorte separado pra um ponto novo dessa última rodada: pela primeira vez, modelos chineses entraram no Tier A do benchmark. Kimi K2.6, da Moonshot, ficou em 87 sobre 100, e é o Tier A mais barato do benchmark — 30 centavos por run, com FakeChat correto, rescue de erro e session cookie multi-worker safe. E o DeepSeek V4 Pro destravou pulando pra 89, mas só conseguiu isso com um shim chamado DeepClaude que troca o endpoint do Claude Code pra OpenRouter. No opencode, V4 Pro travava no protocolo de thinking — o ai-sdk strippa o reasoning_content e a DeepSeek devolve 400. Era harness, não modelo. Trocou o harness, foi pra Tier A.
-
-## Slide 42 - China ainda bloqueia o H200?
-Restam: ~25:23 (15s)
-
-E a geopolítica entrou de cabeça nessa corrida. Em maio, os Estados Unidos liberaram a venda de Nvidia H200 pra dez empresas chinesas. Pequim disse "não, usa o que tem em casa" — Huawei Ascend, Cambricon, Biren. Forçando o ecossistema doméstico a maturar. E enquanto isso, a Nvidia bateu 5 trilhões e meio de dólares de valor de mercado, maior que o PIB de qualquer país exceto Estados Unidos e China. A briga de compute não é mais só sobre quem tem mais GPU. É sobre quem controla o silício. E os modelos chineses que entraram no Tier A do meu benchmark — Kimi K2.6 e DeepSeek V4 Pro — rodam exatamente no hardware que Pequim quer ver crescendo.
-
-## Slide 43 - Treino e inferência disputam a mesma tomada
-Restam: ~23:58 (85s)
-
-E aqui entra minha especulação sobre a economia da IA. A conta física começou a apertar de verdade. Os quatro grandes — Alphabet, Amazon, Meta e Microsoft — comprometeram cerca de 650 bilhões de dólares em capex de IA pra 2025 e 2026 juntos. Em 2024 isso era 222 bilhões. Triplicou em dois anos. Do outro lado, a IEA revisou pra cima em dezembro de 2025 e agora projeta 1.100 terawatt-hora de consumo elétrico em data centers globais em 2026 — equivalente ao Japão inteiro. Em 2024 eram 415. E tem mais um detalhe que muda a leitura: a Epoch AI mostra que inferência saiu de 33% do compute em 2023 e deve bater 67% em 2026. Não é mais só treino que consome a tomada. Agente queima muito mais inferência por usuário do que chatbot bobo. Então eu não apostaria em outro salto de ordem de grandeza no frontier tão cedo. Eu apostaria em briga por eficiência, suporte a ferramentas, custo de inferência e produto. E se a Anthropic vier mesmo pra IPO em 2026, essa pressão por margem e previsibilidade fica ainda maior.
-
-## Slide 44 - Carro elétrico ia salvar. IA comeu a economia.
-Restam: ~23:38 (20s)
-
-Tem uma ironia que vale destacar. Carro elétrico ia ser a grande economia de energia da década. A frota global de EV hoje consome cerca de 130 terawatt-hora por ano, segundo a IEA. O crescimento de data center sozinho, entre 2024 e 2026, foi de 685 terawatt-hora. Em dois anos, IA adicionou na rede aproximadamente cinco vezes toda a eletricidade que a frota global de carro elétrico consome hoje. EV e data center disputam o mesmo megawatt — e data center está ganhando de longe.
-
-## Slide 45 - 7 GW que não saem do papel em 2026
-Restam: ~23:18 (20s)
-
-E pra deixar a conta física concreta: dos cerca de 12 gigawatts de data center anunciados pra 2026 nos Estados Unidos, só uns 5 estão em obra de verdade. Os outros 7 atrasaram ou foram cancelados. Bloomberg confirma um intervalo de 30 a 50 por cento. O gargalo não é dinheiro, é equipamento físico: transformador de alta tensão tem fila de até 5 anos, switchgear escasso, tarifa chinesa de 15 a 25 por cento. Fila de conexão à rede leva até 5 anos. E mesmo assim os hyperscalers não recuaram o capex de 650 bilhões pra 2025 e 2026. Dólar sobra. Tomada não.
-
-## Slide 46 - A corrida por compute acelera em 2026
-Restam: ~23:03 (15s)
-
-Mas mesmo com essa correção em curso, a corrida por compute não desacelerou. Em 2026, Anthropic e xAI fecharam contratos pesados de capacidade pra suprir treino e inferência. A fila do mercado não é mais por desenvolvedor júnior. É por GPU, energia e data center.
-
-## Slide 47 - As Únicas Ferramentas pra Usar Agora
-Restam: ~22:43 (20s)
-
-Aproveitando que falei do mar de modelos, esses são os quatro CLI de agente que realmente aguentam trabalho sério em maio de 2026. Claude Code, da Anthropic, é o meu padrão diário. Codex, da OpenAI, é o equivalente do outro lado. E os agnósticos: opencode e Crush, que rodam qualquer modelo via OpenRouter — úteis pra testar Tier A chinês ou pra quem não quer ficar preso num provedor só. O resto é orbital. Esses quatro cobrem o agente de terminal hoje.
-
-## Slide 48 - A correção
-Restam: ~21:43 (60s)
-
-Aqui é a parte em que eu paro de fingir diplomacia. Eu estou genuinamente feliz que a bolha do programador ruim esteja morrendo. A indústria passou anos trocando engenharia por braço barato, competência falsa e dívida técnica como se isso fosse de graça. A IA está forçando uma correção. Ótimo. E essa correção continua acontecendo agora: em 1 de abril de 2026, a Oracle reportou mais uma onda pesada de layoffs. Não é fim do mundo. É a indústria voltando pro preço certo.
-
-## Slide 49 - Mesmo medo
-Restam: ~20:58 (45s)
-
-Pra explicar o pânico atual, eu quero fazer uma tangente rápida com um universo que eu acompanho por hobby: drama de VTuber e drama de arte. O padrão emocional é o mesmo. No mundo da arte dizem que IA vai substituir artista. No nosso dizem que IA vai substituir programador. Nos dois casos, o desespero maior vem de quem entende o ofício de forma rasa.
-
-## Slide 50 - Caso AsamiArts
-Restam: ~20:03 (55s)
-
-O caso da AsamiArts me interessa não pela fofoca, mas pelo mecanismo. Isso não é só briguinha de internet. Tem mercado real de comissão em volta disso. Tem artista tentando viver disso. Tem cliente apostando dinheiro e confiança nisso. Então quando processo falso entra na equação, não é só estética que desanda. A confiança do mercado inteiro começa a apodrecer.
-
-## Slide 51 - Tracing sem processo
-Restam: ~18:58 (65s)
-
-Aqui é onde eu mostro o cheiro do negócio. Num processo normal você vê construção, hesitação, ida e volta, correção de proporção, sketch feio antes do refinamento. Nesse vídeo não. Ele já sai limpo demais, confiante demais, liso demais. Não tem erro feio. Não tem indecisão. Não tem undo. Parece virtuose. Pra mim, parece teatro.
-
-## Slide 52 - A camada escondida
-Restam: ~17:53 (65s)
-
-E aqui entra a parte mais interessante. A minha leitura é que existe uma camada base escondida por trás, e o vídeo está montado pra disfarçar isso. O verde parece estar ali justamente pra sumir na edição, porque quase não aparece outro verde competindo com ele. Então o vídeo não mostra o desenho nascendo. Mostra um truque de composição vendendo a sensação de tracing ao vivo.
-
-## Slide 53 - A evolução não bate
-Restam: ~16:53 (60s)
-
-Outro sinal é a inconsistência. Evolução humana existe, claro. O problema é quando a mão muda demais num intervalo curto demais. Rosto muda, acabamento muda, construção muda, linguagem de linha muda. Não parece uma pessoa amadurecendo. Parece mistura de fonte, mistura de ferramenta, mistura de origem.
-
-## Slide 54 - A alucinação entrega
-Restam: ~15:58 (55s)
-
-Aí entra a parte que entrega de vez: alucinação estrutural. A arma parece arma de longe. Quando você olha direito, o cano está do lado errado. Isso não é detalhe de estilo. Isso é erro de entendimento do objeto. É o mesmo tipo de erro que a gente já conhece em imagem gerada por IA: plausível no primeiro olhar, desmontando no segundo.
-
-## Slide 55 - LoRA é estilo empacotado
-Restam: ~14:53 (65s)
-
-E tem mais uma camada aqui: LoRA. Pra quem não acompanha isso, LoRA é um ajuste leve em cima de um modelo base, usado pra empurrar o resultado pra um traço, tema ou artista específico. O problema é que a comunidade treinou muita LoRA em cima de arte pública sem autorização. Então o roubo de estilo volta embalado como ferramenta. Depois alguém mistura isso tudo e vende como se fosse voz própria.
-
-## Slide 56 - IA reflete quem você é
-Restam: ~13:23 (90s)
-
-E é aqui que isso volta pro código. IA não cria competência do nada. Ela reflete o que você já é. Se você é um bom engenheiro, ela vai te fazer produzir mais, mais rápido, com mais qualidade. Se você é um mau engenheiro, ela vai te ajudar a produzir lixo numa velocidade que você nunca conseguiria sozinho. Isso vale pra arte, vale pro código, vale pra qualquer área onde você tente usar IA como atalho pra substituir fundação. Não existe atalho pra competência.
-
-## Slide 57 - Júnior herda. Sênior ensina.
-Restam: ~11:43 (100s)
-
-Júnior está preocupado, mas eu não acho que o caminho acabou. Acho que ele mudou de forma. O mundo está enchendo de sistema feito nas coxas, cheio de lixo de IA, e alguém vai ter que limpar isso. Aprender ferramenta nova nunca foi o fim da profissão: binário, cartão perfurado, assembly, linguagens mais altas, framework, nuvem, agora agente. Muita gente da minha geração aprendeu exatamente assim, no projeto real, bagunçado, cheio de cicatriz. Então a virada de esperança é essa: o caminho não sumiu, ele só ficou mais caótico. Mas isso só para em pé se sênior fizer o trabalho dele. Sênior não é imortal. Vai mudar de empresa, vai cansar, vai se aposentar. Se não formar substituto, a organização apodrece. A nova obrigação do sênior não é só usar IA bem. É ensinar engenharia com IA direito, antes do código apodrecer. Agente nenhum ensina julgamento.
-
-## Slide 58 - Vai sobreviver quem souber fazer engenharia
-Restam: ~10:08 (95s)
-
-Então vem a parte dura. IA não transforma programador ruim em engenheiro. Ela ajuda programador ruim a fazer estrago maior mais rápido. E ajuda engenheiro de verdade a atravessar esse caos com mais velocidade, sem deixar o software morrer. Então eu fecho assim. Não vai sobreviver quem decorou truquezinho de prompt. Vai sobreviver quem tem fundamento, disciplina, iteração e gosto. Se você tem isso, IA vira multiplicador. Se não tem, IA é só uma forma mais rápida de ser exposto.
-
-## Slide 59 - Assine The M.Akita Chronicles
-Restam: ~09:43 (25s)
-
-E já que é pra acabar sem falsa modéstia: se você curtiu essa palestra, assina o The M.Akita Chronicles. Está tudo aí na tela. É onde eu continuo publicando bastidor real, projeto real, código real e o que deu certo ou errado em produção. Quer acompanhar essa linha de raciocínio semana a semana? Vai em themakitachronicles.com e assina.
-
-## Slide 60 - Traduzindo 20 anos de Posts e 150 videos
-Restam: ~09:28 (15s)
-
-E pra fechar de tema com a palestra: o mesmo argumento que apliquei em código eu apliquei no conteúdo. O akitaonrails.com inteiro, 700 posts em 20 anos, ganhou versão em inglês com toggle PT/EN. E o canal Akitando teve 150 vídeos legendados em inglês. Pipeline tudo rodando com agente — eu não traduzi nada na mão. É o mesmo padrão: IA como multiplicador pra quem já tem trabalho feito, não substituta pra quem nunca produziu.
-
-## Slide 61 - Sim, este deck inteiro foi feito com IA
-Restam: ~08:53 (35s)
-
-E sim, já que o assunto da palestra é esse, vale fechar com o bastidor completo. Este deck inteiro também foi feito com IA. Pesquisa, estrutura, roteiro, presenter notes, crops, extração de frame, build, pós-processo do PPTX com vídeo, tudo saiu do mesmo fluxo. Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo e iteração curta até o negócio ficar apresentável. Então não é discurso abstrato. Eu usei essa pilha para fazer a própria palestra que vocês acabaram de ver.
-
-## Slide 62 - Obrigado
-Restam: ~08:43 (10s)
-
-Obrigado. Os links estão aí embaixo: Codeminer42, The M.Akita Chronicles e o repositório dessa palestra, que eu vou abrir no dia do evento.
+Obrigado. Os links estão no rodapé.

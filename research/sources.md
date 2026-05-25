@@ -86,9 +86,11 @@ Runner-up: **Slidev**
 - Berkeley Lab data center electricity demand report summary: https://newscenter.lbl.gov/2025/01/15/berkeley-lab-report-evaluates-increase-in-electricity-demand-from-data-centers/
 - Anthropic Series G / compute capacity / Claude Code growth: https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation
 - NVIDIA on pretraining, post-training and test-time scaling: https://blogs.nvidia.com/blog/ai-scaling-laws/
+- Epoch AI on frontier training power demand: https://epoch.ai/blog/power-demands-of-frontier-ai-training/
+- Epoch AI on inference energy, active parameters, KV cache and long input cost: https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use/
 - Anthropic IPO report carried by Reuters: https://m.economictimes.com/tech/artificial-intelligence/anthropic-plans-an-ipo-as-early-as-2026/amp_articleshow/125731426.cms
 - LLM benchmark article (own, April 5, 2026): https://akitaonrails.com/2026/04/05/testando-llms-open-source-e-comerciais-quem-consegue-bater-o-claude-opus/
-  - **Primary source for slides 33–37.** Published the same day akitaonrails.com turned 20 years old.
+  - Primary source for the benchmark/results block. Published the same day akitaonrails.com turned 20 years old.
   - 22 models tested on identical runner. Only 4 produced working code: Claude Sonnet 4.6, Opus 4.6, GPT 5.4, and the GLM 5 / 5.1 pair from Z.AI.
   - GLM 5 is ~89% cheaper than Opus; GLM 5 if you need centralized OpenRouter billing, GLM 5.1 direct via Z.AI for a rounder project.
   - Per-token pricing on OpenRouter (slide 37): GPT 5.4 Pro $180/M output, Opus $25/M, GLM 5 $2.30/M, Qwen 3.6 Plus free (rate-limited).

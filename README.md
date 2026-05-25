@@ -1,10 +1,10 @@
-# Tropical Ruby 2026 / TotalPass 2026 Keynote
+# Web Summit Rio 2026 Keynote
 
 **[View the presentation live](https://akitaonrails.github.io/tropicalruby-2026/)**
 
-> **Branch note:** this branch (`totalpass2026`) is the updated edition prepared for the **TotalPass 2026** event. The original Tropical Ruby 2026 deck lives on [`master`](https://github.com/akitaonrails/tropicalruby-2026/tree/master).
+> **Branch note:** this branch (`web-summit-rio-2026`) is a condensed technology pitch prepared for **Web Summit Rio 2026**. The TotalPass 2026 lecture version lives on `totalpass2026`, and the original Tropical Ruby 2026 deck lives on [`master`](https://github.com/akitaonrails/tropicalruby-2026/tree/master).
 
-This repo holds the working deck for the `TotalPass 2026` keynote (with the original `Tropical Ruby 2026` edition still available on the `master` branch).
+This repo holds the working deck for the `Web Summit Rio 2026` pitch cut.
 The slides are authored in Marp, the script lives separately, and the deck is exported to HTML, PDF, and PPTX from the same source.
 
 ## Main files
@@ -51,7 +51,7 @@ Artifacts are written to `build/`.
 PPTX outputs:
 
 - `build/totalpass-2026.pptx`: raw Marp export
-- `build/totalpass-2026.with-video.pptx`: post-processed PPTX with embedded local MP4s
+- `build/totalpass-2026.with-video.pptx`: post-processed PPTX; embeds local MP4s when the deck has `pptx-video` markers
 
 ### Preview the script
 
@@ -72,7 +72,7 @@ The notes should stay shorter than the script:
 - use bullets, not prose blocks
 - keep them as speaking cues, not a second full manuscript
 - carry reminders that aren't visible on the slide itself (numbers, methodology, transition beats), not a restatement of what the audience is already reading
-- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently lands at ~08:47 of buffer remaining.
+- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 20:00, counting down to 00:00; the deck currently lands at ~01:00 of buffer remaining.
 
 If you add or rewrite visible text, do a cleanup pass so it still sounds human and spoken, not like generated copy.
 
@@ -84,41 +84,18 @@ If you move or redesign a slide that contains an embedded PPTX video:
 
 ## Narrative structure
 
-The current deck has a deliberate three-act shape. Try not to break it casually when moving slides around.
+This branch is a 20-minute pitch, not the full TotalPass lecture. Keep the spine tight:
 
-- `Act 1`: the panic is misdiagnosed
-- `Act 2`: what actually changed, and the practical proof
-- `Act 3`: what that means for engineers and the market
+- what changed: agents, not chatbots
+- what was tested: 26 real projects, open code, measured commits/LOC/time
+- what worked: Agile Vibe Coding as XP with machine pairing
+- what the data says: model choice matters, but process and harness matter more
+- what supports the workflow: ai-jail, ai-memory, and ai-usagebar keep multi-harness work controlled
+- what to do now: disciplined AI engineering, not prompt theater
 
-In the current version, that means:
+The TotalPass lecture blocks were intentionally cut. Do not re-expand layoffs, bootcamp fraud, Claude Code leak, AsamiArts/art analogy, China/geopolitics, or data-center energy unless explicitly asked.
 
-- the intro opens with the thesis, ties it back to older warnings, then uses AsamiArts and the Claude Code leak to frame the difference between fake-looking process and real work
-- the mid-section peaks around the `2025 foi o ano dos Agentes` timeline, the `Dezembro de 2025 foi a Virada` hinge, the January 2026 trigger, the marathon wall of projects, `Alcançamos "Developer 10x"?`, and the `Ciclo do Agente / PILOTA` mechanism
-- the closing widens back out to XP discipline, the benchmark arc (slides 33-37), pricing economics, the energy-and-IPO speculation, market correction, juniors/seniors, and finally engineering as the durable thing
-
-The ending currently has three layers on purpose:
-
-- the engineering conclusion (`Vai sobreviver quem souber fazer engenharia`)
-- the shameless newsletter ad
-- the meta-stinger that the deck itself was made with AI, followed by a clean `OBRIGADO` exit slide
-
-If this sequence changes, re-check not just title order but also pacing, reveal order, and whether the practical proof still lands before the mechanism explanation.
-
-There are also a few narrative constraints from later story-tightening passes:
-
-- the real midpoint turn is the jump from `Dezembro de 2025 foi a Virada` into `Fevereiro e março de 2026`
-- that transition should feel like `parei de opinar e fui testar com pele em jogo`
-- the FrankMD vs M.Akita Chronicles comparison, the marathon wall, the metrics, and the `Developer 10x?` slide are the proof block; treat them as the point where the talk stops being opinion and becomes evidence
-- after the proof block, the `Ciclo do Agente` mechanism should read as an explanation of that evidence, not as abstract theory
-- the benchmark arc from `Quem consegue bater o Claude Opus?` through `Assinatura ganha de pay-as-you-go` is the hard-data block; every number there is grounded in the April 5 2026 benchmark article in `research/sources.md`
-- the closing run from `A correção` through `Vai sobreviver quem souber fazer engenharia` should escalate in this order:
-  - diagnosis
-  - hope
-  - responsibility
-  - hard truth
-  - final statement
-
-When editing the script or notes, prefer explicit cause-and-effect bridges between major blocks over adding new content.
+Keep the ending lean: engineering conclusion, quick YouTube/newsletter plugs, deck-made-with-AI meta-stinger, clean `OBRIGADO` exit.
 
 ## Brief history
 

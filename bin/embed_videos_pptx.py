@@ -104,11 +104,13 @@ def main(argv: list[str]) -> int:
         raise SystemExit(f"Input PPTX not found: {input_pptx}")
 
     markers = find_marked_slides()
-    missing_markers = sorted(set(VIDEO_SPECS) - set(markers))
-    if missing_markers:
-        raise SystemExit(f"Missing pptx-video markers in slides markdown: {', '.join(missing_markers)}")
+    unknown_markers = sorted(set(markers) - set(VIDEO_SPECS))
+    if unknown_markers:
+        raise SystemExit(f"Unknown pptx-video markers in slides markdown: {', '.join(unknown_markers)}")
 
-    for key, spec in VIDEO_SPECS.items():
+    active_specs = {key: VIDEO_SPECS[key] for key in markers}
+
+    for key, spec in active_specs.items():
         if not spec.movie.exists():
             raise SystemExit(f"Missing movie asset for {key}: {spec.movie}")
         if not spec.poster.exists():
@@ -122,7 +124,7 @@ def main(argv: list[str]) -> int:
     slide_width = prs.slide_width
     slide_height = prs.slide_height
 
-    for key, spec in VIDEO_SPECS.items():
+    for key, spec in active_specs.items():
         slide_no = markers[key]
         slide = prs.slides[slide_no - 1]
 
@@ -155,7 +157,7 @@ def main(argv: list[str]) -> int:
         enable_autoplay_and_loop(slide, movie.shape_id)
 
     prs.save(str(output_pptx))
-    print(f"Embedded {len(VIDEO_SPECS)} videos into {output_pptx}")
+    print(f"Embedded {len(active_specs)} videos into {output_pptx}")
     return 0
 
 
