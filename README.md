@@ -2,7 +2,13 @@
 
 **[View the presentation live](https://akitaonrails.github.io/tropicalruby-2026/)**
 
-> **Branch note:** this branch (`web-summit-rio-2026`) is a condensed technology pitch prepared for **Web Summit Rio 2026**. The TotalPass 2026 lecture version lives on `totalpass2026`, and the original Tropical Ruby 2026 deck lives on [`master`](https://github.com/akitaonrails/tropicalruby-2026/tree/master).
+## Event editions
+
+| Event | Branch | Notes |
+| --- | --- | --- |
+| Tropical Ruby 2026 | [`master`](https://github.com/akitaonrails/tropicalruby-2026/tree/master) | Original keynote deck |
+| TotalPass 2026 | [`totalpass2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/totalpass2026) | Longer lecture version |
+| Web Summit Rio 2026 | [`web-summit-rio-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/web-summit-rio-2026) | Condensed 20-minute technology pitch |
 
 This repo holds the working deck for the `Web Summit Rio 2026` pitch cut.
 The slides are authored in Marp, the script lives separately, and the deck is exported to HTML, PDF, and PPTX from the same source.
