@@ -1,10 +1,17 @@
-# Tropical Ruby 2026 / TotalPass 2026 Keynote
+# Beyond Summit 2026 Keynote
 
 **[View the presentation live](https://akitaonrails.github.io/tropicalruby-2026/)**
 
-> **Branch note:** this branch (`totalpass2026`) is the updated edition prepared for the **TotalPass 2026** event. The original Tropical Ruby 2026 deck lives on [`master`](https://github.com/akitaonrails/tropicalruby-2026/tree/master).
+## Event editions
 
-This repo holds the working deck for the `TotalPass 2026` keynote (with the original `Tropical Ruby 2026` edition still available on the `master` branch).
+| Event | Branch | Notes |
+| --- | --- | --- |
+| Tropical Ruby 2026 | [`master`](https://github.com/akitaonrails/tropicalruby-2026/tree/master) | Original keynote deck |
+| TotalPass 2026 | [`totalpass2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/totalpass2026) | Longer lecture version |
+| Beyond Summit 2026 | [`beyondsummitey`](https://github.com/akitaonrails/tropicalruby-2026/tree/beyondsummitey) | Beyond Summit edition |
+| Web Summit Rio 2026 | [`web-summit-rio-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/web-summit-rio-2026) | Condensed 20-minute technology pitch |
+
+This repo holds the working deck for the `Beyond Summit 2026` keynote.
 The slides are authored in Marp, the script lives separately, and the deck is exported to HTML, PDF, and PPTX from the same source.
 
 ## Main files
@@ -72,7 +79,7 @@ The notes should stay shorter than the script:
 - use bullets, not prose blocks
 - keep them as speaking cues, not a second full manuscript
 - carry reminders that aren't visible on the slide itself (numbers, methodology, transition beats), not a restatement of what the audience is already reading
-- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently lands at ~08:47 of buffer remaining.
+- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently lands at ~05:29 of buffer remaining.
 
 If you add or rewrite visible text, do a cleanup pass so it still sounds human and spoken, not like generated copy.
 

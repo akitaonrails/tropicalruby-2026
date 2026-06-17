@@ -1,2 +1,15 @@
 #!/usr/bin/env bash
-exec /usr/bin/chromium --no-sandbox --disable-setuid-sandbox "$@"
+set -euo pipefail
+
+if [[ -n "${CHROME_PATH:-}" ]]; then
+  exec "$CHROME_PATH" --no-sandbox --disable-setuid-sandbox "$@"
+fi
+
+for browser in /usr/bin/chromium /usr/bin/chromium-browser /usr/bin/google-chrome-stable /usr/bin/google-chrome; do
+  if [[ -x "$browser" ]]; then
+    exec "$browser" --no-sandbox --disable-setuid-sandbox "$@"
+  fi
+done
+
+echo "No Chromium/Chrome executable found. Set CHROME_PATH or install Chromium." >&2
+exit 127

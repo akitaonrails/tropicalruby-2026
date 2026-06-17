@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A Marp-based keynote deck for **TotalPass 2026** (originally written for Tropical Ruby 2026 and updated for this event). Most changes touch talk structure, wording, layout, or export quality. The talk is in pt-BR, authored by Fabio Akita.
+A Marp-based keynote deck for **Beyond Summit 2026** (adapted from the TotalPass 2026 version). Most changes touch talk structure, wording, layout, or export quality. The talk is in pt-BR, authored by Fabio Akita.
 
 ## Key files
 
@@ -51,7 +51,7 @@ Presenter notes live as HTML comments (`<!-- ... -->`) in the slide markdown.
 - Treat them as stage cues
 - Notes should carry reminders the presenter won't see on the slide itself: specific numbers, dates, methodology caveats, transition cues — not a restatement of the visible content
 - The first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock (starting from a 60:00 slot, counting down to 00:00) plus current slide duration in seconds. The script file uses the same format. Both are rebuilt together whenever pacing changes.
-- Total slot is 60:00; deck currently lands at ~08:47 remaining (buffer for Q&A). Actual deck runtime is ~51:13.
+- Total slot is 60:00; deck currently lands at ~05:29 remaining (buffer for Q&A). Actual deck runtime is ~54:31.
 - If the script changes meaningfully, update the matching notes
 
 ## Slide and layout workflow
