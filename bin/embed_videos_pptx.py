@@ -45,30 +45,6 @@ VIDEO_SPECS: dict[str, VideoSpec] = {
         mime_type="video/mp4",
         placement=Placement(left=0.714, top=0.148, width=0.223, height=0.804),
     ),
-    "frank-yomik-kindle": VideoSpec(
-        movie=ROOT / "assets" / "flow" / "kindle.mp4",
-        poster=ROOT / "assets" / "flow" / "kindle.jpg",
-        mime_type="video/mp4",
-        placement=Placement(left=0.30, top=0.22, width=0.40, height=0.68),
-    ),
-    "frank-yomik-webtoon": VideoSpec(
-        movie=ROOT / "assets" / "flow" / "webtoon.mp4",
-        poster=ROOT / "assets" / "flow" / "webtoon.jpg",
-        mime_type="video/mp4",
-        placement=Placement(left=0.30, top=0.22, width=0.40, height=0.68),
-    ),
-    "godot-mario": VideoSpec(
-        movie=ROOT / "assets" / "flow" / "mario.mp4",
-        poster=ROOT / "assets" / "flow" / "mario.jpg",
-        mime_type="video/mp4",
-        placement=Placement(left=0.18, top=0.24, width=0.64, height=0.64),
-    ),
-    "godot-streets-of-rage": VideoSpec(
-        movie=ROOT / "assets" / "flow" / "streets of rage.mp4",
-        poster=ROOT / "assets" / "flow" / "streets of rage.jpg",
-        mime_type="video/mp4",
-        placement=Placement(left=0.18, top=0.24, width=0.64, height=0.64),
-    ),
 }
 
 
