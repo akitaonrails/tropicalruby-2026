@@ -122,53 +122,34 @@ Restam: ~56:25 (25s)
 - Crunchbase só conta EUA; total global é maior.
 -->
 ---
-
 <!-- _class: center tone-ruby -->
+![bg cover opacity:.10](../assets/offline/thumb-cursos-nao-ensinam.jpg)
 <div class="eyebrow">Akitando, antes da IA virar moda</div>
 
-# Eu Avisei
-
-<div style="display:flex;justify-content:center;gap:32px;margin-top:18px;">
-  <div style="display:flex;flex-direction:column;align-items:center;">
-    <img src="../assets/flow/eu-avisei-1.jpg" alt="O que os cursos não te ensinam sobre mercados" style="max-height:420px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-    <div style="font-size:0.62em;opacity:0.7;margin-top:8px;">youtube.com/watch?v=L0hTOY5n9G8</div>
-  </div>
-  <div style="display:flex;flex-direction:column;align-items:center;">
-    <img src="../assets/flow/eu-avisei-2.jpg" alt="Rant: Programação não é fácil" style="max-height:420px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-    <div style="font-size:0.62em;opacity:0.7;margin-top:8px;">youtube.com/watch?v=V7oUDL7E1g4</div>
-  </div>
-</div>
-
-<!--
-Restam: ~56:10 (15s)
-
-- Dois vídeos antigos do canal.
-- "O que os cursos não te ensinam sobre mercados" e "Rant: programação não é fácil".
-- Já estavam batendo na mesma tecla muito antes da IA virar pauta.
--->
----
-
-<!-- _class: center -->
-![bg cover opacity:.14](../assets/offline/thumb-cursos-nao-ensinam.jpg)
 # A mentira antiga
 
-## “vire engenheiro
-## de software
-## em 2 meses”
-
-<div class="columns">
-  <div class="card"><strong>Fim de 2022</strong><br />layoffs vieram antes da IA saber programar direito</div>
-  <div class="card"><strong>ChatGPT</strong><br />foi acelerador, não causa original</div>
+<div style="display:flex;gap:30px;align-items:center;max-width:1080px;margin:10px auto 0 auto;text-align:left;">
+<div style="flex:0 0 36%;display:flex;flex-direction:column;gap:12px;justify-content:center;">
+<img src="../assets/flow/eu-avisei-1.jpg" alt="O que os cursos não te ensinam sobre mercados" style="width:100%;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
+<img src="../assets/flow/eu-avisei-2.jpg" alt="Rant: Programação não é fácil" style="width:100%;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
+</div>
+<div style="flex:1 1 auto;">
+<div class="lead" style="max-width:none;text-align:left;font-size:1.15em;margin:0 0 16px 0;">“vire engenheiro de software em 2 meses”</div>
+<div class="columns" style="margin-top:0;">
+<div class="card"><strong>Fim de 2022</strong><br />layoffs vieram antes da IA saber programar direito</div>
+<div class="card"><strong>ChatGPT</strong><br />foi acelerador, não causa original</div>
+</div>
+<div class="card" style="margin-top:14px;background:rgba(178,70,63,0.16);border:2px solid #b2463f;"><strong>Eu já avisava:</strong> ferramenta não comprime julgamento de engenharia.</div>
+</div>
 </div>
 
-
 <!--
-Restam: ~55:05 (65s)
+Restam: ~55:05 (80s)
 
-- A mentira antiga era simples: faz um cursinho rápido, vira engenheiro de software, ganha salário alto e entra no modo easy.
-- Isso sempre foi conversa mole.
-- Bootcamp ensina ferramenta.
-- Não comprime anos de julgamento de engenharia em poucos meses.
+- Dois vídeos antigos do canal puxam o ponto: a mentira não nasceu com IA.
+- A promessa era: curso rápido, salário alto, modo easy.
+- Layoffs começaram antes da IA programar direito.
+- ChatGPT acelerou a correção; não criou a fragilidade original.
 -->
 ---
 
@@ -243,30 +224,6 @@ Restam: ~52:25 (15s)
 - Puxa direto pro próximo slide: por isso são loot boxes — fluência probabilística sem garantia.
 -->
 ---
-
-<!-- _class: center tone-sand -->
-![bg cover opacity:.14](../assets/offline/bg-slot-machines.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Slot_machines_at_Monte_Carlo_hotel,_Las_Vegas.jpg</div>
-
-# LLMs são loot boxes
-
-<div class="columns-3">
-  <div class="card"><strong>Probabilísticas</strong><div class="mini">nunca 100% confiáveis</div></div>
-  <div class="card"><strong>Dependem de contexto</strong><div class="mini">qualidade depende do que você dá e do que você checa</div></div>
-  <div class="card"><strong>Gastam loop</strong><div class="mini">o ecossistema inteiro te incentiva a gastar mais tokens</div></div>
-</div>
-
-
-<!--
-Restam: ~51:20 (65s)
-
-- Eu chamei LLMs de loot boxes porque elas são probabilísticas.
-- Não são compiladores determinísticos.
-- Não existe garantia de correção.
-- Dá pra melhorar bastante as chances com contexto, ferramenta, ciclo de avaliação e prompt melhor? Dá.
--->
----
-
 <!-- _class: center tone-sand -->
 ![bg cover opacity:.16](../assets/offline/bg-building-collapse.jpg)
 <div class="eyebrow">2026 Ainda</div>
@@ -275,19 +232,20 @@ Restam: ~51:20 (65s)
 # LLMs ainda<br><span class="em-ruby">bajulam</span> e <span class="em-ruby">erram</span>
 
 <div class="columns-3">
-  <div class="card"><strong>Bajula você</strong><div class="mini">muitas vezes responde o que você quer ouvir</div></div>
-  <div class="card"><strong>Erra confiante</strong><div class="mini">inventa detalhe e segue como se estivesse certo</div></div>
-  <div class="card"><strong>Precisa de freio</strong><div class="mini">execução, teste e revisão continuam obrigatórios</div></div>
+<div class="card"><strong>Loot box</strong><div class="mini">probabilístico, não compilador determinístico</div></div>
+<div class="card"><strong>Bajula você</strong><div class="mini">muitas vezes responde o que você quer ouvir</div></div>
+<div class="card"><strong>Erra confiante</strong><div class="mini">inventa detalhe e segue como se estivesse certo</div></div>
 </div>
 
+<div class="lead" style="max-width:900px;margin:20px auto 0 auto;text-align:center;">Por isso agente sem freio é desastre: execução, teste e revisão continuam obrigatórios.</div>
 
 <!--
-Restam: ~50:25 (55s)
+Restam: ~51:00 (85s)
 
-- E eu quero deixar uma coisa bem explícita: o modelo de 2026 ainda baixa a cabeça pra você.
-- Se você vier com premissa torta, ele muitas vezes prefere te agradar em vez de te contrariar.
-- Ele também continua errando com confiança.
-- Inventa detalhe, completa lacuna do jeito errado, segue em frente como se estivesse tudo certo.
+- O ponto principal: modelo de 2026 ainda bajula e erra.
+- LLM é probabilístico; não é compilador determinístico.
+- Se você vem com premissa torta, ele tende a agradar.
+- O freio continua sendo execução real, teste real e revisão real.
 -->
 ---
 
@@ -311,7 +269,7 @@ Meu palpite: com energia, margem e demanda apertando, eu esperaria menos milagre
 </div>
 
 <!--
-Restam: ~49:00 (85s)
+Restam: ~49:35 (85s)
 
 - Aqui entra minha especulação. A conta física começou a apertar.
 - Capex: $650 bi 2025-2026 dos 4 grandes (Alphabet, Amazon, Meta, Microsoft). Em 2024 era ~$222 bi — quase 3x em 2 anos.
@@ -340,7 +298,7 @@ Em 2 anos, IA adicionou na rede <span class="em-ruby">~5× toda a eletricidade q
 </div>
 
 <!--
-Restam: ~48:40 (20s)
+Restam: ~49:15 (20s)
 
 - EV global hoje: ~130 TWh/ano (IEA Global EV Outlook 2024).
 - DC global: 415 → 1.100 TWh entre 2024 e 2026 (+685 TWh).
@@ -362,7 +320,7 @@ Restam: ~48:40 (20s)
 <div class="caption" style="margin-top:10px;">Fonte: tech-insider.org/us-ai-data-center-delays-cancellations-7gw-capacity-crisis-2026 (Bloomberg + Sightline Climate + US ITC, abril/maio 2026)</div>
 
 <!--
-Restam: ~48:20 (20s)
+Restam: ~48:55 (20s)
 
 - Anunciado pra 2026: ~12 GW. Em obra de verdade: ~5 GW. Buraco: 7 GW.
 - ~Metade dos data centers de 2026 atrasou ou foi cancelado (Bloomberg confirma 30-50%).
@@ -386,7 +344,7 @@ Restam: ~48:20 (20s)
 </div>
 
 <!--
-Restam: ~48:05 (15s)
+Restam: ~48:40 (15s)
 
 - Mesmo com a correção em curso, a corrida por compute não desacelera.
 - Anthropic e xAI assinando contratos gigantes de capacidade pra 2026.
@@ -415,7 +373,7 @@ Restam: ~48:05 (15s)
 <div class="caption" style="margin-top:22px;">Fontes: SEC Form 8-K; SpaceX IR; CNBC; SpaceNews, jun/2026.</div>
 
 <!--
-Restam: ~47:40 (25s)
+Restam: ~48:15 (25s)
 
 - CNBC fala em valuation de ~US$1,77 tri no IPO; SpaceNews fala em market cap perto de US$2,1 tri no fechamento.
 - US$75 bi levantados a US$135 por ação; fechou a US$160,95, +19,2%.
@@ -477,7 +435,7 @@ Restam: ~47:40 (25s)
 <div class="lead" style="max-width:920px;margin:2px auto 0 auto;text-align:center;">A parte rápida da curva enganou todo mundo.</div>
 
 <!--
-Restam: ~46:45 (55s)
+Restam: ~47:20 (55s)
 
 - Mostrar só a intuição: parecia exponencial porque a gente estava no miolo da curva S.
 - Desde 2024, retorno marginal de treino ficou brutalmente pior.
@@ -503,7 +461,7 @@ Restam: ~46:45 (55s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Não foi um dia mágico. Foi o ano inteiro fechando modelo, thinking, tool support e operação.</div>
 
 <!--
-Restam: ~45:40 (65s)
+Restam: ~46:15 (65s)
 
 - Pra mim, 2025 foi o ano em que a pilha foi fechando.
 - Em março, tool support virou plataforma de verdade.
@@ -527,7 +485,7 @@ Restam: ~45:40 (65s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Modelo novo + CLI de agente madura, os dois ao mesmo tempo. Em dezembro deu pra apostar tempo de verdade. Em janeiro de 2026 eu entrei nessa também — foi daí que saiu a maratona.</div>
 
 <!--
-Restam: ~44:25 (75s)
+Restam: ~45:00 (75s)
 
 - Datas marcantes: 13 nov (GPT-5.1 + Codex CLI), 24 nov (Opus 4.5 + Claude Code), 11 dias de distância
 - A chave não foi só o modelo novo — foi a CLI de agente amadurecendo junto, nos DOIS lados na mesma janela
@@ -547,7 +505,7 @@ Restam: ~44:25 (75s)
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg</div>
 
 <!--
-Restam: ~43:55 (30s)
+Restam: ~44:30 (30s)
 
 - Então eu parei de opinar e fui testar com pele em jogo.
 - Não com prompt de brinquedo.
@@ -575,7 +533,7 @@ Restam: ~43:55 (30s)
 </div>
 
 <!--
-Restam: ~43:20 (35s)
+Restam: ~43:55 (35s)
 
 - Este slide é só a parede de projetos.
 - FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI, Frank Karaoke e outros.
@@ -601,7 +559,7 @@ Restam: ~43:20 (35s)
 </div>
 
 <!--
-Restam: ~43:08 (12s)
+Restam: ~43:43 (12s)
 
 - 30 projetos, várias linguagens, vários domínios — todos abertos no GitHub.
 - Importante: nem todos são produção. São experimentais por definição — alguns viraram software de uso diário (FrankMD, ai-jail), outros são protótipos honestos.
@@ -635,7 +593,7 @@ Restam: ~43:08 (12s)
 </div>
 
 <!--
-Restam: ~42:48 (20s)
+Restam: ~43:23 (20s)
 
 - Em maio de 2026, estes quatro cobrem o caso sério de agente de terminal.
 - Claude Code e Codex para fronteira fechada.
@@ -669,7 +627,7 @@ Restam: ~42:48 (20s)
 </div>
 
 <!--
-Restam: ~42:23 (25s)
+Restam: ~42:58 (25s)
 
 - Não é mais um orquestrador mágico.
 - É kit de operação: cerca, memória e medidor de limite.
@@ -695,7 +653,7 @@ Restam: ~42:23 (25s)
 </div>
 
 <!--
-Restam: ~41:43 (40s)
+Restam: ~42:18 (40s)
 
 - Uso preferido: tirar fricção dentro do harness, colocar a trava no OS.
 - O agente trabalha rápido no projeto; o resto do host não fica aberto por acidente.
@@ -722,7 +680,7 @@ Restam: ~41:43 (40s)
 </div>
 
 <!--
-Restam: ~41:03 (40s)
+Restam: ~41:38 (40s)
 
 - Problema: harness compacta ou acaba, e o próximo agente esquece as últimas horas.
 - ai-memory captura e consolida em markdown pesquisável.
@@ -746,7 +704,7 @@ Restam: ~41:03 (40s)
 
 
 <!--
-Restam: ~39:38 (85s)
+Restam: ~40:13 (85s)
 
 - Aqui entra a comparação que eu acho mais forte de todas.
 - FrankMD de um lado.
@@ -774,7 +732,7 @@ Restam: ~39:38 (85s)
 
 
 <!--
-Restam: ~38:03 (95s)
+Restam: ~38:38 (95s)
 
 - Ferramenta: `bin/totalpass-metrics`, usando `tokei`
 - Recorte fechado em maio/2026
@@ -801,7 +759,7 @@ Restam: ~38:03 (95s)
 
 
 <!--
-Restam: ~36:33 (90s)
+Restam: ~37:08 (90s)
 
 - Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade.
 - Não porque o modelo escreve código perfeito.
@@ -823,7 +781,7 @@ Restam: ~36:33 (90s)
 
 
 <!--
-Restam: ~35:28 (65s)
+Restam: ~36:03 (65s)
 
 - A fantasia do prompt único é preguiçosa.
 - Ela parte da ideia de que dá pra prever e especificar tudo antes.
@@ -842,7 +800,7 @@ Restam: ~35:28 (65s)
 </div>
 
 <!--
-Restam: ~35:16 (12s)
+Restam: ~35:51 (12s)
 
 - O repositório que sustenta todo o argumento que vem a seguir.
 - 4 rodadas documentadas: 5/abr (original), 18/abr (multi-modelo), 24/abr (canonical), 25/abr (orquestração), 4/mai (DeepSeek via DeepClaude).
@@ -861,7 +819,7 @@ Restam: ~35:16 (12s)
 </div>
 
 <!--
-Restam: ~35:04 (12s)
+Restam: ~35:39 (12s)
 
 - 34 modelos scored, score 0-100, Tier A/B/C/D.
 - Topo segue: Opus 4.7 e GPT 5.4 xHigh empatam em 97; GPT 5.5 vem em 96; Opus 4.8 em 95.
@@ -887,7 +845,7 @@ Restam: ~35:04 (12s)
 <div class="caption">A virada de junho: agora são 34 modelos scored. Fechado ainda lidera, mas o miolo do Tier A ficou mais apertado: Fable 5, Gemini 3.5 Flash, Kimi e GLM encostaram.</div>
 
 <!--
-Restam: ~33:59 (65s)
+Restam: ~34:34 (65s)
 
 - Em junho de 2026, leitura prática: Anthropic e OpenAI ainda lideram código sério.
 - Topo: Opus 4.7 e GPT 5.4 empatados em 97; GPT 5.5 em 96; Opus 4.8 em 95.
@@ -918,7 +876,7 @@ Restam: ~33:59 (65s)
 <div class="caption">Artigos: akitaonrails.com — benchmark canonical 24/abr/26 + updates de junho (Fable 5, Gemini 3.5 Flash, Kimi K2.7 Code, GLM 5.2)</div>
 
 <!--
-Restam: ~32:24 (95s)
+Restam: ~32:59 (95s)
 
 - Benchmark: 34 modelos scored, mesmo runner, mesma task (app Rails com RubyLLM).
 - Rubrica em 8 dimensões: completude, RubyLLM, testes, error handling, persistência, Hotwire, arquitetura, prod-ready. Score 0-100, Tier A/B/C/D.
@@ -946,7 +904,7 @@ Restam: ~32:24 (95s)
 <div class="caption">Tamanho de modelo virou commodity. As três condições acima é que separam quem aguenta um agente real — DeepSeek, por exemplo, falha hoje justamente por não fechar essas três.</div>
 
 <!--
-Restam: ~30:59 (85s)
+Restam: ~31:34 (85s)
 
 - Gancho: "por que só 4 modelos passaram no benchmark?"
 - Tamanho virou commodity — não é parâmetro, é infraestrutura
@@ -977,7 +935,7 @@ Restam: ~30:59 (85s)
 </div>
 
 <!--
-Restam: ~29:39 (80s)
+Restam: ~30:14 (80s)
 
 - Gancho: "intuição era que 'Coder' no nome seria melhor — deu o contrário"
 - 3 Qwen Coder testados, 2 falharam catastroficamente, 1 nem rodou
@@ -1009,7 +967,7 @@ Restam: ~29:39 (80s)
 <div class="caption" style="margin-top:18px;"><strong>Barato:</strong> CRUD, landing page, painel interno, bot, ETL, cola entre APIs. &nbsp;|&nbsp; <strong>Caro continua o que sempre foi:</strong> julgamento, arquitetura, operação, dono do problema.</div>
 
 <!--
-Restam: ~28:09 (90s)
+Restam: ~28:44 (90s)
 
 - Ponto conceitual: não é que modelo ficou perfeito, é que errar ficou BARATO
 - Chave da virada: ciclo de feedback curto → stack trace → conserto → retry em segundos
@@ -1045,7 +1003,7 @@ Restam: ~28:09 (90s)
 <div class="caption">Estimativa pra uso moderado de coding (~15M input + ~3M output tokens/mês).</div>
 
 <!--
-Restam: ~26:44 (85s)
+Restam: ~27:19 (85s)
 
 - Suposição do benchmark: ~15M tokens input + ~3M output por mês (uso moderado de coding)
 - GPT 5.4 Pro via API: $180/M output tokens — vira os ~$990/mês; no benchmark, ~$16/run.
@@ -1056,6 +1014,41 @@ Restam: ~26:44 (85s)
 - Tier A barato entrou na conta: Kimi K2.6 e Kimi K2.7 Code a ~$0.30/run; GLM 5.2 via assinatura.
 - Disclaimer honesto: provavelmente subsidiado, pode não durar pra sempre
 - Contexto: Anthropic preparando IPO em 2026 pressiona essa margem (puxa pro slide seguinte)
+-->
+---
+
+<!-- _class: center tone-ruby -->
+![bg cover opacity:.10](../assets/offline/bg-altman-amodei.jpg)
+<div class="eyebrow">Fundadores Viraram Personagens</div>
+<div class="source-url">Fontes: Sam Altman/Village Global CC BY 2.0 • Dario Amodei/TechCrunch-Kimberly White CC BY 2.0 • fundo/No 10 Downing Street</div>
+
+# Heróis ou <span class="em-ruby">Vilões</span>
+
+<div style="display:flex;gap:34px;align-items:stretch;justify-content:center;margin-top:18px;max-width:1040px;margin-left:auto;margin-right:auto;">
+  <div class="card" style="flex:1 1 0;padding:18px 18px 22px;text-align:left;">
+    <img src="../assets/offline/altman-portrait.jpg" alt="Sam Altman" style="width:100%;height:310px;object-fit:cover;object-position:center 8%;border-radius:14px;box-shadow:0 14px 28px rgba(0,0,0,0.18);" />
+    <div style="font-size:1.05em;font-weight:900;margin-top:14px;">Sam Altman</div>
+    <div class="mini">OpenAI • hype, escala e Elon processando</div>
+  </div>
+  <div class="card" style="flex:1 1 0;padding:18px 18px 22px;text-align:left;">
+    <img src="../assets/offline/amodei-portrait.jpg" alt="Dario Amodei" style="width:100%;height:310px;object-fit:cover;object-position:center 32%;border-radius:14px;box-shadow:0 14px 28px rgba(0,0,0,0.18);" />
+    <div style="font-size:1.05em;font-weight:900;margin-top:14px;">Dario Amodei</div>
+    <div class="mini">Anthropic • shutdown, Fable 5 e Mythos 5</div>
+  </div>
+</div>
+
+<div class="caption" style="margin-top:18px;">Mocinho e vilão é narrativa. O motor real é margem, compute e distribuição.</div>
+
+<!--
+Restam: ~26:44 (35s)
+
+- Depois do preço, é tentador transformar tudo em novela de fundador.
+- Sam e Dario viraram símbolos: aceleração vs cautela, OpenAI vs Anthropic.
+- Sam: hype, escala, e Elon processando. Dario: Fable 5, Mythos 5 e shutdown do governo.
+- Mas o motor real é margem, compute, assinatura subsidiada, API cara, IPO e distribuição.
+- Retratos: Sam by Village Global; Dario at TechCrunch Disrupt 2023 by TechCrunch/Kimberly White; ambos CC BY 2.0.
+- Não torcer por personagem; entender incentivo.
+- Ponte: quem controla custo e hardware empurra o mercado — entra a China.
 -->
 ---
 
@@ -1123,6 +1116,59 @@ Restam: ~26:04 (15s)
 - Implicação: a tomada e o chip viraram parte da mesma briga.
 -->
 ---
+<!-- _class: center tone-sand -->
+<div class="eyebrow">Hardware local de IA</div>
+
+# DGX Spark:<br><span class="em-moss">appliance, não revolução</span>
+
+<div style="display:flex;gap:28px;align-items:center;max-width:1080px;margin:18px auto 0 auto;text-align:left;">
+<div style="flex:0 0 43%;text-align:center;">
+<img src="../assets/nvidia-dgx-spark.jpg" alt="NVIDIA DGX Spark" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
+<div class="caption" style="font-size:0.52em;margin-top:6px;text-align:center;">Imagem: NVIDIA Newsroom</div>
+</div>
+<div style="flex:1 1 auto;">
+<div class="columns" style="margin-top:0;">
+<div class="card"><strong>GB10</strong><div class="mini">Grace Blackwell Superchip</div></div>
+<div class="card"><strong>128 GB</strong><div class="mini">memória unificada</div></div>
+</div>
+<div class="columns" style="margin-top:14px;">
+<div class="card"><strong>1 PFLOP FP4</strong><div class="mini">~RTX 5070 em AI TOPS</div></div>
+<div class="card"><strong>CPU Arm</strong><div class="mini">MediaTek co-design, 20 cores</div></div>
+</div>
+<div class="lead" style="max-width:none;text-align:left;margin:18px 0 0 0;font-size:1.0em;">Parece mais um “smartphone Android bombado” em formato de desktop do que outro salto de fronteira.</div>
+</div>
+</div>
+
+<!--
+Restam: ~25:19 (45s)
+
+- Nome oficial: NVIDIA DGX Spark, antes Project DIGITS.
+- GB10 Grace Blackwell, 128GB unificada, até 1 PFLOP FP4, 4TB NVMe.
+- CPU é Arm/MediaTek co-design; GPU fica perto de RTX 5070 em AI TOPS.
+- Insight: bom appliance local pra protótipo/fine-tuning/inferência; não é revolução de treino frontier.
+-->
+---
+
+<!-- _class: center tone-ruby -->
+![bg cover opacity:.12](../assets/offline/bg-layoff-box.jpg)
+<div class="eyebrow">A Correção</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Employee_Packing_Things_Into_Box.jpg</div>
+
+# Empresas e Profissionais<br><span class="em-ruby">ruins vão sair</span>
+
+## e isso melhora a indústria
+
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Se você é o tipo que espera alguém te dizer o que fazer, você não sabe como pedir coisas pra IA.</div>
+
+<!--
+Restam: ~24:19 (60s)
+
+- Aqui é a parte em que eu paro de fingir diplomacia.
+- Empresas ruins e profissionais ruins vão sair.
+- Se você espera alguém te dizer o que fazer, você também não sabe pedir coisas pra IA.
+- A indústria passou anos trocando engenharia por competência fake e dívida técnica.
+-->
+---
 
 <!-- _class: center -->
 ![bg cover opacity:.12](../assets/offline/bg-foundation.jpg)
@@ -1139,7 +1185,7 @@ Restam: ~26:04 (15s)
 </div>
 
 <!--
-Restam: ~25:04 (60s)
+Restam: ~23:19 (60s)
 
 - É por isso que o Akita antigo continua valendo.
 - Não terceirize sua decisão.
@@ -1159,59 +1205,11 @@ Restam: ~25:04 (60s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A lógica continua a mesma: experimento pequeno, feedback rápido, correção contínua.</div>
 
 <!--
-Restam: ~24:09 (55s)
+Restam: ~22:24 (55s)
 
 - O mais difícil de ensinar pra iniciante é isso: julgamento não é uma coisa que você baixa pronta.
 - Não vem de influencer, não vem de bootcamp, não vem de modelo.
 - O modelo mental continua o mesmo: experimento pequeno na beira do caos, erro cedo, retorno rápido, correção contínua.
--->
----
-
-<!-- _class: center tone-moss -->
-![bg cover opacity:.10](../assets/offline/bg-agile-lifecycle.jpg)
-<div class="eyebrow">Nome Verdadeiro</div>
-
-# <span style="font-size:1.35em;font-weight:900;letter-spacing:-0.02em;">Agile Vibe Coding</span>
-
-## <span style="font-size:1.25em;font-weight:700;">é XP com pareamento de máquina</span>
-
-<div class="columns-3">
-  <div class="card"><strong>TDD</strong><div class="mini">segura erro de modelo antes de virar lama</div></div>
-  <div class="card"><strong>CI por commit</strong><div class="mini">pega drift e regressão cedo</div></div>
-  <div class="card"><strong>Refatoração contínua</strong><div class="mini">evita cirurgia cara depois</div></div>
-</div>
-
-<!--
-Restam: ~22:39 (90s)
-
-- Agile Vibe Coding é XP com pareamento de máquina. A estrutura por baixo é velha.
-- TDD não é perfumaria. Segura erro de modelo antes de virar lama.
-- CI por commit pega drift e regressão cedo.
-- Refatoração contínua evita cirurgia cara depois.
--->
----
-
-<!-- _class: center tone-moss -->
-![bg cover opacity:.14](../assets/offline/bg-pair-programming.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Pair_Programming.jpg</div>
-
-# O pareamento mudou
-
-<div class="columns">
-  <div class="card"><strong>Eu trago</strong><br />direção, julgamento, contexto, gosto</div>
-  <div class="card"><strong>O agente traz</strong><br />velocidade de execução, busca, fôlego operacional</div>
-</div>
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">IA é espelho: sênior bom ganha alavancagem, programador ruim ganha velocidade pra errar.</div>
-
-
-<!--
-Restam: ~21:09 (90s)
-
-- O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto.
-- O agente traz velocidade de execução, busca e fôlego operacional.
-- Se eu reduzo o agente a digitador burro, piora.
-- Se eu entrego produto e arquitetura pra ele sozinho, piora também.
 -->
 ---
 <!-- _class: center tone-ruby -->
@@ -1242,7 +1240,7 @@ Restam: ~21:09 (90s)
 <div class="lead" style="max-width:980px;margin:18px auto 0 auto;text-align:center;">IA não adivinha o que você não consegue medir.</div>
 
 <!--
-Restam: ~20:09 (60s)
+Restam: ~21:24 (60s)
 
 - Insight novo: muita gente acha que o problema é saber escrever prompt.
 - O problema real vem antes: a pessoa não sabe descrever o problema objetivamente.
@@ -1252,241 +1250,173 @@ Restam: ~20:09 (60s)
 -->
 ---
 <!-- _class: center tone-moss -->
-<div class="eyebrow">Akita antigo continua certo</div>
+<div class="eyebrow">Ritmo de agente</div>
 
-# Eu já tinha ensinado
+# O sprint ideal
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px;max-width:980px;margin-left:auto;margin-right:auto;">
-  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-xjjX3R2WuoM.jpg" alt="Esqueça Metodologias Ágeis" style="width:100%;border-radius:14px;box-shadow:0 14px 30px rgba(0,0,0,0.26);" />
-  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-6S94h3xSbnI.jpg" alt="O Guia Definitivo de Organizações" style="width:100%;border-radius:14px;box-shadow:0 14px 30px rgba(0,0,0,0.26);" />
-  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-2tpshOTtleM.jpg" alt="Discutindo Gestão" style="width:100%;border-radius:14px;box-shadow:0 14px 30px rgba(0,0,0,0.26);" />
-  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-SmYQcaP1Jgw.jpg" alt="Modelagem de Software é Difícil" style="width:100%;border-radius:14px;box-shadow:0 14px 30px rgba(0,0,0,0.26);" />
+<div style="display:flex;gap:18px;align-items:stretch;max-width:1060px;margin:18px auto 0 auto;text-align:center;">
+<div class="card" style="flex:0 0 145px;padding:20px 16px;background:rgba(178,70,63,0.16);border:2px solid #b2463f;display:flex;flex-direction:column;justify-content:center;gap:18px;">
+<div style="font-size:0.72em;font-weight:900;color:#8a2f2a;letter-spacing:0.08em;text-transform:uppercase;">não</div>
+<div style="font-size:0.94em;font-weight:900;line-height:1.08;color:#8a2f2a;">planning<br />longo</div>
+<div style="height:3px;background:#b2463f;border-radius:99px;"></div>
+<div style="font-size:0.94em;font-weight:900;line-height:1.08;color:#8a2f2a;">backlog<br />gigante</div>
 </div>
-
-<div class="lead" style="max-width:980px;margin:18px auto 0 auto;text-align:center;">O problema não nasceu com a IA. Só ficou mais caro fingir que não existia.</div>
+<div style="flex:1 1 auto;display:flex;flex-direction:column;gap:14px;">
+<div class="card" style="padding:18px 20px;background:rgba(107,142,90,0.22);border:2px solid #6b8e5a;">
+<div style="font-size:0.64em;font-weight:900;color:#46633d;letter-spacing:0.10em;text-transform:uppercase;margin-bottom:10px;">manhã</div>
+<div style="display:flex;align-items:center;justify-content:center;gap:22px;">
+<div style="width:78px;height:78px;border-radius:50%;border:3px solid #46633d;background:#f5f0dc;display:flex;align-items:center;justify-content:center;font-size:0.88em;font-weight:900;color:#46633d;">PM</div>
+<div style="font-size:1.55em;font-weight:900;color:#46633d;">→</div>
+<div style="width:104px;height:78px;border-radius:20px;border:3px solid #46633d;background:#f5f0dc;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#46633d;line-height:1.1;"><strong style="font-size:0.84em;">dev</strong><span style="font-size:0.62em;font-weight:800;">+ LLM</span></div>
+</div>
+<div class="mini" style="margin-top:10px;color:#46633d;font-weight:800;">objetivo claro + corte de escopo</div>
+</div>
+<div class="card" style="padding:18px 20px;background:rgba(107,142,90,0.22);border:2px solid #6b8e5a;">
+<div style="font-size:0.64em;font-weight:900;color:#46633d;letter-spacing:0.10em;text-transform:uppercase;margin-bottom:10px;">tarde</div>
+<div style="display:flex;align-items:center;justify-content:center;gap:22px;">
+<div style="width:78px;height:78px;border-radius:50%;border:3px solid #46633d;background:#f5f0dc;display:flex;align-items:center;justify-content:center;font-size:0.88em;font-weight:900;color:#46633d;">QA</div>
+<div style="font-size:1.55em;font-weight:900;color:#46633d;">→</div>
+<div style="width:104px;height:78px;border-radius:20px;border:3px solid #46633d;background:#f5f0dc;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#46633d;line-height:1.1;"><strong style="font-size:0.84em;">dev</strong><span style="font-size:0.62em;font-weight:800;">+ LLM</span></div>
+</div>
+<div class="mini" style="margin-top:10px;color:#46633d;font-weight:800;">validação rápida + borda do problema</div>
+</div>
+</div>
+<div class="card" style="flex:0 0 265px;padding:22px 18px;background:rgba(255,248,231,0.70);display:flex;flex-direction:column;justify-content:space-between;">
+<div>
+<strong style="font-size:0.88em;display:block;margin-bottom:14px;">rotação na semana</strong>
+<div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;"><span class="mini" style="padding:9px 12px;border-radius:13px;background:rgba(107,142,90,0.22);border:1px solid #6b8e5a;font-weight:900;">dev 1</span><span class="mini" style="padding:9px 12px;border-radius:13px;background:rgba(107,142,90,0.22);border:1px solid #6b8e5a;font-weight:900;">dev 2</span><span class="mini" style="padding:9px 12px;border-radius:13px;background:rgba(107,142,90,0.22);border:1px solid #6b8e5a;font-weight:900;">dev N</span></div>
+<div style="font-size:1.3em;color:#46633d;font-weight:900;margin-top:8px;">↻</div>
+</div>
+<div style="margin-top:12px;padding:16px;border-radius:18px;background:rgba(178,70,63,0.14);border:2px solid #b2463f;"><strong style="font-size:0.86em;color:#8a2f2a;">tech lead</strong><div class="mini" style="margin-top:8px;color:#8a2f2a;font-weight:800;">arquitetura<br />refatoração</div></div>
+</div>
+</div>
+<div class="lead" style="max-width:960px;margin:16px auto 0 auto;text-align:center;font-size:1.0em;">menos backlog parado, mais conversa com código rodando</div>
 
 <!--
-Restam: ~19:24 (45s)
+Restam: ~20:24 (60s)
+
+- Ideia visual: sprint menor, muito mais pareamento e feedback.
+- Manhã: PM + programador com LLM, objetivo e corte de escopo.
+- Tarde: QA + programador com LLM, validação e borda do problema.
+- Roda pelos programadores; tech lead entra pontualmente pra arquitetura e refatoração.
+-->
+---
+<!-- _class: center tone-moss -->
+<div class="eyebrow">Novo custo do ciclo</div>
+
+# Codar é Barato.<br><span class="em-moss">Errar é Barato.</span>
+
+<div style="display:flex;gap:12px;align-items:stretch;max-width:980px;margin:20px auto 0 auto;text-align:center;">
+<div class="card" style="flex:0 0 205px;padding:24px 16px;background:rgba(178,70,63,0.14);border:2px solid #b2463f;display:flex;flex-direction:column;justify-content:center;gap:16px;">
+<div style="font-size:0.72em;font-weight:900;color:#8a2f2a;letter-spacing:0.10em;text-transform:uppercase;">antes</div>
+<div style="font-size:1.15em;font-weight:900;line-height:1.08;color:#8a2f2a;">codar caro</div>
+<div style="font-size:1.45em;font-weight:900;color:#8a2f2a;">↓</div>
+<div class="mini" style="font-weight:900;color:#8a2f2a;line-height:1.25;">menos protótipo<br />mais aposta grande</div>
+</div>
+
+<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:center;gap:14px;">
+<div style="display:flex;align-items:center;justify-content:center;gap:12px;">
+<div class="card" style="width:112px;padding:18px 10px;background:rgba(107,142,90,0.22);border:2px solid #6b8e5a;"><strong style="font-size:0.72em;color:#46633d;">hipótese</strong></div>
+<div style="font-size:1.35em;color:#46633d;font-weight:900;">→</div>
+<div class="card" style="width:112px;padding:18px 10px;background:rgba(107,142,90,0.22);border:2px solid #6b8e5a;"><strong style="font-size:0.72em;color:#46633d;">protótipo</strong></div>
+<div style="font-size:1.35em;color:#46633d;font-weight:900;">→</div>
+<div class="card" style="width:112px;padding:18px 10px;background:rgba(107,142,90,0.22);border:2px solid #6b8e5a;"><strong style="font-size:0.72em;color:#46633d;">teste</strong></div>
+</div>
+<div style="display:flex;align-items:center;justify-content:center;gap:18px;margin-top:4px;">
+<div class="card" style="width:180px;padding:20px 14px;background:rgba(178,70,63,0.13);border:2px solid #b2463f;"><strong style="font-size:0.78em;color:#8a2f2a;">ideia ruim?</strong><br /><span class="mini" style="color:#8a2f2a;font-weight:900;">joga fora cedo</span></div>
+<div style="font-size:1.6em;color:#3c2f2f;font-weight:900;">↺</div>
+<div class="card" style="width:180px;padding:20px 14px;background:rgba(107,142,90,0.24);border:2px solid #6b8e5a;"><strong style="font-size:0.78em;color:#46633d;">ideia boa?</strong><br /><span class="mini" style="color:#46633d;font-weight:900;">segue com confiança</span></div>
+</div>
+</div>
+
+<div class="card" style="flex:0 0 205px;padding:24px 16px;background:rgba(107,142,90,0.18);border:2px solid #6b8e5a;display:flex;flex-direction:column;justify-content:center;gap:16px;">
+<div style="font-size:0.72em;font-weight:900;color:#46633d;letter-spacing:0.10em;text-transform:uppercase;">agora</div>
+<div style="font-size:1.15em;font-weight:900;line-height:1.08;color:#46633d;">codar barato</div>
+<div style="font-size:1.45em;font-weight:900;color:#46633d;">↓</div>
+<div class="mini" style="font-weight:900;color:#46633d;line-height:1.25;">mais experimento<br />menos achismo</div>
+</div>
+</div>
+
+<div class="lead" style="max-width:940px;margin:16px auto 0 auto;text-align:center;font-size:1.0em;">oportunidade: errar pequeno, aprender rápido, seguir melhor</div>
+
+<!--
+Restam: ~19:24 (60s)
+
+- Antes, protótipo e POC eram caros demais; por isso todo mundo tentava acertar no planejamento.
+- Com LLM, codar fica mais barato e errar também fica mais barato.
+- O ganho é testar mais hipóteses, matar ideias ruins cedo e seguir com mais confiança.
+- Mensagem: não é virar irresponsável; é reduzir o custo do aprendizado.
+-->
+---
+
+<!-- _class: center tone-moss -->
+![bg cover opacity:.10](../assets/offline/bg-agile-lifecycle.jpg)
+<div class="eyebrow">Nome Verdadeiro</div>
+
+# <span style="font-size:1.35em;font-weight:900;letter-spacing:-0.02em;">Agile Vibe Coding</span>
+
+## <span style="font-size:1.25em;font-weight:700;">é XP com pareamento de máquina</span>
+
+<div class="columns-3">
+  <div class="card"><strong>TDD</strong><div class="mini">segura erro de modelo antes de virar lama</div></div>
+  <div class="card"><strong>CI por commit</strong><div class="mini">pega drift e regressão cedo</div></div>
+  <div class="card"><strong>Refatoração contínua</strong><div class="mini">evita cirurgia cara depois</div></div>
+</div>
+
+<!--
+Restam: ~17:54 (90s)
+
+- Agile Vibe Coding é XP com pareamento de máquina. A estrutura por baixo é velha.
+- TDD não é perfumaria. Segura erro de modelo antes de virar lama.
+- CI por commit pega drift e regressão cedo.
+- Refatoração contínua evita cirurgia cara depois.
+-->
+---
+
+<!-- _class: center tone-moss -->
+![bg cover opacity:.14](../assets/offline/bg-pair-programming.jpg)
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Pair_Programming.jpg</div>
+
+# O pareamento mudou
+
+<div class="columns">
+  <div class="card"><strong>Eu trago</strong><br />direção, julgamento, contexto, gosto</div>
+  <div class="card"><strong>O agente traz</strong><br />velocidade de execução, busca, fôlego operacional</div>
+</div>
+
+<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">IA é espelho: sênior bom ganha alavancagem, programador ruim ganha velocidade pra errar.</div>
+
+
+<!--
+Restam: ~16:24 (90s)
+
+- O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto.
+- O agente traz velocidade de execução, busca e fôlego operacional.
+- Se eu reduzo o agente a digitador burro, piora.
+- Se eu entrego produto e arquitetura pra ele sozinho, piora também.
+-->
+---
+<!-- _class: center tone-moss -->
+<div class="eyebrow">Akita antigo continua certo</div>
+
+# <span style="font-size:0.92em;">Eu já tinha ensinado</span>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:4px;max-width:820px;margin-left:auto;margin-right:auto;">
+  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-xjjX3R2WuoM.jpg" alt="Esqueça Metodologias Ágeis" style="display:block;width:100%;border-radius:12px;box-shadow:0 10px 22px rgba(0,0,0,0.22);" />
+  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-6S94h3xSbnI.jpg" alt="O Guia Definitivo de Organizações" style="display:block;width:100%;border-radius:12px;box-shadow:0 10px 22px rgba(0,0,0,0.22);" />
+  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-2tpshOTtleM.jpg" alt="Discutindo Gestão" style="display:block;width:100%;border-radius:12px;box-shadow:0 10px 22px rgba(0,0,0,0.22);" />
+  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-SmYQcaP1Jgw.jpg" alt="Modelagem de Software é Difícil" style="display:block;width:100%;border-radius:12px;box-shadow:0 10px 22px rgba(0,0,0,0.22);" />
+</div>
+
+<div class="lead" style="max-width:900px;margin:8px auto 0 auto;text-align:center;font-size:0.86em;">O problema não nasceu com a IA. Só ficou mais caro fingir que não existia.</div>
+
+<!--
+Restam: ~15:39 (45s)
 
 - Quatro vídeos em português: agilidade, organização, gestão e modelagem.
 - A tese não começou com LLM. O que eu cobrava antes continua valendo agora.
 - IA não substitui clareza de problema, processo, modelagem e responsabilidade.
 - Agora a falta disso aparece mais rápido.
--->
----
-
-<!-- _class: center tone-ruby -->
-![bg cover opacity:.12](../assets/offline/bg-layoff-box.jpg)
-<div class="eyebrow">A Correção</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Employee_Packing_Things_Into_Box.jpg</div>
-
-# Empresas e Profissionais<br><span class="em-ruby">ruins vão sair</span>
-
-## e isso melhora a indústria
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Se você é o tipo que espera alguém te dizer o que fazer, você não sabe como pedir coisas pra IA.</div>
-
-<!--
-Restam: ~18:24 (60s)
-
-- Aqui é a parte em que eu paro de fingir diplomacia.
-- Empresas ruins e profissionais ruins vão sair.
-- Se você espera alguém te dizer o que fazer, você também não sabe pedir coisas pra IA.
-- A indústria passou anos trocando engenharia por competência fake e dívida técnica.
--->
----
-
-<!-- _class: center tone-ruby -->
-![bg cover opacity:.16](../assets/offline/thumb-asamiarts.jpg)
-<div class="eyebrow">A Analogia</div>
-
-# Mesmo medo.
-
-## “IA vai substituir artista.”  
-## “IA vai substituir programador.”
-
-<!--
-Restam: ~17:39 (45s)
-
-- Pra explicar o pânico atual, eu quero fazer uma tangente rápida com um universo que eu acompanho por hobby: drama de VTuber e drama de arte.
-- O padrão emocional é o mesmo.
-- No mundo da arte dizem que IA vai substituir artista.
-- No nosso dizem que IA vai substituir programador.
--->
----
-
-<!-- _class: center tone-ruby -->
-# Caso AsamiArts
-
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <div class="card">
-      <strong>Isso não é só drama de internet</strong><br />
-      tem mercado, comissão e renda real em volta disso
-    </div>
-    <div class="lead" style="max-width:none;">O ponto aqui não é fofoca. É processo falso vendido como habilidade real dentro de um mercado que vive de confiança.</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/vgen.jpg" alt="Marketplace VGen" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
-  </div>
-</div>
-
-<!--
-Restam: ~16:44 (55s)
-
-- O caso da AsamiArts me interessa não pela fofoca, mas pelo mecanismo.
-- Isso não afeta só ego de artista no Twitter.
-- Tem mercado real de comissão em volta disso.
-- Quando processo falso entra, confiança sai.
--->
----
-
-<!-- _class: center tone-ruby -->
-# Tracing sem processo
-
-<!-- pptx-video: asamiarts-tracing -->
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <ul>
-      <li>não aparece construção bruta antes</li>
-      <li>não aparece ida e volta de correção</li>
-      <li>não aparece undo, hesitação, ajuste de proporção</li>
-      <li>parece “mão firme”, mas parece firme demais</li>
-    </ul>
-    <div class="caption">No HTML e no PPTX com vídeo: reprodução automática em loop.</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <video
-      src="../assets/asamiarts tracing.mp4"
-      poster="../assets/asamiarts tracing.jpg"
-      autoplay
-      muted
-      loop
-      playsinline
-      preload="auto"
-      style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);background:#000;"
-    ></video>
-  </div>
-</div>
-
-<!--
-Restam: ~15:39 (65s)
-
-- Aqui é onde eu mostro o que um tracing falso tenta vender.
-- Não tem sketch feio antes.
-- Não tem correção de construção no meio.
-- Sai limpo demais, reto demais, confiante demais.
--->
----
-
-<!-- _class: center tone-ruby -->
-# A camada escondida
-
-<!-- pptx-video: tracing-hidden-layer -->
-<div style="display:flex;gap:34px;align-items:center;text-align:left;">
-  <div style="flex:0 0 48%;">
-    <ul>
-      <li>o vídeo não mostra o desenho “nascendo” de verdade</li>
-      <li>minha leitura é que existe uma camada base escondida por trás</li>
-      <li>o verde parece estar ali para sumir na edição</li>
-      <li>sem a camada escondida, a mágica some</li>
-    </ul>
-    <div class="caption">Inferência a partir do vídeo: isso parece <span class="em-ruby">truque</span> de gravação, não processo honesto.</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <video
-      src="../assets/tracing, hidden layer vertical.mp4"
-      poster="../assets/tracing, hidden layer vertical.jpg"
-      autoplay
-      muted
-      loop
-      playsinline
-      preload="auto"
-      style="height:430px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);background:#000;"
-    ></video>
-  </div>
-</div>
-
-<!--
-Restam: ~14:34 (65s)
-
-- Esse é o pedaço mais importante.
-- Minha leitura é que o vídeo esconde uma camada pronta por trás.
-- O verde parece estar ali justamente para ser filtrado depois.
-- O vídeo vende tracing; o truque está na composição.
--->
----
-
-<!-- _class: center tone-ruby -->
-# A evolução não bate
-
-<div style="display:flex;gap:28px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <div class="card"><strong>em pouco tempo muda demais</strong><br />traço, rosto, acabamento e construção saltam sem continuidade</div>
-    <div class="lead" style="max-width:none;">Evolução humana existe, claro. O problema é quando a “mão” parece trocar de pessoa em intervalos curtos demais.</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/asamiart inconsistent evolution.jpg" alt="Exemplo de evolução inconsistente no caso AsamiArts" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
-  </div>
-</div>
-
-<!--
-Restam: ~13:34 (60s)
-
-- Outro sinal é a inconsistência.
-- Não é só “melhorou”.
-- A mão muda demais em pouco tempo.
-- Parece mistura de fontes diferentes, não evolução orgânica.
--->
----
-
-<!-- _class: center tone-ruby -->
-# A alucinação entrega
-
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <div class="card"><strong>o cano está do lado errado</strong><br />isso não é detalhe de estilo; é erro estrutural de entendimento</div>
-    <div class="lead" style="max-width:none;">É o mesmo tipo de erro que a gente já conhece em IA: a imagem parece plausível à primeira vista, mas desmonta quando você olha a anatomia do objeto.</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/asamiarts halucination.jpg" alt="Exemplo de alucinacao em arte com arma desenhada errada" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
-  </div>
-</div>
-
-<!--
-Restam: ~12:39 (55s)
-
-- Aqui entra a alucinação mais óbvia.
-- A arma parece arma até você olhar direito.
-- O cano está do lado errado.
-- Isso é erro de entendimento, não acabamento.
--->
----
-
-<!-- _class: center tone-ruby -->
-# LoRA é estilo empacotado
-
-<div style="display:flex;gap:28px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <ul>
-      <li>LoRA é um ajuste leve em cima de um modelo base</li>
-      <li>ele empurra o modelo para um traço, tema ou artista específico</li>
-      <li>a comunidade treinou muita LoRA com imagem pública e zero autorização</li>
-      <li>depois isso volta disfarçado de “meu estilo”</li>
-    </ul>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/asamiarts lora steal frame.jpg" alt="Exemplo de uso e roubo de estilos com LoRA" style="width:100%;height:440px;object-fit:contain;object-position:center top;background:#fff;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
-  </div>
-</div>
-
-<!--
-Restam: ~11:34 (65s)
-
-- E tem outra camada aí: LoRA.
-- LoRA é um ajuste leve em cima de um modelo base para puxar um traço específico.
-- O problema é que muita LoRA foi treinada com arte pública sem autorização.
-- Aí o roubo de estilo volta embalado como ferramenta.
 -->
 ---
 
@@ -1500,7 +1430,7 @@ Restam: ~11:34 (65s)
 ## Ele te acelera: se você for bom, fica ainda melhor. Se você for ruim, vai ficar ainda pior.
 
 <!--
-Restam: ~10:04 (90s)
+Restam: ~14:09 (90s)
 
 - IA não cria competência do nada.
 - Ela amplifica o que você já é.
@@ -1529,7 +1459,7 @@ Restam: ~10:04 (90s)
 </div>
 
 <!--
-Restam: ~08:24 (100s)
+Restam: ~12:29 (100s)
 
 - Júnior não morreu, só mudou de forma. Vai herdar a sujeira da era do vibe coding sem freio.
 - Aprender no projeto bagunçado é como gerações anteriores aprenderam. Não é tragédia, é cicatriz.
@@ -1549,7 +1479,7 @@ Restam: ~08:24 (100s)
 ## Fundamento. Disciplina. Iteração. Gosto.
 
 <!--
-Restam: ~06:49 (95s)
+Restam: ~10:54 (95s)
 
 - Parte dura: IA não transforma programador ruim em engenheiro. Ajuda a fazer estrago maior mais rápido.
 - E ajuda engenheiro de verdade a atravessar o caos mais rápido, sem deixar o software morrer.
@@ -1573,7 +1503,7 @@ Restam: ~06:49 (95s)
 </div>
 
 <!--
-Restam: ~06:24 (25s)
+Restam: ~10:29 (25s)
 
 - E já que é pra acabar sem falsa modéstia: se você curtiu essa palestra, assina o The M.Akita Chronicles.
 - Está tudo aí na tela.
@@ -1600,7 +1530,7 @@ Restam: ~06:24 (25s)
 </div>
 
 <!--
-Restam: ~06:14 (10s)
+Restam: ~10:19 (10s)
 
 - Merchan rápido: canal traduzido.
 - 150+ vídeos do Akitando em inglês.
@@ -1626,7 +1556,7 @@ Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo no PPTX 
 </div>
 
 <!--
-Restam: ~05:39 (35s)
+Restam: ~09:44 (35s)
 
 - E sim, já que o tema da palestra pede isso, este deck inteiro também foi feito com IA.
 - Pesquisa, estrutura, roteiro, notas, crops, builds e automação saíram do mesmo fluxo.
@@ -1650,7 +1580,7 @@ Restam: ~05:39 (35s)
 </div>
 
 <!--
-Restam: ~05:29 (10s)
+Restam: ~09:34 (10s)
 
 - Obrigado.
 - Os links estão aí embaixo.

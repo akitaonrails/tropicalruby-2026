@@ -32,20 +32,7 @@ class VideoSpec:
     placement: Placement
 
 
-VIDEO_SPECS: dict[str, VideoSpec] = {
-    "asamiarts-tracing": VideoSpec(
-        movie=ROOT / "assets" / "asamiarts tracing.mp4",
-        poster=ROOT / "assets" / "asamiarts tracing.jpg",
-        mime_type="video/mp4",
-        placement=Placement(left=0.468, top=0.258, width=0.448, height=0.448 * (9 / 16) * (13.333 / 7.5)),
-    ),
-    "tracing-hidden-layer": VideoSpec(
-        movie=ROOT / "assets" / "tracing, hidden layer vertical.mp4",
-        poster=ROOT / "assets" / "tracing, hidden layer vertical.jpg",
-        mime_type="video/mp4",
-        placement=Placement(left=0.714, top=0.148, width=0.223, height=0.804),
-    ),
-}
+VIDEO_SPECS: dict[str, VideoSpec] = {}
 
 
 def emu(value: float, full: int) -> Emu:

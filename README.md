@@ -79,7 +79,7 @@ The notes should stay shorter than the script:
 - use bullets, not prose blocks
 - keep them as speaking cues, not a second full manuscript
 - carry reminders that aren't visible on the slide itself (numbers, methodology, transition beats), not a restatement of what the audience is already reading
-- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently lands at ~05:29 of buffer remaining.
+- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently lands at ~09:34 of buffer remaining.
 
 If you add or rewrite visible text, do a cleanup pass so it still sounds human and spoken, not like generated copy.
 
@@ -99,9 +99,9 @@ The current deck has a deliberate three-act shape. Try not to break it casually 
 
 In the current version, that means:
 
-- the intro opens with the thesis, ties it back to older warnings, then uses AsamiArts and the Claude Code leak to frame the difference between fake-looking process and real work
+- the intro opens with the thesis, ties it back to older warnings, then moves into the Claude Code leak and the practical proof block
 - the mid-section peaks around the `2025 foi o ano dos Agentes` timeline, the `Dezembro de 2025 foi a Virada` hinge, the January 2026 trigger, the marathon wall of projects, `Alcançamos "Developer 10x"?`, and the `Ciclo do Agente / PILOTA` mechanism
-- the closing widens back out to XP discipline, the benchmark arc (slides 33-37), pricing economics, the energy-and-IPO speculation, market correction, juniors/seniors, and finally engineering as the durable thing
+- the closing widens back out to XP discipline, the benchmark arc (slides 32-36), pricing economics, the founder-narrative bridge, China/compute geopolitics, market correction, juniors/seniors, and finally engineering as the durable thing
 
 The ending currently has three layers on purpose:
 
