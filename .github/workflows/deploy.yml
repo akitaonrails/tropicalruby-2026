@@ -3,7 +3,7 @@ name: Build and deploy deck
 on:
   push:
     branches:
-      - beyondsummitey
+      - c3-expo-2026
   workflow_dispatch:
 
 permissions:
@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          lfs: true
 
       - name: Set up Node.js
         uses: actions/setup-node@v4

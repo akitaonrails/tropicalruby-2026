@@ -5,3 +5,4 @@ build/*
 !build/totalpass-2026.with-video.pptx
 .ai-jail
 .lobster/
+__pycache__/

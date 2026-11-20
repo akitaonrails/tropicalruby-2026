@@ -3,21 +3,21 @@ marp: true
 theme: tropical-ruby
 paginate: true
 html: true
-title: Beyond Summit 2026 - Agile Vibe Coding
+title: Canal 3 Expo 2026 - Retrogame na era das IAs
 author: Fabio Akita
-description: Keynote em pt-BR sobre agile vibe coding, agentes de IA, engenharia e o pós-bolha da programação.
+description: Palestra em pt-BR na Canal 3 Expo 2026 sobre IA, agentes de código e os launchers de retrogame que eu construí com eles.
 ---
 
-<!-- _class: title -->
-![bg right:41% cover](../assets/akita-upscaled-gemini31.png)
-<div class="eyebrow">Beyond Summit 2026 Keynote</div>
+<!-- _class: title ai ai-wine -->
+![bg right:41% cover](../assets/akita-portrait-cutout.png)
+<div class="eyebrow">Canal 3 Expo 2026 Keynote</div>
 
-# <span style="font-size:1.6em;display:block;line-height:1;">Agile</span><span style="display:block;margin-top:6px;">Vibe Coding</span>
+# <span style="font-size:1.4em;display:block;line-height:1;white-space:nowrap;">Retrogame</span><span style="display:block;margin-top:8px;white-space:nowrap;">na era das IAs</span>
 
-## Entendendo "IA" Direito
+## O que andei contribuindo
 
 <!--
-Restam: ~58:45 (75s)
+Restam: ~60:00 (75s)
 
 - Abrir direto: agente mudou o custo de construir software, não aboliu engenharia.
 - A pergunta fraca é “IA substitui programador?”; a pergunta útil é qual processo sobrevive quando errar ficou barato e entregar ficou rápido.
@@ -26,21 +26,21 @@ Restam: ~58:45 (75s)
 -->
 ---
 
-<!-- _class: center tone-moss -->
+<!-- _class: center ai ai-olive -->
 # Fabio Akita
 
 <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:24px;justify-content:center;">
   <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">Codeminer 42</strong><span class="mini">cofundador, hoje no conselho</span></div>
   <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">RubyConf Brasil</strong><span class="mini">fundador e organizador até 2016</span></div>
-  <div class="card" style="flex:0 0 calc(33.33% - 10px);background:rgba(107,142,90,0.24);border:2px solid #6b8e5a;"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">akitaonrails.com ✦</strong><span class="mini">20 anos em 5 de abril de 2026, 700+ artigos, agora em pt-BR e en</span></div>
-  <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;"><svg width="22" height="22" viewBox="0 0 24 24" fill="#c4302b" style="vertical-align:-4px;margin-right:6px;"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.546 15.568V8.432L15.818 12l-6.272 3.568z"/></svg>@akitando</strong><span class="mini">500 mil+ seguidores no YouTube</span></div>
-  <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-3px;margin-right:6px;"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@akitaonrails</strong><span class="mini">83,7 mil seguidores no X</span></div>
+  <div class="card" style="flex:0 0 calc(33.33% - 10px);background:rgba(107,142,90,0.24);border:2px solid #6b8e5a;"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">akitaonrails.com ✦</strong><span class="mini">20 anos em 5 de abril de 2026, 830+ artigos, agora em pt-BR e en</span></div>
+  <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;"><svg width="22" height="22" viewBox="0 0 24 24" fill="#c4302b" style="vertical-align:-4px;margin-right:6px;"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.546 15.568V8.432L15.818 12l-6.272 3.568z"/></svg>@akitando</strong><span class="mini">575 mil inscritos no YouTube</span></div>
+  <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-3px;margin-right:6px;"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>@akitaonrails</strong><span class="mini">98,8 mil seguidores no X</span></div>
   <div class="card" style="flex:0 0 calc(33.33% - 10px);"><strong style="display:block;font-size:1.3em;margin-bottom:6px;">Flow + Inteligência Ltda</strong><span class="mini">alcance além da bolha tech</span></div>
 </div>
 
 
 <!--
-Restam: ~57:45 (60s)
+Restam: ~58:45 (60s)
 
 - Cards já mostram os números — aproveitar pra mencionar contexto
 - RubyConf Brasil: fundei e organizei até 2016
@@ -50,308 +50,78 @@ Restam: ~57:45 (60s)
 -->
 ---
 
-<!-- _class: statement -->
-![bg right:42% opacity:.18](../assets/offline/thumb-programacao-nao-e-facil.jpg)
-<div class="eyebrow">Arco Longo</div>
+<!-- _class: center ai ai-wine -->
+![bg cover opacity:.15 blur:7px](../assets/offline/bg-altman-amodei.jpg)
+<div class="eyebrow">CEOs Viraram Personagens</div>
+<div class="source-url">Fontes: Sam Altman/Village Global CC BY 2.0 • Dario Amodei/TechCrunch-Kimberly White CC BY 2.0 • Jensen Huang/Anders Eidesvik CC BY 4.0 • fundo/No 10 Downing Street</div>
 
-# O pânico da IA<br>caiu em cima<br>de uma <span class="em-ruby">bolha velha</span>.
+# Heróis ou <span class="em-ruby">Vilões</span>
 
-<div class="lead">Eu já vinha batendo na economia do programador fake antes de agentes de código prestarem pra alguma coisa.</div>
+<div style="display:flex;gap:24px;align-items:stretch;justify-content:center;margin-top:18px;max-width:1160px;margin-left:auto;margin-right:auto;">
+  <div class="card" style="flex:1 1 0;padding:18px 18px 22px;text-align:left;">
+    <img src="../assets/offline/altman-portrait.jpg" alt="Sam Altman" style="width:100%;height:290px;object-fit:cover;object-position:center 8%;border-radius:14px;box-shadow:0 14px 28px rgba(0,0,0,0.18);" />
+    <div style="font-size:1.05em;font-weight:900;margin-top:14px;">Sam Altman</div>
+    <div class="mini">OpenAI • hype, escala e Elon processando</div>
+  </div>
+  <div class="card" style="flex:1 1 0;padding:18px 18px 22px;text-align:left;">
+    <img src="../assets/offline/amodei-portrait.jpg" alt="Dario Amodei" style="width:100%;height:290px;object-fit:cover;object-position:center 32%;border-radius:14px;box-shadow:0 14px 28px rgba(0,0,0,0.18);" />
+    <div style="font-size:1.05em;font-weight:900;margin-top:14px;">Dario Amodei</div>
+    <div class="mini">Anthropic • shutdown, Fable 5 e Mythos 5</div>
+  </div>
+  <div class="card" style="flex:1 1 0;padding:18px 18px 22px;text-align:left;">
+    <img src="../assets/offline/huang-portrait.jpg" alt="Jensen Huang" style="width:100%;height:290px;object-fit:cover;object-position:center 18%;border-radius:14px;box-shadow:0 14px 28px rgba(0,0,0,0.18);" />
+    <div style="font-size:1.05em;font-weight:900;margin-top:14px;">Jensen Huang</div>
+    <div class="mini">Nvidia • DLSS 5, China e escândalo pessoal</div>
+  </div>
+</div>
+
+<div class="caption" style="margin-top:18px;">Mocinho e vilão é narrativa. O motor real é margem, compute e distribuição.</div>
 
 <!--
-Restam: ~56:50 (55s)
+Restam: ~57:45 (45s)
 
-- Eu não comecei a falar disso quando IA virou moda.
-- Eu já vinha batendo na bolha da programação, na economia do programador ruim, nas promessas de curso e bootcamp, muito antes de agente de código prestar pra alguma coisa.
-- A IA não inventou essa fraqueza.
-- Ela só escancarou mais rápido.
+- Tentação comum: transformar tudo em novela de CEO.
+- Sam: hype, escala, e Elon processando. Dario: Fable 5, Mythos 5 e shutdown do governo.
+- Jensen: gamer odiou o DLSS 5 e ele disse que os críticos estão "completamente errados"; briga pública contra o bloqueio de chips pra China.
+- Jensen, escândalo pessoal (nov/2026): NYT e SF Standard reportam casos extraconjugais e investigação interna na Nvidia. Espionagem/"honeypot" chinês é boato de fonte anônima: NÃO afirmar como fato. Nenhuma decisão oficial do board até 19/nov.
+- Mas o motor real é margem, compute, assinatura subsidiada, API cara, IPO e distribuição.
+- Retratos: Sam by Village Global; Dario at TechCrunch Disrupt 2023 by TechCrunch/Kimberly White; ambos CC BY 2.0. Jensen em Stanford 2026 por Anders Eidesvik, CC BY 4.0.
+- Ponte: pra entender incentivo, começa pelo básico — o que essa tecnologia é de verdade.
 -->
 ---
 
-<!-- _class: center tone-ruby -->
-![bg cover opacity:.12](../assets/offline/bg-empty-office.jpg)
-<div class="eyebrow">Crunchbase Tech Layoffs Tracker</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Empty_office.jpg</div>
-
-# Meio milhão de demitidos<br>em tech <span class="em-ruby">desde 2022</span>
-
-<div style="display:grid;grid-template-columns:repeat(4, 1fr);gap:14px;margin-top:8px;max-width:1100px;margin-left:auto;margin-right:auto;">
-  <div class="card" style="padding:14px 10px;text-align:center;">
-    <div style="font-size:0.78em;opacity:0.75;">2022</div>
-    <div style="font-size:1.8em;font-weight:700;line-height:1.05;">93K+</div>
-    <div style="font-size:0.62em;opacity:0.7;margin-top:4px;">a correção começa</div>
-  </div>
-  <div class="card" style="padding:14px 10px;text-align:center;">
-    <div style="font-size:0.78em;opacity:0.75;">2023</div>
-    <div style="font-size:1.8em;font-weight:700;line-height:1.05;">191K+</div>
-    <div style="font-size:0.62em;opacity:0.7;margin-top:4px;">pico do techlash</div>
-  </div>
-  <div class="card" style="padding:14px 10px;text-align:center;">
-    <div style="font-size:0.78em;opacity:0.75;">2024</div>
-    <div style="font-size:1.8em;font-weight:700;line-height:1.05;">95K+</div>
-    <div style="font-size:0.62em;opacity:0.7;margin-top:4px;">ritmo segue</div>
-  </div>
-  <div class="card" style="padding:14px 10px;text-align:center;">
-    <div style="font-size:0.78em;opacity:0.75;">2025</div>
-    <div style="font-size:1.8em;font-weight:700;line-height:1.05;">127K</div>
-    <div style="font-size:0.62em;opacity:0.7;margin-top:4px;">Intel 27K, Microsoft 15K</div>
-  </div>
-</div>
-
-<div style="display:flex;justify-content:center;gap:14px;margin-top:14px;max-width:1100px;margin-left:auto;margin-right:auto;">
-  <div class="card" style="padding:14px 18px;flex:1 1 0;">
-    <strong style="font-size:1.05em;">2026 já decolou</strong>
-    <div style="font-size:0.78em;margin-top:6px;line-height:1.4;">
-      <strong>Oracle:</strong> 20-30K demitidos por e-mail em 31/mar &nbsp;·&nbsp;
-      <strong>Meta:</strong> 8K cortados em maio (capex de IA subiu pra $145 bi) &nbsp;·&nbsp;
-      <strong>Abril:</strong> 83.387 cortes em tech, 21.490 atribuídos a IA
-    </div>
-  </div>
-</div>
-
-<div class="caption" style="margin-top:8px;font-size:0.62em;">Fontes: news.crunchbase.com/startups/tech-layoffs (atualizado 22/abr/26) · techcrunch.com (Oracle, 8/mai/26) · 247wallst.com (Meta, 8/mai/26)</div>
-
-<!--
-Restam: ~56:25 (25s)
-
-- ~507K demitidos em tech só nos EUA, 2022-2025 (Crunchbase tracker).
-- 2023 foi o pico: 191K. 2025 voltou a subir: 127K, liderado por Intel (27K), Microsoft (15K), Verizon (15K), Amazon (14,7K).
-- 2026 já decolou: Oracle 20-30K em 31/mar (por e-mail, severance fraco, RSUs perdidas), Meta 8K em maio.
-- Abril/26 sozinho: 83.387 cortes em tech, 21.490 já citando IA explicitamente.
-- Meta subiu capex de IA pra $125-145 bi em 2026 — CFO falou em "leaner operating model" pra compensar.
-- Crunchbase só conta EUA; total global é maior.
--->
----
-<!-- _class: center tone-ruby -->
-![bg cover opacity:.10](../assets/offline/thumb-cursos-nao-ensinam.jpg)
-<div class="eyebrow">Akitando, antes da IA virar moda</div>
-
-# A mentira antiga
-
-<div style="display:flex;gap:30px;align-items:center;max-width:1080px;margin:10px auto 0 auto;text-align:left;">
-<div style="flex:0 0 36%;display:flex;flex-direction:column;gap:12px;justify-content:center;">
-<img src="../assets/flow/eu-avisei-1.jpg" alt="O que os cursos não te ensinam sobre mercados" style="width:100%;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-<img src="../assets/flow/eu-avisei-2.jpg" alt="Rant: Programação não é fácil" style="width:100%;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-</div>
-<div style="flex:1 1 auto;">
-<div class="lead" style="max-width:none;text-align:left;font-size:1.15em;margin:0 0 16px 0;">“vire engenheiro de software em 2 meses”</div>
-<div class="columns" style="margin-top:0;">
-<div class="card"><strong>Fim de 2022</strong><br />layoffs vieram antes da IA saber programar direito</div>
-<div class="card"><strong>ChatGPT</strong><br />foi acelerador, não causa original</div>
-</div>
-<div class="card" style="margin-top:14px;background:rgba(178,70,63,0.16);border:2px solid #b2463f;"><strong>Eu já avisava:</strong> ferramenta não comprime julgamento de engenharia.</div>
-</div>
-</div>
-
-<!--
-Restam: ~55:05 (80s)
-
-- Dois vídeos antigos do canal puxam o ponto: a mentira não nasceu com IA.
-- A promessa era: curso rápido, salário alto, modo easy.
-- Layoffs começaram antes da IA programar direito.
-- ChatGPT acelerou a correção; não criou a fragilidade original.
--->
----
-
-<!-- _class: center tone-ruby -->
-![bg cover opacity:.18](../assets/offline/bg-waterfall.jpg)
-<div class="eyebrow">31 de março de 2026</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Maid_of_the_Mist_VII_approaching_the_Horseshoe_Falls,_West_view_20170418_1.jpg</div>
-
-# Claude Code vazou
-
-<div class="stats">
-  <div class="card"><strong>512 mil</strong><span class="mini">linhas de TypeScript</span></div>
-  <div class="card"><strong>1.900</strong><span class="mini">arquivos</span></div>
-  <div class="card"><strong>59,8 MB</strong><span class="mini">de mapa do código exposto</span></div>
-  <div class="card"><strong>6,5/10</strong><span class="mini">o “espaguete de sênior”</span></div>
-</div>
-
-
-<!--
-Restam: ~54:10 (55s)
-
-- 31 de março de 2026 — data do leak, poucos dias antes da palestra
-- CLI oficial da Anthropic deixou escapar source map: 512k linhas TypeScript, 1.900 arquivos, 59,8MB
-- Nota "6.5/10" é a minha avaliação no artigo: espaguete de sênior, não código ruim
-- Tom: "confirmação engraçada da tese" — nem a Anthropic escapa de pressão de entrega
--->
----
-
-<!-- _class: center -->
-![bg cover opacity:.14](../assets/offline/bg-spaghetti-cables.jpg)
-<div class="eyebrow">A Faísca</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Server_Rack_with_Spaghetti-Like_Mass_of_Network_Cables.jpg</div>
-
-# A lição não foi "uau, magia"
-
-<div style="display:flex;gap:34px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <div class="card" style="margin-bottom:12px;"><strong>Nem a Anthropic escapa</strong><br />pressão de entrega também gera código tático</div>
-    <div class="card"><strong>E copiaram rápido</strong><br />free-code e reimplementações apareceram quase na hora</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/claude-code-leak-tweet.png" alt="Tweet do vazamento do Claude Code" style="height:480px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-  </div>
-</div>
-
-<!--
-Restam: ~52:40 (90s)
-
-- Abriram o código. O que apareceu? Não foi magia.
-- Foi espaguete de sênior: base grande, pressionada por entrega, cheia de remendo.
-- E quase imediatamente começaram a reimplementar. Quando a mística some, sobra engenharia.
--->
----
-
-<!-- _class: center tone-moss -->
-![bg cover opacity:.18](../assets/offline/bg-tropical-jungle.jpg)
+<!-- _class: center ai ai-olive -->
+![bg cover opacity:.15 blur:7px](../assets/offline/bg-tropical-jungle.jpg)
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Khao_Sok_primary_tropical_rainforest,_southern_Thailand.jpg</div>
 
-# LLMs são<br>Papagaios <span class="em-moss">Estocásticos</span>
+# Papagaios <span class="em-moss">Estocásticos</span>
 
-<div style="display:flex;justify-content:center;margin-top:8px;">
-  <img src="../assets/stochastic_parrots.webp" alt="Ilustração de papagaios coloridos com balões de fala caóticos" style="max-height:440px;border-radius:16px;" />
+<div style="display:flex;gap:32px;align-items:center;justify-content:center;margin-top:6px;">
+  <div style="flex:0 0 auto;">
+    <img src="../assets/stochastic_parrots.webp" alt="Ilustração de papagaios coloridos com balões de fala caóticos" style="height:380px;border-radius:16px;" />
+  </div>
+  <div style="flex:0 0 470px;display:flex;flex-direction:column;gap:10px;text-align:left;">
+    <div style="font-size:1.25em;font-weight:800;">Em 2026 ainda <span class="em-ruby">bajulam</span> e <span class="em-ruby">erram</span></div>
+    <div class="card"><strong>Loot box</strong><div class="mini">probabilístico, não compilador determinístico</div></div>
+    <div class="card"><strong>Bajula você</strong><div class="mini">muitas vezes responde o que você quer ouvir</div></div>
+    <div class="card"><strong>Erra confiante</strong><div class="mini">inventa detalhe e segue como se estivesse certo</div></div>
+  </div>
 </div>
 
-<!--
-Restam: ~52:25 (15s)
-
-- Termo cunhado em 2021 por Bender, Gebru, McMillan-Major e Mitchell ("On the Dangers of Stochastic Parrots").
-- LLM repete padrões de tokens aprendidos sem entender o que diz.
-- Bonito de fluência, fraco de compromisso com verdade.
-- É exatamente isso que faz o modelo errar com confiança e bajular o usuário.
-- Puxa direto pro próximo slide: por isso são loot boxes — fluência probabilística sem garantia.
--->
----
-<!-- _class: center tone-sand -->
-![bg cover opacity:.16](../assets/offline/bg-building-collapse.jpg)
-<div class="eyebrow">2026 Ainda</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Building_collapse_in_S%C3%A3o_Paulo_2018_090.jpg</div>
-
-# LLMs ainda<br><span class="em-ruby">bajulam</span> e <span class="em-ruby">erram</span>
-
-<div class="columns-3">
-<div class="card"><strong>Loot box</strong><div class="mini">probabilístico, não compilador determinístico</div></div>
-<div class="card"><strong>Bajula você</strong><div class="mini">muitas vezes responde o que você quer ouvir</div></div>
-<div class="card"><strong>Erra confiante</strong><div class="mini">inventa detalhe e segue como se estivesse certo</div></div>
-</div>
-
-<div class="lead" style="max-width:900px;margin:20px auto 0 auto;text-align:center;">Por isso agente sem freio é desastre: execução, teste e revisão continuam obrigatórios.</div>
+<div class="lead" style="max-width:1100px;margin:14px auto 0 auto;text-align:center;font-size:0.95em;">Agente sem freio é desastre: execução, teste e revisão continuam obrigatórios.</div>
 
 <!--
-Restam: ~51:00 (85s)
+Restam: ~57:00 (100s)
 
-- O ponto principal: modelo de 2026 ainda bajula e erra.
-- LLM é probabilístico; não é compilador determinístico.
-- Se você vem com premissa torta, ele tende a agradar.
+- "Papagaio estocástico": termo de 2021, Bender, Gebru, McMillan-Major e Mitchell ("On the Dangers of Stochastic Parrots").
+- Repete padrões de token com fluência, sem entender o que diz. Bonito de ler, fraco de compromisso com a verdade.
+- Por isso chamo de loot box: probabilístico, não compilador determinístico.
+- Modelo de 2026 ainda bajula: premissa torta, ele tende a agradar. E erra com confiança.
 - O freio continua sendo execução real, teste real e revisão real.
 -->
+
 ---
-
-<!-- _class: center tone-sand -->
-<div class="eyebrow">Economia da IA</div>
-
-# Treino e inferência<br>disputam a mesma tomada
-
-<div class="columns" style="margin-top:28px;">
-  <div class="card"><strong>US$ 650 bi</strong><div class="mini">capex de hyperscaler em 2025–2026 (Alphabet, Amazon, Meta, Microsoft)</div></div>
-  <div class="card"><strong>415 → 1.100 TWh</strong><div class="mini">consumo elétrico de data centers de 2024 até 2026 (IEA, revisado em dez/25)</div></div>
-</div>
-
-<div class="columns" style="margin-top:16px;">
-  <div class="card"><strong>33% → 67%</strong><div class="mini">fatia de compute em inferência, 2023 → 2026 (Epoch AI) — agente puxa mais que chatbot</div></div>
-  <div class="card"><strong>2,5 bi/ano</strong><div class="mini">ritmo anual do Claude Code, com uso semanal dobrando desde 1 jan 2026</div></div>
-</div>
-
-<div class="lead" style="max-width:900px;margin:18px auto 0 auto;text-align:center;">
-Meu palpite: com energia, margem e demanda apertando, eu esperaria menos milagre de treino e mais briga por eficiência, suporte a ferramentas e inferência.
-</div>
-
-<!--
-Restam: ~49:35 (85s)
-
-- Aqui entra minha especulação. A conta física começou a apertar.
-- Capex: $650 bi 2025-2026 dos 4 grandes (Alphabet, Amazon, Meta, Microsoft). Em 2024 era ~$222 bi — quase 3x em 2 anos.
-- TWh: IEA revisou pra cima em dez/25, 2026 já bate 1.100 TWh global (equivalente ao Japão inteiro).
-- Inferência: passou de 33% em 2023 pra projetado 67% em 2026 (Epoch AI). Agente queima inferência por usuário muito mais que chatbot.
-- Não espero outro salto de ordem de grandeza no treino tão cedo — espero briga por eficiência, serving, tool support e produto.
-- Se Anthropic for pra IPO em 2026, pressão por margem e previsibilidade só aumenta.
-- Próximo slide: a ironia do carro elétrico vs IA na mesma tomada.
--->
----
-
-<!-- _class: center tone-sand -->
-![bg cover opacity:.14](../assets/offline/bg-ev-charging.jpg)
-<div class="eyebrow">A Ironia da Tomada</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Electric_car_charging_station_in_Begumpet,_Hyderabad.jpg</div>
-
-# Carro elétrico ia salvar.<br>IA <span class="em-ruby">comeu a economia</span>.
-
-<div class="columns" style="margin-top:24px;">
-  <div class="card"><strong>~130 TWh/ano</strong><div class="mini">toda a frota global de EV em 2024 (IEA)</div></div>
-  <div class="card"><strong>+685 TWh</strong><div class="mini">crescimento de data center em 2 anos, 2024 → 2026</div></div>
-</div>
-
-<div class="lead" style="max-width:880px;margin:22px auto 0 auto;text-align:center;">
-Em 2 anos, IA adicionou na rede <span class="em-ruby">~5× toda a eletricidade que a frota global de EV consome hoje</span>.
-</div>
-
-<!--
-Restam: ~49:15 (20s)
-
-- EV global hoje: ~130 TWh/ano (IEA Global EV Outlook 2024).
-- DC global: 415 → 1.100 TWh entre 2024 e 2026 (+685 TWh).
-- 685 / 130 ≈ 5,3x — em 2 anos, IA adicionou 5x toda a frota de EV.
-- EV ia ser a grande economia da década. IA comeu essa economia de uma sentada.
-- Mesmo megawatt, demandas diferentes — data center está ganhando de longe.
--->
----
-
-<!-- _class: center tone-ruby -->
-<div class="eyebrow">A Conta Física Apertou</div>
-
-# 7 GW que não saem<br>do <span class="em-ruby">papel em 2026</span>
-
-<div style="display:flex;justify-content:center;margin-top:10px;">
-  <img src="../assets/gigawatt-crisis.png" alt="Crise de capacidade — 7 GW de data centers atrasados ou cancelados em 2026" style="max-height:430px;" />
-</div>
-
-<div class="caption" style="margin-top:10px;">Fonte: tech-insider.org/us-ai-data-center-delays-cancellations-7gw-capacity-crisis-2026 (Bloomberg + Sightline Climate + US ITC, abril/maio 2026)</div>
-
-<!--
-Restam: ~48:55 (20s)
-
-- Anunciado pra 2026: ~12 GW. Em obra de verdade: ~5 GW. Buraco: 7 GW.
-- ~Metade dos data centers de 2026 atrasou ou foi cancelado (Bloomberg confirma 30-50%).
-- Equivale a 30-70 campi de IA não entregues, ~$1-4 bi cada em capex.
-- Gargalo físico: transformador de alta tensão com fila de até 5 anos (US ITC); switchgear, baterias e tarifa chinesa de 15-25% em cima.
-- Fila de conexão à rede: até 5 anos pra ligar 1 data center novo na rede.
-- Pipeline pior em 2027 (21,5 GW anunciado, só 6,3 GW em obra) e 2028-2032 (37 GW anunciado, só 4,5 GW).
-- Mas o capex dos hyperscalers NÃO recuou: $650 bi em 2025-2026 (Alphabet, Amazon, Meta, Microsoft) — dinheiro tem, falta megawatt.
-- OpenAI Stargate ($500 bi) em Abilene, Texas: zero progresso físico relevante até abril/26.
-- Mensagem: dólar sobra, tomada não. É a contradição que ancora o slide seguinte.
--->
----
-
-<!-- _class: center tone-sand -->
-<div class="eyebrow">Mercado de Compute</div>
-
-# A corrida por compute<br><span class="em-moss">acelera em 2026</span>
-
-<div style="display:flex;justify-content:center;margin-top:18px;">
-  <img src="../assets/flow/antropic-xai.png" alt="Anthropic e xAI" style="max-height:480px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-</div>
-
-<!--
-Restam: ~48:40 (15s)
-
-- Mesmo com a correção em curso, a corrida por compute não desacelera.
-- Anthropic e xAI assinando contratos gigantes de capacidade pra 2026.
-- O dinheiro de infraestrutura segue subindo: a fila não é por talento júnior, é por GPU e energia.
--->
----
-<!-- _class: center tone-sand -->
+<!-- _class: center ai ai-umber -->
 <div class="eyebrow">Mercado de capital</div>
 
 # SpaceX abriu capital
@@ -359,7 +129,7 @@ Restam: ~48:40 (15s)
 ## valuation no IPO ~US$1,77 tri • 1º dia +19,2%
 
 <div style="display:flex;gap:26px;align-items:center;margin-top:18px;text-align:left;">
-  <div style="flex:1 1 46%;">
+  <div style="flex:0 0 420px;">
     <img src="../assets/offline/spacex-demo-2-launch-slide.jpg" alt="Lançamento SpaceX Demo-2" style="width:100%;max-height:360px;object-fit:cover;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
     <div class="caption" style="font-size:0.50em;margin-top:6px;text-align:center;">Imagem: NASA / Wikimedia Commons</div>
   </div>
@@ -373,7 +143,7 @@ Restam: ~48:40 (15s)
 <div class="caption" style="margin-top:22px;">Fontes: SEC Form 8-K; SpaceX IR; CNBC; SpaceNews, jun/2026.</div>
 
 <!--
-Restam: ~48:15 (25s)
+Restam: ~55:20 (25s)
 
 - CNBC fala em valuation de ~US$1,77 tri no IPO; SpaceNews fala em market cap perto de US$2,1 tri no fechamento.
 - US$75 bi levantados a US$135 por ação; fechou a US$160,95, +19,2%.
@@ -381,7 +151,147 @@ Restam: ~48:15 (25s)
 - SpaceX virou mais um sinal de 2026: compute, rede, satélite, energia e capital entram na mesma briga.
 -->
 ---
-<!-- _class: center tone-sand -->
+<!-- _class: center ai ai-umber -->
+<div class="eyebrow">Mercado de capital</div>
+
+# Anthropic abriu capital
+
+## IPO a US$83 • abertura +34% • ~US$2 tri
+
+<div style="display:flex;gap:26px;align-items:center;margin-top:18px;text-align:left;">
+  <div style="flex:0 0 420px;">
+    <img src="../assets/offline/anthropic-ipo-nasdaq.jpg" alt="Estreia da Anthropic na Nasdaq, ticker ANT" style="width:420px;height:420px;object-fit:cover;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
+    <div class="caption" style="font-size:0.50em;margin-top:6px;text-align:center;">Estreia na Nasdaq (ANT), 19/nov. Imagem: Getty Images via CNBC</div>
+  </div>
+  <div style="flex:1 1 54%;display:flex;flex-direction:column;gap:14px;">
+    <div class="card"><strong>US$81,3 bi</strong><div class="mini">980 mi de ações a US$83, Nasdaq: ANT</div></div>
+    <div class="card"><strong>US$111,50</strong><div class="mini">abertura em 19/nov, +34%, ~US$2 tri</div></div>
+    <div class="card"><strong>+1.200%</strong><div class="mini">receita no ano, ~US$33 bi em 9 meses até set/2026</div></div>
+  </div>
+</div>
+
+<div class="caption" style="margin-top:22px;">Fontes: CNBC; TechCrunch; CNN, nov/2026.</div>
+
+<!--
+Restam: ~54:55 (25s)
+
+- Oferta base de US$81,3 bi passa os US$75 bi da oferta base da SpaceX. Com o lote extra (+147 mi ações, até 20/nov) chega a ~US$93,5 bi; a SpaceX fechou em US$85,7 bi com o lote dela.
+- No preço do IPO: ~US$1,5 tri totalmente diluído. Na abertura: ~US$2 tri.
+- Receita de 9 meses até set: ~US$33 bi, +1.200% no ano. Anualizada em outubro: ~US$81 bi (não confundir com os US$81,3 bi da oferta). Prejuízo de ~US$104 bi, quase todo contábil (valor justo de conversíveis e SAFEs).
+- Os números são do dia da estreia: checar o preço de fechamento antes de subir no palco.
+- Ponte: a empresa do modelo que eu uso todo dia agora vale o mesmo que a SpaceX. A corrida é de capital também.
+-->
+---
+
+<!-- _class: center ai ai-umber -->
+<div class="eyebrow">LLM Coding Benchmark v4 • 28/out/2026</div>
+
+# Top 20 de <span class="em-moss">outubro</span>
+
+<div class="bench-wrap">
+<table class="bench">
+<tr><th class="rk">#</th><th>Modelo</th><th class="sc">Nota</th><th class="ct">Custo</th></tr>
+<tr class="new"><td class="rk">1</td><td class="md">Gemini 4 Argon</td><td class="sc">100</td><td class="ct">OAuth</td></tr>
+<tr><td class="rk">1</td><td class="md">GPT-6 Astra</td><td class="sc">100</td><td class="ct">$30,55</td></tr>
+<tr><td class="rk">1</td><td class="md">Claude Opus 5</td><td class="sc">100</td><td class="ct">~$71</td></tr>
+<tr><td class="rk">1</td><td class="md">Claude Fable 5</td><td class="sc">100</td><td class="ct">~$50</td></tr>
+<tr><td class="rk">1</td><td class="md">Claude Opus 5.5</td><td class="sc">100</td><td class="ct">$16,63</td></tr>
+<tr><td class="rk">1</td><td class="md">GPT-5.6 Sol</td><td class="sc">100</td><td class="ct">$20,37</td></tr>
+<tr><td class="rk">1</td><td class="md">GPT-5.6 Terra</td><td class="sc">100</td><td class="ct">$9,52</td></tr>
+<tr><td class="rk">1</td><td class="md">GPT-5.5</td><td class="sc">100</td><td class="ct">$34,69</td></tr>
+<tr><td class="rk">9</td><td class="md">Grok 4.6</td><td class="sc">98,5</td><td class="ct">$13,00</td></tr>
+<tr class="new"><td class="rk">10</td><td class="md">GPT-6.1 Sol</td><td class="sc">97,0</td><td class="ct">~$8,12</td></tr>
+</table>
+<table class="bench">
+<tr><th class="rk">#</th><th>Modelo</th><th class="sc">Nota</th><th class="ct">Custo</th></tr>
+<tr class="new"><td class="rk">10</td><td class="md">Muse Wonder 1.0</td><td class="sc">97,0</td><td class="ct">plano</td></tr>
+<tr class="new"><td class="rk">12</td><td class="md">GPT-6.1 Terra</td><td class="sc">96,8</td><td class="ct">~$1,69</td></tr>
+<tr><td class="rk">13</td><td class="md">Claude Fable 5.1</td><td class="sc">95,5</td><td class="ct">~$51</td></tr>
+<tr><td class="rk">13</td><td class="md">Sakana Fugu Ultra v2</td><td class="sc">95,5</td><td class="ct">$122,01</td></tr>
+<tr><td class="rk">13</td><td class="md">GPT-6 Luna</td><td class="sc">95,5</td><td class="ct">~$0,84</td></tr>
+<tr><td class="rk">16</td><td class="md">GPT-5.6 Luna</td><td class="sc">95,0</td><td class="ct">$10,04</td></tr>
+<tr><td class="rk">17</td><td class="md">Nex N2.5 Pro</td><td class="sc">94,0*</td><td class="ct">grátis</td></tr>
+<tr><td class="rk">17</td><td class="md">GLM 5.3</td><td class="sc">94,0</td><td class="ct">plano</td></tr>
+<tr><td class="rk">19</td><td class="md">DeepSeek V4.1 Flash</td><td class="sc">92,5</td><td class="ct">$1,21</td></tr>
+<tr class="new"><td class="rk">20</td><td class="md">Kimi K3.1 Pro</td><td class="sc">92,1</td><td class="ct">~$12,67</td></tr>
+</table>
+</div>
+
+<div class="caption" style="margin-top:12px;"><span class="bench-dot"></span> rodada nova • nota 0–100 • custo de uma rodada (~ = estimado por tokens) • *Nex achou os problemas, mas não fez commit • akitaonrails.com</div>
+
+<!--
+Restam: ~54:30 (40s)
+
+- Fonte: post de 28/out/2026, "Ranking comercial atualizado" (só rota gerenciada: API, assinatura, OAuth, plano).
+- 8 modelos com 100. Custo e tempo é que separam: Opus 5.5 = $16,63 em 64 min; GPT-5.6 Sol = 317 min.
+- Destaque de custo: GPT-6.1 Terra 96,8 com ~$1,69 em 21 min. GPT-6 Luna 95,5 com ~$0,84.
+- Gemini 4 Argon chegou no topo via Antigravity (OAuth, custo marginal zero).
+- Muse Wonder 97, mas levou quase 15 dias corridos por causa de quota.
+- Sonnet 5.5 ficou fora do top 20 (88) mas é o 5º no índice amplo (Engineering Breadth Index).
+- Ponte: nota alta virou commodity; a briga agora é custo, velocidade e quota.
+-->
+---
+
+<!-- _class: center ai ai-umber -->
+
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/tier-list-internet-nov-2026.jpg" alt="Tier list de modelos de IA circulando nas redes, de SSS+ a E" style="height:620px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
+</div>
+
+<div class="caption" style="margin-top:8px;font-size:0.5em;">Tier list compartilhada no X, nov/2026</div>
+
+<!--
+Restam: ~53:50 (25s)
+
+- Sem título no slide: deixar a imagem respirar e falar por cima.
+- Tier list que circulou no X essa semana. Autor não identificado: não atribuir a ninguém.
+- Haiku 5.5 em SSS e Mythos 5.2 / Fable 5.2 nem passaram pelo meu benchmark ainda.
+- Sonnet 5.5 em SSS faz sentido no índice amplo (5º no Engineering Breadth Index), mas não no projeto longo (88).
+- Ponte: opinião em formato de ranking é barato. Medir dá trabalho. Por isso eu meço.
+-->
+---
+
+<!-- _class: center ai ai-umber -->
+<div class="eyebrow">LLM benchmark v5 • 20/nov/2026</div>
+
+# Quanto custa ser <span class="em-ruby">competente</span>
+
+<div class="cost-legend"><span class="t-c">barato e rápido</span><span class="t-m">meio de tabela</span><span class="t-h">pesos-pesados</span></div>
+<div class="cost-chart">
+  <div class="cost-row t-c"><span class="cost-name">GPT-6 Luna</span><span class="cost-track"><span class="cost-bar" style="width:1.1%;"></span></span><span class="cost-val">US$0,15</span></div>
+  <div class="cost-row t-c"><span class="cost-name">GPT-6.1 Terra</span><span class="cost-track"><span class="cost-bar" style="width:3.5%;"></span></span><span class="cost-val">US$0,50</span></div>
+  <div class="cost-row t-m"><span class="cost-name">DeepSeek V4.1 Flash</span><span class="cost-track"><span class="cost-bar" style="width:3.9%;"></span></span><span class="cost-val">US$0,56</span></div>
+  <div class="cost-row t-m"><span class="cost-name">Qwen 4 Max</span><span class="cost-track"><span class="cost-bar" style="width:12.5%;"></span></span><span class="cost-val">US$1,78</span></div>
+  <div class="cost-row t-m"><span class="cost-name">Gemini 4 Hydrogen</span><span class="cost-track"><span class="cost-bar" style="width:13.3%;"></span></span><span class="cost-val">US$1,89</span></div>
+  <div class="cost-row t-m"><span class="cost-name">GPT-6.2 Sol</span><span class="cost-track"><span class="cost-bar" style="width:14.2%;"></span></span><span class="cost-val">US$2,02</span></div>
+  <div class="cost-row t-m"><span class="cost-name">Claude Sonnet 5.5</span><span class="cost-track"><span class="cost-bar" style="width:15.1%;"></span></span><span class="cost-val">US$2,14</span></div>
+  <div class="cost-row t-m"><span class="cost-name">Kimi K3.1 Pro</span><span class="cost-track"><span class="cost-bar" style="width:18.7%;"></span></span><span class="cost-val">US$2,66</span></div>
+  <div class="cost-row t-m"><span class="cost-name">Gemini 4 Neon</span><span class="cost-track"><span class="cost-bar" style="width:21.8%;"></span></span><span class="cost-val">US$3,10</span></div>
+  <div class="cost-row t-m"><span class="cost-name">Gemini 4 Carbon</span><span class="cost-track"><span class="cost-bar" style="width:23.2%;"></span></span><span class="cost-val">US$3,29</span></div>
+  <div class="cost-row t-m"><span class="cost-name">DeepSeek V4 Pro</span><span class="cost-track"><span class="cost-bar" style="width:23.9%;"></span></span><span class="cost-val">US$3,39</span></div>
+  <div class="cost-row t-h"><span class="cost-name">Claude Opus 5.5</span><span class="cost-track"><span class="cost-bar" style="width:40.4%;"></span></span><span class="cost-val">US$5,73</span></div>
+  <div class="cost-row t-h"><span class="cost-name">GPT-6.2 Astra</span><span class="cost-track"><span class="cost-bar" style="width:40.7%;"></span></span><span class="cost-val">US$5,78</span></div>
+  <div class="cost-row t-h"><span class="cost-name">GLM-5.3</span><span class="cost-track"><span class="cost-bar" style="width:42.8%;"></span></span><span class="cost-val">US$6,08</span></div>
+  <div class="cost-row t-h"><span class="cost-name">Claude Fable 5.2</span><span class="cost-track"><span class="cost-bar" style="width:91.3%;"></span></span><span class="cost-val">US$12,96</span></div>
+  <div class="cost-row t-h"><span class="cost-name">Grok 4.7</span><span class="cost-track"><span class="cost-bar" style="width:100.0%;"></span></span><span class="cost-val">US$14,19</span></div>
+</div>
+
+<div class="caption" style="margin-top:12px;">Custo real de API com cache, uma rodada por modelo. Os 16 entregaram o mesmo app Rails testado, sem nenhum empurrão. • akitaonrails.com</div>
+
+<!--
+Restam: ~53:25 (40s)
+
+- Mesma tarefa pros 16: app Rails de chat com RubyLLM, 14 objetivos (Tailwind, Hotwire, streaming, testes, RuboCop, Brakeman, Docker). Todos passaram de primeira, zero nudges.
+- Diferença de ~95x no preço (US$0,15 a US$14,19) e ~12x no tempo.
+- Cache é tudo: 94% a 99% do input foi leitura de cache, corta 69% a 94% da conta. Preço por milhão de tokens na tabela engana.
+- Verbosidade manda: GPT-6.2 Astra e Claude Fable 5.2 têm o mesmo preço de tabela, o Astra saiu por menos da metade.
+- Chinês não é automaticamente barato: GLM-5.3 saiu mais caro que o Opus 5.5 no preço oficial.
+- Ressalvas: uma rodada só; Gemini 4 Carbon em preço promocional até 30/nov (dobra pra US$6,58); Opus inclui ~US$1,69 de dois nudges falsos de um bug do runner.
+- Ponte: competente o suficiente já é barato. A pergunta deixa de ser "qual o melhor" e vira "quanto você paga por rodada".
+-->
+
+---
+<!-- _class: center ai ai-umber -->
 <div class="eyebrow">A curva da corrida de treino</div>
 
 # Não era exponencial
@@ -435,7 +345,7 @@ Restam: ~48:15 (25s)
 <div class="lead" style="max-width:920px;margin:2px auto 0 auto;text-align:center;">A parte rápida da curva enganou todo mundo.</div>
 
 <!--
-Restam: ~47:20 (55s)
+Restam: ~52:45 (55s)
 
 - Mostrar só a intuição: parecia exponencial porque a gente estava no miolo da curva S.
 - Desde 2024, retorno marginal de treino ficou brutalmente pior.
@@ -444,8 +354,8 @@ Restam: ~47:20 (55s)
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.14](../assets/offline/bg-smith-mannequins.jpg)
+<!-- _class: center ai ai-olive -->
+![bg cover opacity:.15 blur:7px](../assets/offline/bg-smith-mannequins.jpg)
 <div class="eyebrow">Linha Do Tempo</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Smith_Matrix_mannequins.jpg</div>
 
@@ -461,7 +371,7 @@ Restam: ~47:20 (55s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Não foi um dia mágico. Foi o ano inteiro fechando modelo, thinking, tool support e operação.</div>
 
 <!--
-Restam: ~46:15 (65s)
+Restam: ~51:50 (65s)
 
 - Pra mim, 2025 foi o ano em que a pilha foi fechando.
 - Em março, tool support virou plataforma de verdade.
@@ -470,8 +380,8 @@ Restam: ~46:15 (65s)
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.16](../assets/offline/bg-fireworks-2025.jpg)
+<!-- _class: center ai ai-olive -->
+![bg cover opacity:.15 blur:7px](../assets/offline/bg-fireworks-2025.jpg)
 <div class="eyebrow">Convergência</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:2025_New_Year_Fireworks_in_Tamsui,_New_Taipei_(54238509557).jpg</div>
 
@@ -485,7 +395,7 @@ Restam: ~46:15 (65s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Modelo novo + CLI de agente madura, os dois ao mesmo tempo. Em dezembro deu pra apostar tempo de verdade. Em janeiro de 2026 eu entrei nessa também — foi daí que saiu a maratona.</div>
 
 <!--
-Restam: ~45:00 (75s)
+Restam: ~50:45 (75s)
 
 - Datas marcantes: 13 nov (GPT-5.1 + Codex CLI), 24 nov (Opus 4.5 + Claude Code), 11 dias de distância
 - A chave não foi só o modelo novo — foi a CLI de agente amadurecendo junto, nos DOIS lados na mesma janela
@@ -495,27 +405,36 @@ Restam: ~45:00 (75s)
 -->
 ---
 
-<!-- _class: center -->
-![bg cover opacity:.16](../assets/offline/bg-everest.jpg)
-# Fevereiro a maio<br>de 2026
+<!-- _class: center ai ai-wine -->
+![bg cover opacity:.15 blur:7px](../assets/offline/bg-everest.jpg)
+<div class="eyebrow">60 projetos (experimentais) • 14.022 contribuições</div>
 
-## eu parei de falar  
-## e fui <span class="em-ruby">maratonar</span>
+<h1 style="font-size:1.9em;margin:6px 0 4px 0;">Fevereiro a novembro de 2026</h1>
+
+## eu parei de falar e fui <span class="em-ruby">maratonar</span>
+
+<div style="display:flex;justify-content:center;margin-top:14px;">
+  <img src="../assets/github-contributions-nov-2026.png" alt="Gráfico de contribuições do GitHub: 14.022 contribuições no último ano" style="width:960px;border-radius:14px;box-shadow:0 14px 30px rgba(0,0,0,0.28);" />
+</div>
+
+<div class="caption" style="margin-top:14px;">"São todos perfeitos, modelos de excelência de código?" <strong>Absolutamente não.</strong> São experimentos: alguns viraram software de uso diário, outros são protótipos.</div>
 
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg</div>
 
 <!--
-Restam: ~44:30 (30s)
+Restam: ~49:30 (42s)
 
-- Então eu parei de opinar e fui testar com pele em jogo.
-- Não com prompt de brinquedo.
-- Não com videozinho fake de SaaS em dez minutos.
-- Projeto real.
+- Então eu parei de opinar e fui testar com pele em jogo. Começou em fevereiro e não parou: continua até agora, novembro.
+- Não com prompt de brinquedo, não com videozinho fake de SaaS em dez minutos. Projeto real.
+- 14.022 contribuições no GitHub nos últimos 12 meses. Repara: de fevereiro pra cá quase não tem dia vazio.
+- 60 projetos de 2026 que eu criei (lista do ghpending, sem forks de projetos dos outros como omarchy e flea).
+- De FrankMD e ai-jail até a série rea-* de jogos de corrida antigos (Colin McRae, Sega Rally, Outrun, TeknoParrot).
+- Nem todos são produção. O ponto foi rodar o ciclo de agente de verdade em escala.
 -->
 ---
 
-<!-- _class: center tone-sand -->
-![bg cover opacity:.14](../assets/offline/bg-potter-clay.jpg)
+<!-- _class: center ai ai-umber -->
+![bg cover opacity:.15 blur:7px](../assets/offline/bg-potter-clay.jpg)
 <div class="eyebrow">Painel de Projetos</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Potter_shaping_clay_on_a_traditional_manual_potter’s_wheel_in_India_01.jpg</div>
 
@@ -533,7 +452,7 @@ Restam: ~44:30 (30s)
 </div>
 
 <!--
-Restam: ~43:55 (35s)
+Restam: ~48:48 (35s)
 
 - Este slide é só a parede de projetos.
 - FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI, Frank Karaoke e outros.
@@ -542,58 +461,32 @@ Restam: ~43:55 (35s)
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.18](../assets/flow/github.png)
-<div class="eyebrow">Repositórios públicos</div>
-
-# 30 projetos<br><span class="em-ruby">(experimentais)</span>
-
-<div style="display:flex;gap:28px;align-items:center;justify-content:center;margin-top:8px;max-width:1100px;margin-left:auto;margin-right:auto;">
-  <div style="flex:1 1 0;text-align:left;">
-    <div class="lead" style="margin:0;">github.com/akitaonrails — tudo o que rolou na maratona, código aberto.</div>
-    <div class="caption" style="margin-top:14px;">"Todos os 30 projetos são perfeitos, modelos de excelência de código?" <strong>Absolutamente não.</strong> São experimentos honestos: alguns viraram software de uso diário, outros são protótipos. O importante foi rodar o ciclo de verdade.</div>
-  </div>
-  <div style="flex:0 0 42%;">
-    <img src="../assets/maratona-conclusion.png" alt="Artigo: Terminando minha maratona de IA — sucesso ou fracasso?" style="width:100%;border-radius:14px;box-shadow:0 14px 30px rgba(0,0,0,0.22);" />
-  </div>
-</div>
-
-<!--
-Restam: ~43:43 (12s)
-
-- 30 projetos, várias linguagens, vários domínios — todos abertos no GitHub.
-- Importante: nem todos são produção. São experimentais por definição — alguns viraram software de uso diário (FrankMD, ai-jail), outros são protótipos honestos.
-- Link pro post: akitaonrails.com/2026/05/14/terminando-maratona-ia-sucesso-ou-fracasso
-- O ponto da maratona não foi entregar 30 produtos perfeitos. Foi rodar o ciclo de agente de verdade em escala.
--->
----
-
-<!-- _class: center tone-sand -->
+<!-- _class: center ai ai-umber -->
 <div class="eyebrow">Recomendação prática</div>
 
 # As únicas ferramentas pra <span class="em-moss">usar agora</span>
 
-<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:18px;margin-top:10px;max-width:1080px;margin-left:auto;margin-right:auto;">
-  <div style="flex:0 0 calc(50% - 18px);display:flex;flex-direction:column;align-items:center;">
-    <img src="../assets/clis/screenshot-2026-05-12_15-32-53.png" alt="Claude Code" style="width:100%;max-height:170px;object-fit:contain;" />
-    <div style="margin-top:6px;font-size:0.85em;"><strong>Claude Code</strong></div>
+<div class="term-grid">
+  <div class="term">
+    <div class="term-bar"><span class="term-dots"><i></i><i></i><i></i></span><strong>Claude Code</strong><span class="term-tag">modelo fechado</span></div>
+    <img src="../assets/clis/screenshot-2026-05-12_15-32-53.png" alt="Claude Code" />
   </div>
-  <div style="flex:0 0 calc(50% - 18px);display:flex;flex-direction:column;align-items:center;">
-    <img src="../assets/clis/screenshot-2026-05-12_15-32-58.png" alt="Codex" style="width:100%;max-height:170px;object-fit:contain;" />
-    <div style="margin-top:6px;font-size:0.85em;"><strong>Codex</strong></div>
+  <div class="term">
+    <div class="term-bar"><span class="term-dots"><i></i><i></i><i></i></span><strong>Codex</strong><span class="term-tag">modelo fechado</span></div>
+    <img src="../assets/clis/screenshot-2026-05-12_15-32-58.png" alt="Codex" />
   </div>
-  <div style="flex:0 0 calc(50% - 18px);display:flex;flex-direction:column;align-items:center;">
-    <img src="../assets/clis/screenshot-2026-05-12_15-33-00.png" alt="opencode" style="width:100%;max-height:170px;object-fit:contain;" />
-    <div style="margin-top:6px;font-size:0.85em;"><strong>opencode</strong></div>
+  <div class="term">
+    <div class="term-bar"><span class="term-dots"><i></i><i></i><i></i></span><strong>opencode</strong><span class="term-tag">qualquer modelo</span></div>
+    <img src="../assets/clis/screenshot-2026-05-12_15-33-00.png" alt="opencode" style="object-position:center 40%;" />
   </div>
-  <div style="flex:0 0 calc(50% - 18px);display:flex;flex-direction:column;align-items:center;">
-    <img src="../assets/clis/oh-my-pi.png" alt="Oh-My-Pi" style="width:100%;max-height:170px;object-fit:contain;" />
-    <div style="margin-top:6px;font-size:0.85em;"><strong>Oh-My-Pi</strong></div>
+  <div class="term">
+    <div class="term-bar"><span class="term-dots"><i></i><i></i><i></i></span><strong>Oh-My-Pi</strong><span class="term-tag">qualquer modelo</span></div>
+    <img src="../assets/clis/oh-my-pi.png" alt="Oh-My-Pi" />
   </div>
 </div>
 
 <!--
-Restam: ~43:23 (20s)
+Restam: ~48:13 (20s)
 
 - Em maio de 2026, estes quatro cobrem o caso sério de agente de terminal.
 - Claude Code e Codex para fronteira fechada.
@@ -601,8 +494,8 @@ Restam: ~43:23 (20s)
 -->
 ---
 
-<!-- _class: center tone-sand -->
-![bg cover opacity:.10](../assets/offline/bg-spaghetti-cables.jpg)
+<!-- _class: center ai ai-umber -->
+![bg cover opacity:.15 blur:7px](../assets/offline/bg-spaghetti-cables.jpg)
 <div class="eyebrow">Toolkit open source</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Server_Rack_with_Spaghetti-Like_Mass_of_Network_Cables.jpg</div>
 
@@ -627,7 +520,7 @@ Restam: ~43:23 (20s)
 </div>
 
 <!--
-Restam: ~42:58 (25s)
+Restam: ~47:53 (25s)
 
 - Não é mais um orquestrador mágico.
 - É kit de operação: cerca, memória e medidor de limite.
@@ -635,117 +528,76 @@ Restam: ~42:58 (25s)
 -->
 ---
 
-<!-- _class: center tone-ruby -->
-<div class="eyebrow">ai-jail</div>
+<!-- _class: center ai ai-wine -->
 
-<h1 style="text-align:left;max-width:560px;margin:18px 0 16px 42px;">Autonomia<br>com cerca</h1>
-
-<div style="display:flex;flex-direction:column;gap:12px;max-width:560px;margin-top:12px;text-align:left;">
-  <div class="card"><strong>Modo sem freio no harness</strong><div class="mini">Claude/Codex com permissões perigosas, menos confirmação a cada passo</div></div>
-  <div class="card"><strong>Trava no sistema operacional</strong><div class="mini">projeto read-write; host, home, cache e dotfiles ficam fora ou controlados</div></div>
-  <div class="card"><strong>Política versionável</strong><div class="mini">.ai-jail, --dry-run, --mask .env, --private-home, --lockdown</div></div>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/aijail-io-site.jpg" alt="Site do ai-jail: A jail for your AI coding agent" style="height:600px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.30);" />
 </div>
 
-<div class="caption" style="margin-top:14px;text-align:left;max-width:560px;">Não é VM nem blindagem militar. É uma camada prática para deixar o agente trabalhar rápido sem dar a chave da casa.</div>
-
-<div style="position:absolute;right:58px;top:230px;width:460px;">
-  <img src="../assets/ai-jail-og.png" alt="ai-jail no GitHub" style="width:100%;box-shadow:0 14px 30px rgba(0,0,0,0.12);" />
-</div>
+<div class="caption" style="margin-top:12px;">aijail.io</div>
 
 <!--
-Restam: ~42:18 (40s)
+Restam: ~47:28 (40s)
 
-- Uso preferido: tirar fricção dentro do harness, colocar a trava no OS.
-- O agente trabalha rápido no projeto; o resto do host não fica aberto por acidente.
-- Não vender como segurança absoluta: sandbox de processo não é VM.
+- Sandbox de SO pro agente: Linux e macOS. Projeto read-write; host, home, cache e dotfiles fora ou controlados.
+- Uso preferido: modo sem freio no harness (Claude/Codex sem confirmar cada passo), trava no SO.
+- Política versionável: .ai-jail, --dry-run, --mask .env, --private-home, --lockdown.
+- Não vender como segurança absoluta: sandbox de processo não é VM ("NOT A VM" no próprio site).
 -->
 ---
 
-<!-- _class: center tone-moss -->
-<div class="eyebrow">ai-memory</div>
+<!-- _class: center ai ai-olive -->
 
-<h1 style="font-size:2.45em;line-height:0.95;margin:0 0 16px 0;">Contexto que sobrevive<br>ao harness</h1>
-
-<div style="display:flex;gap:28px;align-items:center;text-align:left;margin-top:0;">
-  <div style="flex:0 0 45%;">
-    <img src="../assets/ai-memory-logo.png" alt="ai-memory" style="width:100%;max-height:92px;object-fit:contain;margin-bottom:8px;" />
-    <div class="card" style="margin-bottom:8px;padding:14px 16px;"><strong style="font-size:1.05em;">Hooks capturam</strong><div class="mini">prompt, chamada de ferramenta, decisão e limite de sessão</div></div>
-    <div class="card" style="margin-bottom:8px;padding:14px 16px;"><strong style="font-size:1.05em;">Markdown vira memória</strong><div class="mini">wiki versionável, FTS5, handoff e busca via MCP</div></div>
-    <div class="card" style="padding:14px 16px;"><strong style="font-size:1.05em;">Troca de agente sem reexplicar</strong><div class="mini">fecha Claude hoje, abre Codex amanhã no mesmo diretório</div></div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/ai-memory-web-home.png" alt="ai-memory web UI" style="width:100%;max-height:330px;object-fit:contain;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.24);" />
-    <div class="caption" style="margin-top:10px;text-align:left;">Não substitui docs/ canônico. Cobre gotchas, decisões transitórias e handoff entre sessões.</div>
-  </div>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/aimemory-sh-site.jpg" alt="Site do ai-memory: Different agents. One memory." style="height:600px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.30);" />
 </div>
 
+<div class="caption" style="margin-top:12px;">aimemory.sh</div>
+
 <!--
-Restam: ~41:38 (40s)
+Restam: ~46:48 (40s)
 
 - Problema: harness compacta ou acaba, e o próximo agente esquece as últimas horas.
-- ai-memory captura e consolida em markdown pesquisável.
+- Hooks capturam prompt, chamada de ferramenta, decisão e limite de sessão; vira wiki markdown, FTS5, handoff e busca via MCP.
+- Troca de agente sem reexplicar: fecha Claude hoje, abre Codex amanhã no mesmo diretório.
+- Open source (MIT), um binário, sem API key de modelo no básico. ~16 mil estrelas no GitHub.
 - Documentação importante ainda vai para `docs/`; memória cobre o transitório que seria perdido.
 -->
 ---
 
-<!-- _class: center tone-sand -->
-![bg cover opacity:.14](../assets/offline/bg-swordsmith.jpg)
-<div class="eyebrow">A Prova Prática</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Master-Swordsmith-Goro-Masamune-Ukiyo-e.png</div>
-
-# Mesmo dev.<br>Mesmo agente.<br>Processo diferente.
-
-<div class="columns">
-  <div class="card"><strong>FrankMD</strong><br />212 commits em 19 dias, refactor pesado, teste correndo atrás</div>
-  <div class="card"><strong>M.Akita Chronicles</strong><br />274 commits em 8 dias, TDD, CI e refatoração contínua</div>
-</div>
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A variável não foi “IA melhor”. Foi <span class="em-moss">disciplina de engenharia</span> desde o primeiro commit.</div>
-
-
-<!--
-Restam: ~40:13 (85s)
-
-- Aqui entra a comparação que eu acho mais forte de todas.
-- FrankMD de um lado.
-- M.Akita Chronicles do outro.
-- Mesmo desenvolvedor.
-- Aqui deixa de ser opinião e vira evidência.
--->
----
-
-<!-- _class: center tone-sand -->
-![bg cover opacity:.16](../assets/offline/bg-elephant.jpg)
-<div class="eyebrow">Recorte Beyond Summit 2026</div>
+<!-- _class: center ai ai-umber -->
+![bg cover opacity:.15 blur:7px](../assets/offline/bg-elephant.jpg)
+<div class="eyebrow">Recorte jan–nov/2026</div>
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:African_Bull_elephant_walking_towards_camera_in_August_2013.jpg</div>
 
 # Números<br>que pesam
 
 <div class="stats">
-  <div class="card"><strong>432.134</strong><span class="mini">linhas úteis</span></div>
-  <div class="card"><strong>62.643</strong><span class="mini">linhas de teste</span></div>
-  <div class="card"><strong>2.241</strong><span class="mini">commits</span></div>
-  <div class="card"><strong>~473 h</strong><span class="mini">horas ativas estimadas</span></div>
+  <div class="card"><strong>~1,8 mi</strong><span class="mini">linhas úteis</span></div>
+  <div class="card"><strong>~256 mil</strong><span class="mini">linhas de teste</span></div>
+  <div class="card"><strong>13.614</strong><span class="mini">commits meus</span></div>
+  <div class="card"><strong>~1.540 h</strong><span class="mini">horas ativas estimadas</span></div>
 </div>
 
-<div class="caption">Números fechados em maio/2026. Agregado de 30 projetos AI-assisted: `tokei` sem linhas em branco, contando código + comentários + markdown/conteúdo rastreado. `shadPS4` só na branch `gamma-debug`; `akitaonrails-hugo` só no recorte AI-era. Testes separados por path. Fora: assets, vendor, build, fixtures, snapshots e árvore de terceiros.</div>
+<div class="caption">60 projetos AI-assisted de 2026, contados em nov/2026. Tokei sem linhas em branco, só arquivo rastreado no git. Fora: JSON, dados gerados, resultados de benchmark, fixtures, assets, vendor e código de terceiros. Em repo com contribuidores, só a minha fatia. Blog só no recorte AI-era.</div>
 
 
 <!--
-Restam: ~38:38 (95s)
+Restam: ~46:08 (95s)
 
-- Ferramenta: `bin/totalpass-metrics`, usando `tokei`
-- Recorte fechado em maio/2026
-- Critério: linhas úteis rastreadas em git; teste por path; sem branco/assets/vendor/build
-- Exceções: `shadPS4` só `gamma-debug`; site só recorte AI-era
-- Horas: sessões agrupadas por commit, 90min de corte, +20min por sessão, 8h de teto
-- Antecipa crítica: "~473h não é tudo que eu trabalhei" — é só o rastreável por commit
+- Ferramenta: `bin/c3-metrics` (tokei), lista de repos do ghpending.
+- Fora da conta: forks de projeto alheio (omarchy, flea, clock-tui, docker-resolve) e repos anteriores a 2026.
+- Repo com comunidade (ai-memory, ai-usagebar, FrankMD, ai-jail): conta só a % de linhas adicionadas por mim.
+- frank_geary e frank_go começam com histórico upstream: conta só o que eu adicionei por cima.
+- Maiores: ai-memory (~356 mil c/ teste), rea-colin-mcrae-recomp (~231 mil), nes-to-sms (~144 mil), worldreports (~129 mil).
+- Horas: sessões por commit, 90 min de corte, +20 min por sessão, teto de 8 h.
+- Em maio eram 30 projetos e ~432 mil linhas. Em seis meses, mais de 4x.
 - Fecha: "agora dá pra discutir mecanismo, não fé"
 -->
 ---
 
-<!-- _class: center tone-sand -->
-![bg cover opacity:.18](../assets/offline/bg-strongman.jpg)
+<!-- _class: center ai ai-umber -->
+![bg cover opacity:.15 blur:7px](../assets/offline/bg-strongman.jpg)
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Basra_bodybuilding_competition_DVIDS288972.jpg</div>
 
 # Alcançamos<br>"Developer 10x"?
@@ -759,7 +611,7 @@ Restam: ~38:38 (95s)
 
 
 <!--
-Restam: ~37:08 (90s)
+Restam: ~44:33 (90s)
 
 - Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade.
 - Não porque o modelo escreve código perfeito.
@@ -768,801 +620,670 @@ Restam: ~37:08 (90s)
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.16](../assets/offline/bg-magician.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Thurston,_master_magician_all_out_of_a_hat._LCCN2014636958.jpg</div>
+<!-- _class: center ai ai-olive -->
 
-# Prompt único<br>é pra demo
-
-<div class="columns">
-  <div class="card"><strong>Produção é iteração</strong><br />bug, deploy, retorno, refatoração, ajuste de prompt</div>
-  <div class="card"><strong>“Pronto” é mentira</strong><br />125 commits de pós-produção em 4 projetos</div>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/livro-competente-o-suficiente.jpg" alt="Site do livro Competente o Suficiente, de Fabio Akita" style="height:580px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.30);" />
 </div>
 
+<div class="caption" style="margin-top:12px;">ailair.akitaonrails.com/pt-br/book</div>
 
 <!--
-Restam: ~36:03 (65s)
+Restam: ~43:03 (40s)
 
-- A fantasia do prompt único é preguiçosa.
-- Ela parte da ideia de que dá pra prever e especificar tudo antes.
-- Software real não funciona assim.
-- Produção revela coisa que você nem sabia que importava.
+- Livro: "Competente o Suficiente — um ano colocando a IA à prova, sem medo e sem propaganda".
+- Artigos do ano no blog, reorganizados como uma história só, fatos rechecados e ilustrado.
+- EPUB e PDF grátis, agora e em todas as versões. Impresso (UICLAP) e Kindle a preço de custo: sem lucro.
+- Versão 1.1, publicada em 18/nov/2026. Aberto a correções: qualquer um abre issue no GitHub.
+- Pra quem: o profissional com medo de ser substituído, o pai que leu que AGI chega em dois anos, o gerente recebendo "transformação com IA".
 -->
 ---
 
-<!-- _class: center tone-sand -->
-<div class="eyebrow">Código e dados públicos</div>
-
-# github.com/akitaonrails/<br>llm-coding-benchmark
-
-<div style="display:flex;justify-content:center;margin-top:10px;">
-  <img src="../assets/llm-coding-benchmark.png" alt="LLM Coding Benchmark — README do repo" style="max-height:470px;" />
+<!-- _class: center tone-extra-dark rg rg-linux -->
+<script>
+(function () {
+  function sync() {
+    document.querySelectorAll('video.deck-video').forEach(function (v) {
+      var on = !!v.closest('.bespoke-marp-active');
+      if (on) {
+        var vol = v.dataset.volume ? parseFloat(v.dataset.volume) : 0;
+        v.volume = vol;
+        v.muted = vol === 0;
+        if (v.paused) {
+          v.currentTime = 0;
+          v.play().catch(function () { v.muted = true; v.play().catch(function () {}); });
+        }
+      } else if (!v.paused) {
+        v.pause();
+      }
+    });
+  }
+  new MutationObserver(sync).observe(document.documentElement, { subtree: true, attributes: true, attributeFilter: ['class'] });
+  document.addEventListener('DOMContentLoaded', sync);
+  window.addEventListener('load', sync);
+})();
+</script>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/github-distrobox-gaming.jpg" alt="distrobox-gaming no GitHub" style="height:580px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
 </div>
 
-<!--
-Restam: ~35:51 (12s)
+<div class="caption" style="margin-top:12px;">github.com/akitaonrails/distrobox-gaming</div>
 
-- O repositório que sustenta todo o argumento que vem a seguir.
-- 4 rodadas documentadas: 5/abr (original), 18/abr (multi-modelo), 24/abr (canonical), 25/abr (orquestração), 4/mai (DeepSeek via DeepClaude).
-- 121 stars, infra em OpenCode, prompt e config versionados.
-- Quem quiser reproduzir, está tudo lá.
+<!--
+Restam: ~42:23 (30s)
+
+- Lado pessoal da maratona: games.
+- distrobox-gaming: um container com todos os emuladores já configurados (RetroArch, DuckStation, PCSX2, RPCS3, shadPS4, xemu...).
+- 481 estrelas, 49 forks, 683 commits. Tem até role de Ansible pro Colin McRae Rally (Recomp).
+- Script pra quem não quer passar um fim de semana configurando emulador.
 -->
 ---
 
-<!-- _class: center tone-sand -->
-<div class="eyebrow">Resultado Consolidado</div>
+<!-- _class: center tone-extra-dark rg rg-linux -->
 
-# <span class="em-moss">Junho/2026</span>
-
-<div style="display:flex;justify-content:center;margin-top:6px;overflow:hidden;">
-  <img src="../assets/benchmark-ranking.png" alt="Ranking atual top 8 dos 34 modelos por score, tier, RubyLLM, tempo e custo" style="width:1040px;max-width:none;" />
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/github-omarchy-games-menu.jpg" alt="omarchy-games-menu no GitHub" style="height:580px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
 </div>
 
-<!--
-Restam: ~35:39 (12s)
+<div class="caption" style="margin-top:12px;">github.com/akitaonrails/omarchy-games-menu</div>
 
-- 34 modelos scored, score 0-100, Tier A/B/C/D.
-- Topo segue: Opus 4.7 e GPT 5.4 xHigh empatam em 97; GPT 5.5 vem em 96; Opus 4.8 em 95.
-- Entraram no bloco de cima: Claude Fable 5 (94), Gemini 3.5 Flash (93) e GLM 5.2 (87).
-- Kimi K2.6 e GLM 5.2 empatam em 87; Kimi K2.7 Code ficou logo fora do corte em 86.
-- Tier A custo extremo: $0.30 (Kimi) → ~$16 (GPT 5.4); GLM 5.2 via assinatura.
+<!--
+Restam: ~41:53 (25s)
+
+- omarchy-games-menu: launcher pessoal ligado no distrobox-gaming.
+- Backend em Rust + grade em QuickShell, segue o tema do Omarchy.
+- Abre emulador, port de PC e as minhas versões customizadas num lugar só.
+- v0.2.1, 14 releases.
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.16](../assets/offline/bg-altman-amodei.jpg)
-<div class="eyebrow">Estado dos Modelos, junho de 2026</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:The_Prime_Minister_meets_with_AI_developers.jpg</div>
+<!-- _class: center tone-extra-dark rg rg-linux -->
+<!-- pptx-video: omarchy-games-menu -->
 
-# Modelos fechados<br>ainda lideram
-
-<div class="columns-3">
-  <div class="card"><strong>Anthropic</strong><div class="mini">Opus 4.7 lidera, Opus 4.8 quase empata, Fable 5 entrou forte no Tier A</div></div>
-  <div class="card"><strong>OpenAI</strong><div class="mini">GPT 5.4 e 5.5 via Codex continuam no topo, mas sem abrir distância</div></div>
-  <div class="card"><strong>Open-ish encostou</strong><div class="mini">Gemini 3.5 Flash, Kimi K2.6 e GLM 5.2 já aparecem no bloco de cima</div></div>
+<div style="display:flex;justify-content:center;">
+  <video class="deck-video" src="../assets/games/omarchy-games-menu.mp4" poster="../assets/games/omarchy-games-menu.jpg" muted autoplay loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
-<div class="caption">A virada de junho: agora são 34 modelos scored. Fechado ainda lidera, mas o miolo do Tier A ficou mais apertado: Fable 5, Gemini 3.5 Flash, Kimi e GLM encostaram.</div>
+<div class="caption" style="margin-top:12px;">A coleção inteira num menu só, no Omarchy</div>
 
 <!--
-Restam: ~34:34 (65s)
+Restam: ~41:28 (20s)
 
-- Em junho de 2026, leitura prática: Anthropic e OpenAI ainda lideram código sério.
-- Topo: Opus 4.7 e GPT 5.4 empatados em 97; GPT 5.5 em 96; Opus 4.8 em 95.
-- Fable 5 entrou em 94, Gemini 3.5 Flash em 93.
-- Kimi K2.6 e GLM 5.2 empatam em 87; Kimi K2.7 Code fica em 86.
-- Open-ish encostou no Tier A, mas o fluxo completo com agente ainda favorece frontier fechado.
+- Vídeo sem som: só deixar rodar.
+- Capa por jogo, categoria por plataforma, de Donkey Kong a Sega Rally, até RPCS3, shadPS4 e xemu.
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.14](../assets/offline/bg-datacenter.jpg)
-<div class="eyebrow">Benchmark Próprio — 34 Modelos, Código Real</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg</div>
+<!-- _class: center tone-extra-dark rg rg-linux -->
 
-# Quem consegue bater<br>o Claude Opus?
-
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 50%;">
-    <div class="card" style="margin-bottom:8px;font-size:0.78em;"><strong>8 modelos no corte de cima em jun/26</strong><br />Opus 4.7 e GPT 5.4 empatam em 97. GPT 5.5 (96), Opus 4.8 (95), Fable 5 (94), Gemini 3.5 Flash (93), Kimi K2.6 e GLM 5.2 (87)</div>
-    <div class="card" style="margin-bottom:8px;font-size:0.78em;"><strong>Open-ish ficou interessante</strong><br />Kimi K2.6, GLM 5.2 e Kimi K2.7 Code já são Tier A. Ainda não é domínio amplo, mas não dá mais pra ignorar.</div>
-    <div class="card" style="font-size:0.78em;"><strong>Thinking + tool calling + cache</strong><br />tamanho virou commodity. O que separa Tier A das outras é infraestrutura, não parâmetros — sem isso, o modelo chuta</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/llm-benchmark-cost-vs-quality.png" alt="Custo vs qualidade — benchmark de LLMs" style="height:400px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.22);" />
-  </div>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/quiver-site.jpg" alt="Quiver: catálogo de recomps, source ports e ports de PC" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
 </div>
 
-<div class="caption">Artigos: akitaonrails.com — benchmark canonical 24/abr/26 + updates de junho (Fable 5, Gemini 3.5 Flash, Kimi K2.7 Code, GLM 5.2)</div>
+<div class="caption" style="margin-top:12px;">quiverlauncher.com</div>
 
 <!--
-Restam: ~32:59 (95s)
+Restam: ~41:08 (30s)
 
-- Benchmark: 34 modelos scored, mesmo runner, mesma task (app Rails com RubyLLM).
-- Rubrica em 8 dimensões: completude, RubyLLM, testes, error handling, persistência, Hotwire, arquitetura, prod-ready. Score 0-100, Tier A/B/C/D.
-- Top: Opus 4.7 e GPT 5.4 xHigh empatam em 97/100; GPT 5.5 em 96; Opus 4.8 em 95.
-- Entraram forte em junho: Fable 5 (94), Gemini 3.5 Flash (93), GLM 5.2 (87), Kimi K2.7 Code (86).
-- Kimi K2.6 e Kimi K2.7 continuam entre os Tier A mais baratos — ~$0.30/run.
-- GLM 5.2 é o salto mais forte da família GLM: de GLM 5.1 Tier C pra GLM 5.2 Tier A.
-- Mensagem central: tamanho virou commodity, infraestrutura é o que separa os tiers.
+- Quiver: catálogo e launcher de recomps, source ports, recriações, emuladores e ferramentas. Grátis pra Windows, macOS, Linux e Android.
+- 2.002 projetos no catálogo hoje (20/nov/2026), feitos pela comunidade.
+- Não hospeda arquivo de jogo: você traz a sua cópia. Mesma regra dos meus launchers.
+- Detalhe bom pra esta palestra: tem filtro pra esconder apps feitos majoritariamente com IA, ou com qualquer uso de IA.
+- Ponte: é nesse ecossistema de recomp que o Colin McRae entra.
+-->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-rally -->
+<!-- pptx-video: colin-duckstation -->
+<div class="eyebrow">Desde o PlayStation</div>
+
+<h1 style="font-size:1.5em;margin:4px 0 14px 0;">Eu sempre amei Colin McRae</h1>
+
+<div style="display:flex;justify-content:center;">
+  <video class="deck-video" src="../assets/games/colin-duckstation.mp4" poster="../assets/games/colin-duckstation.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
+</div>
+
+<div class="caption" style="margin-top:12px;">Colin McRae Rally 2.0 no PlayStation, via DuckStation (resolução original)</div>
+
+<!--
+Restam: ~40:38 (30s)
+
+- Confissão: eu sempre amei Colin McRae Rally, desde o PlayStation.
+- Isso é o Colin 2.0 rodando no DuckStation, do jeito que era: 4:3, polígono tremendo, textura borrada.
+- Volume do vídeo em 25%: deixar o motor aparecer um pouco.
+- Ponte: e se desse pra jogar a versão de PC num PC moderno, do jeito certo?
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.14](../assets/offline/bg-thinker.jpg)
-<div class="eyebrow">Por Que Tão Poucos Funcionam</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:The_Thinker_detail_of_the_Gates_of_Hell_Rodin_musée_Rodin_S.01304_Paris.jpg</div>
+<!-- _class: center tone-extra-dark rg rg-rally -->
 
-# Não é mais só parâmetros
-
-<div class="columns-3">
-  <div class="card"><strong>Prompt Caching</strong><div class="mini">sem cache de KV, cada turno relê o contexto inteiro e o custo explode no loop do agente</div></div>
-  <div class="card"><strong>Tool Calling</strong><div class="mini">o modelo precisa decidir qual ferramenta chamar, com quais argumentos, e tratar o resultado de volta</div></div>
-  <div class="card"><strong>Reasoning / Thinking</strong><div class="mini">budget extra de inferência pra planejar antes de agir, em vez de chutar a primeira coisa</div></div>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/launcher-colin-mcrae.jpg" alt="Launcher do Colin McRae Rally: aba Play com os looks Original 1998, Enhanced, Steam Deck e Custom" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
 </div>
 
-<div class="caption">Tamanho de modelo virou commodity. As três condições acima é que separam quem aguenta um agente real — DeepSeek, por exemplo, falha hoje justamente por não fechar essas três.</div>
+<div class="caption" style="margin-top:12px;">rea-colin-mcrae • launcher pro Colin McRae Rally (1998) de PC</div>
 
 <!--
-Restam: ~31:34 (85s)
+Restam: ~40:08 (30s)
 
-- Gancho: "por que só 4 modelos passaram no benchmark?"
-- Tamanho virou commodity — não é parâmetro, é infraestrutura
-- Prompt caching → KV cache; sem isso sessão longa do Claude Code explode em custo
-- Tool calling → open source frequentemente trava ou inventa método
-- Thinking / reasoning → Anthropic chama de "thinking", é budget extra de inferência
-- Exemplo pra cravar: DeepSeek — modelo ok, falha por não fechar os 3
-- Puxar pro próximo slide: "Coder" no nome falha pelos mesmos motivos
+- rea-colin-mcrae: launcher pro Colin McRae Rally original de PC, adaptado pra PC moderno.
+- Escolhe a pasta do jogo e o "look": Original 1998 (640x480), Enhanced (resolução da sua tela), Steam Deck ou Custom.
+- Roda em Windows e Linux. Saves ficam separados.
+- v0.10.5, 842 commits, 24 releases. Post no blog: "Consertei vários jogos de corrida antigos usando IA" (2/nov/2026).
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.12](../assets/offline/bg-bamboo-slips.jpg)
-<div class="eyebrow">Surpresa Da Família Qwen</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Ancient_Chinese_Writing_on_Warring_States_Bamboo_Slips_1.jpg</div>
+<!-- _class: center tone-extra-dark rg rg-rally -->
+<!-- pptx-video: colin-launcher-default -->
 
-# "Coder" no nome não vira coder melhor
-
-<div style="display:flex;flex-direction:column;gap:18px;margin-top:24px;">
-  <div style="display:flex;gap:18px;">
-    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;"><strong style="font-size:1.1em;">Qwen 3 Coder 30B</strong><div class="mini" style="margin-top:8px;">devolveu string mockada hardcoded em vez de chamar a API</div></div>
-    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;"><strong style="font-size:1.1em;">Qwen 2.5 Coder 32B</strong><div class="mini" style="margin-top:8px;">90 minutos de timeout, zero arquivos escritos</div></div>
-  </div>
-  <div style="display:flex;gap:18px;">
-    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;"><strong style="font-size:1.1em;">Qwen 3.5 27B distilado do Claude 4.6</strong><div class="mini" style="margin-top:8px;">"Claude em casa" rodou Rails mas alucinou a API toda</div></div>
-    <div class="card" style="flex:1 1 0;padding:22px 26px;font-size:0.95em;background:rgba(107,142,90,0.24);border:2px solid #6b8e5a;"><strong style="font-size:1.1em;">Qwen 3.5 35B-A3B (MoE geral) ✓</strong><div class="mini" style="margin-top:8px;">único que vale a tentativa: rodou Rails e alucinações somem em 1-2 follow-ups — ainda assim atrás de Claude, GPT 5.4 e GLM 5.1</div></div>
-  </div>
+<div style="display:flex;justify-content:center;">
+  <video class="deck-video" src="../assets/games/colin-launcher-default.mp4" poster="../assets/games/colin-launcher-default.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
-<!--
-Restam: ~30:14 (80s)
+<div class="caption" style="margin-top:12px;">Colin McRae Rally (PC, 1998) pelo launcher, look original</div>
 
-- Gancho: "intuição era que 'Coder' no nome seria melhor — deu o contrário"
-- 3 Qwen Coder testados, 2 falharam catastroficamente, 1 nem rodou
-- Detalhe marcante: 3 Coder 30B devolveu string MOCKADA HARDCODED em vez de chamar API
-- 2.5 Coder 32B → 90 min de timeout, zero arquivos
-- Versões gerais bateram Coder dedicadas → fine-tuning em código ≠ fluxo de agente
-- Distilado do Claude (3.5 27B) era a aposta "Claude em casa" → rodou Rails mas alucinou API toda
-- Qwen do card verde = 3.5 35B-A3B (MoE geral), 5090, 1-2 follow-ups arrumam, o "menos ruim"
-- Quwen = Qianwen = "mil perguntas" em mandarim (se quiser soltar a curiosidade sobre o nome)
-- Amarrar: mesmas 3 condições do slide anterior — label não substitui infraestrutura
+<!--
+Restam: ~39:38 (25s)
+
+- Primeiro o look original: 4:3, como saiu em 1998.
+- Já roda liso em máquina moderna, sem gambiarra de compatibilidade.
+- Volume 25%.
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.14](../assets/offline/bg-kintsugi.jpg)
-<div class="eyebrow">Aceitando A Imperfeição</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Kintsugi.jpg</div>
+<!-- _class: center tone-extra-dark rg rg-rally -->
+<!-- pptx-video: colin-launcher-4k -->
 
-# IA nunca vai ser <span class="em-moss">perfeita</span>.
-
-## Mas errar ficou barato.
-
-<div class="columns-3">
-  <div class="card"><strong>claw-code: clean-room em 24h</strong><div class="mini">clone do Claude Code reimplementado do zero logo depois do leak</div></div>
-  <div class="card"><strong>free-code: fork sem amarras</strong><div class="mini">telemetria e travas arrancadas quase na hora</div></div>
-  <div class="card"><strong>OpenClaw + memclaw</strong><div class="mini">base madura, já com memclaw plugado — sistema de memória inspirado no do Claude</div></div>
+<div style="display:flex;justify-content:center;">
+  <video class="deck-video" src="../assets/games/colin-launcher-4k.mp4" poster="../assets/games/colin-launcher-4k.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
-<div class="caption" style="margin-top:18px;"><strong>Barato:</strong> CRUD, landing page, painel interno, bot, ETL, cola entre APIs. &nbsp;|&nbsp; <strong>Caro continua o que sempre foi:</strong> julgamento, arquitetura, operação, dono do problema.</div>
+<div class="caption" style="margin-top:12px;">Mesmo jogo, mesmo launcher: 16:9 em alta resolução e o HUD redesenhado</div>
 
 <!--
-Restam: ~28:44 (90s)
+Restam: ~39:13 (25s)
 
-- Ponto conceitual: não é que modelo ficou perfeito, é que errar ficou BARATO
-- Chave da virada: ciclo de feedback curto → stack trace → conserto → retry em segundos
-- claw-code → clone clean-room, github.com/ultraworkers/claw-code, <24h depois do leak
-- free-code → fork sem telemetria, sem travas
-- OpenClaw + memclaw → memclaw é sistema de memória inspirado no do Claude, github.com/Felo-Inc/memclaw
-- Mensagem: open source absorveu comportamento E padrões internos, muito rápido
-- Corte de mercado → barato: CRUD, landing, bot, ETL, cola entre API
-- Caro continua igual: julgamento, arquitetura, operação, dono do problema
-- Background: kintsugi — cerâmica quebrada consertada com ouro, o "defeito vira feature"
+- Agora o Enhanced: widescreen 16:9, alta resolução, HUD e placas de nota redesenhados em HD.
+- Mesmo executável de 1998 por baixo: o launcher só corrige o que o jogo não sabia fazer.
+- Volume 25%.
 -->
 ---
 
-<!-- _class: center tone-sand -->
-![bg cover opacity:.14](../assets/offline/bg-atm.jpg)
-<div class="eyebrow">Assinatura Vs Token</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:ATM_PIN_buttons_20180827.jpg</div>
+<!-- _class: center tone-extra-dark rg rg-rally -->
+<!-- _style: "padding:26px 40px;" -->
 
-# Assinatura ganha<br>de pay-as-you-go
-
-<div style="display:flex;gap:32px;align-items:center;text-align:left;">
-  <div style="flex:0 0 42%;">
-    <div class="card" style="margin-bottom:10px;font-size:0.85em;"><strong>GPT 5.4 / 5.5 Pro na API</strong><div class="mini">topo do ranking: 97 e 96 pontos. GPT 5.5 custa ~$10/run contra ~$16 do 5.4.</div></div>
-    <div class="card" style="margin-bottom:10px;font-size:0.85em;"><strong>ChatGPT Pro</strong><div class="mini">$200/mês ilimitado — 5x mais barato que a API. Codex já entrou na cota.</div></div>
-    <div class="card" style="margin-bottom:10px;font-size:0.85em;"><strong>Claude Opus 4.7 / 4.8</strong><div class="mini">97 e 95 pontos; por run fica perto de ~$1.10. Fable 5 entrou em 94, mas caro: ~$11 est.</div></div>
-    <div class="card" style="font-size:0.85em;"><strong>Tier A barato</strong><div class="mini">Kimi K2.6 e Kimi K2.7 Code ficam em ~$0.30/run; GLM 5.2 entra por assinatura</div></div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/llm-benchmark-monthly-pricing.png" alt="Custo mensal estimado: assinatura vs API por token" style="height:440px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.20);" />
-  </div>
+<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;height:100%;">
+  <img src="../assets/games/colin-hd-bg-1.jpg" alt="Colin McRae Rally com cenário de fundo em HD" style="width:812px;border-radius:12px;box-shadow:0 14px 34px rgba(0,0,0,0.45);" />
+  <img src="../assets/games/colin-hd-bg-2.jpg" alt="Colin McRae Rally com cenário de fundo em HD, visão mais larga" style="width:812px;border-radius:12px;box-shadow:0 14px 34px rgba(0,0,0,0.45);" />
+  <div class="caption" style="margin-top:2px;">Cenários de fundo em HD no Colin McRae Rally, pelo launcher</div>
 </div>
 
-<div class="caption">Estimativa pra uso moderado de coding (~15M input + ~3M output tokens/mês).</div>
+<!--
+Restam: ~38:48 (25s)
+
+- Detalhe do Enhanced: os cenários de fundo (céu, nuvens, montanhas) em HD, em vez das texturas borradas de 1998.
+- Capturas de hoje (20/nov), direto do gamescope.
+- Ponte: e daí pra frente, o próximo passo foi reconstruir o jogo inteiro.
+-->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-rally -->
+
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/github-rea-colin-mcrae-recomp.jpg" alt="rea-colin-mcrae-recomp no GitHub" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
+</div>
+
+<div class="caption" style="margin-top:12px;">github.com/akitaonrails/rea-colin-mcrae-recomp</div>
 
 <!--
-Restam: ~27:19 (85s)
+Restam: ~38:23 (25s)
 
-- Suposição do benchmark: ~15M tokens input + ~3M output por mês (uso moderado de coding)
-- GPT 5.4 Pro via API: $180/M output tokens — vira os ~$990/mês; no benchmark, ~$16/run.
-- GPT 5.5: quase mesma qualidade do 5.4, mais barato. 96 pontos, ~$10/run.
-- Claude Opus 4.7/4.8: 97 e 95 pontos, perto de ~$1.10/run; Fable 5 entra em 94 mas custa ~$11 est.
-- ChatGPT Pro $200 = ilimitado, e Codex agora consome da mesma cota — 5x mais barato que API
-- Claude Max 20x $200 → ~220K tokens a cada 5h, ~metade do preço do Opus na API
-- Tier A barato entrou na conta: Kimi K2.6 e Kimi K2.7 Code a ~$0.30/run; GLM 5.2 via assinatura.
-- Disclaimer honesto: provavelmente subsidiado, pode não durar pra sempre
-- Contexto: Anthropic preparando IPO em 2026 pressiona essa margem (puxa pro slide seguinte)
+- Aí eu fui mais longe: em vez de remendar o executável, reconstruir o jogo inteiro.
+- rea-colin-mcrae-recomp: tentativa experimental de recriar o Colin McRae Rally de 1998 em Rust, com REA (engenharia reversa por análise estática).
+- Sem nenhum asset do jogo no repositório: você aponta pra sua cópia legal.
 -->
 ---
 
-<!-- _class: center tone-ruby -->
-![bg cover opacity:.10](../assets/offline/bg-altman-amodei.jpg)
-<div class="eyebrow">Fundadores Viraram Personagens</div>
-<div class="source-url">Fontes: Sam Altman/Village Global CC BY 2.0 • Dario Amodei/TechCrunch-Kimberly White CC BY 2.0 • fundo/No 10 Downing Street</div>
+<!-- _class: center tone-extra-dark rg rg-rally -->
+<div class="eyebrow">rea-colin-mcrae-recomp • trabalho em andamento</div>
 
-# Heróis ou <span class="em-ruby">Vilões</span>
+# Colin McRae <span class="em-ruby">em Rust</span>
 
-<div style="display:flex;gap:34px;align-items:stretch;justify-content:center;margin-top:18px;max-width:1040px;margin-left:auto;margin-right:auto;">
-  <div class="card" style="flex:1 1 0;padding:18px 18px 22px;text-align:left;">
-    <img src="../assets/offline/altman-portrait.jpg" alt="Sam Altman" style="width:100%;height:310px;object-fit:cover;object-position:center 8%;border-radius:14px;box-shadow:0 14px 28px rgba(0,0,0,0.18);" />
-    <div style="font-size:1.05em;font-weight:900;margin-top:14px;">Sam Altman</div>
-    <div class="mini">OpenAI • hype, escala e Elon processando</div>
-  </div>
-  <div class="card" style="flex:1 1 0;padding:18px 18px 22px;text-align:left;">
-    <img src="../assets/offline/amodei-portrait.jpg" alt="Dario Amodei" style="width:100%;height:310px;object-fit:cover;object-position:center 32%;border-radius:14px;box-shadow:0 14px 28px rgba(0,0,0,0.18);" />
-    <div style="font-size:1.05em;font-weight:900;margin-top:14px;">Dario Amodei</div>
-    <div class="mini">Anthropic • shutdown, Fable 5 e Mythos 5</div>
-  </div>
+<div class="stats">
+  <div class="card"><strong>~223 mil</strong><span class="mini">linhas de Rust</span></div>
+  <div class="card"><strong>2.976</strong><span class="mini">testes</span></div>
+  <div class="card"><strong>12</strong><span class="mini">crates</span></div>
+  <div class="card"><strong>662</strong><span class="mini">commits em 12 dias</span></div>
 </div>
 
-<div class="caption" style="margin-top:18px;">Mocinho e vilão é narrativa. O motor real é margem, compute e distribuição.</div>
+<div class="caption">WIP. Física em ponto fixo Q16.16, rasterizador de referência bit a bit, render em wgpu e SDL3. Branch main pra preservação 1:1; branch modern com 4K, widescreen e 144+ FPS. Contado com tokei, sem JSON.</div>
 
 <!--
-Restam: ~26:44 (35s)
+Restam: ~37:58 (40s)
 
-- Depois do preço, é tentador transformar tudo em novela de fundador.
-- Sam e Dario viraram símbolos: aceleração vs cautela, OpenAI vs Anthropic.
-- Sam: hype, escala, e Elon processando. Dario: Fable 5, Mythos 5 e shutdown do governo.
-- Mas o motor real é margem, compute, assinatura subsidiada, API cara, IPO e distribuição.
-- Retratos: Sam by Village Global; Dario at TechCrunch Disrupt 2023 by TechCrunch/Kimberly White; ambos CC BY 2.0.
-- Não torcer por personagem; entender incentivo.
-- Ponte: quem controla custo e hardware empurra o mercado — entra a China.
+- Repetir: é trabalho em andamento. Não está pronto, não é produto.
+- 349 arquivos Rust, ~223 mil linhas de código (tokei, sem dados JSON), 2.976 funções #[test].
+- 662 commits entre 20/out e 1/nov de 2026.
+- README diz 119 de 119 itens do mapa de reconstrução implementados: formatos, física, colisão, menus, campeonato, replay, áudio.
+- Duas branches: main (preservação 1:1 do Rally.exe de 1998) e modern (4K, 16:9/21:9, 60-144+ FPS, MSAA, FSR).
 -->
 ---
 
-<!-- _class: center tone-moss -->
-<div class="eyebrow">Chineses no Tier A</div>
+<!-- _class: center tone-extra-dark rg rg-rally -->
+<!-- pptx-video: colin-recomp-4k -->
 
-# China chegou perto<br>do <span class="em-moss">topo</span>
-
-<div style="display:flex;gap:24px;align-items:stretch;margin-top:20px;">
-  <div class="card" style="flex:1 1 0;padding:24px;font-size:0.88em;">
-    <strong style="font-size:1.15em;">Kimi K2.6 (Moonshot)</strong>
-    <div style="margin-top:10px;line-height:1.45;">
-      <strong>87/100 Tier A</strong> — um dos dois chineses no Tier A por mérito direto.<br />
-      $0.30/run, 20 min. <strong>Tier A mais barato</strong> do benchmark (3 a 50x mais barato que Opus/GPT).<br />
-      FakeChat com signature correta, rescue de erro, session cookie multi-worker safe.
-    </div>
-  </div>
-  <div class="card" style="flex:1 1 0;padding:24px;font-size:0.88em;">
-    <strong style="font-size:1.15em;">GLM 5.2 (Z.ai)</strong>
-    <div style="margin-top:10px;line-height:1.45;">
-      <strong>87/100 Tier A</strong> — empatou com Kimi K2.6 no corte de cima.<br />
-      Via assinatura; DI/testes fortes, mas persistência process-local sem cap.<br />
-      Depois do GLM 5.1 inventar DSL, 5.2 corrigiu o básico que importa.
-    </div>
-  </div>
+<div style="display:flex;justify-content:center;">
+  <video class="deck-video" src="../assets/games/colin-recomp-4k.mp4" poster="../assets/games/colin-recomp-4k.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
-<div class="caption" style="margin-top:14px;">Kimi K2.7 Code ficou logo atrás, 86/100. DeepSeek V4 Pro saiu do corte de junho. O gap fechou em qualidade, não em variedade: poucos chineses aguentam agente real.</div>
+<div class="caption" style="margin-top:12px;">A reconstrução em Rust rodando: estágio na Nova Zelândia, 16:9</div>
 
 <!--
-Restam: ~26:19 (25s)
+Restam: ~37:18 (25s)
 
-- Recorte importante da última rodada do benchmark: chineses continuam no Tier A.
-- Kimi K2.6 (Moonshot): 87/100, $0.30/run, Tier A mais barato do benchmark.
-- GLM 5.2 (Z.ai): 87/100, via assinatura; DI/testes fortes, mas persistência process-local sem cap.
-- Kimi K2.7 Code ficou logo atrás, 86/100.
-- DeepSeek V4 Pro saiu do corte de junho.
-- Mensagem: gap fechou em qualidade, não em variedade — preço caiu, mas ainda são poucos modelos que aguentam agente real.
+- Isso não é o executável original. É o código em Rust reconstruído, rodando nativo.
+- Ainda tem diferença visual e bug: WIP.
+- Volume 25%.
 -->
 ---
 
-<!-- _class: center tone-ruby -->
-<div class="eyebrow">Hardware × Geopolítica</div>
+<!-- _class: center tone-extra-dark rg rg-rally -->
+<div class="eyebrow">Fui com tudo</div>
 
-# China ainda <span class="em-ruby">bloqueia o H200?</span>
+<h1 style="font-size:1.6em;margin:0 0 14px 0;">Colin 04, Colin 2005, DiRT e DiRT Rally</h1>
 
-<div style="display:flex;justify-content:center;align-items:center;gap:22px;margin-top:8px;max-width:1140px;margin-left:auto;margin-right:auto;">
-  <div style="flex:1 1 0;">
-    <img src="../assets/h200-china-block.png" alt="Trump says China is blocking Nvidia H200 purchases despite US approval" style="width:100%;border-radius:12px;box-shadow:0 12px 24px rgba(0,0,0,0.24);" />
-    <div style="font-size:0.58em;opacity:0.72;margin-top:6px;text-align:center;">tomshardware.com/tech-industry/trump-says-china-is-blocking-h200-purchases</div>
-  </div>
-  <div style="flex:1 1 0;">
-    <img src="../assets/nvidia-5-5-trillion.png" alt="Nvidia hits $5.5 trillion — more than the GDP of every country but the US and China" style="width:100%;border-radius:12px;box-shadow:0 12px 24px rgba(0,0,0,0.24);" />
-    <div style="font-size:0.58em;opacity:0.72;margin-top:6px;text-align:center;">finance.yahoo.com/news/nvidia-hits-5-5-trillion-155206232.html</div>
-  </div>
+<div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center;max-width:1000px;margin:0 auto;">
+  <img src="../assets/games/launcher-colin-04.jpg" alt="Launcher do Colin McRae Rally 04" style="flex:0 0 auto;height:250px;border-radius:12px;box-shadow:0 12px 28px rgba(0,0,0,0.35);" />
+  <img src="../assets/games/launcher-colin-2005.jpg" alt="Launcher do Colin McRae Rally 2005" style="flex:0 0 auto;height:250px;border-radius:12px;box-shadow:0 12px 28px rgba(0,0,0,0.35);" />
+  <img src="../assets/games/launcher-dirt.jpg" alt="Launcher do Colin McRae: DiRT" style="flex:0 0 auto;height:250px;border-radius:12px;box-shadow:0 12px 28px rgba(0,0,0,0.35);" />
+  <img src="../assets/games/launcher-dirt-rally.jpg" alt="Launcher do DiRT Rally" style="flex:0 0 auto;height:250px;border-radius:12px;box-shadow:0 12px 28px rgba(0,0,0,0.35);" />
 </div>
+
+<div class="caption" style="margin-top:12px;">rea-colin-mcrae-4 • rea-colin-mcrae-2005 • rea-dirt • rea-dirt-rally</div>
 
 <!--
-Restam: ~26:04 (15s)
+Restam: ~36:53 (35s)
 
-- 10 empresas chinesas com aprovação dos EUA pra importar H200 — Pequim disse "não, usa o que tem em casa" (Huawei Ascend 910C, Cambricon, Biren).
-- Ao mesmo tempo, Nvidia bate US$ 5,5 trilhões de market cap — mais que o PIB de qualquer país exceto EUA e China.
-- A geopolítica entrou na corrida por compute: não é mais só quem tem mais GPU, é quem controla o silício.
-- Kimi, GLM e DeepSeek são parte do mesmo empurrão: rodar mais coisa no hardware que Pequim está forçando a maturar.
-- Implicação: a tomada e o chip viraram parte da mesma briga.
--->
----
-<!-- _class: center tone-sand -->
-<div class="eyebrow">Hardware local de IA</div>
-
-# DGX Spark:<br><span class="em-moss">appliance, não revolução</span>
-
-<div style="display:flex;gap:28px;align-items:center;max-width:1080px;margin:18px auto 0 auto;text-align:left;">
-<div style="flex:0 0 43%;text-align:center;">
-<img src="../assets/nvidia-dgx-spark.jpg" alt="NVIDIA DGX Spark" style="width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-<div class="caption" style="font-size:0.52em;margin-top:6px;text-align:center;">Imagem: NVIDIA Newsroom</div>
-</div>
-<div style="flex:1 1 auto;">
-<div class="columns" style="margin-top:0;">
-<div class="card"><strong>GB10</strong><div class="mini">Grace Blackwell Superchip</div></div>
-<div class="card"><strong>128 GB</strong><div class="mini">memória unificada</div></div>
-</div>
-<div class="columns" style="margin-top:14px;">
-<div class="card"><strong>1 PFLOP FP4</strong><div class="mini">~RTX 5070 em AI TOPS</div></div>
-<div class="card"><strong>CPU Arm</strong><div class="mini">MediaTek co-design, 20 cores</div></div>
-</div>
-<div class="lead" style="max-width:none;text-align:left;margin:18px 0 0 0;font-size:1.0em;">Parece mais um “smartphone Android bombado” em formato de desktop do que outro salto de fronteira.</div>
-</div>
-</div>
-
-<!--
-Restam: ~25:19 (45s)
-
-- Nome oficial: NVIDIA DGX Spark, antes Project DIGITS.
-- GB10 Grace Blackwell, 128GB unificada, até 1 PFLOP FP4, 4TB NVMe.
-- CPU é Arm/MediaTek co-design; GPU fica perto de RTX 5070 em AI TOPS.
-- Insight: bom appliance local pra protótipo/fine-tuning/inferência; não é revolução de treino frontier.
+- Depois do primeiro, fui com tudo: launcher pro Colin McRae Rally 04, Colin 2005, Colin McRae: DiRT e DiRT Rally.
+- Mesmo padrão: escolhe a pasta, escolhe o look (original, widescreen, Steam Deck), joga em 16:9 e alta resolução.
+- DiRT: corrigido o crash ao carregar corrida em CPU moderna (jogo agora usa até 12 threads).
+- Todos abertos no GitHub, criados entre 1 e 2 de novembro de 2026.
 -->
 ---
 
-<!-- _class: center tone-ruby -->
-![bg cover opacity:.12](../assets/offline/bg-layoff-box.jpg)
-<div class="eyebrow">A Correção</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Employee_Packing_Things_Into_Box.jpg</div>
+<!-- _class: center tone-extra-dark rg rg-rally -->
 
-# Empresas e Profissionais<br><span class="em-ruby">ruins vão sair</span>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/github-rea-launcher-sdk.jpg" alt="rea-launcher-sdk no GitHub" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
+</div>
 
-## e isso melhora a indústria
-
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Se você é o tipo que espera alguém te dizer o que fazer, você não sabe como pedir coisas pra IA.</div>
+<div class="caption" style="margin-top:12px;">github.com/akitaonrails/rea-launcher-sdk</div>
 
 <!--
-Restam: ~24:19 (60s)
+Restam: ~36:18 (25s)
 
-- Aqui é a parte em que eu paro de fingir diplomacia.
-- Empresas ruins e profissionais ruins vão sair.
-- Se você espera alguém te dizer o que fazer, você também não sabe pedir coisas pra IA.
-- A indústria passou anos trocando engenharia por competência fake e dívida técnica.
+- E quando já tinha cinco launchers, extraí o que se repetia: rea-launcher-sdk.
+- Framework pra construir launcher de jogo retrô: abas Play/Picture/Controls, looks, cópia privada, gamepad, empacotamento.
+- 245 commits, v0.11.2, 23 releases. Os launchers da TeknoParrot (Initial D, Wangan, Sega, Nintendo) e Rad Mobile já saíram dele.
+- Post no blog: "Criando um framework para IA com IA: REA Launcher SDK".
 -->
 ---
 
-<!-- _class: center -->
-![bg cover opacity:.12](../assets/offline/bg-foundation.jpg)
-<div class="eyebrow">Akita Antigo Continua Certo</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Rebar_installation_in_the_Pier_Foundation_(rubin-20160209-110033).jpg</div>
+<!-- _class: center tone-extra-dark rg rg-rally -->
+<div class="eyebrow">O que os launchers consertaram</div>
 
-# Fundamento primeiro
+<h1 style="font-size:1.6em;margin:0 0 14px 0;">Bug velho, conserto <span class="em-ruby">em horas</span></h1>
 
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px;max-width:920px;margin-left:auto;margin-right:auto;">
-  <img src="../assets/offline/thumb-cursos-nao-ensinam.jpg" alt="Akita, quais cursos você recomenda? E o low-code? E o GPT-3?" style="width:100%;height:auto;border-radius:14px;" />
-  <img src="../assets/offline/thumb-aprendendo-a-aprender.jpg" alt="Rant: Programação não é fácil" style="width:100%;height:auto;border-radius:14px;" />
-  <img src="../assets/offline/thumb-programacao-nao-e-facil.jpg" alt="Mercado financeiro pós-pandemia: a tempestade perfeita?" style="width:100%;height:auto;border-radius:14px;" />
-  <img src="../assets/offline/thumb-beira-do-caos.jpg" alt="Guia definitivo de aprendendo a aprender" style="width:100%;height:auto;border-radius:14px;" />
+<div style="display:flex;flex-wrap:wrap;gap:16px;max-width:1100px;margin:0 auto;">
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">Colin McRae Rally (1998)</strong><div class="mini" style="margin-top:4px;">A corrida parava em 800×600. Agora vai a 4K, em 16:9 de verdade, a 60 fps. E ganhou vibração nos gatilhos que o jogo nunca teve.</div></div>
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">Colin McRae Rally 04</strong><div class="mini" style="margin-top:4px;">O patch de 16:9 da comunidade deixava os carros 25% mais estreitos. A engenharia reversa achou o porquê: renderiza em 4:3 e estica depois.</div></div>
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">Colin McRae Rally 2005</strong><div class="mini" style="margin-top:4px;">"Partículas avançadas" só liberavam num Pentium 4 com Hyper-Threading. Agora em qualquer processador. E no Linux parou de travar antes do menu.</div></div>
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">Colin 2005 e DiRT Rally</strong><div class="mini" style="margin-top:4px;">Os dois saíram direto do SDK: umas 4 a 5 horas cada, da primeira pesquisa até a release. Oito launchers em uns dois dias.</div></div>
 </div>
 
-<!--
-Restam: ~23:19 (60s)
+<div class="caption" style="margin-top:14px;">"Nada aqui é técnica nova." O que mudou foi o tempo: semanas por jogo viraram horas.</div>
 
-- É por isso que o Akita antigo continua valendo.
-- Não terceirize sua decisão.
-- Aprenda a aprender.
-- Entenda que programação não é fácil.
+<!--
+Restam: ~35:53 (45s)
+
+- NÃO dizer "ninguém nunca consertou". O próprio post do blog (2/nov) diz: "Nada aqui é técnica nova."
+- Crédito: o fix de 16:9 do Colin 04 é do AuToMaNiAk005; o meu achado foi por que ele achatava os carros (função de projeção) e como aplicar certo.
+- DiRT: crash em CPU com muitas threads usa o MTFix da comunidade. DiRT Rally: crash em Ryzen 5000+ documentado na issue #3 do Feral.
+- Colin 2005: a opção era travada pela detecção de Pentium 4 HT; o launcher usa a chave FORCEHT do próprio jogo. Crash no Linux: faltavam as configurações que o instalador escreve, sem elas o jogo não carrega fontes.
+- Colin 1998: o passo de desenho mais lento foi corrigido, 60 fps a 4K no PC de teste. Pack de arte HD redesenhado (HUD, menus, céus, placas).
+- A frase do post: "Portar abandonware costumava levar semanas por jogo, e por isso quase ninguém fazia."
 -->
 ---
 
-<!-- _class: center -->
-![bg cover opacity:.12](../assets/offline/thumb-winter-is-coming.jpg)
-# Não terceirize<br>seu <span class="em-ruby">julgamento</span>
+<!-- _class: center tone-extra-dark rg rg-arcade -->
+<div class="eyebrow">Inspiração</div>
 
-## nem pra guru
-## nem pra bootcamp
-## nem pro modelo
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/wanszai-github.jpg" alt="Perfil do Wanszai no GitHub com Sega Rally Championship, Ridge Racer Collection, Scud Race, Virtua Racing e Virtua Fighter" style="height:540px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
+</div>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">A lógica continua a mesma: experimento pequeno, feedback rápido, correção contínua.</div>
+<div class="caption" style="margin-top:12px;">github.com/wanszai</div>
 
 <!--
-Restam: ~22:24 (55s)
+Restam: ~35:08 (25s)
 
-- O mais difícil de ensinar pra iniciante é isso: julgamento não é uma coisa que você baixa pronta.
-- Não vem de influencer, não vem de bootcamp, não vem de modelo.
-- O modelo mental continua o mesmo: experimento pequeno na beira do caos, erro cedo, retorno rápido, correção contínua.
--->
----
-<!-- _class: center tone-ruby -->
-![bg cover opacity:.10](../assets/offline/bg-foundation.jpg)
-<div class="eyebrow">O problema antes do prompt</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Rebar_installation_in_the_Pier_Foundation_(rubin-20160209-110033).jpg</div>
-
-# Você não tem <span class="em-ruby">objetivos</span>.
-
-## tem desejos.
-
-<div style="display:flex;gap:22px;align-items:stretch;margin-top:20px;text-align:left;">
-  <div class="card" style="flex:1 1 0;padding:24px 28px;">
-    <strong style="font-size:1.15em;">Pedido vago</strong><br />
-    <span class="mini">“melhora meu sistema”</span>
-  </div>
-  <div class="card" style="flex:1 1 0;padding:24px 28px;background:rgba(107,142,90,0.20);border:2px solid #6b8e5a;">
-    <strong style="font-size:1.15em;">Meta objetiva</strong><br />
-    <span class="mini">reduzir build de 12m para 5m sem quebrar teste</span>
-  </div>
-</div>
-
-<div class="card" style="max-width:920px;margin:18px auto 0 auto;padding:18px 26px;background:rgba(178,70,63,0.18);border:2px solid #b2463f;text-align:center;">
-  <strong>Pergunta incômoda:</strong><br />
-  você se acostumou a esperar alguém criar o backlog por você?
-</div>
-
-<div class="lead" style="max-width:980px;margin:18px auto 0 auto;text-align:center;">IA não adivinha o que você não consegue medir.</div>
-
-<!--
-Restam: ~21:24 (60s)
-
-- Insight novo: muita gente acha que o problema é saber escrever prompt.
-- O problema real vem antes: a pessoa não sabe descrever o problema objetivamente.
-- Sem estado atual, restrição e métrica de sucesso, o agente só otimiza fumaça.
-- Provocação: você se acostumou a esperar alguém criar o backlog por você?
-- IA ajuda muito quando você sabe dizer: de onde estou saindo, onde quero chegar, e como vou medir se funcionou.
--->
----
-<!-- _class: center tone-moss -->
-<div class="eyebrow">Ritmo de agente</div>
-
-# O sprint ideal
-
-<div style="display:flex;gap:18px;align-items:stretch;max-width:1060px;margin:18px auto 0 auto;text-align:center;">
-<div class="card" style="flex:0 0 145px;padding:20px 16px;background:rgba(178,70,63,0.16);border:2px solid #b2463f;display:flex;flex-direction:column;justify-content:center;gap:18px;">
-<div style="font-size:0.72em;font-weight:900;color:#8a2f2a;letter-spacing:0.08em;text-transform:uppercase;">não</div>
-<div style="font-size:0.94em;font-weight:900;line-height:1.08;color:#8a2f2a;">planning<br />longo</div>
-<div style="height:3px;background:#b2463f;border-radius:99px;"></div>
-<div style="font-size:0.94em;font-weight:900;line-height:1.08;color:#8a2f2a;">backlog<br />gigante</div>
-</div>
-<div style="flex:1 1 auto;display:flex;flex-direction:column;gap:14px;">
-<div class="card" style="padding:18px 20px;background:rgba(107,142,90,0.22);border:2px solid #6b8e5a;">
-<div style="font-size:0.64em;font-weight:900;color:#46633d;letter-spacing:0.10em;text-transform:uppercase;margin-bottom:10px;">manhã</div>
-<div style="display:flex;align-items:center;justify-content:center;gap:22px;">
-<div style="width:78px;height:78px;border-radius:50%;border:3px solid #46633d;background:#f5f0dc;display:flex;align-items:center;justify-content:center;font-size:0.88em;font-weight:900;color:#46633d;">PM</div>
-<div style="font-size:1.55em;font-weight:900;color:#46633d;">→</div>
-<div style="width:104px;height:78px;border-radius:20px;border:3px solid #46633d;background:#f5f0dc;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#46633d;line-height:1.1;"><strong style="font-size:0.84em;">dev</strong><span style="font-size:0.62em;font-weight:800;">+ LLM</span></div>
-</div>
-<div class="mini" style="margin-top:10px;color:#46633d;font-weight:800;">objetivo claro + corte de escopo</div>
-</div>
-<div class="card" style="padding:18px 20px;background:rgba(107,142,90,0.22);border:2px solid #6b8e5a;">
-<div style="font-size:0.64em;font-weight:900;color:#46633d;letter-spacing:0.10em;text-transform:uppercase;margin-bottom:10px;">tarde</div>
-<div style="display:flex;align-items:center;justify-content:center;gap:22px;">
-<div style="width:78px;height:78px;border-radius:50%;border:3px solid #46633d;background:#f5f0dc;display:flex;align-items:center;justify-content:center;font-size:0.88em;font-weight:900;color:#46633d;">QA</div>
-<div style="font-size:1.55em;font-weight:900;color:#46633d;">→</div>
-<div style="width:104px;height:78px;border-radius:20px;border:3px solid #46633d;background:#f5f0dc;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#46633d;line-height:1.1;"><strong style="font-size:0.84em;">dev</strong><span style="font-size:0.62em;font-weight:800;">+ LLM</span></div>
-</div>
-<div class="mini" style="margin-top:10px;color:#46633d;font-weight:800;">validação rápida + borda do problema</div>
-</div>
-</div>
-<div class="card" style="flex:0 0 265px;padding:22px 18px;background:rgba(255,248,231,0.70);display:flex;flex-direction:column;justify-content:space-between;">
-<div>
-<strong style="font-size:0.88em;display:block;margin-bottom:14px;">rotação na semana</strong>
-<div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;"><span class="mini" style="padding:9px 12px;border-radius:13px;background:rgba(107,142,90,0.22);border:1px solid #6b8e5a;font-weight:900;">dev 1</span><span class="mini" style="padding:9px 12px;border-radius:13px;background:rgba(107,142,90,0.22);border:1px solid #6b8e5a;font-weight:900;">dev 2</span><span class="mini" style="padding:9px 12px;border-radius:13px;background:rgba(107,142,90,0.22);border:1px solid #6b8e5a;font-weight:900;">dev N</span></div>
-<div style="font-size:1.3em;color:#46633d;font-weight:900;margin-top:8px;">↻</div>
-</div>
-<div style="margin-top:12px;padding:16px;border-radius:18px;background:rgba(178,70,63,0.14);border:2px solid #b2463f;"><strong style="font-size:0.86em;color:#8a2f2a;">tech lead</strong><div class="mini" style="margin-top:8px;color:#8a2f2a;font-weight:800;">arquitetura<br />refatoração</div></div>
-</div>
-</div>
-<div class="lead" style="max-width:960px;margin:16px auto 0 auto;text-align:center;font-size:1.0em;">menos backlog parado, mais conversa com código rodando</div>
-
-<!--
-Restam: ~20:24 (60s)
-
-- Ideia visual: sprint menor, muito mais pareamento e feedback.
-- Manhã: PM + programador com LLM, objetivo e corte de escopo.
-- Tarde: QA + programador com LLM, validação e borda do problema.
-- Roda pelos programadores; tech lead entra pontualmente pra arquitetura e refatoração.
--->
----
-<!-- _class: center tone-moss -->
-<div class="eyebrow">Novo custo do ciclo</div>
-
-# Codar é Barato.<br><span class="em-moss">Errar é Barato.</span>
-
-<div style="display:flex;gap:12px;align-items:stretch;max-width:980px;margin:20px auto 0 auto;text-align:center;">
-<div class="card" style="flex:0 0 205px;padding:24px 16px;background:rgba(178,70,63,0.14);border:2px solid #b2463f;display:flex;flex-direction:column;justify-content:center;gap:16px;">
-<div style="font-size:0.72em;font-weight:900;color:#8a2f2a;letter-spacing:0.10em;text-transform:uppercase;">antes</div>
-<div style="font-size:1.15em;font-weight:900;line-height:1.08;color:#8a2f2a;">codar caro</div>
-<div style="font-size:1.45em;font-weight:900;color:#8a2f2a;">↓</div>
-<div class="mini" style="font-weight:900;color:#8a2f2a;line-height:1.25;">menos protótipo<br />mais aposta grande</div>
-</div>
-
-<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:center;gap:14px;">
-<div style="display:flex;align-items:center;justify-content:center;gap:12px;">
-<div class="card" style="width:112px;padding:18px 10px;background:rgba(107,142,90,0.22);border:2px solid #6b8e5a;"><strong style="font-size:0.72em;color:#46633d;">hipótese</strong></div>
-<div style="font-size:1.35em;color:#46633d;font-weight:900;">→</div>
-<div class="card" style="width:112px;padding:18px 10px;background:rgba(107,142,90,0.22);border:2px solid #6b8e5a;"><strong style="font-size:0.72em;color:#46633d;">protótipo</strong></div>
-<div style="font-size:1.35em;color:#46633d;font-weight:900;">→</div>
-<div class="card" style="width:112px;padding:18px 10px;background:rgba(107,142,90,0.22);border:2px solid #6b8e5a;"><strong style="font-size:0.72em;color:#46633d;">teste</strong></div>
-</div>
-<div style="display:flex;align-items:center;justify-content:center;gap:18px;margin-top:4px;">
-<div class="card" style="width:180px;padding:20px 14px;background:rgba(178,70,63,0.13);border:2px solid #b2463f;"><strong style="font-size:0.78em;color:#8a2f2a;">ideia ruim?</strong><br /><span class="mini" style="color:#8a2f2a;font-weight:900;">joga fora cedo</span></div>
-<div style="font-size:1.6em;color:#3c2f2f;font-weight:900;">↺</div>
-<div class="card" style="width:180px;padding:20px 14px;background:rgba(107,142,90,0.24);border:2px solid #6b8e5a;"><strong style="font-size:0.78em;color:#46633d;">ideia boa?</strong><br /><span class="mini" style="color:#46633d;font-weight:900;">segue com confiança</span></div>
-</div>
-</div>
-
-<div class="card" style="flex:0 0 205px;padding:24px 16px;background:rgba(107,142,90,0.18);border:2px solid #6b8e5a;display:flex;flex-direction:column;justify-content:center;gap:16px;">
-<div style="font-size:0.72em;font-weight:900;color:#46633d;letter-spacing:0.10em;text-transform:uppercase;">agora</div>
-<div style="font-size:1.15em;font-weight:900;line-height:1.08;color:#46633d;">codar barato</div>
-<div style="font-size:1.45em;font-weight:900;color:#46633d;">↓</div>
-<div class="mini" style="font-weight:900;color:#46633d;line-height:1.25;">mais experimento<br />menos achismo</div>
-</div>
-</div>
-
-<div class="lead" style="max-width:940px;margin:16px auto 0 auto;text-align:center;font-size:1.0em;">oportunidade: errar pequeno, aprender rápido, seguir melhor</div>
-
-<!--
-Restam: ~19:24 (60s)
-
-- Antes, protótipo e POC eram caros demais; por isso todo mundo tentava acertar no planejamento.
-- Com LLM, codar fica mais barato e errar também fica mais barato.
-- O ganho é testar mais hipóteses, matar ideias ruins cedo e seguir com mais confiança.
-- Mensagem: não é virar irresponsável; é reduzir o custo do aprendizado.
+- Inspiração: eu sigo e uso os ports de arcade do Wanszai há tempo.
+- Sega Rally Championship (303 estrelas), Ridge Racer Collection, Scud Race, Virtua Racing, Virtua Fighter: arcade da Sega e da Namco rodando em PC e Xbox.
+- Ponto: launcher de arcade bem feito, um download, roda e pronto.
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.10](../assets/offline/bg-agile-lifecycle.jpg)
-<div class="eyebrow">Nome Verdadeiro</div>
+<!-- _class: center tone-extra-dark rg rg-arcade -->
 
-# <span style="font-size:1.35em;font-weight:900;letter-spacing:-0.02em;">Agile Vibe Coding</span>
-
-## <span style="font-size:1.25em;font-weight:700;">é XP com pareamento de máquina</span>
-
-<div class="columns-3">
-  <div class="card"><strong>TDD</strong><div class="mini">segura erro de modelo antes de virar lama</div></div>
-  <div class="card"><strong>CI por commit</strong><div class="mini">pega drift e regressão cedo</div></div>
-  <div class="card"><strong>Refatoração contínua</strong><div class="mini">evita cirurgia cara depois</div></div>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/wanszai-youtube.jpg" alt="Canal Wans Zai no YouTube com vídeos de Daytona 2 e Virtua Racing" style="height:540px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
 </div>
 
-<!--
-Restam: ~17:54 (90s)
+<div class="caption" style="margin-top:12px;">youtube.com/@WansWan5</div>
 
-- Agile Vibe Coding é XP com pareamento de máquina. A estrutura por baixo é velha.
-- TDD não é perfumaria. Segura erro de modelo antes de virar lama.
-- CI por commit pega drift e regressão cedo.
-- Refatoração contínua evita cirurgia cara depois.
+<!--
+Restam: ~34:43 (25s)
+
+- Canal "Wans Zai": 2,11 mil inscritos, 68 vídeos. Agora está mexendo em Daytona 2 e num rework do Virtua Racing.
+- Eu queria um Rad Mobile feito por ele. Não existia.
+- Então eu fiz o meu, inspirado nos launchers dele, e com o que me faltava: suporte de volante de verdade.
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.14](../assets/offline/bg-pair-programming.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Pair_Programming.jpg</div>
+<!-- _class: center tone-extra-dark rg rg-arcade -->
 
-# O pareamento mudou
-
-<div class="columns">
-  <div class="card"><strong>Eu trago</strong><br />direção, julgamento, contexto, gosto</div>
-  <div class="card"><strong>O agente traz</strong><br />velocidade de execução, busca, fôlego operacional</div>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/github-rea-rad-mobile.jpg" alt="rea-rad-mobile no GitHub" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
 </div>
 
-<div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">IA é espelho: sênior bom ganha alavancagem, programador ruim ganha velocidade pra errar.</div>
-
-
-<!--
-Restam: ~16:24 (90s)
-
-- O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto.
-- O agente traz velocidade de execução, busca e fôlego operacional.
-- Se eu reduzo o agente a digitador burro, piora.
-- Se eu entrego produto e arquitetura pra ele sozinho, piora também.
--->
----
-<!-- _class: center tone-moss -->
-<div class="eyebrow">Akita antigo continua certo</div>
-
-# <span style="font-size:0.92em;">Eu já tinha ensinado</span>
-
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:4px;max-width:820px;margin-left:auto;margin-right:auto;">
-  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-xjjX3R2WuoM.jpg" alt="Esqueça Metodologias Ágeis" style="display:block;width:100%;border-radius:12px;box-shadow:0 10px 22px rgba(0,0,0,0.22);" />
-  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-6S94h3xSbnI.jpg" alt="O Guia Definitivo de Organizações" style="display:block;width:100%;border-radius:12px;box-shadow:0 10px 22px rgba(0,0,0,0.22);" />
-  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-2tpshOTtleM.jpg" alt="Discutindo Gestão" style="display:block;width:100%;border-radius:12px;box-shadow:0 10px 22px rgba(0,0,0,0.22);" />
-  <img src="../assets/offline/thumb-eu-ja-tinha-ensinado-SmYQcaP1Jgw.jpg" alt="Modelagem de Software é Difícil" style="display:block;width:100%;border-radius:12px;box-shadow:0 10px 22px rgba(0,0,0,0.22);" />
-</div>
-
-<div class="lead" style="max-width:900px;margin:8px auto 0 auto;text-align:center;font-size:0.86em;">O problema não nasceu com a IA. Só ficou mais caro fingir que não existia.</div>
+<div class="caption" style="margin-top:12px;">github.com/akitaonrails/rea-rad-mobile</div>
 
 <!--
-Restam: ~15:39 (45s)
+Restam: ~34:18 (25s)
 
-- Quatro vídeos em português: agilidade, organização, gestão e modelagem.
-- A tese não começou com LLM. O que eu cobrava antes continua valendo agora.
-- IA não substitui clareza de problema, processo, modelagem e responsabilidade.
-- Agora a falta disso aparece mais rápido.
+- Como o Wanszai não tinha Rad Mobile, eu fiz o meu: arcade da Sega de 1990 (System 32), saído do rea-launcher-sdk.
+- Launcher experimental pra rodar em PC moderno, Windows e Linux, inspirado nos ports de arcade do Wanszai.
+- Leva um MAME 0.289 empacotado e com patch. Sem ROM no repositório: precisa do seu radm.zip.
+- 42 commits, v0.6.0.
 -->
 ---
 
-<!-- _class: statement -->
-![bg right:45% opacity:.22](../assets/offline/bg-mirror-vanity.jpg)
-<div class="eyebrow">Mesma Regra No Código</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Peter_Candid_(attr)_Allegory_of_vanity.jpg</div>
+<!-- _class: center tone-extra-dark rg rg-arcade -->
 
-# IA reflete quem você é
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/launcher-rad-mobile.jpg" alt="Menu do launcher do Rad Mobile: Start Game, Settings, Quit, com volante Fanatec detectado e force feedback pronto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
+</div>
 
-## Ele te acelera: se você for bom, fica ainda melhor. Se você for ruim, vai ficar ainda pior.
+<div class="caption" style="margin-top:12px;">Menu que você dirige com o volante ou o controle</div>
 
 <!--
-Restam: ~14:09 (90s)
+Restam: ~33:53 (30s)
 
-- IA não cria competência do nada.
-- Ela amplifica o que você já é.
-- Bom engenheiro: produz mais, mais rápido.
-- Mau engenheiro: produz lixo mais rápido.
+- O menu é dirigido pelo volante ou pelo controle. Repara embaixo: volante Fanatec detectado, force feedback pronto.
+- O arcade tinha volante de 270°, dois pedais e nenhum motor. O launcher lê o volante e escala pra 270°, acha os pedais pela posição de repouso.
+- Force feedback que o arcade nunca teve: lê velocidade, posição e batida do jogo rodando e gera as forças.
+- Também tem widescreen de verdade (Las Vegas desenhada além da borda 4:3) e filtro de CRT com moldura de gabinete.
 -->
 ---
 
-<!-- _class: center tone-moss -->
-![bg cover opacity:.14](../assets/offline/bg-mentor-kungfu.jpg)
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Vernon_Rieta_teaching_Kung_Fu.jpg</div>
+<!-- _class: center tone-extra-dark rg rg-arcade -->
+<!-- pptx-video: rad-mobile -->
 
-# Júnior herda. Sênior ensina.
-
-<div style="display:flex;gap:32px;align-items:flex-start;text-align:left;margin-top:18px;">
-  <div style="flex:1 1 50%;">
-    <div class="card" style="margin-bottom:10px;"><strong>Júnior vai herdar a sujeira</strong><div class="mini">startup cheia de lixo de IA vai precisar de limpeza</div></div>
-    <div class="card" style="margin-bottom:10px;"><strong>Vai aprender no caos</strong><div class="mini">igual gerações anteriores aprenderam</div></div>
-    <div class="card"><strong>Ainda precisa de sênior</strong><div class="mini">agente nenhum ensina julgamento</div></div>
-  </div>
-  <div style="flex:1 1 50%;">
-    <div class="card" style="margin-bottom:10px;"><strong>Sênior não é imortal</strong><div class="mini">muda de empresa, cansa, se aposenta</div></div>
-    <div class="card" style="margin-bottom:10px;"><strong>Nova obrigação</strong><div class="mini">ensinar engenharia com IA antes do código apodrecer</div></div>
-    <div class="card"><strong>Sem isso a organização apodrece</strong><div class="mini">não basta usar IA bem, tem que formar substituto</div></div>
-  </div>
+<div style="display:flex;justify-content:center;">
+  <video class="deck-video" src="../assets/games/rad-mobile.mp4" poster="../assets/games/rad-mobile.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
-<!--
-Restam: ~12:29 (100s)
+<div class="caption" style="margin-top:12px;">Rad Mobile (Sega, 1990) pelo launcher, em widescreen</div>
 
-- Júnior não morreu, só mudou de forma. Vai herdar a sujeira da era do vibe coding sem freio.
-- Aprender no projeto bagunçado é como gerações anteriores aprenderam. Não é tragédia, é cicatriz.
-- Mas isso só para em pé se sênior fizer o trabalho dele: ensinar engenharia com IA antes do código apodrecer.
-- Sênior não é imortal. Se não formar substituto, a organização apodrece.
+<!--
+Restam: ~33:23 (25s)
+
+- Arcade de 1990 rodando em 16:9 de verdade, com volante e force feedback.
+- Repara no limpador de para-brisa e no farol: no MAME puro esses botões só funcionavam no teclado.
+- Volume 25%.
 -->
 ---
 
-<!-- _class: end -->
-![bg cover opacity:.16](../assets/offline/bg-mountain-climber.jpg)
-<div class="eyebrow">Conclusão</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mountain_Climber_In_Mountains_(Unsplash).jpg</div>
+<!-- _class: center tone-extra-dark rg rg-arcade -->
 
-# Vai <span class="em-moss">sobreviver</span><br>quem souber<br>fazer <span class="em-moss">engenharia</span>.
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/console-virou-arcade.jpg" alt="Dreamcast virou NAOMI, NAOMI 2 e Atomiswave; Xbox virou Chihiro; GameCube virou Triforce" style="height:590px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
+</div>
 
-## IA não transforma coder ruim em engenheiro.
-## Fundamento. Disciplina. Iteração. Gosto.
+<div class="caption" style="margin-top:10px;">Hardware de console de mesa dentro do gabinete de arcade</div>
 
 <!--
-Restam: ~10:54 (95s)
+Restam: ~32:58 (35s)
 
-- Parte dura: IA não transforma programador ruim em engenheiro. Ajuda a fazer estrago maior mais rápido.
-- E ajuda engenheiro de verdade a atravessar o caos mais rápido, sem deixar o software morrer.
-- Então eu fecho assim: vai sobreviver quem tem fundamento, disciplina, iteração e gosto.
-- Se você tem isso, IA vira multiplicador. Se não tem, IA é só uma forma mais rápida de ser exposto.
+- Pouca gente sabe: a partir do fim dos anos 90 o arcade parou de ter hardware exótico e passou a usar hardware de console.
+- Dreamcast virou NAOMI (1998), depois NAOMI 2 com uma segunda GPU, e a Sammy fez o Atomiswave em cima da mesma base.
+- Xbox virou Chihiro na Sega (OutRun 2, House of the Dead III). GameCube virou Triforce, parceria Namco, Sega e Nintendo (F-Zero AX, Mario Kart Arcade GP).
+- Consequência boa pra gente: quem emula o console chega perto de emular o arcade. O Flycast roda NAOMI e Atomiswave.
 -->
+
 ---
 
-<!-- _class: center tone-extra -->
-<div class="eyebrow">Merchan Sem Vergonha</div>
+<!-- _class: center tone-extra-dark rg rg-arcade -->
 
-<div style="display:flex;gap:36px;align-items:center;text-align:left;">
-  <div style="flex:0 0 40%;">
-    <h1 style="margin:0 0 18px 0;line-height:0.95;">Assine<br />The M.Akita Chronicles</h1>
-    <div style="font-size:1.05em;font-weight:700;margin:0 0 18px 0;">themakitachronicles.com</div>
-    <div class="lead" style="max-width:none;margin:0;">Se você curtiu essa palestra, vai lá assinar. Toda semana tem bastidor real, código real e projeto real em produção.</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/makita-chronicles-subscribe-cropped.png" alt="The M.Akita Chronicles" style="height:560px;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-  </div>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/arcade-virou-pc.jpg" alt="Sega Lindbergh, Taito Type X e Sega RingEdge rodando via TeknoParrot, OpenParrot e Lindbergh Loader num PC com volante" style="height:590px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
 </div>
 
-<!--
-Restam: ~10:29 (25s)
+<div class="caption" style="margin-top:10px;">TeknoParrot, OpenParrot e Lindbergh Loader</div>
 
-- E já que é pra acabar sem falsa modéstia: se você curtiu essa palestra, assina o The M.Akita Chronicles.
-- Está tudo aí na tela.
-- É onde eu continuo publicando bastidor real, projeto real, código real e o que deu certo ou errado em produção.
-- Quer acompanhar essa linha de raciocínio semana a semana? Vai em themakitachronicles.com e assina.
+<!--
+Restam: ~32:23 (35s)
+
+- Depois deu mais um passo: o arcade virou PC mesmo. Taito Type X (2004) e Sega RingEdge rodam Windows embarcado; o Sega Lindbergh (2005) é Pentium 4 com GeForce rodando Linux.
+- O jogo é um executável. O que falta é a placa de I/O, o dongle e a rede do gabinete.
+- TeknoParrot emula essas peças no Windows. O OpenParrot é a parte de código aberto. O Lindbergh Loader roda os jogos do Lindbergh direto no Linux.
+- Só que o TeknoParrot é Windows/.NET e recusa o Wine. Meus launchers rea-teknoparrot (Sega, Initial D, Wangan) trocam ele por loaders abertos, como o lindbergh-loader, e rodam direto no Linux.
 -->
+
 ---
 
-<!-- _class: center tone-extra -->
-![bg cover opacity:.12](../assets/epilogue-workflow-bg.png)
-<div class="eyebrow">Akitando</div>
+<!-- _class: center tone-extra-dark rg rg-street -->
 
-# O canal também<br>virou inglês
-
-<div style="display:flex;gap:28px;align-items:center;text-align:left;margin-top:6px;">
-  <div style="flex:0 0 35%;">
-    <div class="card" style="margin-bottom:12px;"><strong>150+ vídeos</strong><div class="mini">traduzidos e legendados com agente</div></div>
-    <div class="card" style="margin-bottom:12px;"><strong>20 anos de conteúdo</strong><div class="mini">blog bilingue e canal pronto pra mandar pra fora</div></div>
-    <div class="lead" style="max-width:none;margin:0;">youtube.com/@Akitando</div>
-  </div>
-  <div style="flex:1 1 auto;text-align:right;">
-    <img src="../assets/youtube-ingles.png" alt="Canal Akitando com títulos em inglês" style="width:100%;max-height:420px;object-fit:contain;object-position:top;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-  </div>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/azimuth-site.jpg" alt="Site do Azimuth: Forza Horizon 2 e 3, Motorsport 5 e 6 no PC" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
 </div>
 
-<!--
-Restam: ~10:19 (10s)
+<div class="caption" style="margin-top:12px;">azimuthforza.com</div>
 
-- Merchan rápido: canal traduzido.
-- 150+ vídeos do Akitando em inglês.
-- Blog bilingue com 20 anos de conteúdo, em pt-BR e en.
-- Pipeline com agente, não trabalho manual.
+<!--
+Restam: ~31:48 (30s)
+
+- Mesma história, uma geração depois: o Xbox One é x86, praticamente um PC.
+- Azimuth, da Almost There Games: roda as versões de Xbox One de Forza Horizon 2 e 3 e Forza Motorsport 5 e 6 no Windows e no Linux via Proton.
+- Não é emulador: o código do jogo roda nativo, o wrapper traduz as chamadas de sistema e de gráfico.
+- Versão 1.0 saiu em 26/out/2026. O azimuthforza.com é um guia independente; o download oficial é no itch.io.
 -->
+
 ---
 
-<!-- _class: center tone-extra -->
-![bg cover opacity:.18](../assets/epilogue-workflow-bg.png)
-<div class="eyebrow">Bastidor</div>
+<!-- _class: center tone-extra-dark rg rg-street -->
 
-# Sim, este deck inteiro<br>foi feito com IA
-
-<div class="columns-3">
-  <div class="card"><strong>Pesquisa e estrutura</strong><div class="mini">fontes, ordem dos argumentos, cortes e rearranjos</div></div>
-  <div class="card"><strong>Texto sincronizado</strong><div class="mini">slides, roteiro e notas do apresentador mantidos juntos</div></div>
-  <div class="card"><strong>Mídia e acabamento</strong><div class="mini">frames, crops, vídeos, builds e pós-processo do PPTX</div></div>
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/launcher-wangan.jpg" alt="Launcher do Wangan Midnight com Maximum Tune 5 selecionado e um card por jogo" style="height:540px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
 </div>
 
-<div class="lead" style="max-width:980px;margin:22px auto 0 auto;text-align:center;">
-Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo no PPTX e iteração curta até o resultado fechar.
+<div class="caption" style="margin-top:12px;">rea-teknoparrot-wangan-series</div>
+
+<!--
+Restam: ~31:18 (30s)
+
+- Wangan Midnight R e Maximum Tune 3, 3DX+, 5, 5DX+, 6, 6R e 6RR num launcher só.
+- Sem TeknoParrot: OpenParrot e OpenParrot_WMMT compilados do código-fonte, com correções minhas. MT3 e 3DX+ rodam nativos no Linux, até 4K.
+- No 5 ao 6RR a UI do TeknoParrot era a placa de I/O do gabinete. Fiz a minha, wangan-io, falando o protocolo JVS da Namco.
+- Ressalva honesta: volante e force feedback ainda não testados em hardware.
+-->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-street -->
+<!-- pptx-video: wangan-6r -->
+
+<div style="display:flex;justify-content:center;">
+  <video class="deck-video" src="../assets/games/wangan-6r.mp4" poster="../assets/games/wangan-6r.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
+</div>
+
+<div class="caption" style="margin-top:12px;">Wangan Midnight Maximum Tune 6R pelo launcher</div>
+
+<!--
+Restam: ~30:48 (25s)
+
+- Maximum Tune 6R rodando no Linux, terminando com o YOU WIN.
+- Volume 25%.
+-->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-street -->
+
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/launcher-initial-d.jpg" alt="Launcher do Initial D com Arcade Stage 6 AA selecionado e um card por jogo" style="height:540px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
+</div>
+
+<div class="caption" style="margin-top:12px;">rea-teknoparrot-initial-d-series</div>
+
+<!--
+Restam: ~30:23 (30s)
+
+- Do Arcade Stage Ver. 1 (2002, NAOMI 2) ao THE ARCADE Season 5 (2025), Linux e Windows.
+- Só loader aberto: Flycast pro NAOMI 2, lindbergh-loader nativo pro 4 e 5, windowsarcadeloader do 6 ao THE ARCADE.
+- O core do TeknoParrot pros mais novos é fechado, e resolução, CRT e force feedback ficam no Patreon.
+- Corrigi o leitor de cartão do 4, o Start travado do Zero e o som que crashava no Wine.
+-->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-street -->
+<!-- pptx-video: initial-d-ta5 -->
+
+<div style="display:flex;justify-content:center;">
+  <video class="deck-video" src="../assets/games/initial-d-ta5.mp4" poster="../assets/games/initial-d-ta5.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
+</div>
+
+<div class="caption" style="margin-top:12px;">Initial D THE ARCADE Season 5 pelo launcher</div>
+
+<!--
+Restam: ~29:53 (25s)
+
+- THE ARCADE Season 5, de 2025, rodando via windowsarcadeloader.
+- Repara na cena em estilo mangá no meio da corrida.
+- Volume 25%.
+-->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-dossier -->
+<div class="eyebrow">Launchers de PC: o que a engenharia reversa achou</div>
+
+<h1 style="font-size:1.6em;margin:0 0 14px 0;">Achados <span class="em-ruby">de verdade</span></h1>
+
+<div style="display:flex;flex-wrap:wrap;gap:16px;max-width:1100px;margin:0 auto;">
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">Screamer (1995, DOS)</strong><div class="mini" style="margin-top:4px;">Widescreen 16:9 num jogo de DOS, mexendo na matriz da câmera. E o motivo de destravar FPS quebrar o jogo: a física roda presa a 50 Hz.</div></div>
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">Screamer 2 e Rally em 3dfx</strong><div class="mini" style="margin-top:4px;">A cópia da GOG traz um driver Glide de Windows que não funciona no DOS. Com o driver do Screamer Rally e o fix do MAXCACHE, o modo 3dfx volta.</div></div>
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">DiRT Rally no Linux</strong><div class="mini" style="margin-top:4px;">Crashava em todo Ryzen 5000 pra cima: o jogo lê memória que marcou só pra executar, e CPU nova bloqueia. Uma biblioteca minúscula resolve.</div></div>
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">Sega Rally Revo</strong><div class="mini" style="margin-top:4px;">Engasgava uma vez por segundo no Windows: desde o Windows 10 2004 o timer de 1 ms é por processo, e o jogo nunca pedia o dele.</div></div>
+</div>
+
+<div class="caption" style="margin-top:14px;">Cada achado virou um rascunho pro PCGamingWiki.</div>
+
+<!--
+Restam: ~29:28 (45s)
+
+- Os achados do Screamer são todos nossos, saídos da engenharia reversa (docs/CONTRIBUTIONS.md, S1 a S9). Ressalva: o widescreen do Screamer 2/Rally e a distância de desenho ainda pedem verificação visual.
+- 50 Hz: o loop é fixo (2 ticks de um timer de 100 Hz) e a física vem de uma tabela de 50 entradas. O PCGamingWiki diz 60 FPS; isso corrige o wiki.
+- DiRT Rally: execute-only memory + CPUs com PKU (Zen 3 em diante). Já existia um shim da comunidade (bolokanar, sem licença); o nosso é próprio, MIT/Apache. NÃO dizer que ninguém tinha resolvido.
+- Sega Rally Revo: o fix do stutter é do stuken (reescrita clean-room). O achado nosso é o do timer por processo.
+- Os rascunhos ainda não foram postados; eu reviso e posto.
+-->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-dossier -->
+<div class="eyebrow">Launchers rea-teknoparrot</div>
+
+<h1 style="font-size:1.6em;margin:0 0 14px 0;">Arcade no Linux, <span class="em-ruby">sem TeknoParrot</span></h1>
+
+<div style="display:flex;flex-wrap:wrap;gap:16px;max-width:1100px;margin:0 auto;">
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">Initial D Arcade Stage 4</strong><div class="mini" style="margin-top:4px;">Crashava em toda largada. Um watchpoint de hardware achou o culpado: o leitor de cartão emulado escrevia fora do objeto e apagava os controles. Conserto: 1 byte.</div></div>
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">Wangan Maximum Tune 5 ao 6RR</strong><div class="mini" style="margin-top:4px;">No TeknoParrot a interface fazia o papel da placa de I/O do gabinete. Escrevi a minha, falando o protocolo JVS da Namco. E corrigi o crash do MT6 no Wine.</div></div>
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">F-Zero AX e Mario Kart GP</strong><div class="mini" style="margin-top:4px;">Triforce no Dolphin oficial, não num build privado. O analógico emulado parava em 79% do curso; abri a trava e o volante chega no fim.</div></div>
+  <div class="card" style="flex:0 0 calc(50% - 8px);box-sizing:border-box;padding:14px 18px;text-align:left;"><strong style="font-size:0.95em;">Sega: OutRun 2, Daytona, Sega Rally 3</strong><div class="mini" style="margin-top:4px;">O câmbio H de 4 marchas do gabinete vira borboletas, o volante gira 270° como no arcade, e o Daytona ganhou um perfil escrito pra ele.</div></div>
+</div>
+
+<div class="caption" style="margin-top:14px;">Só loader aberto, compilado do código-fonte, com os nossos patches.</div>
+
+<!--
+Restam: ~28:43 (45s)
+
+- TeknoParrot: UI em .NET, crasha no WoW64 do Wine 11, core fechado pro Initial D 6 ao THE ARCADE, e opções no Patreon.
+- Initial D 4: o lindbergh-loader troca cRealCardIF por cFileCardIF, mas o objeto fica alocado com 0x34 bytes e o novo usa até 0x40. O flag de "loading" cai no objeto vizinho (cUiJVS) e zera o vptr. Patch: tamanho da alocação pra 0x80. Não há issue sobre isso no lindbergh-loader.
+- Também no Initial D: Zero preso na calibração do volante (o loader segurava o Start), som crashando no Wine (XAudio2 nativo).
+- Wangan: wangan-io portado do código GPL do TeknoParrotUI. Volante e force feedback ainda não testados em hardware.
+- Nintendo: o código "Bypass Cycraft" do Monster Ride é da comunidade.
+-->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-dossier -->
+<div class="eyebrow">github.com/akitaonrails</div>
+
+# 14 launchers <span class="em-ruby">rea-*</span>
+
+<div class="bench-wrap">
+<table class="bench launchers">
+<tr><th>rea-*</th><th>Jogos</th></tr>
+<tr><td class="md"><strong>colin-mcrae</strong></td><td>Colin McRae Rally (1998)</td></tr>
+<tr><td class="md"><strong>colin-mcrae-3</strong></td><td>Colin McRae Rally 3</td></tr>
+<tr><td class="md"><strong>colin-mcrae-4</strong></td><td>Colin McRae Rally 04</td></tr>
+<tr><td class="md"><strong>colin-mcrae-2005</strong></td><td>Colin McRae Rally 2005</td></tr>
+<tr><td class="md"><strong>dirt</strong></td><td>Colin McRae: DiRT (2007)</td></tr>
+<tr><td class="md"><strong>dirt-rally</strong></td><td>DiRT Rally (2015), Linux</td></tr>
+<tr><td class="md"><strong>screamer-trilogy</strong></td><td>Screamer 1, 2 e Rally</td></tr>
+</table>
+<table class="bench launchers">
+<tr><th>rea-*</th><th>Jogos</th></tr>
+<tr><td class="md"><strong>outrun-2006</strong></td><td>OutRun 2006 C2C</td></tr>
+<tr><td class="md"><strong>sega-rally-revo</strong></td><td>Sega Rally Revo (2007)</td></tr>
+<tr><td class="md"><strong>rad-mobile</strong></td><td>Rad Mobile (1990)</td></tr>
+<tr><td class="md"><strong>teknoparrot-sega</strong></td><td>OutRun 2 SP, Sega Rally 3, Daytona...</td></tr>
+<tr><td class="md"><strong>teknoparrot-initial-d</strong></td><td>Initial D: Stage 1 ao THE ARCADE</td></tr>
+<tr><td class="md"><strong>teknoparrot-wangan</strong></td><td>Wangan Midnight: R ao MT 6RR</td></tr>
+<tr><td class="md"><strong>teknoparrot-nintendo</strong></td><td>F-Zero AX, Mario Kart GP, Luigi</td></tr>
+</table>
 </div>
 
 <!--
-Restam: ~09:44 (35s)
+Restam: ~27:58 (40s)
 
-- E sim, já que o tema da palestra pede isso, este deck inteiro também foi feito com IA.
-- Pesquisa, estrutura, roteiro, notas, crops, builds e automação saíram do mesmo fluxo.
-- Agente no terminal, Marp para o deck e script para pós-processar o PPTX com vídeo.
-- Não é discurso abstrato. Eu usei isso pra fazer a própria palestra.
+- Na tabela os teknoparrot-* são os repos rea-teknoparrot-*-series. Coluna da esquerda: PC antigo (Colin, DiRT, Screamer em DOSBox). Direita: Sega e arcades (Lindbergh, RingEdge, Namco ES3, Triforce, NAOMI 2).
+- Todos seguem a mesma regra: seu jogo, sua cópia, pasta original só leitura, launcher roda de uma cópia privada.
+- Windows, Steam Deck e Linux. Fora disso tem o rea-launcher-sdk e o recomp do Colin em Rust, que não são launchers.
 -->
+
+---
+
+<!-- _class: center tone-extra-dark -->
+
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/ailair-games-site.jpg" alt="Página de games do Akita's AI Lair: Nem tudo é trabalho. Até eu preciso jogar." style="height:540px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
+</div>
+
+<div style="margin-top:18px;font-size:1.6em;font-weight:800;letter-spacing:0.01em;color:#f2c46d;">ailair.akitaonrails.com/pt-br/games</div>
+
+<!--
+Restam: ~27:18 (25s)
+
+- Tudo o que mostrei hoje está documentado aqui: distrobox-gaming, omarchy-games-menu, os launchers de corrida e o Fun to Drive.
+- Um repositório Ansible, rodando num container, com um launcher por cima pra parecer console.
+- Você precisa da sua própria cópia de cada jogo. Nenhum launcher traz arquivo de jogo.
+-->
+
 ---
 
 <!-- _class: center end tone-extra-dark -->
@@ -1580,8 +1301,38 @@ Restam: ~09:44 (35s)
 </div>
 
 <!--
-Restam: ~09:34 (10s)
+Restam: ~26:53 (10s)
 
 - Obrigado.
 - Os links estão aí embaixo.
+-->
+
+---
+
+<!-- _class: ai ai-wine finale -->
+<div style="display:flex;gap:56px;align-items:center;height:100%;">
+  <div style="flex:1 1 0;min-width:0;text-align:left;">
+    <div class="eyebrow">Merchan sem vergonha</div>
+    <h1 style="font-size:2.3em;line-height:0.95;margin:0 0 22px 0;">Assine<br />The M.Akita<br />Chronicles</h1>
+    <div class="lead" style="max-width:21em;margin:0 0 30px 0;">Se você curtiu essa palestra, vai lá assinar. Toda semana tem bastidor real, código real e projeto real em produção.</div>
+    <div style="display:flex;gap:24px;align-items:center;">
+      <img src="../assets/qr-makita-chronicles.svg" alt="QR code para themakitachronicles.com" style="width:170px;height:170px;border-radius:14px;" />
+      <div>
+        <div class="mini" style="margin:0 0 6px 0;">Aponta a câmera ou digita:</div>
+        <div style="font-size:1.05em;font-weight:800;color:var(--ai-brass);">themakitachronicles.com</div>
+      </div>
+    </div>
+  </div>
+  <div style="flex:0 0 auto;">
+    <img src="../assets/makita-chronicles-subscribe-cropped.png" alt="The M.Akita Chronicles" style="height:590px;border-radius:22px;border:1px solid rgba(243,236,226,0.18);box-shadow:0 30px 70px rgba(0,0,0,0.55),0 0 90px rgba(236,131,112,0.18);" />
+  </div>
+</div>
+
+<!--
+Restam: ~26:43 (25s)
+
+- E antes de você ir embora, sem falsa modéstia: se curtiu a palestra, assina o The M.Akita Chronicles.
+- Está tudo aí na tela, com QR code pra quem quiser apontar a câmera.
+- É onde eu continuo publicando bastidor real, projeto real, código real e o que deu certo ou errado em produção.
+- Quer acompanhar essa linha de raciocínio semana a semana? Vai em themakitachronicles.com e assina.
 -->

@@ -1,4 +1,4 @@
-# Beyond Summit 2026 Keynote
+# Canal 3 Expo 2026: Retrogame na era das IAs
 
 **[View the presentation live](https://akitaonrails.github.io/tropicalruby-2026/)**
 
@@ -10,8 +10,9 @@
 | TotalPass 2026 | [`totalpass2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/totalpass2026) | Longer lecture version |
 | Beyond Summit 2026 | [`beyondsummitey`](https://github.com/akitaonrails/tropicalruby-2026/tree/beyondsummitey) | Beyond Summit edition |
 | Web Summit Rio 2026 | [`web-summit-rio-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/web-summit-rio-2026) | Condensed 20-minute technology pitch |
+| Canal 3 Expo 2026 | [`c3-expo-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/c3-expo-2026) | Retro-gaming event edition: AI half + retro launchers half (current live deck) |
 
-This repo holds the working deck for the `Beyond Summit 2026` keynote.
+This branch holds the deck for the [Canal 3 Expo 2026](https://c3expo.com.br/) talk, a retro-gaming event in Brazil. It is the edition published at the live link above (GitHub Pages deploys from `c3-expo-2026`).
 The slides are authored in Marp, the script lives separately, and the deck is exported to HTML, PDF, and PPTX from the same source.
 
 ## Main files
@@ -79,7 +80,7 @@ The notes should stay shorter than the script:
 - use bullets, not prose blocks
 - keep them as speaking cues, not a second full manuscript
 - carry reminders that aren't visible on the slide itself (numbers, methodology, transition beats), not a restatement of what the audience is already reading
-- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently lands at ~09:34 of buffer remaining.
+- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently runs ~33:42 and lands at ~26:18 remaining, left for Q&A.
 
 If you add or rewrite visible text, do a cleanup pass so it still sounds human and spoken, not like generated copy.
 
@@ -91,41 +92,15 @@ If you move or redesign a slide that contains an embedded PPTX video:
 
 ## Narrative structure
 
-The current deck has a deliberate three-act shape. Try not to break it casually when moving slides around.
+This edition has two halves and a short ending.
 
-- `Act 1`: the panic is misdiagnosed
-- `Act 2`: what actually changed, and the practical proof
-- `Act 3`: what that means for engineers and the market
+- **AI half (slides 1-21)**: speaker bio, "Heróis ou Vilões", what LLMs are and cost (stochastic parrots, SpaceX and Anthropic IPOs), the October top 20 benchmark table, the internet tier list, the v5 cost ranking ("Quanto custa ser competente"), "Não era exponencial", the 2025 agents timeline, the December 2025 turn, the 2026 project marathon, CLI tools, ai-jail / ai-memory, metrics, "Developer 10x?" and the "Competente o Suficiente" book
+- **Retro half (slides 22-51)**: distrobox-gaming and the Omarchy games menu, Quiver, Colin McRae (DuckStation, launcher, 16:9, HD backgrounds, Rust recomp), the other PC rally launchers, rea-launcher-sdk, Wanszai and Rad Mobile, the console-to-arcade and arcade-to-PC diagrams, Azimuth, Wangan Midnight and Initial D, the two "findings" slides and the table of 14 rea-* launchers
+- **Ending**: AI Lair games page, `OBRIGADO`, and the newsletter slide with a QR code, left up during Q&A
 
-In the current version, that means:
+Visual language: the AI half uses warm dark grounds with a dot texture (`ai ai-wine|ai-umber|ai-olive`); the retro half uses cool night grounds with scanlines, one per chapter (`rg-linux`, `rg-rally`, `rg-arcade`, `rg-street`, `rg-dossier`). Both are defined at the end of `themes/tropical-ruby.css`.
 
-- the intro opens with the thesis, ties it back to older warnings, then moves into the Claude Code leak and the practical proof block
-- the mid-section peaks around the `2025 foi o ano dos Agentes` timeline, the `Dezembro de 2025 foi a Virada` hinge, the January 2026 trigger, the marathon wall of projects, `Alcançamos "Developer 10x"?`, and the `Ciclo do Agente / PILOTA` mechanism
-- the closing widens back out to XP discipline, the benchmark arc (slides 32-36), pricing economics, the founder-narrative bridge, China/compute geopolitics, market correction, juniors/seniors, and finally engineering as the durable thing
-
-The ending currently has three layers on purpose:
-
-- the engineering conclusion (`Vai sobreviver quem souber fazer engenharia`)
-- the shameless newsletter ad
-- the meta-stinger that the deck itself was made with AI, followed by a clean `OBRIGADO` exit slide
-
-If this sequence changes, re-check not just title order but also pacing, reveal order, and whether the practical proof still lands before the mechanism explanation.
-
-There are also a few narrative constraints from later story-tightening passes:
-
-- the real midpoint turn is the jump from `Dezembro de 2025 foi a Virada` into `Fevereiro e março de 2026`
-- that transition should feel like `parei de opinar e fui testar com pele em jogo`
-- the FrankMD vs M.Akita Chronicles comparison, the marathon wall, the metrics, and the `Developer 10x?` slide are the proof block; treat them as the point where the talk stops being opinion and becomes evidence
-- after the proof block, the `Ciclo do Agente` mechanism should read as an explanation of that evidence, not as abstract theory
-- the benchmark arc from `Quem consegue bater o Claude Opus?` through `Assinatura ganha de pay-as-you-go` is the hard-data block; every number there is grounded in the April 5 2026 benchmark article in `research/sources.md`
-- the closing run from `A correção` through `Vai sobreviver quem souber fazer engenharia` should escalate in this order:
-  - diagnosis
-  - hope
-  - responsibility
-  - hard truth
-  - final statement
-
-When editing the script or notes, prefer explicit cause-and-effect bridges between major blocks over adding new content.
+The highlight slides about the launchers carry credit caveats in their notes: several fixes build on community work, so do not claim "nobody fixed it before".
 
 ## Brief history
 
@@ -158,6 +133,6 @@ Practical rule for this repo:
 
 ## Asset notes
 
-- The deck still uses a mix of local assets and remote image URLs.
-- For a final conference-ready export, freezing more remote assets locally would make the build more stable.
+- Images and media are local files under `assets/`.
+- Game clips live in `assets/games/*.mp4` (H.264 1080p30, ~45 s) and are stored with Git LFS; the Pages workflow checks out with `lfs: true`.
 - Embedded video for PowerPoint is now handled as a post-process step after Marp export, because Marp itself does not embed playable video in PPTX.

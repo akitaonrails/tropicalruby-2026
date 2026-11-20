@@ -1,0 +1,157 @@
+#!/usr/bin/env python3
+"""Ballpark of code authored in 2026, for the Canal 3 Expo deck.
+
+Project list comes from the ghpending config (~/.config/ghpending/config.toml), minus:
+  - forks of someone else's project (non-empty upstream in [forks])
+  - repos created before 2026 (EXCLUDE below)
+The blog is counted only from the AI-era start commit, as in bin/totalpass-metrics.
+
+Line counting reuses bin/totalpass-metrics (tokei, code + comments, no blank lines,
+tracked files only, tests split by path, no assets/vendor/build).
+
+Authorship:
+  - repos that start with someone else's history (frank_geary, frank_go) count only the
+    lines added since the first commit by Akita;
+  - every other repo's tokei total is scaled by Akita's share of added lines
+    (git log --numstat over counted files), so community PRs are not counted;
+  - commits and hours only use Akita's commits.
+
+Usage: CLONES=/path/to/clones C3_AUTHOR_EMAILS=me@example.com,... bin/c3-metrics
+       (each repo cloned as $CLONES/<repo-name>, e.g. via gh repo clone --filter=blob:none)
+"""
+import importlib.machinery
+import os
+import subprocess
+import tomllib
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+tp = importlib.machinery.SourceFileLoader("totalpass_metrics", str(ROOT / "totalpass-metrics")).load_module()
+
+# Stricter than totalpass-metrics: drop machine-generated data and vendored code.
+DATA_EXT = {"json"}
+DATA_DIRS = {"third_party", "reports", "inventory", "fixtures"}
+_base_include = tp.include_file
+
+
+def include_file(path):
+    parts = [p.lower() for p in Path(path).parts]
+    if any(p in DATA_DIRS or p.startswith("results") for p in parts):
+        return False
+    if Path(path).suffix.lower().lstrip(".") in DATA_EXT:
+        return False
+    return _base_include(path)
+
+
+tp.include_file = include_file
+
+# Author emails come from the environment so they are not committed:
+#   C3_AUTHOR_EMAILS="a@example.com,b@example.com" (defaults to git config user.email)
+ME = {e.strip().lower() for e in os.environ.get("C3_AUTHOR_EMAILS", "").split(",") if e.strip()} or {
+    subprocess.check_output(["git", "config", "user.email"], text=True).strip().lower()}
+EXCLUDE = {  # created before 2026
+    "Batch-Anime-Upscaler-Video2K-Docker-CUDA", "ComfyUI-Docker-CUDA-preloaded", "FramePack-Docker-CUDA",
+    "plex-docker-compose", "plex_home_server_docker",
+    "akitaonrails.github.io",  # counted below through the hugo source, AI-era only
+}
+BLOG = {"name": "akitaonrails-hugo (AI-era)", "path": Path.home() / "Projects" / "akitaonrails-hugo",
+        "start_commit": "440470b"}
+
+
+def git(repo, *args):
+    return subprocess.check_output(["git", "-C", str(repo), *args], text=True, stderr=subprocess.DEVNULL)
+
+
+def my_timestamps(repo, rev_range="HEAD"):
+    out = git(repo, "log", "--format=%ae\t%ct", rev_range).splitlines()
+    return [int(ts) for ae, ts in (line.split("\t") for line in out) if ae.lower() in ME]
+
+
+def my_added_share(repo):
+    added = {"me": 0, "all": 0}
+    who = None
+    for line in git(repo, "log", "--numstat", "--format=@%ae").splitlines():
+        if line.startswith("@"):
+            who = "me" if line[1:].lower() in ME else "other"
+            continue
+        parts = line.split("\t")
+        if len(parts) != 3 or parts[0] == "-":
+            continue
+        path = parts[2].split(" => ")[-1].rstrip("}")
+        if not tp.include_file(path):
+            continue
+        n = int(parts[0])
+        added["all"] += n
+        if who == "me":
+            added["me"] += n
+    return added["me"] / added["all"] if added["all"] else 1.0
+
+
+def first_my_commit(repo):
+    for line in git(repo, "log", "--reverse", "--format=%H\t%ae").splitlines():
+        sha, ae = line.split("\t")
+        if ae.lower() in ME:
+            return sha
+    return None
+
+
+def main():
+    clones = Path(os.environ["CLONES"])
+    cfg = tomllib.load(open(Path.home() / ".config/ghpending/config.toml", "rb"))
+    upstream = {k for k, v in cfg.get("forks", {}).items() if v}
+    rows, all_ts = [], []
+
+    for full in cfg["repos"]:
+        name = full.split("/")[1]
+        if full in upstream or name in EXCLUDE:
+            continue
+        repo = clones / name
+        if not (repo / ".git").exists():
+            rows.append((name, None))
+            continue
+        first = first_my_commit(repo)
+        parents = git(repo, "rev-list", "--parents", "-n1", first).split()[1:] if first else []
+        if parents and git(repo, "log", "-1", "--format=%ae", parents[0]).strip().lower() not in ME:
+            # imported upstream history: only what was added on top of it
+            prod, test, _ = tp.added_diff_metrics(repo, f"{first}^", "HEAD")
+            share, note = 1.0, f"added since {first[:7]} (upstream history)"
+        else:
+            prod, test, _, _, _, _ = tp.snapshot_metrics(repo)
+            share = my_added_share(repo)
+            note = "snapshot" if share > 0.98 else f"snapshot x {share:.0%} authored"
+        ts = my_timestamps(repo)
+        all_ts += ts
+        rows.append((name, dict(prod=round(prod * share), test=round(test * share), commits=len(ts),
+                                hours=tp.estimate_hours(ts)[0], note=note)))
+
+    blog = BLOG["path"]
+    base = git(blog, "rev-parse", f"{BLOG['start_commit']}^").strip()
+    prod, test, _ = tp.added_diff_metrics(blog, base, "HEAD")
+    ts = my_timestamps(blog, f"{base}..HEAD")
+    all_ts += ts
+    rows.append((BLOG["name"], dict(prod=prod, test=test, commits=len(ts), hours=tp.estimate_hours(ts)[0],
+                                    note=f"added since {BLOG['start_commit']}")))
+
+    print("| Project | Prod LOC | Test LOC | Commits | Est. hours | Note |")
+    print("| --- | ---: | ---: | ---: | ---: | --- |")
+    for name, r in rows:
+        if r is None:
+            print(f"| {name} | missing | | | | not cloned |")
+            continue
+        print(f"| {name} | {r['prod']:,} | {r['test']:,} | {r['commits']:,} | {r['hours']:.1f} | {r['note']} |")
+    ok = [r for _, r in rows if r]
+    tp_ = sum(r["prod"] for r in ok)
+    tt = sum(r["test"] for r in ok)
+    hours, sessions = tp.estimate_hours(all_ts)
+    print()
+    print(f"PROJECTS={len(ok)}")
+    print(f"TOTAL_PROD_LOC={tp_}")
+    print(f"TOTAL_TEST_LOC={tt}")
+    print(f"TOTAL_LOC={tp_ + tt}")
+    print(f"TOTAL_COMMITS={sum(r['commits'] for r in ok)}")
+    print(f"TOTAL_EST_HOURS={hours:.1f}")
+    print(f"TOTAL_SESSIONS={sessions}")
+
+
+if __name__ == "__main__":
+    main()

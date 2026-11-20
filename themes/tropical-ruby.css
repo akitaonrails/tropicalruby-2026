@@ -373,3 +373,402 @@ section.tone-extra-dark .source-url {
     backdrop-filter: none;
   }
 }
+
+/* Benchmark ranking table (two side-by-side tables, flex, no grid) */
+.bench-wrap {
+  display: flex;
+  gap: 22px;
+  margin-top: 14px;
+  text-align: left;
+}
+
+section table.bench {
+  flex: 1 1 0;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.6em;
+  background: rgba(251, 247, 239, 0.86);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  display: table;
+  margin: 0;
+}
+
+section table.bench th,
+section table.bench td {
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  padding: 6px 12px;
+  background: transparent;
+  line-height: 1.25;
+}
+
+section table.bench tr,
+section table.bench tr:nth-child(2n) {
+  background: transparent;
+}
+
+section table.bench tr:last-child td {
+  border-bottom: 0;
+}
+
+section table.bench th {
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: rgba(205, 174, 121, 0.22);
+}
+
+section table.bench .rk {
+  width: 2.2em;
+  color: var(--muted);
+  text-align: right;
+}
+
+section table.bench th.sc,
+section table.bench th.ct {
+  color: var(--muted);
+}
+
+section table.bench .sc {
+  text-align: right;
+  font-weight: 700;
+  color: var(--ruby);
+}
+
+section table.bench .ct {
+  text-align: right;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+section table.bench tr.new td {
+  background: rgba(107, 142, 90, 0.2);
+}
+
+section table.bench tr.new .md {
+  font-weight: 700;
+  color: var(--moss);
+}
+
+.bench-dot {
+  display: inline-block;
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 3px;
+  background: rgba(72, 102, 92, 0.35);
+  vertical-align: -1px;
+}
+
+section table.launchers th,
+section table.launchers td {
+  font-size: 22px;
+  line-height: 1.25;
+  padding: 7px 10px;
+}
+
+section table.launchers th {
+  font-size: 15px;
+}
+
+section table.launchers td.md {
+  white-space: nowrap;
+  color: var(--ruby);
+}
+
+/* ---------------------------------------------------------------
+ * AI section (slides 1-20): dark like the retro block, but warm.
+ * Retro = cool teal slate with amber glow, flat.
+ * AI    = wine / umber / olive ink with a faint dot-matrix "token"
+ *         texture, brass eyebrows, lighter ruby accents.
+ * ------------------------------------------------------------- */
+section.ai {
+  --ai-text: #f3ece2;
+  --ai-soft: #cfc4b6;
+  --ai-brass: #d8b46e;
+  --ai-ruby: #ec8370;
+  --ai-moss: #a5c9a6;
+  --ai-line: rgba(243, 236, 226, 0.16);
+  --ai-dots: radial-gradient(rgba(243, 236, 226, 0.075) 1.2px, transparent 1.6px) 0 0 / 22px 22px;
+  color: var(--ai-text);
+}
+
+section.ai.ai-wine {
+  background:
+    var(--ai-dots),
+    radial-gradient(circle at 84% 12%, rgba(236, 131, 112, 0.20), transparent 26%),
+    radial-gradient(circle at 10% 88%, rgba(216, 180, 110, 0.12), transparent 30%),
+    linear-gradient(180deg, #2c1a1d, #1b1012);
+}
+
+section.ai.ai-umber {
+  background:
+    var(--ai-dots),
+    radial-gradient(circle at 86% 14%, rgba(216, 180, 110, 0.20), transparent 26%),
+    radial-gradient(circle at 10% 86%, rgba(236, 131, 112, 0.10), transparent 30%),
+    linear-gradient(180deg, #2a2118, #1a140e);
+}
+
+section.ai.ai-olive {
+  background:
+    var(--ai-dots),
+    radial-gradient(circle at 82% 14%, rgba(165, 201, 166, 0.16), transparent 26%),
+    radial-gradient(circle at 12% 84%, rgba(216, 180, 110, 0.12), transparent 30%),
+    linear-gradient(180deg, #24261b, #161810);
+}
+
+section.ai h1,
+section.ai h2,
+section.ai p,
+section.ai li,
+section.ai blockquote {
+  color: var(--ai-text);
+}
+
+section.ai h3,
+section.ai strong,
+section.ai a,
+section.ai .em-ruby,
+section.ai .big {
+  color: var(--ai-ruby);
+}
+
+section.ai .em-moss {
+  color: var(--ai-moss);
+}
+
+section.ai .eyebrow {
+  color: var(--ai-brass);
+}
+
+section.ai .lead,
+section.ai .mini,
+section.ai .caption,
+section.ai.title h2,
+section.ai::after {
+  color: var(--ai-soft);
+}
+
+section.ai .source-url {
+  color: rgba(243, 236, 226, 0.5);
+}
+
+section.ai .card {
+  background: rgba(255, 246, 236, 0.07);
+  border: 1px solid var(--ai-line);
+  box-shadow: inset 0 1px 0 rgba(255, 246, 236, 0.06);
+}
+
+section.ai img {
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.45);
+}
+
+section.ai table.bench {
+  background: rgba(255, 246, 236, 0.06);
+  border: 1px solid var(--ai-line);
+  color: var(--ai-text);
+}
+
+section.ai table.bench th,
+section.ai table.bench td {
+  border-bottom-color: var(--ai-line);
+  color: var(--ai-text);
+}
+
+section.ai table.bench th,
+section.ai table.bench th.sc,
+section.ai table.bench th.ct {
+  background: rgba(216, 180, 110, 0.18);
+  color: var(--ai-brass);
+}
+
+section.ai table.bench .rk,
+section.ai table.bench .ct {
+  color: var(--ai-soft);
+}
+
+section.ai table.bench .sc {
+  color: var(--ai-ruby);
+}
+
+section.ai table.bench tr.new td {
+  background: rgba(165, 201, 166, 0.14);
+}
+
+section.ai table.bench tr.new .md {
+  color: var(--ai-moss);
+}
+
+section.ai .bench-dot {
+  background: rgba(165, 201, 166, 0.45);
+}
+
+/* ---------------------------------------------------------------
+ * Retro block (slides 21-48): cool night grounds with faint CRT
+ * scanlines, one ground + accent per chapter.
+ *   rg-linux   21-23  Linux setup        indigo + phosphor cyan
+ *   rg-rally   24-33  Colin / PC rally   forest + rally amber
+ *   rg-arcade  34-40  arcade history     violet + magenta
+ *   rg-street  41-45  Japanese street    asphalt + sodium orange
+ *   rg-dossier 46-48  findings + summary graphite + paper white
+ * ------------------------------------------------------------- */
+section.rg {
+  --rg-scan: repeating-linear-gradient(180deg, rgba(255, 255, 255, 0.028) 0 1px, transparent 1px 4px);
+}
+
+section.rg .eyebrow { color: var(--ruby); }
+section.rg .card { border-color: color-mix(in srgb, var(--ruby) 34%, transparent); }
+
+section.tone-extra-dark.rg-linux {
+  --ruby: #72d4f2;
+  background:
+    var(--rg-scan),
+    radial-gradient(circle at 84% 12%, rgba(114, 212, 242, 0.16), transparent 26%),
+    radial-gradient(circle at 10% 88%, rgba(120, 110, 220, 0.18), transparent 30%),
+    linear-gradient(180deg, #1b2038, #10131f);
+}
+
+section.tone-extra-dark.rg-rally {
+  --ruby: #f2b84b;
+  background:
+    var(--rg-scan),
+    radial-gradient(circle at 84% 14%, rgba(242, 184, 75, 0.17), transparent 25%),
+    radial-gradient(circle at 12% 84%, rgba(90, 150, 110, 0.18), transparent 30%),
+    linear-gradient(180deg, #1a2e27, #0f1d18);
+}
+
+section.tone-extra-dark.rg-arcade {
+  --ruby: #ff6fb0;
+  background:
+    var(--rg-scan),
+    radial-gradient(circle at 86% 12%, rgba(255, 111, 176, 0.20), transparent 26%),
+    radial-gradient(circle at 10% 88%, rgba(90, 200, 240, 0.16), transparent 30%),
+    linear-gradient(180deg, #2a1b42, #150e24);
+}
+
+section.tone-extra-dark.rg-street {
+  --ruby: #ff9b42;
+  background:
+    var(--rg-scan),
+    radial-gradient(ellipse at 50% -10%, rgba(255, 155, 66, 0.22), transparent 45%),
+    radial-gradient(circle at 8% 90%, rgba(80, 120, 200, 0.14), transparent 30%),
+    linear-gradient(180deg, #1c1e24, #0d0e12);
+}
+
+section.tone-extra-dark.rg-dossier {
+  --ruby: #f07a62;
+  background:
+    var(--rg-scan),
+    radial-gradient(circle at 84% 14%, rgba(240, 122, 98, 0.12), transparent 24%),
+    radial-gradient(circle at 12% 82%, rgba(244, 239, 230, 0.07), transparent 30%),
+    linear-gradient(180deg, #262a2e, #16191c);
+}
+
+section.rg img { box-shadow: 0 18px 44px rgba(0, 0, 0, 0.5); }
+
+/* dark table for the launcher summary */
+section.rg table.bench {
+  background: rgba(255, 248, 240, 0.06);
+  border: 1px solid rgba(244, 239, 230, 0.16);
+}
+section.rg table.bench th,
+section.rg table.bench td {
+  color: #f4efe6;
+  border-bottom-color: rgba(244, 239, 230, 0.14);
+}
+section.rg table.bench th {
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--ruby);
+}
+section.rg table.launchers td.md { color: var(--ruby); }
+
+section.rg table.launchers td.md,
+section.rg table.launchers td.md * { color: var(--ruby); }
+
+/* Slide 14: CLI screenshots as terminal windows */
+.term-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px 26px;
+  justify-content: center;
+  max-width: 1060px;
+  margin: 18px auto 0 auto;
+  text-align: left;
+}
+.term {
+  flex: 0 0 calc(50% - 16px);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0f0b0c;
+  border: 1px solid rgba(243, 236, 226, 0.16);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
+}
+.term-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 7px 14px;
+  background: rgba(243, 236, 226, 0.08);
+  border-bottom: 1px solid rgba(243, 236, 226, 0.10);
+  font-size: 0.62em;
+}
+.term-bar strong { color: #f3ece2 !important; }
+.term-dots { display: flex; gap: 6px; }
+.term-dots i { display: block; width: 10px; height: 10px; border-radius: 50%; background: rgba(243, 236, 226, 0.25); }
+.term-dots i:first-child { background: #ec8370; }
+.term-tag { margin-left: auto; font-size: 0.82em; color: #d8b46e; }
+section .term img {
+  display: block;
+  width: 100%;
+  height: 178px;
+  object-fit: cover;
+  object-position: left top;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Cost ranking bar chart (benchmark v5) */
+.cost-chart {
+  max-width: 1020px;
+  margin: 8px auto 0 auto;
+  text-align: left;
+  font-size: 18px;
+}
+.cost-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height: 25px;
+}
+.cost-name { flex: 0 0 210px; text-align: right; color: #f3ece2; }
+.cost-track { flex: 1 1 auto; height: 15px; }
+.cost-bar { display: block; height: 100%; border-radius: 0 4px 4px 0; }
+.cost-val { flex: 0 0 92px; font-variant-numeric: tabular-nums; color: #cfc4b6; }
+.cost-row.t-c .cost-bar { background: #a5c9a6; }
+.cost-row.t-m .cost-bar { background: #d8b46e; }
+.cost-row.t-h .cost-bar { background: #ec8370; }
+.cost-row.t-c .cost-val { color: #a5c9a6; font-weight: 700; }
+.cost-legend {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #cfc4b6;
+}
+.cost-legend span::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: -1px;
+}
+.cost-legend .t-c::before { background: #a5c9a6; }
+.cost-legend .t-m::before { background: #d8b46e; }
+.cost-legend .t-h::before { background: #ec8370; }

@@ -1,283 +1,276 @@
-# Beyond Summit 2026 - Roteiro Completo
+# Canal 3 Expo 2026 - Roteiro Completo
 
 Este roteiro acompanha a versão em PT-BR do deck em `slides/tropical-ruby-2026.md`.
 
-## Slide 1 - Agile Vibe Coding
-Restam: ~58:45 (75s)
+## Slide 1 - Retrogame na era das IAs
+Restam: ~60:00 (75s)
 
 Vou abrir direto, porque a gente tem uma hora pra desmontar isso com calma: agentes de IA mudaram o custo de construir software, mas não aboliram engenharia. Perguntar “IA substitui programador?” é pouco. A pergunta que importa é: qual processo sobrevive quando errar ficou barato e entregar ficou rápido? A tese é simples: agente bom aumenta muito a produtividade de quem sabe dirigir. Mas também acelera a bagunça de quem não sabe. Esse é o preço de vibe coding.
 
 ## Slide 2 - Fabio Akita
-Restam: ~57:45 (60s)
+Restam: ~58:45 (60s)
 
-Pra quem só me conhece por um pedaço da internet: fui cofundador da Codeminer 42 e hoje estou no conselho. Fundei e organizei a RubyConf Brasil até 2016. Passei anos no YouTube com o Akitando, mais de quinhentos mil seguidores, e sigo ativo no X como @akitaonrails, com cerca de oitenta e três mil seguidores lá também. E o akitaonrails.com acabou de completar 20 anos no dia 5 de abril de 2026, com mais de 700 artigos publicados, agora em português e inglês. Também fui parar fora da bolha tech, em programas como Flow e Inteligência Ltda. Estou falando isso por um motivo simples: eu já vi hype demais, mercado demais e promessa furada demais pra comprar fantasia fácil.
+Pra quem só me conhece por um pedaço da internet: fui cofundador da Codeminer 42 e hoje estou no conselho. Fundei e organizei a RubyConf Brasil até 2016. Passei anos no YouTube com o Akitando, mais de quinhentos e setenta mil inscritos, e sigo ativo no X como @akitaonrails, com quase cem mil seguidores lá também. E o akitaonrails.com acabou de completar 20 anos no dia 5 de abril de 2026, com mais de 830 artigos publicados, agora em português e inglês. Também fui parar fora da bolha tech, em programas como Flow e Inteligência Ltda. Estou falando isso por um motivo simples: eu já vi hype demais, mercado demais e promessa furada demais pra comprar fantasia fácil.
 
-## Slide 3 - O pânico da IA caiu em cima de uma bolha velha
-Restam: ~56:50 (55s)
+## Slide 3 - Heróis ou Vilões
+Restam: ~57:45 (45s)
 
-Eu não comecei a falar disso quando IA virou moda. Eu já vinha batendo na bolha da programação, na economia do programador ruim, nas promessas de curso e bootcamp, muito antes de agente de código prestar pra alguma coisa. A IA não inventou essa fraqueza. Ela só escancarou mais rápido.
+Antes de entrar na tecnologia, uma tentação que eu vejo todo dia: transformar IA em novela de CEO. Sam Altman, da OpenAI: hype, escala e o Elon processando. Dario Amodei, da Anthropic: Fable 5, Mythos 5 e até shutdown de governo entrando na história. E o Jensen Huang, da Nvidia, que tá em todas: comprou briga com gamer por causa do DLSS 5, briga com Washington por causa de chip pra China, e agora ainda tem escândalo pessoal na capa de jornal. Herói ou vilão, depende do feed que você segue. Só que o motor real é mais chato: margem, compute, assinatura subsidiada, API cara, IPO e distribuição. Esses caras não são personagem de Marvel. São CEOs tentando comprar tempo, GPU e narrativa. O importante pra nós não é torcer por um deles. É entender o incentivo. E pra entender incentivo, tem que começar pelo básico: o que essa tecnologia é de verdade.
 
-## Slide 4 - Meio milhão de demitidos em tech desde 2022
-Restam: ~56:25 (25s)
+## Slide 4 - Papagaios Estocásticos
+Restam: ~57:00 (100s)
 
-E os números do Crunchbase confirmam que a correção começou bem antes da IA pegar agente. Em 2022, mais de 93 mil demissões em tech nos EUA. 2023 foi o pico, 191 mil. 2024, 95 mil. 2025, 127 mil — Intel cortou 27 mil sozinha, Microsoft 15 mil, Verizon 15 mil, Amazon quase 15 mil. E 2026 já decolou. A Oracle demitiu entre 20 e 30 mil por e-mail em 31 de março, sem aviso prévio e com severance picado. A Meta cortou 8 mil em maio, depois de subir o capex de IA pra 145 bilhões. Só em abril foram 83 mil cortes em tech, com 21 mil já atribuídos a IA. Total acumulado desde 2022: mais de meio milhão. E isso só nos Estados Unidos.
+O jeito mais honesto de descrever o que um LLM faz por baixo é papagaio estocástico. Termo cunhado em 2021 por Emily Bender e a turma da Timnit Gebru. O modelo repete padrões de token aprendidos no treino, com fluência impressionante, mas sem entender o que diz. É bonito de ler e fraco de compromisso com a verdade. Por isso eu chamo LLM de loot box: é probabilístico, não é compilador determinístico. Dá pra melhorar bastante com contexto, ferramenta, ciclo de avaliação e prompt melhor? Dá. Mas o modelo de 2026 ainda baixa a cabeça pra você. Se você vem com premissa torta, ele muitas vezes prefere agradar em vez de contrariar. E continua errando com confiança: inventa detalhe, completa lacuna do jeito errado e segue em frente como se estivesse tudo certo. Por isso agente sem freio é desastre. O que segura ainda é execução real, teste real e revisão real.
 
-## Slide 5 - A mentira antiga
-Restam: ~55:05 (80s)
+## Slide 5 - SpaceX abriu capital
+Restam: ~55:20 (25s)
 
-Eu já vinha batendo nessa tecla antes de IA virar pauta. A mentira antiga era simples: faz um cursinho rápido, vira engenheiro de software em dois meses, ganha salário alto e entra no modo easy. Isso sempre foi conversa mole. Bootcamp ensina ferramenta. Não comprime anos de julgamento de engenharia. E a prova é que os layoffs começaram no fim de 2022, antes da IA saber programar direito. O ChatGPT foi acelerador. Não foi a causa original.
+Enquanto isso, o dinheiro grande foi pra bolsa. Até a SpaceX abriu capital. IPO precificado a 135 dólares por ação, cerca de 75 bilhões de dólares levantados, valuation perto de 1 trilhão e 770 bilhões no IPO segundo a CNBC. No primeiro dia, fechou a 160 dólares e 95 centavos, alta de 19,2 por cento. O ponto pra mim não é oba-oba de ação. É capital público correndo atrás de infraestrutura física. Quando até foguete, satélite e rede entram nessa escala, fica claro que 2026 virou uma briga de infraestrutura. Não é só software.
 
-## Slide 6 - Claude Code vazou
-Restam: ~54:10 (55s)
+## Slide 6 - Anthropic abriu capital
+Restam: ~54:55 (25s)
 
-Daí veio uma das confirmações mais engraçadas possíveis dessa tese: o vazamento do Claude Code em 31 de março de 2026. A CLI oficial da Anthropic deixou escapar um mapa enorme do código e, de repente, todo mundo pôde olhar as tripas de uma das ferramentas de agente mais importantes do mercado.
+E em 19 de novembro foi a vez da Anthropic, a dona do Claude. Precificou o IPO a 83 dólares por ação, acima da faixa que ela mesma tinha anunciado, e levantou 81 bilhões e 300 milhões de dólares. Só a oferta base já passa a da SpaceX. Abriu na Nasdaq a 111 dólares e meio, alta de 34 por cento, valendo perto de 2 trilhões de dólares. E a receita cresceu 1.200 por cento em um ano: uns 33 bilhões de dólares só nos nove meses até setembro. A empresa que faz o modelo que eu uso todo dia agora joga no mesmo campeonato da SpaceX. Essa corrida também é de capital.
 
-## Slide 7 - A lição não foi “uau, magia”
-Restam: ~52:40 (90s)
+## Slide 7 - Top 20 do benchmark (outubro/2026)
+Restam: ~54:30 (40s)
 
-Abriram o código. O que apareceu lá dentro? Não foi perfeição divina. Foi uma base grande, pressionada por entrega, cheia de decisão tática, remendo e complexidade operacional. O famoso espaguete de sênior. E o mais importante: quase imediatamente começaram a copiar comportamento e reimplementar partes. Esse é o ponto. Quando a mística some, sobra engenharia.
+E falando em Anthropic, olha o placar mais recente do meu benchmark, a versão 4, de 28 de outubro. Top 20. Oito modelos fecharam com nota 100: Gemini 4 Argon, GPT-6 Astra, Opus 5, Fable 5, Opus 5.5, e os GPTs 5.6 e 5.5. Então a nota sozinha já não separa ninguém. O que separa é custo e tempo. O Opus 5.5 tirou 100 gastando 16 dólares em uma hora. O GPT-6.1 Terra tirou quase 97 com menos de 2 dólares, em 21 minutos. E lá embaixo do top 20 tem DeepSeek e Kimi passando de 92. Nota alta virou commodity. A briga agora é custo, velocidade e quota.
 
-## Slide 8 - LLMs são Papagaios Estocásticos
-Restam: ~52:25 (15s)
+## Slide 8 - Tier list não é benchmark
+Restam: ~53:50 (25s)
 
-E essa é a forma mais honesta de descrever o que um LLM faz por baixo: papagaio estocástico. Termo cunhado em 2021 por Emily Bender e a turma da Timnit Gebru. O modelo repete padrões de token aprendidos no treino, com fluência impressionante, mas sem entender o que diz. É bonito de leitura e fraco de compromisso com verdade. É por isso que ele erra com confiança, alucina API e te bajula em vez de te contrariar.
+E aí, enquanto eu rodo teste, a internet faz tier list. Essa circulou no X essa semana. Olha o Sonnet 5.5 lá em SSS: no meu teste, num projeto longo de verdade, ele tirou 88 e ficou fora do top 20. O GPT-5.6 Terra está em B: no meu teste tirou 100, gastando nove dólares e meio. Às vezes bate, como o Gemini 4 Argon no topo. Mas tier list é opinião em formato de ranking. É barato fazer. Medir dá trabalho, e é por isso que eu meço.
 
-## Slide 9 - LLMs ainda bajulam e erram
-Restam: ~51:00 (85s)
+## Slide 9 - Quanto custa ser competente
+Restam: ~53:25 (40s)
 
-Eu chamei LLMs de loot boxes porque elas são probabilísticas. Não são compiladores determinísticos. Dá pra melhorar bastante com contexto, ferramenta, ciclo de avaliação e prompt melhor? Dá. Mas o modelo de 2026 ainda baixa a cabeça pra você. Se você vem com premissa torta, ele muitas vezes prefere agradar em vez de contrariar. Ele também continua errando com confiança. Inventa detalhe, completa lacuna do jeito errado, segue em frente como se estivesse tudo certo. Por isso agente sem freio é desastre. O que segura ainda é execução real, teste real e revisão real.
+E aí vem a pergunta que interessa: quanto custa? Saiu hoje o meu benchmark v5. Mesma tarefa pra todo mundo, um app Rails de chat completo, testado e rodando em Docker. Os dezesseis modelos que terminaram passaram de primeira. A diferença está no bolso: do GPT-6 Luna, que fez tudo por quinze centavos de dólar, até o Grok, que custou mais de catorze. Quase cem vezes. E o preço por milhão de tokens na tabela engana: com cache, a conta cai de setenta a noventa por cento, e modelo que fala demais gasta mais que modelo caro que vai direto ao ponto. Competente o suficiente já é barato. A pergunta agora é quanto você paga por rodada.
 
-## Slide 10 - Treino e inferência disputam a mesma tomada
-Restam: ~49:35 (85s)
 
-E aqui entra minha especulação sobre a economia da IA. A conta física começou a apertar de verdade. Os quatro grandes — Alphabet, Amazon, Meta e Microsoft — comprometeram cerca de 650 bilhões de dólares em capex de IA pra 2025 e 2026 juntos. Em 2024 isso era 222 bilhões. Triplicou em dois anos. Do outro lado, a IEA revisou pra cima em dezembro de 2025 e agora projeta 1.100 terawatt-hora de consumo elétrico em data centers globais em 2026 — equivalente ao Japão inteiro. Em 2024 eram 415. E tem mais um detalhe que muda a leitura: a Epoch AI mostra que inferência saiu de 33% do compute em 2023 e deve bater 67% em 2026. Não é mais só treino que consome a tomada. Agente queima muito mais inferência por usuário do que chatbot bobo. Então eu não apostaria em outro salto de ordem de grandeza no frontier tão cedo. Eu apostaria em briga por eficiência, suporte a ferramentas, custo de inferência e produto. E se a Anthropic vier mesmo pra IPO em 2026, essa pressão por margem e previsibilidade fica ainda maior.
-
-## Slide 11 - Carro elétrico ia salvar. IA comeu a economia.
-Restam: ~49:15 (20s)
-
-Tem uma ironia que vale destacar. Carro elétrico ia ser a grande economia de energia da década. A frota global de EV hoje consome cerca de 130 terawatt-hora por ano, segundo a IEA. O crescimento de data center sozinho, entre 2024 e 2026, foi de 685 terawatt-hora. Em dois anos, IA adicionou na rede aproximadamente cinco vezes toda a eletricidade que a frota global de carro elétrico consome hoje. EV e data center disputam o mesmo megawatt — e data center está ganhando de longe.
-
-## Slide 12 - 7 GW que não saem do papel em 2026
-Restam: ~48:55 (20s)
-
-E pra deixar a conta física concreta: dos cerca de 12 gigawatts de data center anunciados pra 2026 nos Estados Unidos, só uns 5 estão em obra de verdade. Os outros 7 atrasaram ou foram cancelados. Bloomberg confirma um intervalo de 30 a 50 por cento. O gargalo não é dinheiro, é equipamento físico: transformador de alta tensão tem fila de até 5 anos, switchgear escasso, tarifa chinesa de 15 a 25 por cento. Fila de conexão à rede leva até 5 anos. E mesmo assim os hyperscalers não recuaram o capex de 650 bilhões pra 2025 e 2026. Dólar sobra. Tomada não.
-
-## Slide 13 - A corrida por compute acelera em 2026
-Restam: ~48:40 (15s)
-
-Mas mesmo com essa correção em curso, a corrida por compute não desacelerou. Em 2026, Anthropic e xAI fecharam contratos pesados de capacidade pra suprir treino e inferência. A fila do mercado não é mais por desenvolvedor júnior. É por GPU, energia e data center.
-
-## Slide 14 - SpaceX abriu capital
-Restam: ~48:15 (25s)
-
-E no meio dessa corrida de infraestrutura, até a SpaceX abriu capital. IPO precificado a 135 dólares por ação, cerca de 75 bilhões de dólares levantados, valuation perto de 1 trilhão e 770 bilhões no IPO segundo a CNBC. No primeiro dia, fechou a 160 dólares e 95 centavos, alta de 19,2 por cento. O ponto pra mim não é oba-oba de ação. É capital público correndo atrás de infraestrutura física. Quando até foguete, satélite e rede entram nessa escala, fica claro que 2026 virou uma briga de infraestrutura. Não é só software.
-
-## Slide 15 - Não era exponencial
-Restam: ~47:20 (55s)
+## Slide 10 - Não era exponencial
+Restam: ~52:45 (55s)
 
 Aqui é só o desenho mental. A corrida de treino parecia exponencial porque a gente estava olhando o miolo da curva S. Mas nada é exponencial pra sempre. Desde 2024, o retorno marginal ficou muito pior. Pra ganhar mais uma ordem de grandeza, a conta de capital, energia e compute explode. Então o foco natural muda: otimização, produto e agentes.
 
-## Slide 16 - 2025 foi o ano dos Agentes
-Restam: ~46:15 (65s)
+## Slide 11 - 2025 foi o ano dos Agentes
+Restam: ~51:50 (65s)
 
 Pra mim, 2025 foi o ano em que a pilha foi fechando. Em março, a OpenAI transformou tool support em plataforma de verdade. Em maio, a Anthropic já estava empurrando thinking com tool use e levando Claude Code pra um estado mais sério. Em agosto, GPT-5 começou a aguentar loop longo com menos tropeço. Em novembro, GPT-5.1 e Opus 4.5 deixaram isso mais redondo pra uso diário. Não foi um dia mágico. Foi o ano inteiro fechando modelo, thinking, tool support e operação.
 
-## Slide 17 - Dezembro de 2025 foi a Virada
-Restam: ~45:00 (75s)
+## Slide 12 - Dezembro de 2025 foi a Virada
+Restam: ~50:45 (75s)
 
 E aí, em duas semanas de novembro de 2025, tudo alinhou. Em 13 de novembro a OpenAI lançou o GPT-5.1 pra desenvolvedores, e ao mesmo tempo o Codex CLI finalmente ficou bom o bastante pra rodar tarefa longa de verdade no terminal. Onze dias depois, em 24 de novembro, a Anthropic soltou o Opus 4.5 e o Claude Code amadureceu com thinking entre chamadas de ferramenta, execução em background, fluxo de agente sério. Não foi modelo novo isolado. Foi modelo novo mais CLI de agente madura, dos dois lados, na mesma janela. Em dezembro de 2025, dava pra começar a apostar tempo de verdade nisso. Foi por isso que janeiro de 2026 virou minha entrada na maratona.
 
-## Slide 18 - Fevereiro a maio de 2026
-Restam: ~44:30 (30s)
+## Slide 13 - Fevereiro a novembro de 2026
+Restam: ~49:30 (42s)
 
-Então eu parei de falar disso em abstrato e fui testar com pele em jogo. Foi de fevereiro até maio. Não com prompt de brinquedo. Não com videozinho fake de SaaS em dez minutos. Projeto real. Deploy real. Teste real. Bug real. Pós-produção real.
+Então eu parei de falar disso em abstrato e fui testar com pele em jogo. Começou em fevereiro e não parou até agora, novembro. Não com prompt de brinquedo. Não com videozinho fake de SaaS em dez minutos. Projeto real. Deploy real. Teste real. Bug real. Esse é o meu GitHub nos últimos doze meses: 14 mil contribuições, e de fevereiro pra cá quase não tem dia vazio. São 60 projetos que eu criei em 2026, todos abertos. E vale o disclaimer honesto: são todos perfeitos, modelo de excelência de código? Absolutamente não. Alguns viraram software de uso diário, outros são protótipos. O ponto era rodar o ciclo do agente em escala, de verdade.
 
-## Slide 19 - Do zero pra software real
-Restam: ~43:55 (35s)
+## Slide 14 - Do zero pra software real
+Restam: ~48:48 (35s)
 
 Este slide é só a parede de projetos. FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI, Frank Karaoke e outros. O objetivo não é explicar repositório por repositório. O objetivo é mostrar volume e variedade: desktop, Rails, Rust, ferramentas, mídia, deploy, software em uso real. Se a tese estava certa, ela precisava aparecer em mais de um tipo de problema.
 
-## Slide 20 - 30 projetos (experimentais)
-Restam: ~43:43 (12s)
-
-Tudo aberto no GitHub. São 30 repositórios em várias linguagens e domínios. E aqui vale o disclaimer honesto que eu escrevi no post de fechamento da maratona: "todos os 30 são perfeitos, modelos de excelência de código?" Absolutamente não. São experimentos. Alguns viraram software de uso diário, outros são protótipos. O ponto não era entregar 30 produtos perfeitos. Era rodar o ciclo do agente em escala, de verdade.
-
-## Slide 21 - As únicas ferramentas pra usar agora
-Restam: ~43:23 (20s)
+## Slide 15 - As únicas ferramentas pra usar agora
+Restam: ~48:13 (20s)
 
 Aproveitando que falei do mar de modelos, estes são os quatro CLIs que eu realmente usaria para agente de terminal sério em maio de 2026: Claude Code, Codex, opencode e Oh-My-Pi. Claude Code e Codex cobrem os modelos fechados de fronteira. opencode e Oh-My-Pi são bons quando você quer ser agnóstico, testar modelo chinês ou rodar via OpenRouter. O resto é orbital.
 
-## Slide 22 - Trocar de harness sem perder controle
-Restam: ~42:58 (25s)
+## Slide 16 - Trocar de harness sem perder controle
+Restam: ~47:53 (25s)
 
 Como eu alterno entre harnesses, acabei criando um kit pequeno para não virar bagunça. Não é orquestrador mágico. É operação básica: ai-jail para dar autonomia com cerca, ai-memory para o contexto sobreviver entre sessões e harnesses, e ai-usagebar para eu saber quando estou perto do limite e preciso trocar de cavalo.
 
-## Slide 23 - Autonomia com cerca
-Restam: ~42:18 (40s)
+## Slide 17 - Autonomia com cerca
+Restam: ~47:28 (40s)
 
 O ai-jail nasceu porque eu gosto de rodar Claude e Codex em modo sem freio, mas não quero dar a chave da casa. Eu tiro a fricção de confirmação dentro do harness e coloco a trava no sistema operacional. O projeto fica read-write. O resto do host fica fora, read-only, mascarado ou mapeado explicitamente. Não é VM, não é blindagem militar, mas é uma camada prática.
 
-## Slide 24 - Contexto que sobrevive ao harness
-Restam: ~41:38 (40s)
+## Slide 18 - Contexto que sobrevive ao harness
+Restam: ~46:48 (40s)
 
 O ai-memory resolve outro problema: harness esquece. Claude compacta, Codex compacta, sessão acaba, e o próximo agente não sabe por que você tomou uma decisão duas horas atrás. Ele captura prompts, chamadas de ferramenta e limites de sessão, consolida em markdown, indexa com FTS5 e expõe handoff e busca via MCP. Não substitui documentação canônica em `docs/`. Cobre o meio do caminho.
 
-## Slide 25 - Mesmo dev. Mesmo agente. Processo diferente.
-Restam: ~40:13 (85s)
+## Slide 19 - Números que pesam
+Restam: ~46:08 (95s)
 
-Aqui entra a comparação que eu acho mais forte de todas. FrankMD de um lado. M.Akita Chronicles do outro. Mesmo desenvolvedor. Mesmo agente. Processo diferente. No FrankMD eu ainda estava pagando várias decisões tardias: refactor pesado, teste correndo atrás, reorganização mais traumática. No M.Akita Chronicles entrou TDD, CI e refatoração contínua desde o começo. Resultado: 212 commits em 19 dias num caso, 274 commits em 8 dias no outro. A variável não foi “IA melhor”. Foi disciplina de engenharia. É aqui que a conversa deixa de ser opinião e vira evidência.
+E aqui é onde eu boto peso na afirmação de velocidade. Recontei tudo do zero com `tokei`, de janeiro até agora, novembro. São 60 projetos. Dá uns 1,8 milhão de linhas úteis, mais uns 256 mil de teste, 13.614 commits meus e cerca de 1.540 horas ativas estimadas. Em maio eu tinha contado 30 projetos e 432 mil linhas. Em seis meses, mais que quadruplicou. A regra ficou mais rígida, não mais frouxa: só arquivo rastreado no git, sem linha em branco, sem asset, sem vendor, sem código de terceiro. Também tirei JSON, dado gerado, resultado de benchmark e fixture, porque isso infla número sem ninguém escrever nada. Nos projetos onde a comunidade contribuiu, como ai-memory, ai-usagebar e FrankMD, eu só contei a minha fatia. Fork de projeto dos outros, como o Omarchy, ficou de fora. As horas continuam conservadoras: sessões por histórico de commit, corte de 90 minutos de pausa, mais 20 minutos por sessão, teto de 8 horas. Não é tudo que eu trabalhei. É só o que dá pra defender olhando commit. Com isso na mesa, agora dá pra discutir mecanismo, não fé.
 
-## Slide 26 - Números que pesam
-Restam: ~38:38 (95s)
-
-E aqui é onde eu boto peso na afirmação de velocidade. Esse recorte foi fechado em maio de 2026. Recontando do zero com `tokei`, agora no recorte novo da Beyond Summit, dá 432.134 linhas úteis, 62.643 linhas de teste, 2.241 commits e cerca de 473 horas ativas estimadas. Entraram 30 projetos AI-assisted: FrankMD, FrankClaw, Frank Sherlock, FrankMega, Frank Yomik, Frank FBI, Investigator, Karaoke, easy-ffmpeg, easy-subtitle, mila-bot, configs de Omarchy, homelab, shadPS4, e outros. A regra é simples: arquivo rastreado no git, sem linha em branco, sem asset, sem build, sem vendor, sem árvore de terceiro. Para software, isso é código e comentários rastreados pelo `tokei`. Para blog, docs, relatórios e conteúdo, markdown também conta, porque ali ele é o produto do trabalho. Teste continua separado por path. No `shadPS4` eu não contei o emulador inteiro; contei só a branch experimental `gamma-debug`. No site, não contei o blog inteiro; contei só o recorte AI-era. As horas continuam conservadoras: sessões por histórico de commit, corte de 90 minutos de pausa, mais 20 minutos por sessão, teto de 8 horas. Não é tudo que eu trabalhei. É só o que dá pra defender olhando commit. Com isso na mesa, agora dá pra discutir mecanismo, não fé.
-
-## Slide 27 - Alcançamos "Developer 10x"?
-Restam: ~37:08 (90s)
+## Slide 20 - Alcançamos "Developer 10x"?
+Restam: ~44:33 (90s)
 
 Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade. Não porque o modelo escreve código perfeito. Não escreve. O ganho vem porque ele atravessa aquele atrito chato que normalmente quebra foco: código repetitivo, busca, refatoração repetitiva, teste repetitivo, execução de comando, tentativa rápida. A confiança, por outro lado, só veio porque o resto continuou existindo: teste, integração contínua, refatoração, produção. E isso já aponta para a causa: a virada não foi genialidade súbita, foi loop melhor.
 
-## Slide 28 - Prompt único é pra demo
-Restam: ~36:03 (65s)
+## Slide 21 - Competente o Suficiente
+Restam: ~43:03 (40s)
 
-A fantasia do prompt único é preguiçosa. Ela parte da ideia de que dá pra prever e especificar tudo antes. Software real não funciona assim. Produção revela coisa que você nem sabia que importava. A API vem torta. A infra falha do jeito errado. O usuário faz o que ninguém previu. O requisito muda. Prompt único serve pra demo. Produção pede iteração.
+E se você quiser a versão longa de tudo isso, eu juntei os artigos do ano num livro: Competente o Suficiente. Um ano colocando a IA à prova, sem medo e sem propaganda. Reorganizei tudo como uma história só, chequei os fatos de novo e ilustrei. É pra quem está ansioso ou confuso com IA: o profissional com medo de ser substituído, o pai que leu que a AGI chega em dois anos, o gerente a quem estão vendendo transformação com IA. O EPUB e o PDF são de graça e vão continuar de graça. O impresso e o Kindle saem a preço de custo, eu não ganho nada com isso. A versão 1.1 saiu em 18 de novembro, e se você achar qualquer erro, abre uma issue no GitHub.
 
-## Slide 29 - github.com/akitaonrails/llm-coding-benchmark
-Restam: ~35:51 (12s)
+## Slide 22 - distrobox-gaming
+Restam: ~42:23 (30s)
 
-Antes de mostrar o ranking, vale dizer que tudo isso está aberto. O repositório está em github.com/akitaonrails/llm-coding-benchmark. Quatro rodadas documentadas em abril e maio, prompt e configuração versionados, dados brutos no repo. Quem quiser reproduzir o benchmark com seus próprios modelos, é só clonar.
+Agora o lado pessoal da maratona: games. O distrobox-gaming é um container com todos os emuladores já configurados, do RetroArch ao RPCS3 e ao shadPS4. Já passou de 480 estrelas no GitHub. É pra quem não quer perder um fim de semana configurando emulador.
 
-## Slide 30 - Benchmark Ranking (Junho/2026)
-Restam: ~35:39 (12s)
+## Slide 23 - omarchy-games-menu
+Restam: ~41:53 (25s)
 
-O ranking agora é de junho e já tem 34 modelos scored. Eu cortei a imagem no top 8 pra caber no slide. Opus 4.7 e GPT 5.4 xHigh continuam empatados no topo, 97. GPT 5.5 vem em 96, Opus 4.8 em 95. A novidade é o miolo do Tier A: Fable 5 em 94, Gemini 3.5 Flash em 93, Kimi K2.6 e GLM 5.2 empatados em 87. E Kimi K2.7 Code ficou logo fora do corte, em 86.
+Em cima dele eu fiz o omarchy-games-menu: um launcher pessoal em Rust com interface em QuickShell, seguindo o tema do Omarchy. Emulador, port de PC e as minhas versões customizadas, tudo num lugar só.
 
-## Slide 31 - Modelos fechados ainda lideram
-Restam: ~34:34 (65s)
+## Slide 24 - Menu de jogos do Omarchy (vídeo)
+Restam: ~41:28 (20s)
 
-No ecossistema de modelos em junho de 2026, minha leitura prática é simples. Anthropic e OpenAI ainda lideram código sério: Opus 4.7 e GPT 5.4 empatam em 97, GPT 5.5 vem logo atrás, e Opus 4.8 quase encosta. Mas o bloco de cima apertou. Fable 5 entrou forte, Gemini 3.5 Flash surpreendeu, Kimi K2.6 continua barato e bom, e GLM 5.2 corrigiu a vergonha do GLM 5.1. Open-ish ainda não substitui o fluxo completo com agentes, mas já não dá mais pra tratar como brinquedo.
+É assim que ele fica. A coleção inteira, capa por capa, organizada por plataforma.
 
-## Slide 32 - Quem consegue bater o Claude Opus?
-Restam: ~32:59 (95s)
+## Slide 25 - Quiver
+Restam: ~41:08 (30s)
 
-Pra não ficar só na opinião, montei um benchmark automatizado que agora tem 34 modelos scored. Open source locais numa RTX 5090 e num servidor AMD com 128 GB de memória unificada, comerciais via API pelo OpenRouter, todos no mesmo runner, mesmas condições. A rubrica continua com 8 dimensões: completude do deliverable, RubyLLM correto, qualidade dos testes, error handling, persistência, Hotwire de verdade, arquitetura e prod-ready. Score 0 a 100, Tier A, B, C, D. Resultado: o topo ainda é fechado, mas ficou mais cheio. Opus 4.7 e GPT 5.4 xHigh empatam em 97. GPT 5.5 vem em 96. Opus 4.8 em 95. Fable 5 em 94. Gemini 3.5 Flash em 93. Kimi K2.6 e GLM 5.2 empatam em 87. Kimi K2.7 Code ficou logo atrás, 86. O ponto não mudou: tamanho virou commodity. O que separa quem aguenta agente real é infraestrutura — thinking, tool calling e prompt caching casados.
+E se você quiser um lugar só pra achar tudo isso, tem o Quiver. É um catálogo com mais de dois mil projetos da comunidade: recomps, source ports, recriações e emuladores, e um launcher grátis pra Windows, Mac, Linux e Android que instala e atualiza tudo. Ele não distribui jogo nenhum, você traz a sua cópia. E tem até um filtro pra esconder os projetos feitos com IA, o que eu acho justo: quem quiser, escolhe.
 
-## Slide 33 - Não é mais só parâmetros
-Restam: ~31:34 (85s)
 
-Aí vem a pergunta óbvia quando alguém olha esse benchmark: por que só esses quatro? E a resposta curta é que tamanho de modelo não é mais o que separa os bons dos ruins. Tamanho virou commodity. O que separa quem aguenta um agente real de verdade são três coisas que precisam estar casadas. Tem que ter prompt caching. Sem KV cache decente, cada turno do agente relê o contexto inteiro, e o custo do loop explode. Você não consegue segurar uma sessão longa de Claude Code rodando se a infraestrutura não cacheia direito. Tem que ter tool calling de verdade. O modelo precisa escolher qual ferramenta chamar, montar os argumentos corretamente, receber resultado de volta e usar isso pro próximo passo. Muito modelo open source fala que faz tool calling, mas na prática ou trava ou inventa método que não existe. E tem que ter reasoning, ou thinking, como a Anthropic chama. Que é basicamente um budget extra de inferência pra planejar antes de agir em vez de chutar a primeira resposta que vem. Sem esses três casados, não tem agente que funcione na prática. Poucos modelos passam porque poucos fecham essas três coisas juntas. Não é falta de parâmetro, é falta de infraestrutura completa. O DeepSeek é o exemplo mais gritante disso hoje. O modelo em si não é ruim. Mas ele falha no fluxo de agente justamente porque não fecha essas três condições juntas.
+## Slide 26 - Eu sempre amei Colin McRae
+Restam: ~40:38 (30s)
 
-## Slide 34 - "Coder" no nome não vira coder melhor
-Restam: ~30:14 (80s)
+E aqui vai uma confissão: eu sempre amei Colin McRae Rally, desde o PlayStation. Esse é o Colin 2.0 no DuckStation, do jeito que era: 4:3, polígono tremendo, textura borrada. E eu fiquei pensando: dá pra jogar a versão de PC num computador moderno, do jeito certo?
 
-E tem outra surpresa do benchmark que vale a pena destacar, porque vai contra o consenso. A intuição de quase todo mundo é que modelos com "Coder" no nome são os melhores pra programação, afinal foram fine-tunados especificamente em código. Mas no benchmark deu o oposto. Dos três Qwen Coder dedicados, dois falharam catastroficamente: o Qwen 3 Coder 30B devolveu uma string mockada hardcoded em vez de chamar a API, e o Qwen 2.5 Coder 32B rodou 90 minutos de timeout sem escrever um único arquivo. O terceiro nem rodou direito. Enquanto isso, as versões gerais do Qwen se saíram melhor que as Coder dedicadas. O Qwen 3.5 35B-A3B, que é MoE geral, rodou Rails na RTX 5090 e as alucinações que apareceram eram resolvíveis em um ou dois follow-ups. Foi o menos ruim da família. Ou seja, versão geral bateu as Coder dedicadas. E mais: eu coloquei no benchmark o Qwen 3.5 27B distilado direto do Claude 4.6 Opus, exatamente pra testar a promessa de "Claude em casa". Rodou Rails, mas alucinou a API toda. Distilação não foi o atalho. E pra não sair nenhum mal-entendido: se alguém insistir em testar Qwen pra código, a única variação que ainda vale gastar tempo avaliando é o Qwen 3.5 35B-A3B MoE geral — e mesmo ele fica bem atrás de Claude, GPT 5.4 e GLM 5.1. A lição amarra direto com o slide anterior: marketing label não substitui as três condições — prompt caching, tool calling e reasoning casados. Sem essas três, não importa quantas vezes você ponha "Coder" no nome do modelo.
+## Slide 27 - Launcher do Colin McRae Rally
+Restam: ~40:08 (30s)
 
-## Slide 35 - IA nunca vai ser perfeita. Mas errar ficou barato.
-Restam: ~28:44 (90s)
+Deu. Esse é o rea-colin-mcrae, um launcher pro Colin McRae Rally original de PC, de 1998. Você aponta pra pasta do jogo e escolhe o visual: o original de 1998, o Enhanced na resolução da sua tela, ou um perfil pra Steam Deck. Roda em Windows e Linux.
 
-E aqui é onde eu acho que muita gente ainda erra a leitura do mercado. LLM nunca vai ser determinística. Não importa qual modelo você esteja olhando, ele vai continuar errando, alucinando, baixando a cabeça pro usuário, inventando endpoint que não existe. Isso não vai sumir. O que mudou não foi a perfeição do modelo. Foi o custo de errar. O ciclo de feedback ficou tão curto que errar deixou de ser caro. O agente roda, quebra, recebe o stack trace, conserta, tenta de novo, em segundos. A gente parou de esperar o modelo perfeito e passou a usar o modelo imperfeito dentro de um loop barato. Essa é a virada que importa. E quando algo fica imperfeito mas barato, o open source corre por cima muito rápido. O claw-code apareceu como clone clean-room do Claude Code em menos de 24 horas, direto no GitHub da ultraworkers. Quase junto veio o free-code, que é um fork sem telemetria e sem as travas. E o OpenClaw, que já era um projeto maduro antes do leak, ganhou um empurrão: agora tem o memclaw plugado nele, que é um sistema de memória inspirado no do próprio Claude Code. Ou seja, não foi só copiar comportamento de fora, a galera do open source também está absorvendo os padrões internos e recriando por cima. E o corte de mercado que sai disso você já viu. O que ficou barato é software trivial. CRUD, landing page, painel interno, bot, ETL, cola entre APIs. O que continua caro é o que sempre foi. Julgamento, arquitetura, operação, manutenção e alguém disposto a ser dono do problema.
+## Slide 28 - Colin McRae pelo launcher, look original
+Restam: ~39:38 (25s)
 
-## Slide 36 - Assinatura ganha de pay-as-you-go
-Restam: ~27:19 (85s)
+Primeiro o visual original, em 4:3, como saiu em 1998. Já roda liso num PC de hoje, sem gambiarra de compatibilidade.
 
-E quando você vai olhar o preço, tem um detalhe que muita gente ignora. Pay-as-you-go via API parece mais honesto, mas sai muito caro muito rápido pra quem usa isso pra coding todo dia. Pagando GPT 5.4 Pro por token no OpenRouter, num uso moderado de uns 15 milhões de tokens de input e 3 milhões de output por mês, você bate perto de 990 dólares por mês. No benchmark, ele dá 97 pontos, mas custa uns 16 dólares por run. O GPT 5.5 quase empata, 96 pontos, por uns 10 dólares. Do lado da Anthropic, Opus 4.7 e 4.8 ficam perto de 1 dólar por run, mas Fable 5 já sobe pra algo como 11 dólares estimados. E aí o Tier A barato fica interessante: Kimi K2.6 e Kimi K2.7 Code rodam por uns 30 centavos. GLM 5.2 entra por assinatura. Então, traduzindo: se você usa coding agent sério no dia a dia, assinatura ainda ganha de pay-as-you-go. Talvez esteja subsidiado demais. Talvez não pare em pé pra sempre. Mas hoje é assim.
+## Slide 29 - Colin McRae pelo launcher, 16:9 em alta resolução
+Restam: ~39:13 (25s)
 
-## Slide 37 - Heróis ou Vilões
-Restam: ~26:44 (35s)
+Agora o mesmo jogo no modo Enhanced: widescreen, alta resolução, HUD e placas redesenhados em HD. Por baixo é o mesmo executável de 1998. O launcher só corrige o que o jogo não sabia fazer.
 
-Uma tentação depois desse slide de preço é transformar tudo em novela de fundador. Sam Altman de um lado, Dario Amodei do outro. OpenAI contra Anthropic. Aceleracionista contra cauteloso. De um lado, hype, escala e Elon processando. Do outro, Fable 5, Mythos 5 e até shutdown de governo entrando na história. Herói ou vilão, dependendo do feed que você segue. Só que o motor real é mais chato: margem, compute, assinatura subsidiada, API cara, IPO na porta e distribuição. Esses caras não são personagens de Marvel. São CEOs tentando comprar tempo, GPU e narrativa. O importante pra nós não é torcer por um deles. É entender o incentivo. Quem controla custo, distribuição e hardware consegue empurrar o resto do mercado. E é por isso que agora entra a China.
+## Slide 30 - Cenários de fundo em HD
+Restam: ~38:48 (25s)
 
-## Slide 38 - China chegou perto do topo
-Restam: ~26:19 (25s)
+E olha o detalhe do fundo. O céu, as nuvens e as montanhas eram texturas borradas de 1998. Agora são cenários em HD, e numa tela larga dá pra ver a diferença de longe.
 
-Vale um recorte separado pra um ponto novo dessa última rodada: modelos chineses continuam no Tier A do benchmark. Kimi K2.6, da Moonshot, ficou em 87 sobre 100, e é o Tier A mais barato do benchmark: 30 centavos por run, com FakeChat correto, rescue de erro e session cookie multi-worker safe. GLM 5.2 também fez 87, mas com ressalva: DI e testes fortes, persistência ainda process-local sem cap. Isso é importante porque o GLM 5.1 tinha tropeçado feio, inventando uma DSL que não existia. O 5.2 corrigiu muita coisa, mas ainda não é “resolvido”. Kimi K2.7 Code ficou logo atrás, 86. Então a leitura não é “China dominou”. Não dominou. A leitura é: o gap fechou em qualidade, preço caiu, mas ainda são poucos modelos que aguentam agente real.
 
-## Slide 39 - China ainda bloqueia o H200?
-Restam: ~26:04 (15s)
+## Slide 31 - rea-colin-mcrae-recomp
+Restam: ~38:23 (25s)
 
-E a geopolítica entrou de cabeça nessa corrida. Em maio, os Estados Unidos liberaram a venda de Nvidia H200 pra dez empresas chinesas. Pequim disse "não, usa o que tem em casa" — Huawei Ascend, Cambricon, Biren. Forçando o ecossistema doméstico a maturar. E enquanto isso, a Nvidia bateu 5 trilhões e meio de dólares de valor de mercado, maior que o PIB de qualquer país exceto Estados Unidos e China. A briga de compute não é mais só sobre quem tem mais GPU. É sobre quem controla o silício. Kimi, GLM e DeepSeek entram nessa mesma pressão: fazer mais coisa rodar no hardware que Pequim quer ver crescendo.
+Aí eu fui mais longe. Em vez de remendar o executável, tentar reconstruir o jogo inteiro em Rust, a partir de engenharia reversa. Sem nenhum asset do jogo no repositório: você aponta pra sua cópia.
 
-## Slide 40 - DGX Spark: appliance, não revolução
-Restam: ~25:19 (45s)
+## Slide 32 - Colin McRae em Rust (WIP)
+Restam: ~37:58 (40s)
 
-Um exemplo bom dessa mudança de foco é o DGX Spark, que a NVIDIA tinha anunciado como Project DIGITS. O marketing é bonito: GB10 Grace Blackwell, 128 giga de memória unificada, até 1 PFLOP em FP4, até 4 tera de NVMe. Mas olhando frio, a CPU é Arm, co-design com MediaTek, e o número de AI TOPS fica perto de uma RTX 5070. O valor não é ser uma máquina revolucionária de treino frontier. É appliance local pra prototipar, ajustar e rodar inferência. Parece mais um smartphone Android bombado em formato de desktop do que uma nova era de compute.
+E os números assustam. São uns 223 mil linhas de Rust, quase 3 mil testes, 12 crates e 662 commits em 12 dias. E eu vou repetir: é trabalho em andamento. Não está pronto. Tem uma branch de preservação, que tenta ser idêntica ao executável de 1998, e uma branch moderna, com 4K, widescreen e 144 quadros por segundo.
 
-## Slide 41 - Empresas e Profissionais ruins vão sair
-Restam: ~24:19 (60s)
+## Slide 33 - Reconstrução em Rust rodando
+Restam: ~37:18 (25s)
 
-Aqui é a parte em que eu paro de fingir diplomacia. Empresas ruins e profissionais ruins vão sair, e isso melhora a indústria. Se você é o tipo que espera alguém te dizer o que fazer, você não sabe como pedir coisas pra IA. Porque pedir bem pra IA exige a mesma coisa que trabalhar bem: entender o problema, assumir responsabilidade e saber medir o resultado. A indústria passou anos premiando quem só esperava ordem. Essa época está acabando.
+E isso aqui não é o executável original. É o código reconstruído em Rust rodando nativo. Ainda tem diferença e ainda tem bug, mas já dá pra correr um estágio inteiro.
 
-## Slide 42 - Fundamento primeiro
-Restam: ~23:19 (60s)
+## Slide 34 - Colin 04, Colin 2005, DiRT e DiRT Rally
+Restam: ~36:53 (35s)
 
-É por isso que o Akita antigo continua valendo. Não terceirize sua decisão. Aprenda a aprender. Entenda que programação não é fácil. Essas ideias envelhecem bem porque não dependem de framework, nem de hype, nem de geração de modelo. Elas falam de formação mental.
+E depois do primeiro eu fui com tudo. Fiz launcher pro Colin McRae Rally 04, pro Colin 2005, pro DiRT e pro DiRT Rally. Mesmo padrão: escolhe a pasta, escolhe o visual, joga em widescreen e alta resolução. No DiRT ainda tinha um crash ao carregar corrida em processador moderno, e isso foi corrigido.
 
-## Slide 43 - Não terceirize seu julgamento
-Restam: ~22:24 (55s)
+## Slide 35 - rea-launcher-sdk
+Restam: ~36:18 (25s)
 
-O mais difícil de ensinar pra iniciante é isso: julgamento não é uma coisa que você baixa pronta. Não vem de influencer, não vem de bootcamp, não vem de modelo. O modelo mental continua o mesmo: experimento pequeno na beira do caos, erro cedo, retorno rápido, correção contínua.
+E quando eu já tinha cinco launchers, extraí o que se repetia num framework: o rea-launcher-sdk. É ele que já gerou os launchers de TeknoParrot e de Rad Mobile. Código que vira ferramenta, que vira mais código.
 
-## Slide 44 - Você não tem objetivos
-Restam: ~21:24 (60s)
+## Slide 36 - Bug velho, conserto em horas
+Restam: ~35:53 (45s)
 
-E aqui entra uma coisa que pouca gente quer admitir. Muita gente não tem problema de prompt. Tem problema de objetivo. A pessoa pede “melhora meu sistema”, “faz ficar profissional”, “resolve a performance”, mas não sabe dizer o estado atual, a restrição, nem a métrica de sucesso. E a pergunta incômoda é essa: você se acostumou a esperar alguém criar o backlog por você? A IA não adivinha isso. Se você não consegue transformar desejo em critério mensurável, você não sabe o que pedir. O agente fica rodando em cima de fumaça.
+E o que esses launchers consertam? No Colin de 1998, a corrida parava em 800 por 600. Agora vai a 4K, em widescreen de verdade, a 60 quadros, e ainda ganhou vibração nos gatilhos que o jogo nunca teve. No Colin 04, o patch de widescreen da comunidade deixava os carros 25 por cento mais estreitos, e a engenharia reversa achou o porquê. No Colin 2005, as partículas avançadas só liberavam num Pentium 4 com Hyper-Threading. Agora liberam em qualquer processador. Mas eu não vou fingir que inventei a roda. Nada aqui é técnica nova, e muito fix veio da comunidade. O que mudou foi o tempo. O Colin 2005 e o DiRT Rally saíram do SDK em umas quatro, cinco horas cada. Portar jogo abandonado levava semanas, por isso quase ninguém fazia. Eu fiz oito em uns dois dias.
 
-## Slide 45 - O sprint ideal
-Restam: ~20:24 (60s)
+## Slide 37 - Wanszai no GitHub
+Restam: ~35:08 (25s)
 
-O desenho ideal pra mim não é planning longo, backlog enorme e duas semanas tentando cumprir o combinado antigo. Com agente, eu prefiro ciclos muito mais curtos. Uma manhã de product manager com programador, para fechar objetivo, corte de escopo e critério. Uma tarde de QA com programador, para quebrar, validar e achar borda. Isso roda pela semana entre os programadores, cada um com LLM. O tech lead não vira gargalo de aprovação; entra nos pontos certos, quando precisa guiar arquitetura, refatoração ou decisão que custa caro depois.
+E aqui eu preciso dar crédito pra uma inspiração. Faz tempo que eu sigo e uso os ports de arcade do Wanszai: Sega Rally Championship, Ridge Racer, Scud Race, Virtua Racing. Arcade clássico rodando em PC, num download só, do jeito certo.
 
-## Slide 46 - Codar é Barato. Errar é Barato
-Restam: ~19:24 (60s)
+## Slide 38 - Wanszai no YouTube
+Restam: ~34:43 (25s)
 
-Esse é o outro efeito prático. Durante muito tempo, time evitou experimento porque codar era caro. Protótipo, prova de conceito, MVP pequeno, tudo competia com o backlog oficial. Com LLM, o custo de tentar cai. E quando o custo de tentar cai, o custo de errar também cai. A oportunidade é matar ideia ruim cedo, aprender com código rodando e seguir com mais confiança.
+Ele mostra tudo no canal dele, e agora está mexendo em Daytona 2. E eu sempre quis um Rad Mobile feito por ele. Só que não existia. Então eu fiz o meu, inspirado nos launchers dele, e com a coisa que eu mais queria: suporte de volante de verdade.
 
-## Slide 47 - Agile Vibe Coding
-Restam: ~17:54 (90s)
+## Slide 39 - rea-rad-mobile
+Restam: ~34:18 (25s)
 
-Eu uso o termo Agile Vibe Coding porque pega, mas faço questão de desmistificar na hora. A estrutura de verdade por baixo é velha. É Extreme Programming. O que mudou foi o par: agora meu par é uma máquina. O resto continua igual. Entrega pequena, retorno constante, teste, refatoração, atenção obsessiva em software funcionando. E aí eu quero atacar uma coisa que alguns jovens vivem reclamando. TDD, CI por commit, refatoração contínua. Isso não é perfumaria. TDD segura o modelo quando ele viaja, e ele viaja. CI por commit pega drift e regressão cedo, antes de virar uma dor de cabeça de duas horas. E sem refatoração contínua, o agente afunda num pântano de dívida técnica em poucos dias, e aí fica improdutivo. Com agente no meio, essas três coisas ficam mais importantes. Não menos.
+Esse é o meu Rad Mobile, um arcade da Sega de 1990, saído direto do SDK. Ele já vem com um MAME empacotado e com patch, roda em Windows e Linux, e você só precisa da sua ROM.
 
-## Slide 48 - O pareamento mudou
-Restam: ~16:24 (90s)
+## Slide 40 - Launcher do Rad Mobile
+Restam: ~33:53 (30s)
 
-O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto. O agente traz velocidade de execução, busca e fôlego operacional. Se eu reduzo o agente a digitador burro, piora. Se eu entrego produto e arquitetura pra ele sozinho, piora também. A alavancagem está nessa divisão. É por isso que eu digo que IA é espelho: sênior bom ganha potência; programador ruim ganha potência pra fazer merda mais rápido.
+E o menu você dirige com o volante. O arcade original tinha volante de 270 graus, dois pedais e nenhum motor. O launcher lê o meu volante, ajusta pra 270 graus e ainda inventa o force feedback que o gabinete nunca teve: ele lê a velocidade e as batidas do jogo rodando e gera as forças no volante.
 
-## Slide 49 - Eu já tinha ensinado
-Restam: ~15:39 (45s)
+## Slide 41 - Rad Mobile rodando
+Restam: ~33:23 (25s)
 
-E isso não é papo que nasceu com IA. Eu já tinha ensinado isso antes. Agilidade de verdade, organização, gestão, modelagem. O problema não começou quando apareceu o Claude Code. O que a IA fez foi tirar a desculpa. Se você não sabe modelar, não sabe organizar trabalho, não sabe quebrar problema e não sabe dizer o que quer medir, o agente só acelera sua confusão. Agora fica mais visível. Só isso.
+E é isso aqui: um arcade de 1990 em widescreen de verdade, com volante e force feedback. Até o limpador de para-brisa e o farol, que no MAME puro só funcionavam no teclado, agora funcionam no volante.
 
-## Slide 50 - IA reflete quem você é
-Restam: ~14:09 (90s)
+## Slide 42 - O console virou arcade
+Restam: ~32:58 (35s)
 
-E é aqui que isso volta pro código. IA não cria competência do nada. Ela reflete o que você já é. Se você é um bom engenheiro, ela vai te fazer produzir mais, mais rápido, com mais qualidade. Se você é um mau engenheiro, ela vai te ajudar a produzir lixo numa velocidade que você nunca conseguiria sozinho. Isso vale pra arte, vale pro código, vale pra qualquer área onde você tente usar IA como atalho pra substituir fundação. Não existe atalho pra competência.
+Uma coisa que pouca gente sabe: no fim dos anos 90 o arcade parou de usar hardware exótico e começou a usar hardware de console. O Dreamcast virou NAOMI, depois NAOMI 2, e a Sammy fez o Atomiswave na mesma base. O Xbox virou o Chihiro da Sega, que roda OutRun 2. O GameCube virou o Triforce, uma parceria da Namco, da Sega e da Nintendo. Pra quem emula, isso é ótimo: quem emula o console chega perto de emular o arcade.
 
-## Slide 51 - Júnior herda. Sênior ensina.
-Restam: ~12:29 (100s)
+## Slide 43 - Depois o arcade virou PC
+Restam: ~32:23 (35s)
 
-Júnior está preocupado, mas eu não acho que o caminho acabou. Acho que ele mudou de forma. O mundo está enchendo de sistema feito nas coxas, cheio de lixo de IA, e alguém vai ter que limpar isso. Aprender ferramenta nova nunca foi o fim da profissão: binário, cartão perfurado, assembly, linguagens mais altas, framework, nuvem, agora agente. Muita gente da minha geração aprendeu exatamente assim, no projeto real, bagunçado, cheio de cicatriz. Então a virada de esperança é essa: o caminho não sumiu, ele só ficou mais caótico. Mas isso só para em pé se sênior fizer o trabalho dele. Sênior não é imortal. Vai mudar de empresa, vai cansar, vai se aposentar. Se não formar substituto, a organização apodrece. A nova obrigação do sênior não é só usar IA bem. É ensinar engenharia com IA direito, antes do código apodrecer. Agente nenhum ensina julgamento.
+Depois o arcade virou PC mesmo. O Taito Type X e o RingEdge da Sega rodam Windows embarcado, e o Lindbergh da Sega é um Pentium 4 com GeForce rodando Linux. O jogo é só um executável; o que falta é a placa de I/O, o dongle e a rede do gabinete. O TeknoParrot emula essas peças no Windows, o OpenParrot é a parte de código aberto, e o Lindbergh Loader roda esses jogos direto no Linux. Só que o TeknoParrot é Windows e recusa o Wine, então meus launchers trocam ele pelos loaders abertos e rodam tudo direto no Linux.
 
-## Slide 52 - Vai sobreviver quem souber fazer engenharia
-Restam: ~10:54 (95s)
+## Slide 44 - Azimuth
+Restam: ~31:48 (30s)
 
-Então vem a parte dura. IA não transforma programador ruim em engenheiro. Ela ajuda programador ruim a fazer estrago maior mais rápido. E ajuda engenheiro de verdade a atravessar esse caos com mais velocidade, sem deixar o software morrer. Então eu fecho assim. Não vai sobreviver quem decorou truquezinho de prompt. Vai sobreviver quem tem fundamento, disciplina, iteração e gosto. Se você tem isso, IA vira multiplicador. Se não tem, IA é só uma forma mais rápida de ser exposto.
+E a mesma história continua uma geração depois. O Xbox One é praticamente um PC, e o Azimuth roda as versões de Xbox One do Forza Horizon 2 e 3 e do Forza Motorsport 5 e 6 no Windows e no Linux. Não é emulador: o jogo roda nativo, e o wrapper só traduz as chamadas de sistema e de gráfico.
 
-## Slide 53 - Assine The M.Akita Chronicles
-Restam: ~10:29 (25s)
+## Slide 45 - Launcher do Wangan Midnight
+Restam: ~31:18 (30s)
 
-E já que é pra acabar sem falsa modéstia: se você curtiu essa palestra, assina o The M.Akita Chronicles. Está tudo aí na tela. É onde eu continuo publicando bastidor real, projeto real, código real e o que deu certo ou errado em produção. Quer acompanhar essa linha de raciocínio semana a semana? Vai em themakitachronicles.com e assina.
+Eu fiz a mesma coisa pros arcades. Esse é o launcher da série Wangan Midnight, do R até o Maximum Tune 6RR, num programa só. Sem TeknoParrot: uso o OpenParrot compilado do código-fonte, com as minhas correções, e escrevi a minha própria placa de I/O falando o protocolo da Namco.
 
-## Slide 54 - O canal também virou inglês
-Restam: ~10:19 (10s)
+## Slide 46 - Wangan Midnight rodando
+Restam: ~30:48 (25s)
 
-E o Akitando também virou inglês: mais de 150 vídeos traduzidos e legendados com agente, além do blog bilingue com 20 anos de conteúdo. Se quiser mandar meu conteúdo pra alguém de fora do Brasil, começa por youtube.com/@Akitando.
+Isso aqui é o Maximum Tune 6R rodando no Linux, pelo launcher.
 
-## Slide 55 - Sim, este deck inteiro foi feito com IA
-Restam: ~09:44 (35s)
+## Slide 47 - Launcher do Initial D
+Restam: ~30:23 (30s)
 
-E sim, já que o assunto da palestra é esse, vale fechar com o bastidor completo. Este deck inteiro também foi feito com IA. Pesquisa, estrutura, roteiro, notas do apresentador, crops, extração de frame, build, pós-processo do PPTX com vídeo, tudo saiu do mesmo fluxo. Agente no terminal, Marp para gerar o deck, scripts para embutir vídeo e iteração curta até o negócio ficar apresentável. Então não é discurso abstrato. Eu usei essa pilha para fazer a própria palestra que vocês acabaram de ver.
+E esse é o do Initial D: do primeiro Arcade Stage, de 2002, até o THE ARCADE Season 5, de 2025. Só loader aberto, Flycast, lindbergh-loader e windowsarcadeloader, e eu corrigi o leitor de cartão, o botão Start travado e o som que crashava no Wine.
 
-## Slide 56 - Obrigado
-Restam: ~09:34 (10s)
+## Slide 48 - Initial D rodando
+Restam: ~29:53 (25s)
+
+E esse é o THE ARCADE Season 5 rodando pelo launcher. Repara na cena em estilo mangá no meio da corrida.
+
+## Slide 49 - Achados de verdade
+Restam: ~29:28 (45s)
+
+E não foi só empacotar. A engenharia reversa achou coisa. No Screamer, de 1995, um jogo de DOS, consegui widescreen de verdade mexendo na matriz da câmera, e descobri por que destravar o FPS quebra o jogo: a física roda presa a 50 hertz. No Screamer 2 da GOG, o driver 3dfx que vem junto é de Windows e não funciona no DOS; com o driver do Screamer Rally, o modo 3dfx volta. O DiRT Rally de Linux crashava em todo Ryzen 5000 pra cima, porque o jogo lê uma memória que ele mesmo marcou só pra executar. E o Sega Rally Revo engasgava uma vez por segundo no Windows porque, desde o Windows 10 2004, o timer de 1 milissegundo é por processo, e o jogo nunca pedia o dele.
+
+## Slide 50 - Arcade no Linux, sem TeknoParrot
+Restam: ~28:43 (45s)
+
+Nos arcades foi a mesma coisa, sem TeknoParrot. O Initial D 4 crashava em toda largada. Com um watchpoint de hardware achei o culpado: o leitor de cartão emulado escrevia fora do próprio objeto e apagava o objeto dos controles. O conserto foi um byte. No Wangan, a interface do TeknoParrot fazia o papel da placa de I/O do gabinete, então escrevi a minha, falando o protocolo da Namco. Os jogos da Nintendo rodam no Dolphin oficial, e os da Sega ganharam o câmbio H do gabinete e o volante de 270 graus.
+
+## Slide 51 - 14 launchers rea-*
+Restam: ~27:58 (40s)
+
+Somando tudo, são catorze launchers. Na esquerda, jogos antigos de PC: Colin McRae, DiRT, Screamer. Na direita, Sega e arcade: OutRun, Sega Rally, Rad Mobile, Initial D, Wangan e os arcades da Nintendo. A regra é sempre a mesma: você usa a sua cópia, a pasta original só é lida, e o launcher roda de uma cópia privada.
+
+## Slide 52 - Games no AI Lair
+Restam: ~27:18 (25s)
+
+E se você quiser ver tudo isso com calma, está tudo documentado no meu site, na página de games: o distrobox-gaming, o menu do Omarchy, os launchers de corrida e até um joguinho que eu fiz. Só lembrando: você precisa da sua própria cópia de cada jogo, nenhum launcher traz arquivo de jogo.
+
+## Slide 53 - Obrigado
+Restam: ~26:53 (10s)
 
 Obrigado. Os links estão aí embaixo: Codeminer42, The M.Akita Chronicles e o repositório dessa palestra, que eu vou abrir no dia do evento.
+
+## Slide 54 - Assine The M.Akita Chronicles
+Restam: ~26:43 (25s)
+
+E antes de você ir embora, sem falsa modéstia: se curtiu a palestra, assina o The M.Akita Chronicles. Está tudo aí na tela, e tem um QR code pra quem quiser apontar a câmera. É onde eu continuo publicando bastidor real, projeto real, código real e o que deu certo ou errado em produção. Quer acompanhar essa linha de raciocínio semana a semana? Vai em themakitachronicles.com e assina.

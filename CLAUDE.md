@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A Marp-based keynote deck for **Beyond Summit 2026** (adapted from the TotalPass 2026 version). Most changes touch talk structure, wording, layout, or export quality. The talk is in pt-BR, authored by Fabio Akita.
+A Marp-based keynote deck for **Canal 3 Expo 2026** (C3 Expo, a retro-gaming event in Brazil — https://c3expo.com.br/; adapted from the Beyond Summit 2026 version). Most changes touch talk structure, wording, layout, or export quality. The talk is in pt-BR, authored by Fabio Akita.
 
 ## Key files
 
@@ -51,8 +51,16 @@ Presenter notes live as HTML comments (`<!-- ... -->`) in the slide markdown.
 - Treat them as stage cues
 - Notes should carry reminders the presenter won't see on the slide itself: specific numbers, dates, methodology caveats, transition cues — not a restatement of the visible content
 - The first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock (starting from a 60:00 slot, counting down to 00:00) plus current slide duration in seconds. The script file uses the same format. Both are rebuilt together whenever pacing changes.
-- Total slot is 60:00; deck currently lands at ~09:34 remaining (buffer for Q&A). Actual deck runtime is ~50:26.
+- Total slot is 60:00; deck currently lands at ~26:18 remaining (buffer for Q&A). Actual deck runtime is ~33:42.
 - If the script changes meaningfully, update the matching notes
+
+## Visual language
+
+- Slides 1-21 (AI section) use `_class: ... ai ai-wine|ai-umber|ai-olive`: warm dark grounds (wine, umber, olive) with a faint dot-matrix texture, brass eyebrows, light ruby/moss accents. Defined at the end of `themes/tropical-ruby.css`.
+- Slides 22-51 (retro block) use `tone-extra-dark rg rg-<chapter>`: cool night grounds with faint CRT scanlines, one ground + accent per chapter (`--ruby` is overridden per chapter): `rg-linux` 22-25 (indigo/cyan), `rg-rally` 26-36 (forest/amber), `rg-arcade` 37-43 (violet/magenta), `rg-street` 44-48 (asphalt/sodium orange), `rg-dossier` 49-51 (graphite/coral). New retro slides take their chapter's class.
+- Keep the two families distinct; do not reuse the light `tone-moss/ruby/sand` paper tones for new slides in either block.
+- Background photos in slides 1-21 use `![bg cover opacity:.15 blur:7px]` so they never compete with the text.
+- The title slide uses `assets/akita-portrait-cutout.png` (transparent background) so the portrait sits on the dark ground.
 
 ## Slide and layout workflow
 
@@ -76,6 +84,15 @@ Avoid:
 - CSS grid layouts in raw HTML blocks (fragile in Marp export)
 - Visual tricks that render in browser preview but disappear in PDF
 
+## HTML video workflow
+
+- Game videos live in `assets/games/` (H.264 1080p30, ~45s clips, Git LFS via `.gitattributes`), each with a `.jpg` poster
+- Use `<video class="deck-video" ... loop playsinline>`; add `data-volume="0.25"` for sound, or `muted autoplay` for silent clips
+- Slide 15 (CLI tools) shows screenshots as `.term` terminal windows (theme CSS), not bare images
+- A small `<script>` on the first game slide plays only the active slide's video and pauses the rest; browsers keep the first video muted until a key press or click
+- Keep the matching `VideoSpec` (with `volume`) in `bin/embed_videos_pptx.py`
+- The Pages workflow checks out with `lfs: true`; without it the videos would be LFS pointer files
+
 ## PPTX video workflow
 
 Some slides contain `<!-- pptx-video: ... -->` markers in the markdown.
@@ -89,18 +106,17 @@ Some slides contain `<!-- pptx-video: ... -->` markers in the markdown.
 
 The deck has a deliberate three-act shape — don't break it casually when moving slides:
 
-- **Act 1**: the panic is misdiagnosed (thesis, older warnings, Claude Code leak)
+- **Act 1**: "Heróis ou Vilões" (CEO controversy: Altman, Amodei, Huang) as the hook, then what LLMs really are and what they cost (stochastic parrots, sycophancy, SpaceX and Anthropic IPOs, October benchmark top 20, "Não era exponencial")
 - **Act 2**: what actually changed and the practical proof ("2025 foi o ano dos Agentes" timeline → "Dezembro de 2025 foi a Virada" hinge → January 2026 trigger → marathon projects → metrics → Ciclo do Agente / PILOTA mechanism)
-- **Act 3**: what that means for engineers and the market (XP discipline, benchmark findings, pricing economics, founder narrative, China/compute geopolitics, "A correção", junior/senior, engineering as the durable thing)
+- **Act 3**: currently cut — the deck goes from "Developer 10x?" to the "Competente o Suficiente" book slide and then the ending (China/compute, market correction, junior/senior and the engineering conclusion were removed)
 
-The ending has three layers: engineering conclusion ("Vai sobreviver quem souber fazer engenharia") → newsletter ad → meta-stinger (deck made with AI) → clean `OBRIGADO` exit.
+The ending: "Competente o Suficiente" book → retro-gaming block (slides 22–51: distrobox-gaming, omarchy-games-menu + video, Quiver catalog screenshot (quiverlauncher.com), Colin McRae on DuckStation, rea-colin-mcrae launcher + default/4k videos, HD backgrounds slide (two stacked wide screenshots), rea-colin-mcrae-recomp + WIP stats + video, Colin 04/2005/DiRT/DiRT Rally launcher grid, rea-launcher-sdk, "Bug velho, conserto em horas" fixes slide, Wanszai GitHub + YouTube as the inspiration, rea-rad-mobile repo + launcher menu + video, then two AI-composited diagrams: "O console virou arcade" (Dreamcast→NAOMI/NAOMI 2/Atomiswave, Xbox→Chihiro, GameCube→Triforce) and "Depois o arcade virou PC" (Lindbergh/Type X/RingEdge → TeknoParrot, OpenParrot, Lindbergh Loader), Azimuth (azimuthforza.com), Wangan Midnight launcher + 6R video, Initial D launcher + THE ARCADE S5 video, two highlight slides: "Achados de verdade" (PC launchers: Screamer, DiRT Rally, Sega Rally Revo) and "Arcade no Linux, sem TeknoParrot" (Initial D 4, Wangan, Nintendo, Sega), whose notes carry the credit caveats (do not claim "nobody fixed it before"), then a two-column table of the 14 rea-* launchers as the summary) → AI Lair games page screenshot (ailair.akitaonrails.com/pt-br/games) → `OBRIGADO` → newsletter ad as the last slide (left up during Q&A).
 
 Key structural constraints:
 
-- The real midpoint turn is the jump from "Dezembro de 2025 foi a Virada" into "Fevereiro e março de 2026" — should feel like "parei de opinar e fui testar com pele em jogo"
-- The FrankMD vs M.Akita Chronicles comparison / marathon wall / metrics / "Developer 10x?" are the proof block — opinion becomes evidence here
-- The benchmark arc (slides 32–36: "Quem consegue bater o Claude Opus?" → "Não é mais só parâmetros" → "'Coder' no nome não vira coder melhor" → "IA nunca vai ser perfeita. Mas errar ficou barato" → "Assinatura ganha de pay-as-you-go") is the hard-data block grounded in the April 5 2026 benchmark article
-- The closing run from "A correção" through "Vai sobreviver quem souber fazer engenharia" escalates: diagnosis → hope → responsibility → hard truth → final statement
+- The real midpoint turn is the jump from "Dezembro de 2025 foi a Virada" into "Fevereiro a novembro de 2026" — should feel like "parei de opinar e fui testar com pele em jogo"
+- The marathon wall / "60 projetos" GitHub activity / ai-jail and ai-memory sites / metrics / "Developer 10x?" are the proof block — opinion becomes evidence here
+- Hard benchmark data now lives in the "Top 20 de outubro" table (slide 7, right after the Anthropic IPO), followed by the internet tier-list image as contrast and the "Quanto custa ser competente" cost bar chart (slide 9, real API cost of the 16 models from the Nov 20 2026 v5 benchmark post); the old April benchmark arc was cut
 - Prefer explicit cause-and-effect bridges between major blocks over adding new content
 
 ## Build environment caveats
@@ -108,7 +124,7 @@ Key structural constraints:
 - Local Node.js v25.7.0 breaks `@marp-team/marp-cli` — the `bin/marp` wrapper pins Node 22 via `npx -p node@22`
 - PDF and PPTX export need Chromium with `--no-sandbox`, handled by `bin/chromium-no-sandbox`
 - The PDF renderer is stricter than the browser — if layout looks fine in HTML but broken in PDF, suspect the CSS first
-- Video embedding is a Python post-process step (`bin/embed_videos_pptx.py` using `python-pptx`) since Marp doesn't natively embed playable video in PPTX
+- Video embedding is a Python post-process step (`bin/embed_videos_pptx.py` using `python-pptx`) since Marp doesn't natively embed playable video in PPTX. System Python has no `python-pptx`: run the build with a venv that has it first on `PATH`
 
 ## Final check before committing
 

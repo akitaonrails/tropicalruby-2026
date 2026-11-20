@@ -30,9 +30,34 @@ class VideoSpec:
     poster: Path
     mime_type: str
     placement: Placement
+    volume: float = 0.0  # 0.0 = muted; 0.25 = 25%
 
 
-VIDEO_SPECS: dict[str, VideoSpec] = {}
+GAMES = ROOT / "assets" / "games"
+DEFAULT_PLACEMENT = Placement(left=0.10, top=0.12, width=0.80, height=0.80)
+
+
+def game_video(name: str, volume: float) -> VideoSpec:
+    """A clip in assets/games/<name>.mp4 with its <name>.jpg poster."""
+    return VideoSpec(
+        movie=GAMES / f"{name}.mp4",
+        poster=GAMES / f"{name}.jpg",
+        mime_type="video/mp4",
+        placement=DEFAULT_PLACEMENT,
+        volume=volume,
+    )
+
+
+VIDEO_SPECS: dict[str, VideoSpec] = {
+    "omarchy-games-menu": game_video("omarchy-games-menu", volume=0.0),
+    "colin-duckstation": game_video("colin-duckstation", volume=0.25),
+    "colin-launcher-default": game_video("colin-launcher-default", volume=0.25),
+    "colin-launcher-4k": game_video("colin-launcher-4k", volume=0.25),
+    "colin-recomp-4k": game_video("colin-recomp-4k", volume=0.25),
+    "rad-mobile": game_video("rad-mobile", volume=0.25),
+    "wangan-6r": game_video("wangan-6r", volume=0.25),
+    "initial-d-ta5": game_video("initial-d-ta5", volume=0.25),
+}
 
 
 def emu(value: float, full: int) -> Emu:
@@ -115,7 +140,7 @@ def main(argv: list[str]) -> int:
             poster_frame_image=str(spec.poster),
             mime_type=spec.mime_type,
         )
-        enable_autoplay_and_loop(slide, movie.shape_id)
+        enable_autoplay_and_loop(slide, movie.shape_id, spec.volume)
 
     prs.save(str(output_pptx))
     print(f"Embedded {len(VIDEO_SPECS)} videos into {output_pptx}")
@@ -147,14 +172,20 @@ def remove_shape(shape) -> None:
     sp.getparent().remove(sp)
 
 
-def enable_autoplay_and_loop(slide, shape_id: int) -> None:
-    """Flip the embedded movie timing from click-to-play to autoplay+loop."""
+def enable_autoplay_and_loop(slide, shape_id: int, volume: float = 0.0) -> None:
+    """Flip the embedded movie timing from click-to-play to autoplay+loop, and set volume."""
     root = slide.part._element
     videos = root.xpath(f".//p:video[p:cMediaNode/p:tgtEl/p:spTgt[@spid='{shape_id}']]")
     if not videos:
         raise SystemExit(f"Unable to find timing node for video shape {shape_id}")
 
     video = videos[0]
+    media_node = video.xpath("./p:cMediaNode")[0]
+    if volume <= 0:
+        media_node.set("mute", "1")
+    else:
+        media_node.set("vol", str(int(round(volume * 100000))))
+
     ctn = video.xpath("./p:cMediaNode/p:cTn")[0]
     ctn.set("repeatCount", "indefinite")
 
