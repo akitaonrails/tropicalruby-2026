@@ -54,12 +54,12 @@ PORT=8081 bin/serve-slides
 bin/build-slides
 ```
 
-Artifacts are written to `build/`.
+Artifacts are written to `build/`, named after the current git branch (`bin/deck-name`; override with `DECK_NAME=...`). On this branch:
 
-PPTX outputs:
-
-- `build/totalpass-2026.pptx`: raw Marp export
-- `build/totalpass-2026.with-video.pptx`: post-processed PPTX with embedded local MP4s
+- `build/c3-expo-2026.html`: the deck served on GitHub Pages (`index.html` redirects to it; the build updates the redirect)
+- `build/c3-expo-2026.pdf`
+- `build/c3-expo-2026.pptx`: raw Marp export, with presenter notes
+- `build/c3-expo-2026.with-video.pptx`: the same PPTX with the game clips embedded in the file (autoplay, no loop: looping video can hang LibreOffice's slideshow)
 
 ### Preview the script
 
@@ -88,7 +88,7 @@ If you move or redesign a slide that contains an embedded PPTX video:
 
 - keep the `<!-- pptx-video: ... -->` marker in the matching slide
 - keep the poster image in the slide so HTML/PDF still have a visible placeholder
-- rebuild the `.with-video.pptx` and verify the movie overlay still lands in the right place
+- rebuild the `.with-video.pptx`: the build measures each video's position in the rendered HTML (`bin/measure_videos.py`) and places the movie exactly over the poster baked into the slide image
 
 ## Narrative structure
 

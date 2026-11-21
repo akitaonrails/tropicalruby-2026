@@ -1,8 +1,8 @@
 build/*
-!build/tropical-ruby-2026.html
-!build/tropical-ruby-2026.pdf
-!build/totalpass-2026.pptx
-!build/totalpass-2026.with-video.pptx
+# Outputs are named after the branch by bin/deck-name (build/<branch>.*).
+!build/*.html
+!build/*.pdf
+!build/*.pptx
 .ai-jail
 .lobster/
 __pycache__/

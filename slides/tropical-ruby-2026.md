@@ -661,7 +661,7 @@ Restam: ~42:03 (25s)
 <!-- pptx-video: omarchy-games-menu -->
 
 <div style="display:flex;justify-content:center;">
-  <video class="deck-video" src="../assets/games/omarchy-games-menu.mp4" poster="../assets/games/omarchy-games-menu.jpg" muted autoplay loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
+  <video class="deck-video" src="../assets/games/omarchy-games-menu.mp4" poster="../assets/games/omarchy-games-menu.jpg" muted autoplay playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
 <div class="caption" style="margin-top:12px;">A coleção inteira num menu só, no Omarchy</div>
@@ -701,7 +701,7 @@ Restam: ~41:18 (30s)
 <h1 style="font-size:1.5em;margin:4px 0 14px 0;">Eu sempre amei Colin McRae</h1>
 
 <div style="display:flex;justify-content:center;">
-  <video class="deck-video" src="../assets/games/colin-duckstation.mp4" poster="../assets/games/colin-duckstation.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
+  <video class="deck-video" src="../assets/games/colin-duckstation.mp4" poster="../assets/games/colin-duckstation.jpg" data-volume="0.25" playsinline preload="auto" style="height:440px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
 <div class="caption" style="margin-top:12px;">Colin McRae Rally 2.0 no PlayStation, via DuckStation (resolução original)</div>
@@ -738,7 +738,7 @@ Restam: ~40:18 (30s)
 <!-- pptx-video: colin-launcher-default -->
 
 <div style="display:flex;justify-content:center;">
-  <video class="deck-video" src="../assets/games/colin-launcher-default.mp4" poster="../assets/games/colin-launcher-default.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
+  <video class="deck-video" src="../assets/games/colin-launcher-default.mp4" poster="../assets/games/colin-launcher-default.jpg" data-volume="0.25" playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
 <div class="caption" style="margin-top:12px;">Colin McRae Rally (PC, 1998) pelo launcher, look original</div>
@@ -756,7 +756,7 @@ Restam: ~39:48 (25s)
 <!-- pptx-video: colin-launcher-4k -->
 
 <div style="display:flex;justify-content:center;">
-  <video class="deck-video" src="../assets/games/colin-launcher-4k.mp4" poster="../assets/games/colin-launcher-4k.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
+  <video class="deck-video" src="../assets/games/colin-launcher-4k.mp4" poster="../assets/games/colin-launcher-4k.jpg" data-volume="0.25" playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
 <div class="caption" style="margin-top:12px;">Mesmo jogo, mesmo launcher: 16:9 em alta resolução e o HUD redesenhado</div>
@@ -836,7 +836,7 @@ Restam: ~38:08 (40s)
 <!-- pptx-video: colin-recomp-4k -->
 
 <div style="display:flex;justify-content:center;">
-  <video class="deck-video" src="../assets/games/colin-recomp-4k.mp4" poster="../assets/games/colin-recomp-4k.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
+  <video class="deck-video" src="../assets/games/colin-recomp-4k.mp4" poster="../assets/games/colin-recomp-4k.jpg" data-volume="0.25" playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
 <div class="caption" style="margin-top:12px;">A reconstrução em Rust rodando: estágio na Nova Zelândia, 16:9</div>
@@ -1014,7 +1014,7 @@ Restam: ~33:38 (30s)
 <!-- pptx-video: rad-mobile -->
 
 <div style="display:flex;justify-content:center;">
-  <video class="deck-video" src="../assets/games/rad-mobile.mp4" poster="../assets/games/rad-mobile.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
+  <video class="deck-video" src="../assets/games/rad-mobile.mp4" poster="../assets/games/rad-mobile.jpg" data-volume="0.25" playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
 <div class="caption" style="margin-top:12px;">Rad Mobile (Sega, 1990) pelo launcher, em widescreen</div>
@@ -1108,7 +1108,7 @@ Restam: ~31:03 (30s)
 <!-- pptx-video: wangan-6r -->
 
 <div style="display:flex;justify-content:center;">
-  <video class="deck-video" src="../assets/games/wangan-6r.mp4" poster="../assets/games/wangan-6r.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
+  <video class="deck-video" src="../assets/games/wangan-6r.mp4" poster="../assets/games/wangan-6r.jpg" data-volume="0.25" playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
 <div class="caption" style="margin-top:12px;">Wangan Midnight Maximum Tune 6R pelo launcher</div>
@@ -1145,7 +1145,7 @@ Restam: ~30:08 (30s)
 <!-- pptx-video: initial-d-ta5 -->
 
 <div style="display:flex;justify-content:center;">
-  <video class="deck-video" src="../assets/games/initial-d-ta5.mp4" poster="../assets/games/initial-d-ta5.jpg" data-volume="0.25" loop playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
+  <video class="deck-video" src="../assets/games/initial-d-ta5.mp4" poster="../assets/games/initial-d-ta5.jpg" data-volume="0.25" playsinline preload="auto" style="height:560px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);background:#000;"></video>
 </div>
 
 <div class="caption" style="margin-top:12px;">Initial D THE ARCADE Season 5 pelo launcher</div>

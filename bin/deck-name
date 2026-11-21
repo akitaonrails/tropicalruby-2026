@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Prints the base name for build outputs (build/<name>.html, .pdf, .pptx, .with-video.pptx).
+# Order: $DECK_NAME, then the CI branch ($GITHUB_REF_NAME), then the local git branch.
+# Slashes become dashes; a detached HEAD falls back to "deck".
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+name="${DECK_NAME:-${GITHUB_REF_NAME:-$(git -C "$ROOT" rev-parse --abbrev-ref HEAD 2>/dev/null || true)}}"
+[[ -z "$name" || "$name" == "HEAD" ]] && name="deck"
+printf '%s\n' "${name//\//-}"

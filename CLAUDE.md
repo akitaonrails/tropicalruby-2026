@@ -68,7 +68,7 @@ After slide or theme edits:
 
 - Rebuild with `bin/build-slides`
 - Check HTML, PDF, and PPTX — not just one output
-- If the deck uses PPTX video overlays, also check `build/totalpass-2026.with-video.pptx`
+- If the deck uses PPTX video overlays, also check `build/<branch>.with-video.pptx`
 - If PDF breaks while HTML looks fine, trust the PDF problem and simplify the layout
 - Keep the latest final build artifacts committed in the repo
 - Do not keep temporary preview images or scratch subfolders inside `build/`
@@ -87,7 +87,7 @@ Avoid:
 ## HTML video workflow
 
 - Game videos live in `assets/games/` (H.264 1080p30, ~45s clips, Git LFS via `.gitattributes`), each with a `.jpg` poster
-- Use `<video class="deck-video" ... loop playsinline>`; add `data-volume="0.25"` for sound, or `muted autoplay` for silent clips
+- Use `<video class="deck-video" ... playsinline>` with no `loop`: no video loops, in HTML or PPTX (a looping video hangs LibreOffice's slideshow). Add `data-volume="0.25"` for sound, or `muted autoplay` for silent clips
 - Slide 14 (CLI tools) shows screenshots as `.term` terminal windows (theme CSS), not bare images
 - A small `<script>` on the first game slide plays only the active slide's video and pauses the rest; browsers keep the first video muted until a key press or click
 - Keep the matching `VideoSpec` (with `volume`) in `bin/embed_videos_pptx.py`
@@ -99,8 +99,8 @@ Some slides contain `<!-- pptx-video: ... -->` markers in the markdown.
 
 - Do not remove those markers unless you also remove the matching video asset and post-process entry
 - Keep poster images visible in the slide so HTML and PDF still make sense
-- If you move a marked slide's layout, verify video placement in `bin/embed_videos_pptx.py`
-- `bin/build-slides` produces both the raw PPTX and `build/totalpass-2026.with-video.pptx`
+- Video placement is automatic: Marp bakes each PPTX slide into one flat image, so `bin/measure_videos.py` renders the deck (bare template) in headless Chrome and records each `video.deck-video` box; `bin/embed-videos-pptx` passes those boxes to `bin/embed_videos_pptx.py`, which lays the movie exactly over the baked poster. A video that overflows its slide in HTML overflows in PPTX too, so keep video slides inside 720px
+- `bin/build-slides` produces `build/<branch>.{html,pdf,pptx,with-video.pptx}`; the name comes from `bin/deck-name` (git branch, or `DECK_NAME`), and the build rewrites the `index.html` redirect to match
 
 ## Narrative structure
 

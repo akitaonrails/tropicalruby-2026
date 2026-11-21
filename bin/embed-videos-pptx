@@ -2,7 +2,13 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-IN="${1:-$ROOT/build/totalpass-2026.pptx}"
-OUT="${2:-$ROOT/build/totalpass-2026.with-video.pptx}"
+NAME="$("$ROOT/bin/deck-name")"
+IN="${1:-$ROOT/build/$NAME.pptx}"
+OUT="${2:-$ROOT/build/$NAME.with-video.pptx}"
 
-python "$ROOT/bin/embed_videos_pptx.py" "$IN" "$OUT"
+# Where each video sits on its slide, measured from the rendered HTML.
+RECTS="$(mktemp)"
+trap 'rm -f "$RECTS"' EXIT
+python "$ROOT/bin/measure_videos.py" "$ROOT/slides/tropical-ruby-2026.md" > "$RECTS"
+
+python "$ROOT/bin/embed_videos_pptx.py" --rects "$RECTS" "$IN" "$OUT"

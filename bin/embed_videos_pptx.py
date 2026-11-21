@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-import hashlib
+import json
 import re
 import shutil
 import sys
@@ -81,8 +81,12 @@ def find_marked_slides() -> dict[str, int]:
 
 
 def main(argv: list[str]) -> int:
+    rects: dict[str, dict[str, float]] = {}
+    if len(argv) >= 3 and argv[1] == "--rects":
+        rects = json.loads(Path(argv[2]).read_text())
+        argv = [argv[0], *argv[3:]]
     if len(argv) not in (2, 3):
-        print("usage: embed_videos_pptx.py INPUT_PPTX [OUTPUT_PPTX]", file=sys.stderr)
+        print("usage: embed_videos_pptx.py [--rects RECTS_JSON] INPUT_PPTX [OUTPUT_PPTX]", file=sys.stderr)
         return 2
 
     input_pptx = Path(argv[1]).resolve()
@@ -114,22 +118,19 @@ def main(argv: list[str]) -> int:
         slide_no = markers[key]
         slide = prs.slides[slide_no - 1]
 
-        # Find the picture Marp already placed for the poster image.
-        # When present, reuse its position/size and remove it so the video
-        # sits exactly where the placeholder was — no overlap, no resize.
-        poster_pic = find_poster_picture(slide, spec.poster)
-        if poster_pic is not None:
-            left = poster_pic.left
-            top = poster_pic.top
-            width = poster_pic.width
-            height = poster_pic.height
-            remove_shape(poster_pic)
+        # Marp bakes each slide (poster included) into one background image, so the
+        # movie goes exactly over the poster using the box measured in the HTML.
+        rect = rects.get(str(slide_no))
+        if rect is not None:
+            place = Placement(**rect)
         else:
+            print(f"warning: no measured position for {key} (slide {slide_no}); using the default box",
+                  file=sys.stderr)
             place = spec.placement
-            left = emu(place.left, slide_width)
-            top = emu(place.top, slide_height)
-            width = emu(place.width, slide_width)
-            height = emu(place.height, slide_height)
+        left = emu(place.left, slide_width)
+        top = emu(place.top, slide_height)
+        width = emu(place.width, slide_width)
+        height = emu(place.height, slide_height)
 
         movie = slide.shapes.add_movie(
             str(spec.movie),
@@ -140,40 +141,19 @@ def main(argv: list[str]) -> int:
             poster_frame_image=str(spec.poster),
             mime_type=spec.mime_type,
         )
-        enable_autoplay_and_loop(slide, movie.shape_id, spec.volume)
+        enable_autoplay(slide, movie.shape_id, spec.volume)
 
     prs.save(str(output_pptx))
     print(f"Embedded {len(VIDEO_SPECS)} videos into {output_pptx}")
     return 0
 
 
-def find_poster_picture(slide, poster_path: Path):
-    """Locate the picture shape on `slide` whose embedded image matches `poster_path`.
+def enable_autoplay(slide, shape_id: int, volume: float = 0.0) -> None:
+    """Flip the embedded movie timing from click-to-play to autoplay, and set volume.
 
-    Marp renders an HTML `<video poster="...">` (or the `<img>`-only fallback)
-    as a regular picture shape in the PPTX. We match by SHA1 of the raw image
-    blob — exact same bytes as the poster file on disk.
+    No looping: LibreOffice Impress can hang a slideshow on a repeating video (keys stop
+    advancing, exit takes seconds; tdf#107368), and every clip outlasts its slide anyway.
     """
-    poster_sha = hashlib.sha1(poster_path.read_bytes()).hexdigest()
-    for shape in slide.shapes:
-        if not getattr(shape, "image", None):
-            continue
-        try:
-            if shape.image.sha1 == poster_sha:
-                return shape
-        except (AttributeError, ValueError):
-            continue
-    return None
-
-
-def remove_shape(shape) -> None:
-    """Remove `shape` from its parent (PPTX has no first-class delete API)."""
-    sp = shape._element
-    sp.getparent().remove(sp)
-
-
-def enable_autoplay_and_loop(slide, shape_id: int, volume: float = 0.0) -> None:
-    """Flip the embedded movie timing from click-to-play to autoplay+loop, and set volume."""
     root = slide.part._element
     videos = root.xpath(f".//p:video[p:cMediaNode/p:tgtEl/p:spTgt[@spid='{shape_id}']]")
     if not videos:
@@ -185,9 +165,6 @@ def enable_autoplay_and_loop(slide, shape_id: int, volume: float = 0.0) -> None:
         media_node.set("mute", "1")
     else:
         media_node.set("vol", str(int(round(volume * 100000))))
-
-    ctn = video.xpath("./p:cMediaNode/p:cTn")[0]
-    ctn.set("repeatCount", "indefinite")
 
     cond = video.xpath("./p:cMediaNode/p:cTn/p:stCondLst/p:cond")[0]
     cond.set("delay", "0")
