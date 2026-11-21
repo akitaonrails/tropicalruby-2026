@@ -51,15 +51,15 @@ Presenter notes live as HTML comments (`<!-- ... -->`) in the slide markdown.
 - Treat them as stage cues
 - Notes should carry reminders the presenter won't see on the slide itself: specific numbers, dates, methodology caveats, transition cues — not a restatement of the visible content
 - The first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock (starting from a 60:00 slot, counting down to 00:00) plus current slide duration in seconds. The script file uses the same format. Both are rebuilt together whenever pacing changes.
-- Total slot is 60:00; deck currently lands at ~26:18 remaining (buffer for Q&A). Actual deck runtime is ~33:42.
+- Total slot is 60:00; deck currently lands at ~24:53 remaining (buffer for Q&A). Actual deck runtime is ~35:07.
 - If the script changes meaningfully, update the matching notes
 
 ## Visual language
 
-- Slides 1-21 (AI section) use `_class: ... ai ai-wine|ai-umber|ai-olive`: warm dark grounds (wine, umber, olive) with a faint dot-matrix texture, brass eyebrows, light ruby/moss accents. Defined at the end of `themes/tropical-ruby.css`.
-- Slides 22-51 (retro block) use `tone-extra-dark rg rg-<chapter>`: cool night grounds with faint CRT scanlines, one ground + accent per chapter (`--ruby` is overridden per chapter): `rg-linux` 22-25 (indigo/cyan), `rg-rally` 26-36 (forest/amber), `rg-arcade` 37-43 (violet/magenta), `rg-street` 44-48 (asphalt/sodium orange), `rg-dossier` 49-51 (graphite/coral). New retro slides take their chapter's class.
+- Slides 1-19 (AI section) use `_class: ... ai ai-wine|ai-umber|ai-olive`: warm dark grounds (wine, umber, olive) with a faint dot-matrix texture, brass eyebrows, light ruby/moss accents. Defined at the end of `themes/tropical-ruby.css`.
+- Slides 20-53 (retro block) use `tone-extra-dark rg rg-<chapter>`: cool night grounds with faint CRT scanlines, one ground + accent per chapter (`--ruby` is overridden per chapter): `rg-linux` 20-24 (indigo/cyan), `rg-rally` 25-36 (forest/amber), `rg-arcade` 37-43 (violet/magenta), `rg-street` 44-49 (asphalt/sodium orange), `rg-dossier` 50-53 (graphite/coral). New retro slides take their chapter's class.
 - Keep the two families distinct; do not reuse the light `tone-moss/ruby/sand` paper tones for new slides in either block.
-- Background photos in slides 1-21 use `![bg cover opacity:.15 blur:7px]` so they never compete with the text.
+- Background photos in slides 1-19 use `![bg cover opacity:.15 blur:7px]` so they never compete with the text.
 - The title slide uses `assets/akita-portrait-cutout.png` (transparent background) so the portrait sits on the dark ground.
 
 ## Slide and layout workflow
@@ -88,7 +88,7 @@ Avoid:
 
 - Game videos live in `assets/games/` (H.264 1080p30, ~45s clips, Git LFS via `.gitattributes`), each with a `.jpg` poster
 - Use `<video class="deck-video" ... loop playsinline>`; add `data-volume="0.25"` for sound, or `muted autoplay` for silent clips
-- Slide 15 (CLI tools) shows screenshots as `.term` terminal windows (theme CSS), not bare images
+- Slide 14 (CLI tools) shows screenshots as `.term` terminal windows (theme CSS), not bare images
 - A small `<script>` on the first game slide plays only the active slide's video and pauses the rest; browsers keep the first video muted until a key press or click
 - Keep the matching `VideoSpec` (with `volume`) in `bin/embed_videos_pptx.py`
 - The Pages workflow checks out with `lfs: true`; without it the videos would be LFS pointer files
@@ -106,17 +106,17 @@ Some slides contain `<!-- pptx-video: ... -->` markers in the markdown.
 
 The deck has a deliberate three-act shape — don't break it casually when moving slides:
 
-- **Act 1**: "Heróis ou Vilões" (CEO controversy: Altman, Amodei, Huang) as the hook, then what LLMs really are and what they cost (stochastic parrots, sycophancy, SpaceX and Anthropic IPOs, October benchmark top 20, "Não era exponencial")
-- **Act 2**: what actually changed and the practical proof ("2025 foi o ano dos Agentes" timeline → "Dezembro de 2025 foi a Virada" hinge → January 2026 trigger → marathon projects → metrics → Ciclo do Agente / PILOTA mechanism)
+- **Act 1**: "Heróis ou Vilões" (CEO controversy: Altman, Amodei, Huang) as the hook, then what LLMs really are and what they cost (stochastic parrots, sycophancy, October benchmark top 20, "Não era exponencial")
+- **Act 2**: what actually changed and the practical proof ("2025 foi o ano dos Agentes" timeline → "Dezembro de 2025 foi a Virada" hinge → January 2026 trigger → marathon projects → metrics → CLI tools / ai-jail / ai-memory → Ciclo do Agente / PILOTA mechanism)
 - **Act 3**: currently cut — the deck goes from "Developer 10x?" to the "Competente o Suficiente" book slide and then the ending (China/compute, market correction, junior/senior and the engineering conclusion were removed)
 
-The ending: "Competente o Suficiente" book → retro-gaming block (slides 22–51: distrobox-gaming, omarchy-games-menu + video, Quiver catalog screenshot (quiverlauncher.com), Colin McRae on DuckStation, rea-colin-mcrae launcher + default/4k videos, HD backgrounds slide (two stacked wide screenshots), rea-colin-mcrae-recomp + WIP stats + video, Colin 04/2005/DiRT/DiRT Rally launcher grid, rea-launcher-sdk, "Bug velho, conserto em horas" fixes slide, Wanszai GitHub + YouTube as the inspiration, rea-rad-mobile repo + launcher menu + video, then two AI-composited diagrams: "O console virou arcade" (Dreamcast→NAOMI/NAOMI 2/Atomiswave, Xbox→Chihiro, GameCube→Triforce) and "Depois o arcade virou PC" (Lindbergh/Type X/RingEdge → TeknoParrot, OpenParrot, Lindbergh Loader), Azimuth (azimuthforza.com), Wangan Midnight launcher + 6R video, Initial D launcher + THE ARCADE S5 video, two highlight slides: "Achados de verdade" (PC launchers: Screamer, DiRT Rally, Sega Rally Revo) and "Arcade no Linux, sem TeknoParrot" (Initial D 4, Wangan, Nintendo, Sega), whose notes carry the credit caveats (do not claim "nobody fixed it before"), then a two-column table of the 14 rea-* launchers as the summary) → AI Lair games page screenshot (ailair.akitaonrails.com/pt-br/games) → `OBRIGADO` → newsletter ad as the last slide (left up during Q&A).
+The ending: "Competente o Suficiente" book → retro-gaming block (slides 20–53: distrobox-gaming, the AI-generated "Jogo velho não roda no Windows 11" diagram (DOS/Glide, Win9x/WinG/DirectX 5, XP/DX9/DRM → Windows 11 64-bit), omarchy-games-menu + video, Quiver catalog screenshot (quiverlauncher.com), Colin McRae on DuckStation, rea-colin-mcrae launcher + default/4k videos, HD backgrounds slide (two stacked wide screenshots), rea-colin-mcrae-recomp + v0.1.4 status stats (single-player complete) + video, Colin 04/2005/DiRT/DiRT Rally launcher grid, rea-launcher-sdk, "Bug velho, conserto em horas" fixes slide, Sega Rally Revo + OutRun 2006 launchers (`.lgrid` two-up), Wanszai YouTube + GitHub as the inspiration, rea-rad-mobile repo + launcher menu + video, then two AI-composited diagrams: "O console virou arcade" (Dreamcast→NAOMI/NAOMI 2/Atomiswave, Xbox→Chihiro, GameCube→Triforce) and "Depois o arcade virou PC" (Lindbergh/Type X/RingEdge → TeknoParrot, OpenParrot, Lindbergh Loader), Azimuth (azimuthforza.com), Wangan Midnight launcher + 6R video, Initial D launcher + THE ARCADE S5 video, Sega + Nintendo arcade launchers (`.lgrid` two-up), "Melhor que no lançamento" (`.upg-*` before→after rows: resolution on the left, pads and wheels on the right; caption credits SilentPatch, Xidi, Bekoha), two highlight slides: "Achados de verdade" (PC launchers: Screamer, DiRT Rally, Sega Rally Revo) and "Arcade no Linux, sem TeknoParrot" (Initial D 4, Wangan, Nintendo, Sega), whose notes carry the credit caveats (do not claim "nobody fixed it before"), then a two-column table of the 14 rea-* launchers as the summary) → AI Lair games page screenshot (ailair.akitaonrails.com/pt-br/games) → `OBRIGADO` → newsletter ad as the last slide (left up during Q&A).
 
 Key structural constraints:
 
 - The real midpoint turn is the jump from "Dezembro de 2025 foi a Virada" into "Fevereiro a novembro de 2026" — should feel like "parei de opinar e fui testar com pele em jogo"
-- The marathon wall / "60 projetos" GitHub activity / ai-jail and ai-memory sites / metrics / "Developer 10x?" are the proof block — opinion becomes evidence here
-- Hard benchmark data now lives in the "Top 20 de outubro" table (slide 7, right after the Anthropic IPO), followed by the internet tier-list image as contrast and the "Quanto custa ser competente" cost bar chart (slide 9, real API cost of the 16 models from the Nov 20 2026 v5 benchmark post); the old April benchmark arc was cut
+- The marathon wall / "60 projetos" GitHub activity / metrics (slide 13, right after the wall) / CLI tools, ai-jail and ai-memory sites / "Developer 10x?" are the proof block — opinion becomes evidence here
+- Hard benchmark data now lives in the "Top 20 de outubro" table (slide 5, right after "Papagaios Estocásticos"), followed by the internet tier-list image as contrast and the "Quanto custa ser competente" cost bar chart (slide 7, real API cost of the 16 models from the Nov 20 2026 v5 benchmark post); the old April benchmark arc was cut
 - Prefer explicit cause-and-effect bridges between major blocks over adding new content
 
 ## Build environment caveats

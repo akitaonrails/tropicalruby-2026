@@ -80,7 +80,7 @@ The notes should stay shorter than the script:
 - use bullets, not prose blocks
 - keep them as speaking cues, not a second full manuscript
 - carry reminders that aren't visible on the slide itself (numbers, methodology, transition beats), not a restatement of what the audience is already reading
-- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently runs ~33:42 and lands at ~26:18 remaining, left for Q&A.
+- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently runs ~35:07 and lands at ~24:53 remaining, left for Q&A.
 
 If you add or rewrite visible text, do a cleanup pass so it still sounds human and spoken, not like generated copy.
 
@@ -94,8 +94,8 @@ If you move or redesign a slide that contains an embedded PPTX video:
 
 This edition has two halves and a short ending.
 
-- **AI half (slides 1-21)**: speaker bio, "Heróis ou Vilões", what LLMs are and cost (stochastic parrots, SpaceX and Anthropic IPOs), the October top 20 benchmark table, the internet tier list, the v5 cost ranking ("Quanto custa ser competente"), "Não era exponencial", the 2025 agents timeline, the December 2025 turn, the 2026 project marathon, CLI tools, ai-jail / ai-memory, metrics, "Developer 10x?" and the "Competente o Suficiente" book
-- **Retro half (slides 22-51)**: distrobox-gaming and the Omarchy games menu, Quiver, Colin McRae (DuckStation, launcher, 16:9, HD backgrounds, Rust recomp), the other PC rally launchers, rea-launcher-sdk, Wanszai and Rad Mobile, the console-to-arcade and arcade-to-PC diagrams, Azimuth, Wangan Midnight and Initial D, the two "findings" slides and the table of 14 rea-* launchers
+- **AI half (slides 1-19)**: speaker bio, "Heróis ou Vilões", what LLMs are and cost (stochastic parrots), the October top 20 benchmark table, the internet tier list, the v5 cost ranking ("Quanto custa ser competente"), "Não era exponencial", the 2025 agents timeline, the December 2025 turn, the 2026 project marathon, metrics, CLI tools, ai-jail / ai-memory, "Developer 10x?" and the "Competente o Suficiente" book
+- **Retro half (slides 20-53)**: distrobox-gaming, the "Jogo velho não roda no Windows 11" diagram, the Omarchy games menu, Quiver, Colin McRae (DuckStation, launcher, 16:9, HD backgrounds, Rust recomp), the other PC rally launchers, Sega Rally Revo and OutRun 2006, rea-launcher-sdk, Wanszai and Rad Mobile, the console-to-arcade and arcade-to-PC diagrams, Azimuth, Wangan Midnight and Initial D, the Sega and Nintendo arcade launchers, the "Melhor que no lançamento" before-and-after list, the two "findings" slides and the table of 14 rea-* launchers
 - **Ending**: AI Lair games page, `OBRIGADO`, and the newsletter slide with a QR code, left up during Q&A
 
 Visual language: the AI half uses warm dark grounds with a dot texture (`ai ai-wine|ai-umber|ai-olive`); the retro half uses cool night grounds with scanlines, one per chapter (`rg-linux`, `rg-rally`, `rg-arcade`, `rg-street`, `rg-dossier`). Both are defined at the end of `themes/tropical-ruby.css`.

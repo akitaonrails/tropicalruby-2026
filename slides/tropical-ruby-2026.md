@@ -121,67 +121,6 @@ Restam: ~57:00 (100s)
 -->
 
 ---
-<!-- _class: center ai ai-umber -->
-<div class="eyebrow">Mercado de capital</div>
-
-# SpaceX abriu capital
-
-## valuation no IPO ~US$1,77 tri • 1º dia +19,2%
-
-<div style="display:flex;gap:26px;align-items:center;margin-top:18px;text-align:left;">
-  <div style="flex:0 0 420px;">
-    <img src="../assets/offline/spacex-demo-2-launch-slide.jpg" alt="Lançamento SpaceX Demo-2" style="width:100%;max-height:360px;object-fit:cover;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-    <div class="caption" style="font-size:0.50em;margin-top:6px;text-align:center;">Imagem: NASA / Wikimedia Commons</div>
-  </div>
-  <div style="flex:1 1 54%;display:flex;flex-direction:column;gap:14px;">
-    <div class="card"><strong>~US$1,77 tri</strong><div class="mini">valuation no IPO, segundo CNBC</div></div>
-    <div class="card"><strong>US$75 bi</strong><div class="mini">levantados a US$135 por ação</div></div>
-    <div class="card"><strong>US$160,95</strong><div class="mini">fechamento do 1º dia, +19,2%</div></div>
-  </div>
-</div>
-
-<div class="caption" style="margin-top:22px;">Fontes: SEC Form 8-K; SpaceX IR; CNBC; SpaceNews, jun/2026.</div>
-
-<!--
-Restam: ~55:20 (25s)
-
-- CNBC fala em valuation de ~US$1,77 tri no IPO; SpaceNews fala em market cap perto de US$2,1 tri no fechamento.
-- US$75 bi levantados a US$135 por ação; fechou a US$160,95, +19,2%.
-- O ponto não é oba-oba de IPO. É capital público correndo atrás de infraestrutura física.
-- SpaceX virou mais um sinal de 2026: compute, rede, satélite, energia e capital entram na mesma briga.
--->
----
-<!-- _class: center ai ai-umber -->
-<div class="eyebrow">Mercado de capital</div>
-
-# Anthropic abriu capital
-
-## IPO a US$83 • abertura +34% • ~US$2 tri
-
-<div style="display:flex;gap:26px;align-items:center;margin-top:18px;text-align:left;">
-  <div style="flex:0 0 420px;">
-    <img src="../assets/offline/anthropic-ipo-nasdaq.jpg" alt="Estreia da Anthropic na Nasdaq, ticker ANT" style="width:420px;height:420px;object-fit:cover;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,0.28);" />
-    <div class="caption" style="font-size:0.50em;margin-top:6px;text-align:center;">Estreia na Nasdaq (ANT), 19/nov. Imagem: Getty Images via CNBC</div>
-  </div>
-  <div style="flex:1 1 54%;display:flex;flex-direction:column;gap:14px;">
-    <div class="card"><strong>US$81,3 bi</strong><div class="mini">980 mi de ações a US$83, Nasdaq: ANT</div></div>
-    <div class="card"><strong>US$111,50</strong><div class="mini">abertura em 19/nov, +34%, ~US$2 tri</div></div>
-    <div class="card"><strong>+1.200%</strong><div class="mini">receita no ano, ~US$33 bi em 9 meses até set/2026</div></div>
-  </div>
-</div>
-
-<div class="caption" style="margin-top:22px;">Fontes: CNBC; TechCrunch; CNN, nov/2026.</div>
-
-<!--
-Restam: ~54:55 (25s)
-
-- Oferta base de US$81,3 bi passa os US$75 bi da oferta base da SpaceX. Com o lote extra (+147 mi ações, até 20/nov) chega a ~US$93,5 bi; a SpaceX fechou em US$85,7 bi com o lote dela.
-- No preço do IPO: ~US$1,5 tri totalmente diluído. Na abertura: ~US$2 tri.
-- Receita de 9 meses até set: ~US$33 bi, +1.200% no ano. Anualizada em outubro: ~US$81 bi (não confundir com os US$81,3 bi da oferta). Prejuízo de ~US$104 bi, quase todo contábil (valor justo de conversíveis e SAFEs).
-- Os números são do dia da estreia: checar o preço de fechamento antes de subir no palco.
-- Ponte: a empresa do modelo que eu uso todo dia agora vale o mesmo que a SpaceX. A corrida é de capital também.
--->
----
 
 <!-- _class: center ai ai-umber -->
 <div class="eyebrow">LLM Coding Benchmark v4 • 28/out/2026</div>
@@ -220,7 +159,7 @@ Restam: ~54:55 (25s)
 <div class="caption" style="margin-top:12px;"><span class="bench-dot"></span> rodada nova • nota 0–100 • custo de uma rodada (~ = estimado por tokens) • *Nex achou os problemas, mas não fez commit • akitaonrails.com</div>
 
 <!--
-Restam: ~54:30 (40s)
+Restam: ~55:20 (40s)
 
 - Fonte: post de 28/out/2026, "Ranking comercial atualizado" (só rota gerenciada: API, assinatura, OAuth, plano).
 - 8 modelos com 100. Custo e tempo é que separam: Opus 5.5 = $16,63 em 64 min; GPT-5.6 Sol = 317 min.
@@ -241,7 +180,7 @@ Restam: ~54:30 (40s)
 <div class="caption" style="margin-top:8px;font-size:0.5em;">Tier list compartilhada no X, nov/2026</div>
 
 <!--
-Restam: ~53:50 (25s)
+Restam: ~54:40 (25s)
 
 - Sem título no slide: deixar a imagem respirar e falar por cima.
 - Tier list que circulou no X essa semana. Autor não identificado: não atribuir a ninguém.
@@ -279,7 +218,7 @@ Restam: ~53:50 (25s)
 <div class="caption" style="margin-top:12px;">Custo real de API com cache, uma rodada por modelo. Os 16 entregaram o mesmo app Rails testado, sem nenhum empurrão. • akitaonrails.com</div>
 
 <!--
-Restam: ~53:25 (40s)
+Restam: ~54:15 (40s)
 
 - Mesma tarefa pros 16: app Rails de chat com RubyLLM, 14 objetivos (Tailwind, Hotwire, streaming, testes, RuboCop, Brakeman, Docker). Todos passaram de primeira, zero nudges.
 - Diferença de ~95x no preço (US$0,15 a US$14,19) e ~12x no tempo.
@@ -345,7 +284,7 @@ Restam: ~53:25 (40s)
 <div class="lead" style="max-width:920px;margin:2px auto 0 auto;text-align:center;">A parte rápida da curva enganou todo mundo.</div>
 
 <!--
-Restam: ~52:45 (55s)
+Restam: ~53:35 (55s)
 
 - Mostrar só a intuição: parecia exponencial porque a gente estava no miolo da curva S.
 - Desde 2024, retorno marginal de treino ficou brutalmente pior.
@@ -371,7 +310,7 @@ Restam: ~52:45 (55s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Não foi um dia mágico. Foi o ano inteiro fechando modelo, thinking, tool support e operação.</div>
 
 <!--
-Restam: ~51:50 (65s)
+Restam: ~52:40 (65s)
 
 - Pra mim, 2025 foi o ano em que a pilha foi fechando.
 - Em março, tool support virou plataforma de verdade.
@@ -395,7 +334,7 @@ Restam: ~51:50 (65s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Modelo novo + CLI de agente madura, os dois ao mesmo tempo. Em dezembro deu pra apostar tempo de verdade. Em janeiro de 2026 eu entrei nessa também — foi daí que saiu a maratona.</div>
 
 <!--
-Restam: ~50:45 (75s)
+Restam: ~51:35 (75s)
 
 - Datas marcantes: 13 nov (GPT-5.1 + Codex CLI), 24 nov (Opus 4.5 + Claude Code), 11 dias de distância
 - A chave não foi só o modelo novo — foi a CLI de agente amadurecendo junto, nos DOIS lados na mesma janela
@@ -422,7 +361,7 @@ Restam: ~50:45 (75s)
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg</div>
 
 <!--
-Restam: ~49:30 (42s)
+Restam: ~50:20 (42s)
 
 - Então eu parei de opinar e fui testar com pele em jogo. Começou em fevereiro e não parou: continua até agora, novembro.
 - Não com prompt de brinquedo, não com videozinho fake de SaaS em dez minutos. Projeto real.
@@ -452,12 +391,43 @@ Restam: ~49:30 (42s)
 </div>
 
 <!--
-Restam: ~48:48 (35s)
+Restam: ~49:38 (35s)
 
 - Este slide é só a parede de projetos.
 - FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI, Frank Karaoke e outros.
 - O objetivo não é explicar repositório por repositório.
 - O objetivo é mostrar volume e variedade: desktop, Rails, Rust, Flutter, ferramentas, mídia, deploy, software em uso real.
+-->
+---
+
+<!-- _class: center ai ai-umber -->
+![bg cover opacity:.15 blur:7px](../assets/offline/bg-elephant.jpg)
+<div class="eyebrow">Recorte jan–nov/2026</div>
+<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:African_Bull_elephant_walking_towards_camera_in_August_2013.jpg</div>
+
+# Números<br>que pesam
+
+<div class="stats">
+  <div class="card"><strong>~1,8 mi</strong><span class="mini">linhas úteis</span></div>
+  <div class="card"><strong>~256 mil</strong><span class="mini">linhas de teste</span></div>
+  <div class="card"><strong>13.614</strong><span class="mini">commits meus</span></div>
+  <div class="card"><strong>~1.540 h</strong><span class="mini">horas ativas estimadas</span></div>
+</div>
+
+<div class="caption">60 projetos AI-assisted de 2026, contados em nov/2026. Tokei sem linhas em branco, só arquivo rastreado no git. Fora: JSON, dados gerados, resultados de benchmark, fixtures, assets, vendor e código de terceiros. Em repo com contribuidores, só a minha fatia. Blog só no recorte AI-era.</div>
+
+
+<!--
+Restam: ~49:03 (95s)
+
+- Ferramenta: `bin/c3-metrics` (tokei), lista de repos do ghpending.
+- Fora da conta: forks de projeto alheio (omarchy, flea, clock-tui, docker-resolve) e repos anteriores a 2026.
+- Repo com comunidade (ai-memory, ai-usagebar, FrankMD, ai-jail): conta só a % de linhas adicionadas por mim.
+- frank_geary e frank_go começam com histórico upstream: conta só o que eu adicionei por cima.
+- Maiores: ai-memory (~356 mil c/ teste), rea-colin-mcrae-recomp (~231 mil), nes-to-sms (~144 mil), worldreports (~129 mil).
+- Horas: sessões por commit, 90 min de corte, +20 min por sessão, teto de 8 h.
+- Em maio eram 30 projetos e ~432 mil linhas. Em seis meses, mais de 4x.
+- Fecha: "agora dá pra discutir mecanismo, não fé"
 -->
 ---
 
@@ -486,7 +456,7 @@ Restam: ~48:48 (35s)
 </div>
 
 <!--
-Restam: ~48:13 (20s)
+Restam: ~47:28 (20s)
 
 - Em maio de 2026, estes quatro cobrem o caso sério de agente de terminal.
 - Claude Code e Codex para fronteira fechada.
@@ -520,7 +490,7 @@ Restam: ~48:13 (20s)
 </div>
 
 <!--
-Restam: ~47:53 (25s)
+Restam: ~47:08 (25s)
 
 - Não é mais um orquestrador mágico.
 - É kit de operação: cerca, memória e medidor de limite.
@@ -537,7 +507,7 @@ Restam: ~47:53 (25s)
 <div class="caption" style="margin-top:12px;">aijail.io</div>
 
 <!--
-Restam: ~47:28 (40s)
+Restam: ~46:43 (40s)
 
 - Sandbox de SO pro agente: Linux e macOS. Projeto read-write; host, home, cache e dotfiles fora ou controlados.
 - Uso preferido: modo sem freio no harness (Claude/Codex sem confirmar cada passo), trava no SO.
@@ -555,44 +525,13 @@ Restam: ~47:28 (40s)
 <div class="caption" style="margin-top:12px;">aimemory.sh</div>
 
 <!--
-Restam: ~46:48 (40s)
+Restam: ~46:03 (40s)
 
 - Problema: harness compacta ou acaba, e o próximo agente esquece as últimas horas.
 - Hooks capturam prompt, chamada de ferramenta, decisão e limite de sessão; vira wiki markdown, FTS5, handoff e busca via MCP.
 - Troca de agente sem reexplicar: fecha Claude hoje, abre Codex amanhã no mesmo diretório.
 - Open source (MIT), um binário, sem API key de modelo no básico. ~16 mil estrelas no GitHub.
 - Documentação importante ainda vai para `docs/`; memória cobre o transitório que seria perdido.
--->
----
-
-<!-- _class: center ai ai-umber -->
-![bg cover opacity:.15 blur:7px](../assets/offline/bg-elephant.jpg)
-<div class="eyebrow">Recorte jan–nov/2026</div>
-<div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:African_Bull_elephant_walking_towards_camera_in_August_2013.jpg</div>
-
-# Números<br>que pesam
-
-<div class="stats">
-  <div class="card"><strong>~1,8 mi</strong><span class="mini">linhas úteis</span></div>
-  <div class="card"><strong>~256 mil</strong><span class="mini">linhas de teste</span></div>
-  <div class="card"><strong>13.614</strong><span class="mini">commits meus</span></div>
-  <div class="card"><strong>~1.540 h</strong><span class="mini">horas ativas estimadas</span></div>
-</div>
-
-<div class="caption">60 projetos AI-assisted de 2026, contados em nov/2026. Tokei sem linhas em branco, só arquivo rastreado no git. Fora: JSON, dados gerados, resultados de benchmark, fixtures, assets, vendor e código de terceiros. Em repo com contribuidores, só a minha fatia. Blog só no recorte AI-era.</div>
-
-
-<!--
-Restam: ~46:08 (95s)
-
-- Ferramenta: `bin/c3-metrics` (tokei), lista de repos do ghpending.
-- Fora da conta: forks de projeto alheio (omarchy, flea, clock-tui, docker-resolve) e repos anteriores a 2026.
-- Repo com comunidade (ai-memory, ai-usagebar, FrankMD, ai-jail): conta só a % de linhas adicionadas por mim.
-- frank_geary e frank_go começam com histórico upstream: conta só o que eu adicionei por cima.
-- Maiores: ai-memory (~356 mil c/ teste), rea-colin-mcrae-recomp (~231 mil), nes-to-sms (~144 mil), worldreports (~129 mil).
-- Horas: sessões por commit, 90 min de corte, +20 min por sessão, teto de 8 h.
-- Em maio eram 30 projetos e ~432 mil linhas. Em seis meses, mais de 4x.
-- Fecha: "agora dá pra discutir mecanismo, não fé"
 -->
 ---
 
@@ -611,7 +550,7 @@ Restam: ~46:08 (95s)
 
 
 <!--
-Restam: ~44:33 (90s)
+Restam: ~45:23 (90s)
 
 - Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade.
 - Não porque o modelo escreve código perfeito.
@@ -629,7 +568,7 @@ Restam: ~44:33 (90s)
 <div class="caption" style="margin-top:12px;">ailair.akitaonrails.com/pt-br/book</div>
 
 <!--
-Restam: ~43:03 (40s)
+Restam: ~43:53 (40s)
 
 - Livro: "Competente o Suficiente — um ano colocando a IA à prova, sem medo e sem propaganda".
 - Artigos do ano no blog, reorganizados como uma história só, fatos rechecados e ilustrado.
@@ -670,7 +609,7 @@ Restam: ~43:03 (40s)
 <div class="caption" style="margin-top:12px;">github.com/akitaonrails/distrobox-gaming</div>
 
 <!--
-Restam: ~42:23 (30s)
+Restam: ~43:13 (30s)
 
 - Lado pessoal da maratona: games.
 - distrobox-gaming: um container com todos os emuladores já configurados (RetroArch, DuckStation, PCSX2, RPCS3, shadPS4, xemu...).
@@ -682,13 +621,34 @@ Restam: ~42:23 (30s)
 <!-- _class: center tone-extra-dark rg rg-linux -->
 
 <div style="display:flex;justify-content:center;">
+  <img src="../assets/games/windows-11-jogo-velho.jpg" alt="MS-DOS com Glide e 3dfx Voodoo, Windows 95/98 com WinG, DirectX 5 e DirectDraw 8 bits, Windows XP com DirectX 9, SecuROM e Pentium 4 HT, todos com a seta quebrada até o Windows 11 de 64 bits" style="height:590px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
+</div>
+
+<div class="caption" style="margin-top:10px;">A ponte: DOSBox, dgVoodoo2, DXVK e Xidi</div>
+
+<!--
+Restam: ~42:43 (40s)
+
+- Windows 11 só existe em 64 bits. Programa de 32 bits ainda roda (WoW64); o que morreu foi o subsistema de 16 bits e o DOS. Screamer só roda no DOSBox.
+- Glide: API própria da 3dfx pras placas Voodoo. A 3dfx quebrou em 2000 e foi comprada pela Nvidia; não existe driver. O DOSBox emula a Voodoo.
+- WinG (1994): gráfico rápido pro Windows 3.1, antes do DirectX. Nenhum dos meus jogos usa; serve pra mostrar a linhagem.
+- Colin 1998: DirectDraw + Direct3D 5, menu em 8 bits de paleta e o dispositivo "Ramp" de software. O Windows moderno não tem nenhum dos dois: dgVoodoo2.
+- Colin 3: SecuROM/SafeDisc dependem de driver bloqueado desde 2015. Colin 2005 só liberava partículas em Pentium 4 com Hyper-Threading. Colin 04 queria admin pra gravar no registro.
+- Sega Rally Revo: Windows 10 e 11 não trazem os arquivos do DirectX 9 (D3DX); o launcher baixa da Microsoft.
+-->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-linux -->
+
+<div style="display:flex;justify-content:center;">
   <img src="../assets/games/github-omarchy-games-menu.jpg" alt="omarchy-games-menu no GitHub" style="height:580px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
 </div>
 
 <div class="caption" style="margin-top:12px;">github.com/akitaonrails/omarchy-games-menu</div>
 
 <!--
-Restam: ~41:53 (25s)
+Restam: ~42:03 (25s)
 
 - omarchy-games-menu: launcher pessoal ligado no distrobox-gaming.
 - Backend em Rust + grade em QuickShell, segue o tema do Omarchy.
@@ -707,7 +667,7 @@ Restam: ~41:53 (25s)
 <div class="caption" style="margin-top:12px;">A coleção inteira num menu só, no Omarchy</div>
 
 <!--
-Restam: ~41:28 (20s)
+Restam: ~41:38 (20s)
 
 - Vídeo sem som: só deixar rodar.
 - Capa por jogo, categoria por plataforma, de Donkey Kong a Sega Rally, até RPCS3, shadPS4 e xemu.
@@ -723,7 +683,7 @@ Restam: ~41:28 (20s)
 <div class="caption" style="margin-top:12px;">quiverlauncher.com</div>
 
 <!--
-Restam: ~41:08 (30s)
+Restam: ~41:18 (30s)
 
 - Quiver: catálogo e launcher de recomps, source ports, recriações, emuladores e ferramentas. Grátis pra Windows, macOS, Linux e Android.
 - 2.002 projetos no catálogo hoje (20/nov/2026), feitos pela comunidade.
@@ -747,7 +707,7 @@ Restam: ~41:08 (30s)
 <div class="caption" style="margin-top:12px;">Colin McRae Rally 2.0 no PlayStation, via DuckStation (resolução original)</div>
 
 <!--
-Restam: ~40:38 (30s)
+Restam: ~40:48 (30s)
 
 - Confissão: eu sempre amei Colin McRae Rally, desde o PlayStation.
 - Isso é o Colin 2.0 rodando no DuckStation, do jeito que era: 4:3, polígono tremendo, textura borrada.
@@ -765,7 +725,7 @@ Restam: ~40:38 (30s)
 <div class="caption" style="margin-top:12px;">rea-colin-mcrae • launcher pro Colin McRae Rally (1998) de PC</div>
 
 <!--
-Restam: ~40:08 (30s)
+Restam: ~40:18 (30s)
 
 - rea-colin-mcrae: launcher pro Colin McRae Rally original de PC, adaptado pra PC moderno.
 - Escolhe a pasta do jogo e o "look": Original 1998 (640x480), Enhanced (resolução da sua tela), Steam Deck ou Custom.
@@ -784,7 +744,7 @@ Restam: ~40:08 (30s)
 <div class="caption" style="margin-top:12px;">Colin McRae Rally (PC, 1998) pelo launcher, look original</div>
 
 <!--
-Restam: ~39:38 (25s)
+Restam: ~39:48 (25s)
 
 - Primeiro o look original: 4:3, como saiu em 1998.
 - Já roda liso em máquina moderna, sem gambiarra de compatibilidade.
@@ -802,7 +762,7 @@ Restam: ~39:38 (25s)
 <div class="caption" style="margin-top:12px;">Mesmo jogo, mesmo launcher: 16:9 em alta resolução e o HUD redesenhado</div>
 
 <!--
-Restam: ~39:13 (25s)
+Restam: ~39:23 (25s)
 
 - Agora o Enhanced: widescreen 16:9, alta resolução, HUD e placas de nota redesenhados em HD.
 - Mesmo executável de 1998 por baixo: o launcher só corrige o que o jogo não sabia fazer.
@@ -820,7 +780,7 @@ Restam: ~39:13 (25s)
 </div>
 
 <!--
-Restam: ~38:48 (25s)
+Restam: ~38:58 (25s)
 
 - Detalhe do Enhanced: os cenários de fundo (céu, nuvens, montanhas) em HD, em vez das texturas borradas de 1998.
 - Capturas de hoje (20/nov), direto do gamescope.
@@ -838,37 +798,38 @@ Restam: ~38:48 (25s)
 <div class="caption" style="margin-top:12px;">github.com/akitaonrails/rea-colin-mcrae-recomp</div>
 
 <!--
-Restam: ~38:23 (25s)
+Restam: ~38:33 (25s)
 
 - Aí eu fui mais longe: em vez de remendar o executável, reconstruir o jogo inteiro.
-- rea-colin-mcrae-recomp: tentativa experimental de recriar o Colin McRae Rally de 1998 em Rust, com REA (engenharia reversa por análise estática).
+- rea-colin-mcrae-recomp: o Colin McRae Rally de 1998 recriado em Rust, com REA (engenharia reversa por análise estática).
 - Sem nenhum asset do jogo no repositório: você aponta pra sua cópia legal.
 -->
 ---
 
 <!-- _class: center tone-extra-dark rg rg-rally -->
-<div class="eyebrow">rea-colin-mcrae-recomp • trabalho em andamento</div>
+<div class="eyebrow">rea-colin-mcrae-recomp • v0.1.4, 20/nov/2026</div>
 
 # Colin McRae <span class="em-ruby">em Rust</span>
 
 <div class="stats">
-  <div class="card"><strong>~223 mil</strong><span class="mini">linhas de Rust</span></div>
-  <div class="card"><strong>2.976</strong><span class="mini">testes</span></div>
-  <div class="card"><strong>12</strong><span class="mini">crates</span></div>
-  <div class="card"><strong>662</strong><span class="mini">commits em 12 dias</span></div>
+  <div class="card"><strong>~230 mil</strong><span class="mini">linhas de Rust</span></div>
+  <div class="card"><strong>3.013</strong><span class="mini">testes</span></div>
+  <div class="card"><strong>2.018</strong><span class="mini">funções do Rally.exe mapeadas</span></div>
+  <div class="card"><strong>704</strong><span class="mini">commits</span></div>
 </div>
 
-<div class="caption">WIP. Física em ponto fixo Q16.16, rasterizador de referência bit a bit, render em wgpu e SDL3. Branch main pra preservação 1:1; branch modern com 4K, widescreen e 144+ FPS. Contado com tokei, sem JSON.</div>
+<div class="caption" style="margin-top:22px;">Single-player completo: 56 estágios em 8 países, campeonato, contra o relógio com carro fantasma, replay, chuva e neve. Release pra Linux e Windows. Multiplayer ficou de fora.</div>
 
 <!--
-Restam: ~37:58 (40s)
+Restam: ~38:08 (40s)
 
-- Repetir: é trabalho em andamento. Não está pronto, não é produto.
-- 349 arquivos Rust, ~223 mil linhas de código (tokei, sem dados JSON), 2.976 funções #[test].
-- 662 commits entre 20/out e 1/nov de 2026.
-- README diz 119 de 119 itens do mapa de reconstrução implementados: formatos, física, colisão, menus, campeonato, replay, áudio.
-- Duas branches: main (preservação 1:1 do Rally.exe de 1998) e modern (4K, 16:9/21:9, 60-144+ FPS, MSAA, FSR).
+- Mudou de status: de "trabalho em andamento" pra single-player completo, com release v0.1.4 (AppImage pra Linux, ZIP pra Windows), sem nenhum dado do jogo dentro.
+- 2.018 funções do Rally.exe no mapa, 0 parciais no single-player. Honestidade: só 54 foram verificadas instrução por instrução; 690 estão reconstruídas e ligadas no jogo. Não dizer "idêntico ao original".
+- Fora de escopo: split-screen pra 2 jogadores e LAN via DirectPlay.
+- Desde 1/nov: replay com pausa e avanço, fantasma no contra o relógio, chuva, neve, raio, sol e lens flare, lama acumulando no carro, vibração do force feedback, painel analógico clássico.
+- Duas branches: main (preservação, Q16.16, 8 bits de paleta) e modern (4K, 16:9/21:9, até 144+ FPS, MSAA, FSR). Contagem: tokei, sem JSON; 352 arquivos Rust, 14 crates.
 -->
+
 ---
 
 <!-- _class: center tone-extra-dark rg rg-rally -->
@@ -881,10 +842,10 @@ Restam: ~37:58 (40s)
 <div class="caption" style="margin-top:12px;">A reconstrução em Rust rodando: estágio na Nova Zelândia, 16:9</div>
 
 <!--
-Restam: ~37:18 (25s)
+Restam: ~37:28 (25s)
 
 - Isso não é o executável original. É o código em Rust reconstruído, rodando nativo.
-- Ainda tem diferença visual e bug: WIP.
+- Vídeo gravado em 1/nov. Da v0.1.2 pra cá entraram chuva, neve, replay e fantasma.
 - Volume 25%.
 -->
 ---
@@ -904,7 +865,7 @@ Restam: ~37:18 (25s)
 <div class="caption" style="margin-top:12px;">rea-colin-mcrae-4 • rea-colin-mcrae-2005 • rea-dirt • rea-dirt-rally</div>
 
 <!--
-Restam: ~36:53 (35s)
+Restam: ~37:03 (35s)
 
 - Depois do primeiro, fui com tudo: launcher pro Colin McRae Rally 04, Colin 2005, Colin McRae: DiRT e DiRT Rally.
 - Mesmo padrão: escolhe a pasta, escolhe o look (original, widescreen, Steam Deck), joga em 16:9 e alta resolução.
@@ -922,7 +883,7 @@ Restam: ~36:53 (35s)
 <div class="caption" style="margin-top:12px;">github.com/akitaonrails/rea-launcher-sdk</div>
 
 <!--
-Restam: ~36:18 (25s)
+Restam: ~36:28 (25s)
 
 - E quando já tinha cinco launchers, extraí o que se repetia: rea-launcher-sdk.
 - Framework pra construir launcher de jogo retrô: abas Play/Picture/Controls, looks, cópia privada, gamepad, empacotamento.
@@ -946,7 +907,7 @@ Restam: ~36:18 (25s)
 <div class="caption" style="margin-top:14px;">"Nada aqui é técnica nova." O que mudou foi o tempo: semanas por jogo viraram horas.</div>
 
 <!--
-Restam: ~35:53 (45s)
+Restam: ~36:03 (45s)
 
 - NÃO dizer "ninguém nunca consertou". O próprio post do blog (2/nov) diz: "Nada aqui é técnica nova."
 - Crédito: o fix de 16:9 do Colin 04 é do AuToMaNiAk005; o meu achado foi por que ele achatava os carros (função de projeção) e como aplicar certo.
@@ -957,25 +918,28 @@ Restam: ~35:53 (45s)
 -->
 ---
 
-<!-- _class: center tone-extra-dark rg rg-arcade -->
-<div class="eyebrow">Inspiração</div>
+<!-- _class: center tone-extra-dark rg rg-rally -->
+<div class="eyebrow">Mais launchers de PC</div>
 
-<div style="display:flex;justify-content:center;">
-  <img src="../assets/games/wanszai-github.jpg" alt="Perfil do Wanszai no GitHub com Sega Rally Championship, Ridge Racer Collection, Scud Race, Virtua Racing e Virtua Fighter" style="height:540px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
+<h1 style="font-size:1.4em;margin:0 0 18px 0;">Sega Rally Revo e <span class="em-ruby">OutRun 2006</span></h1>
+
+<div class="lgrid">
+  <div class="lcell"><img src="../assets/games/launcher-sega-rally-revo.jpg" alt="Launcher do Sega Rally Revo com os quatro visuais e o stutter fix" style="height:440px;" /><div class="lcap"><strong>Sega Rally Revo (2007)</strong><span>rea-sega-rally-revo</span></div></div>
+  <div class="lcell"><img src="../assets/games/launcher-outrun-2006.jpg" alt="Launcher do OutRun 2006 Coast 2 Coast com os quatro visuais" style="height:440px;" /><div class="lcap"><strong>OutRun 2006 C2C</strong><span>rea-outrun-2006</span></div></div>
 </div>
 
-<div class="caption" style="margin-top:12px;">github.com/wanszai</div>
-
 <!--
-Restam: ~35:08 (25s)
+Restam: ~35:18 (25s)
 
-- Inspiração: eu sigo e uso os ports de arcade do Wanszai há tempo.
-- Sega Rally Championship (303 estrelas), Ridge Racer Collection, Scud Race, Virtua Racing, Virtua Fighter: arcade da Sega e da Namco rodando em PC e Xbox.
-- Ponto: launcher de arcade bem feito, um download, roda e pronto.
+- Sega Rally Revo (2007): visual Modern a 2560×1440 e o stutter fix ligado por padrão (o timer de 1 ms, ver "Achados de verdade").
+- OutRun 2006: usa o EXE sem DRM do OutRun2006Tweaks (mod da comunidade, do emoose), instala o mod e baixa o pacote HD. NÃO dizer que o fix é meu.
+- Os dois rodam no Windows e no Linux, de uma cópia privada; a pasta do jogo nunca é alterada.
 -->
+
 ---
 
 <!-- _class: center tone-extra-dark rg rg-arcade -->
+<div class="eyebrow">Inspiração</div>
 
 <div style="display:flex;justify-content:center;">
   <img src="../assets/games/wanszai-youtube.jpg" alt="Canal Wans Zai no YouTube com vídeos de Daytona 2 e Virtua Racing" style="height:540px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
@@ -984,12 +948,30 @@ Restam: ~35:08 (25s)
 <div class="caption" style="margin-top:12px;">youtube.com/@WansWan5</div>
 
 <!--
-Restam: ~34:43 (25s)
+Restam: ~34:53 (25s)
 
+- Inspiração: eu sigo e uso os ports de arcade do Wanszai há tempo.
 - Canal "Wans Zai": 2,11 mil inscritos, 68 vídeos. Agora está mexendo em Daytona 2 e num rework do Virtua Racing.
-- Eu queria um Rad Mobile feito por ele. Não existia.
-- Então eu fiz o meu, inspirado nos launchers dele, e com o que me faltava: suporte de volante de verdade.
 -->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-arcade -->
+
+<div style="display:flex;justify-content:center;">
+  <img src="../assets/games/wanszai-github.jpg" alt="Perfil do Wanszai no GitHub com Sega Rally Championship, Ridge Racer Collection, Scud Race, Virtua Racing e Virtua Fighter" style="height:540px;border-radius:14px;box-shadow:0 18px 40px rgba(0,0,0,0.35);" />
+</div>
+
+<div class="caption" style="margin-top:12px;">github.com/wanszai</div>
+
+<!--
+Restam: ~34:28 (25s)
+
+- Sega Rally Championship (303 estrelas), Ridge Racer Collection, Scud Race, Virtua Racing, Virtua Fighter: arcade da Sega e da Namco rodando em PC e Xbox.
+- Ponto: launcher de arcade bem feito, um download, roda e pronto.
+- Eu queria um Rad Mobile feito por ele. Não existia. Então fiz o meu, inspirado nos launchers dele, com o que me faltava: suporte de volante de verdade.
+-->
+
 ---
 
 <!-- _class: center tone-extra-dark rg rg-arcade -->
@@ -1001,7 +983,7 @@ Restam: ~34:43 (25s)
 <div class="caption" style="margin-top:12px;">github.com/akitaonrails/rea-rad-mobile</div>
 
 <!--
-Restam: ~34:18 (25s)
+Restam: ~34:03 (25s)
 
 - Como o Wanszai não tinha Rad Mobile, eu fiz o meu: arcade da Sega de 1990 (System 32), saído do rea-launcher-sdk.
 - Launcher experimental pra rodar em PC moderno, Windows e Linux, inspirado nos ports de arcade do Wanszai.
@@ -1019,7 +1001,7 @@ Restam: ~34:18 (25s)
 <div class="caption" style="margin-top:12px;">Menu que você dirige com o volante ou o controle</div>
 
 <!--
-Restam: ~33:53 (30s)
+Restam: ~33:38 (30s)
 
 - O menu é dirigido pelo volante ou pelo controle. Repara embaixo: volante Fanatec detectado, force feedback pronto.
 - O arcade tinha volante de 270°, dois pedais e nenhum motor. O launcher lê o volante e escala pra 270°, acha os pedais pela posição de repouso.
@@ -1038,7 +1020,7 @@ Restam: ~33:53 (30s)
 <div class="caption" style="margin-top:12px;">Rad Mobile (Sega, 1990) pelo launcher, em widescreen</div>
 
 <!--
-Restam: ~33:23 (25s)
+Restam: ~33:08 (25s)
 
 - Arcade de 1990 rodando em 16:9 de verdade, com volante e force feedback.
 - Repara no limpador de para-brisa e no farol: no MAME puro esses botões só funcionavam no teclado.
@@ -1055,7 +1037,7 @@ Restam: ~33:23 (25s)
 <div class="caption" style="margin-top:10px;">Hardware de console de mesa dentro do gabinete de arcade</div>
 
 <!--
-Restam: ~32:58 (35s)
+Restam: ~32:43 (35s)
 
 - Pouca gente sabe: a partir do fim dos anos 90 o arcade parou de ter hardware exótico e passou a usar hardware de console.
 - Dreamcast virou NAOMI (1998), depois NAOMI 2 com uma segunda GPU, e a Sammy fez o Atomiswave em cima da mesma base.
@@ -1074,7 +1056,7 @@ Restam: ~32:58 (35s)
 <div class="caption" style="margin-top:10px;">TeknoParrot, OpenParrot e Lindbergh Loader</div>
 
 <!--
-Restam: ~32:23 (35s)
+Restam: ~32:08 (35s)
 
 - Depois deu mais um passo: o arcade virou PC mesmo. Taito Type X (2004) e Sega RingEdge rodam Windows embarcado; o Sega Lindbergh (2005) é Pentium 4 com GeForce rodando Linux.
 - O jogo é um executável. O que falta é a placa de I/O, o dongle e a rede do gabinete.
@@ -1093,7 +1075,7 @@ Restam: ~32:23 (35s)
 <div class="caption" style="margin-top:12px;">azimuthforza.com</div>
 
 <!--
-Restam: ~31:48 (30s)
+Restam: ~31:33 (30s)
 
 - Mesma história, uma geração depois: o Xbox One é x86, praticamente um PC.
 - Azimuth, da Almost There Games: roda as versões de Xbox One de Forza Horizon 2 e 3 e Forza Motorsport 5 e 6 no Windows e no Linux via Proton.
@@ -1112,7 +1094,7 @@ Restam: ~31:48 (30s)
 <div class="caption" style="margin-top:12px;">rea-teknoparrot-wangan-series</div>
 
 <!--
-Restam: ~31:18 (30s)
+Restam: ~31:03 (30s)
 
 - Wangan Midnight R e Maximum Tune 3, 3DX+, 5, 5DX+, 6, 6R e 6RR num launcher só.
 - Sem TeknoParrot: OpenParrot e OpenParrot_WMMT compilados do código-fonte, com correções minhas. MT3 e 3DX+ rodam nativos no Linux, até 4K.
@@ -1132,7 +1114,7 @@ Restam: ~31:18 (30s)
 <div class="caption" style="margin-top:12px;">Wangan Midnight Maximum Tune 6R pelo launcher</div>
 
 <!--
-Restam: ~30:48 (25s)
+Restam: ~30:33 (25s)
 
 - Maximum Tune 6R rodando no Linux, terminando com o YOU WIN.
 - Volume 25%.
@@ -1149,7 +1131,7 @@ Restam: ~30:48 (25s)
 <div class="caption" style="margin-top:12px;">rea-teknoparrot-initial-d-series</div>
 
 <!--
-Restam: ~30:23 (30s)
+Restam: ~30:08 (30s)
 
 - Do Arcade Stage Ver. 1 (2002, NAOMI 2) ao THE ARCADE Season 5 (2025), Linux e Windows.
 - Só loader aberto: Flycast pro NAOMI 2, lindbergh-loader nativo pro 4 e 5, windowsarcadeloader do 6 ao THE ARCADE.
@@ -1169,11 +1151,73 @@ Restam: ~30:23 (30s)
 <div class="caption" style="margin-top:12px;">Initial D THE ARCADE Season 5 pelo launcher</div>
 
 <!--
-Restam: ~29:53 (25s)
+Restam: ~29:38 (25s)
 
 - THE ARCADE Season 5, de 2025, rodando via windowsarcadeloader.
 - Repara na cena em estilo mangá no meio da corrida.
 - Volume 25%.
+-->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-street -->
+<div class="eyebrow">Mais launchers de arcade</div>
+
+<h1 style="font-size:1.4em;margin:0 0 22px 0;">Sega e <span class="em-ruby">Nintendo</span></h1>
+
+<div class="lgrid">
+  <div class="lcell"><img src="../assets/games/launcher-sega-series.jpg" alt="Launcher Sega com SEGA Rally 3 selecionado e um card por jogo" style="height:326px;" /><div class="lcap"><strong>Arcades Sega</strong><span>rea-teknoparrot-sega</span></div></div>
+  <div class="lcell"><img src="../assets/games/launcher-nintendo-series.jpg" alt="Launcher Nintendo com F-Zero AX Monster Ride selecionado e um card por jogo" style="height:326px;" /><div class="lcap"><strong>Arcades Nintendo</strong><span>rea-teknoparrot-nintendo</span></div></div>
+</div>
+
+<!--
+Restam: ~29:13 (25s)
+
+- Sega: um launcher acha os 6 jogos (OutRun 2 SP e SDX, Chase HQ 2, Sega Rally 3, Sega Racing Classic, Daytona USA) e escolhe o loader de cada um.
+- Nintendo (v0.4.0, 21/nov): F-Zero AX e Mario Kart GP 2 no Dolphin oficial, agora com widescreen 16:9 no Triforce; Mario Kart DX e Luigi's Mansion pelo windowsarcadeloader.
+- Mesma cara do Wangan e do Initial D: card por jogo, Play, controles e ajustes.
+-->
+
+---
+
+<!-- _class: center tone-extra-dark rg rg-dossier -->
+<div class="eyebrow">Por cima do jogo original</div>
+
+<h1 style="font-size:1.5em;margin:0 0 16px 0;">Melhor que <span class="em-ruby">no lançamento</span></h1>
+
+<div class="upg-wrap">
+<div class="upg-col">
+  <h3>Imagem</h3>
+  <div class="upg-row"><div class="upg-game">Colin McRae Rally</div><div class="upg-change"><span class="upg-from">800×600, só 4:3</span><span class="upg-to">4K, 16:9 de verdade</span></div></div>
+  <div class="upg-row"><div class="upg-game">Colin McRae Rally 3</div><div class="upg-change"><span class="upg-from">640×480 esticado</span><span class="upg-to">qualquer tela, menus HD</span></div></div>
+  <div class="upg-row"><div class="upg-game">Colin McRae 04</div><div class="upg-change"><span class="upg-from">16:9 espremia carros</span><span class="upg-to">16:9 sem distorcer</span></div></div>
+  <div class="upg-row"><div class="upg-game">Colin McRae 2005</div><div class="upg-change"><span class="upg-from">640×480 no canto</span><span class="upg-to">16:9 na tela toda</span></div></div>
+  <div class="upg-row"><div class="upg-game">Screamer (DOS)</div><div class="upg-change"><span class="upg-from">4:3 esticado</span><span class="upg-to">16:9 vendo mais dos lados</span></div></div>
+  <div class="upg-row"><div class="upg-game">Rad Mobile</div><div class="upg-change"><span class="upg-from">4:3 do gabinete</span><span class="upg-to">widescreen real, filtro CRT</span></div></div>
+  <div class="upg-row"><div class="upg-game">Arcades Sega</div><div class="upg-change"><span class="upg-from">800×480</span><span class="upg-to">resolução maior com FSR</span></div></div>
+</div>
+<div class="upg-col">
+  <h3>Controle e volante</h3>
+  <div class="upg-row"><div class="upg-game">Colin McRae Rally</div><div class="upg-change"><span class="upg-from">só o analógico</span><span class="upg-to">gatilhos e vibração</span></div></div>
+  <div class="upg-row"><div class="upg-game">Colin 3 e 04</div><div class="upg-change"><span class="upg-from">gatilhos num eixo só</span><span class="upg-to">frear com o pé esquerdo</span></div></div>
+  <div class="upg-row"><div class="upg-game">Colin McRae 2005</div><div class="upg-change"><span class="upg-from">volante e pedais à parte</span><span class="upg-to">um volante só</span></div></div>
+  <div class="upg-row"><div class="upg-game">Screamer (DOS)</div><div class="upg-change"><span class="upg-from">controle nem aparece</span><span class="upg-to">analógico e vibração</span></div></div>
+  <div class="upg-row"><div class="upg-game">DiRT Rally</div><div class="upg-change"><span class="upg-from">joystick estranho</span><span class="upg-to">pad reconhecido</span></div></div>
+  <div class="upg-row"><div class="upg-game">Rad Mobile</div><div class="upg-change"><span class="upg-from">sem volante</span><span class="upg-to">volante com force feedback</span></div></div>
+  <div class="upg-row"><div class="upg-game">F-Zero AX</div><div class="upg-change"><span class="upg-from">volante parava em 79%</span><span class="upg-to">curso completo</span></div></div>
+</div>
+</div>
+
+<div class="caption" style="margin-top:14px;">Em vários, a base é da comunidade: SilentPatch, Xidi, HD UI do Bekoha.</div>
+
+<!--
+Restam: ~28:48 (45s)
+
+- Colin 1998: o jogo não oferecia corrida acima de 800×600. Agora vai a 4K, 16:9 mostra mais dos lados, e HUD, menus e céus vêm redesenhados no pacote de arte HD. 60 fps a 4K.
+- Colin 3: widescreen e interface são do SilentPatch, a HD UI é do Bekoha; o launcher empacota e configura. NÃO dizer que fiz isso.
+- Colin 04: o patch de 16:9 da comunidade deixava carro 25% mais estreito; o launcher renderiza 4:3 a 2880×2160 e o dgVoodoo estica.
+- Controles: Xidi (terceiro) transforma o controle num gamepad clássico no Colin 3 e 04. Colin 2005 ganhou o "rea wheel": volante + pedais vistos como um só.
+- Rad Mobile: filtros CRT inspirados no Wanszai. F-Zero AX: o analógico emulado do Dolphin parava em 79% do curso.
 -->
 
 ---
@@ -1193,7 +1237,7 @@ Restam: ~29:53 (25s)
 <div class="caption" style="margin-top:14px;">Cada achado virou um rascunho pro PCGamingWiki.</div>
 
 <!--
-Restam: ~29:28 (45s)
+Restam: ~28:03 (45s)
 
 - Os achados do Screamer são todos nossos, saídos da engenharia reversa (docs/CONTRIBUTIONS.md, S1 a S9). Ressalva: o widescreen do Screamer 2/Rally e a distância de desenho ainda pedem verificação visual.
 - 50 Hz: o loop é fixo (2 ticks de um timer de 100 Hz) e a física vem de uma tabela de 50 entradas. O PCGamingWiki diz 60 FPS; isso corrige o wiki.
@@ -1219,7 +1263,7 @@ Restam: ~29:28 (45s)
 <div class="caption" style="margin-top:14px;">Só loader aberto, compilado do código-fonte, com os nossos patches.</div>
 
 <!--
-Restam: ~28:43 (45s)
+Restam: ~27:18 (45s)
 
 - TeknoParrot: UI em .NET, crasha no WoW64 do Wine 11, core fechado pro Initial D 6 ao THE ARCADE, e opções no Patreon.
 - Initial D 4: o lindbergh-loader troca cRealCardIF por cFileCardIF, mas o objeto fica alocado com 0x34 bytes e o novo usa até 0x40. O flag de "loading" cai no objeto vizinho (cUiJVS) e zera o vptr. Patch: tamanho da alocação pra 0x80. Não há issue sobre isso no lindbergh-loader.
@@ -1259,7 +1303,7 @@ Restam: ~28:43 (45s)
 </div>
 
 <!--
-Restam: ~27:58 (40s)
+Restam: ~26:33 (40s)
 
 - Na tabela os teknoparrot-* são os repos rea-teknoparrot-*-series. Coluna da esquerda: PC antigo (Colin, DiRT, Screamer em DOSBox). Direita: Sega e arcades (Lindbergh, RingEdge, Namco ES3, Triforce, NAOMI 2).
 - Todos seguem a mesma regra: seu jogo, sua cópia, pasta original só leitura, launcher roda de uma cópia privada.
@@ -1277,7 +1321,7 @@ Restam: ~27:58 (40s)
 <div style="margin-top:18px;font-size:1.6em;font-weight:800;letter-spacing:0.01em;color:#f2c46d;">ailair.akitaonrails.com/pt-br/games</div>
 
 <!--
-Restam: ~27:18 (25s)
+Restam: ~25:53 (25s)
 
 - Tudo o que mostrei hoje está documentado aqui: distrobox-gaming, omarchy-games-menu, os launchers de corrida e o Fun to Drive.
 - Um repositório Ansible, rodando num container, com um launcher por cima pra parecer console.
@@ -1301,7 +1345,7 @@ Restam: ~27:18 (25s)
 </div>
 
 <!--
-Restam: ~26:53 (10s)
+Restam: ~25:28 (10s)
 
 - Obrigado.
 - Os links estão aí embaixo.
@@ -1329,7 +1373,7 @@ Restam: ~26:53 (10s)
 </div>
 
 <!--
-Restam: ~26:43 (25s)
+Restam: ~25:18 (25s)
 
 - E antes de você ir embora, sem falsa modéstia: se curtiu a palestra, assina o The M.Akita Chronicles.
 - Está tudo aí na tela, com QR code pra quem quiser apontar a câmera.
