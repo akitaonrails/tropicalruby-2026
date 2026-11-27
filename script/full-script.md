@@ -1,8 +1,8 @@
-# Canal 3 Expo 2026 - Roteiro Completo
+# Gambiconf 2026 - Roteiro Completo
 
 Este roteiro acompanha a versão em PT-BR do deck em `slides/tropical-ruby-2026.md`.
 
-## Slide 1 - Retrogame na era das IAs
+## Slide 1 - Agile Vibe Coding
 Restam: ~60:00 (75s)
 
 Vou abrir direto, porque a gente tem uma hora pra desmontar isso com calma: agentes de IA mudaram o custo de construir software, mas não aboliram engenharia. Perguntar “IA substitui programador?” é pouco. A pergunta que importa é: qual processo sobrevive quando errar ficou barato e entregar ficou rápido? A tese é simples: agente bom aumenta muito a produtividade de quem sabe dirigir. Mas também acelera a bagunça de quem não sabe. Esse é o preço de vibe coding.
@@ -22,20 +22,75 @@ Restam: ~57:00 (100s)
 
 O jeito mais honesto de descrever o que um LLM faz por baixo é papagaio estocástico. Termo cunhado em 2021 por Emily Bender e a turma da Timnit Gebru. O modelo repete padrões de token aprendidos no treino, com fluência impressionante, mas sem entender o que diz. É bonito de ler e fraco de compromisso com a verdade. Por isso eu chamo LLM de loot box: é probabilístico, não é compilador determinístico. Dá pra melhorar bastante com contexto, ferramenta, ciclo de avaliação e prompt melhor? Dá. Mas o modelo de 2026 ainda baixa a cabeça pra você. Se você vem com premissa torta, ele muitas vezes prefere agradar em vez de contrariar. E continua errando com confiança: inventa detalhe, completa lacuna do jeito errado e segue em frente como se estivesse tudo certo. Por isso agente sem freio é desastre. O que segura ainda é execução real, teste real e revisão real.
 
-## Slide 5 - Top 20 do benchmark (outubro/2026)
-Restam: ~55:20 (40s)
+## Slide 5 - Qualidade convergiu
+Restam: ~55:20 (45s)
 
-Agora olha o placar mais recente do meu benchmark, a versão 4, de 28 de outubro. Top 20. Oito modelos fecharam com nota 100: Gemini 4 Argon, GPT-6 Astra, Opus 5, Fable 5, Opus 5.5, e os GPTs 5.6 e 5.5. Então a nota sozinha já não separa ninguém. O que separa é custo e tempo. O Opus 5.5 tirou 100 gastando 16 dólares em uma hora. O GPT-6.1 Terra tirou quase 97 com menos de 2 dólares, em 21 minutos. E lá embaixo do top 20 tem DeepSeek e Kimi passando de 92. Nota alta virou commodity. A briga agora é custo, velocidade e quota.
+Eu mantive um benchmark próprio o ano inteiro, o v4: sete sprints construindo um app Rails enquanto eu planto catorze sabotagens silenciosas no código. E a conclusão de outubro foi clara: qualidade convergiu. Oito modelos fecharam com nota 100. Quando eu cruzei o meu resultado com SWE-bench Pro e Terminal-Bench, os seis primeiros ficaram espremidos em três pontos e meio — o primeiro e o segundo separados por 0,036 ponto. E eu já medi o mesmo modelo variando nove pontos entre uma rodada e outra. Dois ou três pontos numa tabela é ruído. Tier A é faixa de competência, não pódio olímpico. Pare de acompanhar ranking de LLM como campeonato de futebol.
 
 ## Slide 6 - Tier list não é benchmark
-Restam: ~54:40 (25s)
+Restam: ~54:35 (20s)
 
-E aí, enquanto eu rodo teste, a internet faz tier list. Essa circulou no X essa semana. Olha o Sonnet 5.5 lá em SSS: no meu teste, num projeto longo de verdade, ele tirou 88 e ficou fora do top 20. O GPT-5.6 Terra está em B: no meu teste tirou 100, gastando nove dólares e meio. Às vezes bate, como o Gemini 4 Argon no topo. Mas tier list é opinião em formato de ranking. É barato fazer. Medir dá trabalho, e é por isso que eu meço.
+Enquanto eu rodo teste, a internet faz tier list. Essa circulou no X. Opinião em formato de ranking é barato de fazer. Medir dá trabalho, e é por isso que eu meço.
 
-## Slide 7 - Quanto custa ser competente
-Restam: ~54:15 (40s)
+## Slide 7 - 16 de 16 passaram. O preço variou 95×.
+Restam: ~54:15 (35s)
 
-E aí vem a pergunta que interessa: quanto custa? Saiu hoje o meu benchmark v5. Mesma tarefa pra todo mundo, um app Rails de chat completo, testado e rodando em Docker. Os dezesseis modelos que terminaram passaram de primeira. A diferença está no bolso: do GPT-6 Luna, que fez tudo por quinze centavos de dólar, até o Grok, que custou mais de catorze. Quase cem vezes. E o preço por milhão de tokens na tabela engana: com cache, a conta cai de setenta a noventa por cento, e modelo que fala demais gasta mais que modelo caro que vai direto ao ponto. Competente o suficiente já é barato. A pergunta agora é quanto você paga por rodada.
+Então no benchmark v5, agora em novembro, eu mudei a pergunta: todos já entregam, quanto custa entregar? Mesma tarefa pra dezesseis modelos comerciais Tier A: um app Rails completo de chat, testado, lintado e rodando em Docker. Os dezesseis passaram de primeira, sem um único empurrão. O único que ficou de fora foi o Muse Wonder da Meta, e não foi por qualidade — foi porque estourou a cota depois de doze chamadas. A diferença de verdade está no bolso e no relógio: noventa e cinco vezes no preço, de quinze centavos no GPT-6 Luna até mais de catorze dólares no Grok 4.7.
+
+## Slide 8 - Preço de tabela engana
+Restam: ~53:40 (35s)
+
+E aqui tem uma pegadinha que quase ninguém olha: preço por milhão de tokens na tabela engana feio. Em programação com agente, de 94% a 99% do input é leitura de cache, o que corta de 69% a 94% da conta. Olha o GPT-6.2 Astra e o Claude Fable 5.2: preço de tabela idêntico, oito por quarenta dólares, mas o Astra custou menos da metade porque falou quatro vezes menos e terminou em metade do tempo. E cai por terra o mito do modelo chinês sempre mais barato: o GLM-5.3 na API oficial saiu mais caro que o Opus 5.5, e o DeepSeek V4 Pro queimou quase trinta e sete milhões de tokens.
+
+## Slide 9 - Zero FOMO: o que eu uso hoje
+Restam: ~53:05 (40s)
+
+Então na prática, zero FOMO. Usar Fable 5.2 pra trocar cor de botão é pagar tarifa de foguete pra fazer entrega de bicicleta. No meu fluxo real hoje, eu tenho usado cada vez mais o Gemini 4 Neon como padrão: é enxuto em tokens, entregou catorze arquivos de teste no benchmark, custa três dólares e dez na API e no plano de vinte dólares se paga em seis rodadas. Logo atrás vêm Claude Opus 5.5 e GPT-6.2 Sol, que sobram com folga sem derreter cota igual Fable ou Astra. A regra é simples: escolha qualquer Tier A que caiba no seu bolso e na sua cota, mantenha um plano B e volte a programar.
+
+## Slide 10 - De repente, Singapura virou 22% da Nvidia
+Restam: ~52:25 (40s)
+
+Antes de falar de modelos open source e modelos chineses, eu preciso derrubar um mito: a história de que a China fez modelo de fronteira sem GPU americana e só na genialidade. Olha os relatórios oficiais da própria Nvidia na SEC. Singapura saiu de 2,3 bilhões de dólares, 8% da receita em 2023, pra 6,8 bilhões em 2024, pra 23,7 bilhões — 18% — em 2025. E no segundo trimestre fiscal de 2026 bateu 10,2 bilhões num único trimestre: 22% da receita global da Nvidia num país de seis milhões de habitantes. A Nvidia sempre disse que era só endereço de faturamento, com menos de 2% de entrega física. E logo depois de bater 22%, mudou o critério no 10-Q — e Singapura sumiu da tabela.
+
+## Slide 11 - Contrabando a céu aberto
+Restam: ~51:45 (35s)
+
+Enquanto Jensen Huang dizia pra Bloomberg que não havia nenhuma evidência de desvio porque um rack pesa quase duas toneladas, em agosto de 2025 o canal independente Gamers Nexus passou três semanas em Hong Kong, Shenzhen e Taipei. Eles entrevistaram na frente das câmeras contrabandistas, brokers, oficinas de reparo e compradores finais — mostrando placas restritas sendo escoadas pelo Sudeste Asiático e oficinas chinesas desmontando e remontando hardware de ponta pra contornar o bloqueio.
+
+## Slide 12 - Singapura, Alice Huang e a brecha remota
+Restam: ~51:10 (40s)
+
+E além do contrabando físico, existia a brecha da nuvem remota. Como não podiam importar GPU direto pra China, gigantes como Tencent, Alibaba e ByteDance alugavam clusters Nvidia remotamente em data centers na Malásia, na Indonésia e em Singapura. Em novembro de 2026 explodiu o escândalo envolvendo a Megaspeed de Singapura e a Speedmatrix da Malásia — ligadas a Alice Huang, com estimativa de 7,5 a 12 bilhões de dólares em hardware avançado desviado. Só aí o governo americano publicou a regra do BIS fechando o acesso remoto e colocando Singapura, Malásia, Indonésia, Tailândia e até o Brasil na lista de alto risco.
+
+## Slide 13 - E não foi só silício: destilação industrial
+Restam: ~50:30 (35s)
+
+E não foi só silício americano. Tanto a Anthropic quanto a OpenAI publicaram relatórios expondo campanhas de destilação em escala industrial: dezenas de milhares de contas falsas e centenas de milhões de trocas via proxy ligadas a laboratórios chineses como DeepSeek, Moonshot, MiniMax, Alibaba e Zhipu pra extrair raciocínio e código do Claude e do GPT. A engenharia chinesa é real e competente, ninguém tira o mérito. Mas a narrativa de "zero GPU americana e zero modelo americano, só genialidade" é mito.
+
+## Slide 14 - Open source chegou no Tier A — em qual máquina?
+Restam: ~49:55 (40s)
+
+Dito isso, os modelos de pesos abertos funcionam de verdade? Eu gastei mais de seis mil dólares rodando quase setenta rodadas do meu benchmark v4 — da minha RTX 5090 e do Strix Halo até pods de quatro B300 na RunPod. E a boa notícia é que os melhores modelos abertos, como DeepSeek V4.1 Flash, GLM 5.3 Flash e Qwen3.8 Flash-Next, chegaram em 92,5, Tier A, colados no Sonnet 5 e no GPT-6 Sol. O problema é a máquina: 510 gigas em quatro B300 pode ser open source no GitHub, mas não cabe em casa. Eu até subi o DeepSeek de 2 bits na 5090 — deu 17 tokens por segundo. Tecnicamente roda, mas pra agente é inútil.
+
+## Slide 15 - RunPod 4× B300 vs. pagar Anthropic / OpenAI
+Restam: ~49:15 (40s)
+
+Então vale a pena alugar servidor grande pra rodar modelo aberto? Eu medi concorrência real com critério de conforto de verdade: primeiro token em até dois segundos e pelo menos 50 tokens por segundo pra 95% das requisições. Um pod de 4x B300 na RunPod, a 36 dólares por hora desligando à noite, segura 32 desenvolvedores confortáveis — dá 198 dólares por pessoa. Ou seja, só empata com uma assinatura forte de 200 dólares de Claude ou Codex se você tiver perto de trinta devs usando o dia inteiro. A H200 parece mais barata por hora, mas só aguenta 8 devs e sai 316 por pessoa. Deixar 24/7 ou rodar em AWS e Azure dispara pra 355 a 933 dólares por dev. Time pequeno? Pague API ou assinatura. Infra própria só fecha conta com time grande ou exigência de compliance.
+
+## Slide 16 - Em casa (até 5090), só 2 modelos jogam de verdade
+Restam: ~48:35 (40s)
+
+E em hardware doméstico de verdade, até uma RTX 5090? Hoje só dois modelos entregam qualidade e velocidade de agente de verdade. No AMD Strix Halo, com 64 gigas de memória unificada mas banda mais modesta, quem vence é o Qwen3.8 Flash-Next em Q2_0, fazendo 55 a 65 tokens por segundo. Já na RTX 5090 com o engine Basalt, que explora o FP4 nativo da Blackwell, o Qwen bate 377 a 400 tokens por segundo — só que esmagado em 2 bits e jogando de 30 a 42 gigas de especialistas na RAM. E aí acabou de chegar o novo campeão.
+
+## Slide 17 - Thinking Machines Lab & Mira Murati
+Restam: ~48:15 (30s)
+
+E de onde veio esse Inkling? Eu mesmo nunca tinha ouvido falar dele até ver um post do DHH comparando o modelo no teste do Omarchy. Ele é obra da Thinking Machines Lab, a startup fundada em fevereiro de 2025 por Mira Murati, ex-CTO da OpenAI, junto com um time pesado egresso da própria OpenAI, incluindo John Schulman como Chief Scientist. Em 2025 eles construíram a infraestrutura e a plataforma Tinker pra fine-tuning de modelos abertos. Em julho de 2026 soltaram o Inkling original sob licença Apache 2.0, e agora em novembro veio a geração 2 — incluindo o Inkling 2 Mini, feito sob medida pra rodar localmente num notebook de 32 gigas ou numa única GPU doméstica.
+
+## Slide 18 - O novo campeão caseiro: Inkling 2 Mini
+Restam: ~47:45 (40s)
+
+O Inkling 2 Mini, da Thinking Machines Lab da Mira Murati, licença Apache 2.0. O truque deles é genial: um Looped MoE com 24 camadas físicas onde as 12 do meio rodam três vezes por token, entregando profundidade de 48 camadas em vinte gigas. Resultado na minha 5090 com Basalt: cabe 100% na VRAM com quase sete gigas sobrando pro desktop, zero offload na RAM, precisão nativa NVFP4, janela de um milhão de tokens, 250 a 346 tokens por segundo e 100, 100, 100 nas três rodadas do meu teste difícil. O trade-off honesto é que ele pensa mais alto que o Qwen e sofre no Strix Halo por banda de memória. Mas pra quem tem uma 5090, ele é o novo rei local.
 
 
 ## Slide 8 - Não era exponencial
@@ -78,15 +133,40 @@ Restam: ~47:08 (25s)
 
 Como eu alterno entre harnesses, acabei criando um kit pequeno para não virar bagunça. Não é orquestrador mágico. É operação básica: ai-jail para dar autonomia com cerca, ai-memory para o contexto sobreviver entre sessões e harnesses, e ai-usagebar para eu saber quando estou perto do limite e preciso trocar de cavalo.
 
-## Slide 16 - Autonomia com cerca
-Restam: ~46:43 (40s)
+## Slide 27-30 - Autonomia com cerca (ai-jail: instalar, muro de kernel e TUI)
+Restam: ~46:43 (110s)
 
-O ai-jail nasceu porque eu gosto de rodar Claude e Codex em modo sem freio, mas não quero dar a chave da casa. Eu tiro a fricção de confirmação dentro do harness e coloco a trava no sistema operacional. O projeto fica read-write. O resto do host fica fora, read-only, mascarado ou mapeado explicitamente. Não é VM, não é blindagem militar, mas é uma camada prática.
+O ai-jail nasceu porque eu gosto de rodar Claude e Codex em modo sem freio, mas não quero dar a chave da casa. Eu tiro a fricção de confirmação dentro do harness e coloco a trava no sistema operacional. Pra começar no Arch Linux é direto pelo AUR: `pacman -S bubblewrap`, `yay -S ai-jail-bin`, e roda `ai-jail --dry-run claude` pra inspecionar ou `ai-jail claude` direto. O projeto fica read-write; seu `/home` e seus segredos ficam de fora. E repara na diferença fundamental contra o sandbox embutido dos harnesses: o sandbox embutido só cerca os comandos de shell, deixando o processo do agente, os servidores MCP e os hooks soltos na sua conta. O ai-jail levanta o muro em volta do harness inteiro — quem responde não é um humano cansado apertando Enter, é o kernel. E você nem precisa decorar flags: a TUI guiada mostra os presets, deixa ligar e desligar rede, SSH, pastas e variáveis visualmente, salva a configuração do projeto e já monta a linha de comando pronta pra copiar com uma tecla.
 
-## Slide 17 - Contexto que sobrevive ao harness
-Restam: ~46:03 (40s)
+## Slide 30-34 - Contexto que sobrevive ao harness (ai-memory: quickstart, pipeline, compactação e time)
+Restam: ~45:13 (140s)
 
-O ai-memory resolve outro problema: harness esquece. Claude compacta, Codex compacta, sessão acaba, e o próximo agente não sabe por que você tomou uma decisão duas horas atrás. Ele captura prompts, chamadas de ferramenta e limites de sessão, consolida em markdown, indexa com FTS5 e expõe handoff e busca via MCP. Não substitui documentação canônica em `docs/`. Cobre o meio do caminho.
+O ai-memory resolve o outro problema: harness esquece. Claude compacta, Codex compacta, sessão acaba, e o próximo agente não sabe por que você tomou uma decisão duas horas atrás. No Arch Linux também é direto pelo AUR: `yay -S ai-memory-bin`, `ai-memory setup`, liga a unit de usuário com `systemctl --user enable --now ai-memory.service` e abre o agente com `ai-memory run claude` — sem cadastro e sem nuvem obrigatória. Enquanto você trabalha, ele captura observações via hooks, consolida em páginas markdown numa wiki git, recupera com FTS5 e MCP e faz handoff entre sessões e agentes diferentes. E memória que só cresce vira lixo: ele tem pontuação de retenção e *forget sweep* pra compactar ou descartar notas frias, tudo reversível via `restore-page` no histórico do git. E o mesmo servidor funciona pra time inteiro: cada dev usa Claude Code, Codex, Cursor ou Gemini CLI apontando pro mesmo servidor, compartilhando a wiki do projeto e mantendo handoffs pessoais, com contas e auditoria sem plano pago. E não é mais projeto solo: hoje já são mais de 16,5 mil estrelas, 214 contribuidores, mais de 1.392 pull requests mergeados e 750 issues fechadas — e foi exatamente esse volume de comunidade que me forçou a formalizar minhas skills de manutenção no final da palestra.
+
+## Slide - Você não tem objetivos
+Restam: ~21:24 (60s)
+
+E aqui entra uma coisa que pouca gente quer admitir. Muita gente não tem problema de prompt. Tem problema de objetivo. A pessoa pede “melhora meu sistema”, “faz ficar profissional”, “resolve a performance”, mas não sabe dizer o estado atual, a restrição, nem a métrica de sucesso. E a pergunta incômoda é essa: você se acostumou a esperar alguém criar o backlog por você? A IA não adivinha isso. Se você não consegue transformar desejo em critério mensurável, você não sabe o que pedir. O agente fica rodando em cima de fumaça.
+
+## Slide - O sprint ideal
+Restam: ~20:24 (60s)
+
+O desenho ideal pra mim não é planning longo, backlog enorme e duas semanas tentando cumprir o combinado antigo. Com agente, eu prefiro ciclos muito mais curtos. Uma manhã de product manager com programador, para fechar objetivo, corte de escopo e critério. Uma tarde de QA com programador, para quebrar, validar e achar borda. Isso roda pela semana entre os programadores, cada um com LLM. O tech lead não vira gargalo de aprovação; entra nos pontos certos, quando precisa guiar arquitetura, refatoração ou decisão que custa caro depois.
+
+## Slide - Codar é Barato. Errar é Barato.
+Restam: ~19:24 (60s)
+
+Antes, protótipo e POC eram caros demais; por isso todo mundo tentava acertar no planejamento. Com LLM, codar ficou barato e errar também ficou barato. O ganho é testar mais hipóteses, matar ideias ruins cedo e seguir com mais confiança nas ideias boas. Não é virar irresponsável; é reduzir o custo do aprendizado.
+
+## Slide - Agile Vibe Coding é XP com pareamento de máquina
+Restam: ~17:54 (90s)
+
+Agile Vibe Coding é XP com pareamento de máquina. A estrutura por baixo é velha: TDD segura erro de modelo antes de virar lama, CI por commit pega drift e regressão cedo, e refatoração contínua evita cirurgia cara depois.
+
+## Slide - O pareamento mudou
+Restam: ~16:24 (90s)
+
+O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto. O agente traz velocidade de execução, busca e fôlego operacional. Se eu reduzo o agente a digitador burro, piora. Se eu entrego produto e arquitetura pra ele sozinho, piora também. É por isso que eu digo que IA é espelho: sênior bom ganha alavancagem; programador ruim ganha velocidade pra errar.
 
 ## Slide 18 - Alcançamos "Developer 10x"?
 Restam: ~45:23 (90s)
@@ -98,182 +178,105 @@ Restam: ~43:53 (40s)
 
 E se você quiser a versão longa de tudo isso, eu juntei os artigos do ano num livro: Competente o Suficiente. Um ano colocando a IA à prova, sem medo e sem propaganda. Reorganizei tudo como uma história só, chequei os fatos de novo e ilustrei. É pra quem está ansioso ou confuso com IA: o profissional com medo de ser substituído, o pai que leu que a AGI chega em dois anos, o gerente a quem estão vendendo transformação com IA. O EPUB e o PDF são de graça e vão continuar de graça. O impresso e o Kindle saem a preço de custo, eu não ganho nada com isso. A versão 1.1 saiu em 18 de novembro, e se você achar qualquer erro, abre uma issue no GitHub.
 
-## Slide 20 - distrobox-gaming
+## Slide 38 - distrobox-gaming
 Restam: ~43:13 (30s)
 
 Agora o lado pessoal da maratona: games. O distrobox-gaming é um container com todos os emuladores já configurados, do RetroArch ao RPCS3 e ao shadPS4. Já passou de 480 estrelas no GitHub. É pra quem não quer perder um fim de semana configurando emulador.
 
-## Slide 21 - Jogo velho não roda no Windows 11
+## Slide 39 - Jogo velho não roda no Windows 11
 Restam: ~42:43 (40s)
 
-E por que dá tanto trabalho rodar jogo velho? Porque o Windows 11 não é o Windows 98. Ele só existe em 64 bits: programa de 32 bits ainda roda, mas DOS e 16 bits morreram. O Screamer é de DOS e usava Glide, a API das placas 3dfx Voodoo. A 3dfx faliu em 2000, não existe mais driver, então tem que emular. Antes do DirectX existia até o WinG, do Windows 3.1. O Colin de 98 usa DirectX 5, com menu em 8 bits de paleta, coisa que o Windows de hoje não sabe mais fazer. Os jogos da era XP tropeçam em DRM que o Windows bloqueia desde 2015, em DLL do DirectX 9 que não vem mais instalada, e até em checagem de Pentium 4. Cada jogo quebra de um jeito diferente, e a ponte é sempre outra: DOSBox, dgVoodoo, DXVK, Xidi.
+E por que dá tanto trabalho rodar jogo velho? Porque o Windows 11 não é o Windows 98. Ele só existe em 64 bits: DOS e 16 bits morreram. O Screamer é de DOS e usava Glide das placas 3dfx Voodoo. O Colin de 98 usa DirectX 5 com menu em 8 bits de paleta. Jogos da era XP tropeçam em DRM bloqueado desde 2015, DLL de DirectX 9 ausente e checagem de Pentium 4. Cada jogo quebra de um jeito diferente, e a ponte é sempre outra: DOSBox, dgVoodoo, DXVK, Xidi.
 
-## Slide 22 - omarchy-games-menu
+## Slide 40 - Menu de jogos do Omarchy (vídeo)
 Restam: ~42:03 (25s)
 
-Em cima dele eu fiz o omarchy-games-menu: um launcher pessoal em Rust com interface em QuickShell, seguindo o tema do Omarchy. Emulador, port de PC e as minhas versões customizadas, tudo num lugar só.
+Em cima disso eu fiz o omarchy-games-menu: um launcher pessoal em Rust com interface em QuickShell, reunindo emulador, port de PC e as minhas versões customizadas num lugar só, capa por capa.
 
-## Slide 23 - Menu de jogos do Omarchy (vídeo)
-Restam: ~41:38 (20s)
+## Slide 41 - Colin McRae pelo launcher, 16:9 em 4K (vídeo)
+Restam: ~41:38 (30s)
 
-É assim que ele fica. A coleção inteira, capa por capa, organizada por plataforma.
+Eu sempre amei Colin McRae Rally de 1998. Fiz o `rea-colin-mcrae` pra Windows e Linux: você aponta pra sua cópia do jogo e ele roda em 4K, widescreen 16:9 de verdade, 60 quadros, HUD e cenários em HD. Por baixo ainda é o executável original de 1998 — o launcher corrige o que o jogo não sabia fazer.
 
-## Slide 24 - Quiver
-Restam: ~41:18 (30s)
+## Slide 42 - Colin McRae em Rust
+Restam: ~41:08 (35s)
 
-E se você quiser um lugar só pra achar tudo isso, tem o Quiver. É um catálogo com mais de dois mil projetos da comunidade: recomps, source ports, recriações e emuladores, e um launcher grátis pra Windows, Mac, Linux e Android que instala e atualiza tudo. Ele não distribui jogo nenhum, você traz a sua cópia. E tem até um filtro pra esconder os projetos feitos com IA, o que eu acho justo: quem quiser, escolhe.
+Aí eu fui mais longe: reconstruir o jogo inteiro em Rust a partir de engenharia reversa, sem nenhum asset no repositório. São ~230 mil linhas de Rust, mais de 3 mil testes, 704 commits e as 2.018 funções originais mapeadas. Single-player completo: 56 estágios, campeonato, contra o relógio com fantasma, replay, chuva e neve (v0.1.4 pra Linux e Windows).
 
+## Slide 43 - Reconstrução em Rust rodando (vídeo)
+Restam: ~40:33 (25s)
 
-## Slide 25 - Eu sempre amei Colin McRae
-Restam: ~40:48 (30s)
+Isso aqui não é o executável original — é o código reconstruído em Rust rodando nativo.
 
-E aqui vai uma confissão: eu sempre amei Colin McRae Rally, desde o PlayStation. Esse é o Colin 2.0 no DuckStation, do jeito que era: 4:3, polígono tremendo, textura borrada. E eu fiquei pensando: dá pra jogar a versão de PC num computador moderno, do jeito certo?
+## Slide 44 - rea-launcher-sdk
+Restam: ~40:08 (25s)
 
-## Slide 26 - Launcher do Colin McRae Rally
-Restam: ~40:18 (30s)
+Depois de fazer vários launchers de Colin McRae e DiRT, extraí tudo que se repetia num framework: o `rea-launcher-sdk`. Código que vira ferramenta, que vira mais código — foi ele que gerou os launchers seguintes em horas.
 
-Deu. Esse é o rea-colin-mcrae, um launcher pro Colin McRae Rally original de PC, de 1998. Você aponta pra pasta do jogo e escolhe o visual: o original de 1998, o Enhanced na resolução da sua tela, ou um perfil pra Steam Deck. Roda em Windows e Linux.
+## Slide 45 - Bug velho, conserto em horas
+Restam: ~39:43 (40s)
 
-## Slide 27 - Colin McRae pelo launcher, look original
-Restam: ~39:48 (25s)
+Nada aqui é técnica mágica nova, e muito fix parte do trabalho da comunidade (como SilentPatch e Xidi). O que mudou foi o tempo: Colin 2005 e DiRT Rally saíram do SDK em quatro ou cinco horas cada — portar jogo abandonado levava semanas, eu fiz oito em dois dias.
 
-Primeiro o visual original, em 4:3, como saiu em 1998. Já roda liso num PC de hoje, sem gambiarra de compatibilidade.
+## Slide 46 - Rad Mobile rodando (vídeo)
+Restam: ~39:03 (25s)
 
-## Slide 28 - Colin McRae pelo launcher, 16:9 em alta resolução
-Restam: ~39:23 (25s)
+Inspirado nos ports de arcade do Wanszai, fiz o meu `rea-rad-mobile` (arcade da Sega de 1990) direto do SDK: widescreen real, filtro CRT, suporte a volante de 270 graus e force feedback sintético lendo velocidade e batidas do jogo em tempo real.
 
-Agora o mesmo jogo no modo Enhanced: widescreen, alta resolução, HUD e placas redesenhados em HD. Por baixo é o mesmo executável de 1998. O launcher só corrige o que o jogo não sabia fazer.
+## Slide 47 - O console virou arcade
+Restam: ~38:38 (30s)
 
-## Slide 29 - Cenários de fundo em HD
-Restam: ~38:58 (25s)
+No fim dos anos 90 o arcade parou de usar hardware exótico e virou hardware de console: Dreamcast → NAOMI/NAOMI 2/Atomiswave, Xbox → Chihiro, GameCube → Triforce.
 
-E olha o detalhe do fundo. O céu, as nuvens e as montanhas eram texturas borradas de 1998. Agora são cenários em HD, e numa tela larga dá pra ver a diferença de longe.
+## Slide 48 - Depois o arcade virou PC
+Restam: ~38:08 (30s)
 
+Depois o arcade virou PC de vez: Taito Type X, RingEdge (Windows embarcado) e Lindbergh (Linux). O jogo é um executável; o que falta é a placa de I/O e o dongle. Como o TeknoParrot recusa o Wine, meus launchers usam loaders abertos (OpenParrot, lindbergh-loader, Flycast) e rodam direto no Linux.
 
-## Slide 30 - rea-colin-mcrae-recomp
-Restam: ~38:33 (25s)
+## Slide 49 - Initial D THE ARCADE Season 5 rodando (vídeo)
+Restam: ~37:38 (25s)
 
-Aí eu fui mais longe. Em vez de remendar o executável, reconstruir o jogo inteiro em Rust, a partir de engenharia reversa. Sem nenhum asset do jogo no repositório: você aponta pra sua cópia.
-
-## Slide 31 - Colin McRae em Rust
-Restam: ~38:08 (40s)
-
-E não ficou na promessa. Hoje são umas 230 mil linhas de Rust, mais de 3 mil testes e 704 commits. As 2.018 funções do executável original estão mapeadas. O modo single-player está completo: os 56 estágios dos 8 países, campeonato, contra o relógio com carro fantasma, replay, chuva e neve. E no dia 20 de novembro saiu a versão 0.1.4, com download pra Linux e pra Windows. Você aponta pra sua cópia do jogo e joga. O que ficou de fora foi o multiplayer, de tela dividida e de rede.
-
-## Slide 32 - Reconstrução em Rust rodando
-Restam: ~37:28 (25s)
-
-E isso aqui não é o executável original. É o código reconstruído em Rust rodando nativo. Esse vídeo é do começo do mês. Depois dele entraram chuva, neve, replay e o carro fantasma.
-
-## Slide 33 - Colin 04, Colin 2005, DiRT e DiRT Rally
-Restam: ~37:03 (35s)
-
-E depois do primeiro eu fui com tudo. Fiz launcher pro Colin McRae Rally 04, pro Colin 2005, pro DiRT e pro DiRT Rally. Mesmo padrão: escolhe a pasta, escolhe o visual, joga em widescreen e alta resolução. No DiRT ainda tinha um crash ao carregar corrida em processador moderno, e isso foi corrigido.
-
-## Slide 34 - rea-launcher-sdk
-Restam: ~36:28 (25s)
-
-E quando eu já tinha cinco launchers, extraí o que se repetia num framework: o rea-launcher-sdk. É ele que já gerou os launchers de TeknoParrot e de Rad Mobile. Código que vira ferramenta, que vira mais código.
-
-## Slide 35 - Bug velho, conserto em horas
-Restam: ~36:03 (45s)
-
-E o que esses launchers consertam? No Colin de 1998, a corrida parava em 800 por 600. Agora vai a 4K, em widescreen de verdade, a 60 quadros, e ainda ganhou vibração nos gatilhos que o jogo nunca teve. No Colin 04, o patch de widescreen da comunidade deixava os carros 25 por cento mais estreitos, e a engenharia reversa achou o porquê. No Colin 2005, as partículas avançadas só liberavam num Pentium 4 com Hyper-Threading. Agora liberam em qualquer processador. Mas eu não vou fingir que inventei a roda. Nada aqui é técnica nova, e muito fix veio da comunidade. O que mudou foi o tempo. O Colin 2005 e o DiRT Rally saíram do SDK em umas quatro, cinco horas cada. Portar jogo abandonado levava semanas, por isso quase ninguém fazia. Eu fiz oito em uns dois dias.
-
-## Slide 36 - Sega Rally Revo e OutRun 2006
-Restam: ~35:18 (25s)
-
-E mais dois de PC. O Sega Rally Revo, de 2007, que já abre na resolução da sua tela e com o conserto do engasgo ligado. E o OutRun 2006, que usa o OutRun2006Tweaks, um mod da comunidade que tira o DRM e conserta a versão de PC. O launcher instala o mod e baixa o pacote HD pra você.
-
-## Slide 37 - Wanszai no YouTube
-Restam: ~34:53 (25s)
-
-E aqui eu preciso dar crédito pra uma inspiração. Faz tempo que eu acompanho o canal do Wanszai, que faz ports de arcade pra PC. Ele mostra tudo lá, e agora está mexendo em Daytona 2.
-
-## Slide 38 - Wanszai no GitHub
-Restam: ~34:28 (25s)
-
-E tudo isso ele publica no GitHub: Sega Rally Championship, Ridge Racer, Scud Race, Virtua Racing. Arcade clássico rodando em PC, num download só, do jeito certo. E eu sempre quis um Rad Mobile feito por ele. Só que não existia. Então eu fiz o meu, inspirado nos launchers dele, e com a coisa que eu mais queria: suporte de volante de verdade.
-
-## Slide 39 - rea-rad-mobile
-Restam: ~34:03 (25s)
-
-Esse é o meu Rad Mobile, um arcade da Sega de 1990, saído direto do SDK. Ele já vem com um MAME empacotado e com patch, roda em Windows e Linux, e você só precisa da sua ROM.
-
-## Slide 40 - Launcher do Rad Mobile
-Restam: ~33:38 (30s)
-
-E o menu você dirige com o volante. O arcade original tinha volante de 270 graus, dois pedais e nenhum motor. O launcher lê o meu volante, ajusta pra 270 graus e ainda inventa o force feedback que o gabinete nunca teve: ele lê a velocidade e as batidas do jogo rodando e gera as forças no volante.
-
-## Slide 41 - Rad Mobile rodando
-Restam: ~33:08 (25s)
-
-E é isso aqui: um arcade de 1990 em widescreen de verdade, com volante e force feedback. Até o limpador de para-brisa e o farol, que no MAME puro só funcionavam no teclado, agora funcionam no volante.
-
-## Slide 42 - O console virou arcade
-Restam: ~32:43 (35s)
-
-Uma coisa que pouca gente sabe: no fim dos anos 90 o arcade parou de usar hardware exótico e começou a usar hardware de console. O Dreamcast virou NAOMI, depois NAOMI 2, e a Sammy fez o Atomiswave na mesma base. O Xbox virou o Chihiro da Sega, que roda OutRun 2. O GameCube virou o Triforce, uma parceria da Namco, da Sega e da Nintendo. Pra quem emula, isso é ótimo: quem emula o console chega perto de emular o arcade.
-
-## Slide 43 - Depois o arcade virou PC
-Restam: ~32:08 (35s)
-
-Depois o arcade virou PC mesmo. O Taito Type X e o RingEdge da Sega rodam Windows embarcado, e o Lindbergh da Sega é um Pentium 4 com GeForce rodando Linux. O jogo é só um executável; o que falta é a placa de I/O, o dongle e a rede do gabinete. O TeknoParrot emula essas peças no Windows, o OpenParrot é a parte de código aberto, e o Lindbergh Loader roda esses jogos direto no Linux. Só que o TeknoParrot é Windows e recusa o Wine, então meus launchers trocam ele pelos loaders abertos e rodam tudo direto no Linux.
-
-## Slide 44 - Azimuth
-Restam: ~31:33 (30s)
-
-E a mesma história continua uma geração depois. O Xbox One é praticamente um PC, e o Azimuth roda as versões de Xbox One do Forza Horizon 2 e 3 e do Forza Motorsport 5 e 6 no Windows e no Linux. Não é emulador: o jogo roda nativo, e o wrapper só traduz as chamadas de sistema e de gráfico.
-
-## Slide 45 - Launcher do Wangan Midnight
-Restam: ~31:03 (30s)
-
-Eu fiz a mesma coisa pros arcades. Esse é o launcher da série Wangan Midnight, do R até o Maximum Tune 6RR, num programa só. Sem TeknoParrot: uso o OpenParrot compilado do código-fonte, com as minhas correções, e escrevi a minha própria placa de I/O falando o protocolo da Namco.
-
-## Slide 46 - Wangan Midnight rodando
-Restam: ~30:33 (25s)
-
-Isso aqui é o Maximum Tune 6R rodando no Linux, pelo launcher.
-
-## Slide 47 - Launcher do Initial D
-Restam: ~30:08 (30s)
-
-E esse é o do Initial D: do primeiro Arcade Stage, de 2002, até o THE ARCADE Season 5, de 2025. Só loader aberto, Flycast, lindbergh-loader e windowsarcadeloader, e eu corrigi o leitor de cartão, o botão Start travado e o som que crashava no Wine.
-
-## Slide 48 - Initial D rodando
-Restam: ~29:38 (25s)
-
-E esse é o THE ARCADE Season 5 rodando pelo launcher. Repara na cena em estilo mangá no meio da corrida.
-
-## Slide 49 - Sega e Nintendo
-Restam: ~29:13 (25s)
-
-E tem mais dois de arcade. Um pros jogos da Sega, que acha os seis jogos na sua pasta e escolhe sozinho o loader certo de cada um. E um pros arcades da Nintendo: F-Zero AX, Mario Kart, Luigi's Mansion. A mesma cara do Wangan e do Initial D: escolhe o jogo, aperta Play e joga.
+Esse é o Initial D THE ARCADE Season 5 rodando no Linux pelo launcher — sem TeknoParrot, com leitor de cartão, botão Start e áudio corrigidos.
 
 ## Slide 50 - Melhor que no lançamento
-Restam: ~28:48 (45s)
+Restam: ~37:13 (35s)
 
-E tem a parte que eu mais gosto: em vários jogos, o launcher deixa o jogo melhor do que era no lançamento. O Colin McRae de 98 não passava de 800 por 600 e não tinha widescreen. Agora roda em 4K, em 16:9 de verdade, mostrando mais da pista dos lados, com a arte redesenhada em alta resolução. O Screamer, que é de DOS, ganhou widescreen. O Rad Mobile, de 1990, ganhou widescreen real e filtro de CRT. E controle: o Colin original só usava o analógico, os gatilhos não faziam nada. O Colin 3 e o 04 juntavam os dois gatilhos num eixo só, então não dava pra frear com o pé esquerdo. Volante, force feedback, vibração, tudo isso entrou. E vale dizer: em vários deles a base é da comunidade, como o SilentPatch e a interface em HD do Bekoha. O launcher junta tudo e configura pra você.
+Em vários jogos o launcher entrega melhor que no lançamento: 4K widescreen real, gatilhos independentes, volante com force feedback e correções de bugs antigos — sempre creditando a base da comunidade (SilentPatch, Xidi, Bekoha).
 
-## Slide 51 - Achados de verdade
-Restam: ~28:03 (45s)
+## Slide 51 - 14 launchers rea-*
+Restam: ~36:38 (35s)
 
-E não foi só empacotar. A engenharia reversa achou coisa. No Screamer, de 1995, um jogo de DOS, consegui widescreen de verdade mexendo na matriz da câmera, e descobri por que destravar o FPS quebra o jogo: a física roda presa a 50 hertz. No Screamer 2 da GOG, o driver 3dfx que vem junto é de Windows e não funciona no DOS; com o driver do Screamer Rally, o modo 3dfx volta. O DiRT Rally de Linux crashava em todo Ryzen 5000 pra cima, porque o jogo lê uma memória que ele mesmo marcou só pra executar. E o Sega Rally Revo engasgava uma vez por segundo no Windows porque, desde o Windows 10 2004, o timer de 1 milissegundo é por processo, e o jogo nunca pedia o dele.
-
-## Slide 52 - Arcade no Linux, sem TeknoParrot
-Restam: ~27:18 (45s)
-
-Nos arcades foi a mesma coisa, sem TeknoParrot. O Initial D 4 crashava em toda largada. Com um watchpoint de hardware achei o culpado: o leitor de cartão emulado escrevia fora do próprio objeto e apagava o objeto dos controles. O conserto foi um byte. No Wangan, a interface do TeknoParrot fazia o papel da placa de I/O do gabinete, então escrevi a minha, falando o protocolo da Namco. Os jogos da Nintendo rodam no Dolphin oficial, e os da Sega ganharam o câmbio H do gabinete e o volante de 270 graus.
-
-## Slide 53 - 14 launchers rea-*
-Restam: ~26:33 (40s)
-
-Somando tudo, são catorze launchers. Na esquerda, jogos antigos de PC: Colin McRae, DiRT, Screamer. Na direita, Sega e arcade: OutRun, Sega Rally, Rad Mobile, Initial D, Wangan e os arcades da Nintendo. A regra é sempre a mesma: você usa a sua cópia, a pasta original só é lida, e o launcher roda de uma cópia privada.
+Somando tudo, são 14 launchers `rea-*`: na esquerda PC clássico (Colin McRae, DiRT, Screamer), na direita Sega e arcade (OutRun, Sega Rally, Rad Mobile, Initial D, Wangan e arcades da Nintendo). A regra é sempre a mesma: você traz a sua cópia, a pasta original fica intacta.
 
 ## Slide 54 - Games no AI Lair
 Restam: ~25:53 (25s)
 
 E se você quiser ver tudo isso com calma, está tudo documentado no meu site, na página de games: o distrobox-gaming, o menu do Omarchy, os launchers de corrida e até um joguinho que eu fiz. Só lembrando: você precisa da sua própria cópia de cada jogo, nenhum launcher traz arquivo de jogo.
+
+## Slide 53 - github.com/akitaonrails/my-skills
+Restam: ~25:53 (20s)
+
+E pra fechar a palestra com as lições aprendidas de um ano construindo e mantendo sessenta projetos abertos: tudo o que deu certo foi parar num repositório público chamado `my-skills`.
+
+## Slide 54 - Processo versionado: my-skills
+Restam: ~25:33 (35s)
+
+São mais de vinte e quatro skills em markdown linkadas por symlink em todos os harnesses da minha máquina — Claude Code, Codex, opencode, Kimi, Antigravity. Editei uma regra num lugar, todos os agentes herdam. Só um aviso que está no topo do README: não copie minhas skills no escuro, porque elas têm as minhas premissas. Use como referência e peça pro seu LLM escrever as suas. Modelo é alugado; o processo é seu.
+
+## Slide 54 - A esteira de manutenção em 5 skills
+Restam: ~24:53 (40s)
+
+Na manutenção do dia a dia dos meus repositórios abertos, eu peço pro harness exatamente essa esteira: `pr-audit`, `iss-audit`, `github-resolution`, `pr-post-audit` e `release`. A regra central é separar julgamento de execução. `pr-audit` e `iss-audit` nunca fazem merge: eles auditam evidência no código, não a narrativa do autor. Só depois do meu OK entra o `github-resolution`, resolvendo um ticket por vez até ter teste e documentação em dia. Depois o `pr-post-audit` valida a árvore combinada na `main` — porque dois PRs verdes isolados podem quebrar juntos. E o `release` só corta tag e publica quando eu peço explicitamente.
+
+## Slide 55 - Trust Boundary & Hard Quality Bar
+Restam: ~24:13 (35s)
+
+No topo de todas essas skills existem duas travas inegociáveis. A primeira é o Trust Boundary: no mundo de agentes, qualquer PR ou issue pública pode esconder prompt injection. Então título, comentário, diff e log de terceiro são sempre dados não confiáveis, nunca instruções — e um PR que edita o `CLAUDE.md` não muda as regras da própria auditoria. A segunda é a Hard Quality Bar: zero código malicioso, zero slop de IA, todo fix com teste que falha sem ele e documentação sincronizada. Um merge lento e certo sempre ganha de uma regressão rápida.
+
+## Slide 56 - O que é Agile Vibe Coding de verdade
+Restam: ~23:38 (40s)
+
+E isso fecha o círculo com o título do primeiro slide: Agile Vibe Coding. O segredo não é um prompt mágico nem o modelo que saiu ontem no X. É a engenharia que você monta em volta do agente: cerca no kernel com `ai-jail`, memória independente do fornecedor com `ai-memory`, e processo repetível com `my-skills` — auditoria, worktrees, verificação, segurança, simplificação e `reflect` pra transformar cada padrão repetido em skill nova. Vibe coding sem método multiplica dívida técnica em dez vezes. Agile Vibe Coding é iterar rápido porque a engenharia em volta segura o tranco.
 
 ## Slide 55 - Obrigado
 Restam: ~25:28 (10s)

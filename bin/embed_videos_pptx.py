@@ -50,12 +50,9 @@ def game_video(name: str, volume: float) -> VideoSpec:
 
 VIDEO_SPECS: dict[str, VideoSpec] = {
     "omarchy-games-menu": game_video("omarchy-games-menu", volume=0.0),
-    "colin-duckstation": game_video("colin-duckstation", volume=0.25),
-    "colin-launcher-default": game_video("colin-launcher-default", volume=0.25),
     "colin-launcher-4k": game_video("colin-launcher-4k", volume=0.25),
     "colin-recomp-4k": game_video("colin-recomp-4k", volume=0.25),
     "rad-mobile": game_video("rad-mobile", volume=0.25),
-    "wangan-6r": game_video("wangan-6r", volume=0.25),
     "initial-d-ta5": game_video("initial-d-ta5", volume=0.25),
 }
 

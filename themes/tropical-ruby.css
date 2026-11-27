@@ -481,44 +481,57 @@ section table.launchers td.md {
 }
 
 /* ---------------------------------------------------------------
- * AI section (slides 1-20): dark like the retro block, but warm.
- * Retro = cool teal slate with amber glow, flat.
- * AI    = wine / umber / olive ink with a faint dot-matrix "token"
- *         texture, brass eyebrows, lighter ruby accents.
+ * Gambiconf 2026 identity (section.ai): dark hacker-workshop grounds
+ * inspired by gambiconf.dev (flame orange #f34b21, tangerine #ff8915,
+ * terminal lime #9ee36a) with blueprint dot-grid and 3px brand ribbon.
+ *   ai-wine  -> Carbon-Flame (keynote/thesis/caveats)
+ *   ai-umber -> Workbench-Tangerine (benchmarks/data/mechanics)
+ *   ai-olive -> Terminal-Lime (tools/local-AI/agile-practice)
  * ------------------------------------------------------------- */
 section.ai {
-  --ai-text: #f3ece2;
-  --ai-soft: #cfc4b6;
-  --ai-brass: #d8b46e;
-  --ai-ruby: #ec8370;
-  --ai-moss: #a5c9a6;
-  --ai-line: rgba(243, 236, 226, 0.16);
-  --ai-dots: radial-gradient(rgba(243, 236, 226, 0.075) 1.2px, transparent 1.6px) 0 0 / 22px 22px;
+  --ai-text: #f7f3ec;
+  --ai-soft: #c9c0b5;
+  --ai-brass: #ff9f2e;
+  --ai-ruby: #ff5b32;
+  --ai-moss: #9ee36a;
+  --ai-line: rgba(255, 240, 224, 0.15);
+  --ai-dots: radial-gradient(rgba(255, 232, 206, 0.065) 1.2px, transparent 1.6px) 0 0 / 22px 22px;
   color: var(--ai-text);
+}
+
+section.ai::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #f34b21 0%, #ff8915 55%, #9ee36a 100%);
+  pointer-events: none;
 }
 
 section.ai.ai-wine {
   background:
     var(--ai-dots),
-    radial-gradient(circle at 84% 12%, rgba(236, 131, 112, 0.20), transparent 26%),
-    radial-gradient(circle at 10% 88%, rgba(216, 180, 110, 0.12), transparent 30%),
-    linear-gradient(180deg, #2c1a1d, #1b1012);
+    radial-gradient(circle at 86% 12%, rgba(243, 75, 33, 0.22), transparent 28%),
+    radial-gradient(circle at 10% 88%, rgba(255, 137, 21, 0.14), transparent 32%),
+    linear-gradient(180deg, #1d1518, #0f0b0d);
 }
 
 section.ai.ai-umber {
   background:
     var(--ai-dots),
-    radial-gradient(circle at 86% 14%, rgba(216, 180, 110, 0.20), transparent 26%),
-    radial-gradient(circle at 10% 86%, rgba(236, 131, 112, 0.10), transparent 30%),
-    linear-gradient(180deg, #2a2118, #1a140e);
+    radial-gradient(circle at 86% 14%, rgba(255, 137, 21, 0.20), transparent 28%),
+    radial-gradient(circle at 10% 86%, rgba(158, 227, 106, 0.10), transparent 32%),
+    linear-gradient(180deg, #1d1712, #100c09);
 }
 
 section.ai.ai-olive {
   background:
     var(--ai-dots),
-    radial-gradient(circle at 82% 14%, rgba(165, 201, 166, 0.16), transparent 26%),
-    radial-gradient(circle at 12% 84%, rgba(216, 180, 110, 0.12), transparent 30%),
-    linear-gradient(180deg, #24261b, #161810);
+    radial-gradient(circle at 84% 14%, rgba(158, 227, 106, 0.16), transparent 28%),
+    radial-gradient(circle at 10% 86%, rgba(255, 137, 21, 0.12), transparent 32%),
+    linear-gradient(180deg, #111c1a, #09100f);
 }
 
 section.ai h1,
@@ -748,17 +761,17 @@ section .term img {
 .cost-track { flex: 1 1 auto; height: 15px; }
 .cost-bar { display: block; height: 100%; border-radius: 0 4px 4px 0; }
 .cost-val { flex: 0 0 92px; font-variant-numeric: tabular-nums; color: #cfc4b6; }
-.cost-row.t-c .cost-bar { background: #a5c9a6; }
-.cost-row.t-m .cost-bar { background: #d8b46e; }
-.cost-row.t-h .cost-bar { background: #ec8370; }
-.cost-row.t-c .cost-val { color: #a5c9a6; font-weight: 700; }
+.cost-row.t-c .cost-bar { background: #9ee36a; }
+.cost-row.t-m .cost-bar { background: #ff9f2e; }
+.cost-row.t-h .cost-bar { background: #ff5b32; }
+.cost-row.t-c .cost-val { color: #9ee36a; font-weight: 700; }
 .cost-legend {
   display: flex;
   justify-content: center;
   gap: 26px;
   margin-top: 10px;
   font-size: 16px;
-  color: #cfc4b6;
+  color: #c9c0b5;
 }
 .cost-legend span::before {
   content: "";
@@ -769,9 +782,29 @@ section .term img {
   margin-right: 8px;
   vertical-align: -1px;
 }
-.cost-legend .t-c::before { background: #a5c9a6; }
-.cost-legend .t-m::before { background: #d8b46e; }
-.cost-legend .t-h::before { background: #ec8370; }
+.cost-legend .t-c::before { background: #9ee36a; }
+.cost-legend .t-m::before { background: #ff9f2e; }
+.cost-legend .t-h::before { background: #ff5b32; }
+.cost-legend .t-p::before { background: #f7f3ec; border: 2px solid #9ee36a; box-sizing: border-box; }
+.cost-row.pick {
+  background: rgba(158, 227, 106, 0.14);
+  border-radius: 6px;
+  margin: 0 -10px;
+  padding: 0 10px;
+}
+.cost-row.pick .cost-name { color: #9ee36a; font-weight: 800; }
+.cost-row.pick .cost-val { color: #f7f3ec; font-weight: 800; }
+.cost-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: rgba(158, 227, 106, 0.22);
+  color: #9ee36a;
+  font-size: 0.72em;
+  font-weight: 700;
+  vertical-align: 1px;
+}
 
 /* Slide 51: what the launchers add on top of the original games (before -> after). */
 .upg-wrap { display: flex; gap: 30px; max-width: 1220px; margin: 0 auto; text-align: left; }

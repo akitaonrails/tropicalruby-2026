@@ -6,3 +6,8 @@ build/*
 .ai-jail
 .lobster/
 __pycache__/
+
+# BEGIN oh-my-opencode-slim worktrees
+.slim/worktrees/
+.slim/worktrees.json
+# END oh-my-opencode-slim worktrees
