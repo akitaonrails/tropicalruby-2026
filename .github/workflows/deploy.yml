@@ -3,7 +3,7 @@ name: Build and deploy deck
 on:
   push:
     branches:
-      - c3-expo-2026
+      - gambiconf-2026
   workflow_dispatch:
 
 permissions:

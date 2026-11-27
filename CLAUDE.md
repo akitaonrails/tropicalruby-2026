@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-A Marp-based keynote deck for **Canal 3 Expo 2026** (C3 Expo, a retro-gaming event in Brazil — https://c3expo.com.br/; adapted from the Beyond Summit 2026 version). Most changes touch talk structure, wording, layout, or export quality. The talk is in pt-BR, authored by Fabio Akita.
+A Marp-based keynote deck for **Gambiconf 2026** (*Agile Vibe Coding — Entendendo "IA" Direito*, https://gambiconf.dev/; evolved from the Canal 3 Expo 2026 and Beyond Summit 2026 editions). Most changes touch talk structure, wording, layout, or export quality. The talk is in pt-BR, authored by Fabio Akita.
 
 ## Key files
 
@@ -56,11 +56,11 @@ Presenter notes live as HTML comments (`<!-- ... -->`) in the slide markdown.
 
 ## Visual language
 
-- Slides 1-19 (AI section) use `_class: ... ai ai-wine|ai-umber|ai-olive`: warm dark grounds (wine, umber, olive) with a faint dot-matrix texture, brass eyebrows, light ruby/moss accents. Defined at the end of `themes/tropical-ruby.css`.
-- Slides 20-53 (retro block) use `tone-extra-dark rg rg-<chapter>`: cool night grounds with faint CRT scanlines, one ground + accent per chapter (`--ruby` is overridden per chapter): `rg-linux` 20-24 (indigo/cyan), `rg-rally` 25-36 (forest/amber), `rg-arcade` 37-43 (violet/magenta), `rg-street` 44-49 (asphalt/sodium orange), `rg-dossier` 50-53 (graphite/coral). New retro slides take their chapter's class.
+- AI / toolkit / Agile Vibe Coding slides (`ai ai-wine|ai-umber|ai-olive`) use the **Gambiconf 2026** dark hacker-workshop identity: carbon-flame (`#f34b21`), workbench-tangerine (`#ff8915`), and terminal-lime (`#9ee36a`) with a blueprint dot-grid and a 4px top gradient ribbon. Defined at the end of `themes/tropical-ruby.css`.
+- Retro block slides (slides 35–48) use `tone-extra-dark rg rg-<chapter>`: cool night grounds with faint CRT scanlines, one ground + accent per chapter (`--ruby` is overridden per chapter): `rg-linux`, `rg-rally`, `rg-arcade`, `rg-street`, `rg-dossier`. New retro slides take their chapter's class.
 - Keep the two families distinct; do not reuse the light `tone-moss/ruby/sand` paper tones for new slides in either block.
-- Background photos in slides 1-19 use `![bg cover opacity:.15 blur:7px]` so they never compete with the text.
-- The title slide uses `assets/akita-portrait-cutout.png` (transparent background) so the portrait sits on the dark ground.
+- Background photos in `section.ai` slides use `![bg cover opacity:.15 blur:7px]` so they never compete with the text.
+- The title slide uses `assets/akita-portrait-cutout.png` (transparent background) and `assets/gambiconf-logo.png`.
 
 ## Slide and layout workflow
 

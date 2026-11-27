@@ -1,4 +1,4 @@
-# Canal 3 Expo 2026: Retrogame na era das IAs
+# Gambiconf 2026: Agile Vibe Coding
 
 **[View the presentation live](https://akitaonrails.github.io/tropicalruby-2026/)**
 
@@ -10,9 +10,10 @@
 | TotalPass 2026 | [`totalpass2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/totalpass2026) | Longer lecture version |
 | Beyond Summit 2026 | [`beyondsummitey`](https://github.com/akitaonrails/tropicalruby-2026/tree/beyondsummitey) | Beyond Summit edition |
 | Web Summit Rio 2026 | [`web-summit-rio-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/web-summit-rio-2026) | Condensed 20-minute technology pitch |
-| Canal 3 Expo 2026 | [`c3-expo-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/c3-expo-2026) | Retro-gaming event edition: AI half + retro launchers half (current live deck) |
+| Canal 3 Expo 2026 | [`c3-expo-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/c3-expo-2026) | Retro-gaming event edition: AI half + retro launchers half |
+| Gambiconf 2026 | [`gambiconf-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/gambiconf-2026) | Keynote edition: Agile Vibe Coding, LLM benchmarks (commercial + open-weight), `ai-jail`/`ai-memory`, condensed retro launchers, and `my-skills` (current live deck) |
 
-This branch holds the deck for the [Canal 3 Expo 2026](https://c3expo.com.br/) talk, a retro-gaming event in Brazil. It is the edition published at the live link above (GitHub Pages deploys from `c3-expo-2026`).
+This branch holds the keynote deck for [Gambiconf 2026](https://gambiconf.dev/) (*Agile Vibe Coding — Entendendo "IA" Direito*). It is the edition published at the live link above (GitHub Pages deploys from `gambiconf-2026`).
 The slides are authored in Marp, the script lives separately, and the deck is exported to HTML, PDF, and PPTX from the same source.
 
 ## Main files
@@ -56,10 +57,10 @@ bin/build-slides
 
 Artifacts are written to `build/`, named after the current git branch (`bin/deck-name`; override with `DECK_NAME=...`). On this branch:
 
-- `build/c3-expo-2026.html`: the deck served on GitHub Pages (`index.html` redirects to it; the build updates the redirect)
-- `build/c3-expo-2026.pdf`
-- `build/c3-expo-2026.pptx`: raw Marp export, with presenter notes
-- `build/c3-expo-2026.with-video.pptx`: the same PPTX with the game clips embedded in the file (autoplay, no loop: looping video can hang LibreOffice's slideshow)
+- `build/gambiconf-2026.html`: the deck served on GitHub Pages (`index.html` redirects to it; the build updates the redirect)
+- `build/gambiconf-2026.pdf`
+- `build/gambiconf-2026.pptx`: raw Marp export, with presenter notes
+- `build/gambiconf-2026.with-video.pptx`: the same PPTX with the 5 game clips embedded in the file (autoplay, no loop: looping video can hang LibreOffice's slideshow)
 
 ### Preview the script
 
@@ -92,13 +93,15 @@ If you move or redesign a slide that contains an embedded PPTX video:
 
 ## Narrative structure
 
-This edition has two halves and a short ending.
+This edition has 64 slides organized into four main blocks and a closing:
 
-- **AI half (slides 1-19)**: speaker bio, "Heróis ou Vilões", what LLMs are and cost (stochastic parrots), the October top 20 benchmark table, the internet tier list, the v5 cost ranking ("Quanto custa ser competente"), "Não era exponencial", the 2025 agents timeline, the December 2025 turn, the 2026 project marathon, metrics, CLI tools, ai-jail / ai-memory, "Developer 10x?" and the "Competente o Suficiente" book
-- **Retro half (slides 20-53)**: distrobox-gaming, the "Jogo velho não roda no Windows 11" diagram, the Omarchy games menu, Quiver, Colin McRae (DuckStation, launcher, 16:9, HD backgrounds, Rust recomp), the other PC rally launchers, Sega Rally Revo and OutRun 2006, rea-launcher-sdk, Wanszai and Rad Mobile, the console-to-arcade and arcade-to-PC diagrams, Azimuth, Wangan Midnight and Initial D, the Sega and Nintendo arcade launchers, the "Melhor que no lançamento" before-and-after list, the two "findings" slides and the table of 14 rea-* launchers
-- **Ending**: AI Lair games page, `OBRIGADO`, and the newsletter slide with a QR code, left up during Q&A
+- **AI & Benchmarks (slides 1–19)**: Gambiconf 2026 title, speaker bio, "Heróis ou Vilões", "Papagaios Estocásticos", LLM Benchmark v4/v5 convergence & cost arc ("Qualidade convergiu", X tier list, "16 de 16 passaram / 95×", "Preço de tabela engana", "Zero FOMO: Gemini 4 Neon / Opus 5.5 / GPT-6.2 Sol"), China/hardware caveats (Nvidia 10-K/10-Q Singapore 22% surge, Gamers Nexus smuggling, Alice Huang / Megaspeed & Malaysia/Indonesia remote cloud loophole, Anthropic/OpenAI distillation), open-weight benchmarks (4× B300 vs. Anthropic/OpenAI economics, Strix Halo vs. RTX 5090 + Basalt, Thinking Machines Lab / Mira Murati, Inkling 2 Mini Looped MoE), and "Não era exponencial"
+- **Agents & Toolkit (slides 20–34)**: 2025 agents timeline, December 2025 turn, 2026 GitHub marathon wall, CLI tools, `ai-jail` (Arch AUR install, kernel wall vs. built-in sandbox, guided TUI), `ai-memory` (Arch AUR install, Capture→Consolidate→Recall→Handoff, retention/compaction + Git `restore-page`, multi-agent team server, 214-contributor community mosaic)
+- **Condensed Retro / REA Proof (slides 35–49)**: 14-slide streamlined retro block (`distrobox-gaming`, Windows 11 legacy diagram, Omarchy games menu video, Colin McRae 4K launcher & Rust recompilation stats + video, `rea-launcher-sdk`, "Bug velho, conserto em horas", Rad Mobile video, console→arcade→PC diagrams, Initial D S5 video, "Melhor que no lançamento", 14 `rea-*` launchers summary, AI Lair games page)
+- **Lessons Learned & Agile Vibe Coding (slides 50–61)**: `github.com/akitaonrails/my-skills` intro, symlinked skill architecture, 5-skill maintenance pipeline (`pr-audit`, `iss-audit`, `github-resolution`, `pr-post-audit`, `release`), Trust Boundary & Hard Quality Bar, "O que é Agile Vibe Coding de verdade", "Números que pesam", "Você não tem objetivos", "O sprint ideal", "Codar é Barato. Errar é Barato.", "Agile Vibe Coding é XP com pareamento de máquina", "O pareamento mudou", and "Alcançamos 'Developer 10x'?"
+- **Ending (slides 62–64)**: *Competente o Suficiente* book, `OBRIGADO`, and the *The M.Akita Chronicles* newsletter QR slide (left up during Q&A)
 
-Visual language: the AI half uses warm dark grounds with a dot texture (`ai ai-wine|ai-umber|ai-olive`); the retro half uses cool night grounds with scanlines, one per chapter (`rg-linux`, `rg-rally`, `rg-arcade`, `rg-street`, `rg-dossier`). Both are defined at the end of `themes/tropical-ruby.css`.
+Visual language: the AI / toolkit / Agile Vibe Coding slides use the **Gambiconf 2026** dark hacker-workshop identity (`ai ai-wine|ai-umber|ai-olive` — carbon-flame `#f34b21`, workbench-tangerine `#ff8915`, terminal-lime `#9ee36a`, blueprint dot-grid, and a 4px top gradient ribbon); the retro block keeps cool night grounds with scanlines (`rg-linux`, `rg-rally`, `rg-arcade`, `rg-street`, `rg-dossier`). Both are defined at the end of `themes/tropical-ruby.css`.
 
 The highlight slides about the launchers carry credit caveats in their notes: several fixes build on community work, so do not claim "nobody fixed it before".
 
