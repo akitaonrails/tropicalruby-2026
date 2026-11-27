@@ -494,26 +494,26 @@ Restam: ~49:50 (35s)
     <div class="eyebrow" style="margin-bottom:6px;color:#9ee36a;">RTX 5090 • 32 GB GDDR7 + Basalt</div>
     <div style="font-size:1.18em;font-weight:800;color:#f7f3ec;margin-bottom:10px;">1.792 GB/s — finalmente rápido</div>
     <div style="font-size:0.78em;line-height:1.45;color:#f7f3ec;">
-      <strong>1. Qwen3.8 Flash-Next (<code>Q2_0</code>)</strong><br />
-      <span class="mini">377–400 tok/s • 5,5m • <em>mas</em> 2-bit + 30–42 GB na RAM</span>
+      <strong style="color:#9ee36a;">1. Qwen3.8 Flash-Next (<code>IQ3_S</code>) ★</strong><br />
+      <span class="mini">Melhor geral (<strong>98,4</strong> no canary v3 • 15/18), mais lento (76m) por usar RAM — <strong>meu padrão na 5090</strong></span>
     </div>
     <div style="margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,240,224,0.14);font-size:0.78em;line-height:1.45;color:#f7f3ec;">
-      <strong style="color:#9ee36a;">2. Inkling 2 Mini (<code>NVFP4</code>) ★</strong><br />
-      <span class="mini">250–346 tok/s • <strong>0 GB RAM</strong> • 2,1 s TTFT • nativo</span>
+      <strong>2. Inkling 2 Mini (<code>NVFP4</code>)</strong><br />
+      <span class="mini">Colado (<strong>94,3</strong> • 13/18) e <strong>2,2× mais rápido</strong> (34m) • 0 GB RAM — <strong>ideal abaixo da 5090</strong></span>
     </div>
   </div>
 </div>
 
-<div class="lead" style="max-width:1080px;margin:20px auto 0 auto;text-align:center;font-size:0.86em;">O engine importa tanto quanto o modelo: <strong>Basalt</strong> deu 2,3× no Inkling e 400 tok/s no Qwen.</div>
+<div class="lead" style="max-width:1080px;margin:20px auto 0 auto;text-align:center;font-size:0.86em;">O engine importa tanto quanto o modelo: <strong>Basalt</strong> deu 2,3× no Inkling e destravou a 5090.</div>
 
 <!--
 Restam: ~49:15 (40s)
 
 - E pra rodar em casa, sem pagar API? Testei no AMD Strix Halo (64 GB unificada) e na RTX 5090 (32 GB GDDR7).
 - Strix Halo tem memória de sobra, mas pouca banda (~256 GB/s): Qwen3.8 Q2_0 segura 55–65 tok/s, mas prompt longo leva ~2 min de prefill.
-- Na RTX 5090 com o engine Basalt (que explora FP4 nativo da Blackwell), finalmente chegamos num nível que não te faz esperar:
-  - Qwen3.8 Flash-Next Q2_0 bate 377–400 tok/s e fecha o hard canary em 5,5 min — mas esmagado em 2-bit e jogando 30–42 GB na RAM.
-  - E aí em novembro chegou um nome que muita gente nem conhecia: Inkling 2 Mini.
+- Na RTX 5090 com Basalt, os dois jogam em alto nível no novo canary v3 de 18 tarefas:
+  - Qwen3.8 Flash-Next (IQ3_S) venceu na qualidade geral (98,4 • 15/18 perfeitos), mas levou 76 min porque vaza pra RAM — ainda assim, continua sendo minha escolha na 5090.
+  - Inkling 2 Mini (NVFP4) ficou colado (94,3 • 13/18 perfeitos), rodou 2,2x mais rápido (34 min) em ~20 GB de VRAM sem encostar na RAM — recomendação direta pra GPUs abaixo da 5090.
 -->
 ---
 <!-- _class: ai ai-olive -->
@@ -554,7 +554,7 @@ Restam: ~48:35 (30s)
 <!-- _class: ai ai-olive -->
 <div class="eyebrow">Thinking Machines Lab • Apache 2.0 • nov/2026</div>
 
-# O novo campeão caseiro: <span class="em-moss">Inkling 2 Mini</span>
+# O melhor local compacto: <span class="em-moss">Inkling 2 Mini</span>
 
 <div style="display:flex;gap:28px;align-items:center;margin-top:18px;">
   <div style="flex:0 0 47%;">
@@ -581,17 +581,17 @@ Restam: ~48:35 (30s)
   </div>
   <div style="flex:1 1 0;display:flex;flex-direction:column;gap:14px;text-align:left;">
     <div class="card" style="padding:18px 22px;background:rgba(158,227,106,0.10);border:1.5px solid rgba(158,227,106,0.5);">
-      <div class="eyebrow" style="margin-bottom:4px;color:#9ee36a;">Hard Canary (5090 + Basalt)</div>
-      <div style="font-size:1.0em;font-weight:800;color:#f7f3ec;margin-bottom:4px;">100 / 100 / 100 (36/36 testes)</div>
-      <div class="mini" style="font-size:0.68em;">250–346 tok/s • 2,1 s TTFT • 6,6 GiB VRAM livres</div>
+      <div class="eyebrow" style="margin-bottom:4px;color:#9ee36a;">Canary v3 • 18 tarefas (5090 + Basalt)</div>
+      <div style="font-size:1.0em;font-weight:800;color:#f7f3ec;margin-bottom:4px;">94,3 em 34 min (13/18 perfeitos)</div>
+      <div class="mini" style="font-size:0.68em;">250–346 tok/s • 0 GB RAM • ~20 GB NVFP4 • contexto 1M</div>
     </div>
     <div class="card" style="padding:18px 22px;">
-      <div class="eyebrow" style="margin-bottom:4px;">Por que bateu o Qwen 3.8</div>
-      <div style="font-size:0.8em;line-height:1.38;color:#f7f3ec;">Precisão nativa <code>NVFP4</code> (<strong>97,8%</strong>), <strong>0 GB RAM</strong> e contexto <strong>1M</strong>.</div>
+      <div class="eyebrow" style="margin-bottom:4px;">vs. Qwen3.8 Flash-Next (IQ3_S)</div>
+      <div style="font-size:0.8em;line-height:1.38;color:#f7f3ec;">Qwen vence em qualidade geral (<strong>98,4</strong> • 15/18), mas leva <strong>2,2× mais tempo</strong> (76m) por vazar pra RAM.</div>
     </div>
     <div class="card" style="padding:18px 22px;">
-      <div class="eyebrow" style="margin-bottom:4px;">Trade-off</div>
-      <div style="font-size:0.8em;line-height:1.38;color:#f7f3ec;">Mais verboso (<code>9,8m</code> × <code>5,5m</code>) e lento no Strix. Na 5090: <strong>Inkling + Qwen</strong>.</div>
+      <div class="eyebrow" style="margin-bottom:4px;">Veredito</div>
+      <div style="font-size:0.8em;line-height:1.38;color:#f7f3ec;">Na <strong>5090</strong>, continuo preferindo <strong>Qwen3.8</strong>. Em GPUs <strong>abaixo da 5090</strong>, vá de <strong>Inkling 2 Mini</strong>.</div>
     </div>
   </div>
 </div>
@@ -601,8 +601,9 @@ Restam: ~48:05 (40s)
 
 - Criado pela Thinking Machines Lab (startup da Mira Murati, ex-CTO da OpenAI), licença Apache 2.0, lançado em 20 de novembro de 2026.
 - O truque arquitetural é genial: Looped MoE — 24 camadas físicas onde as 12 do meio rodam 3 vezes por token, entregando profundidade lógica de 48 camadas em ~20 GB.
-- Cabe 100% na VRAM da RTX 5090 com 6,6 GiB livres, zero offload de RAM, precisão nativa NVFP4 (97,8% vs BF16), janela de 1M de tokens e 100/100/100 no meu hard canary.
-- Trade-off honesto: pensa mais alto (9,8 min vs 5,5 min do Qwen 3.8 Q2_0) e o loop estoura a banda do Strix Halo (14–25 tok/s). Por isso na 5090 o Inkling virou meu padrão local com o Qwen do lado.
+- No meu novo canary v3 de 18 tarefas, o Inkling 2 Mini fez 94,3 em 34 min (13/18 perfeitos), rodando 100% na VRAM em NVFP4 nativo (250–346 tok/s, 0 GB RAM, contexto 1M).
+- Comparando direto com o Qwen3.8 Flash-Next (IQ3_S): o Qwen venceu na qualidade geral (98,4 • 15/18 perfeitos), mas levou 2,2x mais tempo (76 min) por precisar de RAM.
+- Conclusão prática: na RTX 5090 eu continuo preferindo o Qwen3.8 pela qualidade; pra qualquer GPU abaixo da 5090 (24 GB ou menos), o Inkling 2 Mini é a recomendação certa.
 -->
 
 ---
