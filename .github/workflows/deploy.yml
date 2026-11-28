@@ -19,21 +19,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository (all branches + LFS)
+      - name: Check out repository (all branches)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          lfs: true
+          lfs: false
 
-      - name: Fetch Git LFS assets for all published branches
+      - name: Fetch Git LFS media assets for all published branches
         run: |
-          git lfs fetch origin \
-            master \
-            totalpass2026 \
-            beyondsummitey \
-            web-summit-rio-2026 \
-            c3-expo-2026 \
-            gambiconf-2026
+          git lfs fetch --include="assets/**" origin \
+            origin/master \
+            origin/totalpass2026 \
+            origin/beyondsummitey \
+            origin/web-summit-rio-2026 \
+            origin/c3-expo-2026 \
+            origin/gambiconf-2026
+          git lfs checkout assets/
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -69,7 +70,7 @@ jobs:
             else
               src_dir="/tmp/wt/$slug"
               git worktree add --detach "$src_dir" "origin/$branch"
-              (cd "$src_dir" && git lfs checkout)
+              (cd "$src_dir" && git lfs checkout assets/ || true)
             fi
 
             cp "$src_dir/$src_html" "_site/build/$slug.html"
