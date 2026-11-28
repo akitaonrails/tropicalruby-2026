@@ -320,6 +320,42 @@ Restam: ~52:25 (40s)
 -->
 ---
 <!-- _class: center ai ai-wine -->
+<div class="eyebrow">A narrativa pop • DeepSeek, GLM, Qwen</div>
+
+# O mito do <span class="em-ruby">"milagre" isolado</span>
+
+<div style="display:flex;gap:18px;max-width:1140px;margin:24px auto 0 auto;text-align:left;align-items:stretch;">
+  <div class="card" style="flex:1 1 0;padding:22px 24px;">
+    <div style="font-size:0.72em;letter-spacing:0.1em;text-transform:uppercase;color:#ff8915;font-weight:800;margin-bottom:8px;">Mito 1 • Zero EUA</div>
+    <div style="font-size:1.12em;font-weight:900;color:#f3ece2;margin-bottom:10px;">"Sem nada americano"</div>
+    <div style="font-size:0.8em;line-height:1.42;color:#c9c0b5;">Teriam chegado na fronteira 100% isolados, sem depender de modelos nem tecnologia dos EUA.</div>
+  </div>
+  <div class="card" style="flex:1 1 0;padding:22px 24px;">
+    <div style="font-size:0.72em;letter-spacing:0.1em;text-transform:uppercase;color:#ff8915;font-weight:800;margin-bottom:8px;">Mito 2 • Hardware barato</div>
+    <div style="font-size:1.12em;font-weight:900;color:#f3ece2;margin-bottom:10px;">"Só placa barata"</div>
+    <div style="font-size:0.8em;line-height:1.42;color:#c9c0b5;">Com o embargo, só sobrou GPU capada e barata — treinaram fronteira com troco de pinga.</div>
+  </div>
+  <div class="card" style="flex:1 1 0;padding:22px 24px;border-color:rgba(243,75,33,0.45);background:rgba(243,75,33,0.08);">
+    <div style="font-size:0.72em;letter-spacing:0.1em;text-transform:uppercase;color:#f34b21;font-weight:800;margin-bottom:8px;">Mito 3 • Criatividade forçada</div>
+    <div style="font-size:1.12em;font-weight:900;color:#f3ece2;margin-bottom:10px;">"Escassez gerou gênios"</div>
+    <div style="font-size:0.8em;line-height:1.42;color:#c9c0b5;">Os EUA só jogam dinheiro; o bloqueio teria forçado os chineses a serem muito mais criativos.</div>
+  </div>
+</div>
+
+<div class="lead" style="max-width:1100px;margin:24px auto 0 auto;text-align:center;font-size:0.88em;">A engenharia chinesa é real — mas essa história de isolamento <strong>não sobrevive aos dados</strong>.</div>
+
+<!--
+Restam: ~51:45 (30s)
+
+- Você já ouviu essa história mil vezes nas redes sobre DeepSeek, GLM e Qwen:
+  1. Que chegaram na fronteira 100% isolados, sem nada dos EUA.
+  2. Que só tinham hardware velho/barato por causa das sanções.
+  3. Que essa escassez "forçou" os chineses a serem gênios criativos enquanto os americanos só queimam dinheiro.
+- A engenharia chinesa é de verdade e merece respeito — mas a parte do "milagre isolado sem GPU americana e sem modelo americano" é conto de fadas.
+- Vamos pros dados nos próximos quatro slides.
+-->
+---
+<!-- _class: center ai ai-wine -->
 <div class="eyebrow">Relatórios da Nvidia • SEC Form 10-K / 10-Q</div>
 
 # De repente, Singapura virou <span class="em-ruby">22%</span> da Nvidia
@@ -366,7 +402,7 @@ Restam: ~52:25 (40s)
 <div class="lead" style="max-width:1040px;margin:14px auto 0 auto;text-align:center;font-size:0.86em;">10× em 2 anos num país de 6 milhões de habitantes. A Nvidia dizia que &lt;2% era entrega física — e tirou a linha do 10-Q logo após bater 22%.</div>
 
 <!--
-Restam: ~51:45 (40s)
+Restam: ~51:15 (40s)
 
 - Antes de falar dos modelos chineses open source, um aviso pra quebrar o mito de que "a China fez milagre sem GPU americana e só na genialidade".
 - Olha os balanços oficiais da própria Nvidia (SEC 10-K / 10-Q): Singapura saiu de US$ 2,3B (8%) no FY23 pra US$ 6,8B (11%) no FY24 e US$ 23,7B (18%) no FY25.
@@ -402,7 +438,7 @@ Restam: ~51:45 (40s)
 </div>
 
 <!--
-Restam: ~51:05 (35s)
+Restam: ~50:35 (35s)
 
 - Meses antes do escândalo financeiro explodir, em agosto de 2025, o canal independente Gamers Nexus passou três semanas em Hong Kong, Shenzhen e Taipei.
 - Entrevistou na frente das câmeras contrabandistas, brokers, oficinas de reparo e compradores finais — e até comprou placa contrabandeada lá dentro.
@@ -437,7 +473,7 @@ Restam: ~51:05 (35s)
 </div>
 
 <!--
-Restam: ~50:30 (40s)
+Restam: ~50:00 (40s)
 
 - Além do contrabando físico, havia a brecha legal da nuvem: não podia importar GPU pra dentro da China, então Tencent, Alibaba e ByteDance alugavam acesso remoto em data centers em Singapura, Malásia e Indonésia.
 - Em novembro de 2026 explodiu o caso da Megaspeed International (Singapura) e Speedmatrix (Malásia), ligadas a Alice Huang — estimadas em US$ 7,5B a 12B em hardware avançado.
@@ -466,7 +502,7 @@ Restam: ~50:30 (40s)
 <div class="lead" style="max-width:1040px;margin:26px auto 0 auto;text-align:center;font-size:0.9em;">Engenharia chinesa é real — mas o mito de "sem GPU e sem modelo americano" não para de pé.</div>
 
 <!--
-Restam: ~49:50 (35s)
+Restam: ~49:20 (35s)
 
 - Além do silício da Nvidia (contrabando + nuvem no Sudeste Asiático), tem a destilação de modelos.
 - Anthropic publicou relatório expondo dezenas de milhares de contas falsas e centenas de milhões de trocas via proxy ligadas a DeepSeek, Moonshot, MiniMax, Alibaba e Zhipu pra extrair raciocínio e código do Claude.
@@ -507,7 +543,7 @@ Restam: ~49:50 (35s)
 <div class="lead" style="max-width:1080px;margin:20px auto 0 auto;text-align:center;font-size:0.86em;">O engine importa tanto quanto o modelo: <strong>Basalt</strong> deu 2,3× no Inkling e destravou a 5090.</div>
 
 <!--
-Restam: ~49:15 (40s)
+Restam: ~48:45 (40s)
 
 - E pra rodar em casa, sem pagar API? Testei no AMD Strix Halo (64 GB unificada) e na RTX 5090 (32 GB GDDR7).
 - Strix Halo tem memória de sobra, mas pouca banda (~256 GB/s): Qwen3.8 Q2_0 segura 55–65 tok/s, mas prompt longo leva ~2 min de prefill.
@@ -543,7 +579,7 @@ Restam: ~49:15 (40s)
 </div>
 
 <!--
-Restam: ~48:35 (30s)
+Restam: ~48:05 (30s)
 
 - Muita gente nunca tinha ouvido falar de Inkling — eu mesmo só fui testar depois de ver um post do DHH sobre o teste noturno dele no Omarchy.
 - O modelo vem da Thinking Machines Lab, startup fundada em fevereiro de 2025 por Mira Murati (ex-CTO da OpenAI) com nomes pesados egressos da OpenAI, como John Schulman.
@@ -597,7 +633,7 @@ Restam: ~48:35 (30s)
 </div>
 
 <!--
-Restam: ~48:05 (40s)
+Restam: ~47:35 (40s)
 
 - Criado pela Thinking Machines Lab (startup da Mira Murati, ex-CTO da OpenAI), licença Apache 2.0, lançado em 20 de novembro de 2026.
 - O truque arquitetural é genial: Looped MoE — 24 camadas físicas onde as 12 do meio rodam 3 vezes por token, entregando profundidade lógica de 48 camadas em ~20 GB.
@@ -644,7 +680,7 @@ Restam: ~48:05 (40s)
 <div class="lead" style="max-width:920px;margin:2px auto 0 auto;text-align:center;">A parte rápida da curva enganou todo mundo.</div>
 
 <!--
-Restam: ~47:25 (55s)
+Restam: ~46:55 (55s)
 
 - Mostrar só a intuição: parecia exponencial porque a gente estava no miolo da curva S.
 - Desde 2024, retorno marginal de treino ficou brutalmente pior.
@@ -693,7 +729,7 @@ Restam: ~47:25 (55s)
 <div class="lead" style="max-width:1160px;margin:16px auto 0 auto;text-align:center;font-size:0.84em;">Teto perto do <strong>Opus 4.6</strong> — o ganho agora é espremer <strong>hardware, memória e decodificação</strong>.</div>
 
 <!--
-Restam: ~46:30 (45s)
+Restam: ~46:00 (45s)
 
 - A curva S do slide anterior não significa que o progresso parou: o teto de capacidade bruta está ali na faixa do Opus 4.6, mas a indústria está contornando na engenharia pesada.
 - MTP vs DFlash: MTP já vem treinado nos pesos (prevê 2–4 tokens de vez, ~1,5x–2x grátis e melhora as representações internas). DFlash/DFlash2 é um rascunhador de block diffusion plugado por fora: preenche um bloco de [MASK] tokens em 1 passo paralelo usando os hidden states do modelo grande, que só valida sem perda (2,5x–6x). Na inferência você escolhe um ou outro; no treino + inferência eles se complementam.
@@ -774,7 +810,7 @@ Restam: ~46:30 (45s)
 <div class="lead" style="max-width:1120px;margin:12px auto 0 auto;text-align:center;font-size:0.84em;">Na inferência são <strong>alternativas</strong>; no treino + inferência se <strong>complementam</strong>.</div>
 
 <!--
-Restam: ~45:45 (35s)
+Restam: ~45:15 (35s)
 
 - Diagrama rápido pra desmistificar como a decodificação ficou 3x–6x mais rápida sem perder qualidade.
 - Padrão autoregressivo: 1 forward pass por token — a GPU passa a maior parte do tempo esperando memória.
@@ -841,7 +877,7 @@ Restam: ~45:45 (35s)
 <div class="lead" style="max-width:1120px;margin:12px auto 0 auto;text-align:center;font-size:0.84em;">Menos memória enciclopédica que 48 reais — <strong>muito mais raciocínio</strong> que 24 no mesmo espaço.</div>
 
 <!--
-Restam: ~45:10 (35s)
+Restam: ~44:40 (35s)
 
 - A intuição do Looped MoE é pura engenharia de trade-off:
 - 24 camadas padrão: cabe fácil na GPU, mas raciocina mais raso.
@@ -867,7 +903,7 @@ Restam: ~45:10 (35s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Não foi um dia mágico. Foi o ano inteiro fechando modelo, thinking, tool support e operação.</div>
 
 <!--
-Restam: ~44:35 (65s)
+Restam: ~44:05 (65s)
 
 - Pra mim, 2025 foi o ano em que a pilha foi fechando.
 - Em março, tool support virou plataforma de verdade.
@@ -890,7 +926,7 @@ Restam: ~44:35 (65s)
 <div class="lead" style="max-width:none;margin-left:auto;margin-right:auto;">Modelo novo + CLI de agente madura, os dois ao mesmo tempo. Em dezembro deu pra apostar tempo de verdade. Em janeiro de 2026 eu entrei nessa também — foi daí que saiu a maratona.</div>
 
 <!--
-Restam: ~43:30 (75s)
+Restam: ~43:00 (75s)
 
 - Datas marcantes: 13 nov (GPT-5.1 + Codex CLI), 24 nov (Opus 4.5 + Claude Code), 11 dias de distância
 - A chave não foi só o modelo novo — foi a CLI de agente amadurecendo junto, nos DOIS lados na mesma janela
@@ -916,7 +952,7 @@ Restam: ~43:30 (75s)
 <div class="source-url">Fonte: https://commons.wikimedia.org/wiki/File:Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg</div>
 
 <!--
-Restam: ~42:15 (42s)
+Restam: ~41:45 (42s)
 
 - Então eu parei de opinar e fui testar com pele em jogo. Começou em fevereiro e não parou: continua até agora, novembro.
 - Não com prompt de brinquedo, não com videozinho fake de SaaS em dez minutos. Projeto real.
@@ -945,7 +981,7 @@ Restam: ~42:15 (42s)
 </div>
 
 <!--
-Restam: ~41:33 (35s)
+Restam: ~41:03 (35s)
 
 - Este slide é só a parede de projetos.
 - FrankMD, FrankMega, Frank Sherlock, Frank Yomik, Frank FBI, Frank Karaoke e outros.
@@ -962,7 +998,7 @@ Restam: ~41:33 (35s)
 <div class="caption" style="margin-top:12px;">aijail.io</div>
 
 <!--
-Restam: ~40:58 (30s)
+Restam: ~40:28 (30s)
 
 - Sandbox de SO pro agente: Linux (bubblewrap) e macOS (sandbox-exec). Projeto read-write; host, home, cache e dotfiles fora ou controlados.
 - Uso preferido: modo sem freio no harness (Claude/Codex sem confirmar cada passo), trava no SO.
@@ -1021,7 +1057,7 @@ Restam: ~40:58 (30s)
 </div>
 
 <!--
-Restam: ~40:28 (25s)
+Restam: ~39:58 (25s)
 
 - No Arch Linux é direto pelo AUR: `pacman -S bubblewrap` + `yay -S ai-jail-bin` (também tem Homebrew, crates.io e Nix).
 - Política versionável em `.ai-jail`: `--dry-run` mostra exatamente o que vai montar, `--mask .env`, `--private-home`, `--lockdown`.
@@ -1085,7 +1121,7 @@ Restam: ~40:28 (25s)
 <div class="lead" style="max-width:1040px;margin:14px auto 0 auto;text-align:center;font-size:0.86em;">Permissão dentro do harness pergunta pra uma pessoa (que cansa e aperta Enter). O <strong>ai-jail</strong> pergunta pro kernel.</div>
 
 <!--
-Restam: ~40:03 (35s)
+Restam: ~39:33 (35s)
 
 - Diferença crucial: o sandbox embutido dos harnesses só cerca os comandos de shell que o modelo executa — o processo do agente, os servidores MCP e os hooks continuam rodando fora, com acesso ao seu `/home`.
 - O ai-jail coloca o muro em volta do harness inteiro: agente, MCPs, hooks e shell rodam dentro da jaula, com uma política única pra todos os agentes.
@@ -1104,7 +1140,7 @@ Restam: ~40:03 (35s)
 <div class="caption" style="margin-top:10px;">Presets, toggles visuais de rede/SSH/pastas/variáveis (sem salvar valores secretos) e CLI pronto pra copiar com <code>y</code>.</div>
 
 <!--
-Restam: ~39:28 (25s)
+Restam: ~38:58 (25s)
 
 - Sem precisar decorar flags: a TUI interativa deixa escolher presets (Fully closed, For developers, Mostly open), alternar rede, GitHub, SSH e pastas extras visualmente, e já mostra o comando equivalente pronto pra copiar com `y`.
 - Nomes de variáveis de ambiente são pesquisáveis, mas valores secretos nunca são exibidos nem salvos em disco.
@@ -1119,7 +1155,7 @@ Restam: ~39:28 (25s)
 <div class="caption" style="margin-top:12px;">aimemory.sh</div>
 
 <!--
-Restam: ~39:03 (25s)
+Restam: ~38:33 (25s)
 
 - Problema: harness compacta ou acaba, e o próximo agente esquece as últimas horas.
 - Open source (MIT), um binário em Rust, sem API key de modelo no básico. ~17 mil estrelas no GitHub.
@@ -1146,7 +1182,7 @@ Restam: ~39:03 (25s)
 <div class="lead" style="max-width:980px;margin:22px auto 0 auto;text-align:center;font-size:0.86em;">Sem cadastro, sem nuvem obrigatória — escuta só na sua máquina e já importa o histórico em disco.</div>
 
 <!--
-Restam: ~38:38 (25s)
+Restam: ~38:08 (25s)
 
 - No Arch Linux é direto pelo AUR: `yay -S ai-memory-bin` (vem com unit de usuário pro systemd).
 - `ai-memory setup` inicializa o diretório de dados e configura os hooks em cada agente instalado; `systemctl --user enable --now ai-memory.service` mantém o daemon rodando sem precisar de sudo.
@@ -1190,7 +1226,7 @@ Restam: ~38:38 (25s)
 <div class="lead" style="max-width:1020px;margin:28px auto 0 auto;text-align:center;font-size:0.9em;">Fecha o Claude hoje, abre o Codex amanhã no mesmo diretório — <strong>sem reexplicar o projeto</strong>.</div>
 
 <!--
-Restam: ~38:13 (30s)
+Restam: ~37:43 (30s)
 
 - Quatro estágios claros: Captura via hooks (ocultando credenciais reconhecidas), Consolidação em páginas markdown legíveis numa wiki git, Recuperação via briefing/busca FTS5+MCP, e Handoff pra próxima sessão pegar o bastão sem reexplicar nada.
 - O caminho padrão dispensa LLM na nuvem. Documentação canônica continua em `docs/`; a memória cobre o transitório.
@@ -1244,7 +1280,7 @@ Restam: ~38:13 (30s)
 <div class="lead" style="max-width:1020px;margin:16px auto 0 auto;text-align:center;font-size:0.86em;">Memória que só cresce vira lixo. O <strong>ai-memory</strong> compacta o que esfria — sem apagar seu histórico no Git.</div>
 
 <!--
-Restam: ~37:43 (30s)
+Restam: ~37:13 (30s)
 
 - Memória que só cresce vira lixo. O ai-memory tem pontuação de retenção: página consultada ganha reforço; página que esfria passa pelo forget sweep e pode ser compactada ou descartada.
 - Como a wiki inteira vive em markdown no git, nada se perde de verdade — dá pra restaurar qualquer página com `restore-page`.
@@ -1300,7 +1336,7 @@ Restam: ~37:43 (30s)
 <div class="lead" style="max-width:1040px;margin:16px auto 0 auto;text-align:center;font-size:0.86em;">Conhecimento compartilhado do projeto, handoffs pessoais — <strong>self-hosted, sem plano pago</strong>.</div>
 
 <!--
-Restam: ~37:13 (30s)
+Restam: ~36:43 (30s)
 
 - Funciona também pra time: cada dev usa o harness que preferir (Claude Code, Codex, Cursor, Gemini CLI) apontando pro mesmo servidor ai-memory.
 - Decisões e arquitetura viram conhecimento compartilhado na wiki do projeto; o trabalho em andamento fica nos handoffs pessoais.
@@ -1326,7 +1362,7 @@ Restam: ~37:13 (30s)
 <div class="caption" style="margin-top:10px;">github.com/akitaonrails/ai-memory • 1.265 forks • e é por causa desse volume de PRs e issues que eu precisei criar minhas skills de manutenção</div>
 
 <!--
-Restam: ~36:43 (25s)
+Restam: ~36:13 (25s)
 
 - O ai-memory deixou de ser projetinho solo há meses: são mais de 16,5 mil estrelas, 214 contribuidores, mais de 1.392 pull requests mergeados, 1.265 forks e 750+ issues fechadas.
 - Esse grid mostra só os 48 primeiros contribuidores no GitHub.
@@ -1364,7 +1400,7 @@ Restam: ~36:43 (25s)
 <div class="caption" style="margin-top:12px;">github.com/akitaonrails/distrobox-gaming</div>
 
 <!--
-Restam: ~36:18 (30s)
+Restam: ~35:48 (30s)
 
 - Lado pessoal da maratona: games.
 - distrobox-gaming: um container com todos os emuladores já configurados (RetroArch, DuckStation, PCSX2, RPCS3, shadPS4, xemu...).
@@ -1381,7 +1417,7 @@ Restam: ~36:18 (30s)
 <div class="caption" style="margin-top:10px;">A ponte: DOSBox, dgVoodoo2, DXVK e Xidi</div>
 
 <!--
-Restam: ~35:48 (40s)
+Restam: ~35:18 (40s)
 
 - Windows 11 só existe em 64 bits. Programa de 32 bits ainda roda (WoW64); o que morreu foi o subsistema de 16 bits e o DOS. Screamer só roda no DOSBox.
 - Glide: API própria da 3dfx pras placas Voodoo. A 3dfx quebrou em 2000 e foi comprada pela Nvidia; não existe driver. O DOSBox emula a Voodoo.
@@ -1402,7 +1438,7 @@ Restam: ~35:48 (40s)
 <div class="caption" style="margin-top:12px;">A coleção inteira num menu só, no Omarchy</div>
 
 <!--
-Restam: ~35:08 (20s)
+Restam: ~34:38 (20s)
 
 - Vídeo sem som: só deixar rodar.
 - Capa por jogo, categoria por plataforma, de Donkey Kong a Sega Rally, até RPCS3, shadPS4 e xemu.
@@ -1418,7 +1454,7 @@ Restam: ~35:08 (20s)
 <div class="caption" style="margin-top:12px;">Mesmo jogo, mesmo launcher: 16:9 em alta resolução e o HUD redesenhado</div>
 
 <!--
-Restam: ~34:48 (25s)
+Restam: ~34:18 (25s)
 
 - Agora o Enhanced: widescreen 16:9, alta resolução, HUD e placas de nota redesenhados em HD.
 - Mesmo executável de 1998 por baixo: o launcher só corrige o que o jogo não sabia fazer.
@@ -1440,7 +1476,7 @@ Restam: ~34:48 (25s)
 <div class="caption" style="margin-top:22px;">Single-player completo: 56 estágios em 8 países, campeonato, contra o relógio com carro fantasma, replay, chuva e neve. Release pra Linux e Windows. Multiplayer ficou de fora.</div>
 
 <!--
-Restam: ~34:23 (40s)
+Restam: ~33:53 (40s)
 
 - Mudou de status: de "trabalho em andamento" pra single-player completo, com release v0.1.4 (AppImage pra Linux, ZIP pra Windows), sem nenhum dado do jogo dentro.
 - 2.018 funções do Rally.exe no mapa, 0 parciais no single-player. Honestidade: só 54 foram verificadas instrução por instrução; 690 estão reconstruídas e ligadas no jogo. Não dizer "idêntico ao original".
@@ -1460,7 +1496,7 @@ Restam: ~34:23 (40s)
 <div class="caption" style="margin-top:12px;">A reconstrução em Rust rodando: estágio na Nova Zelândia, 16:9</div>
 
 <!--
-Restam: ~33:43 (25s)
+Restam: ~33:13 (25s)
 
 - Isso não é o executável original. É o código em Rust reconstruído, rodando nativo.
 - Vídeo gravado em 1/nov. Da v0.1.2 pra cá entraram chuva, neve, replay e fantasma.
@@ -1476,7 +1512,7 @@ Restam: ~33:43 (25s)
 <div class="caption" style="margin-top:12px;">github.com/akitaonrails/rea-launcher-sdk</div>
 
 <!--
-Restam: ~33:18 (25s)
+Restam: ~32:48 (25s)
 
 - E quando já tinha cinco launchers, extraí o que se repetia: rea-launcher-sdk.
 - Framework pra construir launcher de jogo retrô: abas Play/Picture/Controls, looks, cópia privada, gamepad, empacotamento.
@@ -1499,7 +1535,7 @@ Restam: ~33:18 (25s)
 <div class="caption" style="margin-top:14px;">"Nada aqui é técnica nova." O que mudou foi o tempo: semanas por jogo viraram horas.</div>
 
 <!--
-Restam: ~32:53 (45s)
+Restam: ~32:23 (45s)
 
 - NÃO dizer "ninguém nunca consertou". O próprio post do blog (2/nov) diz: "Nada aqui é técnica nova."
 - Crédito: o fix de 16:9 do Colin 04 é do AuToMaNiAk005; o meu achado foi por que ele achatava os carros (função de projeção) e como aplicar certo.
@@ -1519,7 +1555,7 @@ Restam: ~32:53 (45s)
 <div class="caption" style="margin-top:12px;">Rad Mobile (Sega, 1990) pelo launcher, em widescreen</div>
 
 <!--
-Restam: ~32:08 (25s)
+Restam: ~31:38 (25s)
 
 - Arcade de 1990 rodando em 16:9 de verdade, com volante e force feedback.
 - Repara no limpador de para-brisa e no farol: no MAME puro esses botões só funcionavam no teclado.
@@ -1535,7 +1571,7 @@ Restam: ~32:08 (25s)
 <div class="caption" style="margin-top:10px;">Hardware de console de mesa dentro do gabinete de arcade</div>
 
 <!--
-Restam: ~31:43 (35s)
+Restam: ~31:13 (35s)
 
 - Pouca gente sabe: a partir do fim dos anos 90 o arcade parou de ter hardware exótico e passou a usar hardware de console.
 - Dreamcast virou NAOMI (1998), depois NAOMI 2 com uma segunda GPU, e a Sammy fez o Atomiswave em cima da mesma base.
@@ -1553,7 +1589,7 @@ Restam: ~31:43 (35s)
 <div class="caption" style="margin-top:10px;">TeknoParrot, OpenParrot e Lindbergh Loader</div>
 
 <!--
-Restam: ~31:08 (35s)
+Restam: ~30:38 (35s)
 
 - Depois deu mais um passo: o arcade virou PC mesmo. Taito Type X (2004) e Sega RingEdge rodam Windows embarcado; o Sega Lindbergh (2005) é Pentium 4 com GeForce rodando Linux.
 - O jogo é um executável. O que falta é a placa de I/O, o dongle e a rede do gabinete.
@@ -1572,7 +1608,7 @@ Restam: ~31:08 (35s)
 <div class="caption" style="margin-top:12px;">Initial D THE ARCADE Season 5 pelo launcher</div>
 
 <!--
-Restam: ~30:33 (25s)
+Restam: ~30:03 (25s)
 
 - THE ARCADE Season 5, de 2025, rodando via windowsarcadeloader.
 - Repara na cena em estilo mangá no meio da corrida.
@@ -1611,7 +1647,7 @@ Restam: ~30:33 (25s)
 <div class="caption" style="margin-top:14px;">Em vários, a base é da comunidade: SilentPatch, Xidi, HD UI do Bekoha.</div>
 
 <!--
-Restam: ~30:08 (45s)
+Restam: ~29:38 (45s)
 
 - Colin 1998: o jogo não oferecia corrida acima de 800×600. Agora vai a 4K, 16:9 mostra mais dos lados, e HUD, menus e céus vêm redesenhados no pacote de arte HD. 60 fps a 4K.
 - Colin 3: widescreen e interface são do SilentPatch, a HD UI é do Bekoha; o launcher empacota e configura. NÃO dizer que fiz isso.
@@ -1650,7 +1686,7 @@ Restam: ~30:08 (45s)
 </div>
 
 <!--
-Restam: ~29:23 (40s)
+Restam: ~28:53 (40s)
 
 - Na tabela os teknoparrot-* são os repos rea-teknoparrot-*-series. Coluna da esquerda: PC antigo (Colin, DiRT, Screamer em DOSBox). Direita: Sega e arcades (Lindbergh, RingEdge, Namco ES3, Triforce, NAOMI 2).
 - Todos seguem a mesma regra: seu jogo, sua cópia, pasta original só leitura, launcher roda de uma cópia privada.
@@ -1689,7 +1725,7 @@ Restam: ~29:23 (40s)
 <div class="caption" style="margin-top:6px;">Como uma pessoa só mantém 65 projetos abertos sem virar caos? Ferramenta certa + processo versionado.</div>
 
 <!--
-Restam: ~28:43 (25s)
+Restam: ~28:13 (25s)
 
 - Estes são os 65 repositórios próprios que eu acompanho todo dia com o meu ghpending (já tirando forks como omarchy, flea, clock-tui e afins).
 - De ferramentas de IA (ai-memory, ai-jail, my-skills, benchmarks) até a série Frank*, livros, Docker/CUDA e os 14+ projetos de retrogame.
@@ -1726,7 +1762,7 @@ Restam: ~28:43 (25s)
 </div>
 
 <!--
-Restam: ~28:18 (40s)
+Restam: ~27:48 (40s)
 
 - Metafora forte: usar Fable 5.2 pra trocar cor de botão é ligar escavadeira pra plantar manjericão — ou pagar tarifa de foguete pra entrega de bicicleta.
 - Hoje meu padrão diário tem sido cada vez mais o Gemini 4 Neon: enxuto em tokens (4,92M), entregou 14 arquivos de teste (1.084 linhas), custa $3,10 na API e no plano Google AI Pro de $20 se paga em ~6 rodadas.
@@ -1761,7 +1797,7 @@ Restam: ~28:18 (40s)
 </div>
 
 <!--
-Restam: ~27:38 (20s)
+Restam: ~27:08 (20s)
 
 - Em maio de 2026, estes quatro cobrem o caso sério de agente de terminal.
 - Claude Code e Codex para fronteira fechada.
@@ -1777,7 +1813,7 @@ Restam: ~27:38 (20s)
 <div class="caption" style="margin-top:12px;">github.com/akitaonrails/my-skills</div>
 
 <!--
-Restam: ~27:18 (20s)
+Restam: ~26:48 (20s)
 
 - Transição pro fechamento: como eu consigo manter 60 projetos abertos sem virar bagunça?
 - Tudo o que aprendi neste ano foi parar num repositório público: `github.com/akitaonrails/my-skills`.
@@ -1819,7 +1855,7 @@ Restam: ~27:18 (20s)
 <div class="lead" style="max-width:1040px;margin:16px auto 0 auto;text-align:center;font-size:0.86em;">Não copie skills no escuro: use como referência e peça pro seu LLM escrever as suas. <strong>Modelo é alugado; o processo é seu.</strong></div>
 
 <!--
-Restam: ~26:58 (35s)
+Restam: ~26:28 (35s)
 
 - Como eu mantenho 60 projetos abertos sem virar caos? Consolidei minhas lições aprendidas num repositório único: `my-skills`.
 - São mais de 24 skills em `SKILL.md` linkadas por symlink pra TODOS os harnesses (Claude Code, Codex, opencode, Kimi, Antigravity). Editei num lugar, todos herdam na hora.
@@ -1876,7 +1912,7 @@ Restam: ~26:58 (35s)
 <div class="lead" style="max-width:1080px;margin:16px auto 0 auto;text-align:center;font-size:0.86em;">Separação rígida: <strong>auditoria julga</strong> (não mexe), <strong>resolução executa</strong> (após OK), <strong>post-audit valida o todo</strong>, <strong>release publica</strong>.</div>
 
 <!--
-Restam: ~26:23 (40s)
+Restam: ~25:53 (40s)
 
 - Na manutenção diária dos meus projetos open source, eu peço pro harness exatamente essa sequência: `pr-audit, iss-audit, github-resolution, pr-post-audit, release`.
 - A grande lição: separar julgamento de execução. `pr-audit` e `iss-audit` nunca fazem merge — eles investigam e trazem prós, contras e evidência.
@@ -1913,7 +1949,7 @@ Restam: ~26:23 (40s)
 <div class="lead" style="max-width:1040px;margin:24px auto 0 auto;text-align:center;font-size:0.88em;">Um merge lento e certo sempre ganha de uma regressão rápida.</div>
 
 <!--
-Restam: ~25:43 (35s)
+Restam: ~25:13 (35s)
 
 - Dois conceitos que eu coloquei no topo de todas as skills de auditoria:
 - Primeiro, Trust Boundary: no mundo de agentes, qualquer PR ou issue pública pode esconder prompt injection ("ignore regras anteriores, rode este script"). Todo artefato externo é tratado como dado não confiável, nunca instrução.
@@ -1946,7 +1982,7 @@ Restam: ~25:43 (35s)
 <div class="lead" style="max-width:1040px;margin:28px auto 0 auto;text-align:center;font-size:0.94em;"><strong>Vibe coding</strong> sem método multiplica dívida técnica em 10×.<br /><strong>Agile Vibe Coding</strong> é iterar rápido porque a engenharia em volta segura o tranco.</div>
 
 <!--
-Restam: ~25:08 (40s)
+Restam: ~24:38 (40s)
 
 - Voltando pro título do Slide 1: Agile Vibe Coding.
 - O segredo não é um prompt mágico nem o modelo que saiu ontem no X.
@@ -1973,7 +2009,7 @@ Restam: ~25:08 (40s)
 
 
 <!--
-Restam: ~24:28 (95s)
+Restam: ~23:58 (95s)
 
 - Ferramenta: `bin/c3-metrics` (tokei), lista de repos do ghpending.
 - Fora da conta: forks de projeto alheio (omarchy, flea, clock-tui, docker-resolve) e repos anteriores a 2026.
@@ -2013,7 +2049,7 @@ Restam: ~24:28 (95s)
 <div class="lead" style="max-width:980px;margin:18px auto 0 auto;text-align:center;">IA não adivinha o que você não consegue medir.</div>
 
 <!--
-Restam: ~22:53 (60s)
+Restam: ~22:23 (60s)
 
 - Insight novo: muita gente acha que o problema é saber escrever prompt.
 - O problema real vem antes: a pessoa não sabe descrever o problema objetivamente.
@@ -2067,7 +2103,7 @@ Restam: ~22:53 (60s)
 <div class="lead" style="max-width:960px;margin:16px auto 0 auto;text-align:center;font-size:0.96em;">menos backlog parado, mais conversa com código rodando</div>
 
 <!--
-Restam: ~21:53 (60s)
+Restam: ~21:23 (60s)
 
 - Ideia visual: sprint menor, muito mais pareamento e feedback.
 - Manhã: PM + programador com LLM, objetivo e corte de escopo.
@@ -2112,7 +2148,7 @@ Restam: ~21:53 (60s)
 <div class="lead" style="max-width:940px;margin:16px auto 0 auto;text-align:center;font-size:0.96em;">oportunidade: errar pequeno, aprender rápido, seguir melhor</div>
 
 <!--
-Restam: ~20:53 (60s)
+Restam: ~20:23 (60s)
 
 - Antes, protótipo e POC eram caros demais; por isso todo mundo tentava acertar no planejamento.
 - Com LLM, codar fica mais barato e errar também fica mais barato.
@@ -2135,7 +2171,7 @@ Restam: ~20:53 (60s)
 </div>
 
 <!--
-Restam: ~19:53 (90s)
+Restam: ~19:23 (90s)
 
 - Agile Vibe Coding é XP com pareamento de máquina. A estrutura por baixo é velha.
 - TDD não é perfumaria. Segura erro de modelo antes de virar lama.
@@ -2157,7 +2193,7 @@ Restam: ~19:53 (90s)
 <div class="lead" style="max-width:980px;margin:24px auto 0 auto;text-align:center;">IA é espelho: sênior bom ganha alavancagem, programador ruim ganha velocidade pra errar.</div>
 
 <!--
-Restam: ~18:23 (90s)
+Restam: ~17:53 (90s)
 
 - O melhor corte de responsabilidade que eu encontrei foi esse: eu trago direção, julgamento, contexto e gosto.
 - O agente traz velocidade de execução, busca e fôlego operacional.
@@ -2180,7 +2216,7 @@ Restam: ~18:23 (90s)
 
 
 <!--
-Restam: ~16:53 (90s)
+Restam: ~16:23 (90s)
 
 - Da minha experiência prática, o resumo honesto é 5x a 10x de velocidade.
 - Não porque o modelo escreve código perfeito.
@@ -2197,7 +2233,7 @@ Restam: ~16:53 (90s)
 <div class="caption" style="margin-top:12px;">ailair.akitaonrails.com/pt-br/book</div>
 
 <!--
-Restam: ~15:23 (40s)
+Restam: ~14:53 (40s)
 
 - Livro: "Competente o Suficiente — um ano colocando a IA à prova, sem medo e sem propaganda".
 - Artigos do ano no blog, reorganizados como uma história só, fatos rechecados e ilustrado.
@@ -2221,7 +2257,7 @@ Restam: ~15:23 (40s)
 </div>
 
 <!--
-Restam: ~14:43 (10s)
+Restam: ~14:13 (10s)
 
 - Obrigado.
 - Os links estão aí embaixo.
@@ -2248,7 +2284,7 @@ Restam: ~14:43 (10s)
 </div>
 
 <!--
-Restam: ~14:33 (25s)
+Restam: ~14:03 (25s)
 
 - E antes de você ir embora, sem falsa modéstia: se curtiu a palestra, assina o The M.Akita Chronicles.
 - Está tudo aí na tela, com QR code pra quem quiser apontar a câmera.

@@ -8,6 +8,7 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
+from lxml import etree
 from pptx import Presentation
 from pptx.util import Emu
 
@@ -146,25 +147,104 @@ def main(argv: list[str]) -> int:
 
 
 def enable_autoplay(slide, shape_id: int, volume: float = 0.0) -> None:
-    """Flip the embedded movie timing from click-to-play to autoplay, and set volume.
+    """Replace python-pptx's click-to-play timing with standard OOXML mainSeq autoplay.
 
-    No looping: LibreOffice Impress can hang a slideshow on a repeating video (keys stop
-    advancing, exit takes seconds; tdf#107368), and every clip outlasts its slide anyway.
+    python-pptx drops a bare <p:video> directly under tmRoot with no mainSeq; setting
+    delay="0" on that bare node can trap LibreOffice Impress on the video slide so arrow
+    keys / clicks stop advancing. Wrapping a `playFrom(0.0)` mediacall inside
+    `p:seq[@concurrent="1" @nextAc="seek"]/p:cTn[@nodeType="mainSeq"]` (with the
+    <p:video> media node kept at delay="indefinite" for volume/mute metadata and no
+    repeatCount loop) lets both PowerPoint and LibreOffice Impress autoplay immediately
+    and advance to the next slide cleanly at any time.
     """
+    p_ns = "http://schemas.openxmlformats.org/presentationml/2006/main"
     root = slide.part._element
-    videos = root.xpath(f".//p:video[p:cMediaNode/p:tgtEl/p:spTgt[@spid='{shape_id}']]")
-    if not videos:
-        raise SystemExit(f"Unable to find timing node for video shape {shape_id}")
 
-    video = videos[0]
-    media_node = video.xpath("./p:cMediaNode")[0]
-    if volume <= 0:
-        media_node.set("mute", "1")
-    else:
-        media_node.set("vol", str(int(round(volume * 100000))))
+    # Remove python-pptx's default timing tree so we replace it cleanly.
+    for existing in root.findall(f"{{{p_ns}}}timing"):
+        root.remove(existing)
 
-    cond = video.xpath("./p:cMediaNode/p:cTn/p:stCondLst/p:cond")[0]
-    cond.set("delay", "0")
+    vol_attr = 'mute="1"' if volume <= 0 else f'vol="{int(round(volume * 100000))}"'
+    timing_xml = f"""
+    <p:timing xmlns:p="{p_ns}">
+      <p:tnLst>
+        <p:par>
+          <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+            <p:childTnLst>
+              <p:seq concurrent="1" nextAc="seek">
+                <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+                  <p:childTnLst>
+                    <p:par>
+                      <p:cTn id="3" fill="hold">
+                        <p:stCondLst>
+                          <p:cond delay="0"/>
+                        </p:stCondLst>
+                        <p:childTnLst>
+                          <p:par>
+                            <p:cTn id="4" fill="hold">
+                              <p:stCondLst>
+                                <p:cond delay="0"/>
+                              </p:stCondLst>
+                              <p:childTnLst>
+                                <p:par>
+                                  <p:cTn id="5" presetID="1" presetClass="mediacall" presetSubtype="0" fill="hold" nodeType="withEffect">
+                                    <p:stCondLst>
+                                      <p:cond delay="0"/>
+                                    </p:stCondLst>
+                                    <p:childTnLst>
+                                      <p:cmd type="call" cmd="playFrom(0.0)">
+                                        <p:cBhvr>
+                                          <p:cTn id="6" dur="1" fill="hold"/>
+                                          <p:tgtEl>
+                                            <p:spTgt spid="{shape_id}"/>
+                                          </p:tgtEl>
+                                        </p:cBhvr>
+                                      </p:cmd>
+                                    </p:childTnLst>
+                                  </p:cTn>
+                                </p:par>
+                              </p:childTnLst>
+                            </p:cTn>
+                          </p:par>
+                        </p:childTnLst>
+                      </p:cTn>
+                    </p:par>
+                  </p:childTnLst>
+                </p:cTn>
+                <p:prevCondLst>
+                  <p:cond evt="onPrev" delay="0">
+                    <p:tgtEl>
+                      <p:sldTgt/>
+                    </p:tgtEl>
+                  </p:cond>
+                </p:prevCondLst>
+                <p:nextCondLst>
+                  <p:cond evt="onNext" delay="0">
+                    <p:tgtEl>
+                      <p:sldTgt/>
+                    </p:tgtEl>
+                  </p:cond>
+                </p:nextCondLst>
+              </p:seq>
+              <p:video>
+                <p:cMediaNode {vol_attr}>
+                  <p:cTn id="7" fill="hold" display="0">
+                    <p:stCondLst>
+                      <p:cond delay="indefinite"/>
+                    </p:stCondLst>
+                  </p:cTn>
+                  <p:tgtEl>
+                    <p:spTgt spid="{shape_id}"/>
+                  </p:tgtEl>
+                </p:cMediaNode>
+              </p:video>
+            </p:childTnLst>
+          </p:cTn>
+        </p:par>
+      </p:tnLst>
+    </p:timing>
+    """
+    root.append(etree.fromstring(timing_xml.strip()))
 
 
 if __name__ == "__main__":

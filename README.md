@@ -83,7 +83,7 @@ The notes should stay shorter than the script:
 - use bullets, not prose blocks
 - keep them as speaking cues, not a second full manuscript
 - carry reminders that aren't visible on the slide itself (numbers, methodology, transition beats), not a restatement of what the audience is already reading
-- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently runs ~45:52 across 67 slides and lands at ~14:08 remaining for Q&A.
+- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently runs ~46:22 across 68 slides and lands at ~13:38 remaining for Q&A.
 
 If you add or rewrite visible text, do a cleanup pass so it still sounds human and spoken, not like generated copy.
 
@@ -95,7 +95,7 @@ If you move or redesign a slide that contains an embedded PPTX video:
 
 ## Narrative structure
 
-This edition has 67 slides organized into four main blocks and a closing:
+This edition has 68 slides organized into four main blocks and a closing:
 
 - **AI & Benchmarks (slides 1–19)**: Gambiconf 2026 title, speaker bio, "Heróis ou Vilões", "Papagaios Estocásticos", LLM Benchmark v4/v5 convergence & cost arc ("Qualidade convergiu", X tier list, "16 de 16 passaram / 95×", "Preço de tabela engana", "Zero FOMO: Gemini 4 Neon / Opus 5.5 / GPT-6.2 Sol"), China/hardware caveats (Nvidia 10-K/10-Q Singapore 22% surge, Gamers Nexus smuggling, Alice Huang / Megaspeed & Malaysia/Indonesia remote cloud loophole, Anthropic/OpenAI distillation), open-weight benchmarks (4× B300 vs. Anthropic/OpenAI economics, Strix Halo vs. RTX 5090 + Basalt, Thinking Machines Lab / Mira Murati, Inkling 2 Mini Looped MoE), and "Não era exponencial"
 - **Agents & Toolkit (slides 20–34)**: 2025 agents timeline, December 2025 turn, 2026 GitHub marathon wall, CLI tools, `ai-jail` (Arch AUR install, kernel wall vs. built-in sandbox, guided TUI), `ai-memory` (Arch AUR install, Capture→Consolidate→Recall→Handoff, retention/compaction + Git `restore-page`, multi-agent team server, 214-contributor community mosaic)
