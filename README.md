@@ -4,14 +4,16 @@
 
 ## Event editions
 
-| Event | Branch | Notes |
-| --- | --- | --- |
-| Tropical Ruby 2026 | [`master`](https://github.com/akitaonrails/tropicalruby-2026/tree/master) | Original keynote deck |
-| TotalPass 2026 | [`totalpass2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/totalpass2026) | Longer lecture version |
-| Beyond Summit 2026 | [`beyondsummitey`](https://github.com/akitaonrails/tropicalruby-2026/tree/beyondsummitey) | Beyond Summit edition |
-| Web Summit Rio 2026 | [`web-summit-rio-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/web-summit-rio-2026) | Condensed 20-minute technology pitch |
-| Canal 3 Expo 2026 | [`c3-expo-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/c3-expo-2026) | Retro-gaming event edition: AI half + retro launchers half |
-| Gambiconf 2026 | [`gambiconf-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/gambiconf-2026) | Keynote edition: Agile Vibe Coding, LLM benchmarks (commercial + open-weight), `ai-jail`/`ai-memory`, condensed retro launchers, and `my-skills` (current live deck) |
+All main presentation branches are published online via GitHub Pages (root `/` points to the latest keynote, **Gambiconf 2026**):
+
+| Event | Live | Branch | Notes |
+| --- | --- | --- | --- |
+| Tropical Ruby 2026 | [Watch online](https://akitaonrails.github.io/tropicalruby-2026/tropical-ruby-2026/) | [`master`](https://github.com/akitaonrails/tropicalruby-2026/tree/master) | Original keynote deck |
+| TotalPass 2026 | [Watch online](https://akitaonrails.github.io/tropicalruby-2026/totalpass-2026/) | [`totalpass2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/totalpass2026) | Longer lecture version |
+| Beyond Summit 2026 | [Watch online](https://akitaonrails.github.io/tropicalruby-2026/beyondsummit-2026/) | [`beyondsummitey`](https://github.com/akitaonrails/tropicalruby-2026/tree/beyondsummitey) | Beyond Summit edition |
+| Web Summit Rio 2026 | [Watch online](https://akitaonrails.github.io/tropicalruby-2026/web-summit-rio-2026/) | [`web-summit-rio-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/web-summit-rio-2026) | Condensed 20-minute technology pitch |
+| Canal 3 Expo 2026 | [Watch online](https://akitaonrails.github.io/tropicalruby-2026/c3-expo-2026/) | [`c3-expo-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/c3-expo-2026) | Retro-gaming event edition: AI half + retro launchers half |
+| Gambiconf 2026 | [Watch online](https://akitaonrails.github.io/tropicalruby-2026/gambiconf-2026/) | [`gambiconf-2026`](https://github.com/akitaonrails/tropicalruby-2026/tree/gambiconf-2026) | Keynote edition: Agile Vibe Coding, LLM benchmarks (commercial + open-weight + v3 canary), engineering optimizations (MTP/DFlash2/Looped MoE), `ai-jail`/`ai-memory`, condensed retro launchers, 65 open-source repos, and `my-skills` (current root `/` deck) |
 
 This branch holds the keynote deck for [Gambiconf 2026](https://gambiconf.dev/) (*Agile Vibe Coding — Entendendo "IA" Direito*). It is the edition published at the live link above (GitHub Pages deploys from `gambiconf-2026`).
 The slides are authored in Marp, the script lives separately, and the deck is exported to HTML, PDF, and PPTX from the same source.
@@ -81,7 +83,7 @@ The notes should stay shorter than the script:
 - use bullets, not prose blocks
 - keep them as speaking cues, not a second full manuscript
 - carry reminders that aren't visible on the slide itself (numbers, methodology, transition beats), not a restatement of what the audience is already reading
-- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently runs ~35:07 and lands at ~24:53 remaining, left for Q&A.
+- the first line is `Restam: ~MM:SS (Ds)` — countdown remaining time on the wall clock plus duration of the current slide, in both the slide notes and the matching script section. The talk slot is 60:00, counting down to 00:00; the deck currently runs ~45:52 across 67 slides and lands at ~14:08 remaining for Q&A.
 
 If you add or rewrite visible text, do a cleanup pass so it still sounds human and spoken, not like generated copy.
 

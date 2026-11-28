@@ -1,4 +1,4 @@
-name: Build and deploy deck
+name: Build and deploy decks
 
 on:
   push:
@@ -19,37 +19,97 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
+      - name: Check out repository (all branches + LFS)
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           lfs: true
+
+      - name: Fetch Git LFS assets for all published branches
+        run: |
+          git lfs fetch origin \
+            master \
+            totalpass2026 \
+            beyondsummitey \
+            web-summit-rio-2026 \
+            c3-expo-2026 \
+            gambiconf-2026
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+      - name: Rebuild current branch HTML
+        run: |
+          mkdir -p build
+          bin/marp slides/tropical-ruby-2026.md --html -o build/gambiconf-2026.html
 
-      - name: Set up Chrome
-        id: setup-chrome
-        uses: browser-actions/setup-chrome@v1
+      - name: Assemble multi-edition GitHub Pages site
+        run: |
+          set -euo pipefail
+          rm -rf _site /tmp/wt
+          mkdir -p _site/build _site/assets /tmp/wt
 
-      - name: Install Python dependencies
-        run: python -m pip install --upgrade python-pptx
+          # Ordered oldest -> newest so shared asset paths keep the latest version
+          editions=(
+            "master:tropical-ruby-2026:build/tropical-ruby-2026.html:Tropical Ruby 2026"
+            "totalpass2026:totalpass-2026:build/tropical-ruby-2026.html:TotalPass 2026"
+            "beyondsummitey:beyondsummit-2026:build/tropical-ruby-2026.html:Beyond Summit 2026"
+            "web-summit-rio-2026:web-summit-rio-2026:build/tropical-ruby-2026.html:Web Summit Rio 2026"
+            "c3-expo-2026:c3-expo-2026:build/c3-expo-2026.html:Canal 3 Expo 2026"
+            "gambiconf-2026:gambiconf-2026:build/gambiconf-2026.html:Gambiconf 2026"
+          )
 
-      - name: Build HTML, PDF, and PPTX exports
-        env:
-          CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
-        run: bin/build-slides
+          for entry in "${editions[@]}"; do
+            IFS=':' read -r branch slug src_html title <<< "$entry"
+            echo "Packaging $branch -> $slug ($src_html)"
+            if [ "$branch" = "gambiconf-2026" ]; then
+              src_dir="."
+            else
+              src_dir="/tmp/wt/$slug"
+              git worktree add --detach "$src_dir" "origin/$branch"
+              (cd "$src_dir" && git lfs checkout)
+            fi
+
+            cp "$src_dir/$src_html" "_site/build/$slug.html"
+            if [ -d "$src_dir/assets" ]; then
+              cp -rn "$src_dir/assets/." "_site/assets/" 2>/dev/null || cp -r "$src_dir/assets/." "_site/assets/"
+            fi
+
+            mkdir -p "_site/$slug"
+            cat > "_site/$slug/index.html" <<EOF
+          <!doctype html>
+          <html lang="pt-BR">
+          <head>
+            <meta charset="utf-8">
+            <meta http-equiv="refresh" content="0; url=../build/$slug.html">
+            <link rel="canonical" href="../build/$slug.html">
+            <title>$title — Fabio Akita</title>
+          </head>
+          <body>
+            <p>Redirecionando para <a href="../build/$slug.html">$title</a>…</p>
+          </body>
+          </html>
+          EOF
+
+            if [ "$branch" != "gambiconf-2026" ]; then
+              git worktree remove --force "$src_dir"
+            fi
+          done
+
+          # Ensure current branch assets win on any shared path
+          cp -r assets/. _site/assets/
+          cp index.html _site/index.html
+
+          echo "Site size:"
+          du -sh _site _site/build _site/assets
+          ls -lh _site/build/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
   deploy:
     environment:
